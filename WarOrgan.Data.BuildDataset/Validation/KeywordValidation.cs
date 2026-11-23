@@ -14,6 +14,12 @@ public static class KeywordValidation
                 unit.UnitComposition.ModelCompositions.SelectMany(model => model.Keywords)))
             .ToHashSet(StringComparer.Ordinal);
 
+        // Keywords added to allied units when they are included in another faction's roster
+        keywords.UnionWith(definition.Factions
+            .SelectMany(f => f.Allies ?? [])
+            .SelectMany(a => a.UnitIncludeRules ?? [])
+            .SelectMany(r => r.AddedKeywords ?? []));
+
         foreach (var category in definition.CategoryKeywords)
             if (!keywords.Contains(category.Keyword))
                 LoggingBuffer.Error($"Category keyword '{category.Keyword}' does not match any unit.");
