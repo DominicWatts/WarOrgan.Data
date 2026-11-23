@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.2.1.0 - Added the Purestrain Broodswarm and Xenocult Masses detachments and Force Dispositions for all three detachments.
+
 2026-11-23 : 1.2.0.0 - Added the Cult Ambush army rule, the Heroes of the Uprising detachment and 11th Edition detachment points and enhancement limits.
 
 2026-11-23 : 1.1.12.0 - Moved the Tectonic Fragdrill to a Warhammer Legends roster and checked the datasheets against the GSC Faction Pack 1.0.
