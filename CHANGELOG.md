@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.4.2.0 - Expanded Brood Brother Auxilia with 15 verified Astra Militarum infantry and mounted datasheets.
+
 2026-11-23 : 1.4.1.0 - Added Scouts, Deadly Demise and Feel No Pain values, the Biophagus alchemicus familiar and the Tectonic Fragdrill's Fortification ability, from a Wahapedia check.
 
 2026-11-23 : 1.4.0.0 - Added the Brood Brother Auxilia detachment and Astra Militarum allies, starting with Cadian Shock Troops.
