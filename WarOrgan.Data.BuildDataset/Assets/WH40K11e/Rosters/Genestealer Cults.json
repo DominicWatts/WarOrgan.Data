@@ -450,7 +450,7 @@
       "UnitAbilities": [
         {
           "Title": "Crossfire",
-          "Text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **^^Genestealer Cults^^** unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+          "Text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
         },
         {
           "Title": "Flare launcher",
@@ -3732,7 +3732,7 @@
       "UnitAbilities": [
         {
           "Title": "Priority Target",
-          "Text": "In your Shooting phase, after this model's unit has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the end of the phase, each time a friendly **^^Genestealer Cults^^** model makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
+          "Text": "In your Shooting phase, after this model's unit has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the end of the phase, each time a friendly GENESTEALER CULTS model makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
         },
         {
           "Title": "Master Outrider",
@@ -5316,7 +5316,7 @@
         },
         {
           "Title": "Supreme Commander",
-          "Text": "- You cannot include more than one **^^Patriarch^^** model in your army.\n- If this model is in your army, it must be your **^^Warlord^^**."
+          "Text": "- You cannot include more than one PATRIARCH model in your army.\n- If this model is in your army, it must be your WARLORD."
         }
       ],
       "Infos": [],
