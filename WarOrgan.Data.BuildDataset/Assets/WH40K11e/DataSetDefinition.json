@@ -7,6 +7,13 @@
       "Category": "Xenos",
       "MainColor": "#512A63",
       "DarkColor": "#9B6BAA"
+    },
+    {
+      "Name": "Tyranids",
+      "FactionKeyword": "Tyranids",
+      "Category": "Xenos",
+      "MainColor": "#6E1F3F",
+      "DarkColor": "#B8607F"
     }
   ],
   "CoreAbilities": [

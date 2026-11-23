@@ -5,6 +5,7 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 ## Coverage in 1.2.2.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
+- Tyranids: the Winged Tyranid Prime only, added as the first Tyranid ally for the Final Day detachment. Tyranids appear as their own faction, but are not a complete army yet.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
 - Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets. Allied Units will appear when allied rosters are added.
