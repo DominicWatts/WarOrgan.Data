@@ -2355,7 +2355,7 @@
                   "Value": "D3"
                 }
               ],
-              "Keywords": "Anti-infantry 2+"
+              "Keywords": "Anti-Infantry 2+"
             }
           ]
         },
@@ -2441,10 +2441,11 @@
         "UnitNames": [
           "ABERRANTS",
           "ACOLYTE HYBRIDS WITH AUTOPISTOLS",
+          "ACOLYTE HYBRIDS WITH HAND FLAMERS",
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
-        "Description": "This model can be attached to the following units:\n- ABERRANTS\n\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HANDFLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+        "Description": "This model can be attached to the following units:\n- ABERRANTS\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HAND FLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0
       }
     },

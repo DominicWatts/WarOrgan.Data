@@ -23,7 +23,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Acolyte Iconward
 - [x] Atalan Jackals
 - [x] Benefictus
-- [ ] Biophagus
+- [x] Biophagus
 - [ ] Clamavus
 - [ ] Goliath Rockgrinder
 - [ ] Goliath Truck
