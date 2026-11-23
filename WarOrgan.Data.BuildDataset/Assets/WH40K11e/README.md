@@ -2,10 +2,10 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.3.2.0
+## Coverage in 1.3.3.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
-- Tyranids: ten Vanguard Invader datasheets for use as Final Day allies: Winged Tyranid Prime, Gargoyles, Raveners, Hyperadapted Raveners, Lictor, Neurolictor, Von Ryan's Leapers, Mawloc, Trygon and Tyrannocyte. Tyranids appear as their own faction, but are not a complete army. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
+- Tyranids: all 14 Vanguard Invader datasheets for use as Final Day allies: Winged Tyranid Prime, Gargoyles, Raveners, Hyperadapted Raveners, Lictor, Neurolictor, Von Ryan's Leapers, Mawloc, Trygon, Tyrannocyte, Winged Hive Tyrant, Deathleaper, The Red Terror and Parasite of Mortrex. Deathleaper cannot be your Warlord. The one-per-army limit for Epic Heroes is not enforced. Tyranids appear as their own faction, but are not a complete army. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
 - Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets. Allied Units will appear when allied rosters are added.
@@ -20,7 +20,7 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 - The Cult Ambush army rule and four detachments: Heroes of the Uprising, Purestrain Broodswarm, Xenocult Masses and Final Day, each with its rule, Force Disposition, enhancements and stratagems. Heroes of the Uprising adds KILLER to the Kelermorph, Locus, Reductus Saboteur and Sanctus. Enhancements that change profiles adjust them; Upgrades (Mark of the Star Children, Devious Disguises) can go on non-CHARACTER units. WarOrgan does not enforce the limit of three copies of the same Upgrade; build to the core rules.
 - Battle sizes use the 11th Edition detachment points and enhancement limits: Incursion 2 DP and 2 enhancements, Strike Force 3 DP and 4. Onslaught is not in the 11th Edition core rules, so it uses the Strike Force limits. Unit limits are not enforced.
 
-Final Day lets you include Tyranids Vanguard Invader units (excluding AIRCRAFT, BROODLORD and GENESTEALERS) up to half your points. They appear under Allied Units and cannot be your Warlord. Only the Winged Tyranid Prime is available so far; Vanguard Tyrant has no eligible bearer until the Winged Hive Tyrant is added.
+Final Day lets you include Tyranids Vanguard Invader units (excluding AIRCRAFT, BROODLORD and GENESTEALERS) up to half your points. They appear under Allied Units and cannot be your Warlord.
 
 This version does not yet include the other five detachments, core stratagems or allied Astra Militarum/Tyranid units.
 
