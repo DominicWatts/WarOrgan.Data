@@ -8,13 +8,12 @@ Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the 
 - [x] Rebuild Acolyte Hybrids with Autopistols unit size and wargear limits
 - [x] Rebuild Hybrid Metamorphs unit size and wargear limits
 - [x] Rebuild Atalan Jackals unit size and wargear limits
-- [ ] Check every unit's points against the current source
-- [ ] Merge into `dataset/wh40k11e`, tag `v1.1.2` and verify the release ZIP
+- [x] Merge into `dataset/wh40k11e`, tag `v1.1.2` and verify the release ZIP
 - [ ] Test the rebuilt units in WarOrgan
 
 ## Genestealer Cults datasheet checks
 
-Compare each datasheet line by line with Wahapedia: statline, weapons, abilities, unit composition, wargear options, points, keywords, Led By and Supported By.
+Compare each datasheet line by line with Wahapedia: statline, weapons, abilities, unit composition, wargear options, points, keywords, Led By and Supported By. Release in small batches of about five units so each app test stays short.
 
 - [ ] Aberrants
 - [ ] Abominant
