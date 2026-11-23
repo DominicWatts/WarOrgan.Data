@@ -31,7 +31,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Jackal Alphus
 - [x] Kelermorph
 - [x] Locus
-- [ ] Magus
+- [x] Magus
 - [x] Neophyte Hybrids
 - [ ] Nexos
 - [ ] Patriarch
