@@ -2,6 +2,13 @@
 
 Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the same commit as the change.
 
+## 1.4.3.0 app test
+
+- [ ] Confirm the Cadian, Catachan and Krieg Command Squads appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
+- [ ] Check each command squad's fixed specialists, starting equipment and weapon replacements, including master vox, medi-pack, standards, servo-scribes and alchemyk counteragents.
+- [ ] Confirm each command squad can lead its listed unit and its Orders ability is visible.
+- [ ] Confirm Crossfire, Priority Target and Supreme Commander show plain uppercase keywords without BSData `**^^...^^**` markup.
+
 ## 1.4.2.0 app test
 
 - [x] Confirm the 15 Astra Militarum infantry and mounted datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
