@@ -18,12 +18,12 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 - Biophagus, Clamavus, Locus and Nexos attach as Support characters alongside a Leader.
 - Leader effects are applied to the led unit: Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion. Cult Demagogue (+1 to Hit), The Chosen One and the Locus's Bodyguard ability are shown as text only.
 
-- The Cult Ambush army rule and four detachments: Heroes of the Uprising, Purestrain Broodswarm, Xenocult Masses and Final Day, each with its rule, Force Disposition, enhancements and stratagems. Heroes of the Uprising adds KILLER to the Kelermorph, Locus, Reductus Saboteur and Sanctus. Enhancements that change profiles adjust them; Upgrades (Mark of the Star Children, Devious Disguises) can go on non-CHARACTER units. WarOrgan does not enforce the limit of three copies of the same Upgrade; build to the core rules.
+- The Cult Ambush army rule and five detachments: Heroes of the Uprising, Purestrain Broodswarm, Xenocult Masses, Final Day and Host of Ascension, each with its rule, Force Disposition, enhancements and stratagems. Heroes of the Uprising adds KILLER to the Kelermorph, Locus, Reductus Saboteur and Sanctus. Enhancements that change profiles adjust them; Upgrades (Mark of the Star Children, Devious Disguises) can go on non-CHARACTER units. WarOrgan does not enforce the limit of three copies of the same Upgrade; build to the core rules. Host of Ascension costs 3 DP, so WarOrgan cannot offer it in Incursion, although the core rules let an Incursion army take a single 3 DP detachment.
 - Battle sizes use the 11th Edition detachment points and enhancement limits: Incursion 2 DP and 2 enhancements, Strike Force 3 DP and 4. Onslaught is not in the 11th Edition core rules, so it uses the Strike Force limits. Unit limits are not enforced.
 
 Final Day lets you include Tyranids Vanguard Invader units (excluding AIRCRAFT, BROODLORD and GENESTEALERS) up to half your points. They appear under Allied Units and cannot be your Warlord. Only the Winged Tyranid Prime is available so far; Vanguard Tyrant has no eligible bearer until the Winged Hive Tyrant is added.
 
-This version does not yet include the other five detachments, core stratagems or allied Astra Militarum/Tyranid units.
+This version does not yet include the other four detachments (Xenocreed Congregation, Outlander Claw, Biosanctic Broodsurge, Brood Brother Auxilia), core stratagems or allied Astra Militarum units.
 
 ## Installation
 
