@@ -4,9 +4,9 @@ Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the 
 
 ## 1.4.2.0 app test
 
-- [ ] Confirm the 15 Astra Militarum infantry and mounted datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
-- [ ] Check the Cadian Castellan can lead Cadian Shock Troops and Kasrkin, and that Senior Officer grants Sustained Hits 1 to their ranged weapons.
-- [ ] Check Attilan Rough Rider, Cadian Recon Squad and Krieg Combat Engineer wargear limits and the duplicate-unit points for Rough Riders, Kasrkin and Engineers.
+- [x] Confirm the 15 Astra Militarum infantry and mounted datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
+- [x] Check the Cadian Castellan can lead Cadian Shock Troops and Kasrkin, and that Senior Officer grants Sustained Hits 1 to their ranged weapons.
+- [x] Check Attilan Rough Rider, Cadian Recon Squad and Krieg Combat Engineer wargear limits and the duplicate-unit points for Rough Riders, Kasrkin and Engineers.
 
 ## 1.1.2.0 release
 
