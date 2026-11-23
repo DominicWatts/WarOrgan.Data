@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.1.4.0 - Removed the arrow prefix from dual-profile weapon names.
+
 2026-11-23 : 1.1.3.0 - Neophyte Hybrids heavy and special weapons are now two selection groups of up to two per ten models.
 
 2026-11-23 : 1.1.2.0 - Rebuilt Neophyte Hybrids, Acolyte Hybrids with Autopistols, Hybrid Metamorphs and Atalan Jackals unit sizes and wargear limits; noted that WarOrgan does not enforce the Patriarch's Warlord rule.
