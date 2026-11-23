@@ -2091,6 +2091,10 @@
       },
       "UnitAbilities": [
         {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
           "Title": "Bio-horror Disruption (Psychic)",
           "Text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
         },
@@ -3911,6 +3915,10 @@
       },
       "UnitAbilities": [
         {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
           "Title": "Hypersensory Abilities",
           "Text": "Once per turn, in your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase and then make a Normal move of up to D6\" (it cannot embark within a TRANSPORT as part of this move)."
         },
@@ -4083,6 +4091,10 @@
       },
       "UnitAbilities": [
         {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
           "Title": "Sudden Assault",
           "Text": "While this model is leading a unit, models in that unit have the Fights First ability."
         },
@@ -4244,6 +4256,10 @@
         "WargearDefinitions": []
       },
       "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
         {
           "Title": "Psychic Familiar",
           "Text": "Once per battle, at the start of your opponent’s Shooting phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Mind Control ability."
@@ -5252,6 +5268,10 @@
       },
       "UnitAbilities": [
         {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
           "Title": "Might From Beyond",
           "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
         },
@@ -5419,6 +5439,10 @@
         "WargearDefinitions": []
       },
       "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
         {
           "Title": "Cult Demagogue",
           "Text": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll."
@@ -5634,6 +5658,10 @@
       },
       "UnitAbilities": [
         {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
           "Title": "Swift and Deadly",
           "Text": "This unit is eligible to declare a charge in a turn in which it Advanced."
         }
@@ -5792,6 +5820,10 @@
         "WargearDefinitions": []
       },
       "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
         {
           "Title": "Primed and Ready",
           "Text": "In your Shooting phase, you can select one model from your army with this ability as the target of the Explosives Stratagem for 0CP, provided that model has not already been the target of that Stratagem this phase."
@@ -6057,6 +6089,10 @@
         "WargearDefinitions": []
       },
       "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
         {
           "Title": "Creeping Shadow",
           "Text": "If this model is equipped with a Cult Sniper Rifle, in your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6\"."
