@@ -329,7 +329,6 @@
         "UnitNames": [
           "ABERRANTS"
         ],
-        "Description": "This model can be attached to the following unit:\n- ABERRANTS",
         "Features": 0
       }
     },
@@ -1125,6 +1124,11 @@
             "GrantsAbilities": [
               "Cult Icon"
             ]
+          },
+          {
+            "Key": "demolition charge",
+            "DisplayName": "Demolition charges",
+            "Cost": 0
           }
         ]
       },
@@ -1521,7 +1525,6 @@
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
-        "Description": "This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**",
         "Features": 0,
         "Abilities": [
           {
@@ -2297,7 +2300,6 @@
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
-        "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS",
         "Features": 0,
         "Abilities": [
           {
@@ -2533,7 +2535,6 @@
           "NEOPHYTE HYBRIDS"
         ],
         "LeaderType": "Support",
-        "Description": "This model can be attached to the following units:\n- ABERRANTS\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HAND FLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0,
         "Abilities": [
           {
@@ -2730,7 +2731,6 @@
           "NEOPHYTE HYBRIDS"
         ],
         "LeaderType": "Support",
-        "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0
       }
     },
@@ -3901,7 +3901,6 @@
         "UnitNames": [
           "ATALAN JACKALS"
         ],
-        "Description": "This model can be attached to the following units:\n- ATALAN JACKALS",
         "Features": 0
       }
     },
@@ -4228,7 +4227,6 @@
           "NEOPHYTE HYBRIDS"
         ],
         "LeaderType": "Support",
-        "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0,
         "Abilities": [
           {
@@ -4272,7 +4270,13 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "force stave",
+            "DisplayName": "Magus stave",
+            "Cost": 0
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -4436,7 +4440,6 @@
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
-        "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS",
         "Features": 0
       }
     },
@@ -5255,7 +5258,6 @@
           "NEOPHYTE HYBRIDS"
         ],
         "LeaderType": "Support",
-        "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0
       }
     },
@@ -5411,7 +5413,6 @@
         "UnitNames": [
           "PURESTRAIN GENESTEALERS"
         ],
-        "Description": "This model can be attached to the following units:\n- PURESTRAIN GENESTEALERS",
         "Features": 0,
         "Abilities": [
           {
@@ -5645,7 +5646,6 @@
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
-        "Description": "This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**",
         "Features": 0
       }
     },
