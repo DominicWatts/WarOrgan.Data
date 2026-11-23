@@ -2,14 +2,16 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.1.1.0
+## Coverage in 1.1.2.0
 
 - Genestealer Cults: all 25 native datasheets.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
 - Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets. Allied Units will appear when allied rosters are added.
 - Acolyte Hybrids with Hand Flamers enforce their model count and per-unit/per-five-model wargear limits.
-- Patriarchs must be selected as Warlord and their Might From Beyond leader effect is applied to attached Purestrain Genestealers.
+- Neophyte Hybrids enforce their 10 or 20 model sizes, leader weapon swap and one-of-each-per-ten heavy and special weapon limits. The two-per-ten total for each weapon list cannot be enforced; build these units to the datasheet.
+- The Patriarch carries the must-be-Warlord flag, but WarOrgan does not currently enforce it. Select it as Warlord yourself.
+- The Patriarch's Might From Beyond leader effect is encoded for attached Purestrain Genestealers.
 
 This version does not yet include detachments, Force Dispositions, enhancements, stratagems or allied Astra Militarum/Tyranid units.
 

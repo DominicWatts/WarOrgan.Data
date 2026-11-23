@@ -4405,36 +4405,23 @@
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "hybrid firearm",
+                      "close combat weapon"
+                    ],
                     "Options": [
                       {
                         "Items": [
-                          "power weapon",
                           "anointed pistol",
-                          "autopistol"
+                          "chainsword"
                         ]
-                      }
-                    ],
-                    "Replaces": [
-                      "hybrid firearm",
-                      "close combat weapon",
-                      "autopistol"
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
+                      },
                       {
                         "Items": [
-                          "chainsword",
                           "anointed pistol",
-                          "autopistol"
+                          "power weapon"
                         ]
                       }
-                    ],
-                    "Replaces": [
-                      "hybrid firearm",
-                      "close combat weapon",
-                      "autopistol"
                     ]
                   }
                 ]
@@ -4443,54 +4430,16 @@
           },
           {
             "Limit": {
-              "Min": 4,
+              "Min": 9,
               "Max": 19
             },
-            "ModelName": "Neophyte Hybrid w/ Hybrid Firearm",
+            "ModelName": "Neophyte Hybrid",
             "StatlineRef": "Neophyte Hybrids",
             "Keywords": [],
             "Wargear": [
               {
                 "InitialWargear": [
                   "hybrid firearm",
-                  "autopistol",
-                  "close combat weapon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Neophyte Hybrid w/ Hybrid Firearm & Cult Icon",
-            "StatlineRef": "Neophyte Hybrids",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "hybrid firearm",
-                  "autopistol",
-                  "close combat weapon",
-                  "cult icon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 4
-            },
-            "ModelName": "Neophyte Hybrid w/ Heavy Weapon",
-            "StatlineRef": "Neophyte Hybrids",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
                   "close combat weapon",
                   "autopistol"
                 ],
@@ -4500,77 +4449,73 @@
                     "Options": [
                       {
                         "Items": [
-                          "mining laser"
+                          "cult icon"
                         ]
                       }
-                    ],
-                    "PerXModels": 10
+                    ]
                   },
                   {
                     "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "seismic cannon"
-                        ]
-                      }
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
                     ],
-                    "PerXModels": 10
-                  },
-                  {
-                    "Max": 1,
                     "Options": [
                       {
                         "Items": [
                           "heavy stubber"
                         ]
                       }
-                    ],
-                    "PerXModels": 10
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 4
-            },
-            "ModelName": "Neophyte Hybrid w/ Special Weapon",
-            "StatlineRef": "Neophyte Hybrids",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "autopistol",
-                  "close combat weapon"
-                ],
-                "Options": [
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "webber"
-                        ]
-                      }
-                    ],
-                    "PerXModels": 10
+                    ]
                   },
                   {
                     "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "mining laser"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "seismic cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "flamer"
                         ]
                       }
-                    ],
-                    "PerXModels": 10
+                    ]
                   },
                   {
                     "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
+                    ],
                     "Options": [
                       {
                         "Items": [
@@ -4578,8 +4523,21 @@
                           "➤ grenade launcher - krak"
                         ]
                       }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
                     ],
-                    "PerXModels": 10
+                    "Options": [
+                      {
+                        "Items": [
+                          "webber"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -4600,11 +4558,11 @@
       "UnitAbilities": [
         {
           "Title": "A Plan Generations in the Making",
-          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "Title": "Cult Icon",
-          "Text": "In your Command phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped with by returned models that were shot before they were destroyed are still considered to have been shot."
+          "Text": "In your Command phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
         }
       ],
       "Infos": [],
@@ -4693,38 +4651,6 @@
                 }
               ],
               "Keywords": "Rapid Fire 1"
-            },
-            {
-              "Id": "autopistol",
-              "DisplayName": "Autopistol",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "12\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "1"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "3+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "3"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "0"
-                },
-                {
-                  "Id": "D",
-                  "Value": "1"
-                }
-              ],
-              "Keywords": "Pistol"
             },
             {
               "Id": "anointed pistol",
