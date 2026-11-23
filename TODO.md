@@ -33,10 +33,10 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Locus
 - [x] Magus
 - [x] Neophyte Hybrids
-- [ ] Nexos
-- [ ] Patriarch
-- [ ] Primus
-- [ ] Purestrain Genestealers
+- [x] Nexos
+- [x] Patriarch
+- [x] Primus
+- [x] Purestrain Genestealers
 - [ ] Reductus Saboteur
 - [ ] Sanctus
 - [ ] Tectonic Fragdrill
