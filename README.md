@@ -13,7 +13,7 @@ This fork maintains an unofficial Warhammer 40,000 11th Edition dataset for pers
 - Outstanding work: [TODO.md](TODO.md).
 - Dataset sources and limitations: [WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md](WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md).
 - WarOrgan direct-download URL: `https://github.com/DominicWatts/WarOrgan.Data/releases/latest/download/DominicWatts-WH40K11e.zip`
-- Development test URL (latest `develop` build, not a release): `https://github.com/DominicWatts/WarOrgan.Data/releases/download/develop-build/DominicWatts-WH40K11e.zip`
+- Development test URL (latest `dataset/develop` build, not a release): `https://github.com/DominicWatts/WarOrgan.Data/releases/download/develop-build/DominicWatts-WH40K11e.zip`
 - Published builds and historical versions: [GitHub Releases](https://github.com/DominicWatts/WarOrgan.Data/releases).
 
 Paste the direct-download URL into WarOrgan's dataset importer. Use the development test URL only to try unreleased changes; it uses the same dataset ID, so re-import the direct-download URL afterwards to return to the released dataset. The `latest` address remains unchanged when a newer release is published. If installing a historical version instead, use that release's attached ZIP URL. Do not extract the archive.
