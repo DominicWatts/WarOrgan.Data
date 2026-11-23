@@ -6749,6 +6749,138 @@
         }
       ],
       "Effects": []
+    },
+    {
+      "Name": "Xenocreed Congregation",
+      "Cost": 2,
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Rule": {
+        "Title": "Unquestioning Fanaticism",
+        "Text": "For each ACOLYTE HYBRIDS, HYBRID METAMORPHS and NEOPHYTE HYBRIDS unit from your army, while one or more CHARACTER models are leading that unit, you can re-roll Advance and Charge rolls made for it. If that CHARACTER model is a MAGUS, PRIMUS or ACOLYTE ICONWARD, that model has the Feel No Pain 3+ ability while leading that unit."
+      },
+      "Stratagems": [
+        {
+          "Name": "Vengeance for the Martyr!",
+          "Category": "Xenocreed Congregation – Epic Deed Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit destroys a GENESTEALER CULTS CHARACTER model from your army.",
+          "Target": "One other GENESTEALER CULTS CHARACTER model from your army.",
+          "Effect": "Until the end of the battle, each time a friendly ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS model makes an attack that targets that enemy unit, re-roll a Hit roll of 1. If the destroyed model was a MAGUS, PRIMUS or ACOLYTE ICONWARD, you can re-roll the Hit roll instead."
+        },
+        {
+          "Name": "Frenzied Devotion",
+          "Category": "Xenocreed Congregation – Battle Tactic Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase.",
+          "Target": "One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has not been selected to fight this phase.",
+          "Effect": "Until the end of the phase, improve the Attacks and Weapon Skill characteristics of melee weapons equipped by models (excluding CHARACTERS) in your unit by 1 and those weapons have the [HAZARDOUS] ability."
+        },
+        {
+          "Name": "Tireless Fervour",
+          "Category": "Xenocreed Congregation – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Charge phase.",
+          "Target": "One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has not declared a charge this phase.",
+          "Effect": "- If your unit made an advance/fall-back move this turn, that advance/fall-back move does not prevent your unit from being eligible to declare a charge.\n- When your unit declares a charge, you can use this part of this stratagem. If you do:\n  - Your unit can re-roll charge rolls.\n  - Your unit must end that charge move engaged with an enemy unit engaged with a friendly CHARACTER unit."
+        },
+        {
+          "Name": "Transcendent Celerity",
+          "Category": "Xenocreed Congregation – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase.",
+          "Target": "One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army that has not been selected to shoot this phase.",
+          "Effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] ability."
+        },
+        {
+          "Name": "The Downtrodden Rise",
+          "Category": "Xenocreed Congregation – Strategic Ploy Stratagem",
+          "CPCost": 2,
+          "Phase": "Movement",
+          "When": "End of your opponent's Movement phase.",
+          "Target": "One ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit from your army in Cult Ambush.",
+          "Effect": "Until the end of the phase, you can set up your unit on the battlefield without using a Cult Ambush marker. When doing so, set up your unit anywhere on the battlefield that is more than 6\" horizontally away from all enemy units."
+        },
+        {
+          "Name": "The Path of Anguish",
+          "Category": "Xenocreed Congregation – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+          "Target": "One ACOLYTE HYBRIDS or NEOPHYTE HYBRIDS unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
+          "Effect": "Your unit can make a move of up to D6\", but it must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, models in your unit can be moved within Engagement Range of that enemy unit."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Gene-sire's Reliquant",
+          "Description": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You can re-roll Battle-shock tests taken for the bearer's unit.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredOneOfKeywords": [
+            "Magus",
+            "Primus",
+            "Acolyte Iconward"
+          ]
+        },
+        {
+          "Name": "Denunciator of Tyrants",
+          "Description": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. Each time a model in the bearer's unit makes an attack that targets a CHARACTER unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredOneOfKeywords": [
+            "Magus",
+            "Primus",
+            "Acolyte Iconward"
+          ]
+        },
+        {
+          "Name": "Deeds That Speak to the Masses",
+          "Description": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You start the battle with 2 additional Resurgence points.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredOneOfKeywords": [
+            "Magus",
+            "Primus",
+            "Acolyte Iconward"
+          ]
+        },
+        {
+          "Name": "Incendiary Inspiration",
+          "Description": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. The bearer's unit is eligible to declare a charge in a turn in which it Advanced.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredOneOfKeywords": [
+            "Magus",
+            "Primus",
+            "Acolyte Iconward"
+          ]
+        }
+      ],
+      "Effects": [
+        {
+          "AffectedUnits": [
+            "MAGUS",
+            "PRIMUS",
+            "ACOLYTE ICONWARD"
+          ],
+          "DatasheetAdjustments": [
+            {
+              "Target": "CoreAbilities",
+              "Type": "Add",
+              "Scope": "ModelWhileLeading",
+              "Values": [
+                "Feel No Pain 3+"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "ArmyRules": [
