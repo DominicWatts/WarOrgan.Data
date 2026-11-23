@@ -19,7 +19,7 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
 | Tyranids | `faction/tyranids` | GSC allies only | done (allies) | done (allies) | - | partial (1.3) | 14 Vanguard Invader | - | - | - | - |
-| Astra Militarum | `faction/astra-militarum` | GSC allies only | partial (15/51) | partial (15/51) | - | - | 15 of 51 | - | - | - | - |
+| Astra Militarum | `faction/astra-militarum` | GSC allies only | done (allies) | done (allies) | - | - | 51/51 eligible | - | - | - | - |
 
 Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.json` and are not counted per faction.
 
@@ -41,4 +41,5 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 - Allied datasheets for Brood Brother Auxilia only. Cadian Shock Troops pilot matched the November BSData dump on 2026-11-23.
 - 2026-11-23 trial: the BSData importer drafted 52 units; the Wahapedia check matched 16 with no differences and listed 93 notes for the rest, including Orders missing from six officers.
 - 2026-11-23: expanded the roster to 15 infantry and mounted datasheets. All 15 match Wahapedia for profiles, abilities, points, composition, starting equipment, leaders and keywords; wargear options were checked manually. The batch adds Artillery Team, Attilan Rough Riders, Cadian Castellan, both Heavy Weapons Squads, Cadian Recon Squad, Catachan Jungle Fighters, Death Korps of Krieg, Death Riders, Field Ordnance Battery, Kasrkin, Krieg Combat Engineers, Krieg Heavy Weapons Squad and Primaris Psyker alongside Cadian Shock Troops.
-- Next: the remaining 36 current datasheets, starting with the three command squads held back for their heterogeneous fixed loadouts. The GSC catalogue links every one of them. Skip Legends.
+- 2026-11-23: added the Cadian, Catachan and Krieg Command Squads. The Cadian and Krieg squads use separate fixed specialist model entries so WarOrgan cannot assign their mandatory equipment to the wrong veteran; the source check's aggregate model-name notes are expected for those two units.
+- 2026-11-23: completed all 51 non-AIRCRAFT datasheets eligible for Brood Brother Auxilia. The final 33 add the transports, Sentinels, artillery vehicles, Leman Russ and Rogal Dorn variants, super-heavy tanks, Aegis Defence Line and Cyclops Demolition Vehicle. All wargear options were checked manually; the Wahapedia ally-page check reports 48 exact matches and only the expected command-squad aggregation, Cyclops empty-loadout and excluded Valkyrie notes.

@@ -1,5 +1,11 @@
 # Dataset changelog
 
+2026-11-23 : 1.4.6.0 - Made the Heavy Weapons Squad and Field Ordnance Battery weapon swaps one choice per model, and gave the Krieg Heavy Weapons Squad lascannons by default.
+2026-11-23 : 1.4.5.0 - Completed Brood Brother Auxilia with all 51 eligible Astra Militarum datasheets and their verified wargear options.
+
+2026-11-23 : 1.4.4.0 - The Vanguard Tyrant enhancement now applies +1 Strength and improved AP to the Winged Hive Tyrant's melee weapons.
+2026-11-23 : 1.4.3.0 - Added the Cadian, Catachan and Krieg Command Squads with fixed specialist loadouts, and cleaned BSData keyword markup from three GSC abilities.
+
 2026-11-23 : 1.4.2.0 - Expanded Brood Brother Auxilia with 15 verified Astra Militarum infantry and mounted datasheets.
 
 2026-11-23 : 1.4.1.0 - Added Scouts, Deadly Demise and Feel No Pain values, the Biophagus alchemicus familiar and the Tectonic Fragdrill's Fortification ability, from a Wahapedia check.
