@@ -45,7 +45,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 
 - [x] Army rule (Cult Ambush)
 - [ ] Nine detachments and their Force Dispositions (eight done; Brood Brother Auxilia waits on Astra Militarum allies)
-- [ ] Core stratagems (Command Re-roll, Fire Overwatch and so on) in `DataSetDefinition.json`
+- [x] Core stratagems (Command Re-roll, Fire Overwatch and so on) in `DataSetDefinition.json` (1.3.9)
 - [ ] Unit limits per battle size, once the app's handling of the Battleline and Dedicated Transport doubling is known
 - [ ] Enhancements
 - [ ] Stratagems
