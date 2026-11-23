@@ -20,7 +20,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Achilles Ridgerunners
 - [x] Acolyte Hybrids with Autopistols
 - [x] Acolyte Hybrids with Hand Flamers
-- [ ] Acolyte Iconward
+- [x] Acolyte Iconward
 - [x] Atalan Jackals
 - [ ] Benefictus
 - [ ] Biophagus
