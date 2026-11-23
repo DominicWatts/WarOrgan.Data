@@ -2819,7 +2819,7 @@
             },
             {
               "Id": "Base",
-              "Value": "Use model"
+              "Value": "Hull"
             }
           ],
           "Features": "None"
@@ -3134,7 +3134,7 @@
             },
             {
               "Id": "Base",
-              "Value": "Use model"
+              "Value": "Hull"
             }
           ],
           "Features": "None"
@@ -6324,7 +6324,7 @@
             },
             {
               "Id": "Base",
-              "Value": "Use model"
+              "Value": "Hull"
             }
           ],
           "Features": "None"
