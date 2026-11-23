@@ -350,50 +350,23 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "armoured hull",
+                  "heavy mining laser",
                   "twin heavy stubber",
+                  "armoured hull",
                   "flare launcher"
                 ],
                 "Options": [
                   {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "spotter"
-                        ]
-                      }
-                    ],
+                    "Max": 2,
                     "Replaces": [
-                      "flare launcher"
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "survey augur"
-                        ]
-                      }
+                      "heavy mining laser"
                     ],
-                    "Replaces": [
-                      "flare launcher"
-                    ]
-                  },
-                  {
-                    "Max": 1,
                     "Options": [
                       {
                         "Items": [
                           "achilles missile launcher"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "heavy mortar"
@@ -402,11 +375,19 @@
                     ]
                   },
                   {
-                    "Max": 1,
+                    "Max": 2,
+                    "Replaces": [
+                      "flare launcher"
+                    ],
                     "Options": [
                       {
                         "Items": [
-                          "heavy mining laser"
+                          "spotter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "survey augur"
                         ]
                       }
                     ]
@@ -417,6 +398,11 @@
           }
         ],
         "WargearDefinitions": [
+          {
+            "Key": "heavy mining laser",
+            "DisplayName": "Heavy mining laser",
+            "Cost": 10
+          },
           {
             "Key": "flare launcher",
             "DisplayName": "Flare launcher",
