@@ -28,7 +28,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Goliath Rockgrinder
 - [x] Goliath Truck
 - [x] Hybrid Metamorphs
-- [ ] Jackal Alphus
+- [x] Jackal Alphus
 - [ ] Kelermorph
 - [ ] Locus
 - [ ] Magus
