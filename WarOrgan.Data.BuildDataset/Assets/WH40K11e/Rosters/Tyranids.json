@@ -1,0 +1,143 @@
+{
+  "Name": "Tyranids",
+  "Units": [
+    {
+      "Id": "WINGED TYRANID PRIME",
+      "DisplayName": "Winged Tyranid Prime",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Winged Tyranid Prime",
+            "StatlineRef": "Winged Tyranid Prime",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "prime talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Alpha Warrior",
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Death Blow",
+          "Text": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Winged Tyranid Prime",
+        "Infantry",
+        "Character",
+        "Fly",
+        "Great Devourer",
+        "Synapse",
+        "Vanguard Invader"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Winged Tyranid Prime",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "prime talons",
+              "DisplayName": "Prime talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    }
+  ],
+  "Detachments": [],
+  "ArmyRules": []
+}
