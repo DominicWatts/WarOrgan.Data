@@ -1,0 +1,76 @@
+name: Release dataset
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out tagged source
+        uses: actions/checkout@v4
+
+      - name: Install .NET 10 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Validate and build dataset
+        run: dotnet run --project WarOrgan.Data.BuildDataset -c Release
+
+      - name: Verify archive version and prepare release notes
+        id: release
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          zip_path=$(find WarOrgan.Data.BuildDataset/bin/Release -path '*/Output/*.zip' -type f -print -quit)
+          if [[ -z "$zip_path" ]]; then
+            echo "No dataset ZIP was produced." >&2
+            exit 1
+          fi
+
+          archive_version=$(unzip -p "$zip_path" DataSetInfo.json | jq -r '.Version')
+          tag_version="${GITHUB_REF_NAME#v}.0"
+          if [[ "$archive_version" != "$tag_version" ]]; then
+            echo "Tag $GITHUB_REF_NAME expects dataset version $tag_version, but the archive contains $archive_version." >&2
+            exit 1
+          fi
+
+          awk -v heading="## $archive_version" '
+            $0 == heading { found = 1 }
+            found && /^## / && $0 != heading { exit }
+            found { print }
+          ' CHANGELOG.md > release-notes.md
+
+          if [[ ! -s release-notes.md ]]; then
+            echo "CHANGELOG.md has no section for $archive_version." >&2
+            exit 1
+          fi
+
+          {
+            echo
+            echo "Download the attached ZIP and import it directly using **WarOrgan → Data Sets → Import from file**. Do not extract it."
+            echo
+            echo "Dataset ID: \`DominicWatts-WH40K11e\`"
+          } >> release-notes.md
+
+          echo "zip_path=$zip_path" >> "$GITHUB_OUTPUT"
+          echo "archive_version=$archive_version" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub release and attach import archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ZIP_PATH: ${{ steps.release.outputs.zip_path }}
+          ARCHIVE_VERSION: ${{ steps.release.outputs.archive_version }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" "$ZIP_PATH" \
+            --title "WarOrgan 40K 11e dataset $ARCHIVE_VERSION" \
+            --notes-file release-notes.md \
+            --verify-tag
