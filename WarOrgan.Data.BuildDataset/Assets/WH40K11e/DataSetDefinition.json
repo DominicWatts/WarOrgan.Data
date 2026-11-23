@@ -54,7 +54,7 @@
       "Description": "This unit can attach to eligible units listed on its datasheet."
     },
     {
-      "Regex": "^Deadly Demise(?: D3)?$",
+      "Regex": "^Deadly Demise(?: (?:\\d+|D3|D6)(?:\\+\\d+)?)?$",
       "Description": "When the relevant model is destroyed, resolve Deadly Demise using the current core rules and the value shown."
     },
     {
