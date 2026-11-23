@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.3.0.0
+## Coverage in 1.3.1.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Tyranids: six Vanguard Invader datasheets for use as Final Day allies: Winged Tyranid Prime, Gargoyles, Raveners, Hyperadapted Raveners, Lictor and Neurolictor. Tyranids appear as their own faction, but are not a complete army. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
