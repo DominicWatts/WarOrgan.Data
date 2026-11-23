@@ -50,7 +50,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [ ] Enhancements
 - [ ] Stratagems
 - [x] Enable the matching dataset `Features` and battle-size limits
-- [ ] Tyranid allies for Final Day: done Winged Tyranid Prime, Gargoyles, Raveners, Hyperadapted Raveners, Lictor, Neurolictor; to add Von Ryan's Leapers, Mawloc, Trygon, Tyrannocyte, Winged Hive Tyrant, Deathleaper, The Red Terror, Parasite of Mortrex
+- [ ] Tyranid allies for Final Day: done Winged Tyranid Prime, Gargoyles, Raveners, Hyperadapted Raveners, Lictor, Neurolictor, Von Ryan's Leapers, Mawloc, Trygon, Tyrannocyte; to add Winged Hive Tyrant, Deathleaper, The Red Terror, Parasite of Mortrex
 - [ ] Show invulnerable save values on GSC units (only the 'Invulnerable Save' core ability is listed, not 4+ or 5+); the Neurolictor records its value as an ability entry
 - [ ] Brood Brothers (Astra Militarum) allies for Brood Brother Auxilia
 - [x] Add the Allied Units category with the first allied roster

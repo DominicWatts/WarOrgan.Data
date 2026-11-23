@@ -1074,6 +1074,675 @@
           "Cost": 90
         }
       ]
+    },
+    {
+      "Id": "VON RYAN'S LEAPERS",
+      "DisplayName": "Von Ryan’s Leapers",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 6
+            },
+            "ModelName": "Von Ryan’s Leaper",
+            "StatlineRef": "Von Ryan’s Leapers",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "leaper's talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 6+ invulnerable save."
+        },
+        {
+          "Title": "Pouncing Leap",
+          "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Von Ryan’s Leapers",
+        "Other Datasheets",
+        "Infantry",
+        "Great Devourer",
+        "Vanguard Invader"
+      ],
+      "CoreAbilities": [
+        "Fights First",
+        "Infiltrators",
+        "Stealth",
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Von Ryan’s Leapers",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "leaper's talons",
+              "DisplayName": "Leaper’s talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 55
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 105
+        }
+      ]
+    },
+    {
+      "Id": "MAWLOC",
+      "DisplayName": "Mawloc",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Mawloc",
+            "StatlineRef": "Mawloc",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "distensible jaw",
+                  "mawloc scything talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Terror From The Deep",
+          "Text": "Each time this model is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test."
+        },
+        {
+          "Title": "Damaged: 1-5 Wounds Remaining",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mawloc",
+        "Other Datasheets",
+        "Monster",
+        "Great Devourer",
+        "Vanguard Invader"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Mawloc",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "4"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "distensible jaw",
+              "DisplayName": "Distensible jaw",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Extra Attacks"
+            },
+            {
+              "Id": "mawloc scything talons",
+              "DisplayName": "Mawloc scything talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "16"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Id": "TRYGON",
+      "DisplayName": "Trygon",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Trygon",
+            "StatlineRef": "Trygon",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bio-electric pulse",
+                  "trygon scything talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Subterranean Tunnels",
+          "Text": "In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can use a subterranean tunnel. If it does, this model can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge."
+        },
+        {
+          "Title": "Damaged: 1-5 Wounds Remaining",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Trygon",
+        "Other Datasheets",
+        "Monster",
+        "Great Devourer",
+        "Vanguard Invader"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Trygon",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "4"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bio-electric pulse",
+              "DisplayName": "Bio-electric pulse",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Sustained Hits 2"
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "trygon scything talons",
+              "DisplayName": "Trygon scything talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "TYRANNOCYTE",
+      "DisplayName": "Tyrannocyte",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tyrannocyte",
+            "StatlineRef": "Tyrannocyte",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "tyrannocyte bio-weapons",
+                  "flensing whips"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Aerial Seeding",
+          "Text": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 8\" away from all enemy models. After this model has been set up on the battlefield, no units can embark within it."
+        },
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 20 TYRANIDS INFANTRY models, or 1 TYRANIDS MONSTER model with a Wounds characteristic of 12 or less. Each INFANTRY model with a Wounds characteristic of more than 1 takes up the space of 3 models."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Tyrannocyte",
+        "Monster",
+        "Fly",
+        "Frame",
+        "Transport",
+        "Dedicated Transport",
+        "Great Devourer",
+        "Vanguard Invader"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Tyrannocyte",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "tyrannocyte bio-weapons",
+              "DisplayName": "Tyrannocyte bio-weapons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "flensing whips",
+              "DisplayName": "Flensing whips",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 80
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 80
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 80
+        },
+        {
+          "UnitCount": 4,
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
     }
   ],
   "Detachments": [],
