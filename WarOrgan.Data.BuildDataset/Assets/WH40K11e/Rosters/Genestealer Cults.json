@@ -6648,6 +6648,22 @@
           "Description": "WINGED HIVE TYRANT model only. Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1.",
           "Cost": 25,
           "Features": "None",
+          "WeaponStatAdjustments": [
+            {
+              "Value": "1",
+              "Type": "Add",
+              "Scope": "Model",
+              "TargetStatId": "S",
+              "WeaponSetId": "MELEE WEAPONS"
+            },
+            {
+              "Value": "1",
+              "Type": "Subtract",
+              "Scope": "Model",
+              "TargetStatId": "AP",
+              "WeaponSetId": "MELEE WEAPONS"
+            }
+          ],
           "RequiredKeywords": [
             "Winged Hive Tyrant"
           ]
