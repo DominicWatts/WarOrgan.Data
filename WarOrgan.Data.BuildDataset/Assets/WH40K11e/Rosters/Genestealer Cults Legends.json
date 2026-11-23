@@ -1,0 +1,144 @@
+{
+  "Name": "Genestealer Cults",
+  "Units": [
+    {
+      "Id": "TECTONIC FRAGDRILL",
+      "DisplayName": "Tectonic Fragdrill",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tectonic Fragdrill",
+            "StatlineRef": "Tectonic Fragdrill",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "fragdrill"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Tectonic Fragdrill",
+          "Text": "Friendly GENESTEALER CULTS INFANTRY models can be set up or end any type of move on top of the floor sections of this FORTIFICATION."
+        },
+        {
+          "Title": "Underground Egress",
+          "Text": "Each time one of your Cult Ambush markers is removed as the result of an enemy unit ending any kind of move within 8\" of it, you can instead move that marker so that it is wholly within 8\" of this FORTIFICATION and more than 8\" horizontally away from all enemy units (if this is not possible, that marker is removed as normal)."
+        },
+        {
+          "Title": "Manufactorum Cover",
+          "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fortification",
+        "Other Datasheets",
+        "Vehicle",
+        "Frame",
+        "Tectonic Fragdrill"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Genestealer Cults"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Tectonic Fragdrill",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "-"
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "fragdrill",
+              "DisplayName": "Fragdrill",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "6+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 125
+        }
+      ]
+    }
+  ],
+  "Detachments": [],
+  "ArmyRules": []
+}

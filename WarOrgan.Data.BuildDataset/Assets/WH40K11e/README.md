@@ -2,9 +2,9 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.1.11.0
+## Coverage in 1.1.12.0
 
-- Genestealer Cults: all 25 native datasheets.
+- Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
 - Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets. Allied Units will appear when allied rosters are added.
@@ -31,6 +31,7 @@ The URL always targets the most recent published release. The downloaded ZIP sho
 - IRONBUILT community dataset `wh40k-11e`, version `2026.11.21-0401-mfm16-tempered`, manifest updated 21 November 2026.
 - Source bundle SHA-256: `e19b68b0860ec5a6074325ea22dbec5654da0953590429450306094fe7e6dd71`.
 - Wahapedia Genestealer Cults 11th Edition datasheets, checked 23 November 2026.
+- Games Workshop Genestealer Cults Faction Pack, version 1.0, legal for matched play from 20 June 2026. Checked 23 November 2026.
 - Games Workshop Warhammer Community faction packs and Munitorum Field Manual are the canonical authority for published changes and points.
 
 Community datasets are used as structured authoring aids, not as unquestioned authorities. Values should be rechecked following every Games Workshop balance or faction update.
