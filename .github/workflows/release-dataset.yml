@@ -43,14 +43,13 @@ jobs:
             exit 1
           fi
 
-          awk -v heading="## $archive_version" '
-            index($0, heading) == 1 { found = 1 }
-            found && /^## / && index($0, heading) != 1 { exit }
-            found { print }
+          awk -v version="$archive_version" '
+            { sub(/\r$/, "") }
+            $3 == version && $4 == "-" { sub(/^[^ ]+ : [^ ]+ - /, ""); print; exit }
           ' CHANGELOG.md > release-notes.md
 
           if [[ ! -s release-notes.md ]]; then
-            echo "CHANGELOG.md has no section for $archive_version." >&2
+            echo "CHANGELOG.md has no entry for $archive_version." >&2
             exit 1
           fi
 

@@ -9,7 +9,7 @@ This fork maintains an unofficial Warhammer 40,000 11th Edition dataset for pers
 
 - Current coverage: Genestealer Cults native datasheets and points.
 - Dataset ID: `DominicWatts-WH40K11e` (kept stable for saved-list compatibility).
-- Release history and outstanding work: [CHANGELOG.md](CHANGELOG.md).
+- Release history: [CHANGELOG.md](CHANGELOG.md).
 - Dataset sources and limitations: [WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md](WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md).
 - WarOrgan direct-download URL: `https://github.com/DominicWatts/WarOrgan.Data/releases/latest/download/DominicWatts-WH40K11e.zip`
 - Published builds and historical versions: [GitHub Releases](https://github.com/DominicWatts/WarOrgan.Data/releases).
