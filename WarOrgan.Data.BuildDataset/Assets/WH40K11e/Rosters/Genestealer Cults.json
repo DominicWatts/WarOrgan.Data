@@ -4407,7 +4407,7 @@
                     ]
                   },
                   {
-                    "Max": 1,
+                    "Max": 2,
                     "PerXModels": 10,
                     "Replaces": [
                       "hybrid firearm"
@@ -4417,30 +4417,12 @@
                         "Items": [
                           "heavy stubber"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "PerXModels": 10,
-                    "Replaces": [
-                      "hybrid firearm"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "mining laser"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "PerXModels": 10,
-                    "Replaces": [
-                      "hybrid firearm"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "seismic cannon"
@@ -4449,7 +4431,7 @@
                     ]
                   },
                   {
-                    "Max": 1,
+                    "Max": 2,
                     "PerXModels": 10,
                     "Replaces": [
                       "hybrid firearm"
@@ -4459,31 +4441,13 @@
                         "Items": [
                           "flamer"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "PerXModels": 10,
-                    "Replaces": [
-                      "hybrid firearm"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "➤ grenade launcher - frag",
                           "➤ grenade launcher - krak"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "PerXModels": 10,
-                    "Replaces": [
-                      "hybrid firearm"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "webber"

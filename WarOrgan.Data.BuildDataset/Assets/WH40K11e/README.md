@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.1.2.0
+## Coverage in 1.1.3.0
 
 - Genestealer Cults: all 25 native datasheets.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
@@ -11,7 +11,7 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 - Acolyte Hybrids with Hand Flamers and with Autopistols enforce their model count and per-unit/per-five-model wargear limits.
 - Hybrid Metamorphs enforce their model count, hand flamer replacements and single cult icon.
 - Atalan Jackals enforce 4-8 Jackals, 1-2 Wolfquads and their per-four-Jackal weapon limits. The rule that 2 Wolfquads require 8 Jackals cannot be enforced; build these units to the datasheet.
-- Neophyte Hybrids enforce their 10 or 20 model sizes, leader weapon swap and one-of-each-per-ten heavy and special weapon limits. The two-per-ten total for each weapon list cannot be enforced; build these units to the datasheet.
+- Neophyte Hybrids enforce their 10 or 20 model sizes, leader weapon swap and up to two heavy and two special weapons per ten models. The one-of-each-weapon-per-ten limit cannot be enforced; build these units to the datasheet.
 - The Patriarch carries the must-be-Warlord flag, but WarOrgan does not currently enforce it. Select it as Warlord yourself.
 - The Patriarch's Might From Beyond leader effect is encoded for attached Purestrain Genestealers.
 
