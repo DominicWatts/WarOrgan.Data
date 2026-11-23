@@ -26,12 +26,12 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Biophagus
 - [x] Clamavus
 - [x] Goliath Rockgrinder
-- [ ] Goliath Truck
+- [x] Goliath Truck
 - [x] Hybrid Metamorphs
-- [ ] Jackal Alphus
-- [ ] Kelermorph
-- [ ] Locus
-- [ ] Magus
+- [x] Jackal Alphus
+- [x] Kelermorph
+- [x] Locus
+- [x] Magus
 - [x] Neophyte Hybrids
 - [ ] Nexos
 - [ ] Patriarch

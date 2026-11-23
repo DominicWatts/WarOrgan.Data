@@ -3134,7 +3134,7 @@
             },
             {
               "Id": "Base",
-              "Value": "Hull"
+              "Value": "Use model"
             }
           ],
           "Features": "None"
@@ -3736,7 +3736,7 @@
             },
             {
               "Id": "Sv",
-              "Value": "5"
+              "Value": "5+"
             },
             {
               "Id": "W",
@@ -4084,11 +4084,11 @@
       "UnitAbilities": [
         {
           "Title": "Sudden Assault",
-          "Text": "While this model is leading a unit, models in that unit have the Fights First ability"
+          "Text": "While this model is leading a unit, models in that unit have the Fights First ability."
         },
         {
           "Title": "Bodyguard",
-          "Text": "While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability"
+          "Text": "While this model is leading a unit, other CHARACTER models attached to that unit have the Feel No Pain 4+ ability."
         }
       ],
       "Infos": [],
@@ -4246,15 +4246,15 @@
       "UnitAbilities": [
         {
           "Title": "Psychic Familiar",
-          "Text": "Once per battle, at the start of any of your opponent’s Shooting phases, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Mind Control ability."
+          "Text": "Once per battle, at the start of your opponent’s Shooting phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Mind Control ability."
         },
         {
           "Title": "Mind Control (Psychic)",
-          "Text": "At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If used, select one enemy unit within 18\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll and subtract 1 from the Wound Roll."
+          "Text": "At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If used, select one enemy unit within 18\" of that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
         },
         {
           "Title": "Spiritual Leader",
-          "Text": "Once per battle, at the start of any phase, you can select one friendly GENESTELERS CULTS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+          "Text": "Once per battle, at the start of any phase, you can select one friendly GENESTEALER CULTS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
         }
       ],
       "Infos": [],
@@ -4316,7 +4316,7 @@
           "Weapons": [
             {
               "Id": "force stave",
-              "DisplayName": "Force stave",
+              "DisplayName": "Magus stave",
               "Flags": "None",
               "Stats": [
                 {
