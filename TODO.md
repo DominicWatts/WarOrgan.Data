@@ -17,7 +17,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 
 - [x] Aberrants
 - [x] Abominant
-- [ ] Achilles Ridgerunners
+- [x] Achilles Ridgerunners
 - [x] Acolyte Hybrids with Autopistols
 - [ ] Acolyte Hybrids with Hand Flamers
 - [ ] Acolyte Iconward
