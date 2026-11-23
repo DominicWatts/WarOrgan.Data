@@ -734,25 +734,19 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "autopistol"
+                  "autopistol",
+                  "cult claws and knife"
                 ],
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "cult claws and knife"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "leader's bio-weapons"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "cult claws and knife"
                         ]
                       }
                     ]
@@ -763,10 +757,10 @@
           },
           {
             "Limit": {
-              "Min": 0,
+              "Min": 4,
               "Max": 9
             },
-            "ModelName": "Acolyte Hybrid w/ Auto Pistol",
+            "ModelName": "Acolyte Hybrid",
             "StatlineRef": "Acolyte Hybrids with Autopistols",
             "Keywords": [],
             "Wargear": [
@@ -775,42 +769,36 @@
                   "autopistol",
                   "cult claws and knife"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Acolyte Hybrid w/ Cult Icon",
-            "StatlineRef": "Acolyte Hybrids with Autopistols",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "cult claws and knife",
-                  "cult icon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 6
-            },
-            "ModelName": "Acolyte Hybrid w/ Heavy Mining Tool",
-            "StatlineRef": "Acolyte Hybrids with Autopistols",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "heavy mining tool"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "autopistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "cult icon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "autopistol",
+                      "cult claws and knife"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy mining tool"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -829,11 +817,11 @@
       "UnitAbilities": [
         {
           "Title": "Claimed for the Cult",
-          "Text": "At the start of your Command phase, roll one D6 for each objective marker that you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
+          "Text": "At the start of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
         },
         {
           "Title": "Cult Icon",
-          "Text": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped with by returned models that were shot before they were destroyed are still considered to have been shot."
+          "Text": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
         }
       ],
       "Infos": [],
