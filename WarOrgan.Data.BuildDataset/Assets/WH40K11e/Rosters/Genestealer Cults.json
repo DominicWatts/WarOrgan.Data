@@ -473,8 +473,8 @@
         "Great Devourer"
       ],
       "CoreAbilities": [
-        "Deadly Demise",
-        "Scouts"
+        "Deadly Demise 1",
+        "Scouts 9\""
       ],
       "FactionKeywords": [
         "Genestealer Cults"
@@ -1392,7 +1392,7 @@
       ],
       "CoreAbilities": [
         "Deep Strike",
-        "Scouts",
+        "Scouts 6\"",
         "Leader"
       ],
       "FactionKeywords": [
@@ -1692,7 +1692,7 @@
         "Great Devourer"
       ],
       "CoreAbilities": [
-        "Scouts",
+        "Scouts 9\"",
         "Stealth"
       ],
       "FactionKeywords": [
@@ -2336,14 +2336,24 @@
                 "InitialWargear": [
                   "injector goad",
                   "autopistol",
-                  "chemical vials"
+                  "chemical vials",
+                  "alchemicus familiar"
                 ],
                 "Options": []
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "alchemicus familiar",
+            "DisplayName": "Alchemicus familiar",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Alchemicus Familiar"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -2806,7 +2816,7 @@
         "Frame"
       ],
       "CoreAbilities": [
-        "Deadly Demise",
+        "Deadly Demise D3",
         "Firing Deck 6"
       ],
       "FactionKeywords": [
@@ -3121,7 +3131,7 @@
         "Frame"
       ],
       "CoreAbilities": [
-        "Deadly Demise",
+        "Deadly Demise D3",
         "Firing Deck 6"
       ],
       "FactionKeywords": [
@@ -3444,8 +3454,8 @@
       ],
       "CoreAbilities": [
         "Deep Strike",
-        "Scouts",
-        "Feel No Pain"
+        "Scouts 6\"",
+        "Feel No Pain 5+"
       ],
       "FactionKeywords": [
         "Genestealer Cults"
@@ -3738,7 +3748,7 @@
         "Mounted"
       ],
       "CoreAbilities": [
-        "Scouts",
+        "Scouts 9\"",
         "Stealth",
         "Leader"
       ],
