@@ -6881,6 +6881,143 @@
           ]
         }
       ]
+    },
+    {
+      "Name": "Outlander Claw",
+      "Cost": 2,
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Rule": {
+        "Title": "Rapid Takeover",
+        "Text": "While a GENESTEALER CULTS MOUNTED/VEHICLE model from your army is not Battle-shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more ATALAN JACKALS units from your army are within range of an objective you control, that objective remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase."
+      },
+      "Stratagems": [
+        {
+          "Name": "Along Shadowed Trails",
+          "Category": "Outlander Claw – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, just after an enemy unit ends a move within 8\" of one or more of your Cult Ambush markers.",
+          "Target": "Select one of those Cult Ambush markers.",
+          "Effect": "You can set up that Cult Ambush marker anywhere on the battlefield that is more than 8\" horizontally away from all enemy units."
+        },
+        {
+          "Name": "Devoted Crew",
+          "Category": "Outlander Claw – Battle Tactic Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "Target": "One GOLIATH ROCKGRINDER or GOLIATH TRUCK unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+          "Effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "Name": "Close-Range Shoot-Out",
+          "Category": "Outlander Claw – Battle Tactic Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase.",
+          "Target": "One GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE unit from your army that has not been selected to shoot this phase.",
+          "Effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability while targeting an enemy unit within 18\"."
+        },
+        {
+          "Name": "Rapid Feint",
+          "Category": "Outlander Claw – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "Target": "One ACHILLES RIDGERUNNERS or ATALAN JACKALS unit from your army that is within 8\" of that enemy unit.",
+          "Effect": "Your unit can make a Normal move of up to 6\"."
+        },
+        {
+          "Name": "Deft Manoeuvring",
+          "Category": "Outlander Claw – Battle Tactic Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+          "Target": "One ACHILLES RIDGERUNNERS or ATALAN JACKALS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+          "Effect": "Until the end of the phase, models in your unit have a 4+ invulnerable save."
+        },
+        {
+          "Name": "Encircling the Prey",
+          "Category": "Outlander Claw – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent's Fight phase.",
+          "Target": "One GENESTEALER CULTS MOUNTED or GENESTEALER CULTS VEHICLE unit from your army that is not within Engagement Range of one or more enemy units and is wholly within 9\" of one or more battlefield edges.",
+          "Effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Serpentine Tactics",
+          "Description": "GENESTEALER CULTS MOUNTED model only. The bearer's unit is eligible to shoot in a turn in which it Fell Back.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredKeywords": [
+            "Mounted"
+          ]
+        },
+        {
+          "Name": "Cartographic Data-leech",
+          "Description": "GENESTEALER CULTS model only. While the bearer is embarked within a TRANSPORT, each time that TRANSPORT is selected to shoot, until the end of the phase, improve the Ballistic Skill characteristic of ranged weapons equipped by that TRANSPORT as a result of the Firing Deck ability by 1.",
+          "Cost": 10,
+          "Features": "None"
+        },
+        {
+          "Name": "Starfall Shells",
+          "Description": "GENESTEALER CULTS MOUNTED model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the start of your next Shooting phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredKeywords": [
+            "Mounted"
+          ]
+        },
+        {
+          "Name": "Assault Commando",
+          "Description": "GENESTEALER CULTS model only. Each time a model in the bearer's unit makes a ranged attack, if it disembarked from a TRANSPORT this turn, you can re-roll the Hit roll.",
+          "Cost": 15,
+          "Features": "None"
+        }
+      ],
+      "Effects": [
+        {
+          "AffectedUnits": [],
+          "AffectedUnitsByKeyword": [
+            "Mounted"
+          ],
+          "AffectedUnitsExcludeKeyword": [
+            "Allied Units"
+          ],
+          "StatAdjustments": [
+            {
+              "TargetStatId": "OC",
+              "Type": "Add",
+              "Scope": "Unit",
+              "Value": "1",
+              "Info": "Rapid Takeover: while not Battle-shocked"
+            }
+          ]
+        },
+        {
+          "AffectedUnits": [],
+          "AffectedUnitsByKeyword": [
+            "Vehicle"
+          ],
+          "AffectedUnitsExcludeKeyword": [
+            "Allied Units"
+          ],
+          "StatAdjustments": [
+            {
+              "TargetStatId": "OC",
+              "Type": "Add",
+              "Scope": "Unit",
+              "Value": "1",
+              "Info": "Rapid Takeover: while not Battle-shocked"
+            }
+          ]
+        }
+      ]
     }
   ],
   "ArmyRules": [
