@@ -10,6 +10,14 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 
 This version does not yet include detachments, Force Dispositions, enhancements, stratagems or allied Astra Militarum/Tyranid units.
 
+## Installation
+
+In WarOrgan's dataset importer, use:
+
+`https://github.com/DominicWatts/WarOrgan.Data/releases/latest/download/DominicWatts-WH40K11e.zip`
+
+The URL always targets the most recent published release. The downloaded ZIP should be imported directly and not extracted.
+
 ## Sources
 
 - IRONBUILT community dataset `wh40k-11e`, version `2026.11.21-0401-mfm16-tempered`, manifest updated 21 November 2026.

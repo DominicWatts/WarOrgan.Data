@@ -56,7 +56,11 @@ jobs:
 
           {
             echo
-            echo "Download the attached ZIP and import it directly using **WarOrgan → Data Sets → Import from file**. Do not extract it."
+            echo "Use this HTTPS URL in WarOrgan's dataset importer:"
+            echo
+            echo "\`https://github.com/${GITHUB_REPOSITORY}/releases/latest/download/$(basename "$zip_path")\`"
+            echo
+            echo "The URL always targets the newest release. Alternatively, download the attached ZIP and import it directly without extracting it."
             echo
             echo "Dataset ID: \`DominicWatts-WH40K11e\`"
           } >> release-notes.md

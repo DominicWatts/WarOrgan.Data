@@ -40,3 +40,4 @@ The version is a four-part .NET `Version`, not strict Semantic Versioning. WarOr
 5. Import the ZIP into WarOrgan and reproduce a known list and points total.
 6. Tag the verified commit as `v<major>.<minor>.<build>` (for example `v1.1.0`) and push the tag.
 7. Confirm the release workflow created the GitHub release, copied this version's changelog section and attached the import-ready ZIP.
+8. Confirm `https://github.com/DominicWatts/WarOrgan.Data/releases/latest/download/DominicWatts-WH40K11e.zip` resolves to the new asset.
