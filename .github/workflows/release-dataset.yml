@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Check out tagged source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Install .NET 10 SDK
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v6
         with:
           dotnet-version: 10.0.x
 
@@ -44,8 +44,8 @@ jobs:
           fi
 
           awk -v heading="## $archive_version" '
-            $0 == heading { found = 1 }
-            found && /^## / && $0 != heading { exit }
+            index($0, heading) == 1 { found = 1 }
+            found && /^## / && index($0, heading) != 1 { exit }
             found { print }
           ' CHANGELOG.md > release-notes.md
 
