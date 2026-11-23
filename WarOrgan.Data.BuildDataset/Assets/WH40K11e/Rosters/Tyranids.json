@@ -140,7 +140,6 @@
         "UnitNames": [
           "GARGOYLES"
         ],
-        "Description": "This model can be attached to the following unit:\n- GARGOYLES",
         "Features": 0,
         "Abilities": [
           {
@@ -764,7 +763,6 @@
         "UnitNames": [
           "RAVENERS"
         ],
-        "Description": "This unit can be attached to the following unit:\n- RAVENERS",
         "Features": 0,
         "Abilities": [
           {
