@@ -1,5 +1,6 @@
 # Dataset changelog
 
+2026-11-23 : 1.4.4.0 - The Vanguard Tyrant enhancement now applies +1 Strength and improved AP to the Winged Hive Tyrant's melee weapons.
 2026-11-23 : 1.4.3.0 - Added the Cadian, Catachan and Krieg Command Squads with fixed specialist loadouts, and cleaned BSData keyword markup from three GSC abilities.
 
 2026-11-23 : 1.4.2.0 - Expanded Brood Brother Auxilia with 15 verified Astra Militarum infantry and mounted datasheets.
