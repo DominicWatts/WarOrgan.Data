@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.3.1.0 - Added Gargoyles, Raveners, Hyperadapted Raveners, Lictor and Neurolictor as Tyranid allies, with the Winged Tyranid Prime now able to lead Gargoyles.
+
 2026-11-23 : 1.3.0.0 - Added Tyranid allies for Final Day, starting with the Winged Tyranid Prime, and the Allied Units heading.
 
 2026-11-23 : 1.2.2.0 - Added the Final Day detachment; its Tyranid-only enhancements await Tyranid allies.

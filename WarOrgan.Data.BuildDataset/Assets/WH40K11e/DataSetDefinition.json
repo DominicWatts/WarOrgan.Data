@@ -112,7 +112,7 @@
       "Description": "Apply the current Pistol weapon rule."
     },
     {
-      "Regex": "^Anti-(?:Vehicle|Infantry|Psyker) \\d\\+$",
+      "Regex": "^Anti-(?:Vehicle|Infantry|Psyker|Monster) \\d\\+$",
       "Description": "Apply the current Anti-keyword rule against the named target keyword using the value shown."
     },
     {
@@ -158,6 +158,10 @@
     {
       "Regex": "^Extra Attacks$",
       "Description": "Apply the current Extra Attacks weapon rule."
+    },
+    {
+      "Regex": "^Sustained Hits \\d+$",
+      "Description": "Apply the current Sustained Hits weapon rule."
     }
   ],
   "CoreStratagems": [],
