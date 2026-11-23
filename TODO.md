@@ -22,7 +22,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Acolyte Hybrids with Hand Flamers
 - [x] Acolyte Iconward
 - [x] Atalan Jackals
-- [ ] Benefictus
+- [x] Benefictus
 - [ ] Biophagus
 - [ ] Clamavus
 - [ ] Goliath Rockgrinder

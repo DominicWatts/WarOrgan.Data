@@ -2108,7 +2108,7 @@
           "Weapons": [
             {
               "Id": "psionic cascade - witchfire",
-              "DisplayName": "Psionic cascade - witchfire",
+              "DisplayName": "Psionic Cascade - witchfire",
               "Flags": "None",
               "Stats": [
                 {
@@ -2140,7 +2140,7 @@
             },
             {
               "Id": "psionic cascade - focused witchfire",
-              "DisplayName": "Psionic cascade - focused witchfire",
+              "DisplayName": "Psionic Cascade - focused witchfire",
               "Flags": "None",
               "Stats": [
                 {
