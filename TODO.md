@@ -29,7 +29,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Goliath Truck
 - [x] Hybrid Metamorphs
 - [x] Jackal Alphus
-- [ ] Kelermorph
+- [x] Kelermorph
 - [ ] Locus
 - [ ] Magus
 - [x] Neophyte Hybrids
