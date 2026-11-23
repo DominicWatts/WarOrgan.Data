@@ -54,7 +54,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 ## Blocked or needs app confirmation
 
 - [ ] Patriarch must be Warlord: `Flags: 2` is published but WarOrgan does not enforce it. Needs the app author's guidance or an app test with a flag-reading experiment.
-- [ ] Might From Beyond: confirm attached Purestrain Genestealers gain Devastating Wounds in WarOrgan.
+- [ ] Leader effects: confirm in WarOrgan that Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and that a Support character can join a unit alongside a Leader.
 - [ ] Find out whether WarOrgan can import a ZIP from a local file or a non-stable URL for pre-release testing.
 
 ## Tooling
