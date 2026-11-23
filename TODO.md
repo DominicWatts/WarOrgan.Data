@@ -2,6 +2,13 @@
 
 Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the same commit as the change.
 
+## 1.4.5.0 app test
+
+- [ ] Confirm all 51 eligible Astra Militarum datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
+- [ ] Check Characters, Battleline, Dedicated Transports and Other Datasheets are grouped correctly within the Astra Militarum roster.
+- [ ] Spot-check vehicle wargear and points, including Chimera, Sentinels, Leman Russ variants, Rogal Dorn variants and a super-heavy tank.
+- [ ] Confirm the Aegis Defence Line and Cyclops Demolition Vehicle load without weapon-selection errors.
+
 ## 1.4.3.0 app test
 
 - [ ] Confirm the Cadian, Catachan and Krieg Command Squads appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
@@ -65,7 +72,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Enable the matching dataset `Features` and battle-size limits
 - [x] Tyranid allies for Final Day: all 14 Vanguard Invader datasheets added (1.3.0 to 1.3.3)
 - [x] Show invulnerable save values on GSC units (1.3.4)
-- [ ] Astra Militarum allies for Brood Brother Auxilia: pilot Cadian Shock Troops in 1.4.0, then the other 50 current datasheets (Legends skipped)
+- [x] Astra Militarum allies for Brood Brother Auxilia: all 51 eligible current datasheets completed in 1.4.5 (Legends and AIRCRAFT skipped)
 - [x] 1.4.0: confirmed Cadian Shock Troops only appear with Brood Brother Auxilia, sit under Allied Units, cannot be Warlord, count toward the 50% cap, and that their weapon options work.
 - [x] Add the Allied Units category with the first allied roster
 
