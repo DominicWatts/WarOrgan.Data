@@ -43,6 +43,13 @@ public class WDetachment
 /// <summary>Reads Wahapedia 11th Edition datasheet and faction pages.</summary>
 public static class WahapediaPages
 {
+    // Datasheet headings that hold structure rather than an ability
+    private static readonly HashSet<string> StructuralHeaders = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "ABILITIES", "WARGEAR ABILITIES", "UNIT COMPOSITION", "STRATAGEMS", "DETACHMENT ABILITY", "MELEE WEAPONS", "RANGED WEAPONS",
+        "WARGEAR OPTIONS", "ENHANCEMENTS", "LEADER", "LED BY", "SUPPORT", "SUPPORTED BY",
+    };
+
     public static List<WDatasheet> ParseDatasheets(string html)
     {
         var document = new HtmlParser().ParseDocument(html);
@@ -111,8 +118,10 @@ public static class WahapediaPages
                     sheet.LeaderOf = content.SelectMany(c => c.QuerySelectorAll("li")).Select(Text).Where(t => t.Length > 0).ToList();
                     break;
                 default:
-                    if (header.StartsWith("DAMAGED", StringComparison.OrdinalIgnoreCase) || header.StartsWith("TRANSPORT", StringComparison.OrdinalIgnoreCase))
-                        sheet.Abilities[TitleCase(header)] = string.Join(" ", content.Select(Text));
+                    // Any other heading is an ability shown as its own section, such as SUPREME COMMANDER,
+                    // HUNTER ORGANISM, TRANSPORT or DAMAGED: 1-4 WOUNDS REMAINING
+                    if (!StructuralHeaders.Contains(header))
+                        sheet.Abilities[TitleCase(header)] = StripNotes(string.Join(" ", content.Select(Text)));
                     break;
             }
         }
