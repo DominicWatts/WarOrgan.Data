@@ -1,5 +1,5 @@
 {
-  "Features": "None",
+  "Features": "ArmyRules, Detachments, Stratagems, Enhancements",
   "Factions": [
     {
       "Name": "Genestealer Cults",
@@ -134,22 +134,22 @@
     {
       "Name": "Incursion",
       "PointsTotal": 1000,
-      "DetachmentPoints": 0,
-      "EnhancementLimit": 0,
+      "DetachmentPoints": 2,
+      "EnhancementLimit": 2,
       "UnitLimit": 0
     },
     {
       "Name": "Strike Force",
       "PointsTotal": 2000,
-      "DetachmentPoints": 0,
-      "EnhancementLimit": 0,
+      "DetachmentPoints": 3,
+      "EnhancementLimit": 4,
       "UnitLimit": 0
     },
     {
       "Name": "Onslaught",
       "PointsTotal": 3000,
-      "DetachmentPoints": 0,
-      "EnhancementLimit": 0,
+      "DetachmentPoints": 3,
+      "EnhancementLimit": 4,
       "UnitLimit": 0
     }
   ],

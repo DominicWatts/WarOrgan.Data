@@ -43,17 +43,20 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 
 ## Genestealer Cults rules content
 
-- [ ] Army rule (Cult Ambush)
-- [ ] Nine detachments and their Force Dispositions
+- [x] Army rule (Cult Ambush)
+- [ ] Nine detachments and their Force Dispositions (Heroes of the Uprising done)
+- [ ] Core stratagems (Command Re-roll, Fire Overwatch and so on) in `DataSetDefinition.json`
+- [ ] Unit limits per battle size, once the app's handling of the Battleline and Dedicated Transport doubling is known
 - [ ] Enhancements
 - [ ] Stratagems
-- [ ] Enable the matching dataset `Features` and battle-size limits
+- [x] Enable the matching dataset `Features` and battle-size limits
 - [ ] Brood Brothers and Tyranid allies with detachment inclusion rules
 - [ ] Add the Allied Units category with the first allied roster
 
 ## Blocked or needs app confirmation
 
 - [ ] Patriarch must be Warlord: `Flags: 2` is published but WarOrgan does not enforce it. Needs the app author's guidance or an app test with a flag-reading experiment.
+- [ ] Heroes of the Uprising: confirm in WarOrgan that the detachment, its stratagems and enhancements appear, KILLER shows on the four units, and the enhancements change weapon profiles.
 - [ ] Leader effects: confirm in WarOrgan that Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and that a Support character can join a unit alongside a Leader.
 - [ ] Find out whether WarOrgan can import a ZIP from a local file or a non-stable URL for pre-release testing.
 

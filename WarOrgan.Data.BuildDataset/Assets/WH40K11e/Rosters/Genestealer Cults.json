@@ -6241,6 +6241,116 @@
       ]
     }
   ],
-  "Detachments": [],
-  "ArmyRules": []
+  "Detachments": [
+    {
+      "Name": "Heroes of the Uprising",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Killer Reputation",
+        "Text": "- Friendly KELERMORPH, LOCUS, REDUCTUS SABOTEUR and SANCTUS models have KILLER.\n- Friendly KILLER models' attacks can re-roll hit rolls of 1 and re-roll wound rolls of 1."
+      },
+      "Stratagems": [
+        {
+          "Name": "Living Up to Legend",
+          "Category": "Heroes of the Uprising Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase, when a friendly KILLER unit has attacked, if those attacks destroyed an enemy unit or an enemy CHARACTER model.",
+          "Target": "That KILLER unit.",
+          "Effect": "Each visible friendly battle-shocked GENESTEALER CULTS unit within 12\" of your unit is no longer battle-shocked."
+        },
+        {
+          "Name": "Surging Broodworship",
+          "Category": "Heroes of the Uprising Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase, when a friendly KILLER unit is selected to attack.",
+          "Target": "That KILLER unit.",
+          "Effect": "Attacks made by KILLER models in your unit have [DEVASTATING WOUNDS]."
+        },
+        {
+          "Name": "Loyal to the End",
+          "Category": "Heroes of the Uprising Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly KILLER unit.",
+          "Target": "That KILLER unit.",
+          "Effect": "When a KILLER model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\n- On a 1, that enemy unit suffers 1 mortal wound.\n- On a 2+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Gene-Tailored Toxins",
+          "Description": "LOCUS/SANCTUS model only. This model's attacks have +1 D.",
+          "Cost": 35,
+          "Features": "None",
+          "WeaponStatAdjustments": [
+            {
+              "Value": "1",
+              "Type": "Add",
+              "Scope": "Model",
+              "TargetStatId": "D"
+            }
+          ],
+          "RequiredOneOfKeywords": [
+            "Locus",
+            "Sanctus"
+          ]
+        },
+        {
+          "Name": "Contraband Munitions",
+          "Description": "KELERMORPH/REDUCTUS SABOTEUR model only. This unit's ranged attacks have +2 S.",
+          "Cost": 20,
+          "Features": "None",
+          "WeaponStatAdjustments": [
+            {
+              "Value": "2",
+              "Type": "Add",
+              "Scope": "Unit",
+              "TargetStatId": "S",
+              "WeaponSetId": "RANGED WEAPONS"
+            }
+          ],
+          "RequiredOneOfKeywords": [
+            "Kelermorph",
+            "Reductus Saboteur"
+          ]
+        }
+      ],
+      "Effects": [
+        {
+          "AffectedUnits": [
+            "KELERMORPH",
+            "LOCUS",
+            "REDUCTUS SABOTEUR",
+            "SANCTUS"
+          ],
+          "DatasheetAdjustments": [
+            {
+              "Target": "Keywords",
+              "Type": "Add",
+              "Scope": "Unit",
+              "Values": [
+                "Killer"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ArmyRules": [
+    {
+      "Title": "Cult Ambush",
+      "Text": "If your Army Faction is GENESTEALER CULTS, you start the battle with a number of Resurgence points, depending on the battle size:\n\n- Incursion: 6 Resurgence points\n- Strike Force: 10 Resurgence points\n- Onslaught: 14 Resurgence points\n\nEach time a unit from your army is destroyed, if every model (excluding CHARACTER models) in that unit has this ability, you can spend the relevant number of Resurgence points shown below based on that unit's Starting Strength (not including attached CHARACTER models).\n\n- Aberrants: 5 models 4 points; 10 models 8 points\n- Acolyte Hybrids with Autopistols, Acolyte Hybrids with Hand Flamers, Hybrid Metamorphs: 5 models 2 points; 10 models 4 points\n- Atalan Jackals: 5 models 2 points; 10 models 6 points\n- Neophyte Hybrids: 10 models 3 points; 20 models 6 points\n- Purestrain Genestealers: 5 models 2 points; 10 models 6 points\n\nIf you do:\n\n- Add a new unit to your army identical to your destroyed unit (excluding CHARACTER models), in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any [ONE SHOT] weapons those models are equipped with considered as not having been shot.\n- Place one Cult Ambush marker anywhere on the battlefield that is more than 8\" horizontally away from all enemy units (if this is not possible, no marker is placed)."
+    },
+    {
+      "Title": "Units in Cult Ambush",
+      "Text": "Cult Ambush is a type of Strategic Reserves. Units in Cult Ambush cannot be targeted with the Rapid Ingress Stratagem, but can be set up on the battlefield using a Cult Ambush marker, or by following the rules for Strategic Reserves in a subsequent turn. Units in Cult Ambush are not automatically destroyed at the end of the third battle round."
+    },
+    {
+      "Title": "Cult Ambush Markers",
+      "Text": "Use a circular 32mm diameter marker for Cult Ambush markers. If an enemy model (excluding AIRCRAFT) ends any kind of move within 8\" of a Cult Ambush marker you placed, that Cult Ambush marker is removed from the battlefield.\n\nAt the end of your opponent's next Movement phase, for each of your Cult Ambush markers still on the battlefield, you can select one unit from your army that is in Cult Ambush to make an ingress move. For that ingress move, set that unit up with at least one model in that unit in base contact with that Cult Ambush marker and all other models placed wholly within 3\" of that Cult Ambush marker (that Cult Ambush marker is then removed from the battlefield). Units in Cult Ambush can make an ingress move in the first battle round using this rule."
+    }
+  ]
 }
