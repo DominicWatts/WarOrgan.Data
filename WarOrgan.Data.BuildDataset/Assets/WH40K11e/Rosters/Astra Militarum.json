@@ -1,0 +1,604 @@
+{
+  "Name": "Astra Militarum",
+  "Units": [
+    {
+      "Id": "CADIAN SHOCK TROOPS",
+      "DisplayName": "Cadian Shock Troops",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Shock Trooper Sergeant",
+            "StatlineRef": "Cadian Shock Troops",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "laspistol",
+                  "chainsword"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "laspistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "bolt pistol"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "laspistol",
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "sergeant's autogun",
+                          "close combat weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 18
+            },
+            "ModelName": "Shock Trooper",
+            "StatlineRef": "Cadian Shock Troops",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lasgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "grenade launcher - frag",
+                          "grenade launcher - krak"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma gun - standard",
+                          "plasma gun - supercharge"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "vox-caster"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "vox-caster",
+            "DisplayName": "Vox-caster",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Vox-caster"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Shock Troops",
+          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "Title": "Vox-caster",
+          "Text": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit composition",
+          "Text": "1 Shock Trooper Sergeant and 9 Shock Troopers, or 2 Shock Trooper Sergeants and 18 Shock Troopers.\n\nFor every 10 models, up to 2 Shock Troopers can replace their lasgun with a flamer, grenade launcher, meltagun or plasma gun. You cannot select the same weapon more than once per unit unless it contains 20 models, in which case you cannot select the same weapon more than twice.\n\nThis unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        }
+      ],
+      "Keywords": [
+        "Cadian Shock Troops",
+        "Infantry",
+        "Battleline",
+        "Imperium",
+        "Grenades",
+        "Regiment",
+        "Platoon"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Cadian Shock Troops",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Pistol"
+            },
+            {
+              "Id": "flamer",
+              "DisplayName": "Flamer",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Ignores Cover, Torrent"
+            },
+            {
+              "Id": "grenade launcher - frag",
+              "DisplayName": "Grenade launcher - frag",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast"
+            },
+            {
+              "Id": "grenade launcher - krak",
+              "DisplayName": "Grenade launcher - krak",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "lasgun",
+              "DisplayName": "Lasgun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rapid Fire 1"
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Pistol"
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ],
+              "Keywords": "Melta 2"
+            },
+            {
+              "Id": "plasma gun - standard",
+              "DisplayName": "Plasma gun - standard",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Rapid Fire 1"
+            },
+            {
+              "Id": "plasma gun - supercharge",
+              "DisplayName": "Plasma gun - supercharge",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Hazardous, Rapid Fire 1"
+            },
+            {
+              "Id": "sergeant's autogun",
+              "DisplayName": "Sergeant's autogun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 70
+        },
+        {
+          "ModelCount": 20,
+          "Cost": 145
+        }
+      ]
+    }
+  ],
+  "Detachments": [],
+  "ArmyRules": []
+}
