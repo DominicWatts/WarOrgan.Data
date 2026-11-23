@@ -6888,13 +6888,24 @@
             "PRIMUS",
             "ACOLYTE ICONWARD"
           ],
-          "DatasheetAdjustments": [
+          "AddedAbilities": [
             {
-              "Target": "CoreAbilities",
-              "Type": "Add",
-              "Scope": "ModelWhileLeading",
-              "Values": [
-                "Feel No Pain 3+"
+              "Title": "Unquestioning Fanaticism",
+              "Text": "While this model is leading an ACOLYTE HYBRIDS, HYBRID METAMORPHS or NEOPHYTE HYBRIDS unit, it has the Feel No Pain 3+ ability."
+            }
+          ],
+          "AddedLeaderAbilityRefs": [
+            {
+              "AbilityId": "Unquestioning Fanaticism",
+              "DatasheetAdjustments": [
+                {
+                  "Target": "CoreAbilities",
+                  "Type": "Add",
+                  "Scope": "ModelWhileLeading",
+                  "Values": [
+                    "Feel No Pain 3+"
+                  ]
+                }
               ]
             }
           ]
