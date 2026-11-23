@@ -734,25 +734,19 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "autopistol"
+                  "autopistol",
+                  "cult claws and knife"
                 ],
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "cult claws and knife"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "leader's bio-weapons"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "cult claws and knife"
                         ]
                       }
                     ]
@@ -763,10 +757,10 @@
           },
           {
             "Limit": {
-              "Min": 0,
+              "Min": 4,
               "Max": 9
             },
-            "ModelName": "Acolyte Hybrid w/ Auto Pistol",
+            "ModelName": "Acolyte Hybrid",
             "StatlineRef": "Acolyte Hybrids with Autopistols",
             "Keywords": [],
             "Wargear": [
@@ -775,42 +769,36 @@
                   "autopistol",
                   "cult claws and knife"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Acolyte Hybrid w/ Cult Icon",
-            "StatlineRef": "Acolyte Hybrids with Autopistols",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "cult claws and knife",
-                  "cult icon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 6
-            },
-            "ModelName": "Acolyte Hybrid w/ Heavy Mining Tool",
-            "StatlineRef": "Acolyte Hybrids with Autopistols",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "heavy mining tool"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "autopistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "cult icon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "autopistol",
+                      "cult claws and knife"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy mining tool"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -829,11 +817,11 @@
       "UnitAbilities": [
         {
           "Title": "Claimed for the Cult",
-          "Text": "At the start of your Command phase, roll one D6 for each objective marker that you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
+          "Text": "At the start of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
         },
         {
           "Title": "Cult Icon",
-          "Text": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped with by returned models that were shot before they were destroyed are still considered to have been shot."
+          "Text": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
         }
       ],
       "Infos": [],
@@ -1540,26 +1528,7 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Atalan Jackal w/ Grenade launcher",
-            "StatlineRef": "Atalan Jackals",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "➤ grenade launcher - frag",
-                  "➤ grenade launcher - krak",
-                  "close combat weapon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 1,
+              "Min": 4,
               "Max": 8
             },
             "ModelName": "Atalan Jackal",
@@ -1568,47 +1537,40 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "close combat weapon",
-                  "atalan small arms"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 2
-            },
-            "ModelName": "Atalan Jackal w/ Atalan power weapon",
-            "StatlineRef": "Atalan Jackals",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
                   "atalan small arms",
-                  "atalan power weapon"
+                  "close combat weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Atalan Jackal w/ Grenade launcher & power weapon",
-            "StatlineRef": "Atalan Jackals",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "➤ grenade launcher - frag",
-                  "➤ grenade launcher - krak",
-                  "atalan power weapon"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 2,
+                    "PerXModels": 4,
+                    "Replaces": [
+                      "close combat weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "atalan power weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 4,
+                    "Replaces": [
+                      "atalan small arms"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "➤ grenade launcher - frag",
+                          "➤ grenade launcher - krak"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1623,35 +1585,27 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "close combat weapon",
                   "atalan small arms",
-                  "heavy stubber"
+                  "heavy stubber",
+                  "close combat weapon"
                 ],
                 "Options": [
                   {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "mining laser"
-                        ]
-                      }
-                    ],
+                    "Max": 2,
                     "Replaces": [
                       "heavy stubber"
-                    ]
-                  },
-                  {
-                    "Max": 1,
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "atalan incinerator"
                         ]
+                      },
+                      {
+                        "Items": [
+                          "mining laser"
+                        ]
                       }
-                    ],
-                    "Replaces": [
-                      "heavy stubber"
                     ]
                   }
                 ]
@@ -1668,7 +1622,7 @@
         },
         {
           "Title": "Demolition Run",
-          "Text": "Once per battle round, in your Movement phase, when this unit ends a Normal, Advance, or Fall Back move, you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each ATALAN JACKALS model in this unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds.)"
+          "Text": "Once per turn, in your Movement phase, when this unit ends a Normal, Advance or Fall Back move, you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each ATALAN JACKALS model in this unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         }
       ],
       "Infos": [],
@@ -1716,7 +1670,7 @@
             },
             {
               "Id": "Base",
-              "Value": "60x35.5, 60"
+              "Value": "60x35.5"
             }
           ],
           "Features": "None"
@@ -1750,7 +1704,7 @@
             },
             {
               "Id": "Base",
-              "Value": "60x35.5, 60"
+              "Value": "60"
             }
           ],
           "Features": "None"
@@ -2031,6 +1985,11 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 9,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 10,
           "Cost": 150
         },
@@ -2041,6 +2000,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 9,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 150
         },
@@ -2048,6 +2012,11 @@
           "UnitCount": 3,
           "ModelCount": 5,
           "Cost": 95
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 9,
+          "Cost": 160
         },
         {
           "UnitCount": 3,
@@ -3297,21 +3266,15 @@
             "Wargear": [
               {
                 "InitialWargear": [
+                  "autopistol",
                   "leader's bio-weapons"
                 ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "autopistol"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
+                    "Replaces": [
+                      "autopistol"
+                    ],
                     "Options": [
                       {
                         "Items": [
@@ -3326,58 +3289,47 @@
           },
           {
             "Limit": {
-              "Min": 0,
+              "Min": 4,
               "Max": 9
             },
-            "ModelName": "Hybrid Metamorph w/ Autopistol",
+            "ModelName": "Hybrid Metamorph",
             "StatlineRef": "Hybrid Metamorphs",
             "Keywords": [],
             "Wargear": [
               {
                 "InitialWargear": [
-                  "➤ metamorph mutations - strike",
-                  "➤ metamorph mutations - sweep",
-                  "autopistol"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Hybrid Metamorph w/ Cult Icon",
-            "StatlineRef": "Hybrid Metamorphs",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "➤ metamorph mutations - strike",
-                  "➤ metamorph mutations - sweep",
-                  "cult icon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 9
-            },
-            "ModelName": "Hybrid Metamorph w/ Hand Flamer",
-            "StatlineRef": "Hybrid Metamorphs",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "hand flamer",
+                  "autopistol",
                   "➤ metamorph mutations - strike",
                   "➤ metamorph mutations - sweep"
                 ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "autopistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "autopistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "cult icon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -3400,7 +3352,7 @@
         },
         {
           "Title": "Cult Icon",
-          "Text": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped with by returned models that were shot before they were destroyed are still considered to have been shot."
+          "Text": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
         }
       ],
       "Infos": [],
@@ -4405,36 +4357,23 @@
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "hybrid firearm",
+                      "close combat weapon"
+                    ],
                     "Options": [
                       {
                         "Items": [
-                          "power weapon",
                           "anointed pistol",
-                          "autopistol"
+                          "chainsword"
                         ]
-                      }
-                    ],
-                    "Replaces": [
-                      "hybrid firearm",
-                      "close combat weapon",
-                      "autopistol"
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
+                      },
                       {
                         "Items": [
-                          "chainsword",
                           "anointed pistol",
-                          "autopistol"
+                          "power weapon"
                         ]
                       }
-                    ],
-                    "Replaces": [
-                      "hybrid firearm",
-                      "close combat weapon",
-                      "autopistol"
                     ]
                   }
                 ]
@@ -4443,54 +4382,16 @@
           },
           {
             "Limit": {
-              "Min": 4,
+              "Min": 9,
               "Max": 19
             },
-            "ModelName": "Neophyte Hybrid w/ Hybrid Firearm",
+            "ModelName": "Neophyte Hybrid",
             "StatlineRef": "Neophyte Hybrids",
             "Keywords": [],
             "Wargear": [
               {
                 "InitialWargear": [
                   "hybrid firearm",
-                  "autopistol",
-                  "close combat weapon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Neophyte Hybrid w/ Hybrid Firearm & Cult Icon",
-            "StatlineRef": "Neophyte Hybrids",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "hybrid firearm",
-                  "autopistol",
-                  "close combat weapon",
-                  "cult icon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 4
-            },
-            "ModelName": "Neophyte Hybrid w/ Heavy Weapon",
-            "StatlineRef": "Neophyte Hybrids",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
                   "close combat weapon",
                   "autopistol"
                 ],
@@ -4500,77 +4401,73 @@
                     "Options": [
                       {
                         "Items": [
-                          "mining laser"
+                          "cult icon"
                         ]
                       }
-                    ],
-                    "PerXModels": 10
+                    ]
                   },
                   {
                     "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "seismic cannon"
-                        ]
-                      }
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
                     ],
-                    "PerXModels": 10
-                  },
-                  {
-                    "Max": 1,
                     "Options": [
                       {
                         "Items": [
                           "heavy stubber"
                         ]
                       }
-                    ],
-                    "PerXModels": 10
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 4
-            },
-            "ModelName": "Neophyte Hybrid w/ Special Weapon",
-            "StatlineRef": "Neophyte Hybrids",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "autopistol",
-                  "close combat weapon"
-                ],
-                "Options": [
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "webber"
-                        ]
-                      }
-                    ],
-                    "PerXModels": 10
+                    ]
                   },
                   {
                     "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "mining laser"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "seismic cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "flamer"
                         ]
                       }
-                    ],
-                    "PerXModels": 10
+                    ]
                   },
                   {
                     "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
+                    ],
                     "Options": [
                       {
                         "Items": [
@@ -4578,8 +4475,21 @@
                           "➤ grenade launcher - krak"
                         ]
                       }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "hybrid firearm"
                     ],
-                    "PerXModels": 10
+                    "Options": [
+                      {
+                        "Items": [
+                          "webber"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -4600,11 +4510,11 @@
       "UnitAbilities": [
         {
           "Title": "A Plan Generations in the Making",
-          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "Title": "Cult Icon",
-          "Text": "In your Command phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped with by returned models that were shot before they were destroyed are still considered to have been shot."
+          "Text": "In your Command phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
         }
       ],
       "Infos": [],
@@ -4693,38 +4603,6 @@
                 }
               ],
               "Keywords": "Rapid Fire 1"
-            },
-            {
-              "Id": "autopistol",
-              "DisplayName": "Autopistol",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "12\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "1"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "3+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "3"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "0"
-                },
-                {
-                  "Id": "D",
-                  "Value": "1"
-                }
-              ],
-              "Keywords": "Pistol"
             },
             {
               "Id": "anointed pistol",
