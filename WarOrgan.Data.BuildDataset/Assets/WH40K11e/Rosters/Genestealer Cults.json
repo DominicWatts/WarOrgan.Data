@@ -6245,6 +6245,9 @@
     {
       "Name": "Heroes of the Uprising",
       "Cost": 1,
+      "ForceDispositions": [
+        "Disruption"
+      ],
       "Rule": {
         "Title": "Killer Reputation",
         "Text": "- Friendly KELERMORPH, LOCUS, REDUCTUS SABOTEUR and SANCTUS models have KILLER.\n- Friendly KILLER models' attacks can re-roll hit rolls of 1 and re-roll wound rolls of 1."

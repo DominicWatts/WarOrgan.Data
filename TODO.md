@@ -44,7 +44,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 ## Genestealer Cults rules content
 
 - [x] Army rule (Cult Ambush)
-- [ ] Nine detachments and their Force Dispositions (Heroes of the Uprising done)
+- [ ] Nine detachments and their Force Dispositions (Heroes of the Uprising done, with Disruption)
 - [ ] Core stratagems (Command Re-roll, Fire Overwatch and so on) in `DataSetDefinition.json`
 - [ ] Unit limits per battle size, once the app's handling of the Battleline and Dedicated Transport doubling is known
 - [ ] Enhancements

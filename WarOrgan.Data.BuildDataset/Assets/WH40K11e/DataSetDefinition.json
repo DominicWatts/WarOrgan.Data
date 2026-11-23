@@ -1,5 +1,5 @@
 {
-  "Features": "ArmyRules, Detachments, Stratagems, Enhancements",
+  "Features": "ArmyRules, Detachments, Stratagems, Enhancements, Dispositions",
   "Factions": [
     {
       "Name": "Genestealer Cults",
