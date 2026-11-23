@@ -76,7 +76,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 
 ## Tooling
 
-- [ ] Add repeatable source-comparison checks for names, model counts and points
+- [x] Add repeatable source-comparison checks for names, model counts and points (`WarOrgan.Data.BsdataImport`, `WarOrgan.Data.WahapediaCheck`)
 - [ ] Add builder validation for duplicate weapon IDs within a unit
 
 ## Later

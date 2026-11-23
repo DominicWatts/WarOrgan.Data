@@ -11,7 +11,7 @@ public static class TextUtils
         if (string.IsNullOrWhiteSpace(text))
             return string.Empty;
 
-        var result = text.Replace(' ', ' ').Replace("\r\n", "\n");
+        var result = text.Replace('\u00a0', ' ').Replace("\r\n", "\n");
         result = Regex.Replace(result, @"\*\*\^\^(.+?)\^\^\*\*", m => m.Groups[1].Value.ToUpperInvariant());
         result = Regex.Replace(result, @"\^\^(.+?)\^\^", m => m.Groups[1].Value.ToUpperInvariant());
         result = Regex.Replace(result, @"^■\s*", "- ", RegexOptions.Multiline);
@@ -39,7 +39,7 @@ public static class TextUtils
     {
         var parts = keywords.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
             .Where(k => k != "-")
-            .Select(k => k.Replace(' ', ' '))
+            .Select(k => k.Replace('\u00a0', ' '))
             .OrderBy(k => k, StringComparer.OrdinalIgnoreCase);
         return string.Join(", ", parts);
     }
