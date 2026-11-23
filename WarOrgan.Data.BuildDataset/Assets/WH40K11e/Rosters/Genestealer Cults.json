@@ -409,6 +409,16 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Flare launcher"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "Keywords",
+                "Type": "Add",
+                "Scope": "Unit",
+                "Values": [
+                  "Smoke"
+                ]
+              }
             ]
           },
           {
@@ -417,6 +427,15 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Spotter"
+            ],
+            "WeaponAdjustments": [
+              {
+                "Value": "3+",
+                "Type": "Set",
+                "Scope": "Model",
+                "TargetStatId": "BS",
+                "WeaponSetId": "RANGED WEAPONS"
+              }
             ]
           },
           {
