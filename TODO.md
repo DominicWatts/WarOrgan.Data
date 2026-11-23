@@ -33,7 +33,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Locus
 - [x] Magus
 - [x] Neophyte Hybrids
-- [ ] Nexos
+- [x] Nexos
 - [ ] Patriarch
 - [ ] Primus
 - [ ] Purestrain Genestealers
