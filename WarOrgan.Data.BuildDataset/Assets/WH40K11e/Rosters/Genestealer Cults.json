@@ -6340,6 +6340,94 @@
           ]
         }
       ]
+    },
+    {
+      "Name": "Purestrain Broodswarm",
+      "Cost": 1,
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Rule": {
+        "Title": "Enemy Within",
+        "Text": "At the end of your opponent's Fight phase, friendly unengaged PURESTRAIN GENESTEALERS units can be placed in strategic reserves.",
+        "Restrictions": "This detachment has the PURESTRAIN tag and cannot be taken with another PURESTRAIN detachment."
+      },
+      "Tags": [
+        "Purestrain"
+      ],
+      "Stratagems": [
+        {
+          "Name": "Lurk and Strike",
+          "Category": "Purestrain Broodswarm Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly PURESTRAIN GENESTEALERS unit is selected to make a fall-back move.",
+          "Target": "That PURESTRAIN GENESTEALERS unit.",
+          "Effect": "That move does not prevent your unit from being eligible to declare a charge."
+        },
+        {
+          "Name": "Crawling Horror",
+          "Category": "Purestrain Broodswarm Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Start of your opponent's Movement phase.",
+          "Target": "One friendly PURESTRAIN GENESTEALERS unit.",
+          "Effect": "Your unit has -6\" detection range until the end of the turn."
+        },
+        {
+          "Name": "Inhuman Reactions",
+          "Category": "Purestrain Broodswarm Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent's Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged PURESTRAIN GENESTEALERS unit.",
+          "Target": "That PURESTRAIN GENESTEALERS unit.",
+          "Effect": "Your unit can make a normal move of up to D3+3\"."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Mark of the Star Children",
+          "Description": "Upgrade. PURESTRAIN GENESTEALERS unit only. This unit has:\n- +1 T.\n- 4+ Sv.\n- This unit's melee attacks have +1 S.",
+          "Cost": 30,
+          "Features": "Upgrade",
+          "StatAdjustments": [
+            {
+              "TargetStatId": "T",
+              "Type": "Add",
+              "Scope": "Unit",
+              "Value": "1"
+            },
+            {
+              "TargetStatId": "Sv",
+              "Type": "Set",
+              "Scope": "Unit",
+              "Value": "4+"
+            }
+          ],
+          "WeaponStatAdjustments": [
+            {
+              "Value": "1",
+              "Type": "Add",
+              "Scope": "Unit",
+              "TargetStatId": "S",
+              "WeaponSetId": "MELEE WEAPONS"
+            }
+          ],
+          "RequiredKeywords": [
+            "Purestrain Genestealers"
+          ]
+        },
+        {
+          "Name": "Talons of the Sire",
+          "Description": "PATRIARCH model only. This unit's attacks can re-roll wound rolls of 1.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredKeywords": [
+            "Patriarch"
+          ]
+        }
+      ],
+      "Effects": []
     }
   ],
   "ArmyRules": [
