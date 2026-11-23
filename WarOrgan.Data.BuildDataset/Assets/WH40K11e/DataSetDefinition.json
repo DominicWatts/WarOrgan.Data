@@ -149,5 +149,22 @@
       "UnitLimit": 0
     }
   ],
-  "CategoryKeywords": []
+  "CategoryKeywords": [
+    {
+      "Keyword": "Character",
+      "CategoryDisplayName": "Characters"
+    },
+    {
+      "Keyword": "Battleline",
+      "CategoryDisplayName": "Battleline"
+    },
+    {
+      "Keyword": "Dedicated Transport",
+      "CategoryDisplayName": "Dedicated Transports"
+    },
+    {
+      "Keyword": "Other Datasheets",
+      "CategoryDisplayName": "Other Datasheets"
+    }
+  ]
 }

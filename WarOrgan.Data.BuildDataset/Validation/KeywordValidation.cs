@@ -8,7 +8,8 @@ public static class KeywordValidation
 {
     public static void ValidateCategoryKeywords(this DataSetDefinition definition, IEnumerable<Unit> units)
     {
-        var keywords = units
+        var unitList = units.ToList();
+        var keywords = unitList
             .SelectMany(unit => unit.Keywords.Concat(
                 unit.UnitComposition.ModelCompositions.SelectMany(model => model.Keywords)))
             .ToHashSet(StringComparer.Ordinal);
@@ -16,6 +17,21 @@ public static class KeywordValidation
         foreach (var category in definition.CategoryKeywords)
             if (!keywords.Contains(category.Keyword))
                 LoggingBuffer.Error($"Category keyword '{category.Keyword}' does not match any unit.");
+
+        if (!definition.CategoryKeywords.Any())
+            return;
+
+        foreach (var unit in unitList)
+        {
+            var unitKeywords = unit.Keywords.Concat(
+                unit.UnitComposition.ModelCompositions.SelectMany(model => model.Keywords));
+            var matches = definition.CategoryKeywords
+                .Where(category => unitKeywords.Contains(category.Keyword, StringComparer.Ordinal))
+                .ToList();
+
+            if (matches.Count != 1)
+                LoggingBuffer.Error($"{unit.Id}: expected exactly one category keyword, found {matches.Count}.");
+        }
     }
 
     public static void ValidateModelKeywords(this Unit unit, string rosterName)
