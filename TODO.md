@@ -38,7 +38,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Primus
 - [x] Purestrain Genestealers
 - [x] Reductus Saboteur
-- [ ] Sanctus
+- [x] Sanctus
 - [ ] Tectonic Fragdrill
 
 ## Genestealer Cults rules content
