@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.1.5.0
+## Coverage in 1.1.6.0
 
 - Genestealer Cults: all 25 native datasheets.
 - Unit and weapon profiles, model compositions, abilities and points tiers.

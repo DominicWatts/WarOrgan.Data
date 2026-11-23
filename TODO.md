@@ -15,12 +15,12 @@ Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the 
 
 Compare each datasheet line by line with Wahapedia: statline, weapons, abilities, unit composition, wargear options, points, keywords, Led By and Supported By. Release in small batches of about five units so each app test stays short.
 
-- [ ] Aberrants
-- [ ] Abominant
-- [ ] Achilles Ridgerunners
+- [x] Aberrants
+- [x] Abominant
+- [x] Achilles Ridgerunners
 - [x] Acolyte Hybrids with Autopistols
-- [ ] Acolyte Hybrids with Hand Flamers
-- [ ] Acolyte Iconward
+- [x] Acolyte Hybrids with Hand Flamers
+- [x] Acolyte Iconward
 - [x] Atalan Jackals
 - [ ] Benefictus
 - [ ] Biophagus
