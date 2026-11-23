@@ -2,12 +2,17 @@
 
 Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the same commit as the change.
 
+## 1.4.6.0 app test
+
+- [x] Confirm each Heavy Weapons Squad and Field Ordnance Battery model offers one mutually exclusive weapon swap.
+- [x] Confirm Krieg Heavy Weapons Squads start with lascannons and can replace them with heavy flamers or twin heavy stubbers.
+
 ## 1.4.5.0 app test
 
-- [ ] Confirm all 51 eligible Astra Militarum datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
-- [ ] Check Characters, Battleline, Dedicated Transports and Other Datasheets are grouped correctly within the Astra Militarum roster.
-- [ ] Spot-check vehicle wargear and points, including Chimera, Sentinels, Leman Russ variants, Rogal Dorn variants and a super-heavy tank.
-- [ ] Confirm the Aegis Defence Line and Cyclops Demolition Vehicle load without weapon-selection errors.
+- [x] Confirm all 51 eligible Astra Militarum datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
+- [x] Check Characters, Battleline, Dedicated Transports and Other Datasheets are grouped correctly within the Astra Militarum roster.
+- [x] Spot-check vehicle wargear and points, including Chimera, Sentinels, Leman Russ variants, Rogal Dorn variants and a super-heavy tank.
+- [x] Confirm the Aegis Defence Line and Cyclops Demolition Vehicle load without weapon-selection errors.
 
 ## 1.4.3.0 app test
 
