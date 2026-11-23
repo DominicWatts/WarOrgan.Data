@@ -3,6 +3,16 @@
 The data model and tools for building datasets for WarOrgan, with an example dataset to help you get started.
 We recommend forking this repository to create and maintain your own dataset. Keep your fork updated with upstream changes to receive updates to the shared model and build tools.
 
+## This fork
+
+This fork maintains an unofficial Warhammer 40,000 11th Edition dataset for personal and community use. Development is deliberately data-only: the supplied WarOrgan model, builder and validation mechanism remain unchanged.
+
+- Current coverage: Genestealer Cults native datasheets and points.
+- Dataset ID: `DominicWatts-WH40K11e` (kept stable for saved-list compatibility).
+- Release history and outstanding work: [CHANGELOG.md](CHANGELOG.md).
+- Dataset sources and limitations: [WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md](WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md).
+- Published builds: [GitHub Releases](https://github.com/DominicWatts/WarOrgan.Data/releases). Download the attached ZIP and import it directly into WarOrgan without extracting it.
+
 ## What's included
 
 - **WarOrgan.Data.Model** — the data model shared with the WarOrgan app.

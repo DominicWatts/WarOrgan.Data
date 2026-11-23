@@ -1,0 +1,153 @@
+{
+  "Features": "None",
+  "Factions": [
+    {
+      "Name": "Genestealer Cults",
+      "FactionKeyword": "Genestealer Cults",
+      "Category": "Xenos",
+      "MainColor": "#512A63",
+      "DarkColor": "#9B6BAA"
+    }
+  ],
+  "CoreAbilities": [
+    {
+      "Regex": "^Deep Strike$",
+      "Description": "This unit can be set up using the current Deep Strike core rules."
+    },
+    {
+      "Regex": "^Feel No Pain$",
+      "Description": "This unit has a Feel No Pain ability; see its datasheet for the required roll."
+    },
+    {
+      "Regex": "^Leader$",
+      "Description": "This unit can attach to eligible units listed on its datasheet."
+    },
+    {
+      "Regex": "^Deadly Demise(?: D3)?$",
+      "Description": "When the relevant model is destroyed, resolve Deadly Demise using the current core rules and the value shown."
+    },
+    {
+      "Regex": "^Scouts(?: \\d+\\\")?$",
+      "Description": "This unit can make its listed Scouts move before the first turn, subject to the current core rules."
+    },
+    {
+      "Regex": "^Stealth$",
+      "Description": "Apply the current Stealth core rule when this unit is targeted."
+    },
+    {
+      "Regex": "^Invulnerable Save$",
+      "Description": "This unit has an invulnerable save; see its datasheet for the value."
+    },
+    {
+      "Regex": "^Support$",
+      "Description": "This model uses the current Support attachment rules."
+    },
+    {
+      "Regex": "^Firing Deck \\d+$",
+      "Description": "Models embarked within this transport can fire using the listed Firing Deck value and the current core rules."
+    },
+    {
+      "Regex": "^Lone Operative$",
+      "Description": "Apply the current Lone Operative targeting restrictions to this unit."
+    },
+    {
+      "Regex": "^Fights First$",
+      "Description": "This unit is eligible to fight in the Fights First step."
+    },
+    {
+      "Regex": "^Infiltrators$",
+      "Description": "This unit can deploy using the current Infiltrators core rule."
+    }
+  ],
+  "WeaponAbilities": [
+    {
+      "Regex": "^Twin-linked$",
+      "Description": "Apply the current Twin-linked weapon rule."
+    },
+    {
+      "Regex": "^Rapid Fire \\d+$",
+      "Description": "Apply the current Rapid Fire rule using the value shown."
+    },
+    {
+      "Regex": "^Blast$",
+      "Description": "Apply the current Blast weapon rule."
+    },
+    {
+      "Regex": "^Indirect Fire$",
+      "Description": "Apply the current Indirect Fire weapon rule."
+    },
+    {
+      "Regex": "^Pistol$",
+      "Description": "Apply the current Pistol weapon rule."
+    },
+    {
+      "Regex": "^Anti-(?:Vehicle|Infantry|Psyker) \\d\\+$",
+      "Description": "Apply the current Anti-keyword rule against the named target keyword using the value shown."
+    },
+    {
+      "Regex": "^Ignores Cover$",
+      "Description": "Targets cannot receive the Benefit of Cover against attacks made with this weapon."
+    },
+    {
+      "Regex": "^Torrent$",
+      "Description": "Apply the current Torrent weapon rule."
+    },
+    {
+      "Regex": "^Assault$",
+      "Description": "Apply the current Assault weapon rule."
+    },
+    {
+      "Regex": "^Hazardous$",
+      "Description": "Resolve this weapon using the current Hazardous rule."
+    },
+    {
+      "Regex": "^One Shot$",
+      "Description": "This weapon can be used only once per battle."
+    },
+    {
+      "Regex": "^Psychic$",
+      "Description": "This weapon is a Psychic attack."
+    },
+    {
+      "Regex": "^Heavy$",
+      "Description": "Apply the current Heavy weapon rule."
+    },
+    {
+      "Regex": "^Precision$",
+      "Description": "Apply the current Precision weapon rule."
+    },
+    {
+      "Regex": "^Devastating Wounds$",
+      "Description": "Apply the current Devastating Wounds weapon rule."
+    },
+    {
+      "Regex": "^Extra Attacks$",
+      "Description": "Apply the current Extra Attacks weapon rule."
+    }
+  ],
+  "CoreStratagems": [],
+  "BattleSizeDefinitions": [
+    {
+      "Name": "Incursion",
+      "PointsTotal": 1000,
+      "DetachmentPoints": 0,
+      "EnhancementLimit": 0,
+      "UnitLimit": 0
+    },
+    {
+      "Name": "Strike Force",
+      "PointsTotal": 2000,
+      "DetachmentPoints": 0,
+      "EnhancementLimit": 0,
+      "UnitLimit": 0
+    },
+    {
+      "Name": "Onslaught",
+      "PointsTotal": 3000,
+      "DetachmentPoints": 0,
+      "EnhancementLimit": 0,
+      "UnitLimit": 0
+    }
+  ],
+  "CategoryKeywords": []
+}
