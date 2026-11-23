@@ -6241,7 +6241,104 @@
       ]
     }
   ],
-  "Detachments": [],
+  "Detachments": [
+    {
+      "Name": "Heroes of the Uprising",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Killer Reputation",
+        "Text": "- Friendly KELERMORPH, LOCUS, REDUCTUS SABOTEUR and SANCTUS models have KILLER.\n- Friendly KILLER models' attacks can re-roll hit rolls of 1 and re-roll wound rolls of 1."
+      },
+      "Stratagems": [
+        {
+          "Name": "Living Up to Legend",
+          "Category": "Heroes of the Uprising Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase, when a friendly KILLER unit has attacked, if those attacks destroyed an enemy unit or an enemy CHARACTER model.",
+          "Target": "That KILLER unit.",
+          "Effect": "Each visible friendly battle-shocked GENESTEALER CULTS unit within 12\" of your unit is no longer battle-shocked."
+        },
+        {
+          "Name": "Surging Broodworship",
+          "Category": "Heroes of the Uprising Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase, when a friendly KILLER unit is selected to attack.",
+          "Target": "That KILLER unit.",
+          "Effect": "Attacks made by KILLER models in your unit have [DEVASTATING WOUNDS]."
+        },
+        {
+          "Name": "Loyal to the End",
+          "Category": "Heroes of the Uprising Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly KILLER unit.",
+          "Target": "That KILLER unit.",
+          "Effect": "When a KILLER model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\n- On a 1, that enemy unit suffers 1 mortal wound.\n- On a 2+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Gene-Tailored Toxins",
+          "Description": "LOCUS/SANCTUS model only. This model's attacks have +1 D.",
+          "Cost": 35,
+          "Features": "None",
+          "WeaponStatAdjustments": [
+            {
+              "Value": "1",
+              "Type": "Add",
+              "Scope": "Model",
+              "TargetStatId": "D"
+            }
+          ],
+          "RequiredOneOfKeywords": [
+            "Locus",
+            "Sanctus"
+          ]
+        },
+        {
+          "Name": "Contraband Munitions",
+          "Description": "KELERMORPH/REDUCTUS SABOTEUR model only. This unit's ranged attacks have +2 S.",
+          "Cost": 20,
+          "Features": "None",
+          "WeaponStatAdjustments": [
+            {
+              "Value": "2",
+              "Type": "Add",
+              "Scope": "Unit",
+              "TargetStatId": "S",
+              "WeaponSetId": "RANGED WEAPONS"
+            }
+          ],
+          "RequiredOneOfKeywords": [
+            "Kelermorph",
+            "Reductus Saboteur"
+          ]
+        }
+      ],
+      "Effects": [
+        {
+          "AffectedUnits": [
+            "KELERMORPH",
+            "LOCUS",
+            "REDUCTUS SABOTEUR",
+            "SANCTUS"
+          ],
+          "DatasheetAdjustments": [
+            {
+              "Target": "Keywords",
+              "Type": "Add",
+              "Scope": "Unit",
+              "Values": [
+                "Killer"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "ArmyRules": [
     {
       "Title": "Cult Ambush",
