@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.1.11.0 - Checked Reductus Saboteur, Sanctus and Tectonic Fragdrill, completing the check of all 25 Genestealer Cults datasheets; vehicle bases shown as Hull.
+
 2026-11-23 : 1.1.10.0 - Checked Nexos, Patriarch, Primus and Purestrain Genestealers against the current datasheets and corrected minor wording.
 
 2026-11-23 : 1.1.9.0 - Checked Goliath Truck, Jackal Alphus, Kelermorph, Locus and Magus; fixed the Jackal Alphus save to 5+ and renamed the Magus weapon to Magus stave.
