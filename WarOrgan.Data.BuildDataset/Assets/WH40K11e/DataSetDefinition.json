@@ -29,6 +29,30 @@
               ]
             }
           ]
+        },
+        {
+          "FactionKeyword": "Astra Militarum",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Brood Brother Auxilia"
+          ],
+          "UnitIncludeRules": [
+            {
+              "ExcludeKeywordFilter": [
+                "Aircraft",
+                "Commissar",
+                "Epic Hero",
+                "Militarum Tempestus",
+                "Ogryn",
+                "Ratling",
+                "Tech-Priest Enginseer",
+                "Ministorum Priest"
+              ],
+              "AddedKeywords": [
+                "Allied Units"
+              ]
+            }
+          ]
         }
       ]
     },
