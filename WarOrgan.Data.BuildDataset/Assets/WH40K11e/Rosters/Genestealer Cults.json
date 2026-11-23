@@ -3134,7 +3134,7 @@
             },
             {
               "Id": "Base",
-              "Value": "Hull"
+              "Value": "Use model"
             }
           ],
           "Features": "None"
