@@ -2682,7 +2682,7 @@
       "UnitAbilities": [
         {
           "Title": "Grinding Line-breaker",
-          "Text": "Each time an enemy unit (excluding MONSTER and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+          "Text": "Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
         },
         {
           "Title": "Damaged: 1-3 Wounds Remaining",
@@ -2739,7 +2739,7 @@
             },
             {
               "Id": "Base",
-              "Value": "Hull"
+              "Value": "Use model"
             }
           ],
           "Features": "None"

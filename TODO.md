@@ -25,7 +25,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Benefictus
 - [x] Biophagus
 - [x] Clamavus
-- [ ] Goliath Rockgrinder
+- [x] Goliath Rockgrinder
 - [ ] Goliath Truck
 - [x] Hybrid Metamorphs
 - [ ] Jackal Alphus
