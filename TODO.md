@@ -7,7 +7,7 @@ Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the 
 - [x] Rebuild Neophyte Hybrids unit size and wargear limits
 - [x] Rebuild Acolyte Hybrids with Autopistols unit size and wargear limits
 - [x] Rebuild Hybrid Metamorphs unit size and wargear limits
-- [ ] Rebuild Atalan Jackals unit size and wargear limits
+- [x] Rebuild Atalan Jackals unit size and wargear limits
 - [ ] Check every unit's points against the current source
 - [ ] Merge into `dataset/wh40k11e`, tag `v1.1.2` and verify the release ZIP
 - [ ] Test the rebuilt units in WarOrgan
@@ -22,7 +22,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Acolyte Hybrids with Autopistols
 - [ ] Acolyte Hybrids with Hand Flamers
 - [ ] Acolyte Iconward
-- [ ] Atalan Jackals
+- [x] Atalan Jackals
 - [ ] Benefictus
 - [ ] Biophagus
 - [ ] Clamavus

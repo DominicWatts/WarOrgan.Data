@@ -1528,26 +1528,7 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Atalan Jackal w/ Grenade launcher",
-            "StatlineRef": "Atalan Jackals",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "➤ grenade launcher - frag",
-                  "➤ grenade launcher - krak",
-                  "close combat weapon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 1,
+              "Min": 4,
               "Max": 8
             },
             "ModelName": "Atalan Jackal",
@@ -1556,47 +1537,40 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "close combat weapon",
-                  "atalan small arms"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 2
-            },
-            "ModelName": "Atalan Jackal w/ Atalan power weapon",
-            "StatlineRef": "Atalan Jackals",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
                   "atalan small arms",
-                  "atalan power weapon"
+                  "close combat weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Atalan Jackal w/ Grenade launcher & power weapon",
-            "StatlineRef": "Atalan Jackals",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "➤ grenade launcher - frag",
-                  "➤ grenade launcher - krak",
-                  "atalan power weapon"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 2,
+                    "PerXModels": 4,
+                    "Replaces": [
+                      "close combat weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "atalan power weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 4,
+                    "Replaces": [
+                      "atalan small arms"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "➤ grenade launcher - frag",
+                          "➤ grenade launcher - krak"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -1611,35 +1585,27 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "close combat weapon",
                   "atalan small arms",
-                  "heavy stubber"
+                  "heavy stubber",
+                  "close combat weapon"
                 ],
                 "Options": [
                   {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "mining laser"
-                        ]
-                      }
-                    ],
+                    "Max": 2,
                     "Replaces": [
                       "heavy stubber"
-                    ]
-                  },
-                  {
-                    "Max": 1,
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "atalan incinerator"
                         ]
+                      },
+                      {
+                        "Items": [
+                          "mining laser"
+                        ]
                       }
-                    ],
-                    "Replaces": [
-                      "heavy stubber"
                     ]
                   }
                 ]
@@ -1656,7 +1622,7 @@
         },
         {
           "Title": "Demolition Run",
-          "Text": "Once per battle round, in your Movement phase, when this unit ends a Normal, Advance, or Fall Back move, you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each ATALAN JACKALS model in this unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds.)"
+          "Text": "Once per turn, in your Movement phase, when this unit ends a Normal, Advance or Fall Back move, you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each ATALAN JACKALS model in this unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         }
       ],
       "Infos": [],
@@ -1704,7 +1670,7 @@
             },
             {
               "Id": "Base",
-              "Value": "60x35.5, 60"
+              "Value": "60x35.5"
             }
           ],
           "Features": "None"
@@ -1738,7 +1704,7 @@
             },
             {
               "Id": "Base",
-              "Value": "60x35.5, 60"
+              "Value": "60"
             }
           ],
           "Features": "None"
@@ -2019,6 +1985,11 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 9,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 10,
           "Cost": 150
         },
@@ -2029,6 +2000,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 9,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 150
         },
@@ -2036,6 +2012,11 @@
           "UnitCount": 3,
           "ModelCount": 5,
           "Cost": 95
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 9,
+          "Cost": 160
         },
         {
           "UnitCount": 3,
