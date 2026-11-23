@@ -5,17 +5,18 @@ We recommend forking this repository to create and maintain your own dataset. Ke
 
 ## This fork
 
-This fork maintains an unofficial Warhammer 40,000 11th Edition dataset for personal and community use. Development is deliberately data-only: the supplied WarOrgan model, builder and validation mechanism remain unchanged.
+This fork maintains an unofficial Warhammer 40,000 11th Edition dataset for personal and community use. Development is deliberately data-only: the supplied WarOrgan model is unchanged, and the builder only has a few extra validation checks.
 
-- Current coverage: Genestealer Cults native datasheets and points.
+- Current coverage: Genestealer Cults datasheets, army rule, detachments and enhancements, Tyranid Vanguard Invader allies, and core stratagems.
 - Dataset ID: `DominicWatts-WH40K11e` (kept stable for saved-list compatibility).
 - Release history: [CHANGELOG.md](CHANGELOG.md).
 - Outstanding work: [TODO.md](TODO.md).
 - Dataset sources and limitations: [WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md](WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md).
 - WarOrgan direct-download URL: `https://github.com/DominicWatts/WarOrgan.Data/releases/latest/download/DominicWatts-WH40K11e.zip`
+- Development test URL (latest `dataset/develop` build, not a release): `https://github.com/DominicWatts/WarOrgan.Data/releases/download/develop-build/DominicWatts-WH40K11e.zip`
 - Published builds and historical versions: [GitHub Releases](https://github.com/DominicWatts/WarOrgan.Data/releases).
 
-Paste the direct-download URL into WarOrgan's dataset importer. The `latest` address remains unchanged when a newer release is published. If installing a historical version instead, use that release's attached ZIP URL. Do not extract the archive.
+Paste the direct-download URL into WarOrgan's dataset importer. Use the development test URL only to try unreleased changes; it uses the same dataset ID, so re-import the direct-download URL afterwards to return to the released dataset. The `latest` address remains unchanged when a newer release is published. If installing a historical version instead, use that release's attached ZIP URL. Do not extract the archive.
 
 ## What's included
 

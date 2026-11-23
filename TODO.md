@@ -44,7 +44,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 ## Genestealer Cults rules content
 
 - [x] Army rule (Cult Ambush)
-- [ ] Nine detachments and their Force Dispositions (eight done; Brood Brother Auxilia waits on Astra Militarum allies)
+- [x] Nine detachments and their Force Dispositions (all nine, 1.4.0)
 - [x] Core stratagems (Command Re-roll, Fire Overwatch and so on) in `DataSetDefinition.json` (1.3.9)
 - [ ] Unit limits per battle size, once the app's handling of the Battleline and Dedicated Transport doubling is known
 - [ ] Enhancements
@@ -52,7 +52,8 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Enable the matching dataset `Features` and battle-size limits
 - [x] Tyranid allies for Final Day: all 14 Vanguard Invader datasheets added (1.3.0 to 1.3.3)
 - [x] Show invulnerable save values on GSC units (1.3.4)
-- [ ] Brood Brothers (Astra Militarum) allies for Brood Brother Auxilia
+- [ ] Astra Militarum allies for Brood Brother Auxilia: pilot Cadian Shock Troops in 1.4.0, then the other 50 current datasheets (Legends skipped)
+- [x] 1.4.0: confirmed Cadian Shock Troops only appear with Brood Brother Auxilia, sit under Allied Units, cannot be Warlord, count toward the 50% cap, and that their weapon options work.
 - [x] Add the Allied Units category with the first allied roster
 
 ## Blocked or needs app confirmation
@@ -66,7 +67,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [ ] 1.3.5: confirm Host of Ascension costs 3 DP, offers Take and Hold and Reconnaissance, and cannot be taken with Xenocult Masses (HOSTS tag).
 - [x] 1.3.8: Outlander Claw +1 OC and the 2 DP detachment limit confirmed in WarOrgan.
 - [x] Core abilities added by data: confirmed in WarOrgan that leader effects (Locus Fights First) and the Xenocreed detachment-added leader ability (Feel No Pain 3+ while leading) work.
-- [ ] Predatory Instincts (Biosanctic Broodsurge enhancement): confirm the bearer's attached unit gains Infiltrators with AttachedUnit scope.
+- [x] Predatory Instincts (Biosanctic Broodsurge enhancement): confirmed the bearer's attached unit gains Infiltrators with AttachedUnit scope.
 - [x] 1.3.12: confirmed wargear labels (Magus stave, Demolition charges) and leader sections without duplicated text.
 - [x] Core stratagems confirmed in WarOrgan (1.3.9).
 - [x] 1.3.10: confirmed the Ridgerunner spotter sets ranged BS to 3+ and the flare launcher adds SMOKE.
