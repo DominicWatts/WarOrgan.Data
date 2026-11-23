@@ -2647,37 +2647,26 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "drilldozer blade",
+                  "heavy mining laser",
                   "heavy stubber",
+                  "drilldozer blade",
                   "demolition charge cache"
                 ],
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "heavy mining laser"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "clearance incinerator"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "heavy seismic cannon"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "heavy mining laser"
                         ]
                       }
                     ]
