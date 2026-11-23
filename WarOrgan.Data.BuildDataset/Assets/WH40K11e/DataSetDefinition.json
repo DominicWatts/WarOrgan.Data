@@ -85,7 +85,7 @@
       "Description": "This unit can attach to eligible units listed on its datasheet."
     },
     {
-      "Regex": "^Deadly Demise(?: (?:\\d+|D3|D6)(?:\\+\\d+)?)?$",
+      "Regex": "^Deadly Demise(?: (?:\\d+|D\\d+(?:\\+\\d+)?))?$",
       "Description": "When the relevant model is destroyed, resolve Deadly Demise using the current core rules and the value shown."
     },
     {
@@ -143,7 +143,7 @@
       "Description": "Apply the current Pistol weapon rule."
     },
     {
-      "Regex": "^Anti-(?:Vehicle|Infantry|Psyker|Monster) \\d\\+$",
+      "Regex": "^Anti-(?:Vehicle|Infantry|Psyker|Monster|Fly) \\d\\+$",
       "Description": "Apply the current Anti-keyword rule against the named target keyword using the value shown."
     },
     {
@@ -201,6 +201,10 @@
     {
       "Regex": "^Lance$",
       "Description": "Apply the current Lance weapon rule."
+    },
+    {
+      "Regex": "^Plasma Warhead$",
+      "Description": "The bearer can shoot this weapon only in its Shooting phase after Remaining Stationary, and not in a phase in which it used Deathstrike Missile to Designate or Adjust its target. Resolve its attacks separately against every unit within 6\" of the centre of its Deathstrike Target marker."
     }
   ],
   "CoreStratagems": [
