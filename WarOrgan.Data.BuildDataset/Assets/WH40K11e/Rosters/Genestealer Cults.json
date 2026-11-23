@@ -2479,7 +2479,7 @@
       "UnitAbilities": [
         {
           "Title": "Voice of New Truths",
-          "Text": "In your Command phase, one model from your army with this ability can use it, if it does, select one enemy unit with 18\" of it, that enemy unit must take a Battle-shock test."
+          "Text": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
         },
         {
           "Title": "Scrambler Array",
