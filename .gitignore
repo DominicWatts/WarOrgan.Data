@@ -10,3 +10,7 @@ Staging/
 *.user
 *.suo
 *.userosscache
+
+# Source tool reports
+BsdataImport-Output/
+WahapediaCheck-Output/
