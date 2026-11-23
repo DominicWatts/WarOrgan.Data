@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.1.9.0 - Checked Goliath Truck, Jackal Alphus, Kelermorph, Locus and Magus; fixed the Jackal Alphus save to 5+ and renamed the Magus weapon to Magus stave.
+
 2026-11-23 : 1.1.8.0 - Support characters now attach alongside Leaders, and the Biophagus, Benefictus, Locus and Iconward leader effects now apply to the led unit; Might From Beyond now includes the Patriarch.
 
 2026-11-23 : 1.1.7.0 - Checked Atalan Jackals, Benefictus, Biophagus, Clamavus and Goliath Rockgrinder; Biophagus can now support Acolyte Hybrids with Hand Flamers.
