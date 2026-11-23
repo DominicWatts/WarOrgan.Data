@@ -19,13 +19,13 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 - Biophagus, Clamavus, Locus and Nexos attach as Support characters alongside a Leader.
 - Leader effects are applied to the led unit: Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion. Cult Demagogue (+1 to Hit), The Chosen One and the Locus's Bodyguard ability are shown as text only.
 
-- The Cult Ambush army rule and eight detachments: Heroes of the Uprising, Purestrain Broodswarm, Xenocult Masses, Final Day, Host of Ascension, Xenocreed Congregation, Outlander Claw and Biosanctic Broodsurge, each with its rule, Force Disposition, enhancements and stratagems. Heroes of the Uprising adds KILLER to the Kelermorph, Locus, Reductus Saboteur and Sanctus. Enhancements that change profiles adjust them; Upgrades (Mark of the Star Children, Devious Disguises) can go on non-CHARACTER units. WarOrgan does not enforce the limit of three copies of the same Upgrade; build to the core rules. Host of Ascension costs 3 DP, so WarOrgan cannot offer it in Incursion, although the core rules let an Incursion army take a single 3 DP detachment.
+- The Cult Ambush army rule and all nine detachments: Heroes of the Uprising, Purestrain Broodswarm, Xenocult Masses, Final Day, Host of Ascension, Xenocreed Congregation, Outlander Claw, Biosanctic Broodsurge and Brood Brother Auxilia, each with its rule, Force Disposition, enhancements and stratagems. Heroes of the Uprising adds KILLER to the Kelermorph, Locus, Reductus Saboteur and Sanctus. Enhancements that change profiles adjust them; Upgrades (Mark of the Star Children, Devious Disguises) can go on non-CHARACTER units. WarOrgan does not enforce the limit of three copies of the same Upgrade; build to the core rules. Host of Ascension costs 3 DP, so WarOrgan cannot offer it in Incursion, although the core rules let an Incursion army take a single 3 DP detachment.
 - The ten 11th Edition core stratagems, including Explosives and Crushing Impact (which replace Grenade and Tank Shock).
 - Battle sizes use the 11th Edition detachment points and enhancement limits: Incursion 2 DP and 2 enhancements, Strike Force 3 DP and 4. Onslaught is not in the 11th Edition core rules, so it uses the Strike Force limits. Unit limits are not enforced.
 
 Final Day lets you include Tyranids Vanguard Invader units (excluding AIRCRAFT, BROODLORD and GENESTEALERS) up to half your points. They appear under Allied Units and cannot be your Warlord.
 
-This version does not yet include the Brood Brother Auxilia detachment or allied Astra Militarum units.
+Brood Brother Auxilia lets you include Astra Militarum units (excluding AIRCRAFT, COMMISSAR, EPIC HERO, MILITARUM TEMPESTUS, OGRYN, RATLING, TECH-PRIEST ENGINSEER and MINISTORUM PRIEST) up to half your points. They appear under Allied Units, cannot be your Warlord and lose Voice of Command.
 
 ## Installation
 
