@@ -44,7 +44,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 ## Genestealer Cults rules content
 
 - [x] Army rule (Cult Ambush)
-- [ ] Nine detachments and their Force Dispositions (done: Heroes of the Uprising, Purestrain Broodswarm, Xenocult Masses, Final Day)
+- [ ] Nine detachments and their Force Dispositions (done: Heroes of the Uprising, Purestrain Broodswarm, Xenocult Masses, Final Day, Host of Ascension)
 - [ ] Core stratagems (Command Re-roll, Fire Overwatch and so on) in `DataSetDefinition.json`
 - [ ] Unit limits per battle size, once the app's handling of the Battleline and Dedicated Transport doubling is known
 - [ ] Enhancements
@@ -63,6 +63,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [ ] 1.2.2: confirm Final Day costs 2 DP, shows Purge the Foe and its six stratagems, and its rule text (with bold sub-headings and the battle-size list) reads correctly.
 - [x] 1.3.0: confirmed in WarOrgan that the Winged Tyranid Prime only appears in a GSC list once Final Day is chosen, sits under Allied Units, counts toward the 50% cap, cannot be Warlord, and can take Synaptic Auger. Also checked the new Tyranids faction on its own. The 50% ally cap could not be clearly confirmed.
 - [x] 1.3.1 and 1.3.2: confirmed in WarOrgan that the Tyranid allies appear under Allied Units with Final Day (including Battleline Gargoyles and the Dedicated Transport Tyrannocyte) and that the 50% ally cap applies.
+- [ ] 1.3.5: confirm Host of Ascension costs 3 DP, offers Take and Hold and Reconnaissance, and cannot be taken with Xenocult Masses (HOSTS tag).
 - [ ] Leader effects: confirm in WarOrgan that Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and that a Support character can join a unit alongside a Leader.
 - [ ] Find out whether WarOrgan can import a ZIP from a local file or a non-stable URL for pre-release testing.
 
