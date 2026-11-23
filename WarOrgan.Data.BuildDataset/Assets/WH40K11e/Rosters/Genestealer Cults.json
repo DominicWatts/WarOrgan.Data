@@ -6428,6 +6428,72 @@
         }
       ],
       "Effects": []
+    },
+    {
+      "Name": "Xenocult Masses",
+      "Cost": 1,
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Rule": {
+        "Title": "Hordes of the Faithful",
+        "Text": "In your Command phase, if a friendly NEOPHYTE HYBRIDS unit is within a terrain area, that unit heals 3 wounds.",
+        "Restrictions": "This detachment has the HOSTS tag and cannot be taken with another HOSTS detachment."
+      },
+      "Tags": [
+        "Hosts"
+      ],
+      "Stratagems": [
+        {
+          "Name": "Eyes of the Cult",
+          "Category": "Xenocult Masses Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Start of your Shooting phase.",
+          "Target": "One friendly NEOPHYTE HYBRIDS unit within a terrain area.",
+          "Effect": "Enemy units within that terrain area have +6\" detection range."
+        },
+        {
+          "Name": "Fanatical Hail",
+          "Category": "Xenocult Masses Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly NEOPHYTE HYBRIDS unit is selected to shoot.",
+          "Target": "That NEOPHYTE HYBRIDS unit.",
+          "Effect": "Select one enemy unit. Your unit's ranged attacks that target that enemy unit can re-roll hit rolls."
+        },
+        {
+          "Name": "Slunk from the Underbelly",
+          "Category": "Xenocult Masses Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly NEOPHYTE HYBRIDS unit with every model within a terrain area.",
+          "Target": "That NEOPHYTE HYBRIDS unit.",
+          "Effect": "Ranged attacks that target your unit have -1 AP until that unit has attacked."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Inspired to Greatness",
+          "Description": "MAGUS/PRIMUS model only. This unit's attacks can re-roll damage rolls.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredOneOfKeywords": [
+            "Magus",
+            "Primus"
+          ]
+        },
+        {
+          "Name": "Devious Disguises",
+          "Description": "Upgrade. NEOPHYTE HYBRIDS unit only. This unit has -3\" detection range.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredKeywords": [
+            "Neophyte Hybrids"
+          ]
+        }
+      ],
+      "Effects": []
     }
   ],
   "ArmyRules": [
