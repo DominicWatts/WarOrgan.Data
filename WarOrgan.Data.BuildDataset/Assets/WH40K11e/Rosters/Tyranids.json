@@ -1074,6 +1074,146 @@
           "Cost": 90
         }
       ]
+    },
+    {
+      "Id": "VON RYAN'S LEAPERS",
+      "DisplayName": "Von Ryan’s Leapers",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 6
+            },
+            "ModelName": "Von Ryan’s Leaper",
+            "StatlineRef": "Von Ryan’s Leapers",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "leaper's talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 6+ invulnerable save."
+        },
+        {
+          "Title": "Pouncing Leap",
+          "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Von Ryan’s Leapers",
+        "Other Datasheets",
+        "Infantry",
+        "Great Devourer",
+        "Vanguard Invader"
+      ],
+      "CoreAbilities": [
+        "Fights First",
+        "Infiltrators",
+        "Stealth",
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Von Ryan’s Leapers",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "leaper's talons",
+              "DisplayName": "Leaper’s talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 55
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 105
+        }
+      ]
     }
   ],
   "Detachments": [],
