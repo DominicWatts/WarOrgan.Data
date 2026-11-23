@@ -2,6 +2,2161 @@
   "Name": "Astra Militarum",
   "Units": [
     {
+      "Id": "ARTILLERY TEAM",
+      "DisplayName": "Artillery Team",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Artillery Team",
+            "StatlineRef": "Artillery Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "crew close combat weapons",
+                  "heavy mortar",
+                  "lasgun"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy mortar"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "siege cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "multiple rocket launcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy quad launcher"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Remorseless Barrage",
+          "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test (if an INFANTRY unit is hit by one or more attacks made by a multiple rocket launcher, they must subtract 1 from their Battle-shock test when doing so)."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Infantry",
+        "Artillery",
+        "Grenades",
+        "Regiment",
+        "Artillery Team",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Artillery Team",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "3\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "130"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy mortar",
+              "DisplayName": "Heavy mortar",
+              "Keywords": "Blast, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy quad launcher",
+              "DisplayName": "Heavy quad launcher",
+              "Keywords": "Blast, Heavy, Indirect Fire, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "lasgun",
+              "DisplayName": "Lasgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "multiple rocket launcher",
+              "DisplayName": "Multiple rocket launcher",
+              "Keywords": "Anti-Infantry 3+, Blast, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "siege cannon",
+              "DisplayName": "Siege cannon",
+              "Keywords": "Blast, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "crew close combat weapons",
+              "DisplayName": "Crew close combat weapons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 95
+        }
+      ]
+    },
+    {
+      "Id": "ATTILAN ROUGH RIDERS",
+      "DisplayName": "Attilan Rough Riders",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Rough Rider Sergeant",
+            "StatlineRef": "Attilan Rough Rider",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hunting lance - frag tip",
+                  "hunting lance - melta tip",
+                  "lasgun",
+                  "laspistol",
+                  "steed's hooves"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "power sabre"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Rough Rider",
+            "StatlineRef": "Attilan Rough Rider",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "laspistol",
+                  "lasgun",
+                  "hunting lance - frag tip",
+                  "hunting lance - melta tip",
+                  "steed's hooves"
+                ],
+                "Options": [
+                  {
+                    "Replaces": [
+                      "hunting lance - frag tip",
+                      "hunting lance - melta tip"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "goad lance"
+                        ]
+                      }
+                    ],
+                    "Max": 1,
+                    "PerXModels": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Horsemasters",
+          "Text": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Imperium",
+        "Grenades",
+        "Regiment",
+        "Attilan Rough Riders",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Attilan Rough Rider",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "60x35.5"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "lasgun",
+              "DisplayName": "Lasgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "goad lance",
+              "DisplayName": "Goad lance",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "hunting lance - frag tip",
+              "DisplayName": "Hunting lance - frag tip",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hunting lance - melta tip",
+              "DisplayName": "Hunting lance - melta tip",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "power sabre",
+              "DisplayName": "Power sabre",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "steed's hooves",
+              "DisplayName": "Steed's hooves",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 60
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 120
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 60
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 120
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 65
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 125
+        }
+      ]
+    },
+    {
+      "Id": "CADIAN CASTELLAN",
+      "DisplayName": "Cadian Castellan",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Cadian Castellan",
+            "StatlineRef": "Cadian Castellan",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "laspistol",
+                  "chainsword"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "laspistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "bolt pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol - standard",
+                          "plasma pistol - supercharge"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "close combat weapon",
+                          "boltgun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power fist"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Senior Officer",
+          "Text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Get Back in the Fight",
+          "Text": "While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue 2 Orders to REGIMENT units."
+        },
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CADIAN SHOCK TROOPS",
+          "KASRKIN"
+        ],
+        "Features": 0,
+        "Abilities": [
+          {
+            "AbilityId": "Senior Officer",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "Sustained Hits 1",
+                "Type": "Add",
+                "Scope": "BodyguardUnitOnly",
+                "TargetStatId": "Keywords",
+                "WeaponSetId": "RANGED WEAPONS"
+              }
+            ]
+          }
+        ]
+      },
+      "Infos": [],
+      "Keywords": [
+        "Cadian Castellan",
+        "Imperium",
+        "Infantry",
+        "Character",
+        "Officer",
+        "Grenades"
+      ],
+      "CoreAbilities": [
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Cadian Castellan",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "28.5"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 55
+        }
+      ]
+    },
+    {
+      "Id": "CADIAN HEAVY WEAPONS SQUAD",
+      "DisplayName": "Cadian Heavy Weapons Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Heavy Weapons Team",
+            "StatlineRef": "Heavy Weapons Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "laspistol",
+                  "weapons team close combat weapons",
+                  "heavy bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "mortar"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "missile launcher - frag",
+                          "missile launcher - krak"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "lascannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "autocannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Covering Fire",
+          "Text": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or on unmodified Hit rolls of 4+ instead if this unit is within 6\" of one or more friendly PLATOON units."
+        },
+        {
+          "Title": "Embarking",
+          "Text": "While embarked within a TRANSPORT, each model takes up the space of 2 models, and each weapon equipped by these models is considered to be 2 models’ weapons for the purposes of the Firing Deck ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Cadian Heavy Weapons Squad",
+        "Imperium",
+        "Infantry",
+        "Grenades",
+        "Regiment",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Heavy Weapons Team",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "autocannon",
+              "DisplayName": "Autocannon",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Heavy, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "missile launcher - frag",
+              "DisplayName": "Missile launcher - frag",
+              "Keywords": "Blast, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "missile launcher - krak",
+              "DisplayName": "Missile launcher - krak",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "mortar",
+              "DisplayName": "Mortar",
+              "Keywords": "Blast, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "weapons team close combat weapons",
+              "DisplayName": "Weapons team close combat weapons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Id": "CADIAN RECON SQUAD",
+      "DisplayName": "Cadian Recon Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Recon Sergeant",
+            "StatlineRef": "Cadian Recon Squad",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lasgun",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 9
+            },
+            "ModelName": "Recon Trooper",
+            "StatlineRef": "Cadian Recon Squad",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lasgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "autostubber"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "vox-caster",
+                          "vox-relay beacon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "long-las"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "lasgun",
+                      "lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "missile launcher - frag",
+                          "missile launcher - krak",
+                          "laspistol",
+                          "laspistol"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "plasma gun - standard",
+                          "plasma gun - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "vox-caster",
+            "DisplayName": "Vox-caster",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Vox-caster"
+            ]
+          },
+          {
+            "Key": "vox-relay beacon",
+            "DisplayName": "Vox-relay beacon",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Vox-relay Beacon"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Independent Operatives",
+          "Text": "Each time an Order is issued to this unit, that Order affects this unit until a new Order is issued to this unit, or until this unit becomes Battle-shocked, or until the battle ends (whichever happens first)."
+        },
+        {
+          "Title": "Vox-caster",
+          "Text": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+        },
+        {
+          "Title": "Vox-relay Beacon",
+          "Text": "At the start of the battle, you can set up one Vox-relay Beacon token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. While a friendly ASTRA MILITARUM REGIMENT unit is within 6\" of that token, OFFICER units from your army can issue orders to that REGIMENT unit as if the OFFICER unit was within 6\" of it. At the end of every phase, If an enemy unit is within 1\" of a Vox-relay Beacon token you set up, that token is removed from the battlefield."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Infantry",
+        "Grenades",
+        "Regiment",
+        "Smoke",
+        "Cadian Recon Squad",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Infiltrators",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Cadian Recon Squad",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "28.5"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "autostubber",
+              "DisplayName": "Autostubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "lasgun",
+              "DisplayName": "Lasgun",
+              "Keywords": "Assault, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "long-las",
+              "DisplayName": "Long-las",
+              "Keywords": "Heavy, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "missile launcher - frag",
+              "DisplayName": "Missile launcher - frag",
+              "Keywords": "Blast, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "missile launcher - krak",
+              "DisplayName": "Missile launcher - krak",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - standard",
+              "DisplayName": "Plasma gun - standard",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - supercharge",
+              "DisplayName": "Plasma gun - supercharge",
+              "Keywords": "Hazardous, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 80
+        }
+      ]
+    },
+    {
       "Id": "CADIAN SHOCK TROOPS",
       "DisplayName": "Cadian Shock Troops",
       "Flags": 0,
@@ -595,6 +2750,4065 @@
         {
           "ModelCount": 20,
           "Cost": 145
+        }
+      ]
+    },
+    {
+      "Id": "CATACHAN HEAVY WEAPONS SQUAD",
+      "DisplayName": "Catachan Heavy Weapons Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Heavy Weapons Team",
+            "StatlineRef": "Heavy Weapons Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "weapons team close combat weapons",
+                  "heavy bolter",
+                  "lasgun"
+                ],
+                "Options": [
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "mortar"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "missile launcher - frag",
+                          "missile launcher - krak"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "lascannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "autocannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Bring it Down!",
+          "Text": "Each time a model in this unit makes a ranged attack that targets a MONSTER of VEHICLE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "Title": "Embarking",
+          "Text": "While embarked within a TRANSPORT, each model takes up the space of 2 models, and each weapon equipped by these models is considered to be 2 models’ weapons for the purposes of the Firing Deck ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Infantry",
+        "Grenades",
+        "Regiment",
+        "Catachan Heavy Weapons Squad",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Heavy Weapons Team",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "autocannon",
+              "DisplayName": "Autocannon",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Heavy, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "lasgun",
+              "DisplayName": "Lasgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "missile launcher - frag",
+              "DisplayName": "Missile launcher - frag",
+              "Keywords": "Blast, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "missile launcher - krak",
+              "DisplayName": "Missile launcher - krak",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "mortar",
+              "DisplayName": "Mortar",
+              "Keywords": "Blast, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "weapons team close combat weapons",
+              "DisplayName": "Weapons team close combat weapons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Id": "CATACHAN JUNGLE FIGHTERS",
+      "DisplayName": "Catachan Jungle Fighters",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Jungle Fighter Sergeant",
+            "StatlineRef": "Catachan Jungle Fighter",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "laspistol",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 18
+            },
+            "ModelName": "Jungle Fighter",
+            "StatlineRef": "Catachan Jungle Fighter",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lasgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "vox-caster"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "flamer"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "vox-caster",
+            "DisplayName": "Vox-caster",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Vox-caster"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Jungle Fighters",
+          "Text": "Each time a model in this unit makes a melee attack, if this unit made a Charge move or was charged this turn, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Vox-caster",
+          "Text": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit composition",
+          "Text": "This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        }
+      ],
+      "Keywords": [
+        "Catachan Jungle Fighters",
+        "Imperium",
+        "Platoon",
+        "Infantry",
+        "Battleline",
+        "Regiment",
+        "Grenades"
+      ],
+      "CoreAbilities": [
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Catachan Jungle Fighter",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "flamer",
+              "DisplayName": "Flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "lasgun",
+              "DisplayName": "Lasgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 70
+        },
+        {
+          "ModelCount": 20,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "DEATH KORPS OF KRIEG",
+      "DisplayName": "Death Korps of Krieg",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Death Korps Watchmaster",
+            "StatlineRef": "Death Korps of Krieg",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "chainsword",
+                  "laspistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "chainsword",
+                      "laspistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "close combat weapon",
+                          "boltgun"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "laspistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "bolt pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol - standard",
+                          "plasma pistol - supercharge"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 18
+            },
+            "ModelName": "Death Korps Trooper",
+            "StatlineRef": "Death Korps of Krieg",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lasgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "death korps of krieg medi-pack"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "vox-caster"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "grenade launcher - frag",
+                          "grenade launcher - krak"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "long-las"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma gun - standard",
+                          "plasma gun - supercharge"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "death korps of krieg medi-pack",
+            "DisplayName": "Death Korps Medi-pack",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Death Korps Medi-pack"
+            ]
+          },
+          {
+            "Key": "vox-caster",
+            "DisplayName": "Vox-caster",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Vox-caster"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Grim Demeanour",
+          "Text": "Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+        },
+        {
+          "Title": "Vox-caster",
+          "Text": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+        },
+        {
+          "Title": "Death Korps Medi-pack",
+          "Text": "At the start of your Command phase, if the bearer’s unit is below its Starting Strength, you can return up to D3 destroyed Death Korps Troopers to this unit (if this unit contains two models equipped with a Death Korps medi-pack, return up to D3+1 destroyed Death Korps Troopers to this unit instead)."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit composition",
+          "Text": "This unit can have up to two Leader units attached to it, provided no more than one of those units is a COMMAND SQUAD unit. If it does, and this Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        }
+      ],
+      "Keywords": [
+        "Death Korps of Krieg",
+        "Imperium",
+        "Infantry",
+        "Battleline",
+        "Grenades",
+        "Regiment",
+        "Platoon"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Death Korps of Krieg",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "flamer",
+              "DisplayName": "Flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - frag",
+              "DisplayName": "Grenade launcher - frag",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - krak",
+              "DisplayName": "Grenade launcher - krak",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "lasgun",
+              "DisplayName": "Lasgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "long-las",
+              "DisplayName": "Long-las",
+              "Keywords": "Heavy, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - standard",
+              "DisplayName": "Plasma gun - standard",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - supercharge",
+              "DisplayName": "Plasma gun - supercharge",
+              "Keywords": "Hazardous, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 70
+        },
+        {
+          "ModelCount": 20,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "DEATH RIDERS",
+      "DisplayName": "Death Riders",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ridemaster",
+            "StatlineRef": "Death Rider",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "steed's savage claws",
+                  "power sabre",
+                  "death rider lascarbine",
+                  "frag lance"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Death Rider",
+            "StatlineRef": "Death Rider",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "steed's savage claws",
+                  "frag lance",
+                  "power sabre",
+                  "death rider lascarbine"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Screening Line",
+          "Text": "In your opponent’s Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6\"."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Imperium",
+        "Grenades",
+        "Regiment",
+        "Death Riders",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Death Rider",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "60x35.5"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "death rider lascarbine",
+              "DisplayName": "Death Rider lascarbine",
+              "Keywords": "Assault",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "frag lance",
+              "DisplayName": "Frag lance",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power sabre",
+              "DisplayName": "Power sabre",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "steed's savage claws",
+              "DisplayName": "Steed's savage claws",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 60
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 110
+        }
+      ]
+    },
+    {
+      "Id": "FIELD ORDNANCE BATTERY",
+      "DisplayName": "Field Ordnance Battery",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Ordnance Team",
+            "StatlineRef": "Field Ordnance Battery",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "malleus rocket launcher",
+                  "lasgun",
+                  "laspistol",
+                  "battery close combat weapons"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "malleus rocket launcher"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "bombast field gun"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "malleus rocket launcher"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy lascannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Rearm, Reload, Fire",
+          "Text": "While this unit is being affected by an Order, provided it Remained Stationary this turn, all Heavy weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Infantry",
+        "Artillery",
+        "Grenades",
+        "Regiment",
+        "Field Ordnance Battery",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Field Ordnance Battery",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "3\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bombast field gun",
+              "DisplayName": "Bombast field gun",
+              "Keywords": "Blast, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy lascannon",
+              "DisplayName": "Heavy lascannon",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "lasgun",
+              "DisplayName": "Lasgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "malleus rocket launcher",
+              "DisplayName": "Malleus rocket launcher",
+              "Keywords": "Blast, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "battery close combat weapons",
+              "DisplayName": "Battery close combat weapons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Id": "KASRKIN",
+      "DisplayName": "Kasrkin",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Kasrkin Sergeant",
+            "StatlineRef": "Kasrkin",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hot-shot laspistol",
+                  "chainsword"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "hot-shot laspistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "plasma pistol - standard",
+                          "plasma pistol - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bolt pistol"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 9
+            },
+            "ModelName": "Kasrkin Trooper",
+            "StatlineRef": "Kasrkin",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hot-shot lasgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "hot-shot lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hot-shot marksman rifle"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "hot-shot lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "melta mine",
+                          "hot-shot laspistol"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "vox-caster"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "hot-shot lasgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma gun - standard",
+                          "plasma gun - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "hot-shot volley gun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "grenade launcher - frag",
+                          "grenade launcher - krak"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "melta mine",
+            "DisplayName": "Melta mine",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Melta Mine"
+            ]
+          },
+          {
+            "Key": "vox-caster",
+            "DisplayName": "Vox-caster",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Vox-caster"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Warrior Elite",
+          "Text": "Once per battle round, at the start of any phase, you can select one Order to affect this unit until the start of your next Command phase, in addition to any other Orders issued to this unit by an OFFICER model this battle round."
+        },
+        {
+          "Title": "Vox-caster",
+          "Text": "Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly OFFICER models within 6\": on a 5+, you gain 1CP."
+        },
+        {
+          "Title": "Melta Mine",
+          "Text": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a VEHICLE unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Kasrkin",
+        "Imperium",
+        "Regiment",
+        "Grenades",
+        "Infantry",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Kasrkin",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "28.5"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "flamer",
+              "DisplayName": "Flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - frag",
+              "DisplayName": "Grenade launcher - frag",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - krak",
+              "DisplayName": "Grenade launcher - krak",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "hot-shot lasgun",
+              "DisplayName": "Hot-shot lasgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hot-shot laspistol",
+              "DisplayName": "Hot-shot laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hot-shot marksman rifle",
+              "DisplayName": "Hot-shot marksman rifle",
+              "Keywords": "Heavy, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "hot-shot volley gun",
+              "DisplayName": "Hot-shot volley gun",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - standard",
+              "DisplayName": "Plasma gun - standard",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - supercharge",
+              "DisplayName": "Plasma gun - supercharge",
+              "Keywords": "Hazardous, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 105
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 105
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 120
+        }
+      ]
+    },
+    {
+      "Id": "KRIEG COMBAT ENGINEERS",
+      "DisplayName": "Krieg Combat Engineers",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Krieg Engineer Watchmaster",
+            "StatlineRef": "Krieg Combat Engineers",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "autopistol",
+                  "trench club"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "autopistol",
+                      "trench club"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "close combat weapon",
+                          "combat shotgun"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "autopistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol - standard",
+                          "plasma pistol - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bolt pistol"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "trench club"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "chainsword"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Krieg Combat Engineer",
+            "StatlineRef": "Krieg Combat Engineers",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "autopistol",
+                  "trench club"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "autopistol",
+                      "trench club"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "close combat weapon",
+                          "flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "autopistol",
+                      "trench club"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "close combat weapon",
+                          "combat shotgun"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "trench club"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "remote mine",
+                          "close combat weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "remote mine",
+            "DisplayName": "Remote mine",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Remote Mine"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Grenadiers",
+          "Text": "Once per turn, you can target this unit with the Explosives Stratagem for 0CP."
+        },
+        {
+          "Title": "Remote Mine",
+          "Text": "Once per battle, at the start of your Shooting phase, you can select one enemy unit within 9\" of and visible to the bearer and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a VEHICLE or FORTIFICATIONS unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Regiment",
+        "Grenades",
+        "Infantry",
+        "Smoke",
+        "Krieg Combat Engineers",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Krieg Combat Engineers",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "autopistol",
+              "DisplayName": "Autopistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combat shotgun",
+              "DisplayName": "Combat shotgun",
+              "Keywords": "Assault",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "flamer",
+              "DisplayName": "Flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hand flamer",
+              "DisplayName": "Hand flamer",
+              "Keywords": "Ignores Cover, Pistol, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "trench club",
+              "DisplayName": "Trench club",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 65
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 95
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 65
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 95
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 75
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 105
+        }
+      ]
+    },
+    {
+      "Id": "KRIEG HEAVY WEAPONS SQUAD",
+      "DisplayName": "Krieg Heavy Weapons Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Fire Coordinator",
+            "StatlineRef": "Fire Coordinator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "close combat weapon",
+                  "laspistol"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Heavy Weapons Gunners",
+            "StatlineRef": "Heavy Weapons Gunner",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "krieg heavy flamer",
+                  "close combat weapon",
+                  "laspistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "krieg heavy flamer"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin krieg heavy stubber"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "krieg heavy flamer"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "lascannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Final Duty",
+          "Text": "While the Fire Coordinator model is on the battlefield, each time a Heavy Weapons Gunner model is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "Title": "Embarking",
+          "Text": "While embarked within a TRANSPORT, each Heavy Weapons Gunner model takes up the space of 2 models, and each weapon equipped by these models is considered to be 2 models’ weapons for the purposes of the Firing Deck ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Infantry",
+        "Grenades",
+        "Regiment",
+        "Krieg Heavy Weapons Squad",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Heavy Weapons Gunner",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "4\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Fire Coordinator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "krieg heavy flamer",
+              "DisplayName": "Krieg heavy flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin krieg heavy stubber",
+              "DisplayName": "Twin Krieg heavy stubber",
+              "Keywords": "Heavy, Rapid Fire 3, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Id": "PRIMARIS PSYKER",
+      "DisplayName": "Primaris Psyker",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Primaris Psyker",
+            "StatlineRef": "Primaris Psyker",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "psychic maelstrom - witchfire",
+                  "psychic maelstrom - focused witchfire",
+                  "force weapon",
+                  "laspistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Malign Wardings(Psychic)",
+          "Text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        },
+        {
+          "Title": "Psychic Barrier (Psychic)",
+          "Text": "At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ invulnerable save."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CADIAN SHOCK TROOPS",
+          "CATACHAN JUNGLE FIGHTERS",
+          "DEATH KORPS OF KRIEG",
+          "KASRKIN",
+          "KRIEG COMBAT ENGINEERS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Primaris Psyker",
+        "Imperium",
+        "Character",
+        "Infantry",
+        "Psyker"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Primaris Psyker",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "laspistol",
+              "DisplayName": "Laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "psychic maelstrom - focused witchfire",
+              "DisplayName": "Psychic maelstrom - focused witchfire",
+              "Keywords": "Blast, Devastating Wounds, Hazardous, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "psychic maelstrom - witchfire",
+              "DisplayName": "Psychic maelstrom - witchfire",
+              "Keywords": "Blast, Devastating Wounds, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "force weapon",
+              "DisplayName": "Force weapon",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 60
         }
       ]
     }
