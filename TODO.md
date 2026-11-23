@@ -30,7 +30,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Hybrid Metamorphs
 - [x] Jackal Alphus
 - [x] Kelermorph
-- [ ] Locus
+- [x] Locus
 - [ ] Magus
 - [x] Neophyte Hybrids
 - [ ] Nexos

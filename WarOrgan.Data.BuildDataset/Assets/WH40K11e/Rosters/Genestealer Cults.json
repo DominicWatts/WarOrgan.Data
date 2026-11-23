@@ -4084,11 +4084,11 @@
       "UnitAbilities": [
         {
           "Title": "Sudden Assault",
-          "Text": "While this model is leading a unit, models in that unit have the Fights First ability"
+          "Text": "While this model is leading a unit, models in that unit have the Fights First ability."
         },
         {
           "Title": "Bodyguard",
-          "Text": "While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability"
+          "Text": "While this model is leading a unit, other CHARACTER models attached to that unit have the Feel No Pain 4+ ability."
         }
       ],
       "Infos": [],
