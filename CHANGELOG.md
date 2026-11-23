@@ -16,6 +16,22 @@ The version is a four-part .NET `Version`, not strict Semantic Versioning. WarOr
 - Strengthen model-option constraints where WarOrgan's data model can express them.
 - Add repeatable source-comparison checks for names, model counts and points.
 
+## 1.1.1.0 - 2026-11-23
+
+### Fixed
+
+- Grouped Genestealer Cults datasheets under GW-style Characters, Battleline, Dedicated Transports and Other Datasheets headings.
+- Shortened displayed base sizes to numeric values so they fit the datasheet panel.
+- Rebuilt Acolyte Hybrids with Hand Flamers as one leader and 4-9 hybrids, with enforced cult icon, demolition charge and leader bio-weapon replacements.
+- Verified Acolyte Hybrids with Hand Flamers at the current 75-point and 140-point unit costs while preserving the 65-point and 120-point Autopistol unit costs.
+- Enforced the Patriarch's must-be-Warlord rule and applied Might From Beyond to the melee weapons of attached Purestrain Genestealers.
+- Added validation requiring every unit to match exactly one configured datasheet category.
+
+### Still planned
+
+- Add the Allied Units category alongside the first allied roster import.
+- Convert and verify the remaining complex unit-composition and wargear constraints.
+
 ## 1.1.0.0 - 2026-11-23
 
 ### Added

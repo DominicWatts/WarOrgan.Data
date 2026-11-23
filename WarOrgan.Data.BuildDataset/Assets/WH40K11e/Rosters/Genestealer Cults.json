@@ -57,6 +57,7 @@
       "Infos": [],
       "Keywords": [
         "Aberrants",
+        "Other Datasheets",
         "Infantry",
         "Great Devourer"
       ],
@@ -97,7 +98,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -261,7 +262,7 @@
             },
             {
               "Id": "Base",
-              "Value": "40mm"
+              "Value": "40"
             }
           ],
           "Features": "None"
@@ -463,6 +464,7 @@
       "Infos": [],
       "Keywords": [
         "Achilles Ridgerunners",
+        "Other Datasheets",
         "Vehicle",
         "Great Devourer"
       ],
@@ -503,7 +505,7 @@
             },
             {
               "Id": "Base",
-              "Value": "120x92mm Oval Base"
+              "Value": "120x92"
             }
           ],
           "Features": "None"
@@ -879,7 +881,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -1054,25 +1056,19 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "hand flamer"
+                  "hand flamer",
+                  "cult claws and knife"
                 ],
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "cult claws and knife"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "leader's bio-weapons"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "cult claws and knife"
                         ]
                       }
                     ]
@@ -1083,10 +1079,10 @@
           },
           {
             "Limit": {
-              "Min": 0,
+              "Min": 4,
               "Max": 9
             },
-            "ModelName": "Acolyte Hybrid w/ Hand Flamer",
+            "ModelName": "Acolyte Hybrid",
             "StatlineRef": "Acolyte Hybrids with Hand Flamers",
             "Keywords": [],
             "Wargear": [
@@ -1095,43 +1091,35 @@
                   "hand flamer",
                   "cult claws and knife"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Acolyte Hybrid w/ Cult Icon",
-            "StatlineRef": "Acolyte Hybrids with Hand Flamers",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "cult claws and knife",
-                  "cult icon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 4
-            },
-            "ModelName": "Acolyte Hybrid w/ Demolition Charge, and Cult Claws and Knife",
-            "StatlineRef": "Acolyte Hybrids with Hand Flamers",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "demolition charge",
-                  "cult claws and knife"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "hand flamer"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "cult icon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "hand flamer"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "demolition charge"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -1202,7 +1190,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -1443,7 +1431,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -1686,6 +1674,7 @@
       "Infos": [],
       "Keywords": [
         "Atalan Jackals",
+        "Other Datasheets",
         "Mounted",
         "Grenades",
         "Great Devourer"
@@ -1727,7 +1716,7 @@
             },
             {
               "Id": "Base",
-              "Value": "60x35.5mm Oval Base, 60mm"
+              "Value": "60x35.5, 60"
             }
           ],
           "Features": "None"
@@ -1761,7 +1750,7 @@
             },
             {
               "Id": "Base",
-              "Value": "60x35.5mm Oval Base, 60mm"
+              "Value": "60x35.5, 60"
             }
           ],
           "Features": "None"
@@ -2151,7 +2140,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -2370,7 +2359,7 @@
             },
             {
               "Id": "Base",
-              "Value": "25mm"
+              "Value": "25"
             }
           ],
           "Features": "None"
@@ -2585,7 +2574,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -2762,6 +2751,7 @@
       "Infos": [],
       "Keywords": [
         "Goliath Rockgrinder",
+        "Other Datasheets",
         "Vehicle",
         "Great Devourer",
         "Transport",
@@ -3416,6 +3406,7 @@
       "Infos": [],
       "Keywords": [
         "Hybrid Metamorphs",
+        "Other Datasheets",
         "Infantry",
         "Grenades",
         "Great Devourer"
@@ -3458,7 +3449,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -3753,7 +3744,7 @@
             },
             {
               "Id": "Base",
-              "Value": "60x35.5mm Oval Base"
+              "Value": "60x35.5"
             }
           ],
           "Features": "None"
@@ -3965,7 +3956,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -4138,7 +4129,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -4288,7 +4279,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -4660,7 +4651,7 @@
             },
             {
               "Id": "Base",
-              "Value": "25mm, 32mm"
+              "Value": "25, 32"
             }
           ],
           "Features": "None"
@@ -5217,7 +5208,7 @@
             },
             {
               "Id": "Base",
-              "Value": "40mm"
+              "Value": "40"
             }
           ],
           "Features": "None"
@@ -5321,7 +5312,7 @@
     {
       "Id": "PATRIARCH",
       "DisplayName": "Patriarch",
-      "Flags": 0,
+      "Flags": 2,
       "UnitComposition": {
         "ModelCompositions": [
           {
@@ -5409,7 +5400,7 @@
             },
             {
               "Id": "Base",
-              "Value": "50mm"
+              "Value": "50"
             }
           ],
           "Features": "None"
@@ -5467,7 +5458,21 @@
           "PURESTRAIN GENESTEALERS"
         ],
         "Description": "This model can be attached to the following units:\n- PURESTRAIN GENESTEALERS",
-        "Features": 0
+        "Features": 0,
+        "Abilities": [
+          {
+            "AbilityId": "Might From Beyond",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "Devastating Wounds",
+                "Type": "Add",
+                "Scope": "BodyguardUnitOnly",
+                "TargetStatId": "Keywords",
+                "WeaponSetId": "MELEE WEAPONS"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -5553,7 +5558,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -5721,6 +5726,7 @@
       "Infos": [],
       "Keywords": [
         "Purestrain Genestealers",
+        "Other Datasheets",
         "Infantry",
         "Great Devourer"
       ],
@@ -5762,7 +5768,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -5928,7 +5934,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -6196,7 +6202,7 @@
             },
             {
               "Id": "Base",
-              "Value": "32mm"
+              "Value": "32"
             }
           ],
           "Features": "None"
@@ -6362,6 +6368,7 @@
       "Infos": [],
       "Keywords": [
         "Fortification",
+        "Other Datasheets",
         "Vehicle",
         "Frame",
         "Tectonic Fragdrill"
