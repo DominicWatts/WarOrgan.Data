@@ -197,6 +197,10 @@
     {
       "Regex": "^Melta \\d+$",
       "Description": "Apply the current Melta weapon rule."
+    },
+    {
+      "Regex": "^Lance$",
+      "Description": "Apply the current Lance weapon rule."
     }
   ],
   "CoreStratagems": [
