@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.3.11.0 - Reworked Xenocreed Congregation's Feel No Pain 3+ and Predatory Instincts' Infiltrators so WarOrgan applies them.
+
 2026-11-23 : 1.3.10.0 - Ridgerunner spotter now sets ranged BS to 3+ and the flare launcher adds SMOKE.
 
 2026-11-23 : 1.3.9.0 - Added the ten 11th Edition core stratagems.
