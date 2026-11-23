@@ -9,6 +9,7 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
 - Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets. Allied Units will appear when allied rosters are added.
 - Acolyte Hybrids with Hand Flamers and with Autopistols enforce their model count and per-unit/per-five-model wargear limits.
+- Hybrid Metamorphs enforce their model count, hand flamer replacements and single cult icon.
 - Neophyte Hybrids enforce their 10 or 20 model sizes, leader weapon swap and one-of-each-per-ten heavy and special weapon limits. The two-per-ten total for each weapon list cannot be enforced; build these units to the datasheet.
 - The Patriarch carries the must-be-Warlord flag, but WarOrgan does not currently enforce it. Select it as Warlord yourself.
 - The Patriarch's Might From Beyond leader effect is encoded for attached Purestrain Genestealers.

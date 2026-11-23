@@ -3285,21 +3285,15 @@
             "Wargear": [
               {
                 "InitialWargear": [
+                  "autopistol",
                   "leader's bio-weapons"
                 ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "autopistol"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
+                    "Replaces": [
+                      "autopistol"
+                    ],
                     "Options": [
                       {
                         "Items": [
@@ -3314,58 +3308,47 @@
           },
           {
             "Limit": {
-              "Min": 0,
+              "Min": 4,
               "Max": 9
             },
-            "ModelName": "Hybrid Metamorph w/ Autopistol",
+            "ModelName": "Hybrid Metamorph",
             "StatlineRef": "Hybrid Metamorphs",
             "Keywords": [],
             "Wargear": [
               {
                 "InitialWargear": [
-                  "➤ metamorph mutations - strike",
-                  "➤ metamorph mutations - sweep",
-                  "autopistol"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 1
-            },
-            "ModelName": "Hybrid Metamorph w/ Cult Icon",
-            "StatlineRef": "Hybrid Metamorphs",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "➤ metamorph mutations - strike",
-                  "➤ metamorph mutations - sweep",
-                  "cult icon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 9
-            },
-            "ModelName": "Hybrid Metamorph w/ Hand Flamer",
-            "StatlineRef": "Hybrid Metamorphs",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "hand flamer",
+                  "autopistol",
                   "➤ metamorph mutations - strike",
                   "➤ metamorph mutations - sweep"
                 ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "autopistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "autopistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "cult icon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -3388,7 +3371,7 @@
         },
         {
           "Title": "Cult Icon",
-          "Text": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped with by returned models that were shot before they were destroyed are still considered to have been shot."
+          "Text": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
         }
       ],
       "Infos": [],
