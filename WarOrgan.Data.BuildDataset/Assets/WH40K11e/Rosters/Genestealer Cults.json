@@ -6594,7 +6594,25 @@
           "Features": "None"
         }
       ],
-      "Effects": []
+      "Effects": [
+        {
+          "AffectedUnits": [],
+          "AffectedUnitsByKeyword": [
+            "Vanguard Invader"
+          ],
+          "DatasheetAdjustments": [
+            {
+              "Target": "UnitFlags",
+              "Type": "Add",
+              "Scope": "Unit",
+              "Values": [],
+              "EnumValues": [
+                1
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "ArmyRules": [
