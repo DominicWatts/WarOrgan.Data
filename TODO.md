@@ -72,6 +72,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Core stratagems confirmed in WarOrgan (1.3.9).
 - [x] 1.3.10: confirmed the Ridgerunner spotter sets ranged BS to 3+ and the flare launcher adds SMOKE.
 - [ ] Leader effects: confirm in WarOrgan that Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and that a Support character can join a unit alongside a Leader.
+- [ ] 1.4.1: confirm the Scouts, Deadly Demise and Feel No Pain values show on their units, the Biophagus lists the alchemicus familiar, and the Tectonic Fragdrill shows Fortification.
 - [ ] Find out whether WarOrgan can import a ZIP from a local file or a non-stable URL for pre-release testing.
 
 ## Tooling
