@@ -1604,7 +1604,7 @@
       "UnitAbilities": [
         {
           "Title": "Outrider Gangs",
-          "Text": "Each time you use the Cult Ambush ability to set this unit back up on the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up."
+          "Text": "Each time you use the Cult Ambush ability to set this unit back upon the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up."
         },
         {
           "Title": "Demolition Run",
@@ -2108,7 +2108,7 @@
           "Weapons": [
             {
               "Id": "psionic cascade - witchfire",
-              "DisplayName": "Psionic cascade - witchfire",
+              "DisplayName": "Psionic Cascade - witchfire",
               "Flags": "None",
               "Stats": [
                 {
@@ -2140,7 +2140,7 @@
             },
             {
               "Id": "psionic cascade - focused witchfire",
-              "DisplayName": "Psionic cascade - focused witchfire",
+              "DisplayName": "Psionic Cascade - focused witchfire",
               "Flags": "None",
               "Stats": [
                 {
@@ -2355,7 +2355,7 @@
                   "Value": "D3"
                 }
               ],
-              "Keywords": "Anti-infantry 2+"
+              "Keywords": "Anti-Infantry 2+"
             }
           ]
         },
@@ -2441,10 +2441,11 @@
         "UnitNames": [
           "ABERRANTS",
           "ACOLYTE HYBRIDS WITH AUTOPISTOLS",
+          "ACOLYTE HYBRIDS WITH HAND FLAMERS",
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
-        "Description": "This model can be attached to the following units:\n- ABERRANTS\n\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HANDFLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+        "Description": "This model can be attached to the following units:\n- ABERRANTS\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HAND FLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0
       }
     },
@@ -2478,7 +2479,7 @@
       "UnitAbilities": [
         {
           "Title": "Voice of New Truths",
-          "Text": "In your Command phase, one model from your army with this ability can use it, if it does, select one enemy unit with 18\" of it, that enemy unit must take a Battle-shock test."
+          "Text": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
         },
         {
           "Title": "Scrambler Array",
@@ -2681,7 +2682,7 @@
       "UnitAbilities": [
         {
           "Title": "Grinding Line-breaker",
-          "Text": "Each time an enemy unit (excluding MONSTER and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+          "Text": "Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
         },
         {
           "Title": "Damaged: 1-3 Wounds Remaining",
@@ -2738,7 +2739,7 @@
             },
             {
               "Id": "Base",
-              "Value": "Hull"
+              "Value": "Use model"
             }
           ],
           "Features": "None"
