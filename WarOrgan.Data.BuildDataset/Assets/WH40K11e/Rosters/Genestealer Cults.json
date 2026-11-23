@@ -2986,7 +2986,7 @@
               {
                 "InitialWargear": [
                   "twin autocannon",
-                  "goliath wheels",
+                  "armoured hull",
                   "demolition charge cache",
                   "heavy stubber"
                 ],
@@ -3167,8 +3167,8 @@
           "DisplayName": "Melee Weapons",
           "Weapons": [
             {
-              "Id": "goliath wheels",
-              "DisplayName": "Goliath wheels",
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
               "Flags": "None",
               "Stats": [
                 {
