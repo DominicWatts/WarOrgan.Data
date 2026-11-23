@@ -2361,6 +2361,176 @@
           "Cost": 120
         }
       ]
+    },
+    {
+      "Id": "PARASITE OF MORTREX",
+      "DisplayName": "Parasite of Mortrex",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Parasite of Mortrex",
+            "StatlineRef": "Parasite of Mortrex",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "barbed ovipositor",
+                  "clawed limbs"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Parasitic Infection",
+          "Text": "Each time an INFANTRY model is destroyed by an attack made with this model’s barbed ovipositor, after this model has finished making its attacks, you can add one new Ripper Swarms unit to your army consisting of D3 models and set it up within 3\" of this model. If you do, that RIPPER SWARMS unit can be set up within Engagement Range of the destroyed model’s unit (but not within Engagement Range of any other enemy units)."
+        },
+        {
+          "Title": "It Itches!",
+          "Text": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. That enemy unit must take a Battle-shock test."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Parasite of Mortrex",
+        "Infantry",
+        "Character",
+        "Fly",
+        "Synapse",
+        "Great Devourer",
+        "Vanguard Invader"
+      ],
+      "CoreAbilities": [
+        "Deep Strike",
+        "Lone Operative",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Parasite of Mortrex",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "barbed ovipositor",
+              "DisplayName": "Barbed ovipositor",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ],
+              "Keywords": "Anti-Infantry 3+, Extra Attacks"
+            },
+            {
+              "Id": "clawed limbs",
+              "DisplayName": "Clawed limbs",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
     }
   ],
   "Detachments": [],
