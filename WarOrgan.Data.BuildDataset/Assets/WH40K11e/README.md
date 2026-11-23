@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.2.0.0
+## Coverage in 1.2.1.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
@@ -16,10 +16,10 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 - Biophagus, Clamavus, Locus and Nexos attach as Support characters alongside a Leader.
 - Leader effects are applied to the led unit: Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion. Cult Demagogue (+1 to Hit), The Chosen One and the Locus's Bodyguard ability are shown as text only.
 
-- The Cult Ambush army rule and the Heroes of the Uprising detachment, with its rule, enhancements and stratagems. KILLER is added to the Kelermorph, Locus, Reductus Saboteur and Sanctus, and both enhancements adjust weapon profiles.
+- The Cult Ambush army rule and three detachments: Heroes of the Uprising, Purestrain Broodswarm and Xenocult Masses, each with its rule, Force Disposition, enhancements and stratagems. Heroes of the Uprising adds KILLER to the Kelermorph, Locus, Reductus Saboteur and Sanctus. Enhancements that change profiles adjust them; Upgrades (Mark of the Star Children, Devious Disguises) can go on non-CHARACTER units.
 - Battle sizes use the 11th Edition detachment points and enhancement limits: Incursion 2 DP and 2 enhancements, Strike Force 3 DP and 4. Onslaught is not in the 11th Edition core rules, so it uses the Strike Force limits. Unit limits are not enforced.
 
-This version does not yet include the other eight detachments, Force Dispositions, core stratagems or allied Astra Militarum/Tyranid units.
+This version does not yet include the other six detachments, core stratagems or allied Astra Militarum/Tyranid units.
 
 ## Installation
 
