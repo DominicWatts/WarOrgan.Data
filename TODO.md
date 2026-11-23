@@ -35,7 +35,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Neophyte Hybrids
 - [x] Nexos
 - [x] Patriarch
-- [ ] Primus
+- [x] Primus
 - [ ] Purestrain Genestealers
 - [ ] Reductus Saboteur
 - [ ] Sanctus
