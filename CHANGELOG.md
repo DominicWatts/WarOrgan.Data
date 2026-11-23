@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.3.6.0 - Added the Xenocreed Congregation detachment.
+
 2026-11-23 : 1.3.5.0 - Added the Host of Ascension detachment.
 
 2026-11-23 : 1.3.4.0 - Showed invulnerable save values on the nine GSC units that have one.
