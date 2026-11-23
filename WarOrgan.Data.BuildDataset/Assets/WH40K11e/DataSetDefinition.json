@@ -15,7 +15,7 @@
       "Description": "This unit can be set up using the current Deep Strike core rules."
     },
     {
-      "Regex": "^Feel No Pain$",
+      "Regex": "^Feel No Pain(?: \\d\\+)?$",
       "Description": "This unit has a Feel No Pain ability; see its datasheet for the required roll."
     },
     {
@@ -119,6 +119,10 @@
     {
       "Regex": "^Devastating Wounds$",
       "Description": "Apply the current Devastating Wounds weapon rule."
+    },
+    {
+      "Regex": "^Lethal Hits$",
+      "Description": "Apply the current Lethal Hits weapon rule."
     },
     {
       "Regex": "^Extra Attacks$",
