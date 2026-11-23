@@ -1125,6 +1125,11 @@
             "GrantsAbilities": [
               "Cult Icon"
             ]
+          },
+          {
+            "Key": "demolition charge",
+            "DisplayName": "Demolition charges",
+            "Cost": 0
           }
         ]
       },
@@ -4272,7 +4277,13 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "force stave",
+            "DisplayName": "Magus stave",
+            "Cost": 0
+          }
+        ]
       },
       "UnitAbilities": [
         {
