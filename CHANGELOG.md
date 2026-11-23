@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.1.5.0 - Ridgerunners and Rockgrinder now start with a heavy mining laser and swap it rather than adding weapons; Ridgerunner heavy mining lasers cost 10 points; Goliath Truck melee weapon renamed to Armoured hull.
+
 2026-11-23 : 1.1.4.0 - Removed the arrow prefix from dual-profile weapon names.
 
 2026-11-23 : 1.1.3.0 - Neophyte Hybrids heavy and special weapons are now two selection groups of up to two per ten models.

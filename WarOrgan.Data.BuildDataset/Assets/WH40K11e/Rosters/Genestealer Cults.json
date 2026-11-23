@@ -350,50 +350,23 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "armoured hull",
+                  "heavy mining laser",
                   "twin heavy stubber",
+                  "armoured hull",
                   "flare launcher"
                 ],
                 "Options": [
                   {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "spotter"
-                        ]
-                      }
-                    ],
+                    "Max": 2,
                     "Replaces": [
-                      "flare launcher"
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "survey augur"
-                        ]
-                      }
+                      "heavy mining laser"
                     ],
-                    "Replaces": [
-                      "flare launcher"
-                    ]
-                  },
-                  {
-                    "Max": 1,
                     "Options": [
                       {
                         "Items": [
                           "achilles missile launcher"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "heavy mortar"
@@ -402,11 +375,19 @@
                     ]
                   },
                   {
-                    "Max": 1,
+                    "Max": 2,
+                    "Replaces": [
+                      "flare launcher"
+                    ],
                     "Options": [
                       {
                         "Items": [
-                          "heavy mining laser"
+                          "spotter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "survey augur"
                         ]
                       }
                     ]
@@ -417,6 +398,11 @@
           }
         ],
         "WargearDefinitions": [
+          {
+            "Key": "heavy mining laser",
+            "DisplayName": "Heavy mining laser",
+            "Cost": 10
+          },
           {
             "Key": "flare launcher",
             "DisplayName": "Flare launcher",
@@ -2661,37 +2647,26 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "drilldozer blade",
+                  "heavy mining laser",
                   "heavy stubber",
+                  "drilldozer blade",
                   "demolition charge cache"
                 ],
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "heavy mining laser"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "clearance incinerator"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "heavy seismic cannon"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "heavy mining laser"
                         ]
                       }
                     ]
@@ -3011,7 +2986,7 @@
               {
                 "InitialWargear": [
                   "twin autocannon",
-                  "goliath wheels",
+                  "armoured hull",
                   "demolition charge cache",
                   "heavy stubber"
                 ],
@@ -3192,8 +3167,8 @@
           "DisplayName": "Melee Weapons",
           "Weapons": [
             {
-              "Id": "goliath wheels",
-              "DisplayName": "Goliath wheels",
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
               "Flags": "None",
               "Stats": [
                 {
