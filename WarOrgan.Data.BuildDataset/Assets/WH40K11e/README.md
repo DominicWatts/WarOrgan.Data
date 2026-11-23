@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.2.2.0
+## Coverage in 1.3.0.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Tyranids: the Winged Tyranid Prime only, added as the first Tyranid ally for the Final Day detachment. Tyranids appear as their own faction, but are not a complete army yet.
@@ -20,7 +20,7 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 - The Cult Ambush army rule and four detachments: Heroes of the Uprising, Purestrain Broodswarm, Xenocult Masses and Final Day, each with its rule, Force Disposition, enhancements and stratagems. Heroes of the Uprising adds KILLER to the Kelermorph, Locus, Reductus Saboteur and Sanctus. Enhancements that change profiles adjust them; Upgrades (Mark of the Star Children, Devious Disguises) can go on non-CHARACTER units. WarOrgan does not enforce the limit of three copies of the same Upgrade; build to the core rules.
 - Battle sizes use the 11th Edition detachment points and enhancement limits: Incursion 2 DP and 2 enhancements, Strike Force 3 DP and 4. Onslaught is not in the 11th Edition core rules, so it uses the Strike Force limits. Unit limits are not enforced.
 
-Final Day lets you include Tyranids Vanguard Invader units, but Tyranid units are not in this dataset yet, so its Synaptic Auger and Vanguard Tyrant enhancements have no eligible bearer.
+Final Day lets you include Tyranids Vanguard Invader units (excluding AIRCRAFT, BROODLORD and GENESTEALERS) up to half your points. They appear under Allied Units and cannot be your Warlord. Only the Winged Tyranid Prime is available so far; Vanguard Tyrant has no eligible bearer until the Winged Hive Tyrant is added.
 
 This version does not yet include the other five detachments, core stratagems or allied Astra Militarum/Tyranid units.
 
