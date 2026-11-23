@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.1.6.0 - Checked Aberrants, Abominant, Achilles Ridgerunners, Acolyte Hybrids with Hand Flamers and Acolyte Iconward against the current datasheets and corrected ability wording and the demolition charges name.
+
 2026-11-23 : 1.1.5.0 - Ridgerunners and Rockgrinder now start with a heavy mining laser and swap it rather than adding weapons; Ridgerunner heavy mining lasers cost 10 points; Goliath Truck melee weapon renamed to Armoured hull.
 
 2026-11-23 : 1.1.4.0 - Removed the arrow prefix from dual-profile weapon names.
