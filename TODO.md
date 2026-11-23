@@ -64,6 +64,9 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] 1.3.0: confirmed in WarOrgan that the Winged Tyranid Prime only appears in a GSC list once Final Day is chosen, sits under Allied Units, counts toward the 50% cap, cannot be Warlord, and can take Synaptic Auger. Also checked the new Tyranids faction on its own. The 50% ally cap could not be clearly confirmed.
 - [x] 1.3.1 and 1.3.2: confirmed in WarOrgan that the Tyranid allies appear under Allied Units with Final Day (including Battleline Gargoyles and the Dedicated Transport Tyrannocyte) and that the 50% ally cap applies.
 - [ ] 1.3.5: confirm Host of Ascension costs 3 DP, offers Take and Hold and Reconnaissance, and cannot be taken with Xenocult Masses (HOSTS tag).
+- [x] 1.3.8: Outlander Claw +1 OC and the 2 DP detachment limit confirmed in WarOrgan.
+- [ ] Core abilities added by data do not show in WarOrgan: Xenocreed Congregation Feel No Pain 3+ (detachment effect) and Predatory Instincts Infiltrators (enhancement) both failed in 1.3.8, while keyword, stat and weapon-ability changes work. Probably also affects the Locus (Fights First) and Iconward (Feel No Pain) leader effects. Needs a different representation or the app author's guidance.
+- [ ] 1.3.10: confirm the Ridgerunner spotter sets ranged BS to 3+ and the flare launcher adds SMOKE.
 - [ ] Leader effects: confirm in WarOrgan that Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and that a Support character can join a unit alongside a Leader.
 - [ ] Find out whether WarOrgan can import a ZIP from a local file or a non-stable URL for pre-release testing.
 

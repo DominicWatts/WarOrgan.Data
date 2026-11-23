@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.3.10.0 - Ridgerunner spotter now sets ranged BS to 3+ and the flare launcher adds SMOKE.
+
 2026-11-23 : 1.3.9.0 - Added the ten 11th Edition core stratagems.
 
 2026-11-23 : 1.3.8.0 - Added the Biosanctic Broodsurge detachment.
