@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.2.2.0 - Added the Final Day detachment; its Tyranid-only enhancements await Tyranid allies.
+
 2026-11-23 : 1.2.1.0 - Added the Purestrain Broodswarm and Xenocult Masses detachments and Force Dispositions for all three detachments.
 
 2026-11-23 : 1.2.0.0 - Added the Cult Ambush army rule, the Heroes of the Uprising detachment and 11th Edition detachment points and enhancement limits.

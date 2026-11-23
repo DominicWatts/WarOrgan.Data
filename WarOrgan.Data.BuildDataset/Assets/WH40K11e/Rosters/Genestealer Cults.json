@@ -6494,6 +6494,107 @@
         }
       ],
       "Effects": []
+    },
+    {
+      "Name": "Final Day",
+      "Cost": 2,
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Rule": {
+        "Title": "Psionic Parasitism",
+        "Text": "**Psionic Parasitism**\n\nAt the end of your Movement phase, for each TYRANIDS SYNAPSE unit from your army, you can select one friendly GENESTEALER CULTS unit (excluding PURESTRAIN GENESTEALER and PATRIARCH units) and one friendly TYRANIDS unit each within 9\" of and visible to that SYNAPSE unit. If you do, that GENESTEALER CULTS unit from your army suffers D3+1 mortal wounds and one model in the selected TYRANIDS unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected TYRANIDS unit makes an attack, add 1 to the Hit roll.\n\nTYRANIDS units from your army have the following ability:\n\nCatalyst (Aura): While an enemy unit is within 6\" of this unit, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, add 1 to the Hit roll.\n\n**The Star Children's Blessings**\n\nYou can include TYRANIDS VANGUARD INVADER units (excluding AIRCRAFT, BROODLORD and GENESTEALERS units) in your army. The combined points cost of such units depends on your battle size:\n\n- Incursion: Up to 500 pts\n- Strike Force: Up to 1000 pts\n- Onslaught: Up to 1500 pts\n\nNo TYRANIDS models from your army can be your WARLORD."
+      },
+      "Stratagems": [
+        {
+          "Name": "Hyperferocity",
+          "Category": "Final Day – Battle Tactic Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase.",
+          "Target": "One GENESTEALER CULTS unit from your army that has not been selected to fight this phase.",
+          "Effect": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re-roll a Wound roll of 1. If one or more friendly TYRANIDS units are within 6\" of that enemy unit, you can re-roll the Wound roll instead."
+        },
+        {
+          "Name": "Psi Surge",
+          "Category": "Final Day – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Start of any phase.",
+          "Target": "One TYRANIDS unit from your army.",
+          "Effect": "Until the start of your next Command phase, increase the range of your unit's Catalyst ability by 3\".",
+          "Restrictions": "Each time you use this Stratagem, until the end of your next Command phase, you cannot use this Stratagem again."
+        },
+        {
+          "Name": "Avenge the Star Children",
+          "Category": "Final Day – Battle Tactic Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has shot or fought.",
+          "Target": "One TYRANIDS CHARACTER unit from your army that was destroyed by that enemy unit this phase. You can use this Stratagem on that unit even though it was just destroyed.",
+          "Effect": "Until the end of the battle, each time a GENESTEALER CULTS model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "Name": "Divine Imperative",
+          "Category": "Final Day – Battle Tactic Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Charge phase, when a friendly GENESTEALER CULTS unit within 12\" of a friendly engaged TYRANIDS unit declares a charge.",
+          "Target": "That GENESTEALER CULTS unit.",
+          "Effect": "- Your unit has +1 to charge rolls.\n- You can use this part of this stratagem. If you do:\n  - Your unit can re-roll charge rolls.\n  - Your unit must end that charge move engaged with an enemy unit engaged with that friendly TYRANIDS unit."
+        },
+        {
+          "Name": "Darting Attacks",
+          "Category": "Final Day – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Charge",
+          "When": "Your Shooting phase or your Charge phase.",
+          "Target": "One TYRANIDS unit from your army.",
+          "Effect": "Until the end of the phase, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "Name": "Resistance Tunnels",
+          "Category": "Final Day – Strategic Ploy Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent's Fight phase.",
+          "Target": "One GENESTEALER CULTS or TYRANIDS unit from your army that is not within Engagement Range of one or more enemy units.",
+          "Effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Synaptic Auger",
+          "Description": "TYRANIDS model only. Each time the bearer would regain one or more lost wounds from the Psionic Parasitism Detachment rule, it regains up to twice that number of lost wounds instead.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredKeywords": [
+            "Tyranids"
+          ]
+        },
+        {
+          "Name": "Enraptured Damnation",
+          "Description": "GENESTEALER CULTS model only. Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit.",
+          "Cost": 10,
+          "Features": "None"
+        },
+        {
+          "Name": "Vanguard Tyrant",
+          "Description": "WINGED HIVE TYRANT model only. Improve the Strength and Armour Penetration characteristics of melee weapons equipped by the bearer by 1.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredKeywords": [
+            "Winged Hive Tyrant"
+          ]
+        },
+        {
+          "Name": "Inhuman Integration",
+          "Description": "GENESTEALER CULTS model only. Weapons equipped by models in the bearer's unit have the [SUSTAINED HITS 1] ability while targeting an enemy unit within 6\" of one or more friendly TYRANIDS units.",
+          "Cost": 20,
+          "Features": "None"
+        }
+      ],
+      "Effects": []
     }
   ],
   "ArmyRules": [
