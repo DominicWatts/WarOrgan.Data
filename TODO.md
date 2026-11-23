@@ -37,7 +37,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Patriarch
 - [x] Primus
 - [x] Purestrain Genestealers
-- [ ] Reductus Saboteur
+- [x] Reductus Saboteur
 - [ ] Sanctus
 - [ ] Tectonic Fragdrill
 
