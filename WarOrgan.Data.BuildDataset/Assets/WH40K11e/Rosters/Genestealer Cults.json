@@ -1503,7 +1503,57 @@
           "NEOPHYTE HYBRIDS"
         ],
         "Description": "This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**",
-        "Features": 0
+        "Features": 0,
+        "Abilities": [
+          {
+            "AbilityId": "Nexus of Devotion",
+            "RequiredUnitKeywords": [
+              "Acolyte Hybrids"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "AttachedUnit",
+                "Values": [
+                  "Feel No Pain 5+"
+                ]
+              }
+            ]
+          },
+          {
+            "AbilityId": "Nexus of Devotion",
+            "RequiredUnitKeywords": [
+              "Neophyte Hybrids"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "AttachedUnit",
+                "Values": [
+                  "Feel No Pain 5+"
+                ]
+              }
+            ]
+          },
+          {
+            "AbilityId": "Nexus of Devotion",
+            "RequiredUnitKeywords": [
+              "Hybrid Metamorphs"
+            ],
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "AttachedUnit",
+                "Values": [
+                  "Feel No Pain 4+"
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -2225,7 +2275,21 @@
           "NEOPHYTE HYBRIDS"
         ],
         "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS",
-        "Features": 0
+        "Features": 0,
+        "Abilities": [
+          {
+            "AbilityId": "Bio-horror Disruption (Psychic)",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "Lethal Hits",
+                "Type": "Add",
+                "Scope": "AttachedUnit",
+                "TargetStatId": "Keywords",
+                "WeaponSetId": "RANGED WEAPONS"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -2447,7 +2511,21 @@
         ],
         "LeaderType": "Support",
         "Description": "This model can be attached to the following units:\n- ABERRANTS\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HAND FLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
-        "Features": 0
+        "Features": 0,
+        "Abilities": [
+          {
+            "AbilityId": "Twisted Science",
+            "WeaponStatAdjustments": [
+              {
+                "Value": "Lethal Hits",
+                "Type": "Add",
+                "Scope": "AttachedUnit",
+                "TargetStatId": "Keywords",
+                "WeaponSetId": "MELEE WEAPONS"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -4120,7 +4198,22 @@
         ],
         "LeaderType": "Support",
         "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
-        "Features": 0
+        "Features": 0,
+        "Abilities": [
+          {
+            "AbilityId": "Sudden Assault",
+            "DatasheetAdjustments": [
+              {
+                "Target": "CoreAbilities",
+                "Type": "Add",
+                "Scope": "AttachedUnit",
+                "Values": [
+                  "Fights First"
+                ]
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -5288,7 +5381,7 @@
               {
                 "Value": "Devastating Wounds",
                 "Type": "Add",
-                "Scope": "BodyguardUnitOnly",
+                "Scope": "AttachedUnit",
                 "TargetStatId": "Keywords",
                 "WeaponSetId": "MELEE WEAPONS"
               }
