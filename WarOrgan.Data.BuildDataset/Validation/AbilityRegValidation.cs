@@ -68,7 +68,10 @@ public static class AbilityRegValidation
             .SelectMany(w => w.DatasheetAdjustments ?? [])
             .Concat(roster.Detachments
                 .SelectMany(d => d.Enhancements)
-                .SelectMany(e => e.DatasheetAdjustments ?? []));
+                .SelectMany(e => e.DatasheetAdjustments ?? []))
+            .Concat(roster.Units
+                .SelectMany(u => u.LeaderInfo?.Abilities ?? [])
+                .SelectMany(a => a.DatasheetAdjustments ?? []));
 
         var addedCoreAbilities = datasheetAdjustments
             .Where(d => d.Target == DatasheetFeature.CoreAbilities)
@@ -86,7 +89,10 @@ public static class AbilityRegValidation
             .SelectMany(w => w.WeaponAdjustments ?? [])
             .Concat(roster.Detachments
                 .SelectMany(d => d.Enhancements)
-                .SelectMany(e => e.WeaponStatAdjustments ?? []));
+                .SelectMany(e => e.WeaponStatAdjustments ?? []))
+            .Concat(roster.Units
+                .SelectMany(u => u.LeaderInfo?.Abilities ?? [])
+                .SelectMany(a => a.WeaponStatAdjustments ?? []));
 
         var addedWeaponAbilities = weaponAdjustments
             .Where(w => w.TargetStatId == "Keywords")
