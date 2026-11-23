@@ -2445,6 +2445,7 @@
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
+        "LeaderType": "Support",
         "Description": "This model can be attached to the following units:\n- ABERRANTS\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HAND FLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0
       }
@@ -2627,6 +2628,7 @@
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
+        "LeaderType": "Support",
         "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0
       }
@@ -4116,6 +4118,7 @@
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
+        "LeaderType": "Support",
         "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0
       }
@@ -5123,6 +5126,7 @@
           "HYBRID METAMORPHS",
           "NEOPHYTE HYBRIDS"
         ],
+        "LeaderType": "Support",
         "Description": "This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, MAGUS, or ACOLYTE ICONWARD model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
         "Features": 0
       }
