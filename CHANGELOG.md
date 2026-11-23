@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-23 : 1.4.0.0 - Added the Brood Brother Auxilia detachment and Astra Militarum allies, starting with Cadian Shock Troops.
+
 2026-11-23 : 1.3.12.0 - Wargear lists now show Magus stave and Demolition charges, and leader text no longer repeats the app's attachment list.
 
 2026-11-23 : 1.3.11.0 - Reworked Xenocreed Congregation's Feel No Pain 3+ and Predatory Instincts' Infiltrators so WarOrgan applies them.
