@@ -2045,6 +2045,153 @@
           "Cost": 185
         }
       ]
+    },
+    {
+      "Id": "DEATHLEAPER",
+      "DisplayName": "Deathleaper",
+      "Flags": 1,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Deathleaper",
+            "StatlineRef": "Deathleaper",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lictor claws and talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Feeder Tendrils",
+          "Text": "Each time this model destroys an enemy CHARACTER model, you gain 1CP."
+        },
+        {
+          "Title": "Fear of the Unseen (Aura)",
+          "Text": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test."
+        },
+        {
+          "Title": "Hunter Organism",
+          "Text": "This model cannot be your WARLORD."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Deathleaper",
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Great Devourer",
+        "Vanguard Invader"
+      ],
+      "CoreAbilities": [
+        "Fights First",
+        "Infiltrators",
+        "Lone Operative",
+        "Stealth",
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Deathleaper",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "7"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "lictor claws and talons",
+              "DisplayName": "Lictor claws and talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Precision"
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
     }
   ],
   "Detachments": [],
