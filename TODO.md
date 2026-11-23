@@ -57,11 +57,11 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 
 ## Blocked or needs app confirmation
 
-- [ ] Patriarch must be Warlord: `Flags: 2` is published but WarOrgan does not enforce it. Needs the app author's guidance or an app test with a flag-reading experiment.
+- [ ] Patriarch must be Warlord: `Flags: 2` is published but WarOrgan does not enforce it. The 1.3.0 test showed the app does read unit flags (`NotWarlord` blocked the Winged Tyranid Prime), so `MustBeWarlord` is probably read but not validated as a list rule. Needs the app author's guidance.
 - [x] Heroes of the Uprising: confirmed in WarOrgan (1.2.0) that the detachment, its stratagems and enhancements appear, KILLER shows on the four units, and the enhancements change weapon profiles.
 - [x] 1.2.1: confirmed in WarOrgan that Force Dispositions can be chosen, several 1 DP detachments fit within 3 DP, the PURESTRAIN and HOSTS tags show, and Upgrades go on non-CHARACTER units and change profiles. The app does not enforce the three-copies limit for Upgrades.
 - [ ] 1.2.2: confirm Final Day costs 2 DP, shows Purge the Foe and its six stratagems, and its rule text (with bold sub-headings and the battle-size list) reads correctly.
-- [ ] 1.3.0: confirm the Winged Tyranid Prime only appears in a GSC list once Final Day is chosen, sits under Allied Units, counts toward the 50% cap, cannot be Warlord, and can take Synaptic Auger. Also check how the new Tyranids faction looks on its own.
+- [x] 1.3.0: confirmed in WarOrgan that the Winged Tyranid Prime only appears in a GSC list once Final Day is chosen, sits under Allied Units, counts toward the 50% cap, cannot be Warlord, and can take Synaptic Auger. Also checked the new Tyranids faction on its own. The 50% ally cap could not be clearly confirmed.
 - [ ] Leader effects: confirm in WarOrgan that Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and that a Support character can join a unit alongside a Leader.
 - [ ] Find out whether WarOrgan can import a ZIP from a local file or a non-stable URL for pre-release testing.
 
