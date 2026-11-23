@@ -4076,47 +4076,23 @@
                     "Options": [
                       {
                         "Items": [
-                          "mortar"
+                          "autocannon"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
-                    "Replaces": [
-                      "heavy bolter"
-                    ],
-                    "Options": [
+                      },
+                      {
+                        "Items": [
+                          "lascannon"
+                        ]
+                      },
                       {
                         "Items": [
                           "missile launcher - frag",
                           "missile launcher - krak"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
-                    "Replaces": [
-                      "heavy bolter"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
-                          "lascannon"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
-                    "Replaces": [
-                      "heavy bolter"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "autocannon"
+                          "mortar"
                         ]
                       }
                     ]
@@ -6530,47 +6506,23 @@
                     "Options": [
                       {
                         "Items": [
-                          "mortar"
+                          "autocannon"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
-                    "Replaces": [
-                      "heavy bolter"
-                    ],
-                    "Options": [
+                      },
+                      {
+                        "Items": [
+                          "lascannon"
+                        ]
+                      },
                       {
                         "Items": [
                           "missile launcher - frag",
                           "missile launcher - krak"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
-                    "Replaces": [
-                      "heavy bolter"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
-                          "lascannon"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
-                    "Replaces": [
-                      "heavy bolter"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "autocannon"
+                          "mortar"
                         ]
                       }
                     ]
@@ -9653,15 +9605,7 @@
                         "Items": [
                           "bombast field gun"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 2,
-                    "Replaces": [
-                      "malleus rocket launcher"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
                           "heavy lascannon"
@@ -13803,7 +13747,7 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "krieg heavy flamer",
+                  "lascannon",
                   "close combat weapon",
                   "laspistol"
                 ],
@@ -13811,25 +13755,17 @@
                   {
                     "Max": 3,
                     "Replaces": [
-                      "krieg heavy flamer"
+                      "lascannon"
                     ],
                     "Options": [
+                      {
+                        "Items": [
+                          "krieg heavy flamer"
+                        ]
+                      },
                       {
                         "Items": [
                           "twin krieg heavy stubber"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
-                    "Replaces": [
-                      "krieg heavy flamer"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "lascannon"
                         ]
                       }
                     ]
