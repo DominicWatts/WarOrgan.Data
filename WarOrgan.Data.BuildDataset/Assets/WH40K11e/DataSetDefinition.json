@@ -38,6 +38,13 @@
       "Category": "Xenos",
       "MainColor": "#6E1F3F",
       "DarkColor": "#B8607F"
+    },
+    {
+      "Name": "Astra Militarum",
+      "FactionKeyword": "Astra Militarum",
+      "Category": "Imperium",
+      "MainColor": "#3E5A35",
+      "DarkColor": "#86A876"
     }
   ],
   "CoreAbilities": [
@@ -162,6 +169,10 @@
     {
       "Regex": "^Sustained Hits \\d+$",
       "Description": "Apply the current Sustained Hits weapon rule."
+    },
+    {
+      "Regex": "^Melta \\d+$",
+      "Description": "Apply the current Melta weapon rule."
     }
   ],
   "CoreStratagems": [
