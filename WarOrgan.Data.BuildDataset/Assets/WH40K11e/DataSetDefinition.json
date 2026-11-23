@@ -6,7 +6,31 @@
       "FactionKeyword": "Genestealer Cults",
       "Category": "Xenos",
       "MainColor": "#512A63",
-      "DarkColor": "#9B6BAA"
+      "DarkColor": "#9B6BAA",
+      "Allies": [
+        {
+          "FactionKeyword": "Tyranids",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Final Day"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AllKeywordFilter": [
+                "Vanguard Invader"
+              ],
+              "ExcludeKeywordFilter": [
+                "Aircraft",
+                "Broodlord",
+                "Genestealers"
+              ],
+              "AddedKeywords": [
+                "Allied Units"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Tyranids",
@@ -176,6 +200,10 @@
     {
       "Keyword": "Other Datasheets",
       "CategoryDisplayName": "Other Datasheets"
+    },
+    {
+      "Keyword": "Allied Units",
+      "CategoryDisplayName": "Allied Units"
     }
   ]
 }
