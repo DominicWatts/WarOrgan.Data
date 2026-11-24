@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "World Eaters",
+      "FactionKeyword": "World Eaters",
+      "Category": "Chaos",
+      "MainColor": "#8A1E1E",
+      "DarkColor": "#C8C8C8"
     }
   ],
   "CoreAbilities": [
