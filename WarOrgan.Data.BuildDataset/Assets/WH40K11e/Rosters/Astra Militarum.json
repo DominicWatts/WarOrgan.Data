@@ -19094,7 +19094,9 @@
           "CATACHAN JUNGLE FIGHTERS",
           "DEATH KORPS OF KRIEG",
           "KASRKIN",
-          "KRIEG COMBAT ENGINEERS"
+          "KRIEG COMBAT ENGINEERS",
+          "DEATH KORPS GRENADIER SQUAD",
+          "TEMPESTUS SCIONS"
         ],
         "Features": 0
       },
@@ -27218,28 +27220,25 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "close combat weapon",
-                  "sniper rifle"
+                  "sniper rifle",
+                  "close combat weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 10
-            },
-            "ModelName": "Ratling",
-            "StatlineRef": "Ratlings",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "close combat weapon",
-                  "tankstopper rifle"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "sniper rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "tankstopper rifle"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -27426,7 +27425,7 @@
           "Cost": 60
         },
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 100
         }
       ]
