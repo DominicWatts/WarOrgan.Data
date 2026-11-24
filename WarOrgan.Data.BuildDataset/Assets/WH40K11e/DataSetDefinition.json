@@ -76,6 +76,19 @@
       "Category": "Imperium",
       "MainColor": "#1B3F8B",
       "DarkColor": "#5B7FCB"
+    },
+    {
+      "Name": "Dark Angels",
+      "FactionKeyword": "Dark Angels",
+      "Category": "Imperium",
+      "MainColor": "#1E4D2B",
+      "DarkColor": "#5E9D6B",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
