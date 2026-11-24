@@ -3355,7 +3355,7 @@
             },
             {
               "Id": "Base",
-              "Value": "50"
+              "Value": "60"
             }
           ],
           "Features": "None"
@@ -3673,7 +3673,7 @@
                 },
                 {
                   "Id": "S",
-                  "Value": "4"
+                  "Value": "3"
                 },
                 {
                   "Id": "AP",
