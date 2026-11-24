@@ -13098,6 +13098,10 @@
           "Cost": 35
         },
         {
+          "ModelCount": 2,
+          "Cost": 70
+        },
+        {
           "ModelCount": 3,
           "Cost": 105
         }
@@ -16260,6 +16264,10 @@
         {
           "ModelCount": 1,
           "Cost": 40
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 80
         },
         {
           "ModelCount": 3,
