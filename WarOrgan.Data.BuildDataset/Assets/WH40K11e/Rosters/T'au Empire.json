@@ -8391,7 +8391,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise"
+        "Deadly Demise",
+        "Hover"
       ],
       "FactionKeywords": [
         "T'au Empire"
@@ -11865,7 +11866,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D6+3"
+        "Deadly Demise D6+3",
+        "Super-Heavy Walker"
       ],
       "FactionKeywords": [
         "T'au Empire"
