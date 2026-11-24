@@ -1,0 +1,815 @@
+{
+  "Name": "Tyranids",
+  "Units": [
+    {
+      "Id": "BARBED HIERODULE",
+      "DisplayName": "Barbed Hierodule",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Barbed Hierodule",
+            "StatlineRef": "Barbed Hierodule",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bio-cannon",
+                  "bio-cannon",
+                  "hierodule scything talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Overgrown Barbs",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Titanic units) that was hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Damaged: 1-6 Wounds Remaining",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Great Devourer",
+        "Barbed Hierodule",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Barbed Hierodule",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "18"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "5"
+            },
+            {
+              "Id": "Base",
+              "Value": "130"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bio-cannon",
+              "DisplayName": "Bio-cannon",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "hierodule scything talons",
+              "DisplayName": "Hierodule scything talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 340
+        }
+      ]
+    },
+    {
+      "Id": "DIMACHAERON",
+      "DisplayName": "Dimachaeron",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Dimachaeron",
+            "StatlineRef": "Dimachaeron",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "massive scything talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Digestion Spine",
+          "Text": "Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 mortal wounds."
+        },
+        {
+          "Title": "Damaged: 1-5 Wounds Remaining",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Great Devourer",
+        "Dimachaeron",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Dimachaeron",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "16"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "5"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "massive scything talons",
+              "DisplayName": "Massive scything talons",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Id": "MALANTHROPE",
+      "DisplayName": "Malanthrope",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Malanthrope",
+            "StatlineRef": "Malanthrope",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "grasping tail"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Enhanced Toxic Miasma",
+          "Text": "While this model is leading a unit, the range of that unit's Foul Spores Aura ability is increased to 9\"."
+        },
+        {
+          "Title": "Prey Adaptation",
+          "Text": "Each time this model's unit is selected to fight, select one of the following abilities to apply to all melee weapons equipped by models in that unit until the end of the phase:\n- **[SUSTAINED HITS 1]**\n- **[LANCE]**\n- **[LETHAL HITS]**"
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "VENOMTHROPES"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Fly",
+        "Great Devourer",
+        "Synapse",
+        "Malanthrope"
+      ],
+      "CoreAbilities": [
+        "Stealth",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Malanthrope",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "grasping tail",
+              "DisplayName": "Grasping tail",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Id": "SCYTHED HIERODULE",
+      "DisplayName": "Scythed Hierodule",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Scythed Hierodule",
+            "StatlineRef": "Scythed Hierodule",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bio-acid spray",
+                  "hierodule scything talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Irresistible Force",
+          "Text": "This model is eligible to declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "Title": "Damaged: 1-6 Wounds Remaining",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Monster",
+        "Great Devourer",
+        "Scythed Hierodule",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Scythed Hierodule",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "18"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "5"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bio-acid spray",
+              "DisplayName": "Bio-acid spray",
+              "Keywords": "Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "hierodule scything talons",
+              "DisplayName": "Hierodule scything talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 330
+        }
+      ]
+    },
+    {
+      "Id": "SKY-SLASHER SWARMS",
+      "DisplayName": "Sky-slasher Swarms",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Sky-slasher swarm",
+            "StatlineRef": "Sky-slasher Swarms",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "claws and teeth"
+                ],
+                "Options": [
+                  {
+                    "Max": 3,
+                    "Options": [
+                      {
+                        "Items": [
+                          "spinemaws"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Chitinous Horrors",
+          "Text": "While an enemy unit is within Engagement Range of one or more units with this ability, halve the Objective Control characteristic of models in that enemy unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Swarm",
+        "Great Devourer",
+        "Fly",
+        "Sky-slasher Swarms",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Tyranids"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Sky-slasher Swarms",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "2"
+            },
+            {
+              "Id": "Sv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "spinemaws",
+              "DisplayName": "Spinemaws",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "claws and teeth",
+              "DisplayName": "Claws and teeth",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 60
+        }
+      ]
+    }
+  ],
+  "Detachments": [],
+  "ArmyRules": []
+}
