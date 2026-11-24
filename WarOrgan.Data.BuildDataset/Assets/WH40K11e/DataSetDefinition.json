@@ -76,6 +76,13 @@
       "Category": "Imperium",
       "MainColor": "#1B3F8B",
       "DarkColor": "#5B7FCB"
+    },
+    {
+      "Name": "Adepta Sororitas",
+      "FactionKeyword": "Adepta Sororitas",
+      "Category": "Imperium",
+      "MainColor": "#8C1C24",
+      "DarkColor": "#C8565E"
     }
   ],
   "CoreAbilities": [
