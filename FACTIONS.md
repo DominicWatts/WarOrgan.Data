@@ -7,19 +7,21 @@ Tracks each faction through the source layers set out in `CLAUDE.md`. Update a f
 Work through these in order for each faction:
 
 1. **BSData** builds the initial base data. Draft a roster with `WarOrgan.Data.BsdataImport` (see its README), then work through its import report. Use the November 2026 dump: `momper14/wh40k-11e` at commit `f015101d4c495173283e1b97e9d59f2befb877ad`, dated 11 November 2026.
-2. **Wahapedia** supplies the core data and overrides BSData. Check a roster with `WarOrgan.Data.WahapediaCheck` (see its README), then work through its report.
-3. **10th Edition codex** fills gaps that neither earlier source covers.
-4. **Faction pack** applies GW's 11th Edition updates.
+2. **List Forge** is a newer copy of the same BSData catalogues, published at `https://files.data-ark.dev/wh40k-11e/` (version `71860bdbe486ddeed7fd46e80df2735450dcc8a6`, fetched 24 November 2026). It replaces the base where they differ. Its source commit is not in a public repository.
+3. **Wahapedia** supplies the core data and overrides both. Check a roster with `WarOrgan.Data.WahapediaCheck` (see its README), then work through its report.
+4. **Faction pack** applies GW's 11th Edition updates. Download packs from `https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/`.
+
+10th and 11th Edition codexes are not used.
 
 Key: `done`, `partial`, `-` (not started), `n/a`.
 
 ## Summary
 
-| Faction | Branch | Scope | 1 BSData | 2 Wahapedia | 3 Codex 10e | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
+| Faction | Branch | Scope | 1 BSData | 2 List Forge | 3 Wahapedia | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
-| Tyranids | `faction/tyranids` | Full (WarOrgan passed) | done | done | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
-| Astra Militarum | `faction/astra-militarum` | Full (WarOrgan sign-off pending) | done | partial (allies checked) | - | - | 72 + 63 Legends | 11 | 34 | 57/57 added | text only |
+| Genestealer Cults | `faction/genestealer-cults` | Full | done | - | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
+| Tyranids | `faction/tyranids` | Full (WarOrgan passed) | done | - | done | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
+| Astra Militarum | `faction/astra-militarum` | Full (WarOrgan sign-off pending) | done | - | partial (allies checked) | - | 72 + 63 Legends | 11 | 34 | 57/57 added | text only |
 | Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 38 | 8 | 24 | 36 added (7/8) | text only |
 | Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | 23/23 added | text only |
 | Adeptus Mechanicus | `faction/adeptus-mechanicus` | Draft | done (draft) | - | - | - | 37 | 10 | 33 | 45 added (9/10) | text only |
