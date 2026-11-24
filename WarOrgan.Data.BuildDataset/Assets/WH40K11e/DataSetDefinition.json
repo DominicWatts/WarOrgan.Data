@@ -289,6 +289,13 @@
       "Category": "Chaos",
       "MainColor": "#5E6B2A",
       "DarkColor": "#A0AE66"
+    },
+    {
+      "Name": "Emperor's Children",
+      "FactionKeyword": "Emperor's Children",
+      "Category": "Chaos",
+      "MainColor": "#6A2C7A",
+      "DarkColor": "#B06CC0"
     }
   ],
   "CoreAbilities": [
