@@ -3907,7 +3907,7 @@
           "Weapons": [
             {
               "Id": "commisar's pistol",
-              "DisplayName": "Commisar's pistol",
+              "DisplayName": "Commissar’s pistol",
               "Keywords": "Pistol",
               "Flags": "None",
               "Stats": [
@@ -5084,7 +5084,7 @@
           "Weapons": [
             {
               "Id": "close combat weapons",
-              "DisplayName": "Close Combat Weapons",
+              "DisplayName": "Close combat weapon",
               "Flags": "None",
               "Stats": [
                 {
@@ -8291,7 +8291,7 @@
             },
             {
               "Id": "macharius twin battlecannon",
-              "DisplayName": "Macharius twin battlecannon",
+              "DisplayName": "Macharius twin battle cannon",
               "Keywords": "Blast, Twin-linked",
               "Flags": "None",
               "Stats": [
