@@ -29783,7 +29783,7 @@
             },
             {
               "Id": "multi-laser",
-              "DisplayName": "Militarum multi-laser",
+              "DisplayName": "Multi-laser",
               "Flags": "None",
               "Stats": [
                 {
