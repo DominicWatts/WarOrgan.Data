@@ -48,7 +48,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deep Strike"
+        "Deep Strike",
+        "Feel No Pain 5+*"
       ],
       "FactionKeywords": [
         "Adeptus Custodes"
@@ -224,7 +225,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deep Strike"
+        "Deep Strike",
+        "Feel No Pain 5+*"
       ],
       "FactionKeywords": [
         "Adeptus Custodes"
@@ -406,7 +408,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deep Strike"
+        "Deep Strike",
+        "Feel No Pain 5+*"
       ],
       "FactionKeywords": [
         "Adeptus Custodes"
@@ -601,7 +604,8 @@
         "Invulnerable Save",
         "Feel No Pain 6+",
         "Leader",
-        "Deep Strike"
+        "Deep Strike",
+        "Feel No Pain 5+*"
       ],
       "FactionKeywords": [
         "Adeptus Custodes"
@@ -794,7 +798,9 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Damaged 4",
+        "Feel No Pain 5+*"
       ],
       "FactionKeywords": [
         "Adeptus Custodes"
@@ -1071,7 +1077,9 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Feel No Pain 5+*",
+        "Damaged 5"
       ],
       "FactionKeywords": [
         "Adeptus Custodes"
