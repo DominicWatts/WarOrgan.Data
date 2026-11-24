@@ -24579,6 +24579,10 @@
         {
           "Title": "Tanith Camo-cloaks",
           "Text": "Models in this unit have the Benefit of Cover."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This unit’s OFFICER can issue up to 2 Orders to REGIMENT or GAUNT’S GHOSTS units."
         }
       ],
       "Infos": [],
@@ -25021,7 +25025,11 @@
         },
         {
           "Title": "Leading the Charge",
-          "Text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+          "Text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 3 Orders to REGIMENT units."
         }
       ],
       "LeaderInfo": {
@@ -25250,6 +25258,10 @@
         {
           "Title": "Supreme Commander",
           "Text": "If this model is in your army, it must be your WARLORD."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 3 Orders to:\n- REGIMENT units\n- SQUADRON units\n- TITANIC units."
         }
       ],
       "LeaderInfo": {
@@ -25630,6 +25642,10 @@
         {
           "Title": "Command Rod",
           "Text": "While the bearer is leading a unit, that unit can be affected by up to two different Orders at the same time."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This unit’s OFFICER can issue 1 Order to a REGIMENT unit."
         }
       ],
       "LeaderInfo": {
@@ -29351,6 +29367,10 @@
         {
           "Title": "Tactical Genius",
           "Text": "Once per battle round, one unit from your army with this ability can use it when a friendly REGIMENT unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1 CP."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 3 Orders to REGIMENT units."
         }
       ],
       "LeaderInfo": {
