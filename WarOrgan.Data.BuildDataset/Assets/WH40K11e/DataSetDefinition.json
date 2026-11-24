@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Orks",
+      "FactionKeyword": "Orks",
+      "Category": "Xenos",
+      "MainColor": "#3F6B1E",
+      "DarkColor": "#7FAF5E"
     }
   ],
   "CoreAbilities": [
