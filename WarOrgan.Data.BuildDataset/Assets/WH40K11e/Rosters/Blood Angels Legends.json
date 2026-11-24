@@ -49,7 +49,6 @@
         "Infantry",
         "Grenades",
         "Imperium",
-        "Adeptus Astartes",
         "Sanguinary Priest",
         "Brother Corbulo"
       ],
@@ -57,6 +56,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Blood Angels"
       ],
       "StatLines": [
@@ -239,7 +239,6 @@
         "Captain",
         "Grenades",
         "Imperium",
-        "Adeptus Astartes",
         "Tycho"
       ],
       "CoreAbilities": [
@@ -247,6 +246,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Blood Angels"
       ],
       "StatLines": [
@@ -510,7 +510,6 @@
         "Walker",
         "Imperium",
         "Death Company Dreadnought",
-        "Adeptus Astartes",
         "Death Company",
         "Dreadnought",
         "Other Datasheets"
@@ -520,6 +519,7 @@
         "Deadly Demise 1"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Blood Angels"
       ],
       "StatLines": [
@@ -793,7 +793,6 @@
         "Grenades",
         "Chapter Master",
         "Imperium",
-        "Adeptus Astartes",
         "Gabriel Seth"
       ],
       "CoreAbilities": [
@@ -801,6 +800,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Blood Angels"
       ],
       "StatLines": [
@@ -995,7 +995,6 @@
         "Psyker",
         "Imperium",
         "Librarian Dreadnought",
-        "Adeptus Astartes",
         "Smoke",
         "Dreadnought",
         "Other Datasheets"
@@ -1004,6 +1003,7 @@
         "Deadly Demise 1"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Blood Angels"
       ],
       "StatLines": [
@@ -1405,13 +1405,13 @@
         "Mounted",
         "Grenades",
         "Imperium",
-        "Sanguinary Priest",
-        "Adeptus Astartes"
+        "Sanguinary Priest"
       ],
       "CoreAbilities": [
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Blood Angels"
       ],
       "StatLines": [
@@ -1963,7 +1963,6 @@
         "Infantry",
         "Grenades",
         "Imperium",
-        "Adeptus Astartes",
         "Fly",
         "Jump Pack",
         "Sanguinary Priest"
@@ -1972,6 +1971,7 @@
         "Support"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Blood Angels"
       ],
       "StatLines": [
@@ -2157,14 +2157,14 @@
         "Captain",
         "Imperium",
         "Grenades",
-        "Tycho the Lost",
-        "Adeptus Astartes"
+        "Tycho the Lost"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Blood Angels"
       ],
       "StatLines": [
