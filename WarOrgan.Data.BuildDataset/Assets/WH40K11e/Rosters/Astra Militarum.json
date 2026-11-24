@@ -24501,8 +24501,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 5
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Tanith Ghost",
             "StatlineRef": "Tanith Ghost",
@@ -24513,62 +24513,79 @@
                   "corbec's hot-shot lascarbine",
                   "straight silver knife"
                 ],
-                "Options": [
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "corbec's hot-shot lascarbine"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "larkin's long-las"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "corbec's hot-shot lascarbine",
-                      "straight silver knife"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "lascarbine",
-                          "mkoll's straight silver knife"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "corbec's hot-shot lascarbine"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "rawne's lascarbine"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "corbec's hot-shot lascarbine"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "bragg's autocannon"
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tanith Ghost with Rawne's lascarbine",
+            "StatlineRef": "Tanith Ghost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "rawne's lascarbine",
+                  "straight silver knife"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tanith Ghost with Larkin's long-las",
+            "StatlineRef": "Tanith Ghost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "larkin's long-las",
+                  "straight silver knife"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tanith Ghost with Bragg's autocannon",
+            "StatlineRef": "Tanith Ghost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bragg's autocannon",
+                  "straight silver knife"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tanith Ghost with Mkoll's straight silver knife",
+            "StatlineRef": "Tanith Ghost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lascarbine",
+                  "mkoll's straight silver knife"
+                ],
+                "Options": []
               }
             ]
           }
