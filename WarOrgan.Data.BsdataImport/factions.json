@@ -1,0 +1,231 @@
+[
+  {
+    "name": "Adepta Sororitas",
+    "catalogue": "Imperium - Adepta Sororitas",
+    "category": "Imperium",
+    "mainColor": "#A8812A",
+    "darkColor": "#D9B45C"
+  },
+  {
+    "name": "Adeptus Custodes",
+    "catalogue": "Imperium - Adeptus Custodes",
+    "category": "Imperium",
+    "mainColor": "#A8812A",
+    "darkColor": "#D9B45C"
+  },
+  {
+    "name": "Adeptus Mechanicus",
+    "catalogue": "Imperium - Adeptus Mechanicus",
+    "category": "Imperium",
+    "mainColor": "#A8812A",
+    "darkColor": "#D9B45C"
+  },
+  {
+    "name": "Agents of the Imperium",
+    "catalogue": "Imperium - Agents of the Imperium",
+    "category": "Imperium",
+    "mainColor": "#A8812A",
+    "darkColor": "#D9B45C"
+  },
+  {
+    "name": "Grey Knights",
+    "catalogue": "Imperium - Grey Knights",
+    "category": "Imperium",
+    "mainColor": "#5E6A78",
+    "darkColor": "#A3B0BE"
+  },
+  {
+    "name": "Imperial Knights",
+    "catalogue": "Imperium - Imperial Knights",
+    "category": "Imperium",
+    "mainColor": "#8C1C24",
+    "darkColor": "#C8565E"
+  },
+  {
+    "name": "Space Marines",
+    "catalogue": "Imperium - Space Marines",
+    "factionKeyword": "Adeptus Astartes",
+    "category": "Imperium",
+    "mainColor": "#1B3F8B",
+    "darkColor": "#5F8FBF"
+  },
+  {
+    "name": "Black Templars",
+    "catalogue": "Imperium - Black Templars",
+    "category": "Imperium",
+    "mainColor": "#1F1F21",
+    "darkColor": "#77777D",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Blood Angels",
+    "catalogue": "Imperium - Blood Angels",
+    "category": "Imperium",
+    "mainColor": "#8C1C24",
+    "darkColor": "#C8565E",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Dark Angels",
+    "catalogue": "Imperium - Dark Angels",
+    "category": "Imperium",
+    "mainColor": "#2E4A35",
+    "darkColor": "#799B82",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Deathwatch",
+    "catalogue": "Imperium - Deathwatch",
+    "category": "Imperium",
+    "mainColor": "#1F1F21",
+    "darkColor": "#77777D",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Imperial Fists",
+    "catalogue": "Imperium - Imperial Fists",
+    "category": "Imperium",
+    "mainColor": "#A8812A",
+    "darkColor": "#D9B45C",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Iron Hands",
+    "catalogue": "Imperium - Iron Hands",
+    "category": "Imperium",
+    "mainColor": "#1F1F21",
+    "darkColor": "#77777D",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Raven Guard",
+    "catalogue": "Imperium - Raven Guard",
+    "category": "Imperium",
+    "mainColor": "#1F1F21",
+    "darkColor": "#77777D",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Salamanders",
+    "catalogue": "Imperium - Salamanders",
+    "category": "Imperium",
+    "mainColor": "#1E4A32",
+    "darkColor": "#79A889",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Space Wolves",
+    "catalogue": "Imperium - Space Wolves",
+    "category": "Imperium",
+    "mainColor": "#5E6A78",
+    "darkColor": "#A3B0BE",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Ultramarines",
+    "catalogue": "Imperium - Ultramarines",
+    "category": "Imperium",
+    "mainColor": "#1B3F8B",
+    "darkColor": "#5F8FBF",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "White Scars",
+    "catalogue": "Imperium - White Scars",
+    "category": "Imperium",
+    "mainColor": "#D7D7D7",
+    "darkColor": "#77777D",
+    "chapterOf": "Space Marines"
+  },
+  {
+    "name": "Chaos Space Marines",
+    "catalogue": "Chaos - Chaos Space Marines",
+    "category": "Chaos",
+    "mainColor": "#2F4F2F",
+    "darkColor": "#739273"
+  },
+  {
+    "name": "Chaos Daemons",
+    "catalogue": "Chaos - Chaos Daemons",
+    "category": "Chaos",
+    "mainColor": "#512A63",
+    "darkColor": "#9B6BAA"
+  },
+  {
+    "name": "Chaos Knights",
+    "catalogue": "Chaos - Chaos Knights",
+    "category": "Chaos",
+    "mainColor": "#512A63",
+    "darkColor": "#9B6BAA"
+  },
+  {
+    "name": "Death Guard",
+    "catalogue": "Chaos - Death Guard",
+    "category": "Chaos",
+    "mainColor": "#5C6831",
+    "darkColor": "#A0A96A"
+  },
+  {
+    "name": "Emperor's Children",
+    "catalogue": "Chaos - Emperor's Children",
+    "category": "Chaos",
+    "mainColor": "#512A63",
+    "darkColor": "#9B6BAA"
+  },
+  {
+    "name": "Thousand Sons",
+    "catalogue": "Chaos - Thousand Sons",
+    "category": "Chaos",
+    "mainColor": "#2E6F78",
+    "darkColor": "#78AEB5"
+  },
+  {
+    "name": "World Eaters",
+    "catalogue": "Chaos - World Eaters",
+    "category": "Chaos",
+    "mainColor": "#6E1F3F",
+    "darkColor": "#B8607F"
+  },
+  {
+    "name": "Aeldari",
+    "catalogue": "Aeldari - Craftworlds",
+    "category": "Xenos",
+    "mainColor": "#512A63",
+    "darkColor": "#9B6BAA"
+  },
+  {
+    "name": "Drukhari",
+    "catalogue": "Aeldari - Drukhari",
+    "category": "Xenos",
+    "mainColor": "#512A63",
+    "darkColor": "#9B6BAA"
+  },
+  {
+    "name": "Leagues of Votann",
+    "catalogue": "Leagues of Votann",
+    "category": "Xenos",
+    "mainColor": "#A8812A",
+    "darkColor": "#D9B45C"
+  },
+  {
+    "name": "Necrons",
+    "catalogue": "Necrons",
+    "category": "Xenos",
+    "mainColor": "#3E5A35",
+    "darkColor": "#86A876"
+  },
+  {
+    "name": "Orks",
+    "catalogue": "Orks",
+    "category": "Xenos",
+    "mainColor": "#3E5A35",
+    "darkColor": "#86A876"
+  },
+  {
+    "name": "T'au Empire",
+    "catalogue": "T'au Empire",
+    "category": "Xenos",
+    "mainColor": "#8C8C8C",
+    "darkColor": "#C0C0C0"
+  }
+]
