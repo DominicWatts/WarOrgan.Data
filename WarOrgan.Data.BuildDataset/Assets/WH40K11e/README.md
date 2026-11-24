@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.12.0
+## Coverage in 1.5.13.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Invulnerable saves are given as an Inv characteristic and as an ability on each unit that has one.
@@ -83,7 +83,7 @@ The URL always targets the most recent published release. The downloaded ZIP sho
 - IRONBUILT community dataset `wh40k-11e`, version `2026.11.21-0401-mfm16-tempered`, manifest updated 21 November 2026.
 - Source bundle SHA-256: `e19b68b0860ec5a6074325ea22dbec5654da0953590429450306094fe7e6dd71`.
 - Wahapedia 11th Edition pages: Genestealer Cults datasheets, the Tyranid and Astra Militarum allied datasheets, and the faction pages used to correct individual draft points, datasheets and rules. Checked 23-24 November 2026.
-- Games Workshop Genestealer Cults Faction Pack, version 1.0, legal for matched play from 20 June 2026, and Tyranids Faction Pack, version 1.3, legal from 14 October 2026. Checked 23 November 2026.
+- Games Workshop Genestealer Cults Faction Pack, version 1.1, legal for matched play from 22 July 2026 (checked 24 November 2026), and Tyranids Faction Pack, version 1.3, legal from 14 October 2026 (checked 23 November 2026).
 - Games Workshop Warhammer Community faction packs (`https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/`) and Munitorum Field Manual are the canonical authority for published changes and points.
 - Codexes are not used as a source.
 

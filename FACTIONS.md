@@ -19,7 +19,7 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 
 | Faction | Branch | Scope | 1 BSData | 2 List Forge | 3 Wahapedia | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Genestealer Cults | `faction/genestealer-cults` | Full | done | - | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
+| Genestealer Cults | `faction/genestealer-cults` | Full | done | - | done | done (1.1) | 25/25 | 9/9 | 30/30 | 45/45 | done |
 | Tyranids | `faction/tyranids` | Full (WarOrgan passed) | done | - | done | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
 | Astra Militarum | `faction/astra-militarum` | Full (WarOrgan sign-off pending) | done | - | partial (allies checked) | - | 72 + 63 Legends | 11 | 34 | 57/57 added | text only |
 | Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 38 | 8 | 24 | 36 added (7/8) | text only |
@@ -61,6 +61,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 - Initial import from IRONBUILT bundle `2026.11.21-0401-mfm16-tempered`, then checked line by line against Wahapedia.
 - 2026-11-23: compared with the November BSData dump. It matched statlines, weapons, points, leaders, detachment costs, Force Dispositions and all 30 enhancements and their points. Wahapedia supported our data on every difference. BSData is stale for Goliath Truck (Goliath wheels), A Plan Generations in the Making, Primed and Ready, Demolition Run, Mind Control and Atalan Jackals' 6-9 model points. BSData spells two enhancements Biomorph Adaption and Fire-point Commander. BSData has no stratagems.
 - 2026-11-23: first Wahapedia check run. 23 of 33 datasheets and detachments matched with no differences. Its findings were fixed in 1.4.1 (Scouts, Deadly Demise and Feel No Pain values, Biophagus alchemicus familiar, Fragdrill Fortification); 30 of 33 now match. The remaining notes are expected: bio-weapons, and Wahapedia typos in two stratagems and the Fragdrill's GENESTEALER CULT INFANTRY.
+- 2026-11-24 (1.5.13): checked against Faction Pack 1.1 (legal from 22 July 2026). Its six Rules Updates changes (Cult Ambush character exclusion and 8" marker distance; 8" in Evasive Vanguard, In the Shadow of Iron and Rapid Feint; Along Shadowed Trails' new When) were already in the data. Cult Ambush now says "identical to that destroyed unit" as in the pack; Wahapedia says "your", so the Wahapedia check may report it as an expected text difference.
 - Skipped: Cult Unveiled and Genespawn Onslaught (Boarding Actions detachments), and Crucible entries.
 - Open: Patriarch must be Warlord (app enforcement); leader effect app checks. See `TODO.md`.
 
