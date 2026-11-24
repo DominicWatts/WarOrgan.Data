@@ -2454,8 +2454,7 @@
       "CoreAbilities": [
         "Invulnerable Save",
         "Stealth",
-        "Leader",
-        "Feel No Pain 4+*"
+        "Leader"
       ],
       "FactionKeywords": [
         "Astra Militarum"
@@ -3201,7 +3200,7 @@
           },
           {
             "Limit": {
-              "Min": 9,
+              "Min": 7,
               "Max": 9
             },
             "ModelName": "Grenadier",
@@ -3260,8 +3259,8 @@
           },
           {
             "Limit": {
-              "Min": 9,
-              "Max": 9
+              "Min": 0,
+              "Max": 1
             },
             "ModelName": "Heavy Weapons Team",
             "StatlineRef": "Heavy Weapons Team",
@@ -3287,6 +3286,14 @@
         {
           "Title": "Grenadier Squad",
           "Text": "If a model from your army with the Leader ability can be attached to a KRIEG COMBAT ENGINEERS unit, it can be attached to this unit instead."
+        },
+        {
+          "Title": "Unit Composition",
+          "Text": "Take one Grenadier Sergeant with either nine Grenadiers, or seven Grenadiers and one Heavy Weapons Team. Both configurations cost 110 points."
+        },
+        {
+          "Title": "Vox-caster",
+          "Text": "When you target the bearer’s unit with a Stratagem, roll a D6. Add 1 if a friendly OFFICER is within 6 inches. On a 5+, gain 1CP."
         }
       ],
       "Infos": [],
@@ -3804,7 +3811,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 19,
+          "ModelCount": 9,
+          "Cost": 110
+        },
+        {
+          "ModelCount": 10,
           "Cost": 110
         }
       ]
@@ -5440,7 +5451,7 @@
       "UnitAbilities": [
         {
           "Title": "Invulnerable Save",
-          "Text": "This model has a 5+* invulnerable save."
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
         },
         {
           "Title": "Transport",
@@ -5453,10 +5464,6 @@
         {
           "Title": "Damaged: 1-7 Wounds Remaining",
           "Text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "Title": "Invulnerable Save (5+*)",
-          "Text": "This model has a 5+ invulnerable save against ranged attacks."
         }
       ],
       "Infos": [],
@@ -6802,6 +6809,16 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "hunter-killer missile"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -7103,6 +7120,38 @@
                 {
                   "Id": "D",
                   "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hunter-killer missile",
+              "DisplayName": "Hunter-killer missile",
+              "Keywords": "One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
                 }
               ]
             }
@@ -14766,7 +14815,7 @@
         },
         {
           "Title": "Orders",
-          "Text": "This OFFICER can give 1 Order to a CATACHAN JUNGLE FIGHTERS unit."
+          "Text": "This Officer can issue 1 Order to a CATACHAN JUNGLE FIGHTERS unit."
         }
       ],
       "LeaderInfo": {
@@ -17748,7 +17797,8 @@
                   "Id": "D",
                   "Value": "D6"
                 }
-              ]
+              ],
+              "Keywords": "Anti-Fly 2+"
             },
             {
               "Id": "multiple rocket pod",
