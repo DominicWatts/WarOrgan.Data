@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.4.0
+## Coverage in 1.5.5.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Invulnerable saves are given as an Inv characteristic and as an ability on each unit that has one.
@@ -10,7 +10,7 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 - Tyranids: a full faction. The 14 Vanguard Invader datasheets used as Final Day allies are checked against Wahapedia: Winged Tyranid Prime, Gargoyles, Raveners, Hyperadapted Raveners, Lictor, Neurolictor, Von Ryan's Leapers, Mawloc, Trygon, Tyrannocyte, Winged Hive Tyrant, Deathleaper, The Red Terror and Parasite of Mortrex. Deathleaper cannot be your Warlord. The one-per-army limit for Epic Heroes is not enforced. The other 38 datasheets, 5 Legends, 10 detachments, 34 enhancements and the army rules are an unchecked BSData draft, with points for Carnifexes and Mucolid Spores taken from Wahapedia. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
-- Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets. Allied Units will appear when allied rosters are added.
+- Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets, and allies under Allied Units.
 - Acolyte Hybrids with Hand Flamers and with Autopistols enforce their model count and per-unit/per-five-model wargear limits.
 - Hybrid Metamorphs enforce their model count, hand flamer replacements and single cult icon.
 - Atalan Jackals enforce 4-8 Jackals, 1-2 Wolfquads and their per-four-Jackal weapon limits. The rule that 2 Wolfquads require 8 Jackals cannot be enforced; build these units to the datasheet.
@@ -25,7 +25,7 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 
 Final Day lets you include Tyranids Vanguard Invader units (excluding AIRCRAFT, BROODLORD and GENESTEALERS) up to half your points. They appear under Allied Units and cannot be your Warlord.
 
-Brood Brother Auxilia lets you include Astra Militarum units (excluding AIRCRAFT, COMMISSAR, EPIC HERO, MILITARUM TEMPESTUS, OGRYN, RATLING, TECH-PRIEST ENGINSEER and MINISTORUM PRIEST) up to half your points. They appear under Allied Units, cannot be your Warlord and lose Voice of Command.
+Brood Brother Auxilia lets you include the 51 eligible Astra Militarum datasheets (none with AIRCRAFT, COMMISSAR, EPIC HERO, MILITARUM TEMPESTUS, OGRYN, RATLING, TECH-PRIEST ENGINSEER or MINISTORUM PRIEST) up to half your points. They appear under Allied Units, cannot be your Warlord and lose Voice of Command.
 
 ## Draft factions (unchecked)
 
@@ -78,10 +78,11 @@ The URL always targets the most recent published release. The downloaded ZIP sho
 
 ## Sources
 
+- November 2026 BSData dump: `momper14/wh40k-11e` at commit `f015101d4c495173283e1b97e9d59f2befb877ad` (11 November 2026). The base for every faction, and the only source for the draft factions.
 - IRONBUILT community dataset `wh40k-11e`, version `2026.11.21-0401-mfm16-tempered`, manifest updated 21 November 2026.
 - Source bundle SHA-256: `e19b68b0860ec5a6074325ea22dbec5654da0953590429450306094fe7e6dd71`.
-- Wahapedia Genestealer Cults 11th Edition datasheets, checked 23 November 2026.
-- Games Workshop Genestealer Cults Faction Pack, version 1.0, legal for matched play from 20 June 2026. Checked 23 November 2026.
+- Wahapedia 11th Edition pages: Genestealer Cults datasheets, the Tyranid and Astra Militarum allied datasheets, and the faction pages used to correct individual draft points, datasheets and rules. Checked 23-24 November 2026.
+- Games Workshop Genestealer Cults Faction Pack, version 1.0, legal for matched play from 20 June 2026, and Tyranids Faction Pack, version 1.3, legal from 14 October 2026. Checked 23 November 2026.
 - Games Workshop Warhammer Community faction packs and Munitorum Field Manual are the canonical authority for published changes and points.
 
 Community datasets are used as structured authoring aids, not as unquestioned authorities. Values should be rechecked following every Games Workshop balance or faction update.
@@ -90,4 +91,5 @@ Community datasets are used as structured authoring aids, not as unquestioned au
 
 - The WarOrgan builder validates schema and internal references; it cannot prove that game data matches the current rules.
 - Wargear limits are being audited unit by unit. Users should consult the current faction rules for units not yet called out as constraint-verified in the coverage notes.
+- The draft factions are converted automatically and unchecked: expect mistakes in rules text, wargear options and points until each faction has been checked against Wahapedia.
 - Stable unit IDs must not be renamed after release because saved army lists refer to them.
