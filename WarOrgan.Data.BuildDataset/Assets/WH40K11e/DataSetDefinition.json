@@ -324,6 +324,13 @@
       "Category": "Xenos",
       "MainColor": "#2A4A3A",
       "DarkColor": "#6E9A84"
+    },
+    {
+      "Name": "Leagues of Votann",
+      "FactionKeyword": "Leagues of Votann",
+      "Category": "Xenos",
+      "MainColor": "#8A5A1E",
+      "DarkColor": "#C89A5E"
     }
   ],
   "CoreAbilities": [
