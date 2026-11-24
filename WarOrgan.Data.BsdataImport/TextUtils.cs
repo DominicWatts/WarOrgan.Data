@@ -39,10 +39,42 @@ public static class TextUtils
     {
         var parts = keywords.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
             .Where(k => k != "-")
-            .Select(k => k.Replace('\u00a0', ' '))
+            .Select(NormaliseKeyword)
             .OrderBy(k => k, StringComparer.OrdinalIgnoreCase);
         return string.Join(", ", parts);
     }
+
+    private static readonly string[] CanonicalKeywords =
+    [
+        "Assault", "Blast", "Close-quarters", "Cleave", "Devastating Wounds", "Extra Attacks", "Hazardous", "Heavy",
+        "Ignores Cover", "Indirect Fire", "Lance", "Lethal Hits", "Melta", "One Shot", "Pistol", "Precision", "Psychic",
+        "Rapid Fire", "Sustained Hits", "Torrent", "Twin-linked",
+    ];
+
+    /// <summary>
+    /// BSData mixes capitals ("BLAST 2", "Anti-INFANTRY 4+", "Twin Linked"); write the core rule spellings, with
+    /// targets and conditions in title case ("Anti-Monster/Vehicle 4+", "Lethal Hits: non-Monster/Vehicle").
+    /// </summary>
+    public static string NormaliseKeyword(string keyword)
+    {
+        keyword = Regex.Replace(keyword.Replace('\u00a0', ' ').Replace('\u2011', '-'), @"\s+", " ").Trim();
+        var colon = keyword.IndexOf(':');
+        var head = colon < 0 ? keyword : keyword[..colon].Trim();
+        var condition = colon < 0 ? null : CaseWords(keyword[(colon + 1)..].Trim());
+
+        head = Regex.Replace(head, @"^twin[ -]linked\b", "Twin-linked", RegexOptions.IgnoreCase);
+        var anti = Regex.Match(head, @"^anti-(.+?) (\S+)$", RegexOptions.IgnoreCase);
+        if (anti.Success)
+            head = $"Anti-{CaseWords(anti.Groups[1].Value)} {anti.Groups[2].Value.ToUpperInvariant()}";
+        else if (CanonicalKeywords.OrderByDescending(k => k.Length)
+                 .FirstOrDefault(k => Regex.IsMatch(head, $@"^{Regex.Escape(k)}(?: |$)", RegexOptions.IgnoreCase)) is { } name)
+            head = name + head[name.Length..].ToUpperInvariant();
+        return condition == null ? head : $"{head}: {condition}";
+    }
+
+    // "non-MONSTER/VEHICLE" -> "non-Monster/Vehicle"
+    private static string CaseWords(string text) =>
+        Regex.Replace(text, @"[A-Za-z']+", m => m.Value.Equals("non", StringComparison.OrdinalIgnoreCase) ? "non" : TitleCase(m.Value));
 
     public static string TitleCase(string text) => CultureInfo.InvariantCulture.TextInfo.ToTitleCase(text.ToLowerInvariant());
 }

@@ -66,21 +66,72 @@ public class DetachmentImporter(BsData data, ImportReport report)
     {
         foreach (var catalogue in catalogues)
         {
-            var root = catalogue.Arr("sharedSelectionEntries").FirstOrDefault(e => e.Name() == "Detachment");
-            if (root == null)
-                continue;
-            var node = new BsNode(root, root);
-            foreach (var group in node.Children(data).Where(c => c.IsGroup))
-                foreach (var detachment in group.Children(data).Where(c => c.Type == "upgrade"))
-                    yield return detachment.Target;
+            var primaryId = catalogue.Str("id");
+            var seen = new HashSet<string>();
+            foreach (var root in DetachmentRoots(catalogue, []))
+            {
+                var node = new BsNode(root, root);
+                foreach (var group in node.Children(data).Where(c => c.IsGroup))
+                    foreach (var detachment in group.Children(data).Where(c => c.Type == "upgrade"))
+                        if (seen.Add(detachment.Id) && !HiddenFor(detachment, primaryId))
+                            yield return detachment.Target;
+            }
         }
+    }
+
+    /// <summary>
+    /// The catalogue's own Detachment entry, or the one it links to: a library (Aeldari, Knights, Daemons) or,
+    /// for Space Marine chapters, the Space Marines catalogue they import.
+    /// </summary>
+    private IEnumerable<JsonObject> DetachmentRoots(JsonObject catalogue, HashSet<string> visited)
+    {
+        if (!visited.Add(catalogue.Str("id") ?? string.Empty))
+            yield break;
+        var own = catalogue.Arr("sharedSelectionEntries").Where(e => e.Name() == "Detachment")
+            .Concat(catalogue.Arr("entryLinks").Where(l => l.Name() == "Detachment").Select(l => data.Get(l.Str("targetId"))).OfType<JsonObject>())
+            .ToList();
+        if (own.Count > 0)
+        {
+            foreach (var root in own.DistinctBy(r => r.Str("id")))
+                yield return root;
+            yield break;
+        }
+        foreach (var link in catalogue.Arr("catalogueLinks").Where(l => l["importRootEntries"]?.GetValue<bool>() == true))
+            if (data.Catalogues.Values.FirstOrDefault(c => c.Str("id") == link.Str("targetId")) is { } linked)
+                foreach (var root in DetachmentRoots(linked, visited))
+                    yield return root;
+    }
+
+    /// <summary>
+    /// Shared detachment lists hide entries per army with primary-catalogue conditions (chapter detachments in
+    /// Space Marines, Drukhari ones in the Aeldari library). Only those conditions are evaluated.
+    /// </summary>
+    private static bool HiddenFor(BsNode detachment, string? primaryId)
+    {
+        foreach (var modifier in detachment.Link.Arr("modifiers").Concat(ReferenceEquals(detachment.Link, detachment.Target) ? [] : detachment.Target.Arr("modifiers")))
+        {
+            if (modifier.Str("field") != "hidden" || modifier["value"]?.ToString() is not ("true" or "True"))
+                continue;
+            var conditions = modifier.Arr("conditions").ToList();
+            if (conditions.Count == 0 || conditions.Any(c => c.Str("scope") != "primary-catalogue"))
+                continue;
+            if (conditions.All(c => c.Str("type") switch
+                {
+                    "instanceOf" => c.Str("childId") == primaryId,
+                    "notInstanceOf" => c.Str("childId") != primaryId,
+                    _ => false,
+                }))
+                return true;
+        }
+        return false;
     }
 
     /// <summary>Categories used by detachments in more than one catalogue are Force Dispositions; faction-specific ones are tags.</summary>
     private HashSet<string> ForceDispositionNames()
     {
         var usage = new Dictionary<string, HashSet<string>>();
-        foreach (var (file, catalogue) in data.Catalogues)
+        // Count only catalogues that own a detachment list; chapters reuse the Space Marines one
+        foreach (var (file, catalogue) in data.Catalogues.Where(c => c.Value.Arr("sharedSelectionEntries").Any(e => e.Name() == "Detachment")))
             foreach (var entry in DetachmentEntries([catalogue]))
                 foreach (var category in entry.Arr("categoryLinks").Select(c => c.Name()))
                     (usage.TryGetValue(category, out var files) ? files : usage[category] = new()).Add(file);
