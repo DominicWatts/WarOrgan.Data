@@ -64,7 +64,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise"
+        "Deadly Demise",
+        "Super-Heavy Walker"
       ],
       "FactionKeywords": [
         "Chaos Knights"
@@ -353,7 +354,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise"
+        "Deadly Demise",
+        "Super-Heavy Walker"
       ],
       "FactionKeywords": [
         "Chaos Knights"
@@ -679,7 +681,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D6+2"
+        "Deadly Demise D6+2",
+        "Super-Heavy Walker"
       ],
       "FactionKeywords": [
         "Chaos Knights"
@@ -939,7 +942,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D6+2"
+        "Deadly Demise D6+2",
+        "Super-Heavy Walker"
       ],
       "FactionKeywords": [
         "Chaos Knights"
@@ -1268,7 +1272,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D6+2"
+        "Deadly Demise D6+2",
+        "Super-Heavy Walker"
       ],
       "FactionKeywords": [
         "Chaos Knights"
@@ -1495,7 +1500,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D6+2"
+        "Deadly Demise D6+2",
+        "Super-Heavy Walker"
       ],
       "FactionKeywords": [
         "Chaos Knights"
@@ -1742,7 +1748,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Super-Heavy Walker"
       ],
       "FactionKeywords": [
         "Chaos Knights"
@@ -2101,6 +2108,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Super-Heavy Walker",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
@@ -2388,6 +2396,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Super-Heavy Walker",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
@@ -2807,6 +2816,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Super-Heavy Walker",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
@@ -3387,6 +3397,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Super-Heavy Walker",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
@@ -3690,6 +3701,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Super-Heavy Walker",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
@@ -3998,6 +4010,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Super-Heavy Walker",
         "Deadly Demise D6+2"
       ],
       "FactionKeywords": [
@@ -6365,7 +6378,60 @@
         "Purge the Foe"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Malevolent Heraldry",
+          "Description": "Each time you roll dice to randomly select which Dread abilities are active for your army, if the bearer is on the battlefield, you can re-roll one or both results rolled.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Veil of Medrengard",
+          "Description": "The bearer has a 4+ invulnerable save against ranged attacks, and a 5+ invulnerable save against melee attacks.",
+          "Cost": 35,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tyrant's Shadow",
+          "Description": "At the end of your Command phase, select one objective marker the bearer is in range of and that you control. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a **CHAOS KNIGHTS** model from your army.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Nightmare's Master",
+          "Description": "At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -6379,7 +6445,34 @@
         "Take and Hold"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Cruel Lashmaster",
+          "Description": "While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Iconoclast Idol",
+          "Description": "While a friendly DAMNED unit is within 6\" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -6393,7 +6486,87 @@
         "Take and Hold"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Warp-borne Stalker",
+          "Description": "The bearer has the Deep Strike ability. In addition, once per battle, at the end of your opponent's turn, if the bearer is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Blade of Celerity",
+          "Description": "The bearer's ranged weapons have the [Assault] ability. In addition, once per battle, in the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability.",
+          "Cost": 35,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Putrid Carapace",
+          "Description": "The bearer has a Save characteristic of 2+. In addition, once per battle, at the start of either player's Command phase, the bearer can use this Enhancement. If it does, the bearer regains up to D6 lost wounds.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Mirror of Fates",
+          "Description": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do, increase the CP cost of that use of that **stratagem** by 1CP.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog",
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Blessing of the Dark Master",
+          "Description": "The bearer has the Stealth ability. In addition, once per battle, after you make a saving throw for the bearer, you can change the Damage characteristic of that attack to 0.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Throne Mechanicum of Skulls",
+          "Description": "You can re-roll Charge rolls made for the bearer's unit. In addition, once per battle, in your Charge phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit is eligible to declare a charge in a turn in which it Advanced.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -6407,7 +6580,64 @@
         "Reconnaissance"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Loping Predator",
+          "Description": "The bearer's ranged weapons have the [Assault] ability.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Character",
+            "War Dog"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Final Howl (Aura)",
+          "Description": "While a friendly **WAR DOG** model is within 6\" of the bearer, each time that model makes an attack, re-roll a Wound roll of 1.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "War Dog",
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Panoply of the Cursed Knights",
+          "Description": "Each time an attack targets the bearer, worsen the Armour Penetration characteristic of that attack by 1.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "War Dog",
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Preyslayer's Mantle",
+          "Description": "The bearer has the Super-Heavy Walker ability.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "War Dog",
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -6422,7 +6652,60 @@
         "Purge the Foe"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Fleshmetal Fusion",
+          "Description": "Add 1 to the bearer's Toughness characteristic. While the bearer is using the Unnatural Fortitude ability, each time an attack with a Damage characteristic of 1 is allocated to the bearer, add 1 to any armour saving throw made against that attack.",
+          "Cost": 35,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Blasphemous Engine",
+          "Description": "Add 2 to the bearer's Wounds characteristic. Each time the bearer's unit makes a Malefic Surge, you can re-roll the Leadership test taken to see if it suffers any mortal wounds.",
+          "Cost": 35,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Bestial Aspect",
+          "Description": "The bearer's ranged weapons have the [Assault] ability. While the bearer is using the Unholy Hunger ability, it can ignore any or all modifiers to its Move characteristic and/or to Advance rolls made for its unit.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Knight Diabolus",
+          "Description": "Improve the Weapon Skill characteristic of the bearer's melee weapons by 1. While the bearer is using the Diabolic Power ability, its melee weapons have the [Lance] ability.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -6436,7 +6719,60 @@
         "Disruption"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Hunter's Helm",
+          "Description": "You can re‑roll Advance and Charge rolls made for the bearer’s unit.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Octagram of Conjuration",
+          "Description": "While a friendly **WAR DOG MODEL IS WITHIN 9” OF THIS MODEL, AFTER THAT WAR DOG** model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test.",
+          "Cost": 40,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Knight Abominant"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Throne Tyrannicus",
+          "Description": "In your Command phase, select one other **CHAOS KNIGHTS CHARACTER** model within 9” of the bearer. If the bearer has one or more Aura abilities that affect friendly **WAR DOG** units, until the start of your next Command phase, the selected **CHAOS KNIGHTS CHARACTER** model is affected by those Aura abilities as well.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Titanic"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Aspect of the Beast",
+          "Description": "At the start of your Command phase, select one Dread ability to be active for the bearer until the start of your next Command phase, in addition to the Dread abilities active for your army.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "War Dog"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -6450,7 +6786,34 @@
         "Priority Assets"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Pterrorshade Rookery",
+          "Description": "When this unit is **selected to shoot**, select one enemy unit within 24\" of this unit. That enemy unit has +6\" **detection range** until this unit has shot.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Knight Tyrant"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Hate-filled Dominion",
+          "Description": "This unit can re-roll rolls to determine the **A** of a weapon.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Knight Tyrant"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -6464,7 +6827,30 @@
         "Reconnaissance"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Snarling Rivalry",
+          "Description": "This unit’s ranged attacks have [IGNORES COVER].",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Soul-spoor Auspicator",
+          "Description": "This unit’s ranged attacks have +6\" R.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],
