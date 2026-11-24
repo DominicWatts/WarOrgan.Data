@@ -4098,7 +4098,8 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Hover"
       ],
       "FactionKeywords": [
         "Adeptus Astartes"
@@ -10754,7 +10755,8 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Damaged 5"
       ],
       "FactionKeywords": [
         "Adeptus Astartes"
@@ -12507,7 +12509,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Damaged 5"
       ],
       "FactionKeywords": [
         "Adeptus Astartes"
@@ -16286,7 +16289,8 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Damaged 4"
       ],
       "FactionKeywords": [
         "Adeptus Astartes"
@@ -16631,7 +16635,8 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Damaged 4"
       ],
       "FactionKeywords": [
         "Adeptus Astartes"
@@ -21296,7 +21301,9 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D6"
+        "Hover",
+        "Deadly Demise D6",
+        "Damaged 5"
       ],
       "FactionKeywords": [
         "Adeptus Astartes"
@@ -23935,6 +23942,7 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
+        "Hover",
         "Deadly Demise D6+2"
       ],
       "FactionKeywords": [
@@ -25550,7 +25558,8 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Damaged 4"
       ],
       "FactionKeywords": [
         "Adeptus Astartes"
@@ -25814,7 +25823,8 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Damaged 4"
       ],
       "FactionKeywords": [
         "Adeptus Astartes"
