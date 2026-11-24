@@ -20,7 +20,6 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
 | Tyranids | `faction/tyranids` | Full (allies checked, rest draft) | done | done (allies) | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | - | text only |
 | Astra Militarum | `faction/astra-militarum` | Full (allies checked, rest draft) | done | done (allies) | - | - | 72 + 61 Legends | 11 | 34 | - | text only |
-
 | Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 38 | 8 | 24 | - | text only |
 | Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | - | text only |
 | Adeptus Mechanicus | `faction/adeptus-mechanicus` | Draft | done (draft) | - | - | - | 37 | 10 | 33 | - | text only |
@@ -52,6 +51,7 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Necrons | `faction/necrons` | Draft | done (draft) | - | - | - | 64 | 12 | 33 | - | text only |
 | Orks | `faction/orks` | Draft | done (draft) | - | - | - | 70 | 15 | 38 | - | text only |
 | T'au Empire | `faction/tau-empire` | Draft | done (draft) | - | - | - | 63 | 7 | 23 | - | text only |
+
 Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.json` and are not counted per faction.
 
 ## Genestealer Cults
