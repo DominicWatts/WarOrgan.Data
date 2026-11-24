@@ -13952,6 +13952,14 @@
             "Cost": 20,
             "GrantsAbilities": [
               "Tidewall Defence Platform"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Set",
+                "Scope": "Model",
+                "Value": "15"
+              }
             ]
           }
         ]
