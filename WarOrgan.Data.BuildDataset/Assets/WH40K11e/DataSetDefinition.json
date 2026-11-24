@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Thousand Sons",
+      "FactionKeyword": "Thousand Sons",
+      "Category": "Chaos",
+      "MainColor": "#1F5A8A",
+      "DarkColor": "#D4AF37"
     }
   ],
   "CoreAbilities": [
