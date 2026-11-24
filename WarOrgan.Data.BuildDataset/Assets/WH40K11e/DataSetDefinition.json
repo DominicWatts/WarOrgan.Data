@@ -183,6 +183,19 @@
           "IsIncludedInPrimaryRoster": true
         }
       ]
+    },
+    {
+      "Name": "Iron Hands",
+      "FactionKeyword": "Iron Hands",
+      "Category": "Imperium",
+      "MainColor": "#3A3A3A",
+      "DarkColor": "#9A9A9A",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
