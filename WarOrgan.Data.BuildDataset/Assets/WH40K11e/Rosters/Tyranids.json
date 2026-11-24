@@ -3140,29 +3140,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 2,
-                    "Options": [
-                      {
-                        "Items": [
-                          "totemic presence upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "totemic presence upgrade",
-            "DisplayName": "Totemic Presence upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -3759,7 +3743,7 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "genestealers claws and talons"
+                  "genestealer claws and talons"
                 ],
                 "Options": []
               }
@@ -3839,7 +3823,7 @@
           "DisplayName": "Melee Weapons",
           "Weapons": [
             {
-              "Id": "genestealers claws and talons",
+              "Id": "genestealer claws and talons",
               "DisplayName": "Genestealer claws and talons",
               "Flags": "None",
               "Stats": [
@@ -6482,7 +6466,7 @@
               {
                 "InitialWargear": [
                   "monstrous scything talons",
-                  "toxinjecter harpoon"
+                  "toxinjector harpoon"
                 ],
                 "Options": []
               }
@@ -6562,7 +6546,7 @@
           "DisplayName": "Ranged Weapons",
           "Weapons": [
             {
-              "Id": "toxinjecter harpoon",
+              "Id": "toxinjector harpoon",
               "DisplayName": "Toxinjector Harpoon",
               "Flags": "None",
               "Stats": [
@@ -6630,7 +6614,7 @@
               ]
             },
             {
-              "Id": "toxinjecter harpoon",
+              "Id": "toxinjector harpoon",
               "DisplayName": "Toxinjector Harpoon",
               "Keywords": "Extra Attacks",
               "Flags": "None",
@@ -8579,29 +8563,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "trademark weapon upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "trademark weapon upgrade",
-            "DisplayName": "Trademark Weapon upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
