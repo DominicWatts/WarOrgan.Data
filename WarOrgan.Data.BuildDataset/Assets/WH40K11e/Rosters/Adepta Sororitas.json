@@ -10234,37 +10234,25 @@
                   "bolt pistol",
                   "close combat weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Seraphim with Special Weapons",
-            "StatlineRef": "Seraphim",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "ministorum hand flamer",
-                  "ministorum hand flamer",
-                  "close combat weapon"
-                ],
                 "Options": [
                   {
-                    "Max": 9,
+                    "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
-                      "ministorum hand flamer",
-                      "ministorum hand flamer"
+                      "bolt pistol",
+                      "bolt pistol"
                     ],
                     "Options": [
                       {
                         "Items": [
                           "inferno pistol",
                           "inferno pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum hand flamer",
+                          "ministorum hand flamer"
                         ]
                       }
                     ]
@@ -10618,32 +10606,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 9,
-          "Cost": 150
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
           "UnitCount": 1,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 150
         },
         {
           "UnitCount": 2,
-          "ModelCount": 9,
-          "Cost": 150
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
           "UnitCount": 2,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 150
         },
         {
           "UnitCount": 3,
-          "ModelCount": 9,
-          "Cost": 160
+          "ModelCount": 5,
+          "Cost": 85
         },
         {
           "UnitCount": 3,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 160
         }
       ]
