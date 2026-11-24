@@ -21,35 +21,35 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Tyranids | `faction/tyranids` | GSC allies only | done (allies) | done (allies) | - | partial (1.3) | 14 Vanguard Invader | - | - | - | - |
 | Astra Militarum | `faction/astra-militarum` | GSC allies only | done (allies) | done (allies) | - | - | 51/51 eligible | - | - | - | - |
 
-| Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 35 | 8 | 0 | - | text only |
+| Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 35 | 8 | 24 | - | text only |
 | Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | - | text only |
-| Adeptus Mechanicus | `faction/adeptus-mechanicus` | Draft | done (draft) | - | - | - | 36 | 10 | 4 | - | text only |
-| Agents of the Imperium | `faction/agents-of-the-imperium` | Draft | done (draft) | - | - | - | 34 | 5 | 0 | - | text only |
+| Adeptus Mechanicus | `faction/adeptus-mechanicus` | Draft | done (draft) | - | - | - | 36 | 10 | 33 | - | text only |
+| Agents of the Imperium | `faction/agents-of-the-imperium` | Draft | done (draft) | - | - | - | 34 | 5 | 16 | - | text only |
 | Grey Knights | `faction/grey-knights` | Draft | done (draft) | - | - | - | 31 | 9 | 30 | - | text only |
 | Imperial Knights | `faction/imperial-knights` | Draft | done (draft) | - | - | - | 22 | 8 | 26 | - | text only |
 | Space Marines | `faction/space-marines` | Draft | done (draft) | - | - | - | 131 | 16 | 32 | - | text only |
 | Black Templars | `faction/black-templars` | Draft | done (draft) | - | - | - | 15 | 18 | 36 | - | text only |
-| Blood Angels | `faction/blood-angels` | Draft | done (draft) | - | - | - | 21 | 32 | 66 | - | text only |
-| Dark Angels | `faction/dark-angels` | Draft | done (draft) | - | - | - | 18 | 32 | 66 | - | text only |
+| Blood Angels | `faction/blood-angels` | Draft | done (draft) | - | - | - | 21 | 19 | 40 | - | text only |
+| Dark Angels | `faction/dark-angels` | Draft | done (draft) | - | - | - | 18 | 19 | 40 | - | text only |
 | Deathwatch | `faction/deathwatch` | Draft | done (draft) | - | - | - | 7 | 16 | 36 | - | text only |
-| Imperial Fists | `faction/imperial-fists` | Draft | done (draft) | - | - | - | 3 | 22 | 36 | - | text only |
-| Iron Hands | `faction/iron-hands` | Draft | done (draft) | - | - | - | 2 | 30 | 62 | - | text only |
-| Raven Guard | `faction/raven-guard` | Draft | done (draft) | - | - | - | 2 | 30 | 62 | - | text only |
-| Salamanders | `faction/salamanders` | Draft | done (draft) | - | - | - | 2 | 22 | 36 | - | text only |
-| Space Wolves | `faction/space-wolves` | Draft | done (draft) | - | - | - | 32 | 32 | 66 | - | text only |
-| Ultramarines | `faction/ultramarines` | Draft | done (draft) | - | - | - | 16 | 30 | 62 | - | text only |
-| White Scars | `faction/white-scars` | Draft | done (draft) | - | - | - | 2 | 30 | 62 | - | text only |
-| Chaos Space Marines | `faction/chaos-space-marines` | Draft | done (draft) | - | - | - | 82 | 17 | 0 | - | text only |
-| Chaos Daemons | `faction/chaos-daemons` | Draft | done (draft) | - | - | - | 66 | 9 | 0 | - | text only |
-| Chaos Knights | `faction/chaos-knights` | Draft | done (draft) | - | - | - | 19 | 8 | 0 | - | text only |
-| Death Guard | `faction/death-guard` | Draft | done (draft) | - | - | - | 40 | 9 | 0 | - | text only |
-| Emperor's Children | `faction/emperors-children` | Draft | done (draft) | - | - | - | 18 | 10 | 0 | - | text only |
-| Thousand Sons | `faction/thousand-sons` | Draft | done (draft) | - | - | - | 30 | 9 | 0 | - | text only |
-| World Eaters | `faction/world-eaters` | Draft | done (draft) | - | - | - | 26 | 8 | 0 | - | text only |
+| Imperial Fists | `faction/imperial-fists` | Draft | done (draft) | - | - | - | 3 | 17 | 36 | - | text only |
+| Iron Hands | `faction/iron-hands` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | - | text only |
+| Raven Guard | `faction/raven-guard` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | - | text only |
+| Salamanders | `faction/salamanders` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | - | text only |
+| Space Wolves | `faction/space-wolves` | Draft | done (draft) | - | - | - | 32 | 19 | 40 | - | text only |
+| Ultramarines | `faction/ultramarines` | Draft | done (draft) | - | - | - | 16 | 17 | 36 | - | text only |
+| White Scars | `faction/white-scars` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | - | text only |
+| Chaos Space Marines | `faction/chaos-space-marines` | Draft | done (draft) | - | - | - | 82 | 17 | 62 | - | text only |
+| Chaos Daemons | `faction/chaos-daemons` | Draft | done (draft) | - | - | - | 66 | 9 | 27 | - | text only |
+| Chaos Knights | `faction/chaos-knights` | Draft | done (draft) | - | - | - | 19 | 8 | 28 | - | text only |
+| Death Guard | `faction/death-guard` | Draft | done (draft) | - | - | - | 40 | 9 | 26 | - | text only |
+| Emperor's Children | `faction/emperors-children` | Draft | done (draft) | - | - | - | 18 | 10 | 31 | - | text only |
+| Thousand Sons | `faction/thousand-sons` | Draft | done (draft) | - | - | - | 30 | 9 | 29 | - | text only |
+| World Eaters | `faction/world-eaters` | Draft | done (draft) | - | - | - | 26 | 8 | 22 | - | text only |
 | Aeldari | `faction/aeldari` | Draft | done (draft) | - | - | - | 75 | 15 | 52 | - | text only |
 | Drukhari | `faction/drukhari` | Draft | done (draft) | - | - | - | 27 | 9 | 30 | - | text only |
-| Leagues of Votann | `faction/leagues-of-votann` | Draft | done (draft) | - | - | - | 22 | 10 | 0 | - | text only |
-| Necrons | `faction/necrons` | Draft | done (draft) | - | - | - | 59 | 12 | 0 | - | text only |
+| Leagues of Votann | `faction/leagues-of-votann` | Draft | done (draft) | - | - | - | 22 | 10 | 32 | - | text only |
+| Necrons | `faction/necrons` | Draft | done (draft) | - | - | - | 59 | 12 | 33 | - | text only |
 | Orks | `faction/orks` | Draft | done (draft) | - | - | - | 68 | 15 | 38 | - | text only |
 | T'au Empire | `faction/tau-empire` | Draft | done (draft) | - | - | - | 60 | 7 | 23 | - | text only |
 Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.json` and are not counted per faction.
@@ -79,7 +79,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 
 - 2026-11-24 (1.5.0): 31 factions drafted with `WarOrgan.Data.BsdataImport` from the pinned dump and merged unchecked. Chapters are their own factions with the Space Marines roster included (`IsIncludedInPrimaryRoster`); each chapter roster also repeats the generic Space Marine detachments, because BSData lists them for every chapter.
 - Next for each faction: run `WarOrgan.Data.WahapediaCheck`, add stratagems, enhancement and leader effects, and work through the import report (regenerate it with the importer; it is not committed).
-- Enhancements are missing for the factions showing 0 above. Their BSData enhancement groups are not named "<Detachment> Enhancements", so the importer does not find them yet.
+- 2026-11-24 (1.5.1): enhancements imported for every draft faction (most catalogues tie them to a detachment by a visibility condition). Still without enhancements, because BSData has none: Armoured Trailblazers, Brazen Engines, Butchers of Khorne, Contagion Engines, Flyblown Host, Hand of the Dynasty, Pantheon of Woe, Skyshroud Spearhead, Spectacle of Slaughter, Veiled Blade Elimination Force and Warptide. Chapters now get only the Space Marine detachments plus their own.
 - Datasheets left out because they failed dataset validation (mostly weapons that no wargear option can select, or model counts the importer could not rebuild). Leader lists that named them were trimmed.
   - Adepta Sororitas: Battle Sisters Squad, Crusaders, Dominion Squad
   - Adeptus Mechanicus: Pteraxii Sterylizors
