@@ -939,14 +939,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -979,6 +971,11 @@
             "GrantsAbilities": [
               "Weapon Support System"
             ]
+          },
+          {
+            "Key": "high-yield missile pods",
+            "DisplayName": "High-yield missile pods",
+            "Cost": 5
           }
         ]
       },
@@ -998,10 +995,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
