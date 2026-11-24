@@ -5501,6 +5501,10 @@
             "GrantsAbilities": [
               "Battlesuit Support System"
             ]
+          },
+          {
+            "Key": "cyclic ion raker - standard",
+            "Cost": 15
           }
         ]
       },
@@ -9214,6 +9218,10 @@
             "GrantsAbilities": [
               "Shield Drone"
             ]
+          },
+          {
+            "Key": "ion rifle - standard",
+            "Cost": 5
           }
         ]
       },
@@ -10377,7 +10385,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "ion accelerator - standard",
+            "Cost": 25
+          }
+        ]
       },
       "UnitAbilities": [
         {
