@@ -1,4 +1,6 @@
+using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using WarOrgan.Data.WahapediaCheck;
 using WarOrgan.Model.Faction;
 
@@ -9,6 +11,8 @@ for (var i = 0; i < args.Length; i++)
 {
     if (args[i] == "--refresh")
         options["refresh"] = "true";
+    else if (args[i] == "--write-stratagems")
+        options["write-stratagems"] = "true";
     else if (args[i].StartsWith("--") && i + 1 < args.Length)
     {
         if (args[i] == "--roster")
@@ -35,6 +39,7 @@ if (rosters.Count == 0 || !options.ContainsKey("faction-slug"))
           --out <folder>          Report folder (default: WahapediaCheck-Output)
           --cache <folder>        Page cache (default: system temp); pages are reused for the day
           --refresh               Download the pages again
+          --write-stratagems      Add missing Wahapedia stratagems to matching roster detachments
         """);
     return 1;
 }
@@ -62,6 +67,55 @@ foreach (var path in rosters)
     if (roster.Detachments.Count > 0)
         comparer.CompareDetachments(roster, detachments);
 
+    if (options.ContainsKey("write-stratagems"))
+    {
+        var updated = 0;
+        foreach (var detachment in roster.Detachments)
+        {
+            var source = detachments.FirstOrDefault(d => string.Equals(d.Name, detachment.Name, StringComparison.OrdinalIgnoreCase));
+            if (source == null)
+                continue;
+
+            foreach (var stratagem in source.Stratagems)
+            {
+                var existing = detachment.Stratagems.FirstOrDefault(s => string.Equals(s.Name, stratagem.Name, StringComparison.OrdinalIgnoreCase));
+                if (existing != null)
+                {
+                    if (!string.Equals(existing.Category, stratagem.Type, StringComparison.Ordinal))
+                    {
+                        existing.Category = stratagem.Type;
+                        updated++;
+                    }
+                    continue;
+                }
+                detachment.Stratagems.Add(new Stratagem
+                {
+                    Name = stratagem.Name,
+                    Category = stratagem.Type,
+                    CPCost = stratagem.CP,
+                    Phase = PhaseFor(stratagem.When),
+                    When = stratagem.When,
+                    Target = EmptyAsNull(stratagem.Target),
+                    Effect = stratagem.Effect,
+                    Restrictions = EmptyAsNull(stratagem.Restrictions),
+                });
+                updated++;
+            }
+        }
+
+        if (updated > 0)
+        {
+            var json = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+                Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
+            };
+            File.WriteAllText(path, JsonSerializer.Serialize(roster, json));
+            Console.WriteLine($"{fileName}: added {updated} stratagems to {path}");
+        }
+    }
+
     var header = new[]
     {
         $"- Roster: `{path}`",
@@ -74,6 +128,20 @@ foreach (var path in rosters)
     Console.WriteLine($"{fileName}: {report.CheckedCount} checked, {report.CleanCount} clean, {report.Count} notes -> {reportPath}");
 }
 return 0;
+
+static string? EmptyAsNull(string value)
+    => string.IsNullOrWhiteSpace(value) ? null : value;
+
+static string PhaseFor(string when)
+{
+    if (when.Contains("Movement phase", StringComparison.OrdinalIgnoreCase)) return "Movement";
+    if (when.Contains("Shooting phase", StringComparison.OrdinalIgnoreCase)) return "Shooting";
+    if (when.Contains("Fight phase", StringComparison.OrdinalIgnoreCase)) return "Fight";
+    if (when.Contains("Charge phase", StringComparison.OrdinalIgnoreCase)) return "Charge";
+    if (when.Contains("Command phase", StringComparison.OrdinalIgnoreCase)) return "Command";
+    if (when.Contains("Morale phase", StringComparison.OrdinalIgnoreCase)) return "Morale";
+    return "Any";
+}
 
 /// <summary>Downloads each Wahapedia page once a day; local files are read directly.</summary>
 class PageCache(string folder, bool refresh)
