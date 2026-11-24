@@ -76,6 +76,19 @@
       "Category": "Imperium",
       "MainColor": "#1B3F8B",
       "DarkColor": "#5B7FCB"
+    },
+    {
+      "Name": "Salamanders",
+      "FactionKeyword": "Salamanders",
+      "Category": "Imperium",
+      "MainColor": "#1F6B2E",
+      "DarkColor": "#5FAF6E",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
