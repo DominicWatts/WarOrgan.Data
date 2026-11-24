@@ -170,6 +170,19 @@
           "IsIncludedInPrimaryRoster": true
         }
       ]
+    },
+    {
+      "Name": "Imperial Fists",
+      "FactionKeyword": "Imperial Fists",
+      "Category": "Imperium",
+      "MainColor": "#B8961A",
+      "DarkColor": "#E0C450",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
