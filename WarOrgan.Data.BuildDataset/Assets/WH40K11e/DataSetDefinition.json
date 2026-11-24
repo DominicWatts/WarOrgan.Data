@@ -310,6 +310,13 @@
       "Category": "Chaos",
       "MainColor": "#8A1E1E",
       "DarkColor": "#C8C8C8"
+    },
+    {
+      "Name": "Aeldari",
+      "FactionKeyword": "Asuryani",
+      "Category": "Xenos",
+      "MainColor": "#1E6E6E",
+      "DarkColor": "#5EB0B0"
     }
   ],
   "CoreAbilities": [
