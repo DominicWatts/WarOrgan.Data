@@ -1475,6 +1475,14 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "1"
+              }
             ]
           }
         ]
@@ -2112,6 +2120,14 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "1"
+              }
             ]
           },
           {
@@ -2748,6 +2764,14 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "1"
+              }
             ]
           },
           {
@@ -5303,6 +5327,14 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "1"
+              }
             ]
           }
         ]
