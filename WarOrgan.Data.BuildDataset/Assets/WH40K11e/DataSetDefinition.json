@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Space Marines",
+      "FactionKeyword": "Adeptus Astartes",
+      "Category": "Imperium",
+      "MainColor": "#1B3F8B",
+      "DarkColor": "#5B7FCB"
     }
   ],
   "CoreAbilities": [
