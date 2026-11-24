@@ -7044,8 +7044,24 @@
   ],
   "ArmyRules": [
     {
+      "Title": "Combat Doctrines",
+      "Text": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\n**Assault Doctrine**\n\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\n**Devastator Doctrine**\n\nThis unit’s ranged attacks have [ASSAULT].\n\n**Tactical Doctrine**\n\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n\n- You can only select each combat doctrine once per battle.\n- Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit."
+    },
+    {
+      "Title": "Transhuman Strategist",
+      "Text": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP."
+    },
+    {
+      "Title": "Librarius",
+      "Text": "ADEPTUS ASTARTES PSYKER units with this ability have a psyker level of 1 or higher, specified in that unit’s abilities. Each psychic ability has a psychic level of 1 or higher, specified in that ability’s name.\n\nIn a battle round, a friendly ADEPTUS ASTARTES PSYKER unit can use a number of psychic abilities whose total psychic level does not exceed that PSYKER unit’s psyker level.\n\nExample: In a battle round, a psyker level 3 PSYKER unit could use three psychic level 1 abilities, or one psychic level 1 ability and one psychic level 2 ability, or one psychic level 3 ability.\n\n**Space Marine Chapters**\n\nIf an ADEPTUS ASTARTES unit has a second Faction keyword on its datasheet, that Faction keyword is the name of that unit’s Chapter. For example, Marneus Calgar has both the ADEPTUS ASTARTES and ULTRAMARINES Faction keywords,and is therefore from the Ultramarines Chapter.\n\nYou cannot include units from more than one Chapter in your army."
+    },
+    {
+      "Title": "Special Move Types",
+      "Text": "The following are special move types that certain or all of your units are eligible to make.\n\nSHOCK DISEMBARK MOVE\n\nSET-UP DISTANCE: 3\"\n\nELIGIBLE IF:\n\n- Embarked within a TRANSPORT on the battlefield\n- Did not embark within that TRANSPORT this phase\n\nEFFECT: Set up as described in Set Up (03.02).\n\nWHILE MOVING: Set up each model wholly within the set-up distance of that TRANSPORT.\n\nAFTER MOVING: Your unit is not eligible to declare a charge until the end of the turn.\n\nASSAULT DISEMBARK MOVE\n\nSET-UP DISTANCE: 3\"\n\nELIGIBLE IF:\n\n- Embarked within a TRANSPORT on the battlefield\n- Did not embark within that TRANSPORT this phase\n- That TRANSPORT has not made an advance/fall-back move this phase\n\nEFFECT: Set up as described in Set Up (03.02).\n\nWHILE MOVING: Set up each model wholly within the set-up distance of that TRANSPORT."
+    },
+    {
       "Title": "Curse of the Wulfen",
-      "Text": "While this unit is within 6” of a friendly SPACE WOLVES CHARACTER model (excluding WULFEN models) or within 12” of a friendly Wolf Priest model, if this unit is not battle-shocked:\n\n\n- If this unit has INFANTRY, this unit has +1 OC.\n- If this unit has VEHICLE, this unit has +3 OC.\n\n\nBestial Forms: For the purposes of transport capacity, each WULFEN model takes up the space of 2 models."
+      "Text": "While this unit is within 6\" of a friendly SPACE WOLVES CHARACTER model (excluding WULFEN models) or within 12\" of a friendly WOLF PRIEST model, if this unit is not battle-shocked:\n\n- If this unit has INFANTRY, this unit has +1 OC.\n- If this unit has VEHICLE, this unit has +3 OC.\nBestial Forms: For the purposes of transport capacity, each WULFEN model takes up the space of 2 models.\n\nezstandalone.cmd.push(function() {ezstandalone.showAds(116)});"
     }
   ]
 }

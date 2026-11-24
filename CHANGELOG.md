@@ -1,12 +1,14 @@
+# Dataset changelog
+
+2026-11-24 : 1.5.12.0 - Added the army rules from Wahapedia for Space Marines and every chapter (with chapter rules such as The Deathwing and Curse of the Wulfen), Aeldari, Drukhari, Chaos Daemons, Chaos Knights and Imperial Knights (issue 9).
+
+2026-11-24 : 1.5.11.0 - Astra Militarum fixes from issue 8: Shock Troops, Jungle Fighters, Krieg and Tempestus Scions take two Leaders, Leman Russ lascannons, multi-meltas, plasma cannons and the demolisher battle cannon cost points, Recon Squads can take two long-las, every Bullgryn can change wargear, and Ogryn Bodyguards and Nork Deddog join Command Squads.
+
 2026-11-24 : 1.5.10.0 - Signed off Tyranids coverage, added Hell’s Last and Vendetta Gunship to Astra Militarum Legends, and corrected roster data and wargear across Astra Militarum, Adepta Sororitas and T’au Empire.
 
 2026-11-24 : 1.5.9.0 - Added 357 Wahapedia stratagems for nine factions, exposed the generic Space Marine stratagems in chapter rosters and committed the bulk-draft pipeline.
 
 2026-11-24 : 1.5.8.0 - Added 52 Wahapedia faction stratagems to the 16 Space Marine detachment rosters, plus Wahapedia stratagem import support.
-
-# Dataset changelog
-
-2026-11-24 : 1.5.11.0 - Astra Militarum fixes from issue 8: Shock Troops, Jungle Fighters, Krieg and Tempestus Scions take two Leaders, Leman Russ lascannons, multi-meltas, plasma cannons and the demolisher battle cannon cost points, Recon Squads can take two long-las, every Bullgryn can change wargear, and Ogryn Bodyguards and Nork Deddog join Command Squads.
 
 2026-11-24 : 1.5.7.0 - Space Marine chapters now group the Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets instead of as allies.
 
