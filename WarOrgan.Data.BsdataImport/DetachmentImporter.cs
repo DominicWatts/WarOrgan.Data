@@ -15,6 +15,7 @@ public class DetachmentImporter(BsData data, ImportReport report)
         var detachments = new List<Detachment>();
         var dispositions = ForceDispositionNames();
         var enhancementGroups = EnhancementGroups();
+        var conditionalEnhancements = ConditionalEnhancements();
 
         foreach (var entry in DetachmentEntries(catalogues))
         {
@@ -53,6 +54,8 @@ public class DetachmentImporter(BsData data, ImportReport report)
             if (enhancementGroups.TryGetValue(name, out var groups))
                 foreach (var (group, isUpgrade) in groups)
                     detachment.Enhancements.AddRange(group.Children(data).Where(c => c.Type == "upgrade").Select(c => ToEnhancement(c, isUpgrade, name)));
+            else if (conditionalEnhancements.TryGetValue(name, out var enhancements))
+                detachment.Enhancements.AddRange(enhancements.Select(c => ToEnhancement(c, false, name)));
             else
                 report.Add(name, "No enhancements found.");
 
@@ -96,10 +99,15 @@ public class DetachmentImporter(BsData data, ImportReport report)
                 yield return root;
             yield break;
         }
-        foreach (var link in catalogue.Arr("catalogueLinks").Where(l => l["importRootEntries"]?.GetValue<bool>() == true))
-            if (data.Catalogues.Values.FirstOrDefault(c => c.Str("id") == link.Str("targetId")) is { } linked)
-                foreach (var root in DetachmentRoots(linked, visited))
-                    yield return root;
+        // Chapters also link Knights and Agents; their parent is the linked list with the most detachments (Space Marines)
+        var best = catalogue.Arr("catalogueLinks").Where(l => l["importRootEntries"]?.GetValue<bool>() == true)
+            .Select(l => data.Catalogues.Values.FirstOrDefault(c => c.Str("id") == l.Str("targetId")))
+            .OfType<JsonObject>()
+            .Select(linked => DetachmentRoots(linked, [.. visited]).ToList())
+            .OrderByDescending(roots => roots.Sum(r => new BsNode(r, r).Children(data).Where(c => c.IsGroup).Sum(g => g.Children(data).Count())))
+            .FirstOrDefault() ?? [];
+        foreach (var root in best)
+            yield return root;
     }
 
     /// <summary>
@@ -162,6 +170,54 @@ public class DetachmentImporter(BsData data, ImportReport report)
             Walk(catalogue);
         }
         return result;
+    }
+
+    /// <summary>
+    /// Most catalogues keep every enhancement in one shared "Enhancements" group and hide each one unless its
+    /// detachment is in the force (a lessThan condition on the detachment entry). Map them by that condition.
+    /// </summary>
+    private Dictionary<string, List<BsNode>> ConditionalEnhancements()
+    {
+        var result = new Dictionary<string, List<BsNode>>(StringComparer.OrdinalIgnoreCase);
+        var seen = new HashSet<string>();
+        foreach (var catalogue in data.Catalogues.Values)
+        {
+            void Walk(JsonNode? node)
+            {
+                if (node is JsonArray array)
+                    foreach (var item in array) Walk(item);
+                if (node is not JsonObject obj)
+                    return;
+                if (obj.Name() == "Enhancements" && obj["selectionEntries"] is JsonArray)
+                    foreach (var entry in obj.Arr("selectionEntries").Where(e => e.Str("type") == "upgrade"))
+                        if (seen.Add(entry.Str("id") ?? entry.Name()))
+                            foreach (var detachment in RequiredDetachments(entry))
+                                (result.TryGetValue(detachment, out var list) ? list : result[detachment] = new()).Add(new BsNode(entry, entry));
+                foreach (var (_, child) in obj) Walk(child);
+            }
+            Walk(catalogue);
+        }
+        return result;
+    }
+
+    private HashSet<string>? _allDetachmentNames;
+    private HashSet<string> AllDetachmentNames => _allDetachmentNames ??= data.Catalogues.Values
+        .SelectMany(c => DetachmentEntries([c])).Select(e => e.Name()).ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+    private IEnumerable<string> RequiredDetachments(JsonObject entry)
+    {
+        IEnumerable<JsonObject> Conditions(JsonObject holder) =>
+            holder.Arr("conditions").Concat(holder.Arr("conditionGroups").SelectMany(Conditions));
+        return entry.Arr("modifiers")
+            .Where(m => m.Str("field") == "hidden" && m["value"]?.ToString() is "true" or "True")
+            .SelectMany(Conditions)
+            .Where(c => c.Str("scope") is "force" or "roster"
+                && (c.Str("type") == "lessThan" && c["value"]?.ToString() == "1" || c.Str("type") == "equalTo" && c["value"]?.ToString() == "0"))
+            .Select(c => data.Get(c.Str("childId"))?.Name())
+            .OfType<string>()
+            // Other hide conditions (Chaos marks, Crusade) name things that are not detachments
+            .Where(AllDetachmentNames.Contains)
+            .Distinct();
     }
 
     private Enhancement ToEnhancement(BsNode node, bool isUpgrade, string detachment)

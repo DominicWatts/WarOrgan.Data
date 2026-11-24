@@ -29,7 +29,7 @@ Run it from the repository root so it finds `DataSetDefinition.json`, or pass `-
 - Model compositions. BSData's per-loadout models ("Shock Trooper w/ Flamer") are folded into one composition with wargear options, following the conventions in `CLAUDE.md`. Size choices ("1 Sergeant and 9 Troopers" or "2 and 18") become model ranges, with option limits expressed per X models.
 - Sibling loadouts that replace the same starting weapon are merged into one mutually exclusive WarOrgan choice. Multi-profile and repeated weapons remain together as one choice bundle.
 - Leader lists written either as bullets or inline after the Leader introduction.
-- Detachments with a Detachment Points cost: Force Dispositions, rule, enhancements and their unit restrictions. Other detachment categories become Tags.
+- Detachments with a Detachment Points cost: Force Dispositions, rule, enhancements and their unit restrictions. Enhancements come from "<Detachment> Enhancements" groups or, in most catalogues, from the shared "Enhancements" group, where each one is hidden unless its detachment is taken. Other detachment categories become Tags.
 - Army rules from the catalogue's shared rules.
 - Units and detachments from linked libraries (Aeldari, Knights, Daemons) and, for Space Marine chapters, from the Space Marines catalogue. BSData's per-army visibility rules decide which shared detachments each army gets.
 - Weapon keywords in the core rule spellings ("BLAST 2" becomes "Blast 2", "Anti-INFANTRY 4+" becomes "Anti-Infantry 4+"). Keywords still unregistered are dropped and reported, so every draft builds.
