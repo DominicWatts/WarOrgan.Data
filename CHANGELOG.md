@@ -1,16 +1,25 @@
 # Dataset changelog
 
 2026-11-24 : 1.5.5.0 - Updated the README coverage, sources and known limitations for the draft factions.
+
 2026-11-24 : 1.5.4.0 - A shield drone now adds 1 to the Wounds of the T'au character carrying it (Cadre Fireblade, Ethereal, Coldstar and Enforcer Commanders), and stray bold markers were removed from rule text.
+
 2026-11-24 : 1.5.3.0 - Added the 40 draft datasheets that were held back, including the Battle Sisters Squad, Space Marine Captain, C'tan Shards and Broadsides, and left out 14 BSData datasheets that no longer exist in 11th Edition.
+
 2026-11-24 : 1.5.2.0 - Filled Tyranids and Astra Militarum into full factions with unchecked BSData drafts of their remaining datasheets, detachments, enhancements and army rules, keeping the checked allied datasheets unchanged.
+
 2026-11-24 : 1.5.1.0 - Added the missing enhancements to the draft factions, core abilities such as Damaged and Super-Heavy Walker, and removed Agents and Knights detachments wrongly given to the Space Marine chapters.
+
 2026-11-24 : 1.5.0.0 - Added unchecked drafts of 31 more factions from the November BSData dump, including each Space Marine chapter, and registered the 11th Edition weapon keywords they use.
+
 2026-11-23 : 1.4.7.0 - Invulnerable saves now show as an INV characteristic next to SV on the datasheets of the 14 units that have one.
+
 2026-11-23 : 1.4.6.0 - Made the Heavy Weapons Squad and Field Ordnance Battery weapon swaps one choice per model, and gave the Krieg Heavy Weapons Squad lascannons by default.
+
 2026-11-23 : 1.4.5.0 - Completed Brood Brother Auxilia with all 51 eligible Astra Militarum datasheets and their verified wargear options.
 
 2026-11-23 : 1.4.4.0 - The Vanguard Tyrant enhancement now applies +1 Strength and improved AP to the Winged Hive Tyrant's melee weapons.
+
 2026-11-23 : 1.4.3.0 - Added the Cadian, Catachan and Krieg Command Squads with fixed specialist loadouts, and cleaned BSData keyword markup from three GSC abilities.
 
 2026-11-23 : 1.4.2.0 - Expanded Brood Brother Auxilia with 15 verified Astra Militarum infantry and mounted datasheets.
