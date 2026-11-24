@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-24 : 1.5.6.0 - Added a work plan (TODO.md) and handover notes (HANDOVER.md) for contributors; no data changes.
+
 2026-11-24 : 1.5.5.0 - Updated the README coverage, sources and known limitations for the draft factions.
 
 2026-11-24 : 1.5.4.0 - A shield drone now adds 1 to the Wounds of the T'au character carrying it (Cadre Fireblade, Ethereal, Coldstar and Enforcer Commanders), and stray bold markers were removed from rule text.
