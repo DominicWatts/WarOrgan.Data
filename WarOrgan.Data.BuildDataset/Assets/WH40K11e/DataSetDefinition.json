@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Drukhari",
+      "FactionKeyword": "Drukhari",
+      "Category": "Xenos",
+      "MainColor": "#2A4A3A",
+      "DarkColor": "#6E9A84"
     }
   ],
   "CoreAbilities": [
