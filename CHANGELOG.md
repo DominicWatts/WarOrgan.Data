@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-24 : 1.5.7.0 - Space Marine chapters now group the Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets instead of as allies.
+
 2026-11-24 : 1.5.6.0 - Added a work plan (TODO.md) and handover notes (HANDOVER.md) for contributors; no data changes.
 
 2026-11-24 : 1.5.5.0 - Updated the README coverage, sources and known limitations for the draft factions.
