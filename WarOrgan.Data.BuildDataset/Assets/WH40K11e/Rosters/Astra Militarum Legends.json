@@ -18645,6 +18645,742 @@
           "Cost": 55
         }
       ]
+    },
+    {
+      "Id": "VENDETTA GUNSHIP",
+      "DisplayName": "Vendetta Gunship",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Vendetta Gunship",
+            "StatlineRef": "Vendetta Gunship",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "vendetta twin lascannon",
+                  "vendetta twin lascannon",
+                  "vendetta twin lascannon",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "vendetta twin lascannon",
+                      "vendetta twin lascannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "vendetta hellstrike rack"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "StatLines": [
+        {
+          "StatName": "Vendetta Gunship",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "vendetta hellstrike rack",
+              "DisplayName": "Vendetta hellstrike rack",
+              "Keywords": "Anti-Fly 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "vendetta twin lascannon",
+              "DisplayName": "Vendetta twin lascannon",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Hover"
+      ],
+      "UnitAbilities": [
+        {
+          "Title": "Anti-armour Gunship",
+          "Text": "Re-roll Damage rolls of 1 for this model’s ranged attacks allocated to MONSTER or VEHICLE models."
+        },
+        {
+          "Title": "Damaged: 1-5 Wounds Remaining",
+          "Text": "Subtract 1 from this model’s Hit rolls while it has 1–5 wounds remaining."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Transport",
+        "Vendetta Gunship",
+        "Other Datasheets"
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 255
+        }
+      ]
+    },
+    {
+      "Id": "HELL'S LAST",
+      "DisplayName": "Hell’s Last",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Minka Lesk",
+            "StatlineRef": "Minka Lesk",
+            "Keywords": [
+              "Character",
+              "Officer"
+            ],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lesk’s Hero (demolitions)",
+            "StatlineRef": "Lesk’s Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "demolitions",
+                  "meltagun",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lesk’s Hero (dirk)",
+            "StatlineRef": "Lesk’s Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hot-shot laspistol",
+                  "dirk"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lesk’s Hero (bolt pistol)",
+            "StatlineRef": "Lesk’s Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lesk’s Hero (banner)",
+            "StatlineRef": "Lesk’s Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "power weapon",
+                  "regimental banner"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "regimental banner",
+            "DisplayName": "Regimental Banner",
+            "GrantsAbilities": [
+              "Regimental Banner"
+            ]
+          }
+        ]
+      },
+      "StatLines": [
+        {
+          "StatName": "Minka Lesk",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Lesk’s Veterans",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "demolitions",
+              "DisplayName": "Demolitions",
+              "Keywords": "Blast, One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "hot-shot laspistol",
+              "DisplayName": "Hot-shot laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "dirk",
+              "DisplayName": "Dirk",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "CoreAbilities": [
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This unit’s OFFICER can issue 2 Orders to REGIMENT units."
+        },
+        {
+          "Title": "Heroic Example",
+          "Text": "While Minka Lesk is on the battlefield, models in this unit can re-roll their Hit rolls."
+        },
+        {
+          "Title": "Lesk’s Heroes",
+          "Text": "Improve the Leadership of models in this unit by 1 and allow the unit to re-roll Battle-shock and Leadership tests."
+        },
+        {
+          "Title": "Regimental Banner",
+          "Text": "Add 1 to the Objective Control of models in the bearer’s unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Platoon",
+        "Command Squad",
+        "Hell’s Last",
+        "Epic Hero"
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 80
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CADIAN SHOCK TROOPS"
+        ],
+        "Features": 0
+      }
     }
   ],
   "Detachments": [],
