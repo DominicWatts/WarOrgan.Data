@@ -1,0 +1,4454 @@
+﻿{
+  "Name": "Deathwatch",
+  "Units": [
+    {
+      "Id": "CORVUS BLACKSTAR",
+      "DisplayName": "Corvus Blackstar",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Corvus Blackstar",
+            "StatlineRef": "Corvus Blackstar",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "auspex array",
+                  "blackstar rocket launcher",
+                  "blackstar rocket launcher",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "hurricane bolter"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin assault cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "twin lascannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "blackstar rocket launcher",
+                      "blackstar rocket launcher"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "stormstrike missile launcher",
+                          "stormstrike missile launcher"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "auspex array",
+            "DisplayName": "Auspex array",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Auspex Array"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Blackstar Cluster Launcher",
+          "Text": "In your Movement phase, when this unit ends a normal move, select up to one enemy unit this unit moved over during that move and roll six D6:\n\n\n- For each 4+, that unit suffers 1 mortal wound."
+        },
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 12 **DEATHWATCH INFANTRY MODELS. EACH GRAVIS/JUMP PACK/TERMINATOR** model takes up the space of 2 models."
+        },
+        {
+          "Title": "Auspex Array",
+          "Text": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fly",
+        "Vehicle",
+        "Imperium",
+        "Transport",
+        "Corvus Blackstar",
+        "Adeptus Astartes",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Deathwatch"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Corvus Blackstar",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "blackstar rocket launcher",
+              "DisplayName": "Blackstar rocket launcher",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hurricane bolter",
+              "DisplayName": "Hurricane bolter",
+              "Keywords": "Rapid Fire 6, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "stormstrike missile launcher",
+              "DisplayName": "Stormstrike missile launcher",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "twin assault cannon",
+              "DisplayName": "Twin assault cannon",
+              "Keywords": "Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin lascannon",
+              "DisplayName": "Twin lascannon",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 180
+        }
+      ]
+    },
+    {
+      "Id": "DEATHWATCH VETERANS",
+      "DisplayName": "Deathwatch Veterans",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Veteran",
+            "StatlineRef": "Deathwatch Veteran",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "power weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "boltgun",
+                      "power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy thunder hammer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "boltgun",
+                      "power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "knives and fists",
+                          "frag cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "boltgun",
+                      "power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "knives and fists",
+                          "infernus heavy bolter (bolt)",
+                          "infernus heavy bolter (infernus)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "storm shield",
+                          "knives and fists"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "storm shield"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "boltgun",
+                      "power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "stalker-pattern boltgun",
+                          "knives and fists"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "boltgun",
+                      "power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "deathwatch shotgun",
+                          "knives and fists"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun",
+                      "power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "blackshield blades"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Sgt",
+            "StatlineRef": "Deathwatch Veteran",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "xenophase blade",
+                  "storm shield"
+                ],
+                "Options": [
+                  {
+                    "Max": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "storm shield"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "boltgun"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "xenophase blade",
+                      "storm shield"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power weapon",
+                          "combi-weapon (damnatus)",
+                          "combi-weapon (infernus)",
+                          "combi-weapon (purgatus)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "storm shield"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "combi-weapon (damnatus)",
+                          "combi-weapon (infernus)",
+                          "combi-weapon (purgatus)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "xenophase blade"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "combi-weapon (damnatus)",
+                          "combi-weapon (infernus)",
+                          "combi-weapon (purgatus)"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "storm shield",
+            "DisplayName": "Storm shield",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Storm shield"
+            ]
+          },
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Death to the Alien",
+          "Text": "This unit's attacks can:\n\n- Re-roll hit rolls of 1.\n- Or: If the target of those attacks does not have IMPERIUM/CHAOS, re-roll hit rolls."
+        },
+        {
+          "Title": "Storm shield",
+          "Text": "The bearer has a 4+ invulnerable save."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Battleline",
+        "Imperium",
+        "Adeptus Astartes",
+        "Kill Team",
+        "Deathwatch Veterans",
+        "Explosives"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Deathwatch"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Deathwatch Veteran",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon (damnatus)",
+              "DisplayName": "Combi-weapon (Damnatus)",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon (infernus)",
+              "DisplayName": "Combi-weapon (Infernus)",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon (purgatus)",
+              "DisplayName": "Combi-weapon (Purgatus)",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "deathwatch shotgun",
+              "DisplayName": "Deathwatch shotgun",
+              "Keywords": "Assault",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "frag cannon",
+              "DisplayName": "Frag cannon",
+              "Keywords": "Blast 1, Heavy, Lethal Hits, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "infernus heavy bolter (bolt)",
+              "DisplayName": "Infernus heavy bolter (Bolt)",
+              "Keywords": "Heavy, Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "infernus heavy bolter (infernus)",
+              "DisplayName": "Infernus heavy bolter (Infernus)",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "stalker-pattern boltgun",
+              "DisplayName": "Stalker-pattern boltgun",
+              "Keywords": "Heavy, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "blackshield blades",
+              "DisplayName": "Blackshield blades",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy thunder hammer",
+              "DisplayName": "Heavy thunder hammer",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "knives and fists",
+              "DisplayName": "Knives and Fists",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "xenophase blade",
+              "DisplayName": "Xenophase blade",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 220
+        },
+        {
+          "ModelCount": 20,
+          "Cost": 220
+        }
+      ]
+    },
+    {
+      "Id": "FORTIS KILL TEAM",
+      "DisplayName": "Fortis Kill Team",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Kill Team Sergeant",
+            "StatlineRef": "Fortis Kill Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "deathwatch bolt rifle",
+                  "knives and fists",
+                  "bolt pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "deathwatch bolt rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "chainsword"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol (supercharge)",
+                          "plasma pistol (standard)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "knives and fists"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power fist"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thunder hammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "chainsword"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "grenade launcher - krak",
+                          "grenade launcher - frag"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Kill Team Intercessor with bolt rifle",
+            "StatlineRef": "Fortis Kill Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "deathwatch bolt rifle",
+                  "knives and fists"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Kill Team Intercessor with bolt rifle and grenade launcher",
+            "StatlineRef": "Fortis Kill Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "deathwatch bolt rifle",
+                  "knives and fists",
+                  "grenade launcher - krak",
+                  "grenade launcher - frag"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 9
+            },
+            "ModelName": "Kill Team Intercessor",
+            "StatlineRef": "Fortis Kill Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "chainsword",
+                  "heavy bolt pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "chainsword",
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "bolt pistol",
+                          "knives and fists",
+                          "pyreblaster"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "chainsword",
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "knives and fists",
+                          "plasma pistol (supercharge)",
+                          "plasma pistol (standard)",
+                          "plasma incinerator - standard",
+                          "plasma incinerator - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "knives and fists",
+                          "bolt pistol",
+                          "plasma incinerator - standard",
+                          "plasma incinerator - supercharge"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "chainsword",
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "knives and fists",
+                          "bolt pistol",
+                          "castellan launcher",
+                          "vengor launcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "superfrag missile launcher",
+                          "knives and fists",
+                          "bolt pistol",
+                          "castellan launcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "superkrak missile launcher",
+                          "knives and fists",
+                          "bolt pistol",
+                          "castellan launcher"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Fortis Doctrines",
+          "Text": "This unit's attacks that target a unit\n\n\n- Below starting strength, have +1 to hit rolls.\n- Or: at or below half-strength have +1 to hit rolls and wound rolls."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Adeptus Astartes",
+        "Tacticus",
+        "Kill Team",
+        "Explosives",
+        "Fortis Kill Team",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Deathwatch"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Fortis Kill Team",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "castellan launcher",
+              "DisplayName": "Castellan Launcher",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "deathwatch bolt rifle",
+              "DisplayName": "Deathwatch bolt rifle",
+              "Keywords": "Assault, Heavy, Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - frag",
+              "DisplayName": "Grenade Launcher - Frag",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - krak",
+              "DisplayName": "Grenade Launcher - Krak",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "hand flamer",
+              "DisplayName": "Hand flamer",
+              "Keywords": "Close-quarters, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "9\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma incinerator - standard",
+              "DisplayName": "Plasma incinerator - Standard",
+              "Keywords": "Assault, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma incinerator - supercharge",
+              "DisplayName": "Plasma incinerator - Supercharge",
+              "Keywords": "Assault, Hazardous, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol (standard)",
+              "DisplayName": "Plasma pistol (Standard)",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol (supercharge)",
+              "DisplayName": "Plasma pistol (Supercharge)",
+              "Keywords": "Close-quarters, Hazardous",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "pyreblaster",
+              "DisplayName": "Pyreblaster",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "superfrag missile launcher",
+              "DisplayName": "Superfrag missile launcher",
+              "Keywords": "Blast 1, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "superkrak missile launcher",
+              "DisplayName": "Superkrak missile launcher",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "vengor launcher",
+              "DisplayName": "Vengor launcher",
+              "Keywords": "Blast 1, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "knives and fists",
+              "DisplayName": "Knives and Fists",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "thunder hammer",
+              "DisplayName": "Thunder Hammer",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 14,
+          "Cost": 210
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 14,
+          "Cost": 210
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 14,
+          "Cost": 225
+        }
+      ]
+    },
+    {
+      "Id": "INDOMITOR KILL TEAM",
+      "DisplayName": "Indomitor Kill Team",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 10,
+              "Max": 10
+            },
+            "ModelName": "Kill Team Heavy Intercessor",
+            "StatlineRef": "Kill Team Heavy Intercessor",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "deathwatch heavy bolt rifle",
+                  "bolt pistol",
+                  "ceramite fists"
+                ],
+                "Options": [
+                  {
+                    "Max": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "deathwatch heavy bolt rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "melta rifle hunter:monster/vehicle",
+                          "melta rifle"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "deathwatch heavy bolt rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "multi-melta",
+                          "multi-melta (hunter:monster/vehicle)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "deathwatch heavy bolt rifle",
+                      "bolt pistol",
+                      "ceramite fists"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "auto boltstorm gauntlets",
+                          "twin power fists",
+                          "fragstorm grenade launcher"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "deathwatch heavy bolt rifle",
+                      "bolt pistol",
+                      "ceramite fists"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "flamestorm gauntlets (ranged)",
+                          "flamestorm gauntlets (close-quarters)",
+                          "twin power fists"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "deathwatch heavy bolt rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "deathwatch heavy bolter"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Indomitor Doctrines",
+          "Text": "- This unit's ranged attacks that target the closest eligible enemy unit, have +1 S.\n- If this unit made a charge move this turn, this unit's melee attacks have +1 S."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Gravis",
+        "Adeptus Astartes",
+        "Kill Team",
+        "Indomitor Kill Team",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Deathwatch"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Kill Team Heavy Intercessor",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "auto boltstorm gauntlets",
+              "DisplayName": "Auto boltstorm gauntlets",
+              "Keywords": "Close-quarters, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "deathwatch heavy bolt rifle",
+              "DisplayName": "Deathwatch heavy bolt rifle",
+              "Keywords": "Assault, Heavy, Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "deathwatch heavy bolter",
+              "DisplayName": "Deathwatch heavy bolter",
+              "Keywords": "Assault, Heavy, Lethal Hits, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "flamestorm gauntlets (close-quarters)",
+              "DisplayName": "Flamestorm gauntlets (Close-quarters)",
+              "Keywords": "Close-quarters, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "flamestorm gauntlets (ranged)",
+              "DisplayName": "Flamestorm gauntlets (Ranged)",
+              "Keywords": "Blast 2, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "fragstorm grenade launcher",
+              "DisplayName": "Fragstorm grenade launcher",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "melta rifle",
+              "DisplayName": "Melta Rifle",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "melta rifle hunter:monster/vehicle",
+              "DisplayName": "Melta Rifle HUNTER:Monster/Vehicle",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Heavy, Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta (hunter:monster/vehicle)",
+              "DisplayName": "Multi-melta (HUNTER:Monster/Vehicle)",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "ceramite fists",
+              "DisplayName": "Ceramite Fists",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin power fists",
+              "DisplayName": "Twin power fists",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 280
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 280
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 300
+        }
+      ]
+    },
+    {
+      "Id": "SPECTRUS KILL TEAM",
+      "DisplayName": "Spectrus Kill Team",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 10,
+              "Max": 17
+            },
+            "ModelName": "Kill Team Infiltrator",
+            "StatlineRef": "Kill Team Infiltrator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "deathwatch marksman bolt carbine",
+                  "bolt pistol",
+                  "ceramite fists"
+                ],
+                "Options": [
+                  {
+                    "Max": 17,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "deathwatch marksman bolt carbine",
+                      "ceramite fists"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "deathwatch occulus bolt carbine",
+                          "paired combat blades"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "helix gauntlet"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "deathwatch marksman bolt carbine",
+                      "bolt pistol",
+                      "ceramite fists"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "combat knife",
+                          "special-issue bolt pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "deathwatch bolt carbine",
+                          "special-issue bolt pistol"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "deathwatch marksman bolt carbine"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "instigator bolt carbine"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "las fusil"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bolt sniper rifle"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "helix gauntlet",
+            "DisplayName": "Helix Gauntlet",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Helix Gauntlet"
+            ]
+          },
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Spectrus Doctrines",
+          "Text": "At the end of your opponent's Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
+        },
+        {
+          "Title": "Helix Gauntlet",
+          "Text": "In your Command phase, this unit heals D3 wounds."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Smoke",
+        "Kill Team",
+        "Adeptus Astartes",
+        "Phobos",
+        "Explosives",
+        "Spectrus Kill Team",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Scouts 6\"",
+        "Infiltrators"
+      ],
+      "FactionKeywords": [
+        "Deathwatch"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Kill Team Infiltrator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "bolt sniper rifle",
+              "DisplayName": "Bolt sniper rifle",
+              "Keywords": "Heavy, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "deathwatch bolt carbine",
+              "DisplayName": "Deathwatch Bolt carbine",
+              "Keywords": "Lethal Hits, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "deathwatch marksman bolt carbine",
+              "DisplayName": "Deathwatch marksman bolt carbine",
+              "Keywords": "Heavy, Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "deathwatch occulus bolt carbine",
+              "DisplayName": "Deathwatch occulus bolt carbine",
+              "Keywords": "Assault, Ignores Cover, Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "instigator bolt carbine",
+              "DisplayName": "Instigator bolt carbine",
+              "Keywords": "Lethal Hits: non-Monster/Vehicle, Precision, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "las fusil",
+              "DisplayName": "Las fusil",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "special-issue bolt pistol",
+              "DisplayName": "Special-issue bolt pistol",
+              "Keywords": "Close-quarters, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "ceramite fists",
+              "DisplayName": "Ceramite Fists",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combat knife",
+              "DisplayName": "Combat knife",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "paired combat blades",
+              "DisplayName": "Paired combat blades",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 185
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 17,
+          "Cost": 185
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 185
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 17,
+          "Cost": 185
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 195
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 17,
+          "Cost": 195
+        }
+      ]
+    },
+    {
+      "Id": "WATCH CAPTAIN ARTEMIS",
+      "DisplayName": "Watch Captain Artemis",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Watch Captain Artemis",
+            "StatlineRef": "Watch Captain Artemis",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hellfire extremis",
+                  "master-crafted power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Tactical Instinct",
+          "Text": "This unit's attacks have [Sustained Hits 1]."
+        },
+        {
+          "Title": "Unstoppable Champion",
+          "Text": "(Once per battle, per army)\nAt the end of a phase in which this model is destroyed, roll one D6:\n\n\n- On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged with 3 wounds remaining."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Watch Captain Artemis",
+        "Adeptus Astartes",
+        "Captain",
+        "Explosives",
+        "Kill Team"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Feel No Pain 6+"
+      ],
+      "FactionKeywords": [
+        "Deathwatch"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Watch Captain Artemis",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "hellfire extremis",
+              "DisplayName": "Hellfire Extremis",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Id": "WATCH MASTER",
+      "DisplayName": "Watch Master",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Watch Master",
+            "StatlineRef": "Watch Master",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "vigil spear"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Strategic Knowledge",
+          "Text": "- This unit’s ranged attacks have [ASSAULT].\n- When this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n- When this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge."
+        },
+        {
+          "Title": "Watch Master",
+          "Text": "This model’s attacks that target a **CHARACTER** unit can:\n\n\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1."
+        },
+        {
+          "Title": "Purgatus Quarry",
+          "Text": "At the start of the first battle round, select up to one enemy unit to be this unit’s hunted:\n\n\n- This unit’s attacks that target this unit’s hunted unit can re-roll wound rolls of 1.\n- Each time this unit’s hunted is destroyed, select up to one enemy unit to be this unit’s hunted."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Watch Master",
+        "Adeptus Astartes",
+        "Explosives",
+        "Kill Team"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Deathwatch"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Watch Master",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "vigil spear",
+              "DisplayName": "Vigil spear",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "vigil spear",
+              "DisplayName": "Vigil spear",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 105
+        }
+      ]
+    }
+  ],
+  "Detachments": [
+    {
+      "Name": "Gladius Task Force",
+      "Cost": 3,
+      "Rule": {
+        "Title": "Codex Discipline",
+        "Text": "You can select one Combat Doctrine one additional time per battle."
+      },
+      "ForceDispositions": [
+        "Priority Assets",
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Artificer Armour",
+          "Description": "ADEPTUS ASTARTES model only. This model has:\n▪ 2+ Sv\n▪  Feel No Pain 5+",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Laurels of Triumph",
+          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1S and AP\n▪ Or: if the assault doctrine is active for this unit, +2S and AP",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Adept of the Codex",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Standard of the Emperor Ascendant",
+          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Black Spear Task Force",
+      "Cost": 3,
+      "Rule": {
+        "Title": "Mission Tactics",
+        "Text": "Friendly KILL TEAM units with this ability have the following abilities:\n\nFuror Tactics: If the devastator doctrine is active for your unit, your unit’s attacks have [SUSTAINED HITS 1].\n\nMalleus Tactics: If the tactical doctrine is active for your unit, your unit’s attacks have [LETHAL HITS].\n\nPurgatus Tactics: If the assault doctrine is active for your unit, your unit’s attacks that target an enemy unit within 9\" of this unit have [PRECISION].\n\nRESTRICTIONS: Your army can include ADEPTUS ASTARTES DEATHWATCH units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter.\n\nWith the exception of Kill Team Cassius (see Legends: Agents of the Imperium), your army cannot include any AGENTS OF THE IMPERIUM DEATHWATCH units."
+      },
+      "ForceDispositions": [
+        "Purge the Foe",
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Thief of Secrets",
+          "Description": "",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Watch Master",
+            "Captain"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Osseus Key",
+          "Description": "WATCH MASTER/TECHMARINE model only. While an enemy VEHICLE unit is within 6” of this model, that enemy unit’s attacks have -1 A.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Watch Master",
+            "Techmarine"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "The Tome of Ectoclades",
+          "Description": "WATCH MASTER/CAPTAIN model only. (Once per battle, per army) In your Command phase, you can use this ability. If you do, the assault doctrine, devastator doctrine and tactical doctrine are active for this unit until the start of your next Command phase.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Watch Master",
+            "Captain"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Beacon Angelis",
+          "Description": "ADEPTUS ASTARTES model only. If this unit is a Kill Team unit, this unit has:\n\n▪ Deep Strike.\n▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Ironstorm Spearhead",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Ironstorm Auto-Targeters",
+        "Text": "Friendly Adeptus Astartes Vehicle units' (excluding Walker units) ranged attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll"
+      },
+      "Tags": [
+        "IRONSTORM DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Gunnery Honours (Upgrade)",
+          "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit's ranged attacks have [Heavy]",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Dedicated Transport",
+            "Fly",
+            "Walker"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Redoubtable Machine Spirit (Upgrade)",
+          "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units) This unit:\n▪ Has a 5+ InvSv\n▪ At the end of your Command phase, heals 1 wound",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Dedicated Transport",
+            "Fly",
+            "Walker"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Stormlance Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Lightning-Fast Strike",
+        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Supercharged Engines (Upgrade)",
+          "Description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Mounted"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Auspex Triangulation Shrines (Upgrade)",
+          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy is spotted.\n▪ While a unit is spotted, that unit has +3\" detection range",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Speeder"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Assault Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Assault Mastery",
+        "Text": "You can select the assault doctrine one additional time per battle"
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Imperium's Sword",
+          "Description": "",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Furious Assault (Upgrade)",
+          "Description": "Adeptus Astartes Infantry unit only. This unit's melee attacks have [Sustained Hits 1: non-Monster/Vehicle]",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tactical Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Tactical Mastery",
+        "Text": "You can select the Tactical Doctrine one additional time."
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Laurels of Vigilance",
+          "Description": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tactical Insight",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Devastator Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Devastator Mastery",
+        "Text": "You can select the devastator doctrine one additional time per battle."
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Honour of Vigilance",
+          "Description": "Adeptus Astartes model only.\n▪ This unit's ranged attacks have [Lethal Hits]\n▪ If the devastator doctrine is active for this unit, this unit can re-roll advance rolls.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Master-Forged Firearms",
+          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Terminator Storm Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Death Blow",
+        "Text": "Friendly Adeptus Astartes Terminator units have +1 to charge rolls"
+      },
+      "Tags": [
+        "TERMINATOR DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Champion of the First Company",
+          "Description": "Adeptus Astartes Terminator model only. This unit's melee attacks have [Lethal Hits]",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Corporeum Reliquary",
+          "Description": "Adeptus Astartes Terminator model only. In your first Movement phase, this unit can make an ingress move.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tacticus Attack Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Wrath of the Chapter",
+        "Text": "Friendly Tacticus units can re-roll advance rolls."
+      },
+      "Tags": [
+        "TACTICUS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Martial Paragon",
+          "Description": "Tacticus model only. This unit's attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Spearpoint War Leader",
+          "Description": "Tacticus model only. This unit has Scouts 6\"",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tacticus Firestorm Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Codex Fire-Patterns",
+        "Text": "Friendly Tacticus units [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack's maximum range."
+      },
+      "Tags": [
+        "TACTICUS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Cyber Familiar",
+          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tempered in Battle (Aura)",
+          "Description": "Tacticus model only. Friendly Adeptus Astartes units within 6\" of this model can re-roll leadership rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Phobos Shadow Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Shadow Masters",
+        "Text": "When a Phobos or Scout Squad unit has shot:\n▪ Those attacks do not prevent that unit from being hidden\n▪ Or: That unit can make a normal move of up to D6\". That unit is not eligible to declare a charge until the end of the turn."
+      },
+      "Tags": [
+        "PHOBOS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Execute and Redeploy",
+          "Description": "Phobos model only. In your shooting phase, after this unit has shot, if this unit is unengaged, this unit can make a normal move of up to 6\". If it does, this unit is not eligible to declare a charge until the end of the turn.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venator Omni-Auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 0,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Phobos Shock Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Vanguard Ambushers",
+        "Text": "At the end of your Movement phase, if a friendly Phobos unit is hidden, that unit’s attacks can re-roll wound rolls of 1 until the end of the turn."
+      },
+      "Tags": [
+        "PHOBOS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Seal of Shrouding",
+          "Description": "Phobos model only. Enemy units cannot target this unit with snap shooting attacks.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venator Omni-Auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 0,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gravis Linebreaker Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Walking Fortress",
+        "Text": "In a turn a friendly Gravis unit made a normal move, that unit's ranged attacks:\n▪ Do not have [Heavy]\n▪ Have +1 to hit rolls"
+      },
+      "Tags": [
+        "GRAVIS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Indefatigable Fortitude",
+          "Description": "Gravis model only. Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Relentless Advance",
+          "Description": "Gravis model only. This unit has Scouts 5\"",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gravis Siege Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Indomitable Defence",
+        "Text": "While a friendly Gravis unit is within range of an objective, attacks that target that unit with a S greater than that unit's T have -1 to wound rolls"
+      },
+      "Tags": [
+        "GRAVIS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Immovable Conquerors (Upgrade)",
+          "Description": "Gravis unit only. This unit has +1 OC",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Narthecis Gauntlet",
+          "Description": "Apothecary Biologis model only. In your Command phase, this unit heals D3+1 wounds.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Apothecary Biologis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Ironclad Champions",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Enduring Vengeance",
+        "Text": "Friendly Adeptus Astartes Dreadnought units can re-roll hit rolls of 1"
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Artificer Sarcophagus (Upgrade)",
+          "Description": "Dreadnought unit only. Attacks that target this unit have -1D",
+          "Cost": 40,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Dreadnought"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venerable Champion (Aura) (Upgrade)",
+          "Description": "Dreadnought unit only. While a friendly Adeptus Astartes Infantry/Mounted unit is within 6\" of this unit, that unit's attacks can re-roll hit rolls of 1",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Dreadnought"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gauntlet Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Combined Deployment",
+        "Text": "In your Shooting phase, when a friendly Adeptus Astartes Transport unit has shot, you can select one enemy unit hit by those attacks. That enemy unit is assailed until the end of the turn.\n▪ While a unit is assailed, when an Adeptus Astartes unit that disembarked this turn targets that unit, those attacks have [Sustained Hits 1]"
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Linebreaker Onslaught",
+          "Description": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\n▪ This unit can re-roll charge rolls\n▪ Enemy units cannot target this unit with snap shooting attacks.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Damocles-Class Uplink",
+          "Description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that Transport unit and select one combat doctrine. That combat doctrine is active for that Infantry unit.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    }
+  ],
+  "ArmyRules": []
+}
