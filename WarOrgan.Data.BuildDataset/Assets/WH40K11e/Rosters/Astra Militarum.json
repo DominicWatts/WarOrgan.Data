@@ -25607,6 +25607,13 @@
                           "medi-pack",
                           "hot-shot laspistol"
                         ]
+                      },
+                      {
+                        "Items": [
+                          "hot-shot lasgun",
+                          "medi-pack",
+                          "hot-shot laspistol"
+                        ]
                       }
                     ]
                   }
@@ -27296,13 +27303,50 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "demolition gear"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "ratling battlemutt"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "demolition gear",
+            "DisplayName": "Demolition Gear",
+            "GrantsAbilities": [
+              "Demolition Gear"
+            ]
+          },
+          {
+            "Key": "ratling battlemutt",
+            "DisplayName": "Ratling Battlemutt",
+            "GrantsAbilities": [
+              "Ratling Battlemutt"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
         {
