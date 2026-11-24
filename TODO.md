@@ -80,9 +80,9 @@ BSData offers drones that Wahapedia does not allow, for example guardian drones 
 
 Only the owner can run these, in the WarOrgan app, using the development build URL. Record results here.
 
-- [ ] Shield drones: a Cadre Fireblade with one shield drone gains 1 W, with two gains 2 W (1.5.4). Reopen issue 4 if two do not stack.
-- [ ] Chapters (1.5.7): Ultramarines groups Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets, not "Allies: Adeptus Astartes" (issue 6).
-- [ ] Draft factions (1.5.x): Space Marines plus one chapter, to confirm the chapter also lists the Space Marines datasheets; a Battle Sisters Squad and a Crusader Squad for their composition and wargear.
+- [x] Shield drones: a Cadre Fireblade with one shield drone gains 1 W, with two gains 2 W (1.5.4). Reopen issue 4 if two do not stack.
+- [x] Chapters (1.5.7): Ultramarines groups Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets, not "Allies: Adeptus Astartes" (issue 6). Passed.
+- [ ] Draft factions (1.5.3): a Battle Sisters Squad and a Crusader Squad for their composition and wargear.
 - [ ] Brood Brother Auxilia still offers exactly the 51 eligible Astra Militarum datasheets after the 1.5.2 fill.
 - [ ] Command Squads (1.4.3): Cadian, Catachan and Krieg Command Squads appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord; their specialists, equipment and weapon swaps are right; each can lead its listed unit and shows Orders.
 - [ ] Leader effects: Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and a Support character can join alongside a Leader.
@@ -103,7 +103,7 @@ These need the WarOrgan author's guidance or an app change; do not publish specu
 - **Genestealer Cults:** all 25 datasheets checked line by line against Wahapedia and the faction pack; army rule; nine detachments with 30 enhancements and 45 stratagems; unit wargear limits rebuilt; leader effects; invulnerable saves as an INV characteristic (1.1 to 1.4).
 - **Allies:** Tyranid Vanguard Invaders for Final Day (1.3); 51 Astra Militarum datasheets for Brood Brother Auxilia, pinned by ID (1.4, 1.5.2).
 - **Core:** ten 11th Edition core stratagems (1.3.9); battle sizes and features; the 11th Edition weapon keyword and core ability registry (1.5.0).
-- **Tools:** `WarOrgan.Data.BsdataImport` and `WarOrgan.Data.WahapediaCheck` (1.4.x); importer support for libraries, per-army detachments, enhancements and a repair pass (1.5.x).
+- **Tools:** `WarOrgan.Data.BsdataImport` and `WarOrgan.Data.WahapediaCheck` (1.4.x); importer support for libraries, per-army detachments, enhancements and a repair pass (1.5.x). Wahapedia stratagem import support (1.5.8).
 - **Draft factions:** 31 factions drafted (1.5.0), enhancements added (1.5.1), Tyranids and Astra Militarum filled out around the checked allies (1.5.2), held-back datasheets fixed or retired (1.5.3).
 - **Fixes from issues:** Vanguard Tyrant S and AP (issue 1), single-choice weapon swaps (issue 2), INV characteristic (issue 3), shield drone Wounds on characters (issue 4), stray bold markers removed (issue 5).
 - **App confirmations:** detachments, Force Dispositions, stratagems, enhancements and their weapon changes, Upgrades, allies under Allied Units with the 50% cap, wargear stat changes (Ridgerunner spotter), leader-added core abilities, and Scouts, Deadly Demise and Feel No Pain values all work in WarOrgan. Pre-release testing works through the `develop-build` URL.
