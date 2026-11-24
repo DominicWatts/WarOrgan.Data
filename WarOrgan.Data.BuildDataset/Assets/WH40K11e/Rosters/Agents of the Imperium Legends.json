@@ -869,8 +869,12 @@
       "LeaderInfo": {
         "UnitNames": [
           "DAEMONHOST",
+          "DEATHWATCH KILL TEAM",
           "EXACTION SQUAD",
-          "INQUISITORIAL AGENTS"
+          "IMPERIAL NAVY BREACHERS",
+          "INQUISITORIAL AGENTS",
+          "SUBDUCTOR SQUAD",
+          "VIGILANT SQUAD"
         ],
         "Features": 0
       },
@@ -1175,9 +1179,14 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "DEATHWATCH KILL TEAM",
           "EXACTION SQUAD",
           "GREY KNIGHTS TERMINATOR SQUAD",
-          "INQUISITORIAL AGENTS"
+          "IMPERIAL NAVY BREACHERS",
+          "INQUISITORIAL AGENTS",
+          "SISTERS OF BATTLE SQUAD",
+          "SUBDUCTOR SQUAD",
+          "VIGILANT SQUAD"
         ],
         "Features": 0
       },
@@ -1710,7 +1719,11 @@
       "LeaderInfo": {
         "UnitNames": [
           "EXACTION SQUAD",
-          "INQUISITORIAL AGENTS"
+          "IMPERIAL NAVY BREACHERS",
+          "INQUISITORIAL AGENTS",
+          "SISTERS OF BATTLE SQUAD",
+          "SUBDUCTOR SQUAD",
+          "VIGILANT SQUAD"
         ],
         "Features": 0
       },
@@ -1965,6 +1978,7 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "IMPERIAL NAVY BREACHERS",
           "VOIDSMEN-AT-ARMS"
         ],
         "Features": 0
@@ -3441,6 +3455,7 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "IMPERIAL NAVY BREACHERS",
           "VOIDSMEN-AT-ARMS"
         ],
         "Features": 0
