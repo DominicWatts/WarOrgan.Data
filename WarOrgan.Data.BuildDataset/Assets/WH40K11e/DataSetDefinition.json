@@ -235,6 +235,19 @@
           "IsIncludedInPrimaryRoster": true
         }
       ]
+    },
+    {
+      "Name": "Ultramarines",
+      "FactionKeyword": "Ultramarines",
+      "Category": "Imperium",
+      "MainColor": "#16397A",
+      "DarkColor": "#5679BA",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
