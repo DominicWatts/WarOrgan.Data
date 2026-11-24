@@ -14753,7 +14753,7 @@
         },
         {
           "Title": "Death Befitting An Officer",
-          "Text": "When this model is destroyed, roll one D6: on a 2+, do not remove it from play - it can, after the attacking model’s unit has finished making its attacks, shoot as if it were your Shooting phase and as if it had its full wounds remaining. This model is then removed from play."
+          "Text": "In your opponent’s Shooting phase, when this unit is destroyed, roll one D6 before resolving Deadly Demise. On a 2+, leave the unit on the battlefield. Once the attacking unit has finished shooting, this unit can shoot normally, targeting only that enemy unit. Resolve Deadly Demise and remove this unit after it shoots or at the end of the phase, whichever happens first."
         },
         {
           "Title": "Damaged: 1-4 Wounds Remaining",
@@ -23724,7 +23724,7 @@
         },
         {
           "Title": "Brutal Disciplinarian",
-          "Text": "Once per turn, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY unit (excluding units that only contain one model) that is Battle‑shocked and within 24\" of and visible to this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked."
+          "Text": "Once per turn, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY unit (excluding units that only contain one model) that is Battle-shocked and within 24\" of and visible to this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle-shocked."
         },
         {
           "Title": "Mechanised Spearhead",
@@ -23732,7 +23732,7 @@
         },
         {
           "Title": "Aquiline Prow",
-          "Text": "Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+          "Text": "Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
         },
         {
           "Title": "Orders",
@@ -24012,7 +24012,7 @@
         },
         {
           "Title": "Brutal Disciplinarian",
-          "Text": "Once per turn, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY (excluding units that only contain one model) unit that is Battle‑shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked."
+          "Text": "Once per turn, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY (excluding units that only contain one model) unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle-shocked."
         },
         {
           "Title": "Icon of Discipline",
@@ -30815,7 +30815,7 @@
         },
         {
           "Name": "Titan Killer",
-          "Description": "ASTRA MILITARUM TITANIC CHARACTER model only. Each time the bearer makes a ranged attack, you can re‑roll the Damage roll.",
+          "Description": "ASTRA MILITARUM TITANIC CHARACTER model only. Each time the bearer makes a ranged attack, you can re-roll the Damage roll.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30846,7 +30846,7 @@
         },
         {
           "Name": "Engine Speaker",
-          "Description": "ASTRA MILITARUM TECH‑PRIEST ENGINSEER model only. Each time the bearer uses its Omnissiah’s Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected Vehicle model.",
+          "Description": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. Each time the bearer uses its Omnissiah’s Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected Vehicle model.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30930,7 +30930,7 @@
       "Enhancements": [
         {
           "Name": "Omnissian Unguents (Aura)",
-          "Description": "ASTRA MILITARUM TECH‑PRIEST ENGINSEER model only. While a friendly ARMOURED SKIRMISHER unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability.",
+          "Description": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. While a friendly ARMOURED SKIRMISHER unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability.",
           "Cost": 35,
           "Features": "None",
           "RequiredUnitNames": [],
