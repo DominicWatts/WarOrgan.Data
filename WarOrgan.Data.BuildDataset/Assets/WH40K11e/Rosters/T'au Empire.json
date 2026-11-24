@@ -767,6 +767,636 @@
       ]
     },
     {
+      "Id": "BROADSIDE BATTLESUITS",
+      "DisplayName": "Broadside Battlesuits",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Broadside Shas’vre",
+            "StatlineRef": "Broadside Battlesuits",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy rail rifle",
+                  "crushing bulk"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy rail rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "high-yield missile pods"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Options": [
+                      {
+                        "Items": [
+                          "secondary weapons"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "weapon support system"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "seeker missile"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin pulse carbine"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "marker drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shield drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "guardian drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "missile pod"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "totemic presence upgrade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy rail rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin plasma rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "twin smart missile system"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Broadside Shas’ui",
+            "StatlineRef": "Broadside Battlesuits",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy rail rifle",
+                  "crushing bulk"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "heavy rail rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "high-yield missile pods"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
+                    "Options": [
+                      {
+                        "Items": [
+                          "secondary weapons"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "weapon support system"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "seeker missile"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin pulse carbine"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "missile pod"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "marker drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shield drone"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "heavy rail rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin plasma rifle"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "twin smart missile system"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "guardian drone",
+            "DisplayName": "Guardian Drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Guardian Drone"
+            ]
+          },
+          {
+            "Key": "marker drone",
+            "DisplayName": "Marker Drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Marker Drone"
+            ]
+          },
+          {
+            "Key": "secondary weapons",
+            "DisplayName": "Secondary Weapons",
+            "Cost": 0
+          },
+          {
+            "Key": "shield drone",
+            "DisplayName": "Shield Drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Shield Drone"
+            ]
+          },
+          {
+            "Key": "totemic presence upgrade",
+            "DisplayName": "Totemic Presence upgrade",
+            "Cost": 0
+          },
+          {
+            "Key": "weapon support system",
+            "DisplayName": "Weapon support system",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Weapon Support System"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Advanced Armour",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+        },
+        {
+          "Title": "Weapon Support System",
+          "Text": "Each time the bearer makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+        },
+        {
+          "Title": "Marker Drone",
+          "Text": "The bearer’s unit has the MARKERLIGHT keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+        },
+        {
+          "Title": "Shield Drone",
+          "Text": "Add 1 to the bearer’s Wounds characteristic."
+        },
+        {
+          "Title": "Guardian Drone",
+          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Battlesuit",
+        "Broadside",
+        "Non-Kroot",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "T'au Empire"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Broadside Battlesuits",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "8"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy rail rifle",
+              "DisplayName": "Heavy rail rifle",
+              "Keywords": "Devastating Wounds, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "60\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "high-yield missile pods",
+              "DisplayName": "High-yield missile pods",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "missile pod",
+              "DisplayName": "Missile pod",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "seeker missile",
+              "DisplayName": "Seeker missile",
+              "Keywords": "One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "twin plasma rifle",
+              "DisplayName": "Twin plasma rifle",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "twin pulse carbine",
+              "DisplayName": "Twin pulse carbine",
+              "Keywords": "Assault, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin smart missile system",
+              "DisplayName": "Twin smart missile system",
+              "Keywords": "Indirect Fire, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "crushing bulk",
+              "DisplayName": "Crushing bulk",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 255
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 255
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 2,
+          "Cost": 170
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 275
+        }
+      ]
+    },
+    {
       "Id": "CADRE FIREBLADE",
       "DisplayName": "Cadre Fireblade",
       "Flags": 0,
@@ -4121,7 +4751,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PATHFINDER TEAM"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -8681,6 +9313,682 @@
       ]
     },
     {
+      "Id": "PATHFINDER TEAM",
+      "DisplayName": "Pathfinder Team",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Pathfinder Shas'ui",
+            "StatlineRef": "Pathfinder Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "pulse carbine",
+                  "close combat weapon",
+                  "pulse pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "grav-inhibitor drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "pulse accelerator drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "recon drone"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin pulse carbine"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "marker drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shield drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "guardian drone"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "missile pod"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "semi-automatic grenade launcher - emp",
+                          "semi-automatic grenade launcher - fusion"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "pulse carbine"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "drone burst cannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 9
+            },
+            "ModelName": "Pathfinders",
+            "StatlineRef": "Pathfinder Team",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "pulse pistol",
+                  "close combat weapon",
+                  "pulse carbine"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "semi-automatic grenade launcher - emp",
+                          "semi-automatic grenade launcher - fusion"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "pulse carbine"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "ion rifle - standard",
+                          "ion rifle - overcharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rail rifle"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "pulse pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "drone burst cannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "grav-inhibitor drone",
+            "DisplayName": "Grav-inhibitor drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Grav-inhibitor Drone"
+            ]
+          },
+          {
+            "Key": "guardian drone",
+            "DisplayName": "Guardian Drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Guardian Drone"
+            ]
+          },
+          {
+            "Key": "marker drone",
+            "DisplayName": "Marker Drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Marker Drone"
+            ]
+          },
+          {
+            "Key": "pulse accelerator drone",
+            "DisplayName": "Pulse accelerator drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Pulse Accelerator Drone"
+            ]
+          },
+          {
+            "Key": "recon drone",
+            "DisplayName": "Recon drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Recon Drone"
+            ]
+          },
+          {
+            "Key": "shield drone",
+            "DisplayName": "Shield Drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Shield Drone"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Target Uploaded",
+          "Text": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the **[IGNORES COVER]** ability."
+        },
+        {
+          "Title": "Grav-inhibitor Drone",
+          "Text": "Each time an enemy unit selects the bearer's unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll)."
+        },
+        {
+          "Title": "Pulse Accelerator Drone",
+          "Text": "Add 6\" to the Range characteristic of pulse carbines equipped by models in the bearer’s unit."
+        },
+        {
+          "Title": "Recon Drone",
+          "Text": "The bearer is equipped with 1 drone burst cannon and the bearer’s unit has the Infiltrators ability."
+        },
+        {
+          "Title": "Marker Drone",
+          "Text": "The bearer’s unit has the MARKERLIGHT keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+        },
+        {
+          "Title": "Shield Drone",
+          "Text": "Add 1 to the bearer’s Wounds characteristic."
+        },
+        {
+          "Title": "Guardian Drone",
+          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Markerlight",
+        "Pathfinder Team",
+        "Non-Kroot",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Scouts 7\""
+      ],
+      "FactionKeywords": [
+        "T'au Empire"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Pathfinder Team",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "drone burst cannon",
+              "DisplayName": "Drone burst cannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "ion rifle - overcharge",
+              "DisplayName": "Ion rifle - overcharge",
+              "Keywords": "Hazardous, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "ion rifle - standard",
+              "DisplayName": "Ion rifle - standard",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "missile pod",
+              "DisplayName": "Missile pod",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "pulse carbine",
+              "DisplayName": "Pulse carbine",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "pulse pistol",
+              "DisplayName": "Pulse pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "rail rifle",
+              "DisplayName": "Rail rifle",
+              "Keywords": "Devastating Wounds, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "semi-automatic grenade launcher - emp",
+              "DisplayName": "Semi-automatic grenade launcher - EMP",
+              "Keywords": "Anti-Vehicle 4+, Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "semi-automatic grenade launcher - fusion",
+              "DisplayName": "Semi-automatic grenade launcher - fusion",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "twin pulse carbine",
+              "DisplayName": "Twin pulse carbine",
+              "Keywords": "Assault, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "20\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 85
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 85
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 100
+        }
+      ]
+    },
+    {
       "Id": "PIRANHAS",
       "DisplayName": "Piranhas",
       "Flags": 0,
@@ -12254,6 +13562,484 @@
           "UnitCount": 2,
           "ModelCount": 1,
           "Cost": 890
+        }
+      ]
+    },
+    {
+      "Id": "THE TWIN LANCE",
+      "DisplayName": "The Twin Lance",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ri'Lantar",
+            "StatlineRef": "The Twin Lance",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "fusion eliminator",
+                  "shardstorm burst system",
+                  "mv15 gun drone",
+                  "xv pulse pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "fusion eliminator"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin pulse blaster"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ri'Locai",
+            "StatlineRef": "The Twin Lance",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "ion scattercannon - overcharge",
+                  "ion scattercannon",
+                  "ion scattercannon - standard",
+                  "shardstorm burst system",
+                  "mv15 gun drone",
+                  "xv pulse pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "ion scattercannon - overcharge"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin pulse blaster"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "mv15 gun drone",
+            "DisplayName": "MV15 Gun Drone",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "MV15 Gun Drone"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Neocapacitor Shields",
+          "Text": "At the start of your opponent’s Charge phase, you can select one visible enemy unit (excluding **MONSTER** and **VEHICLE** units) within 12\" of this unit. That unit must take a Battle-shock test and, until the end of the turn, subtract 1 from Charge rolls made for that unit."
+        },
+        {
+          "Title": "Exemplars of Mont’ka",
+          "Text": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the **[SUSTAINED HITS 1]** and **[IGNORES COVER]** abilities."
+        },
+        {
+          "Title": "Retro-thrusters",
+          "Text": "At the end of the Fight phase, if this unit was eligible to fight this phase, this unit can either make a Normal move of up to 6\" or a Fall Back move."
+        },
+        {
+          "Title": "MV15 Gun Drone",
+          "Text": "The bearer is equipped with 1 twin pulse blaster."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Vehicle",
+        "Walker",
+        "Fly",
+        "Character",
+        "Battlesuit",
+        "Non-Kroot",
+        "The Twin Lance"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Scouts 8\"",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "T'au Empire"
+      ],
+      "StatLines": [
+        {
+          "StatName": "The Twin Lance",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "8"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "fusion eliminator",
+              "DisplayName": "Fusion eliminator",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "ion scattercannon - overcharge",
+              "DisplayName": "Ion scattercannon - overcharge",
+              "Keywords": "Hazardous, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "ion scattercannon - standard",
+              "DisplayName": "Ion scattercannon - standard",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "shardstorm burst system",
+              "DisplayName": "Shardstorm burst system",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin pulse blaster",
+              "DisplayName": "Twin pulse blaster",
+              "Keywords": "Assault, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "10\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "xv pulse pistol",
+              "DisplayName": "XV pulse pistol",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "fusion eliminator",
+              "DisplayName": "Fusion eliminator",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+2"
+                }
+              ]
+            },
+            {
+              "Id": "ion scattercannon",
+              "DisplayName": "Ion scattercannon",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "xv pulse pistol",
+              "DisplayName": "XV pulse pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 240
         }
       ]
     },
