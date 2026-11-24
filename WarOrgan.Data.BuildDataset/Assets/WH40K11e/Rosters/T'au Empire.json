@@ -843,7 +843,7 @@
           },
           {
             "Limit": {
-              "Min": 1,
+              "Min": 0,
               "Max": 2
             },
             "ModelName": "Broadside Shas’ui",
@@ -1325,6 +1325,11 @@
       "Points": [
         {
           "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 75
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 2,
           "Cost": 150
         },
@@ -1335,6 +1340,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 75
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 2,
           "Cost": 150
         },
@@ -1342,6 +1352,11 @@
           "UnitCount": 2,
           "ModelCount": 3,
           "Cost": 255
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 95
         },
         {
           "UnitCount": 3,
