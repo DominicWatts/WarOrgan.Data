@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.8.0
+## Coverage in 1.5.9.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Invulnerable saves are given as an Inv characteristic and as an ability on each unit that has one.
@@ -31,7 +31,7 @@ Brood Brother Auxilia lets you include the 51 eligible Astra Militarum datasheet
 
 These 31 factions are drafts converted automatically from the November 2026 BSData dump. They have not been checked against Wahapedia, GW's faction packs or the codexes, so expect mistakes in rules text, wargear options and points. Treat them as a starting point and build lists to the datasheets.
 
-- Most draft factions have no stratagems yet. A few detachments have no enhancements because BSData has none for them. The 16 Space Marine detachment rosters include 52 Wahapedia stratagems. Enhancements, detachment rules and leader abilities are text only: the app does not apply their effects.
+- Most draft factions still have no stratagems. The populated draft factions are Space Marines (52), T'au Empire (31), Tyranids (51), Astra Militarum (57), Adepta Sororitas (36), Adeptus Custodes (23), Adeptus Mechanicus (45), Agents of the Imperium (30), Grey Knights (45) and Imperial Knights (39). Generic Space Marine stratagems are repeated in each chapter roster so the app shows them there; chapter-specific detachments still have none. A few detachments have no enhancements because BSData has none. Enhancements, detachment rules and leader abilities are text only: the app does not apply their effects.
 - Space Marine chapters are separate factions. Each can also take the Space Marines datasheets and has the generic Space Marine detachments alongside its own.
 - Where BSData's wargear could not be converted exactly, weapons are offered as swaps for a starting weapon of the same type, so some units allow loadouts their datasheet does not. Build units to the datasheet.
 - BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Captain in Gravis Armour, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.
