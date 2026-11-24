@@ -1,4 +1,4 @@
-﻿{
+{
   "Name": "Adeptus Custodes",
   "Units": [
     {
@@ -6188,7 +6188,35 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "ANATHEMA BLADEMASTERY",
+          "Category": "Null Maiden Vigil Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly VIGILATOR SQUAD unit is selected to fight.",
+          "Target": "That VIGILATOR SQUAD unit.",
+          "Effect": "Your unit’s attacks have: [Sustained Hits 1] Or: [Lethal Hits]."
+        },
+        {
+          "Name": "PSY-CHAFF VOLLEY",
+          "Category": "Null Maiden Vigil Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly PROSECUTOR SQUAD unit has shot.",
+          "Target": "That PROSECUTOR SQUAD unit.",
+          "Effect": "Select one enemy unit hit by those attacks. That unit is prosecuted until the end of the turn: Attacks that target a prosecuted unit have +1 AP."
+        },
+        {
+          "Name": "PURGATION SWEEP",
+          "Category": "Null Maiden Vigil Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly WITCHSEEKER SQUAD unit is selected to shoot.",
+          "Target": "That WITCHSEEKER SQUAD unit.",
+          "Effect": "Your unit’s [Torrent] attacks have: +1 A. Or: If those attacks target a PSYKER/battle-shocked unit, +2 A."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Oblivion Knight",
@@ -6225,7 +6253,27 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "GILDED CHAMPION",
+          "Category": "Auric Champions Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly ADEPTUS CUSTODES CHARACTER model has used a (Once per battle, per unit) datasheet ability.",
+          "Target": "That ADEPTUS CUSTODES CHARACTER model.",
+          "Effect": "Your model can use that (Once per battle, per unit) datasheet ability one additional time, but not in the same phase.",
+          "Restrictions": "You cannot use this stratagem on the same ADEPTUS CUSTODES CHARACTER model more than once per battle."
+        },
+        {
+          "Name": "DUTY UNTO DEATH",
+          "Category": "Auric Champions Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly ADEPTUS CUSTODES unit.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if that model is a CHARACTER model: On a 3+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Inspirational Exemplar",
@@ -6277,7 +6325,35 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "VIGIL UNENDING",
+          "Category": "Lions of the Emperor Stratagem",
+          "CPCost": 2,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS CUSTODES TERMINATOR unit.",
+          "Target": "That ADEPTUS CUSTODES TERMINATOR unit.",
+          "Effect": "Attacks that target your unit have -1 D until that enemy unit has attacked."
+        },
+        {
+          "Name": "UNLEASH THE LIONS",
+          "Category": "Lions of the Emperor Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly ADEPTUS CUSTODES TERMINATOR unit that has 2+ models.",
+          "Effect": "Your unit is split into separate units, each containing one model. These new units each have a starting strength of 1."
+        },
+        {
+          "Name": "FURY OF THE EMPEROR",
+          "Category": "Lions of the Emperor Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Charge phase, when a friendly ADEPTUS CUSTODES TERMINATOR unit that made an ingress move this turn is selected to declare a charge.",
+          "Target": "That ADEPTUS CUSTODES TERMINATOR unit.",
+          "Effect": "Your unit has +2 to charge rolls."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Lightning Descent",
@@ -6314,7 +6390,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "HONOURED INTERRED",
+          "Category": "Might of the Moritoi Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase or the Fight phase.",
+          "Target": "One friendly ADEPTUS CUSTODES DREADNOUGHT unit.",
+          "Effect": "Your unit has the following ability: Honoured Interred (Aura): Friendly ADEPTUS CUSTODES units within 6\" of this unit can re-roll hit rolls of 1."
+        },
+        {
+          "Name": "UNCEASING ONSLAUGHT",
+          "Category": "Might of the Moritoi Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit ends an advance move.",
+          "Target": "That ADEPTUS CUSTODES DREADNOUGHT unit.",
+          "Effect": "Your unit’s ranged attacks have [Assault] until the end of the turn. That move does not prevent your unit from being eligible to declare a charge."
+        },
+        {
+          "Name": "UNSTOPPABLE MOMENTUM",
+          "Category": "Might of the Moritoi Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Movement/Charge phase, when a friendly ADEPTUS CUSTODES DREADNOUGHT unit is selected to move or declares a charge.",
+          "Target": "That ADEPTUS CUSTODES DREADNOUGHT unit.",
+          "Effect": "Your unit has MOBILE."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Memento Moritoi",
@@ -6352,7 +6456,63 @@
         "Priority Assets",
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "SHIELD OF HONOUR",
+          "Category": "Guardians of the Throne Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Start of the Fight phase.",
+          "Target": "One friendly ADEPTUS CUSTODES INFANTRY/MOUNTED unit.",
+          "Effect": "When an enemy model engaged with your unit selects targets, if that enemy model does not select your unit as the target of all of its attacks, that enemy model’s attacks have: -1 to hit rolls. -1 to wound rolls."
+        },
+        {
+          "Name": "SUPERHUMAN FOCUS",
+          "Category": "Guardians of the Throne Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "End of any phase.",
+          "Target": "One friendly ADEPTUS CUSTODES unit that is not readied.",
+          "Effect": "Your unit is readied.",
+          "Restrictions": "You cannot select the same unit as the target of this Stratagem more than once per battle round."
+        },
+        {
+          "Name": "IN AURAMITE CLAD",
+          "Category": "Guardians of the Throne Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS units).",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "Name": "PRIME TARGET",
+          "Category": "Guardians of the Throne Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Your unit’s ranged attacks can: Re-roll one hit roll. Re-roll one wound roll. Re-roll one damage roll."
+        },
+        {
+          "Name": "UNLIMITED ENDURANCE",
+          "Category": "Guardians of the Throne Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit ends an advance move.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Until the end of the turn: Your unit’s ranged attacks have [Assault]. That advance move does not prevent your unit from being eligible to declare a charge."
+        },
+        {
+          "Name": "SWIFT AS THE EAGLE",
+          "Category": "Guardians of the Throne Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged TRUSTED SENTINEL unit.",
+          "Target": "That TRUSTED SENTINEL unit.",
+          "Effect": "Your unit can make a normal move of up to D3+3\"."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Bane of Abominations",
@@ -6411,7 +6571,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "EMPEROR'S DOMAIN",
+          "Category": "Honoured Companions Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly TRUSTED SENTINEL unit is selected to make a consolidation move.",
+          "Target": "That TRUSTED SENTINEL unit.",
+          "Effect": "You can select the objective consolidation mode for that consolidation move, regardless of that consolidation move’s Before Moving restrictions. This means your unit can move out of engagement range with enemy units, provided it meets the conditions of the objective consolidation mode."
+        },
+        {
+          "Name": "AVENGE THE FALLEN",
+          "Category": "Honoured Companions Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly TRUSTED SENTINEL unit that is below starting strength is selected to fight.",
+          "Target": "That TRUSTED SENTINEL unit.",
+          "Effect": "Your unit’s melee attacks (excluding those made by CHARACTER models) have +2 A."
+        },
+        {
+          "Name": "SWIFT AS THE EAGLE",
+          "Category": "Honoured Companions Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged TRUSTED SENTINEL unit.",
+          "Target": "That TRUSTED SENTINEL unit.",
+          "Effect": "Your unit can make a normal move of up to D3+3\"."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Arae-shrike",
@@ -6453,7 +6641,35 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "VICTORY BEFORE DEATH",
+          "Category": "Grav-Assault Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly GRAV-ASSAULT unit within range of an objective is destroyed.",
+          "Target": "That GRAV-ASSAULT unit. You can target that unit with this stratagem even though it is destroyed.",
+          "Effect": "Select one objective that: Your unit was controlling when it was destroyed. Has no enemy units (excluding AIRCRAFT units) within range of it. That objective is secured."
+        },
+        {
+          "Name": "ADVANCED STABILISERS",
+          "Category": "Grav-Assault Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly GRAV-ASSAULT unit is selected to shoot.",
+          "Target": "That GRAV-ASSAULT unit.",
+          "Effect": "Your unit’s ranged attacks have [Assault]."
+        },
+        {
+          "Name": "INEVITABLE ANNIHILATION",
+          "Category": "Grav-Assault Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly GRAV-ASSAULT unit is selected to shoot.",
+          "Target": "That GRAV-ASSAULT unit.",
+          "Effect": "Your unit can ignore modifiers to your unit’s: BS. Hit rolls."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Combat Deployment",
