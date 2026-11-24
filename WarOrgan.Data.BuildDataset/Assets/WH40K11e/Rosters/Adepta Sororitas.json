@@ -1426,7 +1426,7 @@
         "Infantry",
         "Grenades",
         "Canoness",
-        "Sororitas Character"
+        "Imperium"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -2922,34 +2922,30 @@
               "Min": 4,
               "Max": 9
             },
-            "ModelName": "Celestian Sacresant (Anointed Halberd)",
+            "ModelName": "Celestian Sacresant",
             "StatlineRef": "Celestian Sacresant",
             "Keywords": [],
             "Wargear": [
               {
                 "InitialWargear": [
-                  "anointed halberd",
-                  "bolt pistol"
+                  "bolt pistol",
+                  "hallowed mace"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Celestian Sacresant (Hallowed Mace)",
-            "StatlineRef": "Celestian Sacresant",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "hallowed mace",
-                  "bolt pistol"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "hallowed mace"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "anointed halberd"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -3294,32 +3290,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 9,
-          "Cost": 150
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
           "UnitCount": 1,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 150
         },
         {
           "UnitCount": 2,
-          "ModelCount": 9,
-          "Cost": 150
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
           "UnitCount": 2,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 150
         },
         {
           "UnitCount": 3,
-          "ModelCount": 9,
-          "Cost": 160
+          "ModelCount": 5,
+          "Cost": 85
         },
         {
           "UnitCount": 3,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 160
         }
       ]
@@ -7282,8 +7278,7 @@
         "Character",
         "Grenades",
         "Imperium",
-        "Palatine",
-        "Sororitas Character"
+        "Palatine"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -7353,7 +7348,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "3+"
+                  "Value": "2+"
                 },
                 {
                   "Id": "S",
