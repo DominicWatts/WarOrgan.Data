@@ -3442,7 +3442,7 @@
       "UnitAbilities": [
         {
           "Title": "Cadia Stands!",
-          "Text": "While this unit contains an OFFICER, each time a ranged attack targets this unit, if this unit is within range of an objective marker you control, models in this unit have the Benefit of Cover against that attack."
+          "Text": "While this unit contains an OFFICER model and this unit is within range of an objective, this unit can re-roll battle-shock rolls."
         },
         {
           "Title": "Master Vox",
@@ -13066,6 +13066,7 @@
       "LeaderInfo": {
         "UnitNames": [
           "DEATH KORPS OF KRIEG",
+          "DEATH KORPS GRENADIER SQUAD",
           "KRIEG COMBAT ENGINEERS"
         ],
         "Features": 0
