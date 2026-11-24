@@ -25,7 +25,7 @@ Done for a faction when: the check report has only expected notes, `FACTIONS.md`
 
 **Priority**
 
-- [x] Tyranids — Wahapedia, manual wargear and WarOrgan smoke checks complete
+- [x] Tyranids — Wahapedia, manual wargear and WarOrgan app checks passed
 - [ ] Astra Militarum — remaining draft datasheets and detachments, while keeping the checked Brood Brother Auxilia allies
 - [ ] Adepta Sororitas
 - [ ] Adeptus Custodes
@@ -64,7 +64,7 @@ Done for a faction when: the check report has only expected notes, `FACTIONS.md`
 **Progress notes — 2026-11-24**
 
 - **Development build 1.5.10.0** (`fc22663`): uploaded to `develop-build` and verified byte for byte against the local ZIP. The integrated build had zero errors. Public release remains 1.5.9.0.
-- **Tyranids**: manual wargear review and WarOrgan smoke test passed. Wahapedia review is complete; the two empty spore loadouts and the Synaptic Nexus punctuation difference are expected notes.
+- **Tyranids**: manual wargear review and WarOrgan app checks passed. Wahapedia review is complete; the two empty spore loadouts and the Synaptic Nexus punctuation difference are expected notes.
 - **Astra Militarum**: main and Legends wargear reviewed. Added Hell’s Last and Vendetta Gunship, corrected Legends profiles and loadouts, and added the missing Ratlings and Tempestus Command Squad choices. The Brood Brother Auxilia allowlist still contains 51 distinct IDs. Current check: 70/83 main entries clean with 14 notes; 47/63 Legends entries clean with 30 notes. Keep the audit open pending the WarOrgan tests below.
 - **Adepta Sororitas**: corrected enhancement eligibility, Saint Celestine’s model keywords, datasheet abilities, and Legends rules and profiles. Current check: 22/41 main entries clean with 33 notes; 1/5 Legends entries clean with 6 notes. Source and selectable wargear review remain open.
 - **T’au Empire**: corrected Broadside, Kroot, Piranha and XV9 points or composition, Commander Leader targets, obsolete drone entries and the Tidewall platform Wounds adjustment. Current check: 2/50 main entries clean with 149 notes; 0/19 Legends entries clean with 57 notes. Source and selectable wargear review remain open.
@@ -142,6 +142,7 @@ BSData offers drones that Wahapedia does not allow, for example guardian drones 
 
 Only the owner can run these, in the WarOrgan app, using the development build URL. Record results here.
 
+- [x] Tyranids (1.5.10): standalone roster and Legends app checks passed.
 - [x] Army rules (1.5.12, issue 9): Ultramarines shows Combat Doctrines, Transhuman Strategist, Librarius and Special Move Types; Dark Angels also show The Ravenwing and The Deathwing; Aeldari show Battle Focus with its token table readable. Passed.
 - [ ] Astra Militarum (1.5.11, issue 8): a Cadian Shock Troops unit takes two Leaders but not two Command Squads; a Leman Russ Battle Tank costs 165 with its lascannon and 175 with two multi-meltas; a Leman Russ Commander with a demolisher battle cannon costs 15 more; a Recon Squad takes two long-las; all six Bullgryns can swap wargear; an Ogryn Bodyguard and Nork Deddog can each join a Command Squad, one per squad.
 - [x] Shield drones: a Cadre Fireblade with one shield drone gains 1 W, with two gains 2 W (1.5.4). Reopen issue 4 if two do not stack.
