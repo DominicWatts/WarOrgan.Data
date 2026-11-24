@@ -6,6 +6,8 @@
 
 # Dataset changelog
 
+2026-11-24 : 1.5.11.0 - Astra Militarum fixes from issue 8: Shock Troops, Jungle Fighters, Krieg and Tempestus Scions take two Leaders, Leman Russ lascannons, multi-meltas, plasma cannons and the demolisher battle cannon cost points, Recon Squads can take two long-las, every Bullgryn can change wargear, and Ogryn Bodyguards and Nork Deddog join Command Squads.
+
 2026-11-24 : 1.5.7.0 - Space Marine chapters now group the Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets instead of as allies.
 
 2026-11-24 : 1.5.6.0 - Added a work plan (TODO.md) and handover notes (HANDOVER.md) for contributors; no data changes.
