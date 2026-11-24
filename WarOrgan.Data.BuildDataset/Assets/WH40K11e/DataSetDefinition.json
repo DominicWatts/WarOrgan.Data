@@ -454,7 +454,7 @@
       "Description": "This unit can attach to eligible units listed on its datasheet."
     },
     {
-      "Regex": "^Deadly Demise(?: (?:\\d+|D\\d+(?:\\+\\d+)?))?$",
+      "Regex": "^Deadly Demise(?: (?:2D6|\\d+|D\\d+(?:\\+\\d+)?))?$",
       "Description": "When the relevant model is destroyed, resolve Deadly Demise using the current core rules and the value shown."
     },
     {
@@ -600,7 +600,7 @@
       "Description": "Apply the current Cleave weapon rule using the value shown."
     },
     {
-      "Regex": "^(?:Conversion|Hooked|Linked Fire|Overcharge|Psychic Assassin|Reverberating Summons)$",
+      "Regex": "^(?:Conversion|Harpooned|Hooked|Linked Fire|Overcharge|Psychic Assassin|Reverberating Summons)$",
       "Description": "A faction weapon ability; see the faction's datasheet or army rules."
     }
   ],
