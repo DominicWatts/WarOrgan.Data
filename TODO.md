@@ -25,7 +25,7 @@ Done for a faction when: the check report has only expected notes, `FACTIONS.md`
 
 **Priority**
 
-- [ ] Tyranids — remaining draft datasheets and detachments, while keeping the checked Vanguard Invader allies
+- [x] Tyranids — Wahapedia, manual wargear and WarOrgan smoke checks complete
 - [ ] Astra Militarum — remaining draft datasheets and detachments, while keeping the checked Brood Brother Auxilia allies
 - [ ] Adepta Sororitas
 - [ ] Adeptus Custodes
@@ -131,6 +131,8 @@ BSData offers drones that Wahapedia does not allow, for example guardian drones 
 - **Completed:** added the cross-set check, preserving the dataset's intentional ranged/melee profile pairs. The full dataset builds, and an injected duplicate fails validation.
 
 ## Needs the owner (app testing)
+
+- [ ] Astra Militarum (1.5.10): both 110-point Grenadier lineups and rejection of mixed invalid counts; Tempestus special-weapon limits and both medi-pack choices; Ratling Battlemutt and Demolition Gear on a ten-model unit only; Hell’s Last and Vendetta Gunship selectable with Legends enabled.
 
 Only the owner can run these, in the WarOrgan app, using the development build URL. Record results here.
 
