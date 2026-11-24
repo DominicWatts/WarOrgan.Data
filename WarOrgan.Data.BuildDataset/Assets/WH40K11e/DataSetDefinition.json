@@ -222,6 +222,19 @@
           "IsIncludedInPrimaryRoster": true
         }
       ]
+    },
+    {
+      "Name": "Space Wolves",
+      "FactionKeyword": "Space Wolves",
+      "Category": "Imperium",
+      "MainColor": "#5B7487",
+      "DarkColor": "#9CB4C7",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
