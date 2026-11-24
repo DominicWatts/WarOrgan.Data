@@ -76,6 +76,19 @@
       "Category": "Imperium",
       "MainColor": "#1B3F8B",
       "DarkColor": "#5B7FCB"
+    },
+    {
+      "Name": "Deathwatch",
+      "FactionKeyword": "Deathwatch",
+      "Category": "Imperium",
+      "MainColor": "#303436",
+      "DarkColor": "#8C9496",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
