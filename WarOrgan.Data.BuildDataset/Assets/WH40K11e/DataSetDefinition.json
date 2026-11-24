@@ -261,6 +261,13 @@
           "IsIncludedInPrimaryRoster": true
         }
       ]
+    },
+    {
+      "Name": "Chaos Space Marines",
+      "FactionKeyword": "Heretic Astartes",
+      "Category": "Chaos",
+      "MainColor": "#5A1414",
+      "DarkColor": "#A65050"
     }
   ],
   "CoreAbilities": [
