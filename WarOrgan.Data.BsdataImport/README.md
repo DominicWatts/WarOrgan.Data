@@ -8,6 +8,14 @@ curl -L -o bsdata.zip https://codeload.github.com/momper14/wh40k-11e/zip/f015101
 dotnet run --project WarOrgan.Data.BsdataImport -- --source bsdata.zip --catalogue "Genestealer Cults" --out /tmp/bsdata-out
 ```
 
+Generate every committed draft faction from the registry:
+
+```bash
+python3 WarOrgan.Data.BsdataImport/bulk-draft.py --all --source bsdata.zip
+```
+
+The registry at `WarOrgan.Data.BsdataImport/factions.json` records each faction's BSData catalogue, category, colours and chapter ally wiring. `retired-datasheets.json` excludes datasheets with no 11th Edition Wahapedia entry. The bulk script writes drafts to `/tmp/warorgan-bulk-draft` by default and adds only units whose `Id` is missing from an existing faction roster, preserving checked or hand-fixed roster data. It also processes Legends rosters.
+
 Allied rosters take units only, filtered by the detachment's exclusions:
 
 ```bash
