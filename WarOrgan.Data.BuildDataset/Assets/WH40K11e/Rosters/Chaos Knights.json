@@ -1,0 +1,6472 @@
+﻿{
+  "Name": "Chaos Knights",
+  "Units": [
+    {
+      "Id": "CHAOS ACASTUS KNIGHT ASTERIUS",
+      "DisplayName": "Chaos Acastus Knight Asterius",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Acastus Knight Asterius",
+            "StatlineRef": "Chaos Acastus Knight Asterius",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "asterius volkite culverin",
+                  "asterius volkite culverin",
+                  "karacnos mortar battery",
+                  "twin conversion beam cannon",
+                  "twin conversion beam cannon",
+                  "titanic feet"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Sunderer of Fortresses",
+          "Text": "Each time this model makes an attack that targets a **VEHICLE**, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a **FORTIFICATION**, improve the Strength and Damage characteristics of that attack by 2 instead)."
+        },
+        {
+          "Title": "Damaged: 1-10 wounds remaining",
+          "Text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Acastus",
+        "Knight Asterius",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Acastus Knight Asterius",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "13"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "30"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "asterius volkite culverin",
+              "DisplayName": "Asterius volkite culverin",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "karacnos mortar battery",
+              "DisplayName": "Karacnos mortar battery",
+              "Keywords": "Anti-Infantry 2+, Blast, Ignores Cover, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin conversion beam cannon",
+              "DisplayName": "Twin conversion beam cannon",
+              "Keywords": "Conversion, Sustained Hits D3, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "16"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "titanic feet",
+              "DisplayName": "Titanic feet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 785
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 860
+        }
+      ]
+    },
+    {
+      "Id": "CHAOS ACASTUS KNIGHT PORPHYRION",
+      "DisplayName": "Chaos Acastus Knight Porphyrion",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Acastus Knight Porphyrion",
+            "StatlineRef": "Chaos Acastus Knight Porphyrion",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "twin magna lascannon",
+                  "twin magna lascannon",
+                  "acastus ironstorm missile pod",
+                  "acastus autocannon",
+                  "titanic feet"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "acastus ironstorm missile pod"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "helios defence missiles"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "acastus autocannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "lascannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Bastion of Firepower",
+          "Text": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Damaged: 1-10 wounds remaining",
+          "Text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Acastus",
+        "Knight Porphyrion",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Acastus Knight Porphyrion",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "13"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "30"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "acastus autocannon",
+              "DisplayName": "Acastus autocannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "acastus ironstorm missile pod",
+              "DisplayName": "Acastus ironstorm missile pod",
+              "Keywords": "Blast, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "helios defence missiles",
+              "DisplayName": "Helios defence missiles",
+              "Keywords": "Anti-Fly 2+, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "twin magna lascannon",
+              "DisplayName": "Twin magna lascannon",
+              "Keywords": "Blast, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "72\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "18"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "titanic feet",
+              "DisplayName": "Titanic feet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 725
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 800
+        }
+      ]
+    },
+    {
+      "Id": "CHAOS CERASTUS KNIGHT ACHERON",
+      "DisplayName": "Chaos Cerastus Knight Acheron",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Cerastus Knight Acheron",
+            "StatlineRef": "Chaos Cerastus Knight Acheron",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "acheron flame cannon",
+                  "reaper chainfist - strike",
+                  "reaper chainfist - sweep",
+                  "twin heavy bolter"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Searing Flames",
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+        },
+        {
+          "Title": "Unrestrained Terror (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more **WAR DOG** units affected by this ability must take a Battle-shock test."
+        },
+        {
+          "Title": "Damaged: 1-10 wounds remaining",
+          "Text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Cerastus",
+        "Knight Acheron",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Cerastus Knight Acheron",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "28"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "acheron flame cannon",
+              "DisplayName": "Acheron flame cannon",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin heavy bolter",
+              "DisplayName": "Twin heavy bolter",
+              "Keywords": "Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "reaper chainfist - strike",
+              "DisplayName": "Reaper chainfist - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainfist - sweep",
+              "DisplayName": "Reaper chainfist - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 370
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 385
+        }
+      ]
+    },
+    {
+      "Id": "CHAOS CERASTUS KNIGHT ATRAPOS",
+      "DisplayName": "Chaos Cerastus Knight Atrapos",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Cerastus Knight Atrapos",
+            "StatlineRef": "Chaos Cerastus Knight Atrapos",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "atrapos lascutter - low intensity",
+                  "atrapos lascutter - high intensity",
+                  "graviton singularity cannon - contained",
+                  "graviton singularity cannon - singularity"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Macro-extinction Protocols",
+          "Text": "Each time this model makes an attack that targets a **MONSTER** or **VEHICLE** unit, add 1 to the Hit roll. If that target is **TITANIC** or **TOWERING**, add 1 to the Wound roll as well."
+        },
+        {
+          "Title": "Consumed with Hunger (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, each time that **WAR DOG** model makes an attack that targets a **TITANIC** or **TOWERING** unit, you can re-roll the Hit roll."
+        },
+        {
+          "Title": "Damaged: 1-10 wounds remaining",
+          "Text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Cerastus",
+        "Knight Atrapos",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Cerastus Knight Atrapos",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "28"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "atrapos lascutter - high intensity",
+              "DisplayName": "Atrapos lascutter - high intensity",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "atrapos lascutter - low intensity",
+              "DisplayName": "Atrapos lascutter - low intensity",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "graviton singularity cannon - contained",
+              "DisplayName": "Graviton singularity cannon - contained",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "16"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "graviton singularity cannon - singularity",
+              "DisplayName": "Graviton singularity cannon - singularity",
+              "Keywords": "Blast, Devastating Wounds, Hazardous",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "16"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "atrapos lascutter - high intensity",
+              "DisplayName": "Atrapos lascutter - high intensity",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "atrapos lascutter - low intensity",
+              "DisplayName": "Atrapos lascutter - low intensity",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 385
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 415
+        }
+      ]
+    },
+    {
+      "Id": "CHAOS CERASTUS KNIGHT CASTIGATOR",
+      "DisplayName": "Chaos Cerastus Knight Castigator",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Cerastus Knight Castigator",
+            "StatlineRef": "Chaos Cerastus Knight Castigator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "castigator bolt cannon",
+                  "tempest warblade - strike",
+                  "tempest warblade - sweep"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Storm of Bolts",
+          "Text": "In your Shooting phase, after this model has shot, select one unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Offerings for the Dark Gods (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, ranged weapons equipped by that **WAR DOG** model have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Damaged: 1-10 wounds remaining",
+          "Text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Cerastus",
+        "Knight Castigator",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Cerastus Knight Castigator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "28"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "castigator bolt cannon",
+              "DisplayName": "Castigator bolt cannon",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "18"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "tempest warblade - strike",
+              "DisplayName": "Tempest warblade - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "tempest warblade - sweep",
+              "DisplayName": "Tempest warblade - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 370
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 385
+        }
+      ]
+    },
+    {
+      "Id": "CHAOS CERASTUS KNIGHT LANCER",
+      "DisplayName": "Chaos Cerastus Knight Lancer",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Cerastus Knight Lancer",
+            "StatlineRef": "Chaos Cerastus Knight Lancer",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "cerastus shock lance",
+                  "cerastus shock lance - strike",
+                  "cerastus shock lance - sweep"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Shock Charge",
+          "Text": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "Title": "Dark Fervour (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, ranged weapons equipped by that **WAR DOG** model have the [ASSAULT] ability."
+        },
+        {
+          "Title": "Damaged: 1-10 wounds remaining",
+          "Text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Cerastus",
+        "Knight Lancer",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Cerastus Knight Lancer",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "28"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "cerastus shock lance",
+              "DisplayName": "Cerastus shock lance",
+              "Keywords": "Assault, Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "cerastus shock lance - strike",
+              "DisplayName": "Cerastus shock lance - strike",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "20"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "8"
+                }
+              ]
+            },
+            {
+              "Id": "cerastus shock lance - sweep",
+              "DisplayName": "Cerastus shock lance - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 385
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 415
+        }
+      ]
+    },
+    {
+      "Id": "CHAOS QUESTORIS KNIGHT STYRIX",
+      "DisplayName": "Chaos Questoris Knight Styrix",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Questoris Knight Styrix",
+            "StatlineRef": "Chaos Questoris Knight Styrix",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "graviton crusher",
+                  "volkite chierovile",
+                  "reaper chainsword - strike",
+                  "reaper chainsword - sweep"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "reaper chainsword - strike",
+                      "reaper chainsword - sweep"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin rad cleanser",
+                          "hekaton siege claw - strike",
+                          "hekaton siege claw - sweep"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Grav-pinned",
+          "Text": "In your Shooting phase, after this model has shot, if an enemy **INFANTRY** unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit."
+        },
+        {
+          "Title": "Preysight (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, ranged weapons equipped by that **WAR DOG** model have the [IGNORES COVER] ability."
+        },
+        {
+          "Title": "Damaged: 1-9 wounds remaining",
+          "Text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Abhorrent",
+        "Knight Styrix",
+        "Knight Character",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Questoris Knight Styrix",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "26"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "graviton crusher",
+              "DisplayName": "Graviton crusher",
+              "Keywords": "Anti-Vehicle 2+, Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin rad cleanser",
+              "DisplayName": "Twin rad cleanser",
+              "Keywords": "Anti-Infantry 2+, Ignores Cover, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "volkite chierovile",
+              "DisplayName": "Volkite chierovile",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "hekaton siege claw - strike",
+              "DisplayName": "Hekaton siege claw - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "20"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "8"
+                }
+              ]
+            },
+            {
+              "Id": "hekaton siege claw - sweep",
+              "DisplayName": "Hekaton siege claw - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - strike",
+              "DisplayName": "Reaper chainsword - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - sweep",
+              "DisplayName": "Reaper chainsword - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 365
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 380
+        }
+      ]
+    },
+    {
+      "Id": "KNIGHT ABOMINANT",
+      "DisplayName": "Knight Abominant",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Knight Abominant",
+            "StatlineRef": "Knight Abominant",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "balemace",
+                  "electroscourge",
+                  "volkite combustor",
+                  "diabolus heavy stubber"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Vortex Terrors (Psychic)",
+          "Text": "At the start of your Shooting phase, select one enemy unit within 24\" of and visible to this model. That enemy unit must take a Battle-shock test."
+        },
+        {
+          "Title": "Warp Storms (Psychic)",
+          "Text": "At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of one or more models with this ability: on a 3+, that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        },
+        {
+          "Title": "Damaged: 1-9 wounds remaining",
+          "Text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent",
+        "Character",
+        "Chaos",
+        "Knight Abominant",
+        "Psyker",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Knight Abominant",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "26"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "volkite combustor",
+              "DisplayName": "Volkite combustor",
+              "Keywords": "Devastating Wounds, Ignores Cover",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "balemace",
+              "DisplayName": "Balemace",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "electroscourge",
+              "DisplayName": "Electroscourge",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "9"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 350
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 350
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 370
+        }
+      ]
+    },
+    {
+      "Id": "KNIGHT DESECRATOR",
+      "DisplayName": "Knight Desecrator",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Knight Desecrator",
+            "StatlineRef": "Knight Desecrator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "desecrator laser destructor",
+                  "diabolus heavy stubber",
+                  "reaper chainsword - strike",
+                  "reaper chainsword - sweep"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "reaper chainsword - strike",
+                      "reaper chainsword - sweep"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "warpstrike claw - strike",
+                          "warpstrike claw - sweep"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Taskmaster (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 9\" of this model, each time that **WAR DOG** model makes a ranged attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Obsessive Ruthlessness",
+          "Text": "This unit’s ranged attacks that target a MONSTER/VEHICLE unit can ignore modifiers to this unit’s:\n- BS.\n- Hit rolls and wound rolls."
+        },
+        {
+          "Title": "Damaged: 1-9 wounds remaining",
+          "Text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent",
+        "Character",
+        "Chaos",
+        "Knight Desecrator",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Knight Desecrator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "26"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "desecrator laser destructor",
+              "DisplayName": "Desecrator laser destructor",
+              "Keywords": "Devastating Wounds: Monster/Vehicle",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "72\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "18"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+3"
+                }
+              ]
+            },
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "reaper chainsword - strike",
+              "DisplayName": "Reaper chainsword - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - sweep",
+              "DisplayName": "Reaper chainsword - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "warpstrike claw - strike",
+              "DisplayName": "Warpstrike claw - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "20"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "8"
+                }
+              ]
+            },
+            {
+              "Id": "warpstrike claw - sweep",
+              "DisplayName": "Warpstrike claw - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 350
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 350
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 370
+        }
+      ]
+    },
+    {
+      "Id": "KNIGHT DESPOILER",
+      "DisplayName": "Knight Despoiler",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Knight Despoiler",
+            "StatlineRef": "Knight Despoiler",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "titanic feet",
+                  "reaper chainsword - strike",
+                  "reaper chainsword - sweep",
+                  "warpstrike claw - strike",
+                  "warpstrike claw - sweep",
+                  "daemonbreath meltagun"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc missile pod"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ruinspear rocket pod"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "hellstorm autocannons"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "reaper chainsword - strike",
+                      "reaper chainsword - sweep"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "despoiler gatling cannon",
+                          "heavy darkflamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "despoiler battle cannon",
+                          "diabolus heavy stubber"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "daemonbreath thermal cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "warpstrike claw - strike",
+                      "warpstrike claw - sweep"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "despoiler gatling cannon",
+                          "heavy darkflamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "despoiler battle cannon",
+                          "diabolus heavy stubber"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "daemonbreath thermal cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "daemonbreath meltagun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "diabolus heavy stubber"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Dread Dominion (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 9\" of this model, improve that **WAR DOG** model's Leadership  and Objective Control characteristics by 1."
+        },
+        {
+          "Title": "Seething Hatred",
+          "Text": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+        },
+        {
+          "Title": "Damaged: 1-9 wounds remaining",
+          "Text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent",
+        "Character",
+        "Chaos",
+        "Knight Despoiler",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Knight Despoiler",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "26"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "daemonbreath meltagun",
+              "DisplayName": "Daemonbreath meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "daemonbreath thermal cannon",
+              "DisplayName": "Daemonbreath thermal cannon",
+              "Keywords": "Blast, Melta 6",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "despoiler battle cannon",
+              "DisplayName": "Despoiler battle cannon",
+              "Keywords": "Blast, Rapid Fire D6+3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "72\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "despoiler gatling cannon",
+              "DisplayName": "Despoiler gatling cannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "18"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "havoc missile pod",
+              "DisplayName": "Havoc missile pod",
+              "Keywords": "Blast, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy darkflamer",
+              "DisplayName": "Heavy darkflamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hellstorm autocannons",
+              "DisplayName": "Hellstorm autocannons",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "ruinspear rocket pod",
+              "DisplayName": "Ruinspear rocket pod",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "reaper chainsword - strike",
+              "DisplayName": "Reaper chainsword - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - sweep",
+              "DisplayName": "Reaper chainsword - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "titanic feet",
+              "DisplayName": "Titanic feet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "warpstrike claw - strike",
+              "DisplayName": "Warpstrike claw - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "20"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "8"
+                }
+              ]
+            },
+            {
+              "Id": "warpstrike claw - sweep",
+              "DisplayName": "Warpstrike claw - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 360
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 390
+        }
+      ]
+    },
+    {
+      "Id": "KNIGHT RAMPAGER",
+      "DisplayName": "Knight Rampager",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Knight Rampager",
+            "StatlineRef": "Knight Rampager",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "reaper chainsword - strike",
+                  "reaper chainsword - sweep",
+                  "warpstrike claw - strike",
+                  "warpstrike claw - sweep",
+                  "diabolus heavy stubber"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Frenzied Rampage (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 9\" of this model, each time that **WAR DOG** model makes a melee attack, re-roll a Hit roll of 1."
+        },
+        {
+          "Title": "Bloodlust",
+          "Text": "Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability."
+        },
+        {
+          "Title": "Damaged: 1-9 wounds remaining",
+          "Text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent",
+        "Character",
+        "Chaos",
+        "Knight Rampager",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Knight Rampager",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "26"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "reaper chainsword - strike",
+              "DisplayName": "Reaper chainsword - strike",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - sweep",
+              "DisplayName": "Reaper chainsword - sweep",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "18"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "warpstrike claw - strike",
+              "DisplayName": "Warpstrike claw - strike",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "20"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "8"
+                }
+              ]
+            },
+            {
+              "Id": "warpstrike claw - sweep",
+              "DisplayName": "Warpstrike claw - sweep",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 350
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 350
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 370
+        }
+      ]
+    },
+    {
+      "Id": "KNIGHT RUINATOR",
+      "DisplayName": "Knight Ruinator",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Knight Ruinator",
+            "StatlineRef": "Knight Ruinator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "darkflame lance",
+                  "fellbore - strike",
+                  "fellbore - sweep",
+                  "terrorpulse missiles"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Methodical Destruction",
+          "Text": "At the start of the first battle round, select one unit from your opponent's army to be this model's victim. Each time this model makes an attack that targets its victim, you can re-roll the Wound roll. Each time this model's victim is destroyed, select one new enemy unit to be this model's victim."
+        },
+        {
+          "Title": "Close-range Killers (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 9\" of this model, each time that **WAR DOG** model makes an attack that targets the closest enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "Title": "Damaged: 1-9 wounds remaining",
+          "Text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Abhorrent",
+        "Character",
+        "Chaos",
+        "Knight Ruinator",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Knight Ruinator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "26"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "darkflame lance",
+              "DisplayName": "Darkflame lance",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "terrorpulse missiles",
+              "DisplayName": "Terrorpulse missiles",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "fellbore - strike",
+              "DisplayName": "Fellbore - strike",
+              "Keywords": "Anti-Monster 2+, Anti-Vehicle 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "fellbore - sweep",
+              "DisplayName": "Fellbore - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 325
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 325
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 345
+        }
+      ]
+    },
+    {
+      "Id": "KNIGHT TYRANT",
+      "DisplayName": "Knight Tyrant",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Knight Tyrant",
+            "StatlineRef": "Knight Tyrant",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "titanic feet",
+                  "twin daemonbreath meltagun",
+                  "twin daemonbreath meltagun",
+                  "gheiststrike missile launcher",
+                  "gheiststrike missile launcher",
+                  "twin desecrator cannon",
+                  "brimstone volcano lance",
+                  "ectoplasma decimator - standard",
+                  "ectoplasma decimator - supercharge"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "gheiststrike missile launcher",
+                      "gheiststrike missile launcher",
+                      "twin desecrator cannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "gheiststrike missile launcher",
+                          "twin desecrator cannon",
+                          "twin desecrator cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "brimstone volcano lance",
+                      "ectoplasma decimator - standard",
+                      "ectoplasma decimator - supercharge"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "darkflame cannon",
+                          "warpshock harpoon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Infernal Aegis (Aura)",
+          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, that **WAR DOG** model has the Benefit of Cover."
+        },
+        {
+          "Title": "Bastion of Corruption",
+          "Text": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+        },
+        {
+          "Title": "Damaged: 1-10 wounds remaining",
+          "Text": "While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Titanic",
+        "Towering",
+        "Character",
+        "Chaos",
+        "Knight Tyrant",
+        "Knight Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6+2"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Knight Tyrant",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "28"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "brimstone volcano lance",
+              "DisplayName": "Brimstone volcano lance",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "60\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "20"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-5"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+8"
+                }
+              ]
+            },
+            {
+              "Id": "darkflame cannon",
+              "DisplayName": "Darkflame cannon",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "ectoplasma decimator - standard",
+              "DisplayName": "Ectoplasma decimator - standard",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "ectoplasma decimator - supercharge",
+              "DisplayName": "Ectoplasma decimator - supercharge",
+              "Keywords": "Blast, Hazardous",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "gheiststrike missile launcher",
+              "DisplayName": "Gheiststrike missile launcher",
+              "Keywords": "Anti-Titanic 4+, Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "72\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-6"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            },
+            {
+              "Id": "twin daemonbreath meltagun",
+              "DisplayName": "Twin daemonbreath meltagun",
+              "Keywords": "Melta 2, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "twin desecrator cannon",
+              "DisplayName": "Twin desecrator cannon",
+              "Keywords": "Blast, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "warpshock harpoon",
+              "DisplayName": "Warpshock harpoon",
+              "Keywords": "Blast, Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "24"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-6"
+                },
+                {
+                  "Id": "D",
+                  "Value": "12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "titanic feet",
+              "DisplayName": "Titanic feet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 390
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 410
+        }
+      ]
+    },
+    {
+      "Id": "WAR DOG BRIGAND",
+      "DisplayName": "War Dog Brigand",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "War Dog Brigand",
+            "StatlineRef": "War Dog Brigand",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "diabolus heavy stubber",
+                  "armoured feet",
+                  "avenger chaincannon",
+                  "daemonbreath spear"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "diabolus heavy stubber"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc multi-launcher"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "houndpack lance character"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "houndpack lance character",
+            "DisplayName": "Houndpack Lance Character",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Brigand",
+          "Text": "Ranged weapons equipped by this model have the [Ignores Cover] ability while targeting enemy units in range of one or more objective markers."
+        },
+        {
+          "Title": "Damaged: 1-5 wounds remaining",
+          "Text": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Brigand",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "War Dog Brigand",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "avenger chaincannon",
+              "DisplayName": "Avenger chaincannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "daemonbreath spear",
+              "DisplayName": "Daemonbreath spear",
+              "Keywords": "Melta 4",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "havoc multi-launcher",
+              "DisplayName": "Havoc multi-launcher",
+              "Keywords": "Blast, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured feet",
+              "DisplayName": "Armoured feet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "WAR DOG EXECUTIONER",
+      "DisplayName": "War Dog Executioner",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "War Dog Executioner",
+            "StatlineRef": "War Dog Executioner",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "war dog autocannon",
+                  "war dog autocannon",
+                  "diabolus heavy stubber",
+                  "armoured feet"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "diabolus heavy stubber"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "daemonbreath meltagun"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "houndpack lance character"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "houndpack lance character",
+            "DisplayName": "Houndpack Lance Character",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Executioner",
+          "Text": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll. Each time an enemy unit is destroyed as the result of this model's attacks, before removing the last model in that unit from the battlefield, each other unit from your opponent's army that is within 3\" of it must take a Battle-shock test."
+        },
+        {
+          "Title": "Damaged: 1-5 wounds remaining",
+          "Text": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Executioner",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "War Dog Executioner",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "daemonbreath meltagun",
+              "DisplayName": "Daemonbreath meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "war dog autocannon",
+              "DisplayName": "War Dog autocannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured feet",
+              "DisplayName": "Armoured feet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 130
+        }
+      ]
+    },
+    {
+      "Id": "WAR DOG HUNTSMAN",
+      "DisplayName": "War Dog Huntsman",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "War Dog Huntsman",
+            "StatlineRef": "War Dog Huntsman",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "diabolus heavy stubber",
+                  "daemonbreath spear",
+                  "reaper chaintalon - strike",
+                  "reaper chaintalon - sweep"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "diabolus heavy stubber"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "daemonbreath meltagun"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "houndpack lance character"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "houndpack lance character",
+            "DisplayName": "Houndpack Lance Character",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Huntsman",
+          "Text": "Each time this model makes an attack that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Wound roll."
+        },
+        {
+          "Title": "Damaged: 1-5 wounds remaining",
+          "Text": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Huntsman",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "War Dog Huntsman",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "daemonbreath meltagun",
+              "DisplayName": "Daemonbreath meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "daemonbreath spear",
+              "DisplayName": "Daemonbreath spear",
+              "Keywords": "Melta 4",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "reaper chaintalon - strike",
+              "DisplayName": "Reaper chaintalon - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chaintalon - sweep",
+              "DisplayName": "Reaper chaintalon - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "WAR DOG KARNIVORE",
+      "DisplayName": "War Dog Karnivore",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "War Dog Karnivore",
+            "StatlineRef": "War Dog Karnivore",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "reaper chaintalon",
+                  "slaughterclaw",
+                  "diabolus heavy stubber"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "diabolus heavy stubber"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc multi-launcher"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "houndpack lance character"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "houndpack lance character",
+            "DisplayName": "Houndpack Lance Character",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Karnivore",
+          "Text": "You can re-roll Advance and Charge rolls made for this model."
+        },
+        {
+          "Title": "Damaged: 1-5 wounds remaining",
+          "Text": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Karnivore",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "War Dog Karnivore",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "havoc multi-launcher",
+              "DisplayName": "Havoc multi-launcher",
+              "Keywords": "Blast, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "reaper chaintalon",
+              "DisplayName": "Reaper chaintalon",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "slaughterclaw",
+              "DisplayName": "Slaughterclaw",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 145
+        }
+      ]
+    },
+    {
+      "Id": "WAR DOG MOIRAX",
+      "DisplayName": "War Dog Moirax",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "War Dog Moirax",
+            "StatlineRef": "War Dog Moirax",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "armoured feet"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Options": [
+                      {
+                        "Items": [
+                          "volkite veuglaire"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "conversion beam cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "graviton pulsar"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lightning lock"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "rad cleanser",
+                          "siege claw"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "houndpack lance character"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "houndpack lance character",
+            "DisplayName": "Houndpack Lance Character",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Protection Protocols",
+          "Text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "Title": "Damaged: 1-5 wounds remaining",
+          "Text": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Moirax",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "War Dog Moirax",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "conversion beam cannon",
+              "DisplayName": "Conversion beam cannon",
+              "Keywords": "Conversion, Sustained Hits D3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "graviton pulsar",
+              "DisplayName": "Graviton pulsar",
+              "Keywords": "Anti-Vehicle 2+, Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "lightning lock",
+              "DisplayName": "Lightning lock",
+              "Keywords": "Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "rad cleanser",
+              "DisplayName": "Rad cleanser",
+              "Keywords": "Anti-Infantry 2+, Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "volkite veuglaire",
+              "DisplayName": "Volkite veuglaire",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured feet",
+              "DisplayName": "Armoured feet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "siege claw",
+              "DisplayName": "Siege claw",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Id": "WAR DOG STALKER",
+      "DisplayName": "War Dog Stalker",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "War Dog Stalker",
+            "StatlineRef": "War Dog Stalker",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "diabolus heavy stubber",
+                  "avenger chaincannon",
+                  "slaughterclaw"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "diabolus heavy stubber"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc multi-launcher"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "avenger chaincannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "daemonbreath spear"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "slaughterclaw"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "reaper chaintalon - strike",
+                          "reaper chaintalon - sweep"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "houndpack lance character"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "houndpack lance character",
+            "DisplayName": "Houndpack Lance Character",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+* invulnerable save."
+        },
+        {
+          "Title": "Stalker",
+          "Text": "Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Damaged: 1-5 wounds remaining",
+          "Text": "While this model has 1-5 wounds remaining, subtract 3 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "*Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Chaos",
+        "War Dog",
+        "Stalker",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "War Dog Stalker",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+*"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "avenger chaincannon",
+              "DisplayName": "Avenger chaincannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "daemonbreath spear",
+              "DisplayName": "Daemonbreath spear",
+              "Keywords": "Melta 4",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "diabolus heavy stubber",
+              "DisplayName": "Diabolus heavy stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "havoc multi-launcher",
+              "DisplayName": "Havoc multi-launcher",
+              "Keywords": "Blast, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "reaper chaintalon - strike",
+              "DisplayName": "Reaper chaintalon - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chaintalon - sweep",
+              "DisplayName": "Reaper chaintalon - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "slaughterclaw",
+              "DisplayName": "Slaughterclaw",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    }
+  ],
+  "Detachments": [
+    {
+      "Name": "Traitoris Lance",
+      "Cost": 2,
+      "Rule": {
+        "Title": "Paragons of Terror",
+        "Text": "At the start of the first battle round, after selecting one or more Dread abilities to be active for your army, you can select one additional Dread ability to be active for your army (this additional Dread ability cannot be randomly selected)."
+      },
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    },
+    {
+      "Name": "Iconoclast Fiefdom",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Wretched Thralls",
+        "Text": "- You can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units cannot exceed 500 points.\n- Friendly DAMNED units can re-roll **leadership rolls**."
+      },
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    },
+    {
+      "Name": "Lords of Dread",
+      "Cost": 2,
+      "Rule": {
+        "Title": "Tyrannical Court",
+        "Text": "Improve the Objective Control characteristic of **CHAOS KNIGHT CHARACTER** models from your army by 2. In addition, once per battle round, if your **WARLORD** is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
+      },
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    },
+    {
+      "Name": "Houndpack Lance",
+      "Cost": 2,
+      "Rule": {
+        "Title": "Marked Prey",
+        "Text": "At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time a **WAR DOG** model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.\n\n\n**Keywords**\nWhile using the Houndpack Lance Detachment, the following rules apply:\n\n\n- Your army must include 3 or more **WAR DOG** units.\n- **WAR DOG** units from your army have the **BATTLELINE** keyword.\n- When mustering your army, select 3 **WAR DOG** units from your army. Until the end of the battle, those units have the **CHARACTER** keyword.*\n\n\n*** Designer's Note:** *This means that the selected units can be given Enhancements and one of them can be selected as your* **WARLORD**."
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    },
+    {
+      "Name": "Infernal Lance",
+      "Cost": 3,
+      "Rule": {
+        "Title": "Malefic Surge",
+        "Text": "In your Command phase, one or more **CHAOS KNIGHTS** units from your army can make a Malefic Surge. Each one that does must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase, that unit is Empowered. While a unit is Empowered, it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.\n\n**Unholy Hunger:** When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3\" to its Move characteristic.\n\n**Diabolic Power:** When this unit is selected to shoot or fight, select either the [Lethal Hits] or [Sustained Hits 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.\n\n**Unnatural Fortitude:** When this unit is selected as the target of an attack, until the end of the phase, select one of the following:\n- Models in this unit have a 5+ invulnerable save\n- Models in this unit have the Feel No Pain 6+ ability."
+      },
+      "ForceDispositions": [
+        "Priority Assets",
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    },
+    {
+      "Name": "Helhunt Lance",
+      "Cost": 2,
+      "Rule": {
+        "Title": "Masters of the Pack",
+        "Text": "If a **TITANIC CHAOS KNIGHTS** unit from your army has an Aura ability that affects friendly **WAR DOG** units, while two or more friendly **WAR DOG** models are within range of that **TITANIC CHAOS KNIGHTS** unit’s Aura ability, that **TITANIC CHAOS KNIGHTS** unit is affected by that Aura ability as well."
+      },
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    },
+    {
+      "Name": "Bastions of Tyranny",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Annihilate the Unworthy",
+        "Text": "Friendly **KNIGHT TYRANT** units’ attacks that target a **battle-shocked** unit have +1 to the **hit roll**."
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    },
+    {
+      "Name": "Hunting Warpack",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Scenting Fear",
+        "Text": "(Once per battle round, per army) In your Shooting phase, you can select one **visible** enemy unit within 12\" of a friendly **WAR DOG** unit. That enemy unit has +6\" **detection range**.\nThis detachment has the WAR DOGS tag and cannot be taken with another WAR DOGS detachment."
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    }
+  ],
+  "ArmyRules": []
+}
