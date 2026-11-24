@@ -6519,5 +6519,22 @@
       "Effects": []
     }
   ],
-  "ArmyRules": []
+  "ArmyRules": [
+    {
+      "Title": "Combat Doctrines",
+      "Text": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n\n**Assault Doctrine**\n\nWhen this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n\n**Devastator Doctrine**\n\nThis unit’s ranged attacks have [ASSAULT].\n\n**Tactical Doctrine**\n\nWhen this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n\n- You can only select each combat doctrine once per battle.\n- Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit."
+    },
+    {
+      "Title": "Transhuman Strategist",
+      "Text": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP."
+    },
+    {
+      "Title": "Special Move Types",
+      "Text": "The following are special move types that certain or all of your units are eligible to make.\n\nSHOCK DISEMBARK MOVE\n\nSET-UP DISTANCE: 3\"\n\nELIGIBLE IF:\n\n- Embarked within a TRANSPORT on the battlefield\n- Did not embark within that TRANSPORT this phase\n\nEFFECT: Set up as described in Set Up (03.02).\n\nWHILE MOVING: Set up each model wholly within the set-up distance of that TRANSPORT.\n\nAFTER MOVING: Your unit is not eligible to declare a charge until the end of the turn.\n\nASSAULT DISEMBARK MOVE\n\nSET-UP DISTANCE: 3\"\n\nELIGIBLE IF:\n\n- Embarked within a TRANSPORT on the battlefield\n- Did not embark within that TRANSPORT this phase\n- That TRANSPORT has not made an advance/fall-back move this phase\n\nEFFECT: Set up as described in Set Up (03.02).\n\nWHILE MOVING: Set up each model wholly within the set-up distance of that TRANSPORT."
+    },
+    {
+      "Title": "Heirs of Sigismund",
+      "Text": "- Your army cannot include any ADEPTUS ASTARTES PSYKER models.\n- Your army cannot include the following datasheets from Codex: Space Marines: GLADIATOR LANCER; GLADIATOR REAPER; GLADIATOR VALIANT; IMPULSOR; REPULSOR; REPULSOR EXECUTIONER."
+    }
+  ]
 }
