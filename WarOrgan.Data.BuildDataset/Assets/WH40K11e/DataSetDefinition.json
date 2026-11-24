@@ -69,6 +69,289 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Space Marines",
+      "FactionKeyword": "Adeptus Astartes",
+      "Category": "Imperium",
+      "MainColor": "#1B3F8B",
+      "DarkColor": "#5B7FCB"
+    },
+    {
+      "Name": "Adepta Sororitas",
+      "FactionKeyword": "Adepta Sororitas",
+      "Category": "Imperium",
+      "MainColor": "#8C1C24",
+      "DarkColor": "#C8565E"
+    },
+    {
+      "Name": "Adeptus Custodes",
+      "FactionKeyword": "Adeptus Custodes",
+      "Category": "Imperium",
+      "MainColor": "#A8812A",
+      "DarkColor": "#D9B45C"
+    },
+    {
+      "Name": "Adeptus Mechanicus",
+      "FactionKeyword": "Adeptus Mechanicus",
+      "Category": "Imperium",
+      "MainColor": "#8E2A1E",
+      "DarkColor": "#C8644F"
+    },
+    {
+      "Name": "Agents of the Imperium",
+      "FactionKeyword": "Agents of the Imperium",
+      "Category": "Imperium",
+      "MainColor": "#4A4A52",
+      "DarkColor": "#9696A2"
+    },
+    {
+      "Name": "Grey Knights",
+      "FactionKeyword": "Grey Knights",
+      "Category": "Imperium",
+      "MainColor": "#5E6A78",
+      "DarkColor": "#A3B0BE"
+    },
+    {
+      "Name": "Imperial Knights",
+      "FactionKeyword": "Imperial Knights",
+      "Category": "Imperium",
+      "MainColor": "#1F4E79",
+      "DarkColor": "#5F8FBF"
+    },
+    {
+      "Name": "Black Templars",
+      "FactionKeyword": "Black Templars",
+      "Category": "Imperium",
+      "MainColor": "#2A2A2A",
+      "DarkColor": "#8A8A8A",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Blood Angels",
+      "FactionKeyword": "Blood Angels",
+      "Category": "Imperium",
+      "MainColor": "#9B1B1B",
+      "DarkColor": "#D45555",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Dark Angels",
+      "FactionKeyword": "Dark Angels",
+      "Category": "Imperium",
+      "MainColor": "#1E4D2B",
+      "DarkColor": "#5E9D6B",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Deathwatch",
+      "FactionKeyword": "Deathwatch",
+      "Category": "Imperium",
+      "MainColor": "#303436",
+      "DarkColor": "#8C9496",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Imperial Fists",
+      "FactionKeyword": "Imperial Fists",
+      "Category": "Imperium",
+      "MainColor": "#B8961A",
+      "DarkColor": "#E0C450",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Iron Hands",
+      "FactionKeyword": "Iron Hands",
+      "Category": "Imperium",
+      "MainColor": "#3A3A3A",
+      "DarkColor": "#9A9A9A",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Raven Guard",
+      "FactionKeyword": "Raven Guard",
+      "Category": "Imperium",
+      "MainColor": "#26262B",
+      "DarkColor": "#85858F",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Salamanders",
+      "FactionKeyword": "Salamanders",
+      "Category": "Imperium",
+      "MainColor": "#1F6B2E",
+      "DarkColor": "#5FAF6E",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Space Wolves",
+      "FactionKeyword": "Space Wolves",
+      "Category": "Imperium",
+      "MainColor": "#5B7487",
+      "DarkColor": "#9CB4C7",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Ultramarines",
+      "FactionKeyword": "Ultramarines",
+      "Category": "Imperium",
+      "MainColor": "#16397A",
+      "DarkColor": "#5679BA",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "White Scars",
+      "FactionKeyword": "White Scars",
+      "Category": "Imperium",
+      "MainColor": "#7A1F1F",
+      "DarkColor": "#C2C2C2",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
+    },
+    {
+      "Name": "Chaos Space Marines",
+      "FactionKeyword": "Heretic Astartes",
+      "Category": "Chaos",
+      "MainColor": "#5A1414",
+      "DarkColor": "#A65050"
+    },
+    {
+      "Name": "Chaos Daemons",
+      "FactionKeyword": "Legiones Daemonica",
+      "Category": "Chaos",
+      "MainColor": "#6B1F4A",
+      "DarkColor": "#B05F8A"
+    },
+    {
+      "Name": "Chaos Knights",
+      "FactionKeyword": "Chaos Knights",
+      "Category": "Chaos",
+      "MainColor": "#3B2F2F",
+      "DarkColor": "#9A7E7E"
+    },
+    {
+      "Name": "Death Guard",
+      "FactionKeyword": "Death Guard",
+      "Category": "Chaos",
+      "MainColor": "#5E6B2A",
+      "DarkColor": "#A0AE66"
+    },
+    {
+      "Name": "Emperor's Children",
+      "FactionKeyword": "Emperor's Children",
+      "Category": "Chaos",
+      "MainColor": "#6A2C7A",
+      "DarkColor": "#B06CC0"
+    },
+    {
+      "Name": "Thousand Sons",
+      "FactionKeyword": "Thousand Sons",
+      "Category": "Chaos",
+      "MainColor": "#1F5A8A",
+      "DarkColor": "#D4AF37"
+    },
+    {
+      "Name": "World Eaters",
+      "FactionKeyword": "World Eaters",
+      "Category": "Chaos",
+      "MainColor": "#8A1E1E",
+      "DarkColor": "#C8C8C8"
+    },
+    {
+      "Name": "Aeldari",
+      "FactionKeyword": "Asuryani",
+      "Category": "Xenos",
+      "MainColor": "#1E6E6E",
+      "DarkColor": "#5EB0B0"
+    },
+    {
+      "Name": "Drukhari",
+      "FactionKeyword": "Drukhari",
+      "Category": "Xenos",
+      "MainColor": "#2A4A3A",
+      "DarkColor": "#6E9A84"
+    },
+    {
+      "Name": "Leagues of Votann",
+      "FactionKeyword": "Leagues of Votann",
+      "Category": "Xenos",
+      "MainColor": "#8A5A1E",
+      "DarkColor": "#C89A5E"
+    },
+    {
+      "Name": "Necrons",
+      "FactionKeyword": "Necrons",
+      "Category": "Xenos",
+      "MainColor": "#1E6B2A",
+      "DarkColor": "#5EC06E"
+    },
+    {
+      "Name": "Orks",
+      "FactionKeyword": "Orks",
+      "Category": "Xenos",
+      "MainColor": "#3F6B1E",
+      "DarkColor": "#7FAF5E"
+    },
+    {
+      "Name": "T'au Empire",
+      "FactionKeyword": "T'au Empire",
+      "Category": "Xenos",
+      "MainColor": "#B86A1E",
+      "DarkColor": "#E0A060"
     }
   ],
   "CoreAbilities": [
@@ -77,7 +360,7 @@
       "Description": "This unit can be set up using the current Deep Strike core rules."
     },
     {
-      "Regex": "^Feel No Pain(?: \\d\\+)?$",
+      "Regex": "^Feel No Pain(?: \\d\\+\\*?)?$",
       "Description": "This unit has a Feel No Pain ability; see its datasheet for the required roll."
     },
     {
@@ -119,6 +402,18 @@
     {
       "Regex": "^Infiltrators$",
       "Description": "This unit can deploy using the current Infiltrators core rule."
+    },
+    {
+      "Regex": "^Hover$",
+      "Description": "This model can use the current Hover rules."
+    },
+    {
+      "Regex": "^Super-Heavy Walker$",
+      "Description": "This model uses the current Super-Heavy Walker movement rules."
+    },
+    {
+      "Regex": "^Damaged(?: \\d+)?$",
+      "Description": "While this model has the number of wounds remaining shown or fewer, apply the Damaged penalties on its datasheet."
     }
   ],
   "WeaponAbilities": [
@@ -127,12 +422,12 @@
       "Description": "Apply the current Twin-linked weapon rule."
     },
     {
-      "Regex": "^Rapid Fire \\d+$",
+      "Regex": "^Rapid Fire (?:\\d+|D3|D6)(?:\\+\\d+)?$",
       "Description": "Apply the current Rapid Fire rule using the value shown."
     },
     {
-      "Regex": "^Blast$",
-      "Description": "Apply the current Blast weapon rule."
+      "Regex": "^Blast(?: \\d+)?$",
+      "Description": "Apply the current Blast weapon rule, using the value shown if there is one."
     },
     {
       "Regex": "^Indirect Fire$",
@@ -143,7 +438,7 @@
       "Description": "Apply the current Pistol weapon rule."
     },
     {
-      "Regex": "^Anti-(?:Vehicle|Infantry|Psyker|Monster|Fly) \\d\\+$",
+      "Regex": "^Anti-[A-Za-z' /-]+ \\d\\+$",
       "Description": "Apply the current Anti-keyword rule against the named target keyword using the value shown."
     },
     {
@@ -191,11 +486,11 @@
       "Description": "Apply the current Extra Attacks weapon rule."
     },
     {
-      "Regex": "^Sustained Hits \\d+$",
+      "Regex": "^Sustained Hits (?:\\d+|D3|D6)$",
       "Description": "Apply the current Sustained Hits weapon rule."
     },
     {
-      "Regex": "^Melta \\d+$",
+      "Regex": "^Melta (?:\\d+|D3|D6)$",
       "Description": "Apply the current Melta weapon rule."
     },
     {
@@ -205,6 +500,22 @@
     {
       "Regex": "^Plasma Warhead$",
       "Description": "The bearer can shoot this weapon only in its Shooting phase after Remaining Stationary, and not in a phase in which it used Deathstrike Missile to Designate or Adjust its target. Resolve its attacks separately against every unit within 6\" of the centre of its Deathstrike Target marker."
+    },
+    {
+      "Regex": "^(?:Lethal Hits|Devastating Wounds|Sustained Hits (?:\\d+|D3|D6)): [A-Za-z' /-]+$",
+      "Description": "Apply the named weapon rule only against targets matching the condition shown."
+    },
+    {
+      "Regex": "^Close-quarters$",
+      "Description": "Apply the current Close-quarters weapon rule."
+    },
+    {
+      "Regex": "^Cleave \\d+$",
+      "Description": "Apply the current Cleave weapon rule using the value shown."
+    },
+    {
+      "Regex": "^(?:Conversion|Hooked|Linked Fire|Overcharge|Psychic Assassin|Reverberating Summons)$",
+      "Description": "A faction weapon ability; see the faction's datasheet or army rules."
     }
   ],
   "CoreStratagems": [
