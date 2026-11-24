@@ -3776,7 +3776,20 @@
           "ModelCount": 1,
           "Cost": 40
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN INSIDIANTS",
+          "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD",
+          "SISTERS NOVITIATE SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      }
     },
     {
       "Id": "DOGMATA",
@@ -3962,7 +3975,19 @@
           "ModelCount": 1,
           "Cost": 45
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN INSIDIANTS",
+          "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      }
     },
     {
       "Id": "DOMINION SQUAD",
@@ -5193,7 +5218,20 @@
           "ModelCount": 1,
           "Cost": 75
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN INSIDIANTS",
+          "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD",
+          "SISTERS NOVITIATE SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      }
     },
     {
       "Id": "IMAGIFIER",
@@ -5412,7 +5450,19 @@
           "ModelCount": 1,
           "Cost": 55
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN INSIDIANTS",
+          "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      }
     },
     {
       "Id": "IMMOLATOR",
@@ -6978,7 +7028,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise 1"
+        "Deadly Demise 1",
+        "Leader"
       ],
       "FactionKeywords": [
         "Adepta Sororitas"
@@ -7202,7 +7253,13 @@
           "ModelCount": 1,
           "Cost": 215
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "PARAGON WARSUITS"
+        ],
+        "Features": 0
+      }
     },
     {
       "Id": "PALATINE",
