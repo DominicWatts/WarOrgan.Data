@@ -101,15 +101,17 @@
         "Imperium",
         "Transport",
         "Corvus Blackstar",
-        "Adeptus Astartes",
         "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
         "Deadly Demise D6",
-        "Stealth"
+        "Hover",
+        "Stealth",
+        "Damaged 5"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Deathwatch"
       ],
       "StatLines": [
@@ -622,13 +624,13 @@
         "Infantry",
         "Battleline",
         "Imperium",
-        "Adeptus Astartes",
         "Kill Team",
         "Deathwatch Veterans",
         "Explosives"
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Deathwatch"
       ],
       "StatLines": [
@@ -1395,7 +1397,6 @@
       "Keywords": [
         "Infantry",
         "Imperium",
-        "Adeptus Astartes",
         "Tacticus",
         "Kill Team",
         "Explosives",
@@ -1404,6 +1405,7 @@
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Deathwatch"
       ],
       "StatLines": [
@@ -2243,13 +2245,13 @@
         "Grenades",
         "Imperium",
         "Gravis",
-        "Adeptus Astartes",
         "Kill Team",
         "Indomitor Kill Team",
         "Other Datasheets"
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Deathwatch"
       ],
       "StatLines": [
@@ -2875,7 +2877,6 @@
         "Imperium",
         "Smoke",
         "Kill Team",
-        "Adeptus Astartes",
         "Phobos",
         "Explosives",
         "Spectrus Kill Team",
@@ -2886,6 +2887,7 @@
         "Infiltrators"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Deathwatch"
       ],
       "StatLines": [
@@ -3375,7 +3377,6 @@
         "Infantry",
         "Imperium",
         "Watch Captain Artemis",
-        "Adeptus Astartes",
         "Captain",
         "Explosives",
         "Kill Team"
@@ -3386,6 +3387,7 @@
         "Feel No Pain 6+"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Deathwatch"
       ],
       "StatLines": [
@@ -3568,7 +3570,6 @@
         "Captain",
         "Imperium",
         "Watch Master",
-        "Adeptus Astartes",
         "Explosives",
         "Kill Team"
       ],
@@ -3577,6 +3578,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Deathwatch"
       ],
       "StatLines": [
