@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Adeptus Custodes",
+      "FactionKeyword": "Adeptus Custodes",
+      "Category": "Imperium",
+      "MainColor": "#A8812A",
+      "DarkColor": "#D9B45C"
     }
   ],
   "CoreAbilities": [
