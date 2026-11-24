@@ -282,6 +282,13 @@
       "Category": "Chaos",
       "MainColor": "#3B2F2F",
       "DarkColor": "#9A7E7E"
+    },
+    {
+      "Name": "Death Guard",
+      "FactionKeyword": "Death Guard",
+      "Category": "Chaos",
+      "MainColor": "#5E6B2A",
+      "DarkColor": "#A0AE66"
     }
   ],
   "CoreAbilities": [
