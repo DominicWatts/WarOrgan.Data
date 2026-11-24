@@ -4508,7 +4508,7 @@
                     ]
                   },
                   {
-                    "Max": 1,
+                    "Max": 2,
                     "Replaces": [
                       "lasgun"
                     ],
@@ -5583,7 +5583,20 @@
           "ModelCount": 20,
           "Cost": 145
         }
-      ]
+      ],
+      "AttachedUnitInfo": {
+        "MaxLeaders": [
+          {
+            "MaxLeaderOverride": 2,
+            "PreventDuplicates": [
+              "CADIAN COMMAND SQUAD",
+              "CATACHAN COMMAND SQUAD",
+              "KRIEG COMMAND SQUAD",
+              "MILITARUM TEMPESTUS COMMAND SQUAD"
+            ]
+          }
+        ]
+      }
     },
     {
       "Id": "CATACHAN COMMAND SQUAD",
@@ -7174,7 +7187,20 @@
           "ModelCount": 20,
           "Cost": 135
         }
-      ]
+      ],
+      "AttachedUnitInfo": {
+        "MaxLeaders": [
+          {
+            "MaxLeaderOverride": 2,
+            "PreventDuplicates": [
+              "CADIAN COMMAND SQUAD",
+              "CATACHAN COMMAND SQUAD",
+              "KRIEG COMMAND SQUAD",
+              "MILITARUM TEMPESTUS COMMAND SQUAD"
+            ]
+          }
+        ]
+      }
     },
     {
       "Id": "CENTAUR RSV",
@@ -8687,7 +8713,20 @@
           "ModelCount": 20,
           "Cost": 135
         }
-      ]
+      ],
+      "AttachedUnitInfo": {
+        "MaxLeaders": [
+          {
+            "MaxLeaderOverride": 2,
+            "PreventDuplicates": [
+              "CADIAN COMMAND SQUAD",
+              "CATACHAN COMMAND SQUAD",
+              "KRIEG COMMAND SQUAD",
+              "MILITARUM TEMPESTUS COMMAND SQUAD"
+            ]
+          }
+        ]
+      }
     },
     {
       "Id": "DEATH RIDERS",
@@ -14157,7 +14196,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -14744,7 +14796,24 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "demolisher battle cannon",
+            "Cost": 15
+          },
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -15524,7 +15593,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -16072,7 +16154,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -16621,7 +16716,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -17201,7 +17309,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -17749,7 +17870,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -18296,7 +18430,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -23087,7 +23234,7 @@
                 ],
                 "Options": [
                   {
-                    "Max": 5,
+                    "Max": 6,
                     "Replaces": [
                       "slabshield"
                     ],
@@ -23100,7 +23247,7 @@
                     ]
                   },
                   {
-                    "Max": 5,
+                    "Max": 6,
                     "Replaces": [
                       "grenadier gauntlet"
                     ],
@@ -26684,7 +26831,16 @@
           "ModelCount": 1,
           "Cost": 60
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CADIAN COMMAND SQUAD",
+          "CATACHAN COMMAND SQUAD",
+          "KRIEG COMMAND SQUAD",
+          "MILITARUM TEMPESTUS COMMAND SQUAD"
+        ],
+        "LeaderType": "Bodyguard"
+      }
     },
     {
       "Id": "OGRYN BODYGUARD",
@@ -27046,7 +27202,16 @@
           "ModelCount": 1,
           "Cost": 40
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CADIAN COMMAND SQUAD",
+          "CATACHAN COMMAND SQUAD",
+          "KRIEG COMMAND SQUAD",
+          "MILITARUM TEMPESTUS COMMAND SQUAD"
+        ],
+        "LeaderType": "Bodyguard"
+      }
     },
     {
       "Id": "OGRYN SQUAD",
@@ -29365,7 +29530,20 @@
           "ModelCount": 10,
           "Cost": 160
         }
-      ]
+      ],
+      "AttachedUnitInfo": {
+        "MaxLeaders": [
+          {
+            "MaxLeaderOverride": 2,
+            "PreventDuplicates": [
+              "CADIAN COMMAND SQUAD",
+              "CATACHAN COMMAND SQUAD",
+              "KRIEG COMMAND SQUAD",
+              "MILITARUM TEMPESTUS COMMAND SQUAD"
+            ]
+          }
+        ]
+      }
     },
     {
       "Id": "URSULA CREED",
