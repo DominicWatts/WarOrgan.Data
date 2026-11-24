@@ -114,7 +114,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1005,7 +1007,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -3296,7 +3300,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
         "Features": 0
       },
       "Infos": [],
