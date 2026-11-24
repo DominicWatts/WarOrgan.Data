@@ -484,7 +484,7 @@
         },
         {
           "Title": "DS8 Support Turret",
-          "Text": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token next to this unit to remind you."
+          "Text": "If this unit Remains Stationary in your Movement phase, its Shas’ui gains the support turret weapon until your next turn starts."
         },
         {
           "Title": "Marker Drone",
