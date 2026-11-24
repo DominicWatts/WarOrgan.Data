@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Chaos Daemons",
+      "FactionKeyword": "Legiones Daemonica",
+      "Category": "Chaos",
+      "MainColor": "#6B1F4A",
+      "DarkColor": "#B05F8A"
     }
   ],
   "CoreAbilities": [
