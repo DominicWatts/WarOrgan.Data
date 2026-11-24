@@ -2,12 +2,12 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.9.0
+## Coverage in 1.5.11.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Invulnerable saves are given as an Inv characteristic and as an ability on each unit that has one.
-- Astra Militarum: a full faction. The 51 non-AIRCRAFT datasheets available to Genestealer Cults as Brood Brother Auxilia allies are checked against Wahapedia. The other 21 datasheets, 61 Legends, 11 detachments, 34 enhancements and the Voice of Command army rule are an unchecked BSData draft, with points for the Hippogriff AFV and the Legends weapon batteries taken from Wahapedia. Hell's Last is left out because it has no 11th Edition datasheet.
-- Tyranids: a full faction. The 14 Vanguard Invader datasheets used as Final Day allies are checked against Wahapedia: Winged Tyranid Prime, Gargoyles, Raveners, Hyperadapted Raveners, Lictor, Neurolictor, Von Ryan's Leapers, Mawloc, Trygon, Tyrannocyte, Winged Hive Tyrant, Deathleaper, The Red Terror and Parasite of Mortrex. Deathleaper cannot be your Warlord. The one-per-army limit for Epic Heroes is not enforced. The other 38 datasheets, 5 Legends, 10 detachments, 34 enhancements and the army rules are an unchecked BSData draft, with points for Carnifexes and Mucolid Spores taken from Wahapedia. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
+- Astra Militarum: a full faction. The 51 Brood Brother Auxilia ally datasheets are checked against Wahapedia. This build includes further main-roster and Legends corrections, plus Hell’s Last and Vendetta Gunship. Astra Militarum sign-off is pending WarOrgan testing of composition and wargear.
+- Tyranids: the standalone roster, Legends and 14 Final Day Vanguard Invader allies have completed Wahapedia, manual wargear and WarOrgan smoke checks. The three checker notes are two intentionally empty spore loadouts and a source punctuation difference. Deathleaper cannot be your Warlord. The one-per-army limit for Epic Heroes is not enforced. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
 - Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets, and allies under Allied Units.

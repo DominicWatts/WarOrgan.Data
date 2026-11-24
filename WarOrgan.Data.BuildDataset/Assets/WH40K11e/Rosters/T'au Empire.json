@@ -423,11 +423,6 @@
                         "Items": [
                           "guardian drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -489,7 +484,7 @@
         },
         {
           "Title": "DS8 Support Turret",
-          "Text": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token next to this unit to remind you."
+          "Text": "If this unit Remains Stationary in your Movement phase, its Shas’ui gains the support turret weapon until your next turn starts."
         },
         {
           "Title": "Marker Drone",
@@ -559,37 +554,6 @@
           "Id": "RANGED WEAPONS",
           "DisplayName": "Ranged Weapons",
           "Weapons": [
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
-                }
-              ]
-            },
             {
               "Id": "pulse blaster",
               "DisplayName": "Pulse blaster",
@@ -840,11 +804,6 @@
                       },
                       {
                         "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
                           "missile pod"
                         ]
                       }
@@ -884,7 +843,7 @@
           },
           {
             "Limit": {
-              "Min": 1,
+              "Min": 0,
               "Max": 2
             },
             "ModelName": "Broadside Shas’ui",
@@ -980,14 +939,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -1020,6 +971,11 @@
             "GrantsAbilities": [
               "Weapon Support System"
             ]
+          },
+          {
+            "Key": "high-yield missile pods",
+            "DisplayName": "High-yield missile pods",
+            "Cost": 5
           }
         ]
       },
@@ -1039,10 +995,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -1366,6 +1318,11 @@
       "Points": [
         {
           "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 75
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 2,
           "Cost": 150
         },
@@ -1376,6 +1333,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 75
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 2,
           "Cost": 150
         },
@@ -1383,6 +1345,11 @@
           "UnitCount": 2,
           "ModelCount": 3,
           "Cost": 255
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 95
         },
         {
           "UnitCount": 3,
@@ -1434,16 +1401,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -1453,14 +1410,6 @@
           }
         ],
         "WargearDefinitions": [
-          {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
           {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
@@ -1503,10 +1452,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "LeaderInfo": {
@@ -1596,37 +1541,6 @@
                 {
                   "Id": "AP",
                   "Value": "0"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
                 },
                 {
                   "Id": "D",
@@ -1753,12 +1667,15 @@
         },
         {
           "Title": "Puretide's Teachings",
-          "Text": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+          "Text": "Once per battle round, you can target this model’s unit with a Stratagem. Reduce the CP cost of that use by 1CP."
+        },
+        {
+          "Title": "Independent Power",
+          "Text": "Your army cannot include both Commander Farsight and an ETHEREAL unit."
         }
       ],
       "LeaderInfo": {
         "UnitNames": [
-          "CRISIS BATTLESUITS",
           "CRISIS FIREKNIFE BATTLESUITS",
           "CRISIS STARSCYTHE BATTLESUITS",
           "CRISIS SUNFORGE BATTLESUITS"
@@ -2066,16 +1983,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -2091,14 +1998,6 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Battlesuit Support System"
-            ]
-          },
-          {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
             ]
           },
           {
@@ -2187,15 +2086,10 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "LeaderInfo": {
         "UnitNames": [
-          "CRISIS BATTLESUITS",
           "CRISIS FIREKNIFE BATTLESUITS",
           "CRISIS STARSCYTHE BATTLESUITS",
           "CRISIS SUNFORGE BATTLESUITS"
@@ -2715,16 +2609,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -2740,14 +2624,6 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Battlesuit Support System"
-            ]
-          },
-          {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
             ]
           },
           {
@@ -2816,15 +2692,10 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "LeaderInfo": {
         "UnitNames": [
-          "CRISIS BATTLESUITS",
           "CRISIS FIREKNIFE BATTLESUITS",
           "CRISIS STARSCYTHE BATTLESUITS",
           "CRISIS SUNFORGE BATTLESUITS"
@@ -3568,16 +3439,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   },
@@ -3634,11 +3495,6 @@
                       },
                       {
                         "Items": [
-                          "missile pod"
-                        ]
-                      },
-                      {
-                        "Items": [
                           "marker drone"
                         ]
                       },
@@ -3655,14 +3511,6 @@
           }
         ],
         "WargearDefinitions": [
-          {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
           {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
@@ -3702,10 +3550,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -3971,16 +3815,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   },
@@ -4037,11 +3871,6 @@
                       },
                       {
                         "Items": [
-                          "missile pod"
-                        ]
-                      },
-                      {
-                        "Items": [
                           "marker drone"
                         ]
                       },
@@ -4058,14 +3887,6 @@
           }
         ],
         "WargearDefinitions": [
-          {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
           {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
@@ -4105,10 +3926,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -4197,37 +4014,6 @@
                 {
                   "Id": "D",
                   "Value": "1"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
                 }
               ]
             },
@@ -4393,16 +4179,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   },
@@ -4446,11 +4222,6 @@
                       },
                       {
                         "Items": [
-                          "missile pod"
-                        ]
-                      },
-                      {
-                        "Items": [
                           "marker drone"
                         ]
                       },
@@ -4467,14 +4238,6 @@
           }
         ],
         "WargearDefinitions": [
-          {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
           {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
@@ -4514,10 +4277,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -4612,37 +4371,6 @@
                 {
                   "Id": "D",
                   "Value": "D6"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
                 }
               ]
             },
@@ -5278,16 +5006,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -5297,14 +5015,6 @@
           }
         ],
         "WargearDefinitions": [
-          {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
           {
             "Key": "hover drone",
             "DisplayName": "Hover Drone",
@@ -5363,10 +5073,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "LeaderInfo": {
@@ -5435,37 +5141,6 @@
           "Id": "RANGED WEAPONS",
           "DisplayName": "Ranged Weapons",
           "Weapons": [
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
-                }
-              ]
-            },
             {
               "Id": "twin pulse carbine",
               "DisplayName": "Twin pulse carbine",
@@ -6638,25 +6313,22 @@
                   "close combat weapon",
                   "kroot rifle"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 19
-            },
-            "ModelName": "Kroot Carnivore",
-            "StatlineRef": "Kroot Carnivores",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "tanglebomb launcher",
-                  "close combat weapon"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 2,
+                    "PerXModels": 9,
+                    "Replaces": [
+                      "kroot rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "tanglebomb launcher"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -6903,11 +6575,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 19,
-          "Cost": 130
+          "ModelCount": 10,
+          "Cost": 65
         },
         {
-          "ModelCount": 39,
+          "ModelCount": 20,
           "Cost": 130
         }
       ]
@@ -8959,6 +8631,10 @@
           "Cost": 45
         },
         {
+          "ModelCount": 2,
+          "Cost": 60
+        },
+        {
           "ModelCount": 3,
           "Cost": 90
         }
@@ -9403,16 +9079,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   },
@@ -9518,14 +9184,6 @@
             ]
           },
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -9583,10 +9241,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -9737,37 +9391,6 @@
                 {
                   "Id": "D",
                   "Value": "1"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
                 }
               ]
             },
@@ -10328,6 +9951,11 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 110
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 3,
           "Cost": 165
         },
@@ -10338,6 +9966,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 110
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 3,
           "Cost": 165
         },
@@ -10345,6 +9978,11 @@
           "UnitCount": 3,
           "ModelCount": 1,
           "Cost": 75
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 2,
+          "Cost": 120
         },
         {
           "UnitCount": 3,
@@ -11437,31 +11075,21 @@
                     ]
                   },
                   {
-                    "Max": 2,
+                    "Max": 1,
                     "Options": [
-                      {
-                        "Items": [
-                          "twin pulse carbine"
-                        ]
-                      },
                       {
                         "Items": [
                           "marker drone"
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
                       {
                         "Items": [
-                          "shield drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
+                          "twin pulse carbine"
                         ]
                       }
                     ]
@@ -11525,14 +11153,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "homing beacon",
             "DisplayName": "Homing beacon",
             "Cost": 0,
@@ -11578,10 +11198,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -11702,37 +11318,6 @@
                 {
                   "Id": "D",
                   "Value": "D6"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
                 }
               ]
             },
@@ -12395,11 +11980,6 @@
                         "Items": [
                           "guardian drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -12545,37 +12125,6 @@
           "Id": "RANGED WEAPONS",
           "DisplayName": "Ranged Weapons",
           "Weapons": [
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
-                }
-              ]
-            },
             {
               "Id": "pulse carbine",
               "DisplayName": "Pulse carbine",
@@ -14403,6 +13952,14 @@
             "Cost": 20,
             "GrantsAbilities": [
               "Tidewall Defence Platform"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Set",
+                "Scope": "Model",
+                "Value": "15"
+              }
             ]
           }
         ]

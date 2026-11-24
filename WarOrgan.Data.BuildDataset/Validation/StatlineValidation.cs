@@ -51,6 +51,30 @@ public static class StatlineValidation
     {
         unit.Weapons.Select(w => w.Id).ValidateUnique($"{context} weapon sets");
 
+        var weaponIdsAcrossSets = unit.Weapons
+            .SelectMany((weaponSet, setIndex) => weaponSet.Weapons
+                .Where(weapon => !string.IsNullOrWhiteSpace(weapon.Id))
+                .Select(weapon => (WeaponId: weapon.Id, WeaponSetId: weaponSet.Id, weapon.DisplayName, SetIndex: setIndex)))
+            .GroupBy(weapon => weapon.WeaponId, StringComparer.Ordinal)
+            .Where(group => group.Select(weapon => weapon.SetIndex).Distinct().Skip(1).Any());
+
+        foreach (var duplicate in weaponIdsAcrossSets)
+        {
+            var entries = duplicate.ToList();
+            // A ranged and melee profile with one name is the same selectable weapon.
+            var isSharedRangedMeleeProfile = entries.Count == 2
+                && entries.Select(weapon => weapon.WeaponSetId)
+                    .ToHashSet(StringComparer.Ordinal)
+                    .SetEquals(new[] { "RANGED WEAPONS", "MELEE WEAPONS" })
+                && entries.All(weapon => !string.IsNullOrWhiteSpace(weapon.DisplayName))
+                && entries[0].DisplayName == entries[1].DisplayName;
+
+            if (isSharedRangedMeleeProfile)
+                continue;
+
+            LoggingBuffer.Error($"{context}: weapon ID \"{duplicate.Key}\" appears in multiple weapon sets.");
+        }
+
         foreach (var weaponSet in unit.Weapons)
         {
             // Firing modes share an equipment ID so selecting it enables every profile.

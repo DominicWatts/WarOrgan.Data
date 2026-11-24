@@ -18,8 +18,8 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Faction | Branch | Scope | 1 BSData | 2 Wahapedia | 3 Codex 10e | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
-| Tyranids | `faction/tyranids` | Full (allies checked, rest draft) | done | done (allies) | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
-| Astra Militarum | `faction/astra-militarum` | Full (allies checked, rest draft) | done | done (allies) | - | - | 72 + 61 Legends | 11 | 34 | 57/57 added | text only |
+| Tyranids | `faction/tyranids` | Full (Wahapedia checked) | done | done | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
+| Astra Militarum | `faction/astra-militarum` | Full (WarOrgan sign-off pending) | done | partial (allies checked) | - | - | 72 + 63 Legends | 11 | 34 | 57/57 added | text only |
 | Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 38 | 8 | 24 | 36 added (7/8) | text only |
 | Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | 23/23 added | text only |
 | Adeptus Mechanicus | `faction/adeptus-mechanicus` | Draft | done (draft) | - | - | - | 37 | 10 | 33 | 45 added (9/10) | text only |
@@ -69,6 +69,8 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 
 ## Astra Militarum
 
+- 2026-11-24 (1.5.10): added Hell’s Last and Vendetta Gunship and reviewed main and Legends wargear. WarOrgan sign-off is pending for the Grenadier Squad, the Tempestus loadouts, the Ratlings options and the 51-unit ally list.
+
 - Allied datasheets for Brood Brother Auxilia only. Cadian Shock Troops pilot matched the November BSData dump on 2026-11-23.
 - 2026-11-23 trial: the BSData importer drafted 52 units; the Wahapedia check matched 16 with no differences and listed 93 notes for the rest, including Orders missing from six officers.
 - 2026-11-23: expanded the roster to 15 infantry and mounted datasheets. All 15 match Wahapedia for profiles, abilities, points, composition, starting equipment, leaders and keywords; wargear options were checked manually. The batch adds Artillery Team, Attilan Rough Riders, Cadian Castellan, both Heavy Weapons Squads, Cadian Recon Squad, Catachan Jungle Fighters, Death Korps of Krieg, Death Riders, Field Ordnance Battery, Kasrkin, Krieg Combat Engineers, Krieg Heavy Weapons Squad and Primaris Psyker alongside Cadian Shock Troops.
@@ -76,6 +78,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 - 2026-11-23: completed all 51 non-AIRCRAFT datasheets eligible for Brood Brother Auxilia. The final 33 add the transports, Sentinels, artillery vehicles, Leman Russ and Rogal Dorn variants, super-heavy tanks, Aegis Defence Line and Cyclops Demolition Vehicle. All wargear options were checked manually; the Wahapedia ally-page check reports 48 exact matches and only the expected command-squad aggregation, Cyclops empty-loadout and excluded Valkyrie notes.
 
 - 2026-11-24 (1.5.2): filled to a full faction from BSData: 21 more datasheets, 61 Legends, 11 detachments, 34 enhancements and the Voice of Command army rule. The 51 allied datasheets were kept unchanged. Hippogriff AFV and Legends weapon battery points came from Wahapedia. Hell's Last (Legends) is left out: Wahapedia has no 11th Edition datasheet for it. Brood Brother Auxilia now lists the 51 eligible datasheets by ID, so the new units (including Ratlings, the Valkyrie and the Legends units, which the keyword filter missed) are not offered to Genestealer Cults.
+- 2026-11-24 (1.5.11, issue 8): two Leaders for Cadian Shock Troops, Catachan Jungle Fighters, Death Korps of Krieg and Tempestus Scions (at most one Command Squad); Wahapedia wargear costs on every Leman Russ (+5 per lascannon, including the hull lascannon, multi-melta and plasma cannon; +15 demolisher battle cannon on the Commander); Recon Squads can take two long-las (the datasheet makes the second an alternative to the missile team, which WarOrgan cannot express); Bullgryn wargear swaps cover all six models; Ogryn Bodyguard and Nork Deddog join a Command Squad as Bodyguard-type leaders. Orders text for the Commissars, Dreir, Leontus, Creed and the Tempestus Command Squad was already added in 1.5.10.
 ## BSData drafts
 
 - 2026-11-24 (1.5.0): 31 factions drafted with `WarOrgan.Data.BsdataImport` from the pinned dump and merged unchecked. Chapters are their own factions with the Space Marines roster included (`IsIncludedInPrimaryRoster`); each chapter roster also repeats the generic Space Marine detachments, because BSData lists them for every chapter.

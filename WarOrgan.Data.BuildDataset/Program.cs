@@ -3,7 +3,7 @@ using WarOrgan.Data.BuildDataset.Validation;
 using WarOrgan.Model.DataSet;
 
 var defaultDatasetId = "DominicWatts-WH40K11e";
-var defaultVersion = new Version(1, 5, 9, 0);
+var defaultVersion = new Version(1, 5, 11, 0);
 var defaultBuildDirectory = AppContext.BaseDirectory;
 
 var datasetInfo = new DataSetInfo(

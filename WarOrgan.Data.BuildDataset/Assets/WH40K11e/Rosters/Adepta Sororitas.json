@@ -74,7 +74,8 @@
       "Infos": [],
       "Keywords": [
         "Epic Hero",
-        "Aestred Thurga and Agathae Dolan",
+        "Aestred Thurga",
+        "Agathae Dolan",
         "Character",
         "Imperium",
         "Grenades",
@@ -421,7 +422,7 @@
         },
         {
           "ModelCount": 10,
-          "Cost": 50
+          "Cost": 140
         }
       ]
     },
@@ -651,7 +652,7 @@
         },
         {
           "Title": "Defenders of the Faith",
-          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until the end of a phase in which your opponent has a higher Level of Control over it."
         },
         {
           "Title": "Cherub",
@@ -1426,7 +1427,7 @@
         "Infantry",
         "Grenades",
         "Canoness",
-        "Sororitas Character"
+        "Imperium"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -1836,15 +1837,11 @@
         },
         {
           "Title": "Divine Deliverance",
-          "Text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by the model and those weapons have the [DEVASTATING WOUNDS] ability"
+          "Text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability"
         },
         {
           "Title": "Sacred Command",
           "Text": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
-        },
-        {
-          "Title": "Condemnatory Psalms",
-          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is condemned:\n- While a unit is condemned, that unit has +3\" detection range."
         }
       ],
       "LeaderInfo": {
@@ -2457,7 +2454,7 @@
               "Min": 9,
               "Max": 9
             },
-            "ModelName": "Insidiant",
+            "ModelName": "Celestian Insidiants",
             "StatlineRef": "Celestian Insidiants",
             "Keywords": [],
             "Wargear": [
@@ -2566,7 +2563,7 @@
         },
         {
           "Title": "Virtue of Intolerance",
-          "Text": "At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the [PRECISION] ability and you can re‑roll the Hit roll. This ability can be used even if this unit is embarked within a TRANSPORT."
+          "Text": "At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the [PRECISION] ability and you can re-roll the Hit roll. This ability can be used even if this unit is embarked within a TRANSPORT."
         },
         {
           "Title": "Attached Unit",
@@ -2922,34 +2919,30 @@
               "Min": 4,
               "Max": 9
             },
-            "ModelName": "Celestian Sacresant (Anointed Halberd)",
+            "ModelName": "Celestian Sacresant",
             "StatlineRef": "Celestian Sacresant",
             "Keywords": [],
             "Wargear": [
               {
                 "InitialWargear": [
-                  "anointed halberd",
-                  "bolt pistol"
+                  "bolt pistol",
+                  "hallowed mace"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Celestian Sacresant (Hallowed Mace)",
-            "StatlineRef": "Celestian Sacresant",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "hallowed mace",
-                  "bolt pistol"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "hallowed mace"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "anointed halberd"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -3294,32 +3287,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 9,
-          "Cost": 150
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
           "UnitCount": 1,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 150
         },
         {
           "UnitCount": 2,
-          "ModelCount": 9,
-          "Cost": 150
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
           "UnitCount": 2,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 150
         },
         {
           "UnitCount": 3,
-          "ModelCount": 9,
-          "Cost": 160
+          "ModelCount": 5,
+          "Cost": 85
         },
         {
           "UnitCount": 3,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 160
         }
       ]
@@ -3379,7 +3372,7 @@
         },
         {
           "Title": "Mysterious Saviours",
-          "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is ‑1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
+          "Text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 **CP**.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
         }
       ],
       "Infos": [],
@@ -3556,7 +3549,7 @@
             },
             {
               "Id": "the outcast's blades",
-              "DisplayName": "The Outcast's Blades",
+              "DisplayName": "The Outcast’s Weapons",
               "Keywords": "Precision",
               "Flags": "None",
               "Stats": [
@@ -3635,7 +3628,7 @@
         },
         {
           "Title": "Stirring Rhetoric",
-          "Text": "While this model is leading a unit, each time that unit performs an Act of Faith, the value of one of the Miracle dice used in that Act of Faith is first changed to a 6."
+          "Text": "While this model is leading a unit, each time this model’s unit performs an Act of Faith, the value of one of the Miracle dice used in that Act of Faith is first changed to a 6."
         },
         {
           "Title": "Support",
@@ -3780,7 +3773,20 @@
           "ModelCount": 1,
           "Cost": 40
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN INSIDIANTS",
+          "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD",
+          "SISTERS NOVITIATE SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      }
     },
     {
       "Id": "DOGMATA",
@@ -3966,7 +3972,19 @@
           "ModelCount": 1,
           "Cost": 45
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN INSIDIANTS",
+          "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      }
     },
     {
       "Id": "DOMINION SQUAD",
@@ -4288,7 +4306,7 @@
             {
               "Id": "boltgun",
               "DisplayName": "Boltgun",
-              "Keywords": "Rapid Fire 1",
+              "Keywords": "Assault, Rapid Fire 1",
               "Flags": "None",
               "Stats": [
                 {
@@ -4757,7 +4775,7 @@
         },
         {
           "Title": "Devastating Refrain",
-          "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, the model's Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of a 6."
+          "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of a 6."
         }
       ],
       "Infos": [],
@@ -5046,7 +5064,7 @@
         },
         {
           "Title": "Sacred Healing",
-          "Text": "While this model is leading a unit, in your Command phase, you can return up to 1 destroyed model (excluding Character models) to that unit. If you wish, you first discard 1 Miracle dice; if you do, you can return up to D3+1 destroyed models (excluding Character models) to that unit instead."
+          "Text": "While this model is leading a unit, in your Command phase, you can return up to 1 destroyed model (excluding Character models) to that unit. If you wish, you can first discard 1 Miracle dice; if you do, you can return up to D3+1 destroyed models (excluding Character models) to that unit instead."
         },
         {
           "Title": "Support",
@@ -5153,7 +5171,7 @@
           "Weapons": [
             {
               "Id": "chirugeon's tools",
-              "DisplayName": "Chirugeon's tools",
+              "DisplayName": "Chirurgeon's tools",
               "Flags": "None",
               "Stats": [
                 {
@@ -5197,7 +5215,20 @@
           "ModelCount": 1,
           "Cost": 75
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN INSIDIANTS",
+          "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD",
+          "SISTERS NOVITIATE SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      }
     },
     {
       "Id": "IMAGIFIER",
@@ -5416,7 +5447,19 @@
           "ModelCount": 1,
           "Cost": 55
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CELESTIAN INSIDIANTS",
+          "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
+          "RETRIBUTOR SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      }
     },
     {
       "Id": "IMMOLATOR",
@@ -5814,7 +5857,7 @@
         },
         {
           "Title": "Righteous Denunciation",
-          "Text": "At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle‑shock test, subtracting 1 from that test."
+          "Text": "At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle-shock test, subtracting 1 from that test."
         },
         {
           "Title": "Judged for Execution",
@@ -6096,7 +6139,7 @@
         },
         {
           "Title": "The Pulpit of Saint Holline’s Basilica",
-          "Text": "- This unit has Stealth.\n- Melee attacks that target this unit have ‑1 to hit rolls."
+          "Text": "- This unit has Stealth.\n- Melee attacks that target this unit have -1 to hit rolls."
         },
         {
           "Title": "Fiery Conviction",
@@ -6128,7 +6171,6 @@
       "CoreAbilities": [
         "Invulnerable Save",
         "Deadly Demise 1",
-        "Stealth",
         "Leader"
       ],
       "FactionKeywords": [
@@ -6644,7 +6686,7 @@
         },
         {
           "Title": "Anguish of the Unredeemed",
-          "Text": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after attacking unit has finished making its attacks, and is then removed from play."
+          "Text": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
         },
         {
           "Title": "Anchorite Sarcophagus",
@@ -6968,6 +7010,10 @@
         {
           "Title": "Righteous Repugnance",
           "Text": "Each time this model's unit is selected to shoot or fight, you can discard 1 Miracle dice. If you do, until the end of the phase, add 3 to the Attacks characteristic of Fidelis and the Lance of Illumination. Each time an enemy unit is destroyed by this model, you gain 1 Miracle dice."
+        },
+        {
+          "Title": "Supreme Commander",
+          "Text": "If this model is in your army, it must be your Warlord."
         }
       ],
       "Infos": [],
@@ -6982,7 +7028,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise 1"
+        "Deadly Demise 1",
+        "Leader"
       ],
       "FactionKeywords": [
         "Adepta Sororitas"
@@ -7206,7 +7253,13 @@
           "ModelCount": 1,
           "Cost": 215
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "PARAGON WARSUITS"
+        ],
+        "Features": 0
+      }
     },
     {
       "Id": "PALATINE",
@@ -7282,8 +7335,7 @@
         "Character",
         "Grenades",
         "Imperium",
-        "Palatine",
-        "Sororitas Character"
+        "Palatine"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -7353,7 +7405,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "3+"
+                  "Value": "2+"
                 },
                 {
                   "Id": "S",
@@ -7567,7 +7619,7 @@
               "Min": 2,
               "Max": 2
             },
-            "ModelName": "Paragon Warsuit",
+            "ModelName": "Paragons",
             "StatlineRef": "Paragon Warsuits",
             "Keywords": [],
             "Wargear": [
@@ -8333,8 +8385,8 @@
               "Min": 4,
               "Max": 9
             },
-            "ModelName": "Sister Repentia",
-            "StatlineRef": "Sister Repentia",
+            "ModelName": "Sisters Repentia",
+            "StatlineRef": "Sisters Repentia",
             "Keywords": [],
             "Wargear": [
               {
@@ -8376,7 +8428,7 @@
       ],
       "StatLines": [
         {
-          "StatName": "Sister Repentia",
+          "StatName": "Sisters Repentia",
           "Stats": [
             {
               "Id": "M",
@@ -8706,7 +8758,7 @@
         },
         {
           "Title": "Storm of Retribution",
-          "Text": "Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ADEPTA SORORITAS units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well."
+          "Text": "Each time a model in this unit makes a ranged attack, that model can re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ADEPTA SORORITAS units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well."
         }
       ],
       "Infos": [],
@@ -9254,7 +9306,10 @@
             },
             "ModelName": "Saint Celestine",
             "StatlineRef": "Saint Celestine",
-            "Keywords": [],
+            "Keywords": [
+              "Character",
+              "Saint Celestine"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -9317,8 +9372,7 @@
         "Grenades",
         "Imperium",
         "Epic Hero",
-        "Jump Pack",
-        "Other Datasheets"
+        "Jump Pack"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -9671,7 +9725,7 @@
           {
             "Limit": {
               "Min": 4,
-              "Max": 6
+              "Max": 4
             },
             "ModelName": "Sanctifier",
             "StatlineRef": "Sanctifiers",
@@ -9965,7 +10019,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "3+"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
@@ -9997,7 +10051,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "3+"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
@@ -10153,10 +10207,6 @@
         {
           "ModelCount": 9,
           "Cost": 110
-        },
-        {
-          "ModelCount": 11,
-          "Cost": 110
         }
       ]
     },
@@ -10243,37 +10293,25 @@
                   "bolt pistol",
                   "close combat weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Seraphim with Special Weapons",
-            "StatlineRef": "Seraphim",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "ministorum hand flamer",
-                  "ministorum hand flamer",
-                  "close combat weapon"
-                ],
                 "Options": [
                   {
-                    "Max": 9,
+                    "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
-                      "ministorum hand flamer",
-                      "ministorum hand flamer"
+                      "bolt pistol",
+                      "bolt pistol"
                     ],
                     "Options": [
                       {
                         "Items": [
                           "inferno pistol",
                           "inferno pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum hand flamer",
+                          "ministorum hand flamer"
                         ]
                       }
                     ]
@@ -10293,10 +10331,6 @@
         {
           "Title": "Angelic Ascent",
           "Text": "In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge."
-        },
-        {
-          "Title": "Condemnatory Psalms",
-          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is condemned:\n- While a unit is condemned, that unit has +3\" detection range."
         }
       ],
       "Infos": [],
@@ -10627,32 +10661,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 9,
-          "Cost": 150
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
           "UnitCount": 1,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 150
         },
         {
           "UnitCount": 2,
-          "ModelCount": 9,
-          "Cost": 150
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
           "UnitCount": 2,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 150
         },
         {
           "UnitCount": 3,
-          "ModelCount": 9,
-          "Cost": 160
+          "ModelCount": 5,
+          "Cost": 85
         },
         {
           "UnitCount": 3,
-          "ModelCount": 19,
+          "ModelCount": 10,
           "Cost": 160
         }
       ]
@@ -10675,7 +10709,8 @@
               {
                 "InitialWargear": [
                   "bolt pistol",
-                  "boltgun"
+                  "boltgun",
+                  "close combat weapon"
                 ],
                 "Options": [
                   {
@@ -10709,92 +10744,71 @@
               "Min": 9,
               "Max": 9
             },
-            "ModelName": "Novitiate with Sacred Banner",
-            "StatlineRef": "Novitiate Superior",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "sacred banner",
-                  "close combat weapon",
-                  "novitiate autopistol"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 9
-            },
-            "ModelName": "Novitiate with Simulacrum Imperialis",
-            "StatlineRef": "Novitiate Superior",
+            "ModelName": "Sisters Novitiate",
+            "StatlineRef": "Sister Novitiate",
             "Keywords": [],
             "Wargear": [
               {
                 "InitialWargear": [
                   "novitiate autopistol",
-                  "simulacrum imperialis",
+                  "novitiate autogun",
                   "close combat weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 9
-            },
-            "ModelName": "Novitiate with Ministorum Flamer",
-            "StatlineRef": "Novitiate Superior",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "ministorum flamer",
-                  "close combat weapon",
-                  "novitiate autopistol"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 9
-            },
-            "ModelName": "Sister Novitiate (Autogun)",
-            "StatlineRef": "Sister Novitiate",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "novitiate autogun",
-                  "close combat weapon",
-                  "novitiate autopistol"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 9
-            },
-            "ModelName": "Sister Novitiate (Melee Weapon)",
-            "StatlineRef": "Sister Novitiate",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "novitiate melee weapon",
-                  "novitiate autopistol"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "novitiate autogun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "sacred banner"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "novitiate autogun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "simulacrum imperialis"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "novitiate autogun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "ministorum flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "novitiate autogun",
+                      "close combat weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "novitiate melee weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -10825,7 +10839,7 @@
         },
         {
           "Title": "Impetuous Fervour",
-          "Text": "Impetuous Fervour: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+          "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
         },
         {
           "Title": "Sacred Banner",
@@ -11032,7 +11046,7 @@
             },
             {
               "Id": "novitiate autogun",
-              "DisplayName": "Novitiate autogun",
+              "DisplayName": "Autogun",
               "Keywords": "Rapid Fire 1",
               "Flags": "None",
               "Stats": [
@@ -11064,7 +11078,7 @@
             },
             {
               "Id": "novitiate autopistol",
-              "DisplayName": "Novitiate autopistol",
+              "DisplayName": "Autopistol",
               "Keywords": "Pistol",
               "Flags": "None",
               "Stats": [
@@ -11197,7 +11211,7 @@
             },
             {
               "Id": "novitiate melee weapon",
-              "DisplayName": "Novitiate melee weapon",
+              "DisplayName": "Novitiate melee weapons",
               "Flags": "None",
               "Stats": [
                 {
@@ -11263,7 +11277,7 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 46,
+          "ModelCount": 10,
           "Cost": 90
         }
       ]
@@ -11818,10 +11832,6 @@
           "Text": "Each time this unit is selected to fight, select one of the following abilities to apply to melee weapons equipped by models in this unit until the end of the phase:\n- Sustained Hits 1\n- Lethal Hits\n\nIf this unit made a Charge move this turn, until the end of the phase, select both abilities above to apply to melee weapons equipped by models in this unit instead."
         },
         {
-          "Title": "Condemnatory Psalms",
-          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is condemned:\n- While a unit is condemned, that unit has +3\" detection range."
-        },
-        {
           "Title": "Sacred Banner",
           "Text": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
         }
@@ -12369,7 +12379,7 @@
       "Enhancements": [
         {
           "Name": "Fire and Fury",
-          "Description": "ADEPTA SORORITAS model only. While the bearer is leading a unit, add 1 to the Attacks characteristic of Torrent weapons equipped by models in that unit, and all other ranged weapons equipped by models that unit have the [SUSTAINED HITS 1] ability.",
+          "Description": "ADEPTA SORORITAS model only. While the bearer is leading a unit, add 1 to the Attacks characteristic of Torrent weapons equipped by models in that unit, and all other ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12394,7 +12404,7 @@
         },
         {
           "Name": "Manual of Saint Griselda",
-          "Description": "ADEPTA SORORITAS model only. At the start of your Command phase, you can discard up to 2 Miracle dice. Then, add 1 Miracle dice to your Miracle Dice pool showing a value equal to the sum of the two Miracle dice you discarded (to a maximum of 6).",
+          "Description": "ADEPTA SORORITAS model only. At the start of your Command phase, you can discard up to 2 Miracle dice. Then, add 1 Miracle dice to your Miracle Dice pool showing a value equal to the sum of the two Miracle dice you just discarded (to a maximum of 6).",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12487,7 +12497,7 @@
       "Enhancements": [
         {
           "Name": "Blade of Saint Ellynor",
-          "Description": "ADEPTA SORORITAS model only. Improve the Strength and Armour Penetration characteristics of the bearer's melee weapons by 1, and those weapons have the [Precision] ability. In addition, each time the bearer fights, if one or more enemy models is destroyed by those attacks, you gain 1 Miracle dice.",
+          "Description": "ADEPTA SORORITAS model only. Improve the Strength and Armour Penetration characteristics of the bearer's melee weapons by 1, and those weapons have the [Precision] ability. In addition, each time the bearer fights, if one or more enemy models are destroyed by those attacks, you gain 1 Miracle dice.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12498,7 +12508,7 @@
         },
         {
           "Name": "Divine Aspect",
-          "Description": "ADEPTA SORORITAS model only. In your Movement phase, you can select one enemy unit within 12\" of that bearer; that unit must take a Battle-shock test. If that test is failed, you gain 1 Miracle dice.",
+          "Description": "ADEPTA SORORITAS model only. In your Movement phase, you can select one enemy unit within 12\" of the bearer; that unit must take a Battle-shock test. If that test is failed, you gain 1 Miracle dice.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12694,10 +12704,12 @@
       "Enhancements": [
         {
           "Name": "Symphonic Payload",
-          "Description": "This unit can re‑roll rolls to determine the A of a weapon.",
+          "Description": "Exorcist unit only. This unit can re-roll rolls to determine the A of a weapon.",
           "Cost": 10,
-          "Features": "None",
-          "RequiredUnitNames": [],
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "EXORCIST"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -12705,10 +12717,12 @@
         },
         {
           "Name": "Clarion of Urgency",
-          "Description": "At the end of your opponent’s Fight phase, if this unit is unengaged, you can place this unit in strategic reserves.",
+          "Description": "Canoness with Jump Pack model only. At the end of your opponent’s Fight phase, if this unit is unengaged, you can place this unit in strategic reserves.",
           "Cost": 15,
           "Features": "None",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "CANONESS WITH JUMP PACK"
+          ],
           "RequiredKeywords": [
             "Jump Pack"
           ],
@@ -12763,8 +12777,21 @@
       ],
       "Enhancements": [
         {
+          "Name": "Writ of Compunction",
+          "Description": "**CELESTIAN SACRESANTS** unit only. This unit has +1 **OC**.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Celestian Sacresants"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
           "Name": "Perfervid Haste",
-          "Description": "This unit has +1\" M.",
+          "Description": "Adepta Sororitas model only. This unit has +1\" M.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12790,11 +12817,13 @@
       "Enhancements": [
         {
           "Name": "Hagiomnifex",
-          "Description": "(Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below:\n- Rite of Revelation: While this unit is shooting, enemy units have +6\" detection range.\n- Sermon of Intolerance: This unit’s battle‑shock rolls automatically succeed.\n- Catechism of Raging Fervour: This unit has +1\" M.\n- Psalm of Righteous Smiting: This unit’s attacks have +1 S.\n- Chorus of Repudiation: Attacks that target this unit with a S greater than this unit’s T have ‑1 to wound rolls.",
+          "Description": "Adepta Sororitas Character model only, excluding Penitent units. (Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below:\n- Rite of Revelation: While this unit is shooting, enemy units have +6\" detection range.\n- Sermon of Intolerance: This unit’s battle‑shock rolls automatically succeed.\n- Catechism of Raging Fervour: This unit has +1\" M.\n- Psalm of Righteous Smiting: This unit’s attacks have +1 S.\n- Chorus of Repudiation: Attacks that target this unit with a S greater than this unit’s T have ‑1 to wound rolls.",
           "Cost": 25,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Character"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [
             "Penitent"

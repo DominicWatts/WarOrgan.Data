@@ -3442,7 +3442,7 @@
       "UnitAbilities": [
         {
           "Title": "Cadia Stands!",
-          "Text": "While this unit contains an OFFICER, each time a ranged attack targets this unit, if this unit is within range of an objective marker you control, models in this unit have the Benefit of Cover against that attack."
+          "Text": "While this unit contains an OFFICER model and this unit is within range of an objective, this unit can re-roll battle-shock rolls."
         },
         {
           "Title": "Master Vox",
@@ -4508,7 +4508,7 @@
                     ]
                   },
                   {
-                    "Max": 1,
+                    "Max": 2,
                     "Replaces": [
                       "lasgun"
                     ],
@@ -5583,7 +5583,20 @@
           "ModelCount": 20,
           "Cost": 145
         }
-      ]
+      ],
+      "AttachedUnitInfo": {
+        "MaxLeaders": [
+          {
+            "MaxLeaderOverride": 2,
+            "PreventDuplicates": [
+              "CADIAN COMMAND SQUAD",
+              "CATACHAN COMMAND SQUAD",
+              "KRIEG COMMAND SQUAD",
+              "MILITARUM TEMPESTUS COMMAND SQUAD"
+            ]
+          }
+        ]
+      }
     },
     {
       "Id": "CATACHAN COMMAND SQUAD",
@@ -7174,7 +7187,20 @@
           "ModelCount": 20,
           "Cost": 135
         }
-      ]
+      ],
+      "AttachedUnitInfo": {
+        "MaxLeaders": [
+          {
+            "MaxLeaderOverride": 2,
+            "PreventDuplicates": [
+              "CADIAN COMMAND SQUAD",
+              "CATACHAN COMMAND SQUAD",
+              "KRIEG COMMAND SQUAD",
+              "MILITARUM TEMPESTUS COMMAND SQUAD"
+            ]
+          }
+        ]
+      }
     },
     {
       "Id": "CENTAUR RSV",
@@ -8687,7 +8713,20 @@
           "ModelCount": 20,
           "Cost": 135
         }
-      ]
+      ],
+      "AttachedUnitInfo": {
+        "MaxLeaders": [
+          {
+            "MaxLeaderOverride": 2,
+            "PreventDuplicates": [
+              "CADIAN COMMAND SQUAD",
+              "CATACHAN COMMAND SQUAD",
+              "KRIEG COMMAND SQUAD",
+              "MILITARUM TEMPESTUS COMMAND SQUAD"
+            ]
+          }
+        ]
+      }
     },
     {
       "Id": "DEATH RIDERS",
@@ -13066,6 +13105,7 @@
       "LeaderInfo": {
         "UnitNames": [
           "DEATH KORPS OF KRIEG",
+          "DEATH KORPS GRENADIER SQUAD",
           "KRIEG COMBAT ENGINEERS"
         ],
         "Features": 0
@@ -14156,7 +14196,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -14743,7 +14796,24 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "demolisher battle cannon",
+            "Cost": 15
+          },
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -14752,7 +14822,7 @@
         },
         {
           "Title": "Death Befitting An Officer",
-          "Text": "When this model is destroyed, roll one D6: on a 2+, do not remove it from play - it can, after the attacking model’s unit has finished making its attacks, shoot as if it were your Shooting phase and as if it had its full wounds remaining. This model is then removed from play."
+          "Text": "In your opponent’s Shooting phase, when this unit is destroyed, roll one D6 before resolving Deadly Demise. On a 2+, leave the unit on the battlefield. Once the attacking unit has finished shooting, this unit can shoot normally, targeting only that enemy unit. Resolve Deadly Demise and remove this unit after it shoots or at the end of the phase, whichever happens first."
         },
         {
           "Title": "Damaged: 1-4 Wounds Remaining",
@@ -15523,7 +15593,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -16071,7 +16154,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -16620,7 +16716,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -17200,7 +17309,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -17748,7 +17870,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -18295,7 +18430,20 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "lascannon",
+            "Cost": 5
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          },
+          {
+            "Key": "plasma cannon - standard",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -19094,7 +19242,9 @@
           "CATACHAN JUNGLE FIGHTERS",
           "DEATH KORPS OF KRIEG",
           "KASRKIN",
-          "KRIEG COMBAT ENGINEERS"
+          "KRIEG COMBAT ENGINEERS",
+          "DEATH KORPS GRENADIER SQUAD",
+          "TEMPESTUS SCIONS"
         ],
         "Features": 0
       },
@@ -22823,7 +22973,6 @@
         "Aircraft",
         "Imperium",
         "Avenger Strike Fighter",
-        "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
@@ -22838,7 +22987,7 @@
           "Stats": [
             {
               "Id": "M",
-              "Value": "-"
+              "Value": "20+\""
             },
             {
               "Id": "T",
@@ -22858,7 +23007,7 @@
             },
             {
               "Id": "OC",
-              "Value": "-"
+              "Value": "0"
             },
             {
               "Id": "Base",
@@ -23033,32 +23182,30 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "close combat weapon"
+                  "grenadier gauntlet",
+                  "close combat weapon",
+                  "slabshield"
                 ],
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "grenadier gauntlet"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "bullgryn maul"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "grenadier gauntlet"
                         ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "slabshield"
+                    ],
                     "Options": [
-                      {
-                        "Items": [
-                          "slabshield"
-                        ]
-                      },
                       {
                         "Items": [
                           "brute shield"
@@ -23087,7 +23234,7 @@
                 ],
                 "Options": [
                   {
-                    "Max": 5,
+                    "Max": 6,
                     "Replaces": [
                       "slabshield"
                     ],
@@ -23100,7 +23247,7 @@
                     ]
                   },
                   {
-                    "Max": 5,
+                    "Max": 6,
                     "Replaces": [
                       "grenadier gauntlet"
                     ],
@@ -23390,29 +23537,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "trademark weapon upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "trademark weapon upgrade",
-            "DisplayName": "Trademark Weapon upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -23426,6 +23557,10 @@
         {
           "Title": "Political Overwatch",
           "Text": "While another OFFICER model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue 1 Order to a REGIMENT unit. This OFFICER can only issue the Duty and Honour! and Fix Bayonets! Orders."
         }
       ],
       "LeaderInfo": {
@@ -23697,6 +23832,7 @@
                   "enforcer crew",
                   "armoured hull",
                   "chiron gatling cannon",
+                  "aquiline prow",
                   "power sword and manus mortis"
                 ],
                 "Options": []
@@ -23704,7 +23840,13 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "aquiline prow",
+            "DisplayName": "Aquiline prow",
+            "Cost": 0
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -23713,7 +23855,7 @@
         },
         {
           "Title": "Brutal Disciplinarian",
-          "Text": "Once per turn, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY unit (excluding units that only contain one model) that is Battle‑shocked and within 24\" of and visible to this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked."
+          "Text": "Once per turn, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY unit (excluding units that only contain one model) that is Battle-shocked and within 24\" of and visible to this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle-shocked."
         },
         {
           "Title": "Mechanised Spearhead",
@@ -23721,7 +23863,11 @@
         },
         {
           "Title": "Aquiline Prow",
-          "Text": "Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+          "Text": "Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue 1 Order to REGIMENT or SQUADRON units. This OFFICER can only issue the Move! Move! Move!, Duty and Honour! and Fix Bayonets! Orders."
         }
       ],
       "Infos": [],
@@ -23997,7 +24143,7 @@
         },
         {
           "Title": "Brutal Disciplinarian",
-          "Text": "Once per turn, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY (excluding units that only contain one model) unit that is Battle‑shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked."
+          "Text": "Once per turn, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY (excluding units that only contain one model) unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle-shocked."
         },
         {
           "Title": "Icon of Discipline",
@@ -24006,6 +24152,10 @@
         {
           "Title": "Using Commissar Graves",
           "Text": "Your army can only include one COMMISSAR GRAVES or COMMISSAR GRAVES ON FOOT unit."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue 1 Order to REGIMENT units. This OFFICER can only issue the Move! Move! Move!, Duty and Honour! and Fix Bayonets! Orders."
         }
       ],
       "LeaderInfo": {
@@ -24024,10 +24174,10 @@
       "Keywords": [
         "Imperium",
         "Epic Hero",
-        "Commissar Graves",
         "Character",
         "Infantry",
-        "Officer"
+        "Officer",
+        "Commissar Graves on Foot"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -24203,6 +24353,10 @@
         {
           "Title": "Hero of Hades Hive",
           "Text": "In your Command phase, you can select one of the abilities in the Hero of Hades Hive section. Until the start of your next Command phase, this model has that ability."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 2 Orders to REGIMENT, SQUADRON or TITANIC units."
         }
       ],
       "LeaderInfo": {
@@ -24479,8 +24633,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 5
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Tanith Ghost",
             "StatlineRef": "Tanith Ghost",
@@ -24491,62 +24645,79 @@
                   "corbec's hot-shot lascarbine",
                   "straight silver knife"
                 ],
-                "Options": [
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "corbec's hot-shot lascarbine"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "larkin's long-las"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "corbec's hot-shot lascarbine",
-                      "straight silver knife"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "lascarbine",
-                          "mkoll's straight silver knife"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "corbec's hot-shot lascarbine"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "rawne's lascarbine"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "corbec's hot-shot lascarbine"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "bragg's autocannon"
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tanith Ghost with Rawne's lascarbine",
+            "StatlineRef": "Tanith Ghost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "rawne's lascarbine",
+                  "straight silver knife"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tanith Ghost with Larkin's long-las",
+            "StatlineRef": "Tanith Ghost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "larkin's long-las",
+                  "straight silver knife"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tanith Ghost with Bragg's autocannon",
+            "StatlineRef": "Tanith Ghost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bragg's autocannon",
+                  "straight silver knife"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tanith Ghost with Mkoll's straight silver knife",
+            "StatlineRef": "Tanith Ghost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lascarbine",
+                  "mkoll's straight silver knife"
+                ],
+                "Options": []
               }
             ]
           }
@@ -24561,16 +24732,24 @@
         {
           "Title": "Tanith Camo-cloaks",
           "Text": "Models in this unit have the Benefit of Cover."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This unit’s OFFICER can issue up to 2 Orders to REGIMENT or GAUNT’S GHOSTS units."
+        },
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Ibram Gaunt has a 5+ invulnerable save."
         }
       ],
       "Infos": [],
       "Keywords": [
-        "Gaunt’s Ghosts",
         "Imperium",
         "Epic Hero",
+        "Character",
+        "Officer",
         "Infantry",
-        "Grenades",
-        "Other Datasheets"
+        "Grenades"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -25003,7 +25182,11 @@
         },
         {
           "Title": "Leading the Charge",
-          "Text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+          "Text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 3 Orders to REGIMENT units."
         }
       ],
       "LeaderInfo": {
@@ -25232,6 +25415,10 @@
         {
           "Title": "Supreme Commander",
           "Text": "If this model is in your army, it must be your WARLORD."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 3 Orders to:\n- REGIMENT units\n- SQUADRON units\n- TITANIC units."
         }
       ],
       "LeaderInfo": {
@@ -25433,7 +25620,9 @@
             },
             "ModelName": "Tempestor Prime",
             "StatlineRef": "Tempestor Prime",
-            "Keywords": [],
+            "Keywords": [
+              "Officer"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -25549,6 +25738,13 @@
                           "medi-pack",
                           "hot-shot laspistol"
                         ]
+                      },
+                      {
+                        "Items": [
+                          "hot-shot lasgun",
+                          "medi-pack",
+                          "hot-shot laspistol"
+                        ]
                       }
                     ]
                   }
@@ -25612,6 +25808,10 @@
         {
           "Title": "Command Rod",
           "Text": "While the bearer is leading a unit, that unit can be affected by up to two different Orders at the same time."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This unit’s OFFICER can issue 1 Order to a REGIMENT unit."
         }
       ],
       "LeaderInfo": {
@@ -25626,8 +25826,7 @@
         "Imperium",
         "Infantry",
         "Character",
-        "Grenades",
-        "Command Squad"
+        "Grenades"
       ],
       "CoreAbilities": [
         "Deep Strike",
@@ -26217,29 +26416,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "trademark weapon upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "trademark weapon upgrade",
-            "DisplayName": "Trademark Weapon upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -26361,7 +26544,7 @@
             },
             {
               "Id": "zealot's vindicator",
-              "DisplayName": "Zealot's vindicator",
+              "DisplayName": "Zealot's vindictor",
               "Keywords": "Ignores Cover, Torrent",
               "Flags": "None",
               "Stats": [
@@ -26430,7 +26613,7 @@
             },
             {
               "Id": "zealot's vindicator",
-              "DisplayName": "Zealot's vindicator",
+              "DisplayName": "Zealot's vindictor",
               "Flags": "None",
               "Stats": [
                 {
@@ -26648,7 +26831,16 @@
           "ModelCount": 1,
           "Cost": 60
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CADIAN COMMAND SQUAD",
+          "CATACHAN COMMAND SQUAD",
+          "KRIEG COMMAND SQUAD",
+          "MILITARUM TEMPESTUS COMMAND SQUAD"
+        ],
+        "LeaderType": "Bodyguard"
+      }
     },
     {
       "Id": "OGRYN BODYGUARD",
@@ -27010,7 +27202,16 @@
           "ModelCount": 1,
           "Cost": 40
         }
-      ]
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CADIAN COMMAND SQUAD",
+          "CATACHAN COMMAND SQUAD",
+          "KRIEG COMMAND SQUAD",
+          "MILITARUM TEMPESTUS COMMAND SQUAD"
+        ],
+        "LeaderType": "Bodyguard"
+      }
     },
     {
       "Id": "OGRYN SQUAD",
@@ -27218,33 +27419,67 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "close combat weapon",
-                  "sniper rifle"
+                  "sniper rifle",
+                  "close combat weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 0,
-              "Max": 10
-            },
-            "ModelName": "Ratling",
-            "StatlineRef": "Ratlings",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "close combat weapon",
-                  "tankstopper rifle"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "sniper rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "tankstopper rifle"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "demolition gear"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "ratling battlemutt"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "demolition gear",
+            "DisplayName": "Demolition Gear",
+            "GrantsAbilities": [
+              "Demolition Gear"
+            ]
+          },
+          {
+            "Key": "ratling battlemutt",
+            "DisplayName": "Ratling Battlemutt",
+            "GrantsAbilities": [
+              "Ratling Battlemutt"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -27426,7 +27661,7 @@
           "Cost": 60
         },
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 100
         }
       ]
@@ -27466,6 +27701,10 @@
         {
           "Title": "One-man Army",
           "Text": "Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly REGIMENT unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+        },
+        {
+          "Title": "Loner",
+          "Text": "This model cannot be selected as your WARLORD."
         }
       ],
       "Infos": [],
@@ -27659,6 +27898,7 @@
           "CADIAN SHOCK TROOPS",
           "CATACHAN JUNGLE FIGHTERS",
           "DEATH KORPS OF KRIEG",
+          "DEATH KORPS GRENADIER SQUAD",
           "KASRKIN",
           "KRIEG COMBAT ENGINEERS"
         ],
@@ -27673,7 +27913,6 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Lone Operative",
         "Leader"
       ],
       "FactionKeywords": [
@@ -28008,10 +28247,6 @@
         {
           "Title": "Servo-sentry",
           "Text": "When this unit is set up on the battlefield using the Deep Strike ability, the Tempestor Aquilon can shoot with its sentry weapon (its sentry flamer, sentry grenade launcher or sentry hot-shot volley gun)."
-        },
-        {
-          "Title": "Signal Flares",
-          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is designated:\n▪ While a unit is designated, that unit has +3\" detection range."
         }
       ],
       "Infos": [],
@@ -28170,7 +28405,7 @@
             },
             {
               "Id": "hot-shot long las",
-              "DisplayName": "Hot-shot long las",
+              "DisplayName": "Hot-shot long-las",
               "Keywords": "Heavy, Precision",
               "Flags": "None",
               "Stats": [
@@ -29295,7 +29530,20 @@
           "ModelCount": 10,
           "Cost": 160
         }
-      ]
+      ],
+      "AttachedUnitInfo": {
+        "MaxLeaders": [
+          {
+            "MaxLeaderOverride": 2,
+            "PreventDuplicates": [
+              "CADIAN COMMAND SQUAD",
+              "CATACHAN COMMAND SQUAD",
+              "KRIEG COMMAND SQUAD",
+              "MILITARUM TEMPESTUS COMMAND SQUAD"
+            ]
+          }
+        ]
+      }
     },
     {
       "Id": "URSULA CREED",
@@ -29335,7 +29583,11 @@
         },
         {
           "Title": "Tactical Genius",
-          "Text": "Once per battle round, one unit from your army with this ability can use it when a friendly REGIMENT unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1 CP."
+          "Text": "Once per battle round, one friendly REGIMENT unit within 12\" of this model can be targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 3 Orders to REGIMENT units."
         }
       ],
       "LeaderInfo": {
@@ -29659,6 +29911,7 @@
             {
               "Id": "hellstrike missiles",
               "DisplayName": "Hellstrike missiles",
+              "Keywords": "Anti-Fly 2+",
               "Flags": "None",
               "Stats": [
                 {
@@ -29938,7 +30191,7 @@
         },
         {
           "Name": "Reactive Command",
-          "Description": "OFFICER model only. Each time an enemy unit is set up within 8\" of the bearer's unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue each battle round.",
+          "Description": "OFFICER model only. Each time an enemy unit is set up within 8\" of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30020,7 +30273,7 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Priority-drop Beacon",
+          "Name": "Priority drop Beacon",
           "Description": "MILITARUM TEMPESTUS OFFICER model only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 25,
           "Features": "None",
@@ -30257,7 +30510,7 @@
         },
         {
           "Name": "Vanguard Honours",
-          "Description": "INFANTRY OFFICER model only. The bearer's unit can disembark from a TRANSPORT after it has Advanced. If it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.",
+          "Description": "INFANTRY OFFICER model only. The bearer’s unit can disembark from a TRANSPORT after it has Advanced. If it does, it makes a shock disembark move (Core Rules, 18.07) for that disembarkation.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30481,7 +30734,61 @@
           "Effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Guerrilla Honours",
+          "Description": "INFANTRY OFFICER model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other ASTRA MILITARUM INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry",
+            "Officer"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Scare Gas Grenades",
+          "Description": "ASTRA MILITARUM INFANTRY model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8\" of the bearer’s unit (excluding MONSTER and VEHICLE units); that unit must take a Battle-shock test.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Survival Gear",
+          "Description": "ASTRA MILITARUM INFANTRY model only. The bearer has the Scouts 6\" ability.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tripwires",
+          "Description": "ASTRA MILITARUM INFANTRY model only. Each time an enemy INFANTRY or MOUNTED unit ends a Normal, Advance, Charge or Fall Back move within 8\" of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -30698,7 +31005,7 @@
         },
         {
           "Name": "Titan Killer",
-          "Description": "ASTRA MILITARUM TITANIC CHARACTER model only. Each time the bearer makes a ranged attack, you can re‑roll the Damage roll.",
+          "Description": "ASTRA MILITARUM TITANIC CHARACTER model only. Each time the bearer makes a ranged attack, you can re-roll the Damage roll.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30713,7 +31020,7 @@
         },
         {
           "Name": "Assault Hatches",
-          "Description": "ASTRA MILITARUM TITANIC CHARACTER TRANSPORT model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+          "Description": "ASTRA MILITARUM TITANIC CHARACTER TRANSPORT model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30729,7 +31036,7 @@
         },
         {
           "Name": "Engine Speaker",
-          "Description": "ASTRA MILITARUM TECH‑PRIEST ENGINSEER model only. Each time the bearer uses its Omnissiah’s Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected Vehicle model.",
+          "Description": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. Each time the bearer uses its Omnissiah’s Blessing ability, until the start of your next Command phase, add 3\" to the Move characteristic of the selected Vehicle model.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30813,7 +31120,7 @@
       "Enhancements": [
         {
           "Name": "Omnissian Unguents (Aura)",
-          "Description": "ASTRA MILITARUM TECH‑PRIEST ENGINSEER model only. While a friendly ARMOURED SKIRMISHER unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability.",
+          "Description": "ASTRA MILITARUM TECH-PRIEST ENGINSEER model only. While a friendly ARMOURED SKIRMISHER unit is within 3\" of the bearer, that unit has the Feel No Pain 5+ ability.",
           "Cost": 35,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30913,7 +31220,7 @@
       ],
       "Enhancements": [
         {
-          "Name": "Sharp Eyes, Light Fingers",
+          "Name": "Sharp Eyes",
           "Description": "RATLINGS unit only. When this unit is selected to shoot, enemy units have +6\" detection range until this unit has shot.",
           "Cost": 10,
           "Features": "None",
@@ -30927,7 +31234,7 @@
         },
         {
           "Name": "Exemplar of Duty",
-          "Description": "COMMISSAR model only. This model has Feel No Pain 4+.",
+          "Description": "LEADER: BULLGRYN SQUAD, OGRYN SQUAD COMMISSAR model only. This model has Feel No Pain 4+.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],

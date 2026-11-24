@@ -280,23 +280,19 @@
                   "stormhammer cannon",
                   "twin battle cannon",
                   "armoured tracks",
-                  "lascannon"
+                  "lascannon",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser"
                 ],
                 "Options": [
                   {
                     "Max": 1,
                     "Options": [
-                      {
-                        "Items": [
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser"
-                        ]
-                      },
                       {
                         "Items": [
                           "heavy bolter",
@@ -330,6 +326,15 @@
                           "lascannon"
                         ]
                       }
+                    ],
+                    "Replaces": [
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser"
                     ]
                   },
                   {
@@ -356,29 +361,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -397,7 +386,8 @@
         "Imperium",
         "Arkurian Stormhammer",
         "Frame",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Smoke"
       ],
       "CoreAbilities": [
         "Deadly Demise D6+2"
@@ -612,7 +602,7 @@
               "Stats": [
                 {
                   "Id": "Range",
-                  "Value": "48\""
+                  "Value": "36\""
                 },
                 {
                   "Id": "A",
@@ -2007,7 +1997,7 @@
             },
             {
               "Id": "multi-laser",
-              "DisplayName": "Multi-laser",
+              "DisplayName": "Militarum Multi-laser",
               "Flags": "None",
               "Stats": [
                 {
@@ -2064,7 +2054,7 @@
                 },
                 {
                   "Id": "D",
-                  "Value": "1"
+                  "Value": "2"
                 }
               ]
             },
@@ -2190,7 +2180,7 @@
       "UnitAbilities": [
         {
           "Title": "Blistering Advance",
-          "Text": "Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn"
+          "Text": "After this TRANSPORT Advances, its passengers can disembark using the shock disembark rules (Core Rules, 18.07)."
         },
         {
           "Title": "Transport",
@@ -2415,6 +2405,14 @@
         {
           "Title": "Trapped by Excuses",
           "Text": "In the Deploy Armies step, you must set this unit up on the battlefield, or embarked within a TRANSPORT unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place a unit in strategic reserves cannot affect this unit or a TRANSPORT unit this unit is embarked within."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 2 Orders to REGIMENT units, limited to Duty and Honour!, Move! Move! Move!, and Take Cover!"
+        },
+        {
+          "Title": "Embarking",
+          "Text": "This model occupies two spaces in a TRANSPORT."
         }
       ],
       "LeaderInfo": {
@@ -2434,14 +2432,12 @@
         "Character",
         "Epic Hero",
         "Officer",
-        "Ciaphas Cain",
         "Commissar"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
         "Stealth",
-        "Leader",
-        "Feel No Pain 4+*"
+        "Leader"
       ],
       "FactionKeywords": [
         "Astra Militarum"
@@ -3187,7 +3183,7 @@
           },
           {
             "Limit": {
-              "Min": 9,
+              "Min": 7,
               "Max": 9
             },
             "ModelName": "Grenadier",
@@ -3246,8 +3242,8 @@
           },
           {
             "Limit": {
-              "Min": 9,
-              "Max": 9
+              "Min": 0,
+              "Max": 1
             },
             "ModelName": "Heavy Weapons Team",
             "StatlineRef": "Heavy Weapons Team",
@@ -3273,6 +3269,14 @@
         {
           "Title": "Grenadier Squad",
           "Text": "If a model from your army with the Leader ability can be attached to a KRIEG COMBAT ENGINEERS unit, it can be attached to this unit instead."
+        },
+        {
+          "Title": "Unit Composition",
+          "Text": "Take one Grenadier Sergeant with either nine Grenadiers, or seven Grenadiers and one Heavy Weapons Team. Both configurations cost 110 points."
+        },
+        {
+          "Title": "Vox-caster",
+          "Text": "When you target the bearer’s unit with a Stratagem, roll a D6. Add 1 if a friendly OFFICER is within 6 inches. On a 5+, gain 1CP."
         }
       ],
       "Infos": [],
@@ -3354,7 +3358,7 @@
             },
             {
               "Id": "Base",
-              "Value": "50"
+              "Value": "60"
             }
           ],
           "Features": "None"
@@ -3672,7 +3676,7 @@
                 },
                 {
                   "Id": "S",
-                  "Value": "4"
+                  "Value": "3"
                 },
                 {
                   "Id": "AP",
@@ -3700,7 +3704,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "4+"
+                  "Value": "3+"
                 },
                 {
                   "Id": "S",
@@ -3733,7 +3737,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "WS",
@@ -3790,7 +3794,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 19,
+          "ModelCount": 9,
+          "Cost": 110
+        },
+        {
+          "ModelCount": 10,
           "Cost": 110
         }
       ]
@@ -3835,6 +3843,10 @@
         {
           "Title": "Political Overwatch",
           "Text": "While another Officer model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can give one REGIMENT unit either Duty and Honour! or Fix Bayonets!."
         }
       ],
       "LeaderInfo": {
@@ -3906,7 +3918,7 @@
           "Weapons": [
             {
               "Id": "commisar's pistol",
-              "DisplayName": "Commisar's pistol",
+              "DisplayName": "Commissar’s pistol",
               "Keywords": "Pistol",
               "Flags": "None",
               "Stats": [
@@ -4090,29 +4102,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -4131,7 +4127,8 @@
         "Smoke",
         "Dominus Armoured Siege Bombard",
         "Frame",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Imperium"
       ],
       "CoreAbilities": [
         "Deadly Demise D6+2"
@@ -5082,7 +5079,7 @@
           "Weapons": [
             {
               "Id": "close combat weapons",
-              "DisplayName": "Close Combat Weapons",
+              "DisplayName": "Close combat weapon",
               "Flags": "None",
               "Stats": [
                 {
@@ -5297,7 +5294,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "WS",
@@ -5394,34 +5391,18 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
           "Title": "Invulnerable Save",
-          "Text": "This model has a 5+* invulnerable save."
+          "Text": "This model has a 5+ invulnerable save against ranged attacks."
         },
         {
           "Title": "Transport",
@@ -5434,10 +5415,6 @@
         {
           "Title": "Damaged: 1-7 Wounds Remaining",
           "Text": "While this model has 1-7 wounds remaining, subtract 4 from its Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "Title": "Invulnerable Save (5+*)",
-          "Text": "This model has a 5+ invulnerable save against ranged attacks."
         }
       ],
       "Infos": [],
@@ -5803,7 +5780,7 @@
       "UnitAbilities": [
         {
           "Title": "Suppression Bombardment",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks made with this model’s Griffon heavy mortar. Unit the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks made with this model’s Griffon heavy mortar. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         }
       ],
       "Infos": [],
@@ -6232,6 +6209,10 @@
         {
           "Title": "Rearm, Reload, Fire",
           "Text": "While this model is being affected by an Order, provided it Remained Stationary this turn, ranged weapons equipped by this model have the [SUSTAINED HITS 1] ability"
+        },
+        {
+          "Title": "Artillery Team",
+          "Text": "Crew tokens track wounds: start with three and remove one for each wound lost. The artillery model represents the final wound."
         }
       ],
       "Infos": [],
@@ -6399,7 +6380,11 @@
       "UnitAbilities": [
         {
           "Title": "Suppression Bombardment",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks. Unit the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Artillery Team",
+          "Text": "Crew tokens track wounds: start with three and remove one for each wound lost. The artillery model represents the final wound."
         }
       ],
       "Infos": [],
@@ -6779,7 +6764,7 @@
                     "Options": [
                       {
                         "Items": [
-                          "character upgrade"
+                          "hunter-killer missile"
                         ]
                       }
                     ]
@@ -6789,13 +6774,7 @@
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -7007,7 +6986,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "4"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
@@ -7025,7 +7004,7 @@
             },
             {
               "Id": "omega-pattern plasma blastgun - supercharged",
-              "DisplayName": "Omega-pattern plasma blastgun - supercharged",
+              "DisplayName": "Omega-pattern plasma blastgun – supercharge",
               "Keywords": "Blast, Hazardous",
               "Flags": "None",
               "Stats": [
@@ -7084,6 +7063,38 @@
                 {
                   "Id": "D",
                   "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hunter-killer missile",
+              "DisplayName": "Hunter-killer missile",
+              "Keywords": "One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
                 }
               ]
             }
@@ -7204,29 +7215,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -7636,29 +7631,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -8068,29 +8047,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -8289,7 +8252,7 @@
             },
             {
               "Id": "macharius twin battlecannon",
-              "DisplayName": "Macharius twin battlecannon",
+              "DisplayName": "Macharius twin battle cannon",
               "Keywords": "Blast, Twin-linked",
               "Flags": "None",
               "Stats": [
@@ -8450,22 +8413,22 @@
                 "InitialWargear": [
                   "demolisher cannon",
                   "malcador twin lascannon",
-                  "autocannon",
-                  "autocannon",
+                  "heavy bolter",
+                  "heavy bolter",
                   "armoured tracks"
                 ],
                 "Options": [
                   {
                     "Max": 1,
                     "Replaces": [
-                      "autocannon",
-                      "autocannon"
+                      "heavy bolter",
+                      "heavy bolter"
                     ],
                     "Options": [
                       {
                         "Items": [
-                          "heavy bolter",
-                          "heavy bolter"
+                          "autocannon",
+                          "autocannon"
                         ]
                       },
                       {
@@ -8809,7 +8772,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "BS",
@@ -9227,7 +9190,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "BS",
@@ -9313,18 +9276,24 @@
               {
                 "InitialWargear": [
                   "inferno gun",
-                  "heavy bolter",
-                  "heavy bolter",
+                  "heavy stubber",
+                  "heavy stubber",
                   "armoured tracks"
                 ],
                 "Options": [
                   {
                     "Max": 1,
                     "Replaces": [
-                      "heavy bolter",
-                      "heavy bolter"
+                      "heavy stubber",
+                      "heavy stubber"
                     ],
                     "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      },
                       {
                         "Items": [
                           "autocannon",
@@ -9393,9 +9362,9 @@
         "Imperium",
         "Squadron",
         "Smoke",
-        "Malcador",
         "Frame",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Malcador Infernus"
       ],
       "CoreAbilities": [
         "Deadly Demise D6"
@@ -9678,7 +9647,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "BS",
@@ -10110,7 +10079,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "BS",
@@ -10392,16 +10361,6 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
@@ -10409,11 +10368,6 @@
           }
         ],
         "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          },
           {
             "Key": "heavy bombs",
             "DisplayName": "Heavy bombs",
@@ -10648,29 +10602,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -10950,7 +10888,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Vehicle",
         "Infantry",
         "Artillery",
         "Imperium",
@@ -11690,7 +11627,7 @@
             },
             {
               "Id": "plasma pistol - supercharged",
-              "DisplayName": "Plasma pistol - supercharged",
+              "DisplayName": "Plasma pistol – supercharge",
               "Keywords": "Hazardous, Rapid Fire 1",
               "Flags": "None",
               "Stats": [
@@ -11737,7 +11674,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "3"
+                  "Value": "4"
                 },
                 {
                   "Id": "WS",
@@ -12122,7 +12059,7 @@
           "Weapons": [
             {
               "Id": "servitor's servo arm",
-              "DisplayName": "Servitor's servo arm",
+              "DisplayName": "Servitor’s servo-arm",
               "Flags": "None",
               "Stats": [
                 {
@@ -12733,8 +12670,7 @@
         "Imperium",
         "Grenades",
         "Regiment",
-        "Quartermaster Cadre Squad",
-        "Krieg"
+        "Quartermaster Cadre Squad"
       ],
       "CoreAbilities": [
         "Leader"
@@ -12870,7 +12806,7 @@
                 },
                 {
                   "Id": "WS",
-                  "Value": "4+"
+                  "Value": "5+"
                 },
                 {
                   "Id": "S",
@@ -13095,6 +13031,10 @@
           "Cost": 35
         },
         {
+          "ModelCount": 2,
+          "Cost": 70
+        },
+        {
           "ModelCount": 3,
           "Cost": 105
         }
@@ -13113,7 +13053,9 @@
             },
             "ModelName": "Astropath",
             "StatlineRef": "Regimental Attachés",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -13716,7 +13658,7 @@
             },
             {
               "Id": "LD",
-              "Value": "7"
+              "Value": "7+"
             },
             {
               "Id": "OC",
@@ -13880,7 +13822,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "WS",
@@ -14606,7 +14548,8 @@
         "Squadron",
         "Smoke",
         "Sentinel Powerlifter",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Frame"
       ],
       "CoreAbilities": [
         "Deadly Demise 1"
@@ -14732,6 +14675,10 @@
         {
           "Title": "Payback Time",
           "Text": "Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Payback weapon has an Attacks characteristic of 6 and the [SUSTAINED HITS 3] ability instead of the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This Officer can issue 1 Order to a CATACHAN JUNGLE FIGHTERS unit."
         }
       ],
       "LeaderInfo": {
@@ -14848,15 +14795,15 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "4"
                 },
                 {
                   "Id": "WS",
-                  "Value": "4+"
+                  "Value": "3+"
                 },
                 {
                   "Id": "S",
-                  "Value": "3"
+                  "Value": "4"
                 },
                 {
                   "Id": "AP",
@@ -15340,29 +15287,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -15538,7 +15469,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "BS",
@@ -15807,7 +15738,9 @@
         "Frame",
         "Other Datasheets"
       ],
-      "CoreAbilities": [],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
       "FactionKeywords": [
         "Astra Militarum"
       ],
@@ -16051,16 +15984,6 @@
                 "Options": [
                   {
                     "Max": 3,
-                    "Options": [
-                      {
-                        "Items": [
-                          "totemic presence upgrade"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
                     "Replaces": [
                       "twin heavy bolter"
                     ],
@@ -16077,13 +16000,7 @@
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "totemic presence upgrade",
-            "DisplayName": "Totemic Presence upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -16226,7 +16143,7 @@
                 },
                 {
                   "Id": "A",
-                  "Value": "2"
+                  "Value": "1"
                 },
                 {
                   "Id": "WS",
@@ -16234,7 +16151,7 @@
                 },
                 {
                   "Id": "S",
-                  "Value": "3"
+                  "Value": "4"
                 },
                 {
                   "Id": "AP",
@@ -16254,6 +16171,10 @@
         {
           "ModelCount": 1,
           "Cost": 40
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 80
         },
         {
           "ModelCount": 3,
@@ -16457,7 +16378,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "4"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
@@ -17137,29 +17058,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -17178,7 +17083,8 @@
         "Smoke",
         "Valdor",
         "Frame",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Imperium"
       ],
       "CoreAbilities": [
         "Deadly Demise D6+2"
@@ -17679,7 +17585,7 @@
             },
             {
               "Id": "hellstrike missiles",
-              "DisplayName": "Hellstrike missiles",
+              "DisplayName": "Hellstrike missile",
               "Flags": "None",
               "Stats": [
                 {
@@ -17706,7 +17612,8 @@
                   "Id": "D",
                   "Value": "D6"
                 }
-              ]
+              ],
+              "Keywords": "Anti-Fly 2+"
             },
             {
               "Id": "multiple rocket pod",
@@ -18151,7 +18058,7 @@
             },
             {
               "Id": "multiple rocket pods",
-              "DisplayName": "Multiple rocket pods",
+              "DisplayName": "Multiple rocket pod",
               "Keywords": "Blast",
               "Flags": "None",
               "Stats": [
@@ -18334,6 +18241,10 @@
         {
           "Title": "Cold Steel and Courage",
           "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 2 Orders to REGIMENT units."
         }
       ],
       "LeaderInfo": {
@@ -18549,6 +18460,742 @@
           "Cost": 55
         }
       ]
+    },
+    {
+      "Id": "VENDETTA GUNSHIP",
+      "DisplayName": "Vendetta Gunship",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Vendetta Gunship",
+            "StatlineRef": "Vendetta Gunship",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "vendetta twin lascannon",
+                  "vendetta twin lascannon",
+                  "vendetta twin lascannon",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "vendetta twin lascannon",
+                      "vendetta twin lascannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "vendetta hellstrike rack"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "StatLines": [
+        {
+          "StatName": "Vendetta Gunship",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "vendetta hellstrike rack",
+              "DisplayName": "Vendetta hellstrike rack",
+              "Keywords": "Anti-Fly 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "vendetta twin lascannon",
+              "DisplayName": "Vendetta twin lascannon",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Hover"
+      ],
+      "UnitAbilities": [
+        {
+          "Title": "Anti-armour Gunship",
+          "Text": "Re-roll Damage rolls of 1 for this model’s ranged attacks allocated to MONSTER or VEHICLE models."
+        },
+        {
+          "Title": "Damaged: 1-5 Wounds Remaining",
+          "Text": "Subtract 1 from this model’s Hit rolls while it has 1–5 wounds remaining."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Transport",
+        "Vendetta Gunship",
+        "Other Datasheets"
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 255
+        }
+      ]
+    },
+    {
+      "Id": "HELL'S LAST",
+      "DisplayName": "Hell’s Last",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Minka Lesk",
+            "StatlineRef": "Minka Lesk",
+            "Keywords": [
+              "Character",
+              "Officer"
+            ],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lesk’s Hero (demolitions)",
+            "StatlineRef": "Lesk’s Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "demolitions",
+                  "meltagun",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lesk’s Hero (dirk)",
+            "StatlineRef": "Lesk’s Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hot-shot laspistol",
+                  "dirk"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lesk’s Hero (bolt pistol)",
+            "StatlineRef": "Lesk’s Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lesk’s Hero (banner)",
+            "StatlineRef": "Lesk’s Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "power weapon",
+                  "regimental banner"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "regimental banner",
+            "DisplayName": "Regimental Banner",
+            "GrantsAbilities": [
+              "Regimental Banner"
+            ]
+          }
+        ]
+      },
+      "StatLines": [
+        {
+          "StatName": "Minka Lesk",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Lesk’s Veterans",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "demolitions",
+              "DisplayName": "Demolitions",
+              "Keywords": "Blast, One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "hot-shot laspistol",
+              "DisplayName": "Hot-shot laspistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "dirk",
+              "DisplayName": "Dirk",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "CoreAbilities": [
+        "Leader",
+        "Invulnerable Save"
+      ],
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This unit’s OFFICER can issue 2 Orders to REGIMENT units."
+        },
+        {
+          "Title": "Heroic Example",
+          "Text": "While Minka Lesk is on the battlefield, models in this unit can re-roll their Hit rolls."
+        },
+        {
+          "Title": "Lesk’s Heroes",
+          "Text": "Improve the Leadership of models in this unit by 1 and allow the unit to re-roll Battle-shock and Leadership tests."
+        },
+        {
+          "Title": "Regimental Banner",
+          "Text": "Add 1 to the Objective Control of models in the bearer’s unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Platoon",
+        "Command Squad",
+        "Hell’s Last",
+        "Epic Hero"
+      ],
+      "FactionKeywords": [
+        "Astra Militarum"
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 80
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CADIAN SHOCK TROOPS"
+        ],
+        "Features": 0
+      }
     }
   ],
   "Detachments": [],
