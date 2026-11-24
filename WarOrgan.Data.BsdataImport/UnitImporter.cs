@@ -33,7 +33,128 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
         AddPoints(unit, root, section);
 
         unit.UnitComposition.WargearDefinitions = wargear.Definitions.Values.OrderBy(d => d.Key).ToList();
+        Repair(unit, section);
         return unit;
+    }
+
+    /// <summary>
+    /// Fixes structures the dataset validator rejects, so the unit can be drafted rather than left out.
+    /// Each repair is reported, because the result is an approximation of the datasheet.
+    /// </summary>
+    private void Repair(Unit unit, string section)
+    {
+        // Reference-only profiles (Pink Horrors' split forms) are not equipment
+        foreach (var set in unit.Weapons)
+            set.Weapons.RemoveAll(w => (w.DisplayName ?? w.Id ?? string.Empty).Contains("(ref. only)", StringComparison.OrdinalIgnoreCase));
+        unit.Weapons.RemoveAll(s => s.Weapons.Count == 0);
+
+        // Statlines no model uses (loadout variants such as "w/ Storm Shield")
+        var compositions = unit.UnitComposition.ModelCompositions;
+        var used = compositions.Select(c => c.StatlineRef).ToHashSet(StringComparer.OrdinalIgnoreCase);
+        if (unit.StatLines.Any(s => used.Contains(s.StatName ?? string.Empty)))
+            foreach (var unused in unit.StatLines.Where(s => !used.Contains(s.StatName ?? string.Empty)).ToList())
+            {
+                unit.StatLines.Remove(unused);
+                report.Add(section, $"Dropped statline \"{unused.StatName}\", which no model uses; check whether a loadout changes characteristics.");
+            }
+
+        var weaponIds = unit.Weapons.SelectMany(s => s.Weapons).Select(w => w.Id!).ToHashSet();
+        foreach (var wargear in compositions.SelectMany(c => c.Wargear))
+        {
+            foreach (var option in wargear.Options)
+            {
+                option.Options = option.Options.Where(c => c.Items.Count > 0)
+                    .DistinctBy(c => string.Join("|", c.Items.Order())).ToList();
+            }
+            var before = wargear.Options.Count;
+            wargear.Options.RemoveAll(o => o.Options.Count == 0 || o.Max <= 0 || o.PerXModels <= 0);
+            if (wargear.Options.Count < before)
+                report.Add(section, "Removed empty wargear options.");
+
+            // Identical options (same replaced items and choices) become one with their limits added together
+            wargear.Options = wargear.Options
+                .GroupBy(o => string.Join("|", (o.Replaces ?? []).Order()) + "=>" + string.Join(";", o.Options.Select(c => string.Join("|", c.Items.Order())).Order()))
+                .Select(g =>
+                {
+                    var first = g.First();
+                    if (g.Count() > 1)
+                    {
+                        first.Max = g.Any(o => o.Max == null) ? null : g.Sum(o => o.Max);
+                        first.PerXModels = g.Select(o => o.PerXModels).Distinct().Count() == 1 ? first.PerXModels : null;
+                        report.Add(section, $"Merged {g.Count()} identical wargear options; check the combined limit.");
+                    }
+                    return first;
+                }).ToList();
+        }
+
+        // Overlapping options for the same replaced items ("1 special weapon" and "1 special or heavy weapon") are
+        // rejected; drop the shared choices from the larger option. Stricter than the datasheet, never illegal.
+        foreach (var wargear in compositions.SelectMany(c => c.Wargear))
+        {
+            string Key(WargearChoice c) => string.Join("|", c.Items.Order());
+            string Replaced(WargearOption o) => string.Join("|", (o.Replaces ?? []).Order());
+            var changed = true;
+            while (changed)
+            {
+                changed = false;
+                foreach (var group in wargear.Options.Where(o => o.Replaces != null).GroupBy(Replaced))
+                {
+                    var list = group.ToList();
+                    for (var i = 0; i < list.Count && !changed; i++)
+                        for (var j = i + 1; j < list.Count && !changed; j++)
+                        {
+                            var a = list[i].Options.Select(Key).ToHashSet();
+                            var b = list[j].Options.Select(Key).ToHashSet();
+                            if (a.SetEquals(b) || !a.Overlaps(b))
+                                continue;
+                            var larger = a.Count >= b.Count ? list[i] : list[j];
+                            var shared = a.Intersect(b).ToHashSet();
+                            larger.Options.RemoveAll(c => shared.Contains(Key(c)));
+                            if (larger.Options.Count == 0)
+                                wargear.Options.Remove(larger);
+                            report.Add(section, $"Two options both offered {string.Join(", ", shared)}; kept them in the smaller option only, so the unit may be stricter than its datasheet.");
+                            changed = true;
+                        }
+                    if (changed)
+                        break;
+                }
+            }
+        }
+
+        // Weapons no starting loadout or option gives out
+        var reachable = compositions.SelectMany(c => c.Wargear).SelectMany(w => w.InitialWargear
+            .Concat(w.Options.SelectMany(o => o.Options).SelectMany(c => c.Items))).ToHashSet();
+        foreach (var set in unit.Weapons)
+        {
+            var missing = set.Weapons.Select(w => w.Id!).Where(id => !reachable.Contains(id)).ToList();
+            if (missing.Count == 0 || compositions.Count == 0)
+                continue;
+            var sameType = set.Weapons.Select(w => w.Id!).ToHashSet();
+            // Profiles of one weapon ("plasma pistol - standard"/"- supercharge") stay together as one choice
+            var choices = missing.GroupBy(id => Regex.Replace(id, @"\s+-\s+.*$|\s*\(.*$", string.Empty)).Select(g => g.ToList()).ToList();
+            var holders = compositions.Select(c => (Composition: c, Wargear: c.Wargear.FirstOrDefault()))
+                .Where(h => h.Wargear != null && h.Wargear.InitialWargear.Any(sameType.Contains)).ToList();
+            if (holders.Count == 0)
+            {
+                var target = compositions.OrderBy(c => c.Limit?.Max ?? 1).First();
+                if (target.Wargear.Count == 0)
+                    target.Wargear.Add(new ModelWargear());
+                target.Wargear[0].InitialWargear.AddRange(missing);
+                report.Add(section, $"{string.Join(", ", missing)} had no way to be selected and were added to the {target.ModelName} starting loadout; check the datasheet.");
+                continue;
+            }
+            foreach (var (composition, holder) in holders)
+            {
+                var replaced = holder!.InitialWargear.First(sameType.Contains);
+                holder.Options.Add(new WargearOption
+                {
+                    Max = composition.Limit?.Max,
+                    Replaces = [replaced],
+                    Options = choices.Select(items => new WargearChoice { Items = items }).ToList(),
+                });
+            }
+            report.Add(section, $"{string.Join(", ", missing)} had no way to be selected; added as replacements for each model's {set.DisplayName?.ToLowerInvariant()} starting weapon. Check who can take them.");
+        }
     }
 
     public static string UnitName(JsonObject entry) => Regex.Replace(entry.Name(), @"\s*\[Legends\]$", string.Empty).Trim();
