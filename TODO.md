@@ -119,6 +119,8 @@ Only Genestealer Cults (Tyranids, Astra Militarum) and the Space Marine chapters
 
 BSData offers drones that Wahapedia does not allow, for example guardian drones on the Cadre Fireblade, Ethereal and Commanders. It also lists Stealth Battlesuits, but not the Hazard Battlesuits, as able to take shield drones. Fix this as part of task 2 for T'au, against each datasheet's wargear options on Wahapedia.
 
+- **Completed** (`faction/tau-empire`, `b09d800`, merged as `d243e5b`): checked all 15 T'au datasheets with drone options against Wahapedia. Removed disallowed drone choices and their orphaned missile-pod profiles; Stealth Shas’vre now has separate gun- and marker-drone choices, and XV9 Hazard Battlesuits include shield drones. The check reports 2/50 main-roster entries clean with 172 notes and 0/19 Legends entries clean with 63 notes; drone-equipment notes remain because the checker does not compare wargear options.
+
 ### 7. Add builder validation for duplicate weapon IDs within a unit
 
 - **Branch:** `chore/validate-duplicate-weapons`.
