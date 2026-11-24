@@ -1,110 +1,109 @@
 # TODO
 
-Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the same commit as the change.
+The work plan for the `DominicWatts-WH40K11e` dataset, written so an AI agent (or a person) can pick up any open task without other context. `FACTIONS.md` tracks each faction's progress through the sources; this file says what to do next and how.
 
-## 1.4.6.0 app test
+## Before you start
 
-- [x] Confirm each Heavy Weapons Squad and Field Ordnance Battery model offers one mutually exclusive weapon swap.
-- [x] Confirm Krieg Heavy Weapons Squads start with lascannons and can replace them with heavy flamers or twin heavy stubbers.
+- **Read first:** `FACTIONS.md` (source order and per-faction status), `CHANGELOG.md` (release history), the dataset's `WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md` (coverage and limitations), and the READMEs of `WarOrgan.Data.BsdataImport` and `WarOrgan.Data.WahapediaCheck`.
+- **Never change** the dataset ID (`DominicWatts-WH40K11e`) or a published unit `Id`: saved army lists refer to both. Change `DisplayName` instead. Do not change `WarOrgan.Data.Model` without the owner's agreement; the app reads it.
+- **Sources, in priority order:** the November 2026 BSData dump (`momper14/wh40k-11e` at `f015101d4c495173283e1b97e9d59f2befb877ad`, saved as `bsdata.zip` in the repository root, gitignored) is the base; Wahapedia's 11th Edition pages override it; 10th Edition codexes fill gaps; GW's 11th Edition faction packs apply corrections. Flag conflicts to the owner rather than overwriting checked data.
+- **Branches:** faction data goes on `faction/<slug>` (for example `faction/space-marines`); dataset-wide content such as core stratagems or the keyword registry on `core/<topic>`; tooling and docs on `chore/<topic>`; cross-faction ally wiring on `allies/<owner>-<ally>`. Merge each into `dataset/develop` with `--no-ff`. Never commit directly on `dataset/develop` except the one "Prepare x.y.z" commit per release, and never on `dataset/wh40k11e`.
+- **Releases:** the Prepare commit on `dataset/develop` bumps `defaultVersion` in `WarOrgan.Data.BuildDataset/Program.cs` (third field for data changes), the `## Coverage in` heading in the dataset README, adds one `CHANGELOG.md` line (`YYYY-MM-DD : x.y.z.0 - summary`, with a blank line between entries) and updates this file and `FACTIONS.md`. Build, upload the ZIP to the `develop-build` pre-release for the owner to test in WarOrgan, and only after they pass it merge `dataset/develop` into `dataset/wh40k11e`, tag `vX.Y.Z` and verify the public download.
+- **Checks before every commit:** `dotnet run --project WarOrgan.Data.BuildDataset -c Release` must end with `0 errors`, and `git diff --check` must be clean. Commit messages are a single line.
+- **Editing roster JSON:** keep UTF-8, two-space indentation and the file's existing line endings. Load and dump with a JSON library (`indent=2`, `ensure_ascii=False`) rather than hand-editing large files.
+- **Wahapedia URLs:** `https://wahapedia.ru/wh40k11ed/factions/<slug>/datasheets.html`. Most slugs are the faction name in kebab case; exceptions are `imperial-agents` (Agents of the Imperium), `t-au-empire` and `emperor-s-children`. Space Marine chapter datasheets are on the `space-marines` page.
 
-## 1.4.5.0 app test
+## Ready for an AI
 
-- [x] Confirm all 51 eligible Astra Militarum datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
-- [x] Check Characters, Battleline, Dedicated Transports and Other Datasheets are grouped correctly within the Astra Militarum roster.
-- [x] Spot-check vehicle wargear and points, including Chimera, Sentinels, Leman Russ variants, Rogal Dorn variants and a super-heavy tank.
-- [x] Confirm the Aegis Defence Line and Cyclops Demolition Vehicle load without weapon-selection errors.
+Ordered by value. Each task lists where to work and when it is done.
 
-## 1.4.3.0 app test
+### 1. Commit the bulk-draft pipeline
 
-- [ ] Confirm the Cadian, Catachan and Krieg Command Squads appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
-- [ ] Check each command squad's fixed specialists, starting equipment and weapon replacements, including master vox, medi-pack, standards, servo-scribes and alchemyk counteragents.
-- [ ] Confirm each command squad can lead its listed unit and its Orders ability is visible.
-- [ ] Confirm Crossfire, Priority Target and Supreme Commander show plain uppercase keywords without BSData `**^^...^^**` markup.
+The 1.5.x drafts were produced with throwaway scripts that are not in the repository: drafting every faction, registering factions, holding back datasheets that fail validation, applying hand fixes, and merging drafts into hand-checked rosters. Without them, nobody can regenerate a draft reproducibly.
 
-## 1.4.2.0 app test
+- **Branch:** `chore/bulk-draft-pipeline`.
+- **Do:** add a `--all` mode (or a small script under `WarOrgan.Data.BsdataImport/`) driven by a committed faction list: name, BSData catalogue, faction keyword, category, colours and, for chapters, `Allies: [{ "FactionKeyword": "Adeptus Astartes", "IsIncludedInPrimaryRoster": true }]`. It should also apply a committed list of retired datasheets (see `FACTIONS.md`), keep hand-fixed datasheets (Crusader Squad, Crusaders, Corsair Voidscarred, Grot Tanks) and, when a roster already exists, add only datasheets whose `Id` it lacks.
+- **Done when:** regenerating any draft faction reproduces its committed roster exactly (apart from deliberate improvements), and the README explains the command.
 
-- [x] Confirm the 15 Astra Militarum infantry and mounted datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
-- [x] Check the Cadian Castellan can lead Cadian Shock Troops and Kasrkin, and that Senior Officer grants Sustained Hits 1 to their ranged weapons.
-- [x] Check Attilan Rough Rider, Cadian Recon Squad and Krieg Combat Engineer wargear limits and the duplicate-unit points for Rough Riders, Kasrkin and Engineers.
+### 2. Check each draft faction against Wahapedia
 
-## 1.1.2.0 release
+The biggest remaining job: 31 draft factions plus the draft parts of Tyranids and Astra Militarum. Work one faction at a time on its own branch, and release in batches.
 
-- [x] Rebuild Neophyte Hybrids unit size and wargear limits
-- [x] Rebuild Acolyte Hybrids with Autopistols unit size and wargear limits
-- [x] Rebuild Hybrid Metamorphs unit size and wargear limits
-- [x] Rebuild Atalan Jackals unit size and wargear limits
-- [x] Merge into `dataset/wh40k11e`, tag `v1.1.2` and verify the release ZIP
-- [ ] Test the rebuilt units in WarOrgan
+- **Branch:** `faction/<slug>`.
+- **Do:** run `WarOrgan.Data.WahapediaCheck` on the faction's rosters, then fix every difference that is not an expected note (see that tool's README): names, statlines, weapons and keywords, abilities, composition, wargear options, points, Led By and Supported By. Wahapedia wins over BSData. Pay particular attention to units the importer repaired: their wargear is looser than the datasheet (weapons offered as swaps for any starting weapon of the same type). Regenerate the importer report to see which ones.
+- **Done when:** the check report has only expected notes, `FACTIONS.md` marks layer 2 as done for that faction, and the dataset README's draft line for it moves into the checked coverage.
+- **Suggested order:** Space Marines first (every chapter inherits its datasheets), then the most-played armies.
 
-## Genestealer Cults datasheet checks
+### 3. Add stratagems for every faction except Genestealer Cults
 
-Compare each datasheet line by line with Wahapedia: statline, weapons, abilities, unit composition, wargear options, points, keywords, Led By and Supported By. Release in small batches of about five units so each app test stays short.
+BSData has no stratagems, so only Genestealer Cults (45) and the ten core stratagems exist.
 
-- [x] Aberrants
-- [x] Abominant
-- [x] Achilles Ridgerunners
-- [x] Acolyte Hybrids with Autopistols
-- [x] Acolyte Hybrids with Hand Flamers
-- [x] Acolyte Iconward
-- [x] Atalan Jackals
-- [x] Benefictus
-- [x] Biophagus
-- [x] Clamavus
-- [x] Goliath Rockgrinder
-- [x] Goliath Truck
-- [x] Hybrid Metamorphs
-- [x] Jackal Alphus
-- [x] Kelermorph
-- [x] Locus
-- [x] Magus
-- [x] Neophyte Hybrids
-- [x] Nexos
-- [x] Patriarch
-- [x] Primus
-- [x] Purestrain Genestealers
-- [x] Reductus Saboteur
-- [x] Sanctus
-- [x] Tectonic Fragdrill
+- **Branch:** `faction/<slug>`, or a `chore/` branch first if you extend a tool.
+- **Do:** read each detachment's stratagems from the Wahapedia faction page (`https://wahapedia.ru/wh40k11ed/factions/<slug>/`; stratagems sit in `div.str11Wrap` blocks after each detachment's `h2`). `WahapediaPages.ParseFactionPage` in `WarOrgan.Data.WahapediaCheck` already parses them for comparison; reuse it to write `Stratagems` into each `Detachment`, following the shape of the Genestealer Cults roster (`Name`, `Category`, `CPCost`, `Phase`, `When`, `Target`, `Effect`, optional `Restrictions`). Skip Boarding Actions stratagems.
+- **Done when:** every detachment in a faction has its stratagems, the check report shows no stratagem differences, and the build passes.
 
-## Genestealer Cults rules content
+### 4. Fill the detachments BSData has no enhancements for
 
-- [x] Army rule (Cult Ambush)
-- [x] Nine detachments and their Force Dispositions (all nine, 1.4.0)
-- [x] Core stratagems (Command Re-roll, Fire Overwatch and so on) in `DataSetDefinition.json` (1.3.9)
-- [ ] Unit limits per battle size, once the app's handling of the Battleline and Dedicated Transport doubling is known
-- [ ] Enhancements
-- [ ] Stratagems
-- [x] Enable the matching dataset `Features` and battle-size limits
-- [x] Tyranid allies for Final Day: all 14 Vanguard Invader datasheets added (1.3.0 to 1.3.3)
-- [x] Show invulnerable save values on GSC units (1.3.4)
-- [x] Astra Militarum allies for Brood Brother Auxilia: all 51 eligible current datasheets completed in 1.4.5 (Legends and AIRCRAFT skipped)
-- [x] 1.4.0: confirmed Cadian Shock Troops only appear with Brood Brother Auxilia, sit under Allied Units, cannot be Warlord, count toward the 50% cap, and that their weapon options work.
-- [x] Add the Allied Units category with the first allied roster
+Armoured Trailblazers, Brazen Engines, Butchers of Khorne, Contagion Engines, Flyblown Host, Hand of the Dynasty, Pantheon of Woe, Skyshroud Spearhead, Spectacle of Slaughter, Veiled Blade Elimination Force and Warptide have none in BSData. (Deathwatch Support is an allied option and should stay empty.)
 
-## Blocked or needs app confirmation
+- **Branch:** the owning `faction/<slug>`.
+- **Do:** take each enhancement's name, points, restriction (`RequiredKeywords` and similar) and text from the Wahapedia faction page (`ul.EnhancementsPts`).
+- **Done when:** each listed detachment has its enhancements or a confirmed note that it has none.
 
-- [ ] Patriarch must be Warlord: `Flags: 2` is published but WarOrgan does not enforce it. The 1.3.0 test showed the app does read unit flags (`NotWarlord` blocked the Winged Tyranid Prime), so `MustBeWarlord` is probably read but not validated as a list rule. Needs the app author's guidance.
-- [x] Heroes of the Uprising: confirmed in WarOrgan (1.2.0) that the detachment, its stratagems and enhancements appear, KILLER shows on the four units, and the enhancements change weapon profiles.
-- [x] 1.2.1: confirmed in WarOrgan that Force Dispositions can be chosen, several 1 DP detachments fit within 3 DP, the PURESTRAIN and HOSTS tags show, and Upgrades go on non-CHARACTER units and change profiles. The app does not enforce the three-copies limit for Upgrades.
-- [ ] 1.2.2: confirm Final Day costs 2 DP, shows Purge the Foe and its six stratagems, and its rule text (with bold sub-headings and the battle-size list) reads correctly.
-- [x] 1.3.0: confirmed in WarOrgan that the Winged Tyranid Prime only appears in a GSC list once Final Day is chosen, sits under Allied Units, counts toward the 50% cap, cannot be Warlord, and can take Synaptic Auger. Also checked the new Tyranids faction on its own. The 50% ally cap could not be clearly confirmed.
-- [x] 1.3.1 and 1.3.2: confirmed in WarOrgan that the Tyranid allies appear under Allied Units with Final Day (including Battleline Gargoyles and the Dedicated Transport Tyrannocyte) and that the 50% ally cap applies.
-- [ ] 1.3.5: confirm Host of Ascension costs 3 DP, offers Take and Hold and Reconnaissance, and cannot be taken with Xenocult Masses (HOSTS tag).
-- [x] 1.3.8: Outlander Claw +1 OC and the 2 DP detachment limit confirmed in WarOrgan.
-- [x] Core abilities added by data: confirmed in WarOrgan that leader effects (Locus Fights First) and the Xenocreed detachment-added leader ability (Feel No Pain 3+ while leading) work.
-- [x] Predatory Instincts (Biosanctic Broodsurge enhancement): confirmed the bearer's attached unit gains Infiltrators with AttachedUnit scope.
-- [x] 1.3.12: confirmed wargear labels (Magus stave, Demolition charges) and leader sections without duplicated text.
-- [x] Core stratagems confirmed in WarOrgan (1.3.9).
-- [x] 1.3.10: confirmed the Ridgerunner spotter sets ranged BS to 3+ and the flare launcher adds SMOKE.
-- [ ] Leader effects: confirm in WarOrgan that Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and that a Support character can join a unit alongside a Leader.
-- [x] 1.4.1: confirmed the Scouts, Deadly Demise and Feel No Pain values show on their units, the Biophagus lists the alchemicus familiar, and the Tectonic Fragdrill shows Fortification.
-- [ ] Find out whether WarOrgan can import a ZIP from a local file or a non-stable URL for pre-release testing.
+### 5. Turn simple rule effects into data
 
-## Tooling
+Enhancement, wargear, leader and detachment rules are text only in the drafts, so the app does not apply them. Many are simple stat changes the model can represent.
 
-- [x] Add repeatable source-comparison checks for names, model counts and points (`WarOrgan.Data.BsdataImport`, `WarOrgan.Data.WahapediaCheck`)
-- [ ] Add builder validation for duplicate weapon IDs within a unit
+- **Branch:** `chore/` for an importer change, then `faction/<slug>` for the data.
+- **Do:** recognise simple patterns such as "Add 1 to the bearer's Wounds characteristic", "+1 Strength to melee weapons" or "improve the Armour Penetration characteristic by 1", and emit `StatAdjustments` or `WeaponStatAdjustments` (`Scope: Model` for the bearer). Report anything conditional or unit-wide instead of guessing. Worked examples: the Vanguard Tyrant enhancement in `Rosters/Genestealer Cults.json` (S and AP) and the T'au shield drone in `Rosters/T'au Empire.json` (W, characters only: squads keep it as text because WarOrgan shows one statline per model type).
+- **Done when:** the recognised effects apply in a test build, and FACTIONS.md notes which effects remain text.
 
-## Later
+### 6. Wire the remaining allies
 
-- [ ] Import and verify the remaining 11th Edition factions, one per `faction/<slug>` branch
+Only Genestealer Cults (Tyranids, Astra Militarum) and the Space Marine chapters (Space Marines) have allies. Others are missing, for example Agents of the Imperium for Imperium armies, Chaos Daemons and Chaos Knights for Chaos armies, and Imperial Knights.
+
+- **Branch:** `allies/<owner>-<ally>`, taken from `dataset/develop`.
+- **Do:** add `Allies` entries in `DataSetDefinition.json` with the rule's points cap, allowed detachments and unit filters (`UnitIncludeRules`, with `AddedKeywords: ["Allied Units"]`). Prefer `AffectedUnitsFilter` with explicit unit IDs when keywords are unreliable; BSData keyword spellings vary (see the Brood Brother Auxilia entry).
+- **Done when:** each ally appears only where its rule allows, under Allied Units, and the owner has app-tested it.
+
+### 7. Correct the T'au drone option lists
+
+BSData offers drones that Wahapedia does not allow, for example guardian drones on the Cadre Fireblade, Ethereal and Commanders. It also lists Stealth Battlesuits, but not the Hazard Battlesuits, as able to take shield drones. Fix this as part of task 2 for T'au, against each datasheet's wargear options on Wahapedia.
+
+### 8. Add builder validation for duplicate weapon IDs within a unit
+
+- **Branch:** `chore/validate-duplicate-weapons`.
+- **Do:** in `WarOrgan.Data.BuildDataset/Validation/`, fail the build when a unit has two weapons with the same `Id` across its weapon sets.
+- **Done when:** the check exists, the current dataset still builds, and a deliberately duplicated weapon fails.
+
+## Needs the owner (app testing)
+
+Only the owner can run these, in the WarOrgan app, using the development build URL. Record results here.
+
+- [x] Shield drones: a Cadre Fireblade with one shield drone gains 1 W, with two gains 2 W (1.5.4). Reopen issue 4 if two do not stack.
+- [x] Chapters (1.5.7): Ultramarines groups Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets, not "Allies: Adeptus Astartes" (issue 6). Passed.
+- [ ] Draft factions (1.5.3): a Battle Sisters Squad and a Crusader Squad for their composition and wargear.
+- [ ] Brood Brother Auxilia still offers exactly the 51 eligible Astra Militarum datasheets after the 1.5.2 fill.
+- [ ] Command Squads (1.4.3): Cadian, Catachan and Krieg Command Squads appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord; their specialists, equipment and weapon swaps are right; each can lead its listed unit and shows Orders.
+- [ ] Leader effects: Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and a Support character can join alongside a Leader.
+- [ ] Final Day costs 2 DP, shows Purge the Foe and its six stratagems, and its rule text reads correctly (1.2.2).
+- [ ] Host of Ascension costs 3 DP, offers Take and Hold and Reconnaissance, and cannot be taken with Xenocult Masses (1.3.5).
+- [ ] The rebuilt Neophyte Hybrids, Acolyte Hybrids, Hybrid Metamorphs and Atalan Jackals wargear limits (1.1.2).
+
+## Blocked on the app
+
+These need the WarOrgan author's guidance or an app change; do not publish speculative fixes.
+
+- [ ] **Patriarch must be Warlord:** `Flags: 2` (`MustBeWarlord`) is published, but WarOrgan does not enforce it. The app does read unit flags (`NotWarlord` works), so it probably does not validate this as a list rule.
+- [ ] **Unit limits per battle size:** `UnitLimit` is 0 for every battle size until the app's handling of the Battleline and Dedicated Transport limits is known.
+- [ ] **Bold in notes:** Detachment rules use 85 `**Heading**` lines to introduce a second rule. If the app shows the asterisks, switch them to plain headings.
+
+## Done
+
+- **Genestealer Cults:** all 25 datasheets checked line by line against Wahapedia and the faction pack; army rule; nine detachments with 30 enhancements and 45 stratagems; unit wargear limits rebuilt; leader effects; invulnerable saves as an INV characteristic (1.1 to 1.4).
+- **Allies:** Tyranid Vanguard Invaders for Final Day (1.3); 51 Astra Militarum datasheets for Brood Brother Auxilia, pinned by ID (1.4, 1.5.2).
+- **Core:** ten 11th Edition core stratagems (1.3.9); battle sizes and features; the 11th Edition weapon keyword and core ability registry (1.5.0).
+- **Tools:** `WarOrgan.Data.BsdataImport` and `WarOrgan.Data.WahapediaCheck` (1.4.x); importer support for libraries, per-army detachments, enhancements and a repair pass (1.5.x). Wahapedia stratagem import support (1.5.8).
+- **Draft factions:** 31 factions drafted (1.5.0), enhancements added (1.5.1), Tyranids and Astra Militarum filled out around the checked allies (1.5.2), held-back datasheets fixed or retired (1.5.3).
+- **Fixes from issues:** Vanguard Tyrant S and AP (issue 1), single-choice weapon swaps (issue 2), INV characteristic (issue 3), shield drone Wounds on characters (issue 4), stray bold markers removed (issue 5).
+- **App confirmations:** detachments, Force Dispositions, stratagems, enhancements and their weapon changes, Upgrades, allies under Allied Units with the 50% cap, wargear stat changes (Ridgerunner spotter), leader-added core abilities, and Scouts, Deadly Demise and Feel No Pain values all work in WarOrgan. Pre-release testing works through the `develop-build` URL.

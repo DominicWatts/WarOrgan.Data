@@ -1,0 +1,5515 @@
+﻿{
+  "Name": "Dark Angels",
+  "Units": [
+    {
+      "Id": "ASMODAI",
+      "DisplayName": "Asmodai",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Asmodai",
+            "StatlineRef": "Asmodai",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy bolt pistol",
+                  "crozius arcanum and power weapon - strike",
+                  "crozius arcanum and power weapon - sweep"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Exemplar of Hate",
+          "Text": "This unit's melee attacks can re-roll hit rolls."
+        },
+        {
+          "Title": "Feared Interrogator",
+          "Text": "At the start of the Fight phase, each enemy CHARACTER unit within 6\" of this model makes a battle-shock roll, with -1 to that battle-shock roll."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Imperium",
+        "Asmodai",
+        "Chaplain",
+        "Tacticus",
+        "Deathwing",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Asmodai",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "crozius arcanum and power weapon - strike",
+              "DisplayName": "Crozius Arcanum and Power Weapon - strike",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "crozius arcanum and power weapon - sweep",
+              "DisplayName": "Crozius Arcanum and Power Weapon - sweep",
+              "Keywords": "Cleave 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Id": "AZRAEL",
+      "DisplayName": "Azrael",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Azrael",
+            "StatlineRef": "Azrael",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "lion's wrath",
+                  "the sword of secrets"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Supreme Grand Master",
+          "Text": "This unit's attacks have [SUSTAINED HITS 1]."
+        },
+        {
+          "Title": "Masterful Tactician",
+          "Text": "In your Movement phase, select up to one visible friendly ADEPTUS ASTARTES unit within 9\" of this model, and select one combat doctrine. That combat doctrine is active for that unit until the start of your next Command phase."
+        },
+        {
+          "Title": "Watcher in the Dark",
+          "Text": "(Once per battle, per unit) In any phase, when this unit suffers a mortal wound, this unit can summon a Watcher in the Dark. If it does, this unit has Feel No Pain 4+ against mortal wounds."
+        },
+        {
+          "Title": "The Lion Helm",
+          "Text": "This unit has a 4+ InSv"
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Imperium",
+        "Tacticus",
+        "Azrael",
+        "Chapter Master",
+        "Deathwing",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Azrael",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "lion's wrath",
+              "DisplayName": "Lion's Wrath",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "the sword of secrets",
+              "DisplayName": "The Sword of Secrets",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 150
+        }
+      ]
+    },
+    {
+      "Id": "BELIAL",
+      "DisplayName": "Belial",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Belial",
+            "StatlineRef": "Belial",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted storm bolter",
+                  "the sword of silence"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Grand Master of the Deathwing",
+          "Text": "This unit's attacks that target an enemy Character unit have +1 to wound rolls."
+        },
+        {
+          "Title": "Strikes of Retribution",
+          "Text": "In the fight phase, when this model is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n\n\n- On a 2+, do not remove this model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), this model is removed from the battlefield."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Belial",
+        "Terminator",
+        "Deathwing"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Belial",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted storm bolter",
+              "DisplayName": "Master-crafted storm bolter",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "the sword of silence",
+              "DisplayName": "The Sword of Silence",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Id": "DEATHWING KNIGHTS",
+      "DisplayName": "Deathwing Knights",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Knight Master",
+            "StatlineRef": "Deathwing Knights",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "great weapon of the unforgiven"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "great weapon of the unforgiven"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "relic weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 4
+            },
+            "ModelName": "Deathwing Knight",
+            "StatlineRef": "Deathwing Knights",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "mace of absolution"
+                ],
+                "Options": [
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "mace of absolution"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Inner Circle",
+          "Text": "- Attacks that target this unit have -1D.\n- This unit cannot be targeted with the Tactical Dreadnought Fortitude stratagem."
+        },
+        {
+          "Title": "Teleport Homer",
+          "Text": "(Once per battle, per unit)\n\n\nAt the start of the battle, you can set up one Teleport Homer token for this unit on the battlefield. If you do:\n\n\n- When you target this unit with the Rapid Ingress stratagem, you can use that Teleport Homer token. If you do, that use is -1 CP, but when resolving that stratagem, this unit must be set up within 3\" of that Teleport Homer token and not within 8\" of an enemy unit. That Teleport Homer token is then removed from the battlefield.\n- If an enemy unit ends a move within 1\" of that Teleport Homer token, that Teleport Homer token is removed from the battlefield."
+        },
+        {
+          "Title": "Watcher in the Dark",
+          "Text": "Once per battle, in any phase, just after a mortal wound is allocated to an ADEPTUS ASTARTES model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Deathwing Knights",
+        "Terminator",
+        "Deathwing",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Deathwing Knights",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "great weapon of the unforgiven",
+              "DisplayName": "Great Weapon of the Unforgiven",
+              "Keywords": "Devastating Wounds, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "mace of absolution",
+              "DisplayName": "Mace of Absolution",
+              "Keywords": "Anti-Monster/Vehicle 4+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power Weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "relic weapon",
+              "DisplayName": "Relic Weapon",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 255
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 255
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 275
+        }
+      ]
+    },
+    {
+      "Id": "DEATHWING TERMINATOR SQUAD",
+      "DisplayName": "Deathwing Terminator Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Deathwing Sergeant",
+            "StatlineRef": "Deathwing Terminator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "power fist",
+                  "storm bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "power fist"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "chainfist - standard",
+                          "chainfist - hunter: monster/vehicle"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 10,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Deathwing Terminator",
+            "StatlineRef": "Deathwing Terminator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "storm bolter",
+                  "power fist"
+                ],
+                "Options": [
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "power fist"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "chainfist - standard",
+                          "chainfist - hunter: monster/vehicle"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "storm bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "cyclone missile launcher - frag",
+                          "cyclone missile launcher - krak",
+                          "storm bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma cannon - standard",
+                          "plasma cannon - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "assault cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy flamer"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Deathwing",
+          "Text": "This unit's attacks can ignore modifiers to:\n- BS and WS.\n- Hit rolls."
+        },
+        {
+          "Title": "Teleport Homer",
+          "Text": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 8\" horizontally of any enemy models. That token is then removed."
+        },
+        {
+          "Title": "Watcher in the Dark",
+          "Text": "Once per battle, in any phase, just after a mortal wound is allocated to an ADEPTUS ASTARTES model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Deathwing Terminator Squad",
+        "Terminator",
+        "Deathwing",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Deathwing Terminator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "assault cannon",
+              "DisplayName": "Assault Cannon",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "cyclone missile launcher - frag",
+              "DisplayName": "Cyclone missile launcher - frag",
+              "Keywords": "Blast 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "cyclone missile launcher - krak",
+              "DisplayName": "Cyclone missile launcher - krak",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy Flamer",
+              "Keywords": "Blast 2, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma cannon - standard",
+              "DisplayName": "Plasma cannon - standard",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma cannon - supercharge",
+              "DisplayName": "Plasma cannon - supercharge",
+              "Keywords": "Blast 1, Hazardous",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainfist - hunter: monster/vehicle",
+              "DisplayName": "Chainfist - Hunter: Monster/Vehicle",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "chainfist - standard",
+              "DisplayName": "Chainfist - Standard",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power Weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 380
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 20,
+          "Cost": 380
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 380
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 20,
+          "Cost": 380
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 420
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 20,
+          "Cost": 420
+        }
+      ]
+    },
+    {
+      "Id": "EZEKIEL",
+      "DisplayName": "Ezekiel",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ezekiel",
+            "StatlineRef": "Ezekiel",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "the deliverer",
+                  "mind wipe - witchfire",
+                  "mind wipe - focused witchfire",
+                  "traitor's bane"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Book of Salvation",
+          "Text": "This unit's melee attacks have +1 A."
+        },
+        {
+          "Title": "Chief Librarian (psyker level 3)",
+          "Text": "This model has the psychic abilities listed in the Psychic Abilities section."
+        },
+        {
+          "Title": "Psychic Hood (Ezekiel)",
+          "Text": "This unit has Feel No Pain 4+ against psychic attacks and mortal wounds."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Imperium",
+        "Psyker",
+        "Ezekiel",
+        "Librarian",
+        "Deathwing",
+        "Explosives",
+        "Tacticus"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Ezekiel",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "mind wipe - focused witchfire",
+              "DisplayName": "Mind Wipe - focused witchfire",
+              "Keywords": "Anti-Character 4+, Close-quarters, Devastating Wounds, Hazardous, Precision, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "mind wipe - witchfire",
+              "DisplayName": "Mind Wipe - witchfire",
+              "Keywords": "Close-quarters, Devastating Wounds, Precision, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "the deliverer",
+              "DisplayName": "The Deliverer",
+              "Keywords": "Close-quarters, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "traitor's bane",
+              "DisplayName": "Traitor's Bane",
+              "Keywords": "Precision, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 110
+        }
+      ]
+    },
+    {
+      "Id": "INNER CIRCLE COMPANIONS",
+      "DisplayName": "Inner Circle Companions",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 6
+            },
+            "ModelName": "Inner Circle Companion",
+            "StatlineRef": "Inner Circle Companion",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy bolt pistol",
+                  "calibanite greatsword - strike",
+                  "calibanite greatsword - sweep"
+                ],
+                "Options": [
+                  {
+                    "Max": 6,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Braziers of Judgement",
+          "Text": "▪ This unit has Stealth.\n▪ Melee attacks that target this unit have ‑1 to hit rolls."
+        },
+        {
+          "Title": "Emnity for the Unworthy",
+          "Text": "This unit's attacks that target a CHARACTER unit have +1 to hit rolls."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Tacticus",
+        "Deathwing",
+        "Inner Circle Companions",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Inner Circle Companion",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "calibanite greatsword - strike",
+              "DisplayName": "Calibanite Greatsword - Strike",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "calibanite greatsword - sweep",
+              "DisplayName": "Calibanite Greatsword - Sweep",
+              "Keywords": "Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 90
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 6,
+          "Cost": 180
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 90
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 6,
+          "Cost": 180
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 105
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 6,
+          "Cost": 195
+        }
+      ]
+    },
+    {
+      "Id": "LAND SPEEDER VENGEANCE",
+      "DisplayName": "Land Speeder Vengeance",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Land Speeder Vengeance",
+            "StatlineRef": "Land Speeder Vengeance",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "plasma storm battery - standard",
+                  "plasma storm battery - supercharge",
+                  "heavy bolter",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "assault cannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Storm of Vengeance",
+          "Text": "(Once per turn, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if those attacks destroyed a friendly DARK ANGELS unit within 6\" of this unit, you can use this ability. If you do, this unit shoots using normal shooting but while doing so this unit can only target that enemy unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fly",
+        "Imperium",
+        "Vehicle",
+        "Land Speeder Vengeance",
+        "Ravenwing",
+        "Frame",
+        "Speeder",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Dark Angels"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Land Speeder Vengeance",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "11"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "60 Flying"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "assault cannon",
+              "DisplayName": "Assault Cannon",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy Bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma storm battery - standard",
+              "DisplayName": "Plasma storm battery - standard",
+              "Keywords": "Blast 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma storm battery - supercharge",
+              "DisplayName": "Plasma storm battery - supercharge",
+              "Keywords": "Blast 1, Hazardous, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 160
+        }
+      ]
+    },
+    {
+      "Id": "LAZARUS",
+      "DisplayName": "Lazarus",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lazarus",
+            "StatlineRef": "Lazarus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "enmity's edge",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Intractable Will",
+          "Text": "In the Fight phase, when a model in this unit is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "Title": "The Spiritshield Helm",
+          "Text": "This unit has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Captain",
+        "Grenades",
+        "Imperium",
+        "Lazarus",
+        "Tacticus",
+        "Deathwing"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Lazarus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "enmity's edge",
+              "DisplayName": "Enmity’s Edge",
+              "Keywords": "Anti-Psyker 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Id": "LION EL'JONSON",
+      "DisplayName": "Lion El'Jonson",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lion El'Jonson",
+            "StatlineRef": "Lion El'Jonson",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "arma luminis - bolt",
+                  "arma luminis - plasma",
+                  "fealty - strike",
+                  "fealty - sweep"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 3+ invulnerable save."
+        },
+        {
+          "Title": "Primarch of the First Legion",
+          "Text": "At the start of your Command phase, select two Primarch of the First Legion abilities. Until the start of your next Command phase, this model has those abilities."
+        },
+        {
+          "Title": "The Emperor's Shield",
+          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+        },
+        {
+          "Title": "Dark Angels Bodyguard",
+          "Text": "While this unit is within 3\" of a friendly DARK ANGELS INFANTRY unit, this unit has Lone Operative."
+        },
+        {
+          "Title": "Master Strategist",
+          "Text": "In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase, in addition to any other combat doctrine."
+        },
+        {
+          "Title": "The Watchers",
+          "Text": "This unit has Feel No Pain 4+ against psychic attacks and mortal wounds."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Monster",
+        "Imperium",
+        "Primarch",
+        "Lion El'Jonson",
+        "Mobile"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Fights First",
+        "Feel No Pain 4+*"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Lion El'Jonson",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "16"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "4"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "arma luminis - bolt",
+              "DisplayName": "Arma Luminis - bolt",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "arma luminis - plasma",
+              "DisplayName": "Arma Luminis - plasma",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "fealty - strike",
+              "DisplayName": "Fealty - strike",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "fealty - sweep",
+              "DisplayName": "Fealty - sweep",
+              "Keywords": "Cleave 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 415
+        }
+      ]
+    },
+    {
+      "Id": "NEPHILIM JETFIGHTER",
+      "DisplayName": "Nephilim Jetfighter",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Nephilim Jetfighter",
+            "StatlineRef": "Nephilim Jetfighter",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "blacksword missiles",
+                  "avenger mega bolter",
+                  "twin heavy bolter",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "nephilim lascannons"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Lightning-fast Manoeuvres",
+          "Text": "Ranged attacks that target this unit have -1 to wound rolls."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Imperium",
+        "Nephilim Jetfighter",
+        "Ravenwing",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Damaged 3"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Dark Angels"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Nephilim Jetfighter",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "-"
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "11"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "-"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "avenger mega bolter",
+              "DisplayName": "Avenger mega bolter",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "blacksword missiles",
+              "DisplayName": "Blacksword missiles",
+              "Keywords": "Anti-Fly 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "nephilim lascannons",
+              "DisplayName": "Nephilim lascannons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "twin heavy bolter",
+              "DisplayName": "Twin heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Id": "RAVENWING BLACK KNIGHTS",
+      "DisplayName": "Ravenwing Black Knights",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 6
+            },
+            "ModelName": "Ravenwing Huntmaster",
+            "StatlineRef": "Ravenwing Black Knight",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "corvus hammers",
+                  "plasma talon - standard",
+                  "plasma talon - supercharged",
+                  "bolt pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 6,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 6,
+                    "Replaces": [
+                      "plasma talon - standard",
+                      "plasma talon - supercharged"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "grenade launcher - krak",
+                          "grenade launcher - frag"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 6
+            },
+            "ModelName": "Ravenwing Black Knight",
+            "StatlineRef": "Ravenwing Black Knight",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "plasma talon - standard",
+                  "plasma talon - supercharged",
+                  "corvus hammers",
+                  "bolt pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "plasma talon - standard",
+                      "plasma talon - supercharged"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "grenade launcher - krak",
+                          "grenade launcher - frag"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Knights of Caliban",
+          "Text": "If this unit made a charge move this turn, this unit's melee attacks have [ANTI-MONSTER/VEHICLE 4+]."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Grenades",
+        "Imperium",
+        "Ravenwing Black Knights",
+        "Ravenwing",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Ravenwing Black Knight",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "75x42"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - frag",
+              "DisplayName": "Grenade Launcher - Frag",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - krak",
+              "DisplayName": "Grenade Launcher - Krak",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "plasma talon - standard",
+              "DisplayName": "Plasma talon - Standard",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma talon - supercharged",
+              "DisplayName": "Plasma talon - Supercharged",
+              "Keywords": "Hazardous, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "corvus hammers",
+              "DisplayName": "Corvus Hammers",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 6,
+          "Cost": 170
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 12,
+          "Cost": 170
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 6,
+          "Cost": 170
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 12,
+          "Cost": 170
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 6,
+          "Cost": 180
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 12,
+          "Cost": 180
+        }
+      ]
+    },
+    {
+      "Id": "RAVENWING COMMAND SQUAD",
+      "DisplayName": "Ravenwing Command Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ravenwing Ancient",
+            "StatlineRef": "Ravenwing Command Squad",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "corvus hammers",
+                  "bolt pistol",
+                  "plasma talon - standard",
+                  "plasma talon - supercharged"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "plasma talon - standard",
+                      "plasma talon - supercharged"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "grenade launcher - krak",
+                          "grenade launcher - frag"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ravenwing Apothecary",
+            "StatlineRef": "Ravenwing Command Squad",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "plasma talon - standard",
+                  "plasma talon - supercharged",
+                  "corvus hammers",
+                  "bolt pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "plasma talon - standard",
+                      "plasma talon - supercharged"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "grenade launcher - krak",
+                          "grenade launcher - frag"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ravenwing Champion",
+            "StatlineRef": "Ravenwing Command Squad",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted power weapon",
+                  "plasma talon - standard",
+                  "plasma talon - supercharged",
+                  "bolt pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "plasma talon - standard",
+                      "plasma talon - supercharged"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "grenade launcher - krak",
+                          "grenade launcher - frag"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Support",
+          "Text": "This unit can be attached to the following units:\n- Outrider Squad\n- Ravenwing Black Knights"
+        },
+        {
+          "Title": "Astartes Banner",
+          "Text": "While this unit contains a Ravenwing Ancient, this unit has +1 OC."
+        },
+        {
+          "Title": "Narthecium",
+          "Text": "While this unit contains a RAVENWING APOTHECARY, in your Command phase, this unit heals D3+1 wounds."
+        },
+        {
+          "Title": "Honour or Death",
+          "Text": "While this unit contains a Ravenwing Champion:\n\n\n- This unit has +1 to advance rolls and charge rolls.\n- When you target this unit with the Heroic Intervention stratagem, that use is -1CP."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Imperium",
+        "Ravenwing Command Squad",
+        "Ravenwing",
+        "Explosives",
+        "Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Ravenwing Command Squad",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "75x42"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - frag",
+              "DisplayName": "Grenade Launcher - Frag",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "grenade launcher - krak",
+              "DisplayName": "Grenade Launcher - Krak",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "plasma talon - standard",
+              "DisplayName": "Plasma talon - Standard",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma talon - supercharged",
+              "DisplayName": "Plasma talon - Supercharged",
+              "Keywords": "Hazardous, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "corvus hammers",
+              "DisplayName": "Corvus Hammers",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 115
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 115
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "RAVENWING DARK TALON",
+      "DisplayName": "Ravenwing Dark Talon",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ravenwing Dark Talon",
+            "StatlineRef": "Ravenwing Dark Talon",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hurricane bolter",
+                  "hurricane bolter",
+                  "rift cannon",
+                  "armoured hull"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Stasis Bomb",
+          "Text": "At the end of your opponent’s Fight phase, select one visible enemy unit (excluding AIRCRAFT/Lone Operative units) within 24\" of this unit. That enemy unit is slowed until the end of your opponent’s next Movement phase:\n\n▪ While a unit is slowed, in your opponent’s Movement phase, when that unit is selected to move, unless that unit remains stationary, roll one D6:\n    ▫ On a 1-4, that unit suffers D3 mortal wounds and that unit has -2\" M.\n    ▫ On a 5-6, that unit suffers 2D3 mortal wounds and that unit has -3\" M.’"
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Fly",
+        "Vehicle",
+        "Aircraft",
+        "Dark Talon",
+        "Ravenwing",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Damaged 3"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Dark Angels"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Ravenwing Dark Talon",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "-"
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "11"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "-"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "hurricane bolter",
+              "DisplayName": "Hurricane bolter",
+              "Keywords": "Rapid Fire 6, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "rift cannon",
+              "DisplayName": "Rift cannon",
+              "Keywords": "Blast 1, Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "16"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 190
+        }
+      ]
+    },
+    {
+      "Id": "RAVENWING DARKSHROUD",
+      "DisplayName": "Ravenwing Darkshroud",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ravenwing Darkshroud",
+            "StatlineRef": "Ravenwing Darkshroud",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy bolter",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "assault cannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Icon of Old Caliban",
+          "Text": "While a friendly DARK ANGELS unit is within 6\" of this unit, that unit has Stealth."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Darkshroud",
+        "Imperium",
+        "Fly",
+        "Vehicle",
+        "Ravenwing",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Deep Strike",
+        "Lone Operative"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Ravenwing Darkshroud",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "60 Flying"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "assault cannon",
+              "DisplayName": "Assault Cannon",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy Bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Id": "SAMMAEL",
+      "DisplayName": "Sammael",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Sammael",
+            "StatlineRef": "Sammael",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted plasma cannon",
+                  "twin storm bolter",
+                  "the raven sword",
+                  "bolt pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "master of the ravenwing"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "master of the ravenwing",
+            "DisplayName": "Master of the Ravenwing",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Master of the Ravenwing"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Grand Master of the Ravenwing",
+          "Text": "- This unit has Mobile.\n- In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase."
+        },
+        {
+          "Title": "Cut Off Their Escape",
+          "Text": "When an enemy unit engaged with this unit (excluding MONSTER/VEHICLE units) makes a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle‑shocked, ‑1 from those hazard rolls."
+        },
+        {
+          "Title": "Master of the Ravenwing",
+          "Text": "RAVENWING model only. This model's unit can declare a charge in a turn in which it Advanced, and you can re-roll Charge rolls made for that unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Mounted",
+        "Captain",
+        "Imperium",
+        "Fly",
+        "Sammael",
+        "Ravenwing",
+        "Frame",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Dark Angels",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Sammael",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "7"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "60 Flying"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted plasma cannon",
+              "DisplayName": "Master-crafted plasma cannon",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "twin storm bolter",
+              "DisplayName": "Twin storm bolter",
+              "Keywords": "Rapid Fire 2, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "the raven sword",
+              "DisplayName": "The Raven Sword",
+              "Keywords": "Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 120
+        }
+      ]
+    }
+  ],
+  "Detachments": [
+    {
+      "Name": "Gladius Task Force",
+      "Cost": 3,
+      "Rule": {
+        "Title": "Codex Discipline",
+        "Text": "You can select one Combat Doctrine one additional time per battle."
+      },
+      "ForceDispositions": [
+        "Priority Assets",
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Artificer Armour",
+          "Description": "ADEPTUS ASTARTES model only. This model has:\n▪ 2+ Sv\n▪  Feel No Pain 5+",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Laurels of Triumph",
+          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1S and AP\n▪ Or: if the assault doctrine is active for this unit, +2S and AP",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Adept of the Codex",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Standard of the Emperor Ascendant",
+          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Ironstorm Spearhead",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Ironstorm Auto-Targeters",
+        "Text": "Friendly Adeptus Astartes Vehicle units' (excluding Walker units) ranged attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll"
+      },
+      "Tags": [
+        "IRONSTORM DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Gunnery Honours (Upgrade)",
+          "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit's ranged attacks have [Heavy]",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Dedicated Transport",
+            "Fly",
+            "Walker"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Redoubtable Machine Spirit (Upgrade)",
+          "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units) This unit:\n▪ Has a 5+ InvSv\n▪ At the end of your Command phase, heals 1 wound",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Dedicated Transport",
+            "Fly",
+            "Walker"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Stormlance Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Lightning-Fast Strike",
+        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Supercharged Engines (Upgrade)",
+          "Description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Mounted"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Auspex Triangulation Shrines (Upgrade)",
+          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy is spotted.\n▪ While a unit is spotted, that unit has +3\" detection range",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Speeder"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Inner Circle Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Vowed Target",
+        "Text": "In your Command phase, you can use this ability. If you do, select one objective. That objective is your vowed objective until your next Command phase.\n\n\n▪ Friendly Deathwing Infantry unit’s attacks that target an enemy unit within range of your vowed objective have +1 to wound rolls.\n\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Champion of the Deathwing",
+          "Description": "Deathwing model only. This unit’s attacks that target an enemy unit within range of your vowed objective have [SUSTAINED HITS 1].",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Deathwing"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Singular Will",
+          "Description": "Deathwing model only. When this unit is selected to make a consolidation move, this unit can move up to D3+3”.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Deathwing"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Wrath of the Rock",
+      "Cost": 2,
+      "Rule": {
+        "Title": "Dutiful Tenacity",
+        "Text": "Each time an attack targets an ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+      },
+      "Tags": [
+        "TERMINATOR DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Deathwing Assault",
+          "Description": "DEATHWING model with the Deep Strike ability only. In your first Movement phase, this unit can make an ingress move.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Deathwing",
+            "Bladeguard Ancient"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tempered in Battle (Aura)",
+          "Description": "ADEPTUS ASTARTES MODEL ONLY. FRIENDLY ADEPTUS ASTARTES units within 6” of this model can re-roll leadership rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Lord of the Ravenwing",
+          "Description": "RAVENWING model only. This unit can re-roll charge rolls.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Ravenwing"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Ancient Weapons",
+          "Description": "ADEPTUS ASTARTES model only. This model’s melee attacks:\n\n\n- Have +2 S.\n- Have +1 AP",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Darkflight Pursuit",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Black-winged Vigilance",
+        "Text": "Friendly Ravenwing Fly units' ranged attacks have [IGNORES COVER].\n\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.\n\n\nFriendly Outrider squad units have Battleline."
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Thundercowl Turbines (Upgrade)",
+          "Description": "Ravenwing Fly/Mounted unit only. In your first Movement phase, this unit can make an ingress move.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Mounted",
+            "Fly"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Nightforged Battery (Upgrade)",
+          "Description": "Landspeeder Vengeance unit only. This unit can re-roll:\n\n\n▪ Rolls to determine the A of a weapon.\n▪ Hazard rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Land Speeder Vengeance"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Assault Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Assault Mastery",
+        "Text": "You can select the assault doctrine one additional time per battle"
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Imperium's Sword",
+          "Description": "",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Furious Assault (Upgrade)",
+          "Description": "Adeptus Astartes Infantry unit only. This unit's melee attacks have [Sustained Hits 1: non-Monster/Vehicle]",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tactical Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Tactical Mastery",
+        "Text": "You can select the Tactical Doctrine one additional time."
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Laurels of Vigilance",
+          "Description": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tactical Insight",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Devastator Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Devastator Mastery",
+        "Text": "You can select the devastator doctrine one additional time per battle."
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Honour of Vigilance",
+          "Description": "Adeptus Astartes model only.\n▪ This unit's ranged attacks have [Lethal Hits]\n▪ If the devastator doctrine is active for this unit, this unit can re-roll advance rolls.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Master-Forged Firearms",
+          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Terminator Storm Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Death Blow",
+        "Text": "Friendly Adeptus Astartes Terminator units have +1 to charge rolls"
+      },
+      "Tags": [
+        "TERMINATOR DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Champion of the First Company",
+          "Description": "Adeptus Astartes Terminator model only. This unit's melee attacks have [Lethal Hits]",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Corporeum Reliquary",
+          "Description": "Adeptus Astartes Terminator model only. In your first Movement phase, this unit can make an ingress move.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tacticus Attack Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Wrath of the Chapter",
+        "Text": "Friendly Tacticus units can re-roll advance rolls."
+      },
+      "Tags": [
+        "TACTICUS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Martial Paragon",
+          "Description": "Tacticus model only. This unit's attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Spearpoint War Leader",
+          "Description": "Tacticus model only. This unit has Scouts 6\"",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tacticus Firestorm Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Codex Fire-Patterns",
+        "Text": "Friendly Tacticus units [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack's maximum range."
+      },
+      "Tags": [
+        "TACTICUS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Cyber Familiar",
+          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tempered in Battle (Aura)",
+          "Description": "Tacticus model only. Friendly Adeptus Astartes units within 6\" of this model can re-roll leadership rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Phobos Shadow Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Shadow Masters",
+        "Text": "When a Phobos or Scout Squad unit has shot:\n▪ Those attacks do not prevent that unit from being hidden\n▪ Or: That unit can make a normal move of up to D6\". That unit is not eligible to declare a charge until the end of the turn."
+      },
+      "Tags": [
+        "PHOBOS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Execute and Redeploy",
+          "Description": "Phobos model only. In your shooting phase, after this unit has shot, if this unit is unengaged, this unit can make a normal move of up to 6\". If it does, this unit is not eligible to declare a charge until the end of the turn.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venator Omni-Auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 0,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Phobos Shock Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Vanguard Ambushers",
+        "Text": "At the end of your Movement phase, if a friendly Phobos unit is hidden, that unit’s attacks can re-roll wound rolls of 1 until the end of the turn."
+      },
+      "Tags": [
+        "PHOBOS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Seal of Shrouding",
+          "Description": "Phobos model only. Enemy units cannot target this unit with snap shooting attacks.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venator Omni-Auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 0,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gravis Linebreaker Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Walking Fortress",
+        "Text": "In a turn a friendly Gravis unit made a normal move, that unit's ranged attacks:\n▪ Do not have [Heavy]\n▪ Have +1 to hit rolls"
+      },
+      "Tags": [
+        "GRAVIS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Indefatigable Fortitude",
+          "Description": "Gravis model only. Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Relentless Advance",
+          "Description": "Gravis model only. This unit has Scouts 5\"",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gravis Siege Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Indomitable Defence",
+        "Text": "While a friendly Gravis unit is within range of an objective, attacks that target that unit with a S greater than that unit's T have -1 to wound rolls"
+      },
+      "Tags": [
+        "GRAVIS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Immovable Conquerors (Upgrade)",
+          "Description": "Gravis unit only. This unit has +1 OC",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Narthecis Gauntlet",
+          "Description": "Apothecary Biologis model only. In your Command phase, this unit heals D3+1 wounds.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Apothecary Biologis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Ironclad Champions",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Enduring Vengeance",
+        "Text": "Friendly Adeptus Astartes Dreadnought units can re-roll hit rolls of 1"
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Artificer Sarcophagus (Upgrade)",
+          "Description": "Dreadnought unit only. Attacks that target this unit have -1D",
+          "Cost": 40,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Dreadnought"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venerable Champion (Aura) (Upgrade)",
+          "Description": "Dreadnought unit only. While a friendly Adeptus Astartes Infantry/Mounted unit is within 6\" of this unit, that unit's attacks can re-roll hit rolls of 1",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Dreadnought"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gauntlet Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Combined Deployment",
+        "Text": "In your Shooting phase, when a friendly Adeptus Astartes Transport unit has shot, you can select one enemy unit hit by those attacks. That enemy unit is assailed until the end of the turn.\n▪ While a unit is assailed, when an Adeptus Astartes unit that disembarked this turn targets that unit, those attacks have [Sustained Hits 1]"
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Linebreaker Onslaught",
+          "Description": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\n▪ This unit can re-roll charge rolls\n▪ Enemy units cannot target this unit with snap shooting attacks.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Damocles-Class Uplink",
+          "Description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that Transport unit and select one combat doctrine. That combat doctrine is active for that Infantry unit.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Deathwatch Support",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Mission Tactics",
+        "Text": "Friendly KILL TEAM units with this ability have the following abilities:\n\n\nFuror Tactics: If the devastator doctrine is active for your unit, your unit’s attacks have [SUSTAINED HITS 1].\n\n\nMalleus Tactics: If the tactical doctrine is active for your unit, your unit’s attacks have [LETHAL HITS].\n\n\nPurgatus Tactics: If the assault doctrine is active for your unit, your unit’s attacks that target an enemy unit within 9\" of this unit have [PRECISION].\n\n\nDEATHWATCH ALLIES\n\n\nYou can include Deathwatch units in your army, even though they do not have the same Chapter faction keyword as other units in your army. The combined points value of such units cannot exceed 500 points.\n\n\nWhen mustering your army, unless otherwise stated, you cannot select a Deathwatch model to be your Warlord. In addition Kill Team units can only contain enhancements taken from this detachment."
+      },
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    }
+  ],
+  "ArmyRules": []
+}

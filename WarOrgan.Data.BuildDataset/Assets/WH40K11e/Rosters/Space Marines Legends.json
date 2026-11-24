@@ -5381,7 +5381,7 @@
       "UnitAbilities": [
         {
           "Title": "Annihilator Protocols",
-          "Text": "This unit's melee attacks that target a **MONSTER/VEHICLE/FORTIFICATION** unit have [SUSTAINED HITS 2]."
+          "Text": "This unit's melee attacks that target a MONSTER/VEHICLE/FORTIFICATION unit have [SUSTAINED HITS 2]."
         },
         {
           "Title": "Centurion Assault Launchers",
@@ -10064,7 +10064,7 @@
       "UnitAbilities": [
         {
           "Title": "Wisdom of the Ancients",
-          "Text": "While a friendly **ADEPTUS ASTARTES INFANTRY** unit is within 6\" of this model, that unit's attacks can re-roll **hit** rolls of 1."
+          "Text": "While a friendly ADEPTUS ASTARTES INFANTRY unit is within 6\" of this model, that unit's attacks can re-roll hit rolls of 1."
         }
       ],
       "Infos": [],
@@ -10739,11 +10739,11 @@
         },
         {
           "Title": "Ceramite Cover",
-          "Text": "When an attack targets a unit that is not **fully visible** to the attacking model because of this unit, the target has the **benefit of cover** against that attack."
+          "Text": "When an attack targets a unit that is not fully visible to the attacking model because of this unit, the target has the benefit of cover against that attack."
         },
         {
           "Title": "Defensive Array",
-          "Text": "(Once per phase, per unit)\nYou can target this unit with the **Fire Overwatch stratagem** regardless of any other uses of that **stratagem** this phase. If you do, that use is -1 CP."
+          "Text": "(Once per phase, per unit)\nYou can target this unit with the Fire Overwatch stratagem regardless of any other uses of that stratagem this phase. If you do, that use is -1 CP."
         }
       ],
       "Infos": [],
@@ -16276,7 +16276,7 @@
       "UnitAbilities": [
         {
           "Title": "Annihilator",
-          "Text": "This unit's ranged attacks that target a **MONSTER/VEHICLE** unit can re-roll **damage** rolls."
+          "Text": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can re-roll damage rolls."
         }
       ],
       "Infos": [],
@@ -16622,7 +16622,7 @@
       "UnitAbilities": [
         {
           "Title": "Destructor",
-          "Text": "This unit's ranged attacks that target an **INFANTRY** unit have +1 AP."
+          "Text": "This unit's ranged attacks that target an INFANTRY unit have +1 AP."
         }
       ],
       "Infos": [],
@@ -17154,7 +17154,7 @@
         },
         {
           "Title": "Fire Support",
-          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. Attacks that target that unit made by friendly **ADEPTUS ASTARTES UNITS THAT **DISEMBARKED** FROM THIS TRANSPORT** this turn can re-roll **wound** rolls."
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. Attacks that target that unit made by friendly ADEPTUS ASTARTES UNITS THAT DISEMBARKED FROM THIS TRANSPORT this turn can re-roll wound rolls."
         }
       ],
       "Infos": [],
@@ -17485,7 +17485,7 @@
         },
         {
           "Title": "Fire Support",
-          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. Attacks that target that unit made by friendly **ADEPTUS ASTARTES UNITS THAT **DISEMBARKED** FROM THIS TRANSPORT** this turn can re-roll **wound** rolls."
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. Attacks that target that unit made by friendly ADEPTUS ASTARTES UNITS THAT DISEMBARKED FROM THIS TRANSPORT this turn can re-roll wound rolls."
         }
       ],
       "Infos": [],
@@ -18422,7 +18422,7 @@
       "UnitAbilities": [
         {
           "Title": "Self Repair",
-          "Text": "In your Command phase, this unit **heals** 1 wound."
+          "Text": "In your Command phase, this unit heals 1 wound."
         },
         {
           "Title": "Transport",
@@ -18430,7 +18430,7 @@
         },
         {
           "Title": "Orbital Comms Array",
-          "Text": "While a friendly **ADEPTUS ASTARTES** unit is within 6\" of this unit, each time you target that unit with a stratagem, roll 1D6:\n- On a 5+, you gain 1 CP."
+          "Text": "While a friendly ADEPTUS ASTARTES unit is within 6\" of this unit, each time you target that unit with a stratagem, roll 1D6:\n- On a 5+, you gain 1 CP."
         }
       ],
       "Infos": [],
@@ -18798,7 +18798,7 @@
       "UnitAbilities": [
         {
           "Title": "Outflank",
-          "Text": "When this unit makes an **ingress move**, it can be set up within your opponent's deployment zone."
+          "Text": "When this unit makes an ingress move, it can be set up within your opponent's deployment zone."
         }
       ],
       "Infos": [],
@@ -20870,7 +20870,7 @@
       "UnitAbilities": [
         {
           "Title": "Interceptor",
-          "Text": "This unit's ranged attacks that target a **FLY** unit have +1 to **hit** rolls."
+          "Text": "This unit's ranged attacks that target a FLY unit have +1 to hit rolls."
         }
       ],
       "Infos": [],
@@ -21778,7 +21778,7 @@
       "UnitAbilities": [
         {
           "Title": "Strafing Run",
-          "Text": "This unit's ranged attacks that target a **NON-FLY** unit have +1 to **hit rolls**."
+          "Text": "This unit's ranged attacks that target a NON-FLY unit have +1 to hit rolls."
         }
       ],
       "Infos": [],
@@ -22106,7 +22106,7 @@
       "UnitAbilities": [
         {
           "Title": "Sentry Programming",
-          "Text": "(Once per phase, per unit)\nYou can target this unit with the **Fire Overwatch stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
+          "Text": "(Once per phase, per unit)\nYou can target this unit with the Fire Overwatch stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
         }
       ],
       "Infos": [],
@@ -24652,7 +24652,7 @@
       "UnitAbilities": [
         {
           "Title": "Wisdom of the Ancients",
-          "Text": "While a friendly **ADEPTUS ASTARTES INFANTRY** unit is within 6\" of this unit, this unit's attacks can re-roll **hit rolls** of 1."
+          "Text": "While a friendly ADEPTUS ASTARTES INFANTRY unit is within 6\" of this unit, this unit's attacks can re-roll hit rolls of 1."
         }
       ],
       "Infos": [],
@@ -25811,7 +25811,7 @@
       "UnitAbilities": [
         {
           "Title": "Pinning Bombardment",
-          "Text": "In your Shooting phase, when this unit has shot, select one enemy **INFANTRY** unit hit by Whirlwind Vengeance Launcher attacks. That enemy unit makes a **battle-shock roll**."
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy INFANTRY unit hit by Whirlwind Vengeance Launcher attacks. That enemy unit makes a battle-shock roll."
         }
       ],
       "Infos": [],

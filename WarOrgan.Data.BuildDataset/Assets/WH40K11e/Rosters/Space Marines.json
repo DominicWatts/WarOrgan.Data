@@ -7933,7 +7933,7 @@
       "UnitAbilities": [
         {
           "Title": "Overlapping Detonations",
-          "Text": "In your Shooting phase, when this unit is selected to shoot you can select one enemy unit visible to it. This unit’s heavy bolters that targeted that selected unit have **[BLAST 1]**."
+          "Text": "In your Shooting phase, when this unit is selected to shoot you can select one enemy unit visible to it. This unit’s heavy bolters that targeted that selected unit have [BLAST 1]."
         }
       ],
       "Infos": [],

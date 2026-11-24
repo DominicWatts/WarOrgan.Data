@@ -11,7 +11,7 @@ dotnet run --project WarOrgan.Data.WahapediaCheck -- --faction-slug genestealer-
 
 `--faction-slug` is the Wahapedia URL name (`genestealer-cults`, `tyranids`, `astra-militarum`). A faction's datasheet page also lists the allied datasheets it can take, so the GSC page checks the Brood Brothers and Tyranid allies too. Draft rosters from `WarOrgan.Data.BsdataImport` can be checked before they are copied into the dataset.
 
-Pages are downloaded once a day into a cache (system temp by default; `--cache` to choose, `--refresh` to download again). `--datasheets` and `--faction-page` accept local files.
+Pages are downloaded once a day into a cache (system temp by default; `--cache` to choose, `--refresh` to download again). `--datasheets` and `--faction-page` accept local files. `--write-stratagems` adds missing stratagems from Wahapedia to matching detachment names in the roster and updates their category.
 
 ## What it compares
 

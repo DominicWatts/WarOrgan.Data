@@ -5,23 +5,47 @@ We recommend forking this repository to create and maintain your own dataset. Ke
 
 ## This fork
 
-This fork maintains an unofficial Warhammer 40,000 11th Edition dataset for personal and community use. Development is deliberately data-only: the supplied WarOrgan model is unchanged, and the builder only has a few extra validation checks.
+This fork maintains an unofficial Warhammer 40,000 11th Edition dataset for WarOrgan, for personal and community use. The shared WarOrgan model is unchanged, so the dataset works in the standard app. The fork adds stricter validation to the builder, plus two tools for producing and checking the data.
 
-- Current coverage: Genestealer Cults datasheets, army rule, detachments and enhancements, Tyranid Vanguard Invader allies, and core stratagems.
-- Dataset ID: `DominicWatts-WH40K11e` (kept stable for saved-list compatibility).
+### Installing the dataset
+
+Paste this URL into WarOrgan's dataset importer:
+
+`https://github.com/DominicWatts/WarOrgan.Data/releases/latest/download/DominicWatts-WH40K11e.zip`
+
+It always points at the latest release. Import the ZIP directly; do not extract it. The dataset ID, `DominicWatts-WH40K11e`, never changes, so saved army lists keep working across updates. To install an older version, use the ZIP attached to that release on [GitHub Releases](https://github.com/DominicWatts/WarOrgan.Data/releases).
+
+To try unreleased changes, import the development build instead: `https://github.com/DominicWatts/WarOrgan.Data/releases/download/develop-build/DominicWatts-WH40K11e.zip`. It replaces the released dataset in the app, so re-import the release URL afterwards to go back.
+
+### What it covers
+
+All 34 armies, with each Space Marine chapter as its own faction, plus the 11th Edition core stratagems.
+
+- **Checked:** Genestealer Cults in full, the Tyranid Vanguard Invaders that Genestealer Cults can take through Final Day, and the Astra Militarum datasheets they can take through Brood Brother Auxilia. These have been checked line by line against Wahapedia and GW's faction packs.
+- **Unchecked drafts:** every other datasheet, detachment and enhancement, converted automatically from BSData. They have no stratagems yet, rule effects are text only, and some wargear options are looser than the datasheet. Build units to the datasheet.
+
+The dataset's [README](WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md) lists coverage, sources and known limitations in detail. [FACTIONS.md](FACTIONS.md) tracks each faction's progress.
+
+### How the data is made
+
+Each faction is built up from four sources, in this order:
+
+1. **BSData** (the November 2026 dump) provides the base data. `WarOrgan.Data.BsdataImport` converts it into a draft roster.
+2. **Wahapedia** overrides it and adds stratagems. `WarOrgan.Data.WahapediaCheck` lists every difference.
+3. **10th Edition codexes** fill gaps neither covers.
+4. **GW's 11th Edition faction packs** apply the latest corrections.
+
+Each faction is developed on its own `faction/<name>` branch. Work is merged into `dataset/develop` for testing, and releases are merged into `dataset/wh40k11e` and tagged.
+
 - Release history: [CHANGELOG.md](CHANGELOG.md).
 - Outstanding work: [TODO.md](TODO.md).
-- Dataset sources and limitations: [WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md](WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md).
-- WarOrgan direct-download URL: `https://github.com/DominicWatts/WarOrgan.Data/releases/latest/download/DominicWatts-WH40K11e.zip`
-- Development test URL (latest `dataset/develop` build, not a release): `https://github.com/DominicWatts/WarOrgan.Data/releases/download/develop-build/DominicWatts-WH40K11e.zip`
-- Published builds and historical versions: [GitHub Releases](https://github.com/DominicWatts/WarOrgan.Data/releases).
-
-Paste the direct-download URL into WarOrgan's dataset importer. Use the development test URL only to try unreleased changes; it uses the same dataset ID, so re-import the direct-download URL afterwards to return to the released dataset. The `latest` address remains unchanged when a newer release is published. If installing a historical version instead, use that release's attached ZIP URL. Do not extract the archive.
 
 ## What's included
 
 - **WarOrgan.Data.Model** — the data model shared with the WarOrgan app.
 - **WarOrgan.Data.BuildDataset** — a console tool for loading, validating and packaging dataset JSON files.
+- **WarOrgan.Data.BsdataImport** (this fork) — drafts a faction roster from a BSData dump. See its [README](WarOrgan.Data.BsdataImport/README.md).
+- **WarOrgan.Data.WahapediaCheck** (this fork) — compares rosters with Wahapedia and reports every difference. See its [README](WarOrgan.Data.WahapediaCheck/README.md).
 - **Example dataset** — five faction rosters and a dataset definition showing how to use the model. See the [example notes and attribution](WarOrgan.Data.BuildDataset/Assets/Fracture/README.md).
 
 ## Building a dataset
