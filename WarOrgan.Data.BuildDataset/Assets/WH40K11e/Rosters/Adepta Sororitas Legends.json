@@ -456,7 +456,7 @@
         },
         {
           "Title": "Death Cult",
-          "Text": "Each time a model in this unit makes an attack that targets a CHARACTER unit, you can re-roll the Wound roll."
+          "Text": "Each time a model in this unit makes an attack that targets a CHARACTER unit, re-roll a Wound roll."
         }
       ],
       "Infos": [],
@@ -497,7 +497,7 @@
             },
             {
               "Id": "W",
-              "Value": "1"
+              "Value": "2"
             },
             {
               "Id": "LD",
@@ -633,6 +633,10 @@
         {
           "Title": "Emergency Combat Embarkation",
           "Text": "Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one ADEPTA SORORITAS unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3\" of this TRANSPORT, it can embark within this TRANSPORT."
+        },
+        {
+          "Title": "Damaged: 1-4 Wounds Remaining",
+          "Text": "Subtract 1 from this model’s Hit rolls while it has 1–4 wounds remaining."
         }
       ],
       "Infos": [],
