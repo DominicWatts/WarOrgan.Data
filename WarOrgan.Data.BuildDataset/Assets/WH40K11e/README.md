@@ -2,12 +2,12 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.12.0
+## Coverage in 1.5.13.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Invulnerable saves are given as an Inv characteristic and as an ability on each unit that has one.
 - Astra Militarum: a full faction. The 51 Brood Brother Auxilia ally datasheets are checked against Wahapedia. This build includes further main-roster and Legends corrections, plus Hell’s Last and Vendetta Gunship. Astra Militarum sign-off is pending WarOrgan testing of composition and wargear.
-- Tyranids: the standalone roster, Legends and 14 Final Day Vanguard Invader allies have completed Wahapedia, manual wargear and WarOrgan smoke checks. The three checker notes are two intentionally empty spore loadouts and a source punctuation difference. Deathleaper cannot be your Warlord. The one-per-army limit for Epic Heroes is not enforced. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
+- Tyranids: the standalone roster and Legends have passed Wahapedia, manual wargear and WarOrgan app checks; the 14 Final Day Vanguard Invader allies are source-checked. The three checker notes are two intentionally empty spore loadouts and a source punctuation difference. Deathleaper cannot be your Warlord. The one-per-army limit for Epic Heroes is not enforced. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
 - Datasheets are grouped as Characters, Battleline, Dedicated Transports and Other Datasheets, and allies under Allied Units.
@@ -29,7 +29,7 @@ Brood Brother Auxilia lets you include the 51 eligible Astra Militarum datasheet
 
 ## Draft factions (unchecked)
 
-These 31 factions are drafts converted automatically from the November 2026 BSData dump. They have not been checked against Wahapedia, GW's faction packs or the codexes, so expect mistakes in rules text, wargear options and points. Treat them as a starting point and build lists to the datasheets.
+These 31 factions are drafts converted automatically from the November 2026 BSData dump. They have not been checked against Wahapedia or GW's faction packs, so expect mistakes in rules text, wargear options and points. Treat them as a starting point and build lists to the datasheets.
 
 - Most draft factions still have no stratagems. The populated draft factions are Space Marines (52), T'au Empire (31), Tyranids (51), Astra Militarum (57), Adepta Sororitas (36), Adeptus Custodes (23), Adeptus Mechanicus (45), Agents of the Imperium (30), Grey Knights (45) and Imperial Knights (39). Generic Space Marine stratagems are repeated in each chapter roster so the app shows them there; chapter-specific detachments still have none. A few detachments have no enhancements because BSData has none. Enhancements, detachment rules and leader abilities are text only: the app does not apply their effects.
 - Space Marine chapters are separate factions. Each can also take the Space Marines datasheets and has the generic Space Marine detachments alongside its own.
@@ -79,11 +79,13 @@ The URL always targets the most recent published release. The downloaded ZIP sho
 ## Sources
 
 - November 2026 BSData dump: `momper14/wh40k-11e` at commit `f015101d4c495173283e1b97e9d59f2befb877ad` (11 November 2026). The base for every faction, and the only source for the draft factions.
+- List Forge BSData export: `https://files.data-ark.dev/wh40k-11e/`, version `71860bdbe486ddeed7fd46e80df2735450dcc8a6` (fetched 24 November 2026). A newer copy of the same catalogues that replaces the November dump where they differ. Not yet applied.
 - IRONBUILT community dataset `wh40k-11e`, version `2026.11.21-0401-mfm16-tempered`, manifest updated 21 November 2026.
 - Source bundle SHA-256: `e19b68b0860ec5a6074325ea22dbec5654da0953590429450306094fe7e6dd71`.
 - Wahapedia 11th Edition pages: Genestealer Cults datasheets, the Tyranid and Astra Militarum allied datasheets, and the faction pages used to correct individual draft points, datasheets and rules. Checked 23-24 November 2026.
-- Games Workshop Genestealer Cults Faction Pack, version 1.0, legal for matched play from 20 June 2026, and Tyranids Faction Pack, version 1.3, legal from 14 October 2026. Checked 23 November 2026.
-- Games Workshop Warhammer Community faction packs and Munitorum Field Manual are the canonical authority for published changes and points.
+- Games Workshop Genestealer Cults Faction Pack, version 1.1, legal for matched play from 22 July 2026 (checked 24 November 2026), and Tyranids Faction Pack, version 1.3, legal from 14 October 2026 (checked 23 November 2026).
+- Games Workshop Warhammer Community faction packs (`https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/`) and Munitorum Field Manual are the canonical authority for published changes and points.
+- Codexes are not used as a source.
 
 Community datasets are used as structured authoring aids, not as unquestioned authorities. Values should be rechecked following every Games Workshop balance or faction update.
 

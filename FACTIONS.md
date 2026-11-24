@@ -7,19 +7,21 @@ Tracks each faction through the source layers set out in `CLAUDE.md`. Update a f
 Work through these in order for each faction:
 
 1. **BSData** builds the initial base data. Draft a roster with `WarOrgan.Data.BsdataImport` (see its README), then work through its import report. Use the November 2026 dump: `momper14/wh40k-11e` at commit `f015101d4c495173283e1b97e9d59f2befb877ad`, dated 11 November 2026.
-2. **Wahapedia** supplies the core data and overrides BSData. Check a roster with `WarOrgan.Data.WahapediaCheck` (see its README), then work through its report.
-3. **10th Edition codex** fills gaps that neither earlier source covers.
-4. **Faction pack** applies GW's 11th Edition updates.
+2. **List Forge** is a newer copy of the same BSData catalogues, published at `https://files.data-ark.dev/wh40k-11e/` (version `71860bdbe486ddeed7fd46e80df2735450dcc8a6`, fetched 24 November 2026). It replaces the base where they differ. Its source commit is not in a public repository.
+3. **Wahapedia** supplies the core data and overrides both. Check a roster with `WarOrgan.Data.WahapediaCheck` (see its README), then work through its report.
+4. **Faction pack** applies GW's 11th Edition updates. Download packs from `https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/`.
+
+10th and 11th Edition codexes are not used.
 
 Key: `done`, `partial`, `-` (not started), `n/a`.
 
 ## Summary
 
-| Faction | Branch | Scope | 1 BSData | 2 Wahapedia | 3 Codex 10e | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
+| Faction | Branch | Scope | 1 BSData | 2 List Forge | 3 Wahapedia | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
-| Tyranids | `faction/tyranids` | Full (Wahapedia checked) | done | done | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
-| Astra Militarum | `faction/astra-militarum` | Full (WarOrgan sign-off pending) | done | partial (allies checked) | - | - | 72 + 63 Legends | 11 | 34 | 57/57 added | text only |
+| Genestealer Cults | `faction/genestealer-cults` | Full | done | - | done | done (1.1) | 25/25 | 9/9 | 30/30 | 45/45 | done |
+| Tyranids | `faction/tyranids` | Full (WarOrgan passed) | done | - | done | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
+| Astra Militarum | `faction/astra-militarum` | Full (WarOrgan sign-off pending) | done | - | partial (allies checked) | - | 72 + 63 Legends | 11 | 34 | 57/57 added | text only |
 | Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 38 | 8 | 24 | 36 added (7/8) | text only |
 | Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | 23/23 added | text only |
 | Adeptus Mechanicus | `faction/adeptus-mechanicus` | Draft | done (draft) | - | - | - | 37 | 10 | 33 | 45 added (9/10) | text only |
@@ -59,17 +61,19 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 - Initial import from IRONBUILT bundle `2026.11.21-0401-mfm16-tempered`, then checked line by line against Wahapedia.
 - 2026-11-23: compared with the November BSData dump. It matched statlines, weapons, points, leaders, detachment costs, Force Dispositions and all 30 enhancements and their points. Wahapedia supported our data on every difference. BSData is stale for Goliath Truck (Goliath wheels), A Plan Generations in the Making, Primed and Ready, Demolition Run, Mind Control and Atalan Jackals' 6-9 model points. BSData spells two enhancements Biomorph Adaption and Fire-point Commander. BSData has no stratagems.
 - 2026-11-23: first Wahapedia check run. 23 of 33 datasheets and detachments matched with no differences. Its findings were fixed in 1.4.1 (Scouts, Deadly Demise and Feel No Pain values, Biophagus alchemicus familiar, Fragdrill Fortification); 30 of 33 now match. The remaining notes are expected: bio-weapons, and Wahapedia typos in two stratagems and the Fragdrill's GENESTEALER CULT INFANTRY.
+- 2026-11-24 (1.5.13): checked against Faction Pack 1.1 (legal from 22 July 2026). Its six Rules Updates changes (Cult Ambush character exclusion and 8" marker distance; 8" in Evasive Vanguard, In the Shadow of Iron and Rapid Feint; Along Shadowed Trails' new When) were already in the data. Cult Ambush now says "identical to that destroyed unit" as in the pack; Wahapedia says "your", so the Wahapedia check may report it as an expected text difference.
 - Skipped: Cult Unveiled and Genespawn Onslaught (Boarding Actions detachments), and Crucible entries.
 - Open: Patriarch must be Warlord (app enforcement); leader effect app checks. See `TODO.md`.
 
 ## Tyranids
 
+- 2026-11-24 (1.5.10): standalone roster and Legends app checks passed.
 - Allied datasheets for Final Day only: all 14 Vanguard Invader units. On 2026-11-23 they matched the November BSData dump on points, stats and weapons. BSData spells it distendible jaw; Wahapedia has distensible jaw. The Wahapedia check matched 13 of 14; Wahapedia omits the HYPERADAPTED RAVENERS keyword.
 - 2026-11-24 (1.5.2): filled to a full faction from BSData: 38 more datasheets, 5 Legends, 10 detachments, 34 enhancements and the Synapse and Shadow in the Warp army rules. The 14 allied datasheets were kept unchanged. Carnifex and Mucolid Spores points came from Wahapedia (BSData sets them by condition). Spawned units (Spore Mines and Mucolid Spores from other units, Parasite of Mortrex rippers) were left out. Final Day still offers only the 14 Vanguard Invaders: the four new Vanguard Invader units are Aircraft, Broodlord or Genestealers.
 
 ## Astra Militarum
 
-- 2026-11-24 (1.5.10): added Hell’s Last and Vendetta Gunship and reviewed main and Legends wargear. WarOrgan sign-off is pending for the Grenadier Squad, the Tempestus loadouts, the Ratlings options and the 51-unit ally list.
+- 2026-11-24 (1.5.10): added Hell’s Last and Vendetta Gunship and reviewed main and Legends wargear. Ratling Battlemutt and Demolition Gear passed their WarOrgan checks. Sign-off is still pending for the Grenadier Squad, the Tempestus loadouts and the 51-unit ally list.
 
 - Allied datasheets for Brood Brother Auxilia only. Cadian Shock Troops pilot matched the November BSData dump on 2026-11-23.
 - 2026-11-23 trial: the BSData importer drafted 52 units; the Wahapedia check matched 16 with no differences and listed 93 notes for the rest, including Orders missing from six officers.
@@ -79,6 +83,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 
 - 2026-11-24 (1.5.2): filled to a full faction from BSData: 21 more datasheets, 61 Legends, 11 detachments, 34 enhancements and the Voice of Command army rule. The 51 allied datasheets were kept unchanged. Hippogriff AFV and Legends weapon battery points came from Wahapedia. Hell's Last (Legends) is left out: Wahapedia has no 11th Edition datasheet for it. Brood Brother Auxilia now lists the 51 eligible datasheets by ID, so the new units (including Ratlings, the Valkyrie and the Legends units, which the keyword filter missed) are not offered to Genestealer Cults.
 - 2026-11-24 (1.5.11, issue 8): two Leaders for Cadian Shock Troops, Catachan Jungle Fighters, Death Korps of Krieg and Tempestus Scions (at most one Command Squad); Wahapedia wargear costs on every Leman Russ (+5 per lascannon, including the hull lascannon, multi-melta and plasma cannon; +15 demolisher battle cannon on the Commander); Recon Squads can take two long-las (the datasheet makes the second an alternative to the missile team, which WarOrgan cannot express); Bullgryn wargear swaps cover all six models; Ogryn Bodyguard and Nork Deddog join a Command Squad as Bodyguard-type leaders. Orders text for the Commissars, Dreir, Leontus, Creed and the Tempestus Command Squad was already added in 1.5.10.
+- 2026-11-24: WarOrgan checks passed for Leman Russ lascannon and multi-melta costs and all six Bullgryn wargear swaps. The Commander's demolisher cost and the other issue 8 cases remain unconfirmed.
 ## BSData drafts
 
 - 2026-11-24 (1.5.0): 31 factions drafted with `WarOrgan.Data.BsdataImport` from the pinned dump and merged unchecked. Chapters are their own factions with the Space Marines roster included (`IsIncludedInPrimaryRoster`); each chapter roster also repeats the generic Space Marine detachments, because BSData lists them for every chapter.

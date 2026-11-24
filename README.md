@@ -31,9 +31,11 @@ The dataset's [README](WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md) lis
 Each faction is built up from four sources, in this order:
 
 1. **BSData** (the November 2026 dump) provides the base data. `WarOrgan.Data.BsdataImport` converts it into a draft roster.
-2. **Wahapedia** overrides it and adds stratagems. `WarOrgan.Data.WahapediaCheck` lists every difference.
-3. **10th Edition codexes** fill gaps neither covers.
+2. **List Forge**'s BSData export, a newer copy of the same catalogues, replaces the base where they differ.
+3. **Wahapedia** overrides both and adds stratagems. `WarOrgan.Data.WahapediaCheck` lists every difference.
 4. **GW's 11th Edition faction packs** apply the latest corrections.
+
+Codexes are not used as a source.
 
 Each faction is developed on its own `faction/<name>` branch. Work is merged into `dataset/develop` for testing, and releases are merged into `dataset/wh40k11e` and tagged.
 

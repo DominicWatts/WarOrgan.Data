@@ -6,7 +6,7 @@ The work plan for the `DominicWatts-WH40K11e` dataset, written so an AI agent (o
 
 - **Read first:** `FACTIONS.md` (source order and per-faction status), `CHANGELOG.md` (release history), the dataset's `WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md` (coverage and limitations), and the READMEs of `WarOrgan.Data.BsdataImport` and `WarOrgan.Data.WahapediaCheck`.
 - **Never change** the dataset ID (`DominicWatts-WH40K11e`) or a published unit `Id`: saved army lists refer to both. Change `DisplayName` instead. Do not change `WarOrgan.Data.Model` without the owner's agreement; the app reads it.
-- **Sources, in priority order:** the November 2026 BSData dump (`momper14/wh40k-11e` at `f015101d4c495173283e1b97e9d59f2befb877ad`, saved as `bsdata.zip` in the repository root, gitignored) is the base; Wahapedia's 11th Edition pages override it; 10th Edition codexes fill gaps; GW's 11th Edition faction packs apply corrections. Flag conflicts to the owner rather than overwriting checked data.
+- **Sources, in priority order:** (1) the November 2026 BSData dump (`momper14/wh40k-11e` at `f015101d4c495173283e1b97e9d59f2befb877ad`, saved as `bsdata.zip` in the repository root, gitignored) is the base; (2) List Forge's BSData export at `https://files.data-ark.dev/wh40k-11e/` (`index.json` lists the catalogue files; its `version` is commit `71860bdbe486ddeed7fd46e80df2735450dcc8a6`, fetched 24 November 2026) is a newer copy of the same catalogues and replaces the base where they differ; (3) Wahapedia's 11th Edition pages override both; (4) GW's 11th Edition faction packs, downloaded from `https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/`, apply corrections. Do not use 10th or 11th Edition codexes as a source. Flag conflicts to the owner rather than overwriting checked data.
 - **Branches:** origin is authoritative and shared branches are long-lived. Faction data goes on the existing `origin/faction/<slug>` branch (for example `faction/space-marines`); do not recreate it from develop or merge develop back into it. Work from the faction branch as-is; if a task appears to require changes that exist only on develop, ask the owner before changing the branch flow. Push the faction commit, then merge the faction branch into `dataset/develop` with `--no-ff` and leave its pointer on its own commit. Never fast-forward, rebase, reset, force-move or force-push shared branches. Dataset-wide content such as core stratagems or the keyword registry goes on `core/<topic>`; tooling and docs on `chore/<topic>`; cross-faction ally wiring on `allies/<owner>-<ally>`. Never commit directly on `dataset/develop` except the one "Prepare x.y.z" commit per release, and never on `dataset/wh40k11e`.
 - **Releases:** the Prepare commit on `dataset/develop` bumps `defaultVersion` in `WarOrgan.Data.BuildDataset/Program.cs` (third field for data changes), the `## Coverage in` heading in the dataset README, adds one `CHANGELOG.md` line (`YYYY-MM-DD : x.y.z.0 - summary`, with a blank line between entries) and updates this file and `FACTIONS.md`. Build, upload the ZIP to the `develop-build` pre-release for the owner to test in WarOrgan, and only after they pass it merge `dataset/develop` into `dataset/wh40k11e`, tag `vX.Y.Z` and verify the public download.
 - **Checks before every commit:** `dotnet run --project WarOrgan.Data.BuildDataset -c Release` must end with `0 errors`, and `git diff --check` must be clean. Commit messages are a single line.
@@ -17,15 +17,21 @@ The work plan for the `DominicWatts-WH40K11e` dataset, written so an AI agent (o
 
 Ordered by value. Each task lists where to work and when it is done.
 
-### 1. Check factions against Wahapedia
+### 1. Apply the List Forge snapshot
+
+Work on `chore/list-forge-snapshot`. Download every file in `https://files.data-ark.dev/wh40k-11e/index.json` with `curl` (the host refuses Python's default user agent) and check each MD5. The files use the same names, format and entry IDs as `bsdata.zip`. On 24 November 2026, 27 of 46 catalogues were identical to the pinned dump; 19 were newer revisions with small fixes and no added or removed units or models. Genestealer Cults, Tyranids, Library – Tyranids and the main Astra Militarum catalogue were unchanged. Run `WarOrgan.Data.BsdataImport` on both and list which roster differences come from the newer catalogues. Apply them on each `faction/<slug>` branch, except where Wahapedia or checked data already disagrees: flag those to the owner.
+
+Done when: every faction's `FACTIONS.md` List Forge column is `done` or `n/a`, and the dataset README's Sources list the snapshot version as applied.
+
+### 2. Check factions against Wahapedia
 
 Check and release each faction on its own `faction/<slug>` branch. Wahapedia wins over BSData. Fix names, statlines, weapons, keywords, abilities, composition, wargear options, points, Leader attachments, Support attachments and detachment differences; work through the importer report and preserve hand fixes.
 
-Done for a faction when: the check report has only expected notes, `FACTIONS.md` marks Wahapedia layer 2 as done, and the dataset README moves it from Draft coverage to checked coverage.
+Done for a faction when: the check report has only expected notes, `FACTIONS.md` marks Wahapedia layer 3 as done, and the dataset README moves it from Draft coverage to checked coverage.
 
 **Priority**
 
-- [x] Tyranids — Wahapedia, manual wargear and WarOrgan smoke checks complete
+- [x] Tyranids — Wahapedia, manual wargear and WarOrgan app checks passed
 - [ ] Astra Militarum — remaining draft datasheets and detachments, while keeping the checked Brood Brother Auxilia allies
 - [ ] Adepta Sororitas
 - [ ] Adeptus Custodes
@@ -64,7 +70,7 @@ Done for a faction when: the check report has only expected notes, `FACTIONS.md`
 **Progress notes — 2026-11-24**
 
 - **Development build 1.5.10.0** (`fc22663`): uploaded to `develop-build` and verified byte for byte against the local ZIP. The integrated build had zero errors. Public release remains 1.5.9.0.
-- **Tyranids**: manual wargear review and WarOrgan smoke test passed. Wahapedia review is complete; the two empty spore loadouts and the Synaptic Nexus punctuation difference are expected notes.
+- **Tyranids**: manual wargear review and WarOrgan app checks passed. Wahapedia review is complete; the two empty spore loadouts and the Synaptic Nexus punctuation difference are expected notes.
 - **Astra Militarum**: main and Legends wargear reviewed. Added Hell’s Last and Vendetta Gunship, corrected Legends profiles and loadouts, and added the missing Ratlings and Tempestus Command Squad choices. The Brood Brother Auxilia allowlist still contains 51 distinct IDs. Current check: 70/83 main entries clean with 14 notes; 47/63 Legends entries clean with 30 notes. Keep the audit open pending the WarOrgan tests below.
 - **Adepta Sororitas**: corrected enhancement eligibility, Saint Celestine’s model keywords, datasheet abilities, and Legends rules and profiles. Current check: 22/41 main entries clean with 33 notes; 1/5 Legends entries clean with 6 notes. Source and selectable wargear review remain open.
 - **T’au Empire**: corrected Broadside, Kroot, Piranha and XV9 points or composition, Commander Leader targets, obsolete drone entries and the Tidewall platform Wounds adjustment. Current check: 2/50 main entries clean with 149 notes; 0/19 Legends entries clean with 57 notes. Source and selectable wargear review remain open.
@@ -90,7 +96,7 @@ Done for a faction when: the check report has only expected notes, `FACTIONS.md`
 - **Adepta Sororitas Aestred Thurga and Agathae Dolan** (`faction/adepta-sororitas`, `6e42625`, merged as `ce3577c`): replaced the combined datasheet-name keyword with the separate Aestred Thurga and Agathae Dolan keywords listed by Wahapedia. The main roster now reports 14/41 clean with 50 notes; Legends remain 0/5 clean with 8 notes.
 - These are incremental corrections only; none of these factions meets the completion criteria above. Keep their Wahapedia status open and continue with the remaining draft differences.
 
-### 2. Add stratagems for every faction except Genestealer Cults
+### 3. Add stratagems for every faction except Genestealer Cults
 
 BSData has no stratagems. Genestealer Cults and ten draft factions now have them; the remaining factions and chapter-specific detachments are still empty.
 
@@ -99,7 +105,7 @@ BSData has no stratagems. Genestealer Cults and ten draft factions now have them
 - **Done when:** every detachment in a faction has its stratagems, the check report shows no stratagem differences, and the build passes.
 - **Completed so far:** Genestealer Cults (45), generic Space Marines (52, copied into chapter rosters), T'au Empire (31), Tyranids (51), Astra Militarum (57), Adepta Sororitas (36), Adeptus Custodes (23), Adeptus Mechanicus (45), Agents of the Imperium (30), Grey Knights (45) and Imperial Knights (39). Sanctified Orators and Haloscreed Battleclade have no Wahapedia stratagems.
 
-### 3. Fill the detachments BSData has no enhancements for
+### 4. Fill the detachments BSData has no enhancements for
 
 Armoured Trailblazers, Brazen Engines, Butchers of Khorne, Contagion Engines, Flyblown Host, Hand of the Dynasty, Pantheon of Woe, Skyshroud Spearhead, Spectacle of Slaughter, Veiled Blade Elimination Force and Warptide have none in BSData. (Deathwatch Support is an allied option and should stay empty.)
 
@@ -107,7 +113,7 @@ Armoured Trailblazers, Brazen Engines, Butchers of Khorne, Contagion Engines, Fl
 - **Do:** take each enhancement's name, points, restriction (`RequiredKeywords` and similar) and text from the Wahapedia faction page (`ul.EnhancementsPts`).
 - **Done when:** each listed detachment has its enhancements or a confirmed note that it has none.
 
-### 4. Turn simple rule effects into data
+### 5. Turn simple rule effects into data
 
 Enhancement, wargear, leader and detachment rules are text only in the drafts, so the app does not apply them. Many are simple stat changes the model can represent.
 
@@ -115,7 +121,7 @@ Enhancement, wargear, leader and detachment rules are text only in the drafts, s
 - **Do:** recognise simple patterns such as "Add 1 to the bearer's Wounds characteristic", "+1 Strength to melee weapons" or "improve the Armour Penetration characteristic by 1", and emit `StatAdjustments` or `WeaponStatAdjustments` (`Scope: Model` for the bearer). Report anything conditional or unit-wide instead of guessing. Worked examples: the Vanguard Tyrant enhancement in `Rosters/Genestealer Cults.json` (S and AP) and the T'au shield drone in `Rosters/T'au Empire.json` (W, characters only: squads keep it as text because WarOrgan shows one statline per model type).
 - **Done when:** the recognised effects apply in a test build, and FACTIONS.md notes which effects remain text.
 
-### 5. Wire the remaining allies
+### 6. Wire the remaining allies
 
 Only Genestealer Cults (Tyranids, Astra Militarum) and the Space Marine chapters (Space Marines) have allies. Others are missing, for example Agents of the Imperium for Imperium armies, Chaos Daemons and Chaos Knights for Chaos armies, and Imperial Knights.
 
@@ -123,27 +129,40 @@ Only Genestealer Cults (Tyranids, Astra Militarum) and the Space Marine chapters
 - **Do:** add `Allies` entries in `DataSetDefinition.json` with the rule's points cap, allowed detachments and unit filters (`UnitIncludeRules`, with `AddedKeywords: ["Allied Units"]`). Prefer `AffectedUnitsFilter` with explicit unit IDs when keywords are unreliable; BSData keyword spellings vary (see the Brood Brother Auxilia entry).
 - **Done when:** each ally appears only where its rule allows, under Allied Units, and the owner has app-tested it.
 
-### 6. Correct the T'au drone option lists
+### 7. Correct the T'au drone option lists
 
-BSData offers drones that Wahapedia does not allow, for example guardian drones on the Cadre Fireblade, Ethereal and Commanders. It also lists Stealth Battlesuits, but not the Hazard Battlesuits, as able to take shield drones. Fix this as part of task 2 for T'au, against each datasheet's wargear options on Wahapedia.
+BSData offers drones that Wahapedia does not allow, for example guardian drones on the Cadre Fireblade, Ethereal and Commanders. It also lists Stealth Battlesuits, but not the Hazard Battlesuits, as able to take shield drones. Fix this as part of the T'au Wahapedia check (task 2), against each datasheet's wargear options on Wahapedia.
 
 - **Completed** (`faction/tau-empire`, `b09d800`, merged as `d243e5b`): checked all 15 T'au datasheets with drone options against Wahapedia. Removed disallowed drone choices and their orphaned missile-pod profiles; Stealth Shas’vre now has separate gun- and marker-drone choices, and XV9 Hazard Battlesuits include shield drones. The check reports 2/50 main-roster entries clean with 172 notes and 0/19 Legends entries clean with 63 notes; drone-equipment notes remain because the checker does not compare wargear options.
 
-### 7. Add builder validation for duplicate weapon IDs within a unit
+### 8. Add builder validation for duplicate weapon IDs within a unit
 
 - **Branch:** `chore/validate-duplicate-weapons`.
 - **Do:** in `WarOrgan.Data.BuildDataset/Validation/`, fail the build when a unit reuses a weapon `Id` across weapon sets, except a same-named ranged/melee profile pair for one selectable weapon.
 - **Done when:** the check exists, the current dataset still builds, and a deliberately duplicated weapon fails.
 - **Completed:** added the cross-set check, preserving the dataset's intentional ranged/melee profile pairs. The full dataset builds, and an injected duplicate fails validation.
 
+### 9. Apply the current faction packs
+
+Download packs from `https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/` (direct `curl` downloads of the PDF links work as of 24 November 2026) and read them with `pdftotext -layout`. On 24 November 2026 the page listed packs for Adepta Sororitas, Adeptus Custodes, Adeptus Mechanicus, Adeptus Titanicus, Aeldari, Astra Militarum, Chaos Daemons, Chaos Knights, Chaos Space Marines, Death Guard, Drukhari, Emperor's Children, Genestealer Cults, Grey Knights, Imperial Agents, Imperial Knights, Leagues of Votann, Necrons, T'au Empire, Thousand Sons, Tyranids and World Eaters, plus Legends packs for Blood Angels, Dark Angels and Space Wolves. Genestealer Cults is done: pack 1.1 (22 July) was compared on 24 November 2026 and applied in 1.5.13. Apply each pack on its `faction/<slug>` branch after the Wahapedia check, and record the pack version in `FACTIONS.md` and the dataset README's Sources.
+
 ## Needs the owner (app testing)
 
-- [ ] Astra Militarum (1.5.10): both 110-point Grenadier lineups and rejection of mixed invalid counts; Tempestus special-weapon limits and both medi-pack choices; Ratling Battlemutt and Demolition Gear on a ten-model unit only; Hell’s Last and Vendetta Gunship selectable with Legends enabled.
+- [ ] Astra Militarum (1.5.10): both 110-point Grenadier lineups and rejection of mixed invalid counts.
+- [ ] Astra Militarum (1.5.10): Tempestus special-weapon limits and both medi-pack choices.
+- [x] Astra Militarum (1.5.10): Ratling Battlemutt and Demolition Gear on a ten-model unit only. Passed.
+- [ ] Astra Militarum (1.5.10): Hell’s Last and Vendetta Gunship selectable with Legends enabled.
 
 Only the owner can run these, in the WarOrgan app, using the development build URL. Record results here.
 
-- [ ] Army rules (1.5.12, issue 9): Ultramarines shows Combat Doctrines, Transhuman Strategist, Librarius and Special Move Types; Dark Angels also show The Ravenwing and The Deathwing; Aeldari show Battle Focus with its token table readable.
-- [ ] Astra Militarum (1.5.11, issue 8): a Cadian Shock Troops unit takes two Leaders but not two Command Squads; a Leman Russ Battle Tank costs 165 with its lascannon and 175 with two multi-meltas; a Leman Russ Commander with a demolisher battle cannon costs 15 more; a Recon Squad takes two long-las; all six Bullgryns can swap wargear; an Ogryn Bodyguard and Nork Deddog can each join a Command Squad, one per squad.
+- [x] Tyranids (1.5.10): standalone roster and Legends app checks passed.
+- [x] Army rules (1.5.12, issue 9): Ultramarines shows Combat Doctrines, Transhuman Strategist, Librarius and Special Move Types; Dark Angels also show The Ravenwing and The Deathwing; Aeldari show Battle Focus with its token table readable. Passed.
+- [ ] Astra Militarum (1.5.11, issue 8): a Cadian Shock Troops unit takes two Leaders but not two Command Squads.
+- [x] Astra Militarum (1.5.11, issue 8): a Leman Russ Battle Tank costs 165 with its lascannon and 175 with two multi-meltas. Passed.
+- [ ] Astra Militarum (1.5.11, issue 8): a Leman Russ Commander with a demolisher battle cannon costs 15 more.
+- [ ] Astra Militarum (1.5.11, issue 8): a Recon Squad takes two long-las.
+- [x] Astra Militarum (1.5.11, issue 8): all six Bullgryns can swap wargear. Passed.
+- [ ] Astra Militarum (1.5.11, issue 8): an Ogryn Bodyguard and Nork Deddog can each join a Command Squad, one per squad.
 - [x] Shield drones: a Cadre Fireblade with one shield drone gains 1 W, with two gains 2 W (1.5.4). Reopen issue 4 if two do not stack.
 - [x] Chapters (1.5.7): Ultramarines groups Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets, not "Allies: Adeptus Astartes" (issue 6). Passed.
 - [ ] Draft factions (1.5.3): a Battle Sisters Squad and a Crusader Squad for their composition and wargear.

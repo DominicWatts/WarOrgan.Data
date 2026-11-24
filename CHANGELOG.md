@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-24 : 1.5.13.0 - Genestealer Cults checked against Faction Pack 1.1 (22 July 2026): the data already had its changes; the Cult Ambush rule now uses the pack's wording, and a duplicated Psionic Parasitism heading was removed from the faction branch.
+
 2026-11-24 : 1.5.12.0 - Added the army rules from Wahapedia for Space Marines and every chapter (with chapter rules such as The Deathwing and Curse of the Wulfen), Aeldari, Drukhari, Chaos Daemons, Chaos Knights and Imperial Knights (issue 9).
 
 2026-11-24 : 1.5.11.0 - Astra Militarum fixes from issue 8: Shock Troops, Jungle Fighters, Krieg and Tempestus Scions take two Leaders, Leman Russ lascannons, multi-meltas, plasma cannons and the demolisher battle cannon cost points, Recon Squads can take two long-las, every Bullgryn can change wargear, and Ogryn Bodyguards and Nork Deddog join Command Squads.

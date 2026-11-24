@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 using WarOrgan.Data.WahapediaCheck;
 using WarOrgan.Model.Faction;
 
-// Compare WarOrgan rosters with Wahapedia: step 2 of the source order in FACTIONS.md.
+// Compare WarOrgan rosters with Wahapedia: step 3 of the source order in FACTIONS.md.
 var rosters = new List<string>();
 var options = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
 for (var i = 0; i < args.Length; i++)
