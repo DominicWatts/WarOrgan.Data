@@ -296,6 +296,13 @@
       "Category": "Chaos",
       "MainColor": "#6A2C7A",
       "DarkColor": "#B06CC0"
+    },
+    {
+      "Name": "Thousand Sons",
+      "FactionKeyword": "Thousand Sons",
+      "Category": "Chaos",
+      "MainColor": "#1F5A8A",
+      "DarkColor": "#D4AF37"
     }
   ],
   "CoreAbilities": [
