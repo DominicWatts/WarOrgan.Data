@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Adeptus Mechanicus",
+      "FactionKeyword": "Adeptus Mechanicus",
+      "Category": "Imperium",
+      "MainColor": "#8E2A1E",
+      "DarkColor": "#C8644F"
     }
   ],
   "CoreAbilities": [
