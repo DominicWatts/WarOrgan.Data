@@ -23390,29 +23390,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "trademark weapon upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "trademark weapon upgrade",
-            "DisplayName": "Trademark Weapon upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -26285,29 +26269,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "trademark weapon upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "trademark weapon upgrade",
-            "DisplayName": "Trademark Weapon upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {

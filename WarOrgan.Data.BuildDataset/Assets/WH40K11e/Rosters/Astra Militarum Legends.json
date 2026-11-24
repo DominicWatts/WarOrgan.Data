@@ -361,29 +361,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -4118,29 +4102,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -5423,29 +5391,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -6812,16 +6764,6 @@
                     "Options": [
                       {
                         "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
                           "hunter-killer missile"
                         ]
                       }
@@ -6832,13 +6774,7 @@
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -7279,29 +7215,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -7711,29 +7631,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -8143,29 +8047,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -10473,16 +10361,6 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
@@ -10490,11 +10368,6 @@
           }
         ],
         "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          },
           {
             "Key": "heavy bombs",
             "DisplayName": "Heavy bombs",
@@ -10729,29 +10602,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -15430,29 +15287,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -16143,16 +15984,6 @@
                 "Options": [
                   {
                     "Max": 3,
-                    "Options": [
-                      {
-                        "Items": [
-                          "totemic presence upgrade"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 3,
                     "Replaces": [
                       "twin heavy bolter"
                     ],
@@ -16169,13 +16000,7 @@
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "totemic presence upgrade",
-            "DisplayName": "Totemic Presence upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -17233,29 +17058,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "character upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "character upgrade",
-            "DisplayName": "Character Upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
