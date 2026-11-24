@@ -1330,11 +1330,11 @@
         },
         {
           "Title": "Master Tactician",
-          "Text": "In your Movement phase, you can select one visible friendly **ADEPTUS ASTARTES** unit within 9\" of this model, and select one combat doctrine. That combat doctrine is active for that unit until the start of your next Command phase."
+          "Text": "In your Movement phase, you can select one visible friendly ADEPTUS ASTARTES unit within 9\" of this model, and select one combat doctrine. That combat doctrine is active for that unit until the start of your next Command phase."
         },
         {
           "Title": "Thunderhawk Insertion",
-          "Text": "In the Declare Battle Formations step, you can select one friendly **GRAVIS/PHOBOS/TACTICUS** unit. That unit has Deep Strike."
+          "Text": "In the Declare Battle Formations step, you can select one friendly GRAVIS/PHOBOS/TACTICUS unit. That unit has Deep Strike."
         },
         {
           "Title": "Codex Adept",
@@ -1562,7 +1562,7 @@
         },
         {
           "Title": "Leader of Astartes",
-          "Text": "While this unit is within 3\" of a friendly **ADEPTUS ASTARTES INFANTRY** unit, this unit has Lone Operative."
+          "Text": "While this unit is within 3\" of a friendly ADEPTUS ASTARTES INFANTRY unit, this unit has Lone Operative."
         },
         {
           "Title": "Supreme Commander",

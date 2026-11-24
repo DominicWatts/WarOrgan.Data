@@ -40,7 +40,7 @@
         },
         {
           "Title": "Feared Interrogator",
-          "Text": "At the start of the Fight phase, each enemy **CHARACTER** unit within 6\" of this model makes a battle-shock roll, with -1 to that battle-shock roll."
+          "Text": "At the start of the Fight phase, each enemy CHARACTER unit within 6\" of this model makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ],
       "LeaderInfo": {
@@ -263,7 +263,7 @@
         },
         {
           "Title": "Masterful Tactician",
-          "Text": "In your Movement phase, select up to one visible friendly **ADEPTUS ASTARTES** unit within 9\" of this model, and select one combat doctrine. That combat doctrine is active for that unit until the start of your next Command phase."
+          "Text": "In your Movement phase, select up to one visible friendly ADEPTUS ASTARTES unit within 9\" of this model, and select one combat doctrine. That combat doctrine is active for that unit until the start of your next Command phase."
         },
         {
           "Title": "Watcher in the Dark",
@@ -716,7 +716,7 @@
         },
         {
           "Title": "Watcher in the Dark",
-          "Text": "Once per battle, in any phase, just after a mortal wound is allocated to an **ADEPTUS ASTARTES** model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+          "Text": "Once per battle, in any phase, just after a mortal wound is allocated to an ADEPTUS ASTARTES model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
         }
       ],
       "Infos": [],
@@ -1064,7 +1064,7 @@
         },
         {
           "Title": "Deathwing",
-          "Text": "This unit's attacks can ignore modifiers to:\n- BS and WS.\n- **Hit rolls**."
+          "Text": "This unit's attacks can ignore modifiers to:\n- BS and WS.\n- Hit rolls."
         },
         {
           "Title": "Teleport Homer",
@@ -1072,7 +1072,7 @@
         },
         {
           "Title": "Watcher in the Dark",
-          "Text": "Once per battle, in any phase, just after a mortal wound is allocated to an **ADEPTUS ASTARTES** model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+          "Text": "Once per battle, in any phase, just after a mortal wound is allocated to an ADEPTUS ASTARTES model in this unit, this unit can summon a Watcher in the Dark. When it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability against mortal wounds."
         }
       ],
       "Infos": [],
@@ -1841,7 +1841,7 @@
         },
         {
           "Title": "Emnity for the Unworthy",
-          "Text": "This unit's attacks that target a **CHARACTER** unit have +1 to hit rolls."
+          "Text": "This unit's attacks that target a CHARACTER unit have +1 to hit rolls."
         }
       ],
       "Infos": [],
@@ -2088,7 +2088,7 @@
         },
         {
           "Title": "Storm of Vengeance",
-          "Text": "(Once per turn, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if those attacks destroyed a friendly **DARK ANGELS** unit within 6\" of this unit, you can use this ability. If you do, this unit shoots using normal shooting but while doing so this unit can only target that enemy unit."
+          "Text": "(Once per turn, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if those attacks destroyed a friendly DARK ANGELS unit within 6\" of this unit, you can use this ability. If you do, this unit shoots using normal shooting but while doing so this unit can only target that enemy unit."
         }
       ],
       "Infos": [],
@@ -2578,7 +2578,7 @@
         },
         {
           "Title": "Dark Angels Bodyguard",
-          "Text": "While this unit is within 3\" of a friendly **DARK ANGELS INFANTRY** unit, this unit has Lone Operative."
+          "Text": "While this unit is within 3\" of a friendly DARK ANGELS INFANTRY unit, this unit has Lone Operative."
         },
         {
           "Title": "Master Strategist",
@@ -3626,7 +3626,7 @@
         },
         {
           "Title": "Narthecium",
-          "Text": "While this unit contains a **RAVENWING APOTHECARY**, in your Command phase, this unit heals D3+1 wounds."
+          "Text": "While this unit contains a RAVENWING APOTHECARY, in your Command phase, this unit heals D3+1 wounds."
         },
         {
           "Title": "Honour or Death",
@@ -4208,7 +4208,7 @@
         },
         {
           "Title": "Icon of Old Caliban",
-          "Text": "While a friendly **DARK ANGELS** unit is within 6\" of this unit, that unit has Stealth."
+          "Text": "While a friendly DARK ANGELS unit is within 6\" of this unit, that unit has Stealth."
         }
       ],
       "Infos": [],
@@ -4448,7 +4448,7 @@
         },
         {
           "Title": "Cut Off Their Escape",
-          "Text": "When an enemy unit engaged with this unit (excluding **MONSTER/VEHICLE** units) makes a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle‑shocked, ‑1 from those hazard rolls."
+          "Text": "When an enemy unit engaged with this unit (excluding MONSTER/VEHICLE units) makes a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle‑shocked, ‑1 from those hazard rolls."
         },
         {
           "Title": "Master of the Ravenwing",
@@ -4873,7 +4873,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Dutiful Tenacity",
-        "Text": "Each time an attack targets an **ADEPTUS ASTARTES INFANTRY** or **ADEPTUS ASTARTES MOUNTED** unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        "Text": "Each time an attack targets an ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
       },
       "Tags": [
         "TERMINATOR DETACHMENT"
@@ -4885,7 +4885,7 @@
       "Enhancements": [
         {
           "Name": "Deathwing Assault",
-          "Description": "**DEATHWING** model with the **Deep Strike** ability only. In your first Movement phase, this unit can make an **ingress move**.",
+          "Description": "DEATHWING model with the Deep Strike ability only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -4899,7 +4899,7 @@
         },
         {
           "Name": "Tempered in Battle (Aura)",
-          "Description": "ADEPTUS ASTARTES** MODEL ONLY. FRIENDLY ADEPTUS ASTARTES** units within 6” of this model can re-roll **leadership rolls**.",
+          "Description": "ADEPTUS ASTARTES MODEL ONLY. FRIENDLY ADEPTUS ASTARTES units within 6” of this model can re-roll leadership rolls.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -4910,7 +4910,7 @@
         },
         {
           "Name": "Lord of the Ravenwing",
-          "Description": "**RAVENWING** model only. This unit can re-roll **charge rolls**.",
+          "Description": "RAVENWING model only. This unit can re-roll charge rolls.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -4923,7 +4923,7 @@
         },
         {
           "Name": "Ancient Weapons",
-          "Description": "**ADEPTUS ASTARTES** model only. This model’s melee attacks:\n\n\n- Have +2 S.\n- Have +1 AP",
+          "Description": "ADEPTUS ASTARTES model only. This model’s melee attacks:\n\n\n- Have +2 S.\n- Have +1 AP",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],

@@ -896,7 +896,7 @@
       "UnitAbilities": [
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 6 GREY KNIGHTS INFANTRY models. It cannot transport **TERMINATOR** models."
+          "Text": "This model has a transport capacity of 6 GREY KNIGHTS INFANTRY models. It cannot transport TERMINATOR models."
         },
         {
           "Title": "Fire Support",

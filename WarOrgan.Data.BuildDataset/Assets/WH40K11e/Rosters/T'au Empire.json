@@ -1475,6 +1475,14 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "1"
+              }
             ]
           }
         ]
@@ -2112,6 +2120,14 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "1"
+              }
             ]
           },
           {
@@ -2150,7 +2166,7 @@
       "UnitAbilities": [
         {
           "Title": "Coldstar Commander",
-          "Text": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the **[ASSAULT]** ability."
+          "Text": "While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
         },
         {
           "Title": "Battlesuit Support System",
@@ -2748,6 +2764,14 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "1"
+              }
             ]
           },
           {
@@ -4481,7 +4505,7 @@
         },
         {
           "Title": "Sunforge",
-          "Text": "Each time a model in this unit makes a ranged attack that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
+          "Text": "Each time a model in this unit makes a ranged attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
         },
         {
           "Title": "Marker Drone",
@@ -5303,6 +5327,14 @@
             "Cost": 0,
             "GrantsAbilities": [
               "Shield Drone"
+            ],
+            "StatAdjustments": [
+              {
+                "TargetStatId": "W",
+                "Type": "Add",
+                "Scope": "Model",
+                "Value": "1"
+              }
             ]
           }
         ]
@@ -5808,7 +5840,7 @@
         },
         {
           "Title": "Localised Stealth Projectors (Aura)",
-          "Text": "When a friendly **KROOT/VESPID STINGWINGS** unit within 6\" of this unit has shot, those attacks do not prevent that unit from being **hidden**."
+          "Text": "When a friendly KROOT/VESPID STINGWINGS unit within 6\" of this unit has shot, those attacks do not prevent that unit from being hidden."
         },
         {
           "Title": "Battlesuit Support System",
@@ -6642,7 +6674,7 @@
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         }
       ],
       "Infos": [],
@@ -6999,11 +7031,11 @@
       "UnitAbilities": [
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         },
         {
           "Title": "Pech'ra",
-          "Text": "Ranged weapons equipped by the bearer’s unit have the **[IGNORES COVER]** ability."
+          "Text": "Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
         }
       ],
       "Infos": [],
@@ -7411,11 +7443,11 @@
         },
         {
           "Title": "Ritual Butchery",
-          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         }
       ],
       "LeaderInfo": {
@@ -7601,7 +7633,7 @@
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         }
       ],
       "Infos": [],
@@ -7759,7 +7791,7 @@
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         }
       ],
       "Infos": [],
@@ -8024,7 +8056,7 @@
       "UnitAbilities": [
         {
           "Title": "Kroot Ambush",
-          "Text": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly **KROOT** unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+          "Text": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly KROOT unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
         },
         {
           "Title": "Trail Finding",
@@ -8032,7 +8064,7 @@
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         }
       ],
       "LeaderInfo": {
@@ -8233,7 +8265,7 @@
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         }
       ],
       "LeaderInfo": {
@@ -8480,7 +8512,7 @@
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         }
       ],
       "Infos": [],
@@ -8726,7 +8758,7 @@
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         }
       ],
       "Infos": [],
@@ -9530,7 +9562,7 @@
       "UnitAbilities": [
         {
           "Title": "Target Uploaded",
-          "Text": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the **[IGNORES COVER]** ability."
+          "Text": "Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the [IGNORES COVER] ability."
         },
         {
           "Title": "Grav-inhibitor Drone",
@@ -10716,7 +10748,7 @@
         },
         {
           "Title": "Nova Charge",
-          "Text": "Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the **[DEVASTATING WOUNDS]** ability."
+          "Text": "Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the [DEVASTATING WOUNDS] ability."
         },
         {
           "Title": "Damaged: 1-4 Wounds Remaining",
@@ -11533,11 +11565,11 @@
         },
         {
           "Title": "Localised Stealth Projectors (Aura)",
-          "Text": "When a friendly **KROOT/VESPID STINGWINGS** unit within 6\" of this unit has shot, those attacks do not prevent that unit from being **hidden**."
+          "Text": "When a friendly KROOT/VESPID STINGWINGS unit within 6\" of this unit has shot, those attacks do not prevent that unit from being hidden."
         },
         {
           "Title": "Homing Beacon",
-          "Text": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and more than 8\" away from all enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*"
+          "Text": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and more than 8\" away from all enemy units.\nDesigner’s Note: *Place a Homing Beacon token next to this unit, removing it once this ability is used.*"
         },
         {
           "Title": "Marker Drone",
@@ -13660,11 +13692,11 @@
         },
         {
           "Title": "Neocapacitor Shields",
-          "Text": "At the start of your opponent’s Charge phase, you can select one visible enemy unit (excluding **MONSTER** and **VEHICLE** units) within 12\" of this unit. That unit must take a Battle-shock test and, until the end of the turn, subtract 1 from Charge rolls made for that unit."
+          "Text": "At the start of your opponent’s Charge phase, you can select one visible enemy unit (excluding MONSTER and VEHICLE units) within 12\" of this unit. That unit must take a Battle-shock test and, until the end of the turn, subtract 1 from Charge rolls made for that unit."
         },
         {
           "Title": "Exemplars of Mont’ka",
-          "Text": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the **[SUSTAINED HITS 1]** and **[IGNORES COVER]** abilities."
+          "Text": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
         },
         {
           "Title": "Retro-thrusters",
@@ -14080,7 +14112,7 @@
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         },
         {
           "Title": "Tidewall Cover",
@@ -14222,7 +14254,7 @@
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         },
         {
           "Title": "Tidewall Cover",
@@ -14386,7 +14418,7 @@
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         },
         {
           "Title": "Tidewall Cover",
@@ -15134,7 +15166,7 @@
         },
         {
           "Title": "Harnessed Alien Instincts",
-          "Text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **prey‑marked**:\n- While a unit is **prey‑marked**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is prey‑marked:\n- While a unit is prey‑marked, that unit has +3\" detection range."
         },
         {
           "Title": "Oversight Drone",
@@ -15383,7 +15415,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Patient Hunter",
-        "Text": "During the third, fourth and fifth battle rounds, ranged weapons equipped by **T’AU EMPIRE** models from your army have the **[SUSTAINED HITS 1]** ability. During the third, fourth and fifth battle rounds, while a unit is a Guided unit (see For the Greater Good), each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the Hit roll.\n\n**Sustained Hits**\n\nThis ability always takes the form **[SUSTAINED HITS X]**. Each time an attack made with a **[SUSTAINED HITS]** weapon results in a **critical hit**, that attack results in a number of additional hits on the target as denoted by **X**.\n***Example:** An attack made with a **[SUSTAINED HITS 2]** weapon results in a **critical hit**. That attack therefore hits the target three times (once from the **critical hit**, and twice more from the **[SUSTAINED HITS 2]** ability).*"
+        "Text": "During the third, fourth and fifth battle rounds, ranged weapons equipped by T’AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability. During the third, fourth and fifth battle rounds, while a unit is a Guided unit (see For the Greater Good), each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the Hit roll.\n\n**Sustained Hits**\n\nThis ability always takes the form [SUSTAINED HITS X]. Each time an attack made with a [SUSTAINED HITS] weapon results in a critical hit, that attack results in a number of additional hits on the target as denoted by X.\n*Example: An attack made with a [SUSTAINED HITS 2] weapon results in a critical hit. That attack therefore hits the target three times (once from the critical hit, and twice more from the [SUSTAINED HITS 2] ability).*"
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -15425,7 +15457,7 @@
         },
         {
           "Name": "Through Unity, Devastation",
-          "Description": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[LETHAL HITS]** ability while targeting their Spotted unit.",
+          "Description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15442,7 +15474,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Killing Blow",
-        "Text": "During the first, second and third battle rounds, ranged weapons equipped by **T’AU EMPIRE** models from your army have the **[ASSAULT]** ability. During the first, second and third battle rounds, while a unit is a Guided unit (see For the Greater Good), its ranged weapons have the **[LETHAL HITS]** ability.\n\n**Assault**\n\nUnits containing one or more models with an **[ASSAULT]** weapon can shoot using **assault shooting** (10.05).\n\n**Lethal Hits**\n\nEach time an attack made with a **[LETHAL HITS]** weapon results in a **critical hit**, you can choose for that attack to automatically wound the target.\n***Designer’s Note:** Choosing to automatically wound the target means that no **wound roll** is made for that attack. You may decide against this, as it means that attack cannot result in a **critical wound** and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*"
+        "Text": "During the first, second and third battle rounds, ranged weapons equipped by T’AU EMPIRE models from your army have the [ASSAULT] ability. During the first, second and third battle rounds, while a unit is a Guided unit (see For the Greater Good), its ranged weapons have the [LETHAL HITS] ability.\n\n**Assault**\n\nUnits containing one or more models with an [ASSAULT] weapon can shoot using assault shooting (10.05).\n\n**Lethal Hits**\n\nEach time an attack made with a [LETHAL HITS] weapon results in a critical hit, you can choose for that attack to automatically wound the target.\n*Designer’s Note: Choosing to automatically wound the target means that no wound roll is made for that attack. You may decide against this, as it means that attack cannot result in a critical wound and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*"
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -15463,7 +15495,7 @@
         },
         {
           "Name": "Strike Swiftly",
-          "Description": "In the Resolve Pre-battle Abilities step, you can select up to two friendly **T’AU EMPIRE** units within 6\" of this model that do not have the **Scouts** ability. Until the end of the battle, all models in the selected units have the **Scouts 6\"** ability.",
+          "Description": "In the Resolve Pre-battle Abilities step, you can select up to two friendly T’AU EMPIRE units within 6\" of this model that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability.",
           "Cost": 45,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15485,7 +15517,7 @@
         },
         {
           "Name": "Coordinated Exploitation",
-          "Description": "**T’AU EMPIRE** model only (excluding **KROOT SHAPER** models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the **[SUSTAINED HITS 1]** ability while targeting their Spotted unit.",
+          "Description": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [SUSTAINED HITS 1] ability while targeting their Spotted unit.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15502,7 +15534,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Bonded Heroes",
-        "Text": "Each time a **T’AU EMPIRE BATTLESUIT** model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 8\", improve the Armour Penetration characteristic of that attack by 1 as well."
+        "Text": "Each time a T’AU EMPIRE BATTLESUIT model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 8\", improve the Armour Penetration characteristic of that attack by 1 as well."
       },
       "Tags": [
         "BATTLESUIT"
@@ -15528,7 +15560,7 @@
         },
         {
           "Name": "Prototype Weapon System",
-          "Description": "T’AU EMPIRE BATTLESUIT model only. Each time the bearer is select to shoot, select either the **[LETHAL HITS]** or **[SUSTAINED HITS 1]** ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the select ability.",
+          "Description": "T’AU EMPIRE BATTLESUIT model only. Each time the bearer is select to shoot, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the select ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15554,7 +15586,7 @@
         },
         {
           "Name": "Puretide Engram Neurochip",
-          "Description": "**T’AU EMPIRE BATTLESUIT** model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.",
+          "Description": "T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15585,7 +15617,7 @@
       "Enhancements": [
         {
           "Name": "Nomadic Hunter",
-          "Description": "KROOT TRAIL SHAPER model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by the models in that unit have the **[ASSAULT]** ability.",
+          "Description": "KROOT TRAIL SHAPER model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by the models in that unit have the [ASSAULT] ability.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15607,7 +15639,7 @@
         },
         {
           "Name": "Root-carved Weapons",
-          "Description": "KROOT WAR SHAPER model only. All weapons equipped by the bearer have the **[PRECISION]** and **[DEVASTATING WOUNDS]** abilities.",
+          "Description": "KROOT WAR SHAPER model only. All weapons equipped by the bearer have the [PRECISION] and [DEVASTATING WOUNDS] abilities.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15618,7 +15650,7 @@
         },
         {
           "Name": "Kroothawk Flock",
-          "Description": "KROOT model only. Ranged weapons equipped by models in the bearer's unit have the **[IGNORES COVER]** ability, and enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of the bearer.",
+          "Description": "KROOT model only. Ranged weapons equipped by models in the bearer's unit have the [IGNORES COVER] ability, and enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of the bearer.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15637,7 +15669,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Integrated Command Structure",
-        "Text": "Friendly **KROOT/VESPID STINGWINGS** units have the Harnessed Alien Instincts ability.\n\nFriendly **GHOSTKEEL BATTLESUIT/STEALTH BATTLESUITS** units have the Localised Stealth Projectors (Aura) ability\n\nThis **detachment** has the **AUXILIARIES** tag and cannot be taken with another **AUXILIARIES detachment**."
+        "Text": "Friendly KROOT/VESPID STINGWINGS units have the Harnessed Alien Instincts ability.\n\nFriendly GHOSTKEEL BATTLESUIT/STEALTH BATTLESUITS units have the Localised Stealth Projectors (Aura) ability\n\nThis detachment has the AUXILIARIES tag and cannot be taken with another AUXILIARIES detachment."
       },
       "Tags": [
         "AUXILIARY"
@@ -15649,7 +15681,7 @@
       "Enhancements": [
         {
           "Name": "Student of Kauyon",
-          "Description": "**KROOT SHAPER** model only. In the Declare Battle Formations step, you can select up to three friendly **KROOT CARNIVORES/FARSTALKERS** units. Those units have **Deep Strike**.",
+          "Description": "KROOT SHAPER model only. In the Declare Battle Formations step, you can select up to three friendly KROOT CARNIVORES/FARSTALKERS units. Those units have Deep Strike.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15660,7 +15692,7 @@
         },
         {
           "Name": "Admired Leader",
-          "Description": "**T’AU EMPIRE** model only (excluding **KROOT** models). In your Command phase, you can select one **KROOT/VESPID STINGWINGS** unit within 12\" of this model. If you do, that unit has +1 **Ld** and **OC** until the start of your next Command phase.",
+          "Description": "T’AU EMPIRE model only (excluding KROOT models). In your Command phase, you can select one KROOT/VESPID STINGWINGS unit within 12\" of this model. If you do, that unit has +1 Ld and OC until the start of your next Command phase.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15677,7 +15709,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Superior Craftmanship",
-        "Text": "Friendly **BATTLESUIT CHARACTER** units’ ranged attacks have +6\" **R**.\n\nThis **detachment** has the **BATTLESUIT** tag and cannot be taken with another **BATTLESUIT detachment**."
+        "Text": "Friendly BATTLESUIT CHARACTER units’ ranged attacks have +6\" R.\n\nThis detachment has the BATTLESUIT tag and cannot be taken with another BATTLESUIT detachment."
       },
       "Tags": [
         "BATTLESUIT"
@@ -15689,7 +15721,7 @@
       "Enhancements": [
         {
           "Name": "Thermoneutronic Projector",
-          "Description": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s T’au Flamer weapons. That weapon’s attacks have:\n- +2 **S**\n- +1 **AP** and **D**.",
+          "Description": "BATTLESUIT model only. In the Declare Battle Formations step, select one of this model’s T’au Flamer weapons. That weapon’s attacks have:\n- +2 S\n- +1 AP and D.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15702,7 +15734,7 @@
         },
         {
           "Name": "Plasma Accelerator Rifle",
-          "Description": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s Plasma Rifle weapons. That weapon’s attacks have:\n- +2 **S**\n- +1 **A**, **AP** and **D**.",
+          "Description": "BATTLESUIT model only. In the Declare Battle Formations step, select one of this model’s Plasma Rifle weapons. That weapon’s attacks have:\n- +2 S\n- +1 A, AP and D.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15715,7 +15747,7 @@
         },
         {
           "Name": "Supernova Launcher",
-          "Description": "**BATTLESUIT** model only. In the Declare Battle Formations step, select one of this model’s Airbursting Fragmentation Projector weapons. That weapon’s attacks have:\n- +3 **S**\n- +1 **AP** and **D**.",
+          "Description": "BATTLESUIT model only. In the Declare Battle Formations step, select one of this model’s Airbursting Fragmentation Projector weapons. That weapon’s attacks have:\n- +3 S\n- +1 AP and D.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15734,7 +15766,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Expert Fieldcraft",
-        "Text": "In your Shooting phase, when a friendly **PATHFINDER TEAM/STEALTH BATTLESUITS** unit is **selected to shoot**, those ranged attacks do not prevent your unit from being **hidden**."
+        "Text": "In your Shooting phase, when a friendly PATHFINDER TEAM/STEALTH BATTLESUITS unit is selected to shoot, those ranged attacks do not prevent your unit from being hidden."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -15743,7 +15775,7 @@
       "Enhancements": [
         {
           "Name": "Unmasking Suite",
-          "Description": "**GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS** unit only. When this unit is **selected to shoot**, you can select one enemy unit within 24\" of this unit. That enemy unit has +9\" **detection range** until this unit has shot.",
+          "Description": "GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS unit only. When this unit is selected to shoot, you can select one enemy unit within 24\" of this unit. That enemy unit has +9\" detection range until this unit has shot.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -15758,7 +15790,7 @@
         },
         {
           "Name": "Negation Emitters",
-          "Description": "**STEALTH BATTLESUITS** unit only. This unit has -3\" **detection range**.",
+          "Description": "STEALTH BATTLESUITS unit only. This unit has -3\" detection range.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],

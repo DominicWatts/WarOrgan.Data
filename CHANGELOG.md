@@ -1,5 +1,6 @@
 # Dataset changelog
 
+2026-11-24 : 1.5.4.0 - A shield drone now adds 1 to the Wounds of the T'au character carrying it (Cadre Fireblade, Ethereal, Coldstar and Enforcer Commanders), and stray bold markers were removed from rule text.
 2026-11-24 : 1.5.3.0 - Added the 40 draft datasheets that were held back, including the Battle Sisters Squad, Space Marine Captain, C'tan Shards and Broadsides, and left out 14 BSData datasheets that no longer exist in 11th Edition.
 2026-11-24 : 1.5.2.0 - Filled Tyranids and Astra Militarum into full factions with unchecked BSData drafts of their remaining datasheets, detachments, enhancements and army rules, keeping the checked allied datasheets unchanged.
 2026-11-24 : 1.5.1.0 - Added the missing enhancements to the draft factions, core abilities such as Damaged and Super-Heavy Walker, and removed Agents and Knights detachments wrongly given to the Space Marine chapters.

@@ -1058,7 +1058,7 @@
       "UnitAbilities": [
         {
           "Title": "Assault Ramp",
-          "Text": "In your Movement phase, when this unit ends a **normal move**, units embarked within this unit can make an **assault disembark move**."
+          "Text": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move."
         },
         {
           "Title": "Transport",

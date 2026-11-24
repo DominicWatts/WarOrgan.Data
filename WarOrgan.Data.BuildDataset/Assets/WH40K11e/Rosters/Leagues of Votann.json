@@ -33,15 +33,15 @@
       "UnitAbilities": [
         {
           "Title": "Science Guild Support",
-          "Text": "While this model is within 3\" of one or more other friendly **LEAGUES OF VOTANN INFANTRY** units (excluding units with the Lone Operative ability), this model has the Lone Operative ability."
+          "Text": "While this model is within 3\" of one or more other friendly LEAGUES OF VOTANN INFANTRY units (excluding units with the Lone Operative ability), this model has the Lone Operative ability."
         },
         {
           "Title": "Resource Transmutation",
-          "Text": "Once per turn, in your Shooting phase, one model with this ability can choose to use it when it is selected to shoot. If it does, you must spend 1YP and, until the end of the phase, ranged weapons equipped by that model have the [**SUSTAINED HITS 1**] ability and, after that model has shot this phase, if one or more enemy units were destroyed by those attacks, you can gain up to 2YP."
+          "Text": "Once per turn, in your Shooting phase, one model with this ability can choose to use it when it is selected to shoot. If it does, you must spend 1YP and, until the end of the phase, ranged weapons equipped by that model have the [SUSTAINED HITS 1] ability and, after that model has shot this phase, if one or more enemy units were destroyed by those attacks, you can gain up to 2YP."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ],
       "Infos": [],
@@ -556,15 +556,15 @@
         },
         {
           "Title": "Brôkhyr Guild Support",
-          "Text": "While this unit is within 3\" of one or more friendly **LEAGUES OF VOTANN VEHICLE OR IRONKIN STEELJACKS** units, if this unit is not an attached unit, it has the Lone Operative ability."
+          "Text": "While this unit is within 3\" of one or more friendly LEAGUES OF VOTANN VEHICLE OR IRONKIN STEELJACKS units, if this unit is not an attached unit, it has the Lone Operative ability."
         },
         {
           "Title": "Forgewrought Expertise",
-          "Text": "At the end of your Movement phase, this model can repair one friendly **LEAGUES OF VOTANN VEHICLE, EXOFRAME** or **IRONKIN STEELJACKS** unit within 3\" of it. One model in that unit regains up to D3 lost wounds, or up to 3 lost wounds if this unit contains an Ironkin Assistant model. Each unit can only be repaired once per turn."
+          "Text": "At the end of your Movement phase, this model can repair one friendly LEAGUES OF VOTANN VEHICLE, EXOFRAME or IRONKIN STEELJACKS unit within 3\" of it. One model in that unit regains up to D3 lost wounds, or up to 3 lost wounds if this unit contains an Ironkin Assistant model. Each unit can only be repaired once per turn."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ],
       "LeaderInfo": {
@@ -577,7 +577,7 @@
       "Infos": [
         {
           "Title": "Unit composition",
-          "Text": "If this unit’s Brôkhyr Iron‑master model is ever destroyed, all of this unit’s remaining E‑COG models are also destroyed. While embarking within a **TRANSPORT** and while embarked within a **TRANSPORT**, each E‑COG model takes up the space of 0 models."
+          "Text": "If this unit’s Brôkhyr Iron‑master model is ever destroyed, all of this unit’s remaining E‑COG models are also destroyed. While embarking within a TRANSPORT and while embarked within a TRANSPORT, each E‑COG model takes up the space of 0 models."
         }
       ],
       "Keywords": [
@@ -990,7 +990,7 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ],
       "Infos": [],
@@ -1255,11 +1255,11 @@
         },
         {
           "Title": "Unhinged Vengeance",
-          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if this model lost one or more wounds as a result of those attacks, this unit can make a **surge move** of up to D6+2\"."
+          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if this model lost one or more wounds as a result of those attacks, this unit can make a surge move of up to D6+2\"."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ],
       "Infos": [],
@@ -1504,11 +1504,11 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Subterranean Explosives",
-          "Text": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding **MONSTERS AND VEHICLES**) that was hit by one or more of those attacks made with a mole grenade launcher. Until the start of your next Shooting phase, that enemy unit cannot be targeted with the Fire Overwatch Stratagem."
+          "Text": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTERS AND VEHICLES) that was hit by one or more of those attacks made with a mole grenade launcher. Until the start of your next Shooting phase, that enemy unit cannot be targeted with the Fire Overwatch Stratagem."
         }
       ],
       "Infos": [],
@@ -1760,7 +1760,7 @@
       "UnitAbilities": [
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Geomantic Hunters",
@@ -2051,7 +2051,7 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Weavefield crest",
@@ -2377,7 +2377,7 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Teleport crest",
@@ -2730,11 +2730,11 @@
         },
         {
           "Title": "Grimnyr's Regard",
-          "Text": "Once per battle, at the start of any phase, you can select one friendly **LEAGUES OF VOTANN UNIT THAT IS BATTLE-SHOCKED AND WITHIN 12\" OF THIS UNIT'S GRIMNYR** model. That unit is no longer Battle-shocked."
+          "Text": "Once per battle, at the start of any phase, you can select one friendly LEAGUES OF VOTANN UNIT THAT IS BATTLE-SHOCKED AND WITHIN 12\" OF THIS UNIT'S GRIMNYR model. That unit is no longer Battle-shocked."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ],
       "LeaderInfo": {
@@ -2746,7 +2746,7 @@
       "Infos": [
         {
           "Title": "Unit composition",
-          "Text": "If this unit’s Grimnyr model is ever destroyed, all of this unit’s remaining CORV models are also destroyed. While embarking within a **TRANSPORT** and while embarked within a **TRANSPORT**, each CORV model takes up the space of 0 models.’"
+          "Text": "If this unit’s Grimnyr model is ever destroyed, all of this unit’s remaining CORV models are also destroyed. While embarking within a TRANSPORT and while embarked within a TRANSPORT, each CORV model takes up the space of 0 models.’"
         }
       ],
       "Keywords": [
@@ -3180,7 +3180,7 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Weavefield crest",
@@ -3767,15 +3767,15 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 14 **LEAGUES OF VOTANN INFANTRY **models. Each **EXOARMOUR, EXOFRAME** or **IRONKIN STEELJACKS** model takes up the space of 2 models. It cannot transport **ARTILLERY** models."
+          "Text": "This model has a transport capacity of 14 LEAGUES OF VOTANN INFANTRY models. Each EXOARMOUR, EXOFRAME or IRONKIN STEELJACKS model takes up the space of 2 models. It cannot transport ARTILLERY models."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Firebase Control (Aura)",
-          "Text": "While a friendly **LEAGUES OF VOTANN INFANTRY** unit is wholly within 6\" of this **TRANSPORT**, ranged weapons equipped by models in that **INFANTRY** unit have the [**SUSTAINED HITS 1**] ability."
+          "Text": "While a friendly LEAGUES OF VOTANN INFANTRY unit is wholly within 6\" of this TRANSPORT, ranged weapons equipped by models in that INFANTRY unit have the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Pan spectral scanner",
@@ -4222,7 +4222,7 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Multiwave comms array",
@@ -4634,7 +4634,7 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ],
       "Infos": [],
@@ -4977,7 +4977,7 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Preymark crest",
@@ -5292,11 +5292,11 @@
       "UnitAbilities": [
         {
           "Title": "Merciless Eradication",
-          "Text": "Each time an enemy unit (excluding **MONSTERS** and **VEHICLES**) that is within Engagement Range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+          "Text": "Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Preymark crest",
@@ -5545,23 +5545,23 @@
       "UnitAbilities": [
         {
           "Title": "Scanner Uplinks",
-          "Text": "In your shooting phase, after this model has shot, select one enemy unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+          "Text": "In your shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 5 **HERNKYN YAEGIR** models.\n\nAt the start of the Declare Battle Formations step, you can select one **HERNKYN YAEGIR** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this **TRANSPORT**; the other can start the battle embarked within another **TRANSPORT**, or it can be deployed as a separate unit."
+          "Text": "This model has a transport capacity of 5 HERNKYN YAEGIR models.\n\nAt the start of the Declare Battle Formations step, you can select one HERNKYN YAEGIR unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Firebase Control (Aura)",
-          "Text": "While a friendly **LEAGUES OF VOTANN INFANTRY** unit is wholly within 6\" of this **TRANSPORT**, ranged weapons equipped by models in that **INFANTRY** unit have the [**SUSTAINED HITS 1**] ability."
+          "Text": "While a friendly LEAGUES OF VOTANN INFANTRY unit is wholly within 6\" of this TRANSPORT, ranged weapons equipped by models in that INFANTRY unit have the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Smoke Launcher",
-          "Text": "The bearer has the **SMOKE** keyword."
+          "Text": "The bearer has the SMOKE keyword."
         }
       ],
       "Infos": [],
@@ -5833,11 +5833,11 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Smoke Launcher",
-          "Text": "The bearer has the **SMOKE** keyword."
+          "Text": "The bearer has the SMOKE keyword."
         }
       ],
       "Infos": [],
@@ -6167,7 +6167,7 @@
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Rampart crest",
@@ -6419,11 +6419,11 @@
         },
         {
           "Title": "Predictive Guidance",
-          "Text": "Once per battle round, when you target this unit with the **Fire Overwatch/Heroic Intervention** stratagem, you can use this ability. If you do, that use of that stratagem is ‑1 CP."
+          "Text": "Once per battle round, when you target this unit with the Fire Overwatch/Heroic Intervention stratagem, you can use this ability. If you do, that use of that stratagem is ‑1 CP."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         }
       ],
       "LeaderInfo": {
@@ -6618,19 +6618,19 @@
       "UnitAbilities": [
         {
           "Title": "Blistering Advance",
-          "Text": "Units can disembark from this **TRANSPORT** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+          "Text": "Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 6 **LEAGUES OF VOTANN INFANTRY **models. It cannot transport **ARTILLERY, EXOARMOUR, EXOFRAME** or **IRONKIN STEELJACKS** models.\n\nAt the start of the Declare Battle Formations step, you can select one **HEARTHKYN WARRIORS** unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this **TRANSPORT**; the other can start the battle embarked within another **TRANSPORT**, or it can be deployed as a separate unit."
+          "Text": "This model has a transport capacity of 6 LEAGUES OF VOTANN INFANTRY models. It cannot transport ARTILLERY, EXOARMOUR, EXOFRAME or IRONKIN STEELJACKS models.\n\nAt the start of the Declare Battle Formations step, you can select one HEARTHKYN WARRIORS unit from your army that has not been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Firebase Control (Aura)",
-          "Text": "While a friendly **LEAGUES OF VOTANN INFANTRY** unit is wholly within 6\" of this **TRANSPORT**, ranged weapons equipped by models in that **INFANTRY** unit have the [**SUSTAINED HITS 1**] ability."
+          "Text": "While a friendly LEAGUES OF VOTANN INFANTRY unit is wholly within 6\" of this TRANSPORT, ranged weapons equipped by models in that INFANTRY unit have the [SUSTAINED HITS 1] ability."
         }
       ],
       "Infos": [],
@@ -6990,11 +6990,11 @@
         },
         {
           "Title": "Grim Efficiency",
-          "Text": "Once per battle round, when a friendly **LEAGUES OF VOTANN** unit within 12\" of this model is targeted with a Stratagem, this model can use this ability. If it does, reduce the CP cost of that Stratagem by 1CP."
+          "Text": "Once per battle round, when a friendly LEAGUES OF VOTANN unit within 12\" of this model is targeted with a Stratagem, this model can use this ability. If it does, reduce the CP cost of that Stratagem by 1CP."
         },
         {
           "Title": "Guerrilla Adepts",
-          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Rampart crest",
@@ -7155,7 +7155,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Methodical Annihilation",
-        "Text": "Each time a **LEAGUES OF VOTANN** model from your army makes an attack with a weapon that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:\n- Re‑roll a Wound roll of 1.\n- If your unit is a **KÂHL, EINHYR HEARTHGUARD** or **ÛTHAR THE DESTINED** unit, improve the Armour Penetration characteristic of that attack by 1."
+        "Text": "Each time a LEAGUES OF VOTANN model from your army makes an attack with a weapon that targets the closest eligible target or a target that is within Engagement Range of that model’s unit:\n- Re‑roll a Wound roll of 1.\n- If your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1."
       },
       "Tags": [
         "HEARTHBAND"
@@ -7222,7 +7222,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Assailed From Every Angle",
-        "Text": "**LEAGUES OF VOTANN** units from your army have the following ability:\n\n**Guerrilla Adepts:** In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding **MONSTERS** and **VEHICLES**). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+        "Text": "LEAGUES OF VOTANN units from your army have the following ability:\n\nGuerrilla Adepts: In your Shooting phase, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding MONSTERS and VEHICLES). Until the end of the phase, attacks made by models in this unit can only attack that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements or Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
       },
       "ForceDispositions": [
         "Disruption"
@@ -7242,7 +7242,7 @@
         },
         {
           "Name": "Surgical Saboteur",
-          "Description": "In your Shooting phase, after this model has shot, select one **MONSTER** or **VEHICLE** unit hit by one or more of those attacks; until the start of your next Shooting phase, that model is pinned.",
+          "Description": "In your Shooting phase, after this model has shot, select one MONSTER or VEHICLE unit hit by one or more of those attacks; until the start of your next Shooting phase, that model is pinned.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7253,7 +7253,7 @@
         },
         {
           "Name": "Nomad Strategist",
-          "Description": "Once per battle, at the end of your opponent's Fight phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one **HERNKYN** unit from your army, and, for every 2YP you just spent, select up to one additional **HERNKYN** unit from your army. You can remove those units from the battlefield and place them into Strategic Reserves. You cannot select a unit that is within Engagement Range of one or more enemy units (excluding assailed units).",
+          "Description": "Once per battle, at the end of your opponent's Fight phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one HERNKYN unit from your army, and, for every 2YP you just spent, select up to one additional HERNKYN unit from your army. You can remove those units from the battlefield and place them into Strategic Reserves. You cannot select a unit that is within Engagement Range of one or more enemy units (excluding assailed units).",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7340,7 +7340,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Optimal Application",
-        "Text": "At the end of your Command phase, you gain 1YP for each objective marker you control that is not within your deployment zone and has one or more **IRON-MASTER** and/or **MEMNYR STRATEGIST** models from your army within range of it (to a maximum of 2YP gained from this Detachment rule per turn).\n\nIn your Shooting phase, each time a **BRÔKHYR, IRONKIN STEELJACKS** or **ARKANYST EVALUATOR** unit from your army is selected to shoot, you can spend 1YP. If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+        "Text": "At the end of your Command phase, you gain 1YP for each objective marker you control that is not within your deployment zone and has one or more IRON-MASTER and/or MEMNYR STRATEGIST models from your army within range of it (to a maximum of 2YP gained from this Detachment rule per turn).\n\nIn your Shooting phase, each time a BRÔKHYR, IRONKIN STEELJACKS or ARKANYST EVALUATOR unit from your army is selected to shoot, you can spend 1YP. If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -7363,7 +7363,7 @@
         },
         {
           "Name": "Graviton Vault",
-          "Description": "In your Shooting phase, after the bearer has shot, and in the Fight phase, after the bearer has fought, select one enemy **MONSTER** or **VEHICLE** unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "Description": "In your Shooting phase, after the bearer has shot, and in the Fight phase, after the bearer has fought, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7409,7 +7409,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Fury from the Dêlve",
-        "Text": "**CTHONIAN BESERKS** units from your army have the Deep Strike ability."
+        "Text": "CTHONIAN BESERKS units from your army have the Deep Strike ability."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -7418,7 +7418,7 @@
       "Enhancements": [
         {
           "Name": "Dêlvwerke Navigator",
-          "Description": "In the Reinforcements step of your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **CTHONIAN BESERKS** unit visible to the bearer and then spend any number of YP. Return one destroyed model (excluding **CHARACTER MODELS) TO THAT UNIT, AND THEN, FOR EVERY 2YP YOU JUST SPENT, RETURN UP TO ONE ADDITIONAL DESTROYED MODEL (EXCLUDING CHARACTER** models) to that unit.",
+          "Description": "In the Reinforcements step of your Movement phase, the bearer can use this Enhancement. If it does, select one friendly CTHONIAN BESERKS unit visible to the bearer and then spend any number of YP. Return one destroyed model (excluding CHARACTER MODELS) TO THAT UNIT, AND THEN, FOR EVERY 2YP YOU JUST SPENT, RETURN UP TO ONE ADDITIONAL DESTROYED MODEL (EXCLUDING CHARACTER models) to that unit.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7429,7 +7429,7 @@
         },
         {
           "Name": "Quake Supervisor",
-          "Description": "While the bearer is within 3\" of one or more friendly **LEAGUES OF VOTANN ARTILLERY** units, the bearer has the Lone Operative ability, and each time one of those **ARTILLERY** units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll.",
+          "Description": "While the bearer is within 3\" of one or more friendly LEAGUES OF VOTANN ARTILLERY units, the bearer has the Lone Operative ability, and each time one of those ARTILLERY units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7451,7 +7451,7 @@
         },
         {
           "Name": "Multiwave System Jammer",
-          "Description": "Once per battle, in your Movement phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one friendly **CTHONIAN** unit that is in Reserves. Until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as one higher than it actually is.",
+          "Description": "Once per battle, in your Movement phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one friendly CTHONIAN unit that is in Reserves. Until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as one higher than it actually is.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7468,7 +7468,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Mobile Sensor Relays",
-        "Text": "**LEAGUES OF VOTANN TRANSPORT** units from your army have the following ability:\n\n**Firebase Control (Aura):** While a friendly **LEAGUES OF VOTANN INFANTRY** unit is wholly within 6\" of this **TRANSPORT**, ranged weapons equipped by models in that **INFANTRY** unit have the [**SUSTAINED HITS 1**] ability."
+        "Text": "LEAGUES OF VOTANN TRANSPORT units from your army have the following ability:\n\nFirebase Control (Aura): While a friendly LEAGUES OF VOTANN INFANTRY unit is wholly within 6\" of this TRANSPORT, ranged weapons equipped by models in that INFANTRY unit have the [SUSTAINED HITS 1] ability."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -7490,7 +7490,7 @@
         },
         {
           "Name": "Trivârg Cyber Implant",
-          "Description": "In your Shooting phase, each time the bearer's unit is selected to shoot, if it disembarked from a **TRANSPORT** this turn, or if you spend 2YP, until the end of the phase, ranged weapons equipped by model in that unit have the [SUSTAINED HITS 2] ability.",
+          "Description": "In your Shooting phase, each time the bearer's unit is selected to shoot, if it disembarked from a TRANSPORT this turn, or if you spend 2YP, until the end of the phase, ranged weapons equipped by model in that unit have the [SUSTAINED HITS 2] ability.",
           "Cost": 40,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7501,7 +7501,7 @@
         },
         {
           "Name": "Precursive Judgement",
-          "Description": "While the bearer's unit is wholly within 6\" of one or more friendly **LEAGUES OF VOTANN TRANSPORT** units, you can target the bearer's unit with the Fire Overwatch Stratagem for 0CP and hits are scored on an unmodified Hit roll of 5+ while resolving that Stratagem.",
+          "Description": "While the bearer's unit is wholly within 6\" of one or more friendly LEAGUES OF VOTANN TRANSPORT units, you can target the bearer's unit with the Fire Overwatch Stratagem for 0CP and hits are scored on an unmodified Hit roll of 5+ while resolving that Stratagem.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7514,7 +7514,7 @@
         },
         {
           "Name": "Signature Restoration",
-          "Description": "Each time a friendly **LEAGUES OF VOTANN** model is repaired using the bearer's Forgewrought Expertise ability, that model regains one additional lost wound.",
+          "Description": "Each time a friendly LEAGUES OF VOTANN model is repaired using the bearer's Forgewrought Expertise ability, that model regains one additional lost wound.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7533,7 +7533,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Ruthless Reinvestment",
-        "Text": "Your **LEAGUES OF VOTANN** units do not have the Hostile Acquisition or Fortify Takeover abilities except as described in this rule. At the start of the battle, your **LEAGUES OF VOTANN** units have the Hostile Acquisition ability. At the end of your Command phase, you can spend 3YP. If you do, **LEAGUES OF VOTANN** units from your army lose the Hostile Acquisition ability and gain the Fortify Takeover ability, or vice versa."
+        "Text": "Your LEAGUES OF VOTANN units do not have the Hostile Acquisition or Fortify Takeover abilities except as described in this rule. At the start of the battle, your LEAGUES OF VOTANN units have the Hostile Acquisition ability. At the end of your Command phase, you can spend 3YP. If you do, LEAGUES OF VOTANN units from your army lose the Hostile Acquisition ability and gain the Fortify Takeover ability, or vice versa."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -7596,7 +7596,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Sagitaur Spearhead",
-        "Text": "Friendly SAGITAUR units have **Scouts 6\"**."
+        "Text": "Friendly SAGITAUR units have Scouts 6\"."
       },
       "ForceDispositions": [
         "Disruption"
@@ -7610,7 +7610,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Eye of the Hunt",
-        "Text": "Friendly **HERNKYN** units’ ranged attacks that target a unit within 12\" have +1 to **hit rolls**."
+        "Text": "Friendly HERNKYN units’ ranged attacks that target a unit within 12\" have +1 to hit rolls."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -7619,7 +7619,7 @@
       "Enhancements": [
         {
           "Name": "Pan-spectral Lockons",
-          "Description": "In your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit is **spotted**:\n- While a unit is spotted, that unit has +3\" **detection range**.",
+          "Description": "In your Shooting phase, you can select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\n- While a unit is spotted, that unit has +3\" detection range.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7630,7 +7630,7 @@
         },
         {
           "Name": "Shroudwërke Talismans",
-          "Description": "This unit has -3\" **detection range**.",
+          "Description": "This unit has -3\" detection range.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7647,7 +7647,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Avatars of the Ancestors",
-        "Text": "Friendly **KÂHL/EINHYR CHAMPION/EINHYR HEARTHGUARD/ÛTHAR THE DESTINED** units’ ranged attacks that target a unit within 9\" can re‑roll **wound rolls** of 1."
+        "Text": "Friendly KÂHL/EINHYR CHAMPION/EINHYR HEARTHGUARD/ÛTHAR THE DESTINED units’ ranged attacks that target a unit within 9\" can re‑roll wound rolls of 1."
       },
       "Tags": [
         "HEARTHGUARD",
@@ -7660,7 +7660,7 @@
       "Enhancements": [
         {
           "Name": "Ironskein",
-          "Description": "This model has +2**W**.",
+          "Description": "This model has +2W.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7673,7 +7673,7 @@
         },
         {
           "Name": "High Kâhl",
-          "Description": "In the Fight phase, when a model in this unit is **destroyed**, if this unit has not been **selected to fight** this phase, roll one D6: on a 4+, do not remove that model from the battlefield; after this unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+          "Description": "In the Fight phase, when a model in this unit is destroyed, if this unit has not been selected to fight this phase, roll one D6: on a 4+, do not remove that model from the battlefield; after this unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7691,7 +7691,7 @@
   "ArmyRules": [
     {
       "Title": "Prioritised Efficiency",
-      "Text": "If your Army Faction is **LEAGUES OF VOTANN**, **LEAGUES OF VOTANN** units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those **LEAGUES OF VOTANN** units have will change depending on how many Yield points (YP) you currently have:\n- At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\n\n- At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\n\n- At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\n\n**Hostile Acquisition**\n- Each time a model in this unit makes an attack that targets an enemy unit within range of one or more objective markers, add 1 to the Hit roll.\n\n- You can re‑roll Advance and Charge rolls made for this unit.\n\n**Fortify Takeover**\n- Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\n\n- Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a Vehicle, subtract 1 from the Wound roll.\n\n\n**Yield Points**\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second battle round onwards, you gain 1 additional YP for each of the following conditions you satisfy:\nYou control one or more objective markers not within your deployment zone.\nYou control two or more objective markers not within your deployment zone.\nYou control more objective markers than your opponent.\n\n\nIn your turn, YP gained in this way are always gained before checking which ability **LEAGUES OF VOTANN** units from your army have.\n\n\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule."
+      "Text": "If your Army Faction is LEAGUES OF VOTANN, LEAGUES OF VOTANN units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those LEAGUES OF VOTANN units have will change depending on how many Yield points (YP) you currently have:\n- At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\n\n- At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\n\n- At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\n\n**Hostile Acquisition**\n- Each time a model in this unit makes an attack that targets an enemy unit within range of one or more objective markers, add 1 to the Hit roll.\n\n- You can re‑roll Advance and Charge rolls made for this unit.\n\n**Fortify Takeover**\n- Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\n\n- Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a Vehicle, subtract 1 from the Wound roll.\n\n\n**Yield Points**\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second battle round onwards, you gain 1 additional YP for each of the following conditions you satisfy:\nYou control one or more objective markers not within your deployment zone.\nYou control two or more objective markers not within your deployment zone.\nYou control more objective markers than your opponent.\n\n\nIn your turn, YP gained in this way are always gained before checking which ability LEAGUES OF VOTANN units from your army have.\n\n\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule."
     },
     {
       "Title": "Conversion (Thunderkyn)",
