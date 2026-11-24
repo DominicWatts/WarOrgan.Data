@@ -567,7 +567,6 @@
       },
       "Infos": [],
       "Keywords": [
-        "Hyperadapted Raveners",
         "Infantry",
         "Great Devourer",
         "Vanguard Invader",
@@ -1261,6 +1260,7 @@
       "Infos": [],
       "Keywords": [
         "Mawloc",
+        "Burrower",
         "Other Datasheets",
         "Monster",
         "Great Devourer",
@@ -1427,6 +1427,7 @@
       "Infos": [],
       "Keywords": [
         "Trygon",
+        "Burrower",
         "Other Datasheets",
         "Monster",
         "Great Devourer",
@@ -2752,7 +2753,7 @@
       "Keywords": [
         "Infantry",
         "Great Devourer",
-        "Biovore",
+        "Biovores",
         "Other Datasheets"
       ],
       "CoreAbilities": [
@@ -2879,6 +2880,10 @@
         {
           "ModelCount": 1,
           "Cost": 60
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 100
         },
         {
           "ModelCount": 3,
@@ -3049,7 +3054,7 @@
               "Min": 1,
               "Max": 2
             },
-            "ModelName": "Carnifex",
+            "ModelName": "Carnifexes",
             "StatlineRef": "Carnifex",
             "Keywords": [],
             "Wargear": [
@@ -3770,7 +3775,7 @@
         },
         {
           "Title": "Vanguard Predator",
-          "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers, re-roll a Wound roll 1 as well."
+          "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers, re-roll a Wound roll of 1 as well."
         }
       ],
       "Infos": [],
@@ -3835,7 +3840,7 @@
           "Weapons": [
             {
               "Id": "genestealers claws and talons",
-              "DisplayName": "Genestealers claws and talons",
+              "DisplayName": "Genestealer claws and talons",
               "Flags": "None",
               "Stats": [
                 {
@@ -5409,7 +5414,7 @@
         },
         {
           "Title": "Will of the Hive Mind",
-          "Text": "Once per battle round, one model from your army with this ability can use it when a friendly TYRANIDS unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+          "Text": "Once per battle round, one model from your army with this ability can use it when a friendly **TYRANIDS** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
         }
       ],
       "LeaderInfo": {
@@ -6012,7 +6017,7 @@
         },
         {
           "Title": "Floating Death",
-          "Text": "Each time this unit or an enemy unit ends a move, for each model in this unit within 3\" of one or more enemy units, select one of those enemy units. That model in this unit is destroyed, then roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6 that enemy unit suffers D6 mortal wounds."
+          "Text": "Each time this unit or an enemy unit ends a move, for each model in this unit that is within 3\" of one or more enemy units, select one of those enemy units. That model in this unit is destroyed, then roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D6 mortal wounds."
         }
       ],
       "Infos": [],
@@ -6124,7 +6129,7 @@
       "UnitAbilities": [
         {
           "Title": "Neurocytes",
-          "Text": "While this unit is within Synapse Range of your friendly TYRANIDS unit (excluding NEUROGAUNT units), it has the SYNAPSE keyword."
+          "Text": "While this unit is within Synapse Range of a friendly TYRANIDS unit (excluding NEUROGAUNT units), it has the SYNAPSE keyword."
         }
       ],
       "Infos": [],
@@ -6255,6 +6260,10 @@
           "Cost": 45
         },
         {
+          "ModelCount": 21,
+          "Cost": 90
+        },
+        {
           "ModelCount": 22,
           "Cost": 90
         }
@@ -6298,11 +6307,11 @@
         },
         {
           "Title": "Psychic Terror (Psychic)",
-          "Text": "If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
+          "Text": "If one or more models from your army with this ability are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
         },
         {
           "Title": "Neuroloids",
-          "Text": "In your Command phase, you can select up to two friendly TYRANIDS units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army.\n\nDesigner's Note: *Place a Neuroloid token next to each select unit to remind you.*"
+          "Text": "In your Command phase, you can select up to two friendly TYRANIDS units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army."
         }
       ],
       "LeaderInfo": {
@@ -6485,7 +6494,7 @@
       "UnitAbilities": [
         {
           "Title": "Harpoon Barbs",
-          "Text": "Once per turn, when an enemy unit within Engagement Range of this unit is chosen to Fall Back, roll one D6; on a 2+, that unit suffers D6 mortal wounds."
+          "Text": "Once per turn, when an enemy unit within Engagement Range of this model is selected to Fall Back, roll one D6: on a 2+, that unit suffers D6 mortal wounds."
         },
         {
           "Title": "Damaged: 1-5 Wounds Remaining",
@@ -6494,10 +6503,6 @@
         {
           "Title": "Singular Purpose",
           "Text": "At the start of the first battle round, select one of the following:\n- Select one enemy unit. Until the end of the battle, each time this model makes an attack that targets that unit you can re-roll the Hit roll and you can re-roll the Wound roll\n- Select one objective marker. Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
-        },
-        {
-          "Title": "Protean Purpose",
-          "Text": "(Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its Singular Purpose ability (this replaces the previous selection)."
         }
       ],
       "Infos": [],
@@ -6558,7 +6563,7 @@
           "Weapons": [
             {
               "Id": "toxinjecter harpoon",
-              "DisplayName": "Toxinjecter Harpoon",
+              "DisplayName": "Toxinjector Harpoon",
               "Flags": "None",
               "Stats": [
                 {
@@ -6626,7 +6631,7 @@
             },
             {
               "Id": "toxinjecter harpoon",
-              "DisplayName": "Toxinjecter Harpoon",
+              "DisplayName": "Toxinjector Harpoon",
               "Keywords": "Extra Attacks",
               "Flags": "None",
               "Stats": [
@@ -6709,16 +6714,16 @@
           "Text": "This model has a 4+ invulnerable save."
         },
         {
+          "Title": "Unnatural Resilience",
+          "Text": "This model has the Feel No Pain 4+ ability against mortal wounds."
+        },
+        {
           "Title": "Singular Purpose",
           "Text": "At the start of the first battle round, select one of the following:\n- Select one enemy unit. Until the end of the battle, each time this model makes an attack that targets that unit you can re-roll the Hit roll and you can re-roll the Wound roll\n- Select one objective marker. Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
         },
         {
           "Title": "Damaged: 1-5 Wounds Remaining",
           "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-        },
-        {
-          "Title": "Protean Purpose",
-          "Text": "(Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its Singular Purpose ability (this replaces the previous selection)."
         }
       ],
       "Infos": [],
@@ -7170,7 +7175,7 @@
         },
         {
           "Title": "Feeding Frenzy",
-          "Text": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half strength, add 1 to the Wound roll as well."
+          "Text": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-strength, add 1 to the Wound roll as well."
         }
       ],
       "Infos": [],
@@ -7480,6 +7485,11 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 70
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 3,
           "Cost": 100
         },
@@ -7490,6 +7500,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 70
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 3,
           "Cost": 100
         },
@@ -7497,6 +7512,11 @@
           "UnitCount": 3,
           "ModelCount": 1,
           "Cost": 50
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 2,
+          "Cost": 80
         },
         {
           "UnitCount": 3,
@@ -7550,7 +7570,7 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Ripper Swarm",
+        "Ripper Swarms",
         "Swarm",
         "Great Devourer",
         "Harvester",
@@ -7605,7 +7625,7 @@
           "Weapons": [
             {
               "Id": "spinemaw",
-              "DisplayName": "Spinemaw",
+              "DisplayName": "Spinemaws",
               "Keywords": "Pistol",
               "Flags": "None",
               "Stats": [
@@ -7681,6 +7701,10 @@
         {
           "ModelCount": 1,
           "Cost": 30
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 40
         },
         {
           "ModelCount": 3,
@@ -7993,7 +8017,7 @@
       "UnitAbilities": [
         {
           "Title": "Seed Mucolids",
-          "Text": "Once per turn, in your shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with it's ranged weapons. If it does, you can add one new MUCOLID SPORES containing 1 model to your army and set it up anywhere on the battlefield that is wholly within 18\" of this model and more than 8\" horizontally away from all enemy units."
+          "Text": "Once per turn, in your Shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new **MUCOLID SPORES** unit containing 1 model to your army and set it up anywhere on the battlefield that is wholly within 18\" of this model and more than 8\" horizontally away from all enemy units."
         },
         {
           "Title": "Hive Defences",
@@ -8056,7 +8080,7 @@
           "Weapons": [
             {
               "Id": "sporocyst bio-weapon",
-              "DisplayName": "Sporocyst bio-weapon",
+              "DisplayName": "Sporocyst bio-weapons",
               "Flags": "None",
               "Stats": [
                 {
@@ -8171,30 +8195,24 @@
                         ]
                       }
                     ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 10,
-              "Max": 20
-            },
-            "ModelName": "Termagant",
-            "StatlineRef": "Termagants",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "shardlauncher",
-                  "chitinous claws and teeth"
-                ],
-                "Options": [
+                  },
                   {
                     "Max": 2,
                     "Replaces": [
-                      "shardlauncher"
+                      "fleshborer"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "shardlauncher"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "fleshborer"
                     ],
                     "Options": [
                       {
@@ -8207,7 +8225,7 @@
                   {
                     "Max": 2,
                     "Replaces": [
-                      "shardlauncher"
+                      "fleshborer"
                     ],
                     "Options": [
                       {
@@ -8444,7 +8462,7 @@
             },
             {
               "Id": "termagant spinefist",
-              "DisplayName": "Termagant spinefist",
+              "DisplayName": "Termagant spinefists",
               "Keywords": "Assault, Pistol, Twin-linked",
               "Flags": "None",
               "Stats": [
@@ -8517,11 +8535,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 20,
-          "Cost": 110
+          "ModelCount": 10,
+          "Cost": 55
         },
         {
-          "ModelCount": 40,
+          "ModelCount": 20,
           "Cost": 110
         }
       ]
@@ -8588,7 +8606,7 @@
       "UnitAbilities": [
         {
           "Title": "Spawn Termagants",
-          "Text": "In your Command phase, you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed TERMAGANT models to that unit. A TERMAGANTS unit cannot be selected for this ability more than once per phase."
+          "Text": "In your Command phase, you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed models to that unit. A TERMAGANTS unit cannot be selected for this ability more than once per phase."
         },
         {
           "Title": "Brood Progenitor (Aura, Psychic)",
@@ -8807,7 +8825,7 @@
               "Min": 1,
               "Max": 1
             },
-            "ModelName": "The Swarmlord",
+            "ModelName": "Swarmlord – EPIC HERO",
             "StatlineRef": "The Swarmlord",
             "Keywords": [],
             "Wargear": [
@@ -8834,15 +8852,11 @@
         },
         {
           "Title": "Malign Presence (Aura)",
-          "Text": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
+          "Text": "If this model is your WARLORD, each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
         },
         {
           "Title": "Domination of the Hive Mind (Aura)",
-          "Text": "While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army’s Synapse Range."
-        },
-        {
-          "Title": "Lord of Deceit (Aura)",
-          "Text": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
+          "Text": "While a friendly **TYRANIDS** unit is within 9\" of this model, that unit is within your army’s Synapse Range."
         }
       ],
       "LeaderInfo": {
@@ -9030,10 +9044,6 @@
         {
           "Title": "Hypertoxic Miasma (Aura)",
           "Text": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
-        },
-        {
-          "Title": "Damaged: 1-5 Wounds Remaining",
-          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
         }
       ],
       "Infos": [],
@@ -9041,6 +9051,7 @@
         "Monster",
         "Great Devourer",
         "Toxicrene",
+        "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
@@ -9205,8 +9216,8 @@
           "Text": "Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability."
         },
         {
-          "Title": "Aggressive Leader‑beast",
-          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed by those attacks, this unit can make a surge move of up to D6\"."
+          "Title": "Aggressive Leader-beast",
+          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** by those attacks, this unit can make a **surge move** of up to D6\"."
         }
       ],
       "LeaderInfo": {
@@ -9424,7 +9435,7 @@
       "UnitAbilities": [
         {
           "Title": "Adaptive Instincts (Once per turn, per unit)",
-          "Text": "In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee attacks have +1 S.\n▪ <ins>Or</ins>: This unit has +1 T."
+          "Text": "In the Fight phase, when this unit is **selected to fight** or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee attacks have +1 **S**.\n▪ Or: This unit has +1 **T**."
         }
       ],
       "Infos": [],
@@ -9433,7 +9444,6 @@
         "Tyranid Warriors with Melee Bio-weapons",
         "Great Devourer",
         "Synapse",
-        "Tyranid Warriors",
         "Other Datasheets"
       ],
       "CoreAbilities": [],
@@ -9962,6 +9972,7 @@
         "Monster",
         "Great Devourer",
         "Tyrannofex",
+        "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
@@ -10597,7 +10608,7 @@
         },
         {
           "Title": "Spirit Leech (Aura, Psychic)",
-          "Text": "While an enemy unit is within 6\" of this unit, if it contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds."
+          "Text": "While an enemy unit is within 6\" of this unit, if this unit contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds."
         },
         {
           "Title": "Warp Field (Aura, Psychic)",
@@ -10787,8 +10798,8 @@
       "Name": "Invasion Fleet",
       "Cost": 3,
       "Rule": {
-        "Title": "Hyper Adaptions",
-        "Text": "At the start of the first battle round, select one of the following Hyper-adaptations to be active for TYRANIDS units from your army until the end of the battle:\n\n**SWARMING INSTINCTS**\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets an enemy INFANTRY or SWARM unit, that attack has the [SUSTAINED HITS 1] ability.\n\n**HYPER-AGGRESSION**\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets an enemy MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.\n\n**HIVE PREDATORS**\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets an enemy CHARACTER unit, if a Critical Hit is scored, that attack has the [PRECISION] ability.\n\n**Sustained Hits**\n\nThis ability always takes the form [SUSTAINED HITS X]. Each time an attack made with a [SUSTAINED HITS] weapon results in a critical hit, that attack results in a number of additional hits on the target as denoted by X.\n*Example: An attack made with a [SUSTAINED HITS 2] weapon results in a critical hit. That attack therefore hits the target three times (once from the critical hit, and twice more from the [SUSTAINED HITS 2] ability).*\n\n**Lethal Hits**\n\nEach time an attack made with a [LETHAL HITS] weapon results in a critical hit, you can choose for that attack to automatically wound the target.\n*Designer’s Note: Choosing to automatically wound the target means that no wound roll is made for that attack. You may decide against this, as it means that attack cannot result in a critical wound and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*\n\n**Precision**\n\nWhile resolving attacks made with one or more [PRECISION] weapons, at the start of the Allocation Order step (05.03), if the target unit contains one or more CHARACTER models visible to one or more of the attacking models, the active player can select one allocation group that contains one of those visible CHARACTER models. If they do, until those attacks are resolved, or until that CHARACTER group is destroyed (whichever happens first), that CHARACTER group is the current allocation group."
+        "Title": "Hyper-adaptations",
+        "Text": "At the start of the first battle round, select one of the following Hyper-adaptations to be active for TYRANIDS units from your army until the end of the battle:\n\n**SWARMING INSTINCTS**\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets an enemy INFANTRY or SWARM unit, that attack has the **[SUSTAINED HITS 1]** ability.\n\n**HYPER-AGGRESSION**\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets an enemy MONSTER or VEHICLE unit, that attack has the **[LETHAL HITS]** ability.\n\n**HIVE PREDATORS**\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets an enemy CHARACTER unit, if a Critical Hit is scored, that attack has the **[PRECISION]** ability.\n\n**Sustained Hits**\n\nThis ability always takes the form **[SUSTAINED HITS X]**. Each time an attack made with a **[SUSTAINED HITS]** weapon results in a **critical hit**, that attack results in a number of additional hits on the target as denoted by **X**.\n***Example:** An attack made with a **[SUSTAINED HITS 2]** weapon results in a **critical hit**. That attack therefore hits the target three times (once from the **critical hit**, and twice more from the **[SUSTAINED HITS 2]** ability).*\n\n**Lethal Hits**\n\nEach time an attack made with a **[LETHAL HITS]** weapon results in a **critical hit**, you can choose for that attack to automatically wound the target.\n***Designer’s Note:** Choosing to automatically wound the target means that no **wound roll** is made for that attack. You may decide against this, as it means that attack cannot result in a **critical wound** and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*\n\n**Precision**\n\nWhile resolving attacks made with one or more **[PRECISION]** weapons, at the start of the Allocation Order step (05.03), if the target unit contains one or more **CHARACTER** models **visible** to one or more of the attacking models, the active player can select one allocation group that contains one of those **visible CHARACTER** models. If they do, until those attacks are resolved, or until that **CHARACTER** group is **destroyed** (whichever happens first), that **CHARACTER** group is the current allocation group."
       },
       "ForceDispositions": [
         "Take and Hold",
@@ -10975,8 +10986,8 @@
       ],
       "Enhancements": [
         {
-          "Name": "Instinctive Defense",
-          "Description": "TYRANIDS model only. While the bearer is within 6\" of one or more friendly HARVESTER units, when you target this unit with the Heroic Intervention stratagem, that use is ‑1 CP. In addition, while the bearer is within 6\" of one or more friendly HARVESTER units, models in the bearer's unit have the Fights First ability.",
+          "Name": "Instinctive Defence",
+          "Description": "**TYRANIDS** model only. While the bearer is within 6\" of one or more friendly **HARVESTER** units, when you target this unit with the **Heroic Intervention stratagem**, that use is -1 CP. In addition, while the bearer is within 6\" of one or more friendly **HARVESTER** units, models in the bearer's unit have the Fights First ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -10989,7 +11000,7 @@
         },
         {
           "Name": "Parasitic Biomorphology",
-          "Description": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer's unit. The first time the bearer's unit destroys an enemy unit in the Fight phase while the bearer is within 6\" of one or more HARVESTER units, until the end of battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer's unit.",
+          "Description": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer's unit. The first time the bearer's unit destroys an enemy unit in the Fight phase while the bearer is within 6\" of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer's unit.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11017,7 +11028,7 @@
         },
         {
           "Name": "Biophagic Flow (Aura)",
-          "Description": "TYRANIDS model only. While a friendly HARVESTER model is within 12\" of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9\" instead of one within 6\".",
+          "Description": "TYRANIDS model only. While a friendly HARVESTER model is within 12\" of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9\" of it, instead of one within 6\".",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11100,7 +11111,7 @@
       "Enhancements": [
         {
           "Name": "Monstrous Nemesis",
-          "Description": "TYRANIDS MONSTER only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll.",
+          "Description": "TYRANIDS MONSTER model only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11114,7 +11125,7 @@
         },
         {
           "Name": "Null Nodules",
-          "Description": "TYRANIDS MONSTER only. Once per battle, when a Psychic Attack is allocated to the bearer, it can use this ability. If it does, until the end of the phase, the bearer has the Feel No Pain 5+ ability against Psychic Attacks.",
+          "Description": "TYRANIDS MONSTER model only. Once per battle, when a Psychic Attack is allocated to the bearer, it can use this ability. If it does, until the end of the phase, the bearer has the Feel No Pain 5+ ability against Psychic Attacks.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11128,7 +11139,7 @@
         },
         {
           "Name": "Ominous Presence",
-          "Description": "TYRANIDS MONSTER only. Add 3 to the bearer's Objective Control characteristic.",
+          "Description": "TYRANIDS MONSTER model only. Add 3 to the bearer's Objective Control characteristic.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11142,7 +11153,7 @@
         },
         {
           "Name": "Enraged Reserves",
-          "Description": "TYRANIDS MONSTER only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 3+, do not remove it from play. It can fight after the attacking model's unit has finished making its attacks, and is then removed from play.",
+          "Description": "TYRANIDS MONSTER model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 3+, do not remove it from play. It can fight after the attacking model's unit has finished making its attacks, and is then removed from play.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11161,8 +11172,8 @@
       "Name": "Synaptic Nexus",
       "Cost": 2,
       "Rule": {
-        "Title": "Synaptic Imperitives",
-        "Text": "At the start of the battle round, you can select one of the Synaptic Imperatives shown below. Until the end of the battle round, that Synaptic Imperative is active for your army and while a TYRANIDS unit from your army is within Synapse Range of your army, it will benefit from it. Each Synaptic Imperative can only be selected once per battle.\n\n- Synaptic Augmentation: While this unit is within Synapse Range of your army, models in this unit have a 5+ invulnerable save.\n- Surging Vitality: While this unit is within Synapse Range of your army, add 1 to Advance and Charge rolls made for this unit.\n- Goaded to Slaughter: While this unit is within Synapse Range of your army, each time a model in this unit makes a melee attack, add 1 to the Hit roll"
+        "Title": "Synaptic Imperatives",
+        "Text": "At the start of the battle round, you can select one of the Synaptic Imperatives shown below. Until the end of the battle round, that Synaptic Imperative is active for your army and while a TYRANIDS unit from your army is within Synapse Range of your army, it will benefit from it. Each Synaptic Imperative can only be selected once per battle.\n\n- **Synaptic Augmentation:** While this unit is within Synapse Range of your army, models in this unit have a 5+ invulnerable save.\n- **Surging Vitality:** While this unit is within Synapse Range of your army, add 1 to Advance and Charge rolls made for this unit.\n- **Goaded to Slaughter:** While this unit is within Synapse Range of your army, each time a model in this unit makes a melee attack, add 1 to the Hit roll"
       },
       "ForceDispositions": [
         "Disruption"
@@ -11225,8 +11236,8 @@
       ],
       "Enhancements": [
         {
-          "Name": "Psychostatic Disruption (Aura)",
-          "Description": "TYRANIDS SYNAPSE model only. Enemy units that arrive on the battlefield from Reserves cannot be set up with 12\" of the bearer. In addition, once per battle, during the first or second battle round, when your opponent declares that a unit will arrive on the battlefield from Strategic Reserves, the bearer can use this enhancement. If it does, roll one D6: on a 4+, that enemy cannot arrive on the battlefield this turn.",
+          "Name": "Psychostatic Disruption",
+          "Description": "TYRANIDS SYNAPSE model only. Enemy units that arrive on the battlefield from Reserves cannot be set up within 12\" of the bearer. In addition, once per battle, during the first or second battle round, when your opponent declares that a unit will arrive on the battlefield from Strategic Reserves, the bearer can use this Enhancement. If it does, roll one D6: on a 4+, that enemy unit cannot arrive on the battlefield this turn.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11240,7 +11251,7 @@
         },
         {
           "Name": "Synaptic Control",
-          "Description": "TYRANIDS SYNAPSE model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of the attack.",
+          "Description": "TYRANIDS SYNAPSE model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11268,7 +11279,7 @@
         },
         {
           "Name": "Power of the Hive Mind",
-          "Description": "TYRANIDS PSYKER model only. Improve the Strength and Armour Penetration characteristic of psychic weapons equipped by the wearer of 1.",
+          "Description": "TYRANIDS PSYKER model only. Improve the Strength and Armour Penetration characteristics of psychic weapons equipped by the bearer by 1.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11352,7 +11363,7 @@
       ],
       "Enhancements": [
         {
-          "Name": "Naturalised Camoflage",
+          "Name": "Naturalised Camouflage",
           "Description": "TYRANIDS model only. At the start of the first battle round, select up to three friendly ENDLESS MULTITUDE units within 9\" of the bearer. Until the end of the battle round, each time a ranged attack targets one of those units, models in that unit have the Benefit of Cover against that attack.",
           "Cost": 30,
           "Features": "None",
@@ -11392,7 +11403,7 @@
         },
         {
           "Name": "Adrenalised Onslaught",
-          "Description": "TYRANIDS model only. Each time the bearer's unit makes a Pile In or Consolidation, models in this unit can move an additional 3\"",
+          "Description": "TYRANIDS model only. Each time the bearer's unit Piles In or Consolidates, models in this unit can move an additional 3\".",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11477,7 +11488,7 @@
       "Enhancements": [
         {
           "Name": "Hunting Grounds",
-          "Description": "TYRANIDS model only. While the bearer is on the battlefield, each time your opponent sets up a Reserves unit on the battlefield, roll one D6: on a 2+ that unit must make a Battle-shock test.",
+          "Description": "TYRANIDS model only. While the bearer is on the battlefield, each time your opponent sets up a Reserves unit on the battlefield, roll one D6: on a 2+, that unit must take a Battle-shock test.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11503,7 +11514,7 @@
         },
         {
           "Name": "Stalker",
-          "Description": "VANGUARD INVADER model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and Wound roll.",
+          "Description": "VANGUARD INVADER model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11574,7 +11585,7 @@
       "Enhancements": [
         {
           "Name": "Elevated Might",
-          "Description": "WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP model only. This model’s melee attacks:\n- Can re‑roll wound rolls.\n- Have +1 AP.",
+          "Description": "**WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP** model only. This model’s melee attacks:\n- Can re-roll **wound rolls**.\n- Have +1 **AP**.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11784,7 +11795,7 @@
         },
         {
           "Name": "Cryptophotaic Camouflage",
-          "Description": "VON RYAN’S LEAPERS unit only. This unit has ‑3\" detection range.",
+          "Description": "**VON RYAN’S LEAPERS** unit only. This unit has -3\" **detection range**.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11840,7 +11851,7 @@
       "Enhancements": [
         {
           "Name": "Destabilising Predation",
-          "Description": "NORN EMISSARY unit only. This unit’s ranged attacks have [ANTI‑CHARACTER 2+].",
+          "Description": "**NORN EMISSARY** unit only. This unit’s ranged attacks have **[ANTI-CHARACTER 2+]**.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
