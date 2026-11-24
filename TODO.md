@@ -7,7 +7,7 @@ The work plan for the `DominicWatts-WH40K11e` dataset, written so an AI agent (o
 - **Read first:** `FACTIONS.md` (source order and per-faction status), `CHANGELOG.md` (release history), the dataset's `WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md` (coverage and limitations), and the READMEs of `WarOrgan.Data.BsdataImport` and `WarOrgan.Data.WahapediaCheck`.
 - **Never change** the dataset ID (`DominicWatts-WH40K11e`) or a published unit `Id`: saved army lists refer to both. Change `DisplayName` instead. Do not change `WarOrgan.Data.Model` without the owner's agreement; the app reads it.
 - **Sources, in priority order:** the November 2026 BSData dump (`momper14/wh40k-11e` at `f015101d4c495173283e1b97e9d59f2befb877ad`, saved as `bsdata.zip` in the repository root, gitignored) is the base; Wahapedia's 11th Edition pages override it; 10th Edition codexes fill gaps; GW's 11th Edition faction packs apply corrections. Flag conflicts to the owner rather than overwriting checked data.
-- **Branches:** faction data goes on `faction/<slug>` (for example `faction/space-marines`); dataset-wide content such as core stratagems or the keyword registry on `core/<topic>`; tooling and docs on `chore/<topic>`; cross-faction ally wiring on `allies/<owner>-<ally>`. Merge each into `dataset/develop` with `--no-ff`. Never commit directly on `dataset/develop` except the one "Prepare x.y.z" commit per release, and never on `dataset/wh40k11e`.
+- **Branches:** origin is authoritative and shared branches are long-lived. Faction data goes on the existing `origin/faction/<slug>` branch (for example `faction/space-marines`); do not recreate it from develop. If it needs current develop context, merge `origin/dataset/develop` into it with `--no-ff`, never a rebase or fast-forward. Push the faction commit, then merge the faction branch into `dataset/develop` with `--no-ff` and leave its pointer on its own commit. Never reset, force-move or force-push shared branches. Dataset-wide content such as core stratagems or the keyword registry goes on `core/<topic>`; tooling and docs on `chore/<topic>`; cross-faction ally wiring on `allies/<owner>-<ally>`. Never commit directly on `dataset/develop` except the one "Prepare x.y.z" commit per release, and never on `dataset/wh40k11e`.
 - **Releases:** the Prepare commit on `dataset/develop` bumps `defaultVersion` in `WarOrgan.Data.BuildDataset/Program.cs` (third field for data changes), the `## Coverage in` heading in the dataset README, adds one `CHANGELOG.md` line (`YYYY-MM-DD : x.y.z.0 - summary`, with a blank line between entries) and updates this file and `FACTIONS.md`. Build, upload the ZIP to the `develop-build` pre-release for the owner to test in WarOrgan, and only after they pass it merge `dataset/develop` into `dataset/wh40k11e`, tag `vX.Y.Z` and verify the public download.
 - **Checks before every commit:** `dotnet run --project WarOrgan.Data.BuildDataset -c Release` must end with `0 errors`, and `git diff --check` must be clean. Commit messages are a single line.
 - **Editing roster JSON:** keep UTF-8, two-space indentation and the file's existing line endings. Load and dump with a JSON library (`indent=2`, `ensure_ascii=False`) rather than hand-editing large files.
@@ -17,32 +17,60 @@ The work plan for the `DominicWatts-WH40K11e` dataset, written so an AI agent (o
 
 Ordered by value. Each task lists where to work and when it is done.
 
-### 1. Commit the bulk-draft pipeline
+### 1. Check factions against Wahapedia
 
-The 1.5.x drafts were produced with throwaway scripts that are not in the repository: drafting every faction, registering factions, holding back datasheets that fail validation, applying hand fixes, and merging drafts into hand-checked rosters. Without them, nobody can regenerate a draft reproducibly.
+Check and release each faction on its own `faction/<slug>` branch. Wahapedia wins over BSData. Fix names, statlines, weapons, keywords, abilities, composition, wargear options, points, Leader attachments, Support attachments and detachment differences; work through the importer report and preserve hand fixes.
 
-- **Branch:** `chore/bulk-draft-pipeline`.
-- **Do:** add a `--all` mode (or a small script under `WarOrgan.Data.BsdataImport/`) driven by a committed faction list: name, BSData catalogue, faction keyword, category, colours and, for chapters, `Allies: [{ "FactionKeyword": "Adeptus Astartes", "IsIncludedInPrimaryRoster": true }]`. It should also apply a committed list of retired datasheets (see `FACTIONS.md`), keep hand-fixed datasheets (Crusader Squad, Crusaders, Corsair Voidscarred, Grot Tanks) and, when a roster already exists, add only datasheets whose `Id` it lacks.
-- **Done when:** regenerating any draft faction reproduces its committed roster exactly (apart from deliberate improvements), and the README explains the command.
+Done for a faction when: the check report has only expected notes, `FACTIONS.md` marks Wahapedia layer 2 as done, and the dataset README moves it from Draft coverage to checked coverage.
 
-### 2. Check each draft faction against Wahapedia
+**Priority**
 
-The biggest remaining job: 31 draft factions plus the draft parts of Tyranids and Astra Militarum. Work one faction at a time on its own branch, and release in batches.
+- [ ] Tyranids — remaining draft datasheets and detachments, while keeping the checked Vanguard Invader allies
+- [ ] Astra Militarum — remaining draft datasheets and detachments, while keeping the checked Brood Brother Auxilia allies
+- [ ] Adepta Sororitas
+- [ ] Adeptus Custodes
+- [ ] Adeptus Mechanicus
+- [ ] Agents of the Imperium
+- [ ] Grey Knights
+- [ ] Imperial Knights
+- [ ] Space Marines
+- [ ] Black Templars
+- [ ] Blood Angels
+- [ ] Dark Angels
+- [ ] Deathwatch
+- [ ] Imperial Fists
+- [ ] Iron Hands
+- [ ] Raven Guard
+- [ ] Salamanders
+- [ ] Space Wolves
+- [ ] Ultramarines
+- [ ] White Scars
+- [ ] Chaos Space Marines
+- [ ] Chaos Daemons
+- [ ] Chaos Knights
+- [ ] Death Guard
+- [ ] Emperor's Children
+- [ ] Thousand Sons
+- [ ] World Eaters
+- [ ] Aeldari
+- [ ] Drukhari
+- [ ] Leagues of Votann
+- [ ] Necrons
+- [ ] Orks
+- [ ] T'au Empire
 
-- **Branch:** `faction/<slug>`.
-- **Do:** run `WarOrgan.Data.WahapediaCheck` on the faction's rosters, then fix every difference that is not an expected note (see that tool's README): names, statlines, weapons and keywords, abilities, composition, wargear options, points, Led By and Supported By. Wahapedia wins over BSData. Pay particular attention to units the importer repaired: their wargear is looser than the datasheet (weapons offered as swaps for any starting weapon of the same type). Regenerate the importer report to see which ones.
-- **Done when:** the check report has only expected notes, `FACTIONS.md` marks layer 2 as done for that faction, and the dataset README's draft line for it moves into the checked coverage.
-- **Suggested order:** Space Marines first (every chapter inherits its datasheets), then the most-played armies.
+`FACTIONS.md` lists the faction branch and source-layer state for each item.
 
-### 3. Add stratagems for every faction except Genestealer Cults
+### 2. Add stratagems for every faction except Genestealer Cults
 
-BSData has no stratagems, so only Genestealer Cults (45) and the ten core stratagems exist.
+BSData has no stratagems. Genestealer Cults and ten draft factions now have them; the remaining factions and chapter-specific detachments are still empty.
 
 - **Branch:** `faction/<slug>`, or a `chore/` branch first if you extend a tool.
 - **Do:** read each detachment's stratagems from the Wahapedia faction page (`https://wahapedia.ru/wh40k11ed/factions/<slug>/`; stratagems sit in `div.str11Wrap` blocks after each detachment's `h2`). `WahapediaPages.ParseFactionPage` in `WarOrgan.Data.WahapediaCheck` already parses them for comparison; reuse it to write `Stratagems` into each `Detachment`, following the shape of the Genestealer Cults roster (`Name`, `Category`, `CPCost`, `Phase`, `When`, `Target`, `Effect`, optional `Restrictions`). Skip Boarding Actions stratagems.
 - **Done when:** every detachment in a faction has its stratagems, the check report shows no stratagem differences, and the build passes.
+- **Completed so far:** Genestealer Cults (45), generic Space Marines (52, copied into chapter rosters), T'au Empire (31), Tyranids (51), Astra Militarum (57), Adepta Sororitas (36), Adeptus Custodes (23), Adeptus Mechanicus (45), Agents of the Imperium (30), Grey Knights (45) and Imperial Knights (39). Sanctified Orators and Haloscreed Battleclade have no Wahapedia stratagems.
 
-### 4. Fill the detachments BSData has no enhancements for
+### 3. Fill the detachments BSData has no enhancements for
 
 Armoured Trailblazers, Brazen Engines, Butchers of Khorne, Contagion Engines, Flyblown Host, Hand of the Dynasty, Pantheon of Woe, Skyshroud Spearhead, Spectacle of Slaughter, Veiled Blade Elimination Force and Warptide have none in BSData. (Deathwatch Support is an allied option and should stay empty.)
 
@@ -50,7 +78,7 @@ Armoured Trailblazers, Brazen Engines, Butchers of Khorne, Contagion Engines, Fl
 - **Do:** take each enhancement's name, points, restriction (`RequiredKeywords` and similar) and text from the Wahapedia faction page (`ul.EnhancementsPts`).
 - **Done when:** each listed detachment has its enhancements or a confirmed note that it has none.
 
-### 5. Turn simple rule effects into data
+### 4. Turn simple rule effects into data
 
 Enhancement, wargear, leader and detachment rules are text only in the drafts, so the app does not apply them. Many are simple stat changes the model can represent.
 
@@ -58,7 +86,7 @@ Enhancement, wargear, leader and detachment rules are text only in the drafts, s
 - **Do:** recognise simple patterns such as "Add 1 to the bearer's Wounds characteristic", "+1 Strength to melee weapons" or "improve the Armour Penetration characteristic by 1", and emit `StatAdjustments` or `WeaponStatAdjustments` (`Scope: Model` for the bearer). Report anything conditional or unit-wide instead of guessing. Worked examples: the Vanguard Tyrant enhancement in `Rosters/Genestealer Cults.json` (S and AP) and the T'au shield drone in `Rosters/T'au Empire.json` (W, characters only: squads keep it as text because WarOrgan shows one statline per model type).
 - **Done when:** the recognised effects apply in a test build, and FACTIONS.md notes which effects remain text.
 
-### 6. Wire the remaining allies
+### 5. Wire the remaining allies
 
 Only Genestealer Cults (Tyranids, Astra Militarum) and the Space Marine chapters (Space Marines) have allies. Others are missing, for example Agents of the Imperium for Imperium armies, Chaos Daemons and Chaos Knights for Chaos armies, and Imperial Knights.
 
@@ -66,11 +94,11 @@ Only Genestealer Cults (Tyranids, Astra Militarum) and the Space Marine chapters
 - **Do:** add `Allies` entries in `DataSetDefinition.json` with the rule's points cap, allowed detachments and unit filters (`UnitIncludeRules`, with `AddedKeywords: ["Allied Units"]`). Prefer `AffectedUnitsFilter` with explicit unit IDs when keywords are unreliable; BSData keyword spellings vary (see the Brood Brother Auxilia entry).
 - **Done when:** each ally appears only where its rule allows, under Allied Units, and the owner has app-tested it.
 
-### 7. Correct the T'au drone option lists
+### 6. Correct the T'au drone option lists
 
 BSData offers drones that Wahapedia does not allow, for example guardian drones on the Cadre Fireblade, Ethereal and Commanders. It also lists Stealth Battlesuits, but not the Hazard Battlesuits, as able to take shield drones. Fix this as part of task 2 for T'au, against each datasheet's wargear options on Wahapedia.
 
-### 8. Add builder validation for duplicate weapon IDs within a unit
+### 7. Add builder validation for duplicate weapon IDs within a unit
 
 - **Branch:** `chore/validate-duplicate-weapons`.
 - **Do:** in `WarOrgan.Data.BuildDataset/Validation/`, fail the build when a unit has two weapons with the same `Id` across its weapon sets.
@@ -103,7 +131,7 @@ These need the WarOrgan author's guidance or an app change; do not publish specu
 - **Genestealer Cults:** all 25 datasheets checked line by line against Wahapedia and the faction pack; army rule; nine detachments with 30 enhancements and 45 stratagems; unit wargear limits rebuilt; leader effects; invulnerable saves as an INV characteristic (1.1 to 1.4).
 - **Allies:** Tyranid Vanguard Invaders for Final Day (1.3); 51 Astra Militarum datasheets for Brood Brother Auxilia, pinned by ID (1.4, 1.5.2).
 - **Core:** ten 11th Edition core stratagems (1.3.9); battle sizes and features; the 11th Edition weapon keyword and core ability registry (1.5.0).
-- **Tools:** `WarOrgan.Data.BsdataImport` and `WarOrgan.Data.WahapediaCheck` (1.4.x); importer support for libraries, per-army detachments, enhancements and a repair pass (1.5.x). Wahapedia stratagem import support (1.5.8).
+- **Tools:** `WarOrgan.Data.BsdataImport` and `WarOrgan.Data.WahapediaCheck` (1.4.x); importer support for libraries, per-army detachments, enhancements and a repair pass (1.5.x); Wahapedia stratagem import support (1.5.8); committed bulk-draft pipeline and faction manifest (1.5.9).
 - **Draft factions:** 31 factions drafted (1.5.0), enhancements added (1.5.1), Tyranids and Astra Militarum filled out around the checked allies (1.5.2), held-back datasheets fixed or retired (1.5.3).
 - **Fixes from issues:** Vanguard Tyrant S and AP (issue 1), single-choice weapon swaps (issue 2), INV characteristic (issue 3), shield drone Wounds on characters (issue 4), stray bold markers removed (issue 5).
 - **App confirmations:** detachments, Force Dispositions, stratagems, enhancements and their weapon changes, Upgrades, allies under Allied Units with the 50% cap, wargear stat changes (Ridgerunner spotter), leader-added core abilities, and Scouts, Deadly Demise and Feel No Pain values all work in WarOrgan. Pre-release testing works through the `develop-build` URL.

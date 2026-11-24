@@ -1,3 +1,5 @@
+2026-11-24 : 1.5.9.0 - Added 357 Wahapedia stratagems for nine factions, exposed the generic Space Marine stratagems in chapter rosters and committed the bulk-draft pipeline.
+
 2026-11-24 : 1.5.8.0 - Added 52 Wahapedia faction stratagems to the 16 Space Marine detachment rosters, plus Wahapedia stratagem import support.
 
 # Dataset changelog

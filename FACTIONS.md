@@ -18,26 +18,26 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Faction | Branch | Scope | 1 BSData | 2 Wahapedia | 3 Codex 10e | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
-| Tyranids | `faction/tyranids` | Full (allies checked, rest draft) | done | done (allies) | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | - | text only |
-| Astra Militarum | `faction/astra-militarum` | Full (allies checked, rest draft) | done | done (allies) | - | - | 72 + 61 Legends | 11 | 34 | - | text only |
-| Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 38 | 8 | 24 | - | text only |
-| Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | - | text only |
-| Adeptus Mechanicus | `faction/adeptus-mechanicus` | Draft | done (draft) | - | - | - | 37 | 10 | 33 | - | text only |
-| Agents of the Imperium | `faction/agents-of-the-imperium` | Draft | done (draft) | - | - | - | 40 | 5 | 16 | - | text only |
-| Grey Knights | `faction/grey-knights` | Draft | done (draft) | - | - | - | 31 | 9 | 30 | - | text only |
-| Imperial Knights | `faction/imperial-knights` | Draft | done (draft) | - | - | - | 22 | 8 | 26 | - | text only |
+| Tyranids | `faction/tyranids` | Full (allies checked, rest draft) | done | done (allies) | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
+| Astra Militarum | `faction/astra-militarum` | Full (allies checked, rest draft) | done | done (allies) | - | - | 72 + 61 Legends | 11 | 34 | 57/57 added | text only |
+| Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 38 | 8 | 24 | 36 added (7/8) | text only |
+| Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | 23/23 added | text only |
+| Adeptus Mechanicus | `faction/adeptus-mechanicus` | Draft | done (draft) | - | - | - | 37 | 10 | 33 | 45 added (9/10) | text only |
+| Agents of the Imperium | `faction/agents-of-the-imperium` | Draft | done (draft) | - | - | - | 40 | 5 | 16 | 30/30 added | text only |
+| Grey Knights | `faction/grey-knights` | Draft | done (draft) | - | - | - | 31 | 9 | 30 | 45/45 added | text only |
+| Imperial Knights | `faction/imperial-knights` | Draft | done (draft) | - | - | - | 22 | 8 | 26 | 39/39 added | text only |
 | Space Marines | `faction/space-marines` | Draft | done (draft) | - | - | - | 133 | 16 | 32 | 52/52 added | text only |
-| Black Templars | `faction/black-templars` | Draft | done (draft) | - | - | - | 16 | 18 | 36 | - | text only |
-| Blood Angels | `faction/blood-angels` | Draft | done (draft) | - | - | - | 22 | 19 | 40 | - | text only |
-| Dark Angels | `faction/dark-angels` | Draft | done (draft) | - | - | - | 18 | 19 | 40 | - | text only |
-| Deathwatch | `faction/deathwatch` | Draft | done (draft) | - | - | - | 10 | 16 | 36 | - | text only |
-| Imperial Fists | `faction/imperial-fists` | Draft | done (draft) | - | - | - | 3 | 17 | 36 | - | text only |
-| Iron Hands | `faction/iron-hands` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | - | text only |
-| Raven Guard | `faction/raven-guard` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | - | text only |
-| Salamanders | `faction/salamanders` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | - | text only |
-| Space Wolves | `faction/space-wolves` | Draft | done (draft) | - | - | - | 34 | 19 | 40 | - | text only |
-| Ultramarines | `faction/ultramarines` | Draft | done (draft) | - | - | - | 16 | 17 | 36 | - | text only |
-| White Scars | `faction/white-scars` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | - | text only |
+| Black Templars | `faction/black-templars` | Draft | done (draft) | - | - | - | 16 | 18 | 36 | 52 generic | text only |
+| Blood Angels | `faction/blood-angels` | Draft | done (draft) | - | - | - | 22 | 19 | 40 | 52 generic | text only |
+| Dark Angels | `faction/dark-angels` | Draft | done (draft) | - | - | - | 18 | 19 | 40 | 52 generic | text only |
+| Deathwatch | `faction/deathwatch` | Draft | done (draft) | - | - | - | 10 | 16 | 36 | 48 generic | text only |
+| Imperial Fists | `faction/imperial-fists` | Draft | done (draft) | - | - | - | 3 | 17 | 36 | 52 generic | text only |
+| Iron Hands | `faction/iron-hands` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | 52 generic | text only |
+| Raven Guard | `faction/raven-guard` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | 52 generic | text only |
+| Salamanders | `faction/salamanders` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | 52 generic | text only |
+| Space Wolves | `faction/space-wolves` | Draft | done (draft) | - | - | - | 34 | 19 | 40 | 52 generic | text only |
+| Ultramarines | `faction/ultramarines` | Draft | done (draft) | - | - | - | 16 | 17 | 36 | 52 generic | text only |
+| White Scars | `faction/white-scars` | Draft | done (draft) | - | - | - | 2 | 17 | 36 | 52 generic | text only |
 | Chaos Space Marines | `faction/chaos-space-marines` | Draft | done (draft) | - | - | - | 82 | 17 | 62 | - | text only |
 | Chaos Daemons | `faction/chaos-daemons` | Draft | done (draft) | - | - | - | 68 | 9 | 27 | - | text only |
 | Chaos Knights | `faction/chaos-knights` | Draft | done (draft) | - | - | - | 19 | 8 | 28 | - | text only |
@@ -50,7 +50,7 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Leagues of Votann | `faction/leagues-of-votann` | Draft | done (draft) | - | - | - | 22 | 10 | 32 | - | text only |
 | Necrons | `faction/necrons` | Draft | done (draft) | - | - | - | 64 | 12 | 33 | - | text only |
 | Orks | `faction/orks` | Draft | done (draft) | - | - | - | 70 | 15 | 38 | - | text only |
-| T'au Empire | `faction/tau-empire` | Draft | done (draft) | - | - | - | 63 | 7 | 23 | - | text only |
+| T'au Empire | `faction/tau-empire` | Draft | done (draft) | - | - | - | 63 | 7 | 23 | 31/31 added | text only |
 
 Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.json` and are not counted per faction.
 
@@ -88,3 +88,4 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
   - Dark Angels: Deathwing Command Squad
   - Space Wolves: Wolf Guard Battle Leader In Terminator Armour, Wolf Guard Battle Leader On Thunderwolf, Wolf Guard Pack Leader, Wolf Guard Pack Leader In Terminator Armour, Wolf Guard Pack Leader With Jump Pack, Wolf Lord On Thunderwolf
 - 2026-11-24 (1.5.4): a shield drone adds 1 to the Wounds of the T'au character carrying it (Cadre Fireblade, Ethereal, Coldstar and Enforcer Commanders). Squads keep it as text, because WarOrgan shows one statline per model type. No T'au enhancement needs a drone or changes stats through one. The drafted drone option lists differ from Wahapedia (for example guardian drones offered to characters); fix them in the T'au Wahapedia check.
+- 2026-11-24 (1.5.9): added the Wahapedia stratagems for T'au Empire, Tyranids, Astra Militarum, Adepta Sororitas, Adeptus Custodes, Adeptus Mechanicus, Agents of the Imperium, Grey Knights and Imperial Knights. Copied the generic Space Marine stratagems into the matching detachment copies in every chapter roster, fixing issue 7.
