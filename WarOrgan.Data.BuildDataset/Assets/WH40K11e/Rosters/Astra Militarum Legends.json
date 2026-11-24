@@ -397,7 +397,8 @@
         "Imperium",
         "Arkurian Stormhammer",
         "Frame",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Smoke"
       ],
       "CoreAbilities": [
         "Deadly Demise D6+2"
@@ -4131,7 +4132,8 @@
         "Smoke",
         "Dominus Armoured Siege Bombard",
         "Frame",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Imperium"
       ],
       "CoreAbilities": [
         "Deadly Demise D6+2"
@@ -9395,7 +9397,8 @@
         "Smoke",
         "Malcador",
         "Frame",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Malcador Infernus"
       ],
       "CoreAbilities": [
         "Deadly Demise D6"
@@ -13113,7 +13116,9 @@
             },
             "ModelName": "Astropath",
             "StatlineRef": "Regimental Attachés",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -14606,7 +14611,8 @@
         "Squadron",
         "Smoke",
         "Sentinel Powerlifter",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Frame"
       ],
       "CoreAbilities": [
         "Deadly Demise 1"
@@ -17178,7 +17184,8 @@
         "Smoke",
         "Valdor",
         "Frame",
-        "Other Datasheets"
+        "Other Datasheets",
+        "Imperium"
       ],
       "CoreAbilities": [
         "Deadly Demise D6+2"
