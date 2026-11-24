@@ -54,14 +54,21 @@ public class ImportReport
 
     public void Add(string section, string note) => _notes.Add((section, note));
 
-    public int Count => _notes.Count;
+    public int Count => _notes.Distinct().Count();
 
     public string ToMarkdown(string title, IEnumerable<string> header)
     {
         var lines = new List<string> { $"# {title}", string.Empty };
         lines.AddRange(header);
         lines.Add(string.Empty);
-        foreach (var group in _notes.GroupBy(n => n.Section))
+        var notes = _notes.Distinct().ToList();
+        lines.Add("## Manual follow-up summary");
+        lines.Add(string.Empty);
+        lines.Add(notes.Count == 0
+            ? "- No known conversion gaps. Source verification is still required."
+            : $"- {notes.Count} notes across {notes.Select(n => n.Section).Distinct().Count()} units or sections need review.");
+        lines.Add(string.Empty);
+        foreach (var group in notes.GroupBy(n => n.Section))
         {
             lines.Add($"## {group.Key}");
             lines.Add(string.Empty);

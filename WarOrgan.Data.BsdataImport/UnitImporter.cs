@@ -77,13 +77,18 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
         {
             var statline = new StatLine { StatName = profile.Name(), Features = StatFeature.None };
             foreach (var id in StatIds)
+            {
                 statline.Stats.Add(new Characteristic { Id = id, Value = profile.Characteristic(id) });
+                if (id == "Sv")
+                {
+                    var save = profile.Characteristic("InSv");
+                    if (save.Length > 0 && save != "-")
+                        statline.Stats.Add(new Characteristic { Id = "Inv", Value = save });
+                    invulnerable.Add(save.Length > 0 && save != "-" ? save : "none");
+                }
+            }
             statline.Stats.Add(new Characteristic { Id = "Base", Value = TextUtils.CompactBase(profile.Characteristic("Base")) });
             unit.StatLines.Add(statline);
-
-            var save = profile.Characteristic("InSv");
-            if (save.Length > 0 && save != "-")
-                invulnerable.Add(save);
         }
 
         // Models with identical characteristics share one statline named after the unit
@@ -93,13 +98,17 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
             unit.StatLines.RemoveRange(1, unit.StatLines.Count - 1);
         }
 
-        if (invulnerable.Distinct().Count() > 1)
-            report.Add(section, $"Statlines have different invulnerable saves ({string.Join(", ", invulnerable.Distinct())}); check the Invulnerable Save ability.");
-        if (invulnerable.Count > 0)
+        var distinctInvulnerable = invulnerable.Distinct().ToList();
+        if (distinctInvulnerable.Count > 1)
+            report.Add(section, $"Statlines have different invulnerable saves ({string.Join(", ", distinctInvulnerable)}); add model-specific ability text by hand if needed.");
+        if (invulnerable.Any(save => save != "none"))
         {
             unit.CoreAbilities.Add("Invulnerable Save");
-            var subject = root.IsModel ? "This model has" : "Models in this unit have";
-            unit.UnitAbilities.Add(new UnitInfoSection { Title = "Invulnerable Save", Text = $"{subject} a {invulnerable[0]} invulnerable save." });
+            if (distinctInvulnerable is [var save] && save != "none")
+            {
+                var subject = root.IsModel ? "This model has" : "Models in this unit have";
+                unit.UnitAbilities.Add(new UnitInfoSection { Title = "Invulnerable Save", Text = $"{subject} a {save} invulnerable save." });
+            }
         }
 
         if (unit.StatLines.Count == 0)
@@ -212,10 +221,20 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
     {
         var info = new LeaderInfo();
         var listed = Regex.Matches(text, @"^\s*[-■•]\s*(.+?)\s*\**\s*$", RegexOptions.Multiline)
-            .Select(m => m.Groups[1].Value.Replace("*", string.Empty).Trim().ToUpperInvariant());
+            .Select(m => m.Groups[1].Value)
+            .ToList();
 
-        foreach (var name in listed)
+        // Some catalogues put a short Leader list on the same line as the introductory sentence instead of
+        // using bullets. Treat both forms identically so ordinary leaders do not require manual repair.
+        var header = Regex.Match(text,
+            @"^[ \t]*This (?:model|unit) can be attached to the following units?:[ \t]*(?<targets>[^\r\n]*)",
+            RegexOptions.IgnoreCase | RegexOptions.Multiline);
+        if (header.Success && header.Groups["targets"].Value.Trim().Length > 0)
+            listed.AddRange(header.Groups["targets"].Value.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries));
+
+        foreach (var listedName in listed)
         {
+            var name = listedName.Replace("*", string.Empty).Trim().TrimEnd('.').ToUpperInvariant();
             var normalised = name.Replace("HANDFLAMERS", "HAND FLAMERS");
             var matches = knownUnitIds.Contains(normalised)
                 ? [normalised]
@@ -226,8 +245,10 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
         }
 
         var extra = Regex.Replace(text, @"^\s*[-■•].*$", string.Empty, RegexOptions.Multiline);
-        extra = extra.Replace("This model can be attached to the following units:", string.Empty)
-            .Replace("This model can be attached to the following unit:", string.Empty).Trim();
+        extra = Regex.Replace(extra,
+            @"^\s*This (?:model|unit) can be attached to the following units?:.*$",
+            string.Empty,
+            RegexOptions.IgnoreCase | RegexOptions.Multiline).Trim();
         if (extra.Length > 0)
             report.Add(section, $"Leader has extra attachment rules to model by hand: \"{extra}\"");
 
@@ -327,6 +348,8 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
                     report.Add(section, $"Option \"{variantGroup.Key}\" limit changes with modifiers (usually per-X-models); check Max and PerXModels.");
                 modelWargear.Options.Add(option);
             }
+
+            modelWargear.Options = MergeReplacementChoices(modelWargear.Options, composition.Limit.Max);
 
             composition.Wargear.Add(modelWargear);
             unit.UnitComposition.ModelCompositions.Add(composition);
@@ -446,6 +469,46 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
             result.Remove(item);
         return result;
     }
+
+    /// <summary>
+    /// BSData often represents alternatives as sibling loadout entries (one entry for an autocannon, another
+    /// for a lascannon, and so on). WarOrgan must receive those as one option with several choices; separate
+    /// options would allow the same starting weapon to be replaced more than once.
+    /// </summary>
+    private static List<WargearOption> MergeReplacementChoices(List<WargearOption> options, int modelCount)
+    {
+        var result = new List<WargearOption>();
+        foreach (var option in options)
+        {
+            // A lower limit can represent a fixed specialist slot. Those choices must remain separate: several
+            // different specialists may each replace identical basic wargear. A full-model-count limit instead
+            // means every model is choosing from the same weapon list and is safe to combine.
+            if (option.Replaces is not { Count: > 0 } || option.Max != modelCount)
+            {
+                result.Add(option);
+                continue;
+            }
+
+            var existing = result.FirstOrDefault(candidate =>
+                candidate.Max == option.Max
+                && candidate.PerXModels == option.PerXModels
+                && SameMultiset(candidate.Replaces, option.Replaces));
+            if (existing == null)
+            {
+                result.Add(option);
+                continue;
+            }
+
+            foreach (var choice in option.Options)
+                if (!existing.Options.Any(current => current.Items.SequenceEqual(choice.Items)))
+                    existing.Options.Add(choice);
+        }
+        return result;
+    }
+
+    private static bool SameMultiset(IEnumerable<string>? left, IEnumerable<string>? right)
+        => (left ?? []).OrderBy(x => x, StringComparer.Ordinal).SequenceEqual(
+            (right ?? []).OrderBy(x => x, StringComparer.Ordinal), StringComparer.Ordinal);
 
     private string? StatlineFor(Unit unit, string modelName, string section)
     {

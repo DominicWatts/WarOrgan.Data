@@ -19,13 +19,15 @@ Run it from the repository root so it finds `DataSetDefinition.json`, or pass `-
 
 ## What it converts
 
-- Statlines (identical ones merged), compact base sizes, invulnerable saves.
+- Statlines (identical ones merged), compact base sizes, and an `Inv` characteristic plus ability text for invulnerable saves.
 - Weapons, with keywords sorted and checked against the registry.
 - Abilities, Transport capacity and the Unit Composition note.
 - Core abilities, checked against the registry. Rules that only apply under a unit condition are reported, not added.
 - Leader and Support attachments, matched to unit IDs in the same roster.
 - Points by unit size, and the extra cost for later copies of a unit.
 - Model compositions. BSData's per-loadout models ("Shock Trooper w/ Flamer") are folded into one composition with wargear options, following the conventions in `CLAUDE.md`. Size choices ("1 Sergeant and 9 Troopers" or "2 and 18") become model ranges, with option limits expressed per X models.
+- Sibling loadouts that replace the same starting weapon are merged into one mutually exclusive WarOrgan choice. Multi-profile and repeated weapons remain together as one choice bundle.
+- Leader lists written either as bullets or inline after the Leader introduction.
 - Detachments with a Detachment Points cost: Force Dispositions, rule, enhancements and their unit restrictions. Other detachment categories become Tags.
 - Army rules from the catalogue's shared rules.
 
@@ -33,5 +35,5 @@ Run it from the repository root so it finds `DataSetDefinition.json`, or pass `-
 
 - Stratagems (BSData has none) and detachment effects.
 - Stat and weapon changes from enhancements, leader effects and wargear.
-- Limits on a single choice inside an option, and per-model-count limits set by modifiers. The report lists each one.
+- Limits on a single choice inside an option, and unusual per-model-count limits set by modifiers. The report lists each one.
 - Anything BSData has wrong or out of date. Comparing GSC on 2026-11-23 found stale rule texts, a stale weapon, a missing Leader list and an inconsistent model count.
