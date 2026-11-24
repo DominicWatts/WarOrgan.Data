@@ -4867,7 +4867,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Hover"
       ],
       "FactionKeywords": [
         "Thousand Sons"
@@ -8493,7 +8494,60 @@
         "Reconnaissance"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Arcane Might",
+          "Description": "Add 1 to the Strength characteristic of Psychic weapons equipped by models in the bearer’s unit. While the bearer’s unit is wholly within your army’s Flow of Magic, add 2 to the Strength characteristic of Psychic weapons equipped by models in that unit instead.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Empowered Manifestation",
+          "Description": "While the bearer’s unit is wholly within your army’s Flow of Magic, you can add 6\" to the range of Psychic abilities the bearer has that specify a range (including Rituals) and each time a model in the bearer’s unit takes a Hazardous test for a Psychic weapon, you can re‑roll the result.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Empyric Onslaught",
+          "Description": "While the bearer’s unit is wholly within your army’s Flow of Magic, add 3 to the Attacks characteristic of ranged Psychic weapons equipped by the bearer.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Noctilith Mantle",
+          "Description": "While the bearer’s unit is on the battlefield, it is wholly within your army’s Flow of Magic. Models in that unit cannot be selected to use any Rituals.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -8508,7 +8562,60 @@
         "Disruption"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Lord of Forbidden Lore",
+          "Description": "Each time the bearer manifests a Ritual, while resolving the Ritual, add 6\" to its range.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Umbralefic Crystal",
+          "Description": "(Once per battle, per army) In your Command phase, if this unit is unengaged, you can use this ability. If you do:\n- Place this unit in strategic reserves.\n- This unit has Deep Strike until the start of your next Shooting phase.\n- This unit must make an ingress move in your next Movement phase (including in your first turn).",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Eldritch Vortex of E'taph",
+          "Description": "Add 1 to the Strength and Damage characteristics of Psychic weapons equipped by the bearer.",
+          "Cost": 35,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Incandeum",
+          "Description": "Once per battle, when selecting a Ritual for the bearer to attempt, you can select Doombolt, even if a model from your army has already attempted to manifest that Ritual this phase.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Exalted Sorcerer"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -8522,7 +8629,56 @@
         "Reconnaissance"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Nethershriek Mind-eater",
+          "Description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Battle-shock test; if that test is failed, that unit suffers 3 mortal wounds.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Diabolic Servant",
+          "Description": "While the bearer is within 6\" of one or more friendly **SCINTILLATING LEGION** units, each time the bearer Channels the Warp, add 1 to the Psychic test result.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Duplicitous Malediction",
+          "Description": "After both players have deployed their armies, select up to three **THOUSAND SONS** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserve if you wish, regardless of how many units are already in Strategic Reserves.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tome of True Names",
+          "Description": "Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer has a 2+ invulnerable save.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -8539,7 +8695,61 @@
         "Purge the Foe"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Warpmeld Dagger",
+          "Description": "Each time the bearer attempts a Ritual, just before determining the Psychic test result, the bearer can use this Enhancement. If it does, the bearer suffers D3 mortal wounds; if it is not destroyed as a result, add 1 to that Psychic test result for each of those mortal wounds suffered.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tzaangor Shaman"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Diamond of Distortion",
+          "Description": "While the bearer is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tzaangor Shaman"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Bray Lord",
+          "Description": "The bearer has the Scouts 6\" ability.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Sorcerer",
+            "Infernal Master"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Flowing Flesh",
+          "Description": "The bearer has the Feel No Pain 4+ ability and a Wounds characteristic of 5.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tzaangor Shaman"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -8554,7 +8764,60 @@
         "Priority Assets"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Risen Rubricae",
+          "Description": "At the start of the Declare Battle Formations step, select either two **RUBRICAE BATTLELINE** units from your army or one other **RUBRICAE** unit from your army; models in the selected units have the Infiltrators ability.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Arcane Thralls (Aura)",
+          "Description": "While a friendly **RUBRICAE** unit is within 9\" of the bearer, you can re-roll Battle-shock tests taken for that unit.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Lord of the Rubricae",
+          "Description": "While the bearer is leading a unit, each time a **RUBRICAE** model in that unit makes an attack, add 1 to the Hit roll.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Stave Abominus",
+          "Description": "The bearer's melee weapons have the [Sustained Hits D3] and [Devastating Wounds] abilities.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -8568,7 +8831,60 @@
         "Priority Assets"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Warp Syphon",
+          "Description": "While the bearer is within 6\" of one or more friendly **THOUSAND SONS VEHICLE** units, each time the bearer Channels the Warp, after you roll that additional D6 but before checking for doubles or triples, the bearer can use this Enhancement. If it does, select one of those **VEHICLE** units; that **VEHICLE** unit suffers 1 mortal wound and you can re-roll that additional D6.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Perplexing Cloak",
+          "Description": "While the bearer is within 3\" of one or more friendly **THOUSAND SONS VEHICLE** units, the bearer has the Lone Operative ability.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Biomechanical Mutation",
+          "Description": "In your Command phase, you can select one friendly **THOUSAND SONS VEHICLE** model within 6\" of this model. That model regains up to D3 lost wounds.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Warp-cursed Runemaster",
+          "Description": "While the bearer is within 6\" of one or more friendly **THOUSAND SONS VEHICLE** units, each time the bearer manifests a Ritual, while resolving that Ritual, add 6\" to its range.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -8582,7 +8898,40 @@
         "Take and Hold"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Curse of Life",
+          "Description": "When this model **heals** as a result of the **Sorcerous Invigoration detachment rule**, you can add 3 to the number of wounds **healed**.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons",
+            "Psyker"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Monster"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Eruption of Vitality",
+          "Description": "(Once per battle, per army) When this model is destroyed, at the end of the phase, roll one D6:\n- On a 2+, set up this model on the battlefield, unengaged and as close as possible to where it was destroyed. This model is not part of an attached unit and its unit has a starting strength of 1. This model has 3 wounds remaining.",
+          "Cost": 35,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons",
+            "Psyker"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Monster"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -8596,7 +8945,40 @@
         "Disruption"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Occulus Infernum",
+          "Description": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly **SEKHETAR ROBOTS** unit within 6\" of this unit. That unit’s ranged attacks have +1 **BS** until the start of your next turn.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [
+            "Sorcerer",
+            "Exalted Sorcerer"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Walking Rampart",
+          "Description": "This model has the following abilities:\n- Soul Bound: In your Movement phase, at the start or end of this unit’s move, you can select one friendly **SEKHETAR ROBOTS** unit within 3\" of this model. That **SEKHETAR ROBOTS** unit **heals** D3+1 wounds.\n▪ Kine‑shielded Guardians: While this model is within 3\" of a friendly **SEKHETAR ROBOTS** unit, this model has **Lone Operative**.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons"
+          ],
+          "RequiredOneOfKeywords": [
+            "Sorcerer",
+            "Exalted Sorcerer"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -8613,7 +8995,22 @@
         "Reconnaissance"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Unravelled Fates",
+          "Description": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **battle‑shocked MUTANT** unit within 6\" of this model. That unit is no longer **battle‑shocked**.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Thousand Sons",
+            "Tzaangor Shaman"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],
