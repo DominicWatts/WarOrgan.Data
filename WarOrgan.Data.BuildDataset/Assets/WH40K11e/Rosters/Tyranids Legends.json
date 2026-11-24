@@ -207,7 +207,7 @@
         },
         {
           "Title": "Digestion Spine",
-          "Text": "Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 mortal wounds."
+          "Text": "Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 wounds."
         },
         {
           "Title": "Damaged: 1-5 Wounds Remaining",
@@ -276,7 +276,7 @@
           "Weapons": [
             {
               "Id": "massive scything talons",
-              "DisplayName": "Massive scything talons",
+              "DisplayName": "Massive scything sickle-talons",
               "Keywords": "Twin-linked",
               "Flags": "None",
               "Stats": [
@@ -431,7 +431,7 @@
                 },
                 {
                   "Id": "WS",
-                  "Value": "4"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
