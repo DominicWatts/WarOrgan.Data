@@ -12378,7 +12378,7 @@
       "Enhancements": [
         {
           "Name": "Fire and Fury",
-          "Description": "ADEPTA SORORITAS model only. While the bearer is leading a unit, add 1 to the Attacks characteristic of Torrent weapons equipped by models in that unit, and all other ranged weapons equipped by models that unit have the [SUSTAINED HITS 1] ability.",
+          "Description": "ADEPTA SORORITAS model only. While the bearer is leading a unit, add 1 to the Attacks characteristic of Torrent weapons equipped by models in that unit, and all other ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12403,7 +12403,7 @@
         },
         {
           "Name": "Manual of Saint Griselda",
-          "Description": "ADEPTA SORORITAS model only. At the start of your Command phase, you can discard up to 2 Miracle dice. Then, add 1 Miracle dice to your Miracle Dice pool showing a value equal to the sum of the two Miracle dice you discarded (to a maximum of 6).",
+          "Description": "ADEPTA SORORITAS model only. At the start of your Command phase, you can discard up to 2 Miracle dice. Then, add 1 Miracle dice to your Miracle Dice pool showing a value equal to the sum of the two Miracle dice you just discarded (to a maximum of 6).",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12496,7 +12496,7 @@
       "Enhancements": [
         {
           "Name": "Blade of Saint Ellynor",
-          "Description": "ADEPTA SORORITAS model only. Improve the Strength and Armour Penetration characteristics of the bearer's melee weapons by 1, and those weapons have the [Precision] ability. In addition, each time the bearer fights, if one or more enemy models is destroyed by those attacks, you gain 1 Miracle dice.",
+          "Description": "ADEPTA SORORITAS model only. Improve the Strength and Armour Penetration characteristics of the bearer's melee weapons by 1, and those weapons have the [Precision] ability. In addition, each time the bearer fights, if one or more enemy models are destroyed by those attacks, you gain 1 Miracle dice.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12507,7 +12507,7 @@
         },
         {
           "Name": "Divine Aspect",
-          "Description": "ADEPTA SORORITAS model only. In your Movement phase, you can select one enemy unit within 12\" of that bearer; that unit must take a Battle-shock test. If that test is failed, you gain 1 Miracle dice.",
+          "Description": "ADEPTA SORORITAS model only. In your Movement phase, you can select one enemy unit within 12\" of the bearer; that unit must take a Battle-shock test. If that test is failed, you gain 1 Miracle dice.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
