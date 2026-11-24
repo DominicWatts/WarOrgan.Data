@@ -81,8 +81,8 @@ BSData offers drones that Wahapedia does not allow, for example guardian drones 
 Only the owner can run these, in the WarOrgan app, using the development build URL. Record results here.
 
 - [ ] Shield drones: a Cadre Fireblade with one shield drone gains 1 W, with two gains 2 W (1.5.4). Reopen issue 4 if two do not stack.
-- [ ] Chapters (1.5.7): Ultramarines groups Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets, not "Allies: Adeptus Astartes" (issue 6).
-- [ ] Draft factions (1.5.x): Space Marines plus one chapter, to confirm the chapter also lists the Space Marines datasheets; a Battle Sisters Squad and a Crusader Squad for their composition and wargear.
+- [x] Chapters (1.5.7): Ultramarines groups Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets, not "Allies: Adeptus Astartes" (issue 6). Passed.
+- [ ] Draft factions (1.5.3): a Battle Sisters Squad and a Crusader Squad for their composition and wargear.
 - [ ] Brood Brother Auxilia still offers exactly the 51 eligible Astra Militarum datasheets after the 1.5.2 fill.
 - [ ] Command Squads (1.4.3): Cadian, Catachan and Krieg Command Squads appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord; their specialists, equipment and weapon swaps are right; each can lead its listed unit and shows Orders.
 - [ ] Leader effects: Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and a Support character can join alongside a Leader.
