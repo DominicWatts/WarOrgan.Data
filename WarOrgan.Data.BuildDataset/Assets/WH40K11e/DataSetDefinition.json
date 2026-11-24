@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Grey Knights",
+      "FactionKeyword": "Grey Knights",
+      "Category": "Imperium",
+      "MainColor": "#5E6A78",
+      "DarkColor": "#A3B0BE"
     }
   ],
   "CoreAbilities": [
