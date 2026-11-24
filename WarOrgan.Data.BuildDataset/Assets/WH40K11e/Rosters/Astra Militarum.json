@@ -22825,7 +22825,6 @@
         "Aircraft",
         "Imperium",
         "Avenger Strike Fighter",
-        "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
@@ -22840,7 +22839,7 @@
           "Stats": [
             {
               "Id": "M",
-              "Value": "-"
+              "Value": "20+\""
             },
             {
               "Id": "T",
@@ -22860,7 +22859,7 @@
             },
             {
               "Id": "OC",
-              "Value": "-"
+              "Value": "0"
             },
             {
               "Id": "Base",
@@ -25472,7 +25471,9 @@
             },
             "ModelName": "Tempestor Prime",
             "StatlineRef": "Tempestor Prime",
-            "Keywords": [],
+            "Keywords": [
+              "Officer"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -25669,8 +25670,7 @@
         "Imperium",
         "Infantry",
         "Character",
-        "Grenades",
-        "Command Squad"
+        "Grenades"
       ],
       "CoreAbilities": [
         "Deep Strike",
@@ -29982,7 +29982,7 @@
         },
         {
           "Name": "Reactive Command",
-          "Description": "OFFICER model only. Each time an enemy unit is set up within 8\" of the bearer's unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue each battle round.",
+          "Description": "OFFICER model only. Each time an enemy unit is set up within 8\" of the bearer’s unit, the bearer can issue one Order. This is not counted towards the number of Orders the bearer can issue in a battle round.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30301,7 +30301,7 @@
         },
         {
           "Name": "Vanguard Honours",
-          "Description": "INFANTRY OFFICER model only. The bearer's unit can disembark from a TRANSPORT after it has Advanced. If it does, it counts as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.",
+          "Description": "INFANTRY OFFICER model only. The bearer’s unit can disembark from a TRANSPORT after it has Advanced. If it does, it makes a shock disembark move (Core Rules, 18.07) for that disembarkation.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30811,7 +30811,7 @@
         },
         {
           "Name": "Assault Hatches",
-          "Description": "ASTRA MILITARUM TITANIC CHARACTER TRANSPORT model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+          "Description": "ASTRA MILITARUM TITANIC CHARACTER TRANSPORT model only. Each time a unit disembarks from the bearer after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
