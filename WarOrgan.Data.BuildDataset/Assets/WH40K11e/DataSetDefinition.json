@@ -131,6 +131,19 @@
           "IsIncludedInPrimaryRoster": true
         }
       ]
+    },
+    {
+      "Name": "Blood Angels",
+      "FactionKeyword": "Blood Angels",
+      "Category": "Imperium",
+      "MainColor": "#9B1B1B",
+      "DarkColor": "#D45555",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
