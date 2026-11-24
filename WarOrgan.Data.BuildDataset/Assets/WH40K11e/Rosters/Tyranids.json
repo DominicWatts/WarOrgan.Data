@@ -4195,7 +4195,7 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise",
+        "Deadly Demise 2D6",
         "Hover"
       ],
       "FactionKeywords": [
@@ -4609,7 +4609,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise"
+        "Deadly Demise 2D6"
       ],
       "FactionKeywords": [
         "Tyranids"
@@ -6574,7 +6574,8 @@
                   "Id": "D",
                   "Value": "D6+1"
                 }
-              ]
+              ],
+              "Keywords": "Harpooned"
             }
           ]
         },
