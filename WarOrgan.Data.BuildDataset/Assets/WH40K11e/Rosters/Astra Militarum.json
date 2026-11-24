@@ -23428,6 +23428,10 @@
         {
           "Title": "Political Overwatch",
           "Text": "While another OFFICER model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue 1 Order to a REGIMENT unit. This OFFICER can only issue the Duty and Honour! and Fix Bayonets! Orders."
         }
       ],
       "LeaderInfo": {
@@ -23724,6 +23728,10 @@
         {
           "Title": "Aquiline Prow",
           "Text": "Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue 1 Order to REGIMENT or SQUADRON units. This OFFICER can only issue the Move! Move! Move!, Duty and Honour! and Fix Bayonets! Orders."
         }
       ],
       "Infos": [],
@@ -24008,6 +24016,10 @@
         {
           "Title": "Using Commissar Graves",
           "Text": "Your army can only include one COMMISSAR GRAVES or COMMISSAR GRAVES ON FOOT unit."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue 1 Order to REGIMENT units. This OFFICER can only issue the Move! Move! Move!, Duty and Honour! and Fix Bayonets! Orders."
         }
       ],
       "LeaderInfo": {
@@ -24026,10 +24038,10 @@
       "Keywords": [
         "Imperium",
         "Epic Hero",
-        "Commissar Graves",
         "Character",
         "Infantry",
-        "Officer"
+        "Officer",
+        "Commissar Graves on Foot"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -24205,6 +24217,10 @@
         {
           "Title": "Hero of Hades Hive",
           "Text": "In your Command phase, you can select one of the abilities in the Hero of Hades Hive section. Until the start of your next Command phase, this model has that ability."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 2 Orders to REGIMENT, SQUADRON or TITANIC units."
         }
       ],
       "LeaderInfo": {
@@ -27465,6 +27481,10 @@
         {
           "Title": "One-man Army",
           "Text": "Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly REGIMENT unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+        },
+        {
+          "Title": "Loner",
+          "Text": "This model cannot be selected as your WARLORD."
         }
       ],
       "Infos": [],
@@ -28007,10 +28027,6 @@
         {
           "Title": "Servo-sentry",
           "Text": "When this unit is set up on the battlefield using the Deep Strike ability, the Tempestor Aquilon can shoot with its sentry weapon (its sentry flamer, sentry grenade launcher or sentry hot-shot volley gun)."
-        },
-        {
-          "Title": "Signal Flares",
-          "Text": "In your Shooting phase, this unit can select one visible enemy unit within 12\". That enemy unit is designated:\n▪ While a unit is designated, that unit has +3\" detection range."
         }
       ],
       "Infos": [],
@@ -28169,7 +28185,7 @@
             },
             {
               "Id": "hot-shot long las",
-              "DisplayName": "Hot-shot long las",
+              "DisplayName": "Hot-shot long-las",
               "Keywords": "Heavy, Precision",
               "Flags": "None",
               "Stats": [
