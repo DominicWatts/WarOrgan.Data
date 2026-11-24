@@ -30064,7 +30064,7 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Priority-drop Beacon",
+          "Name": "Priority drop Beacon",
           "Description": "MILITARUM TEMPESTUS OFFICER model only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 25,
           "Features": "None",
@@ -30525,7 +30525,61 @@
           "Effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Guerrilla Honours",
+          "Description": "INFANTRY OFFICER model only. After both players have deployed their armies, if the bearer is on the battlefield, select up to three other ASTRA MILITARUM INFANTRY units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry",
+            "Officer"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Scare Gas Grenades",
+          "Description": "ASTRA MILITARUM INFANTRY model only. Once per battle, at the start of any phase, the bearer can use this Enhancement. If it does, select one enemy unit within 8\" of the bearer’s unit (excluding MONSTER and VEHICLE units); that unit must take a Battle-shock test.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Survival Gear",
+          "Description": "ASTRA MILITARUM INFANTRY model only. The bearer has the Scouts 6\" ability.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tripwires",
+          "Description": "ASTRA MILITARUM INFANTRY model only. Each time an enemy INFANTRY or MOUNTED unit ends a Normal, Advance, Charge or Fall Back move within 8\" of the bearer’s unit, roll one D6: on a 4+, until the start of your next turn, that enemy unit is stunned. While a unit is stunned, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -30957,7 +31011,7 @@
       ],
       "Enhancements": [
         {
-          "Name": "Sharp Eyes, Light Fingers",
+          "Name": "Sharp Eyes",
           "Description": "RATLINGS unit only. When this unit is selected to shoot, enemy units have +6\" detection range until this unit has shot.",
           "Cost": 10,
           "Features": "None",
@@ -30971,7 +31025,7 @@
         },
         {
           "Name": "Exemplar of Duty",
-          "Description": "COMMISSAR model only. This model has Feel No Pain 4+.",
+          "Description": "LEADER: BULLGRYN SQUAD, OGRYN SQUAD COMMISSAR model only. This model has Feel No Pain 4+.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
