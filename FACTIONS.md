@@ -18,7 +18,7 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Faction | Branch | Scope | 1 BSData | 2 Wahapedia | 3 Codex 10e | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
-| Tyranids | `faction/tyranids` | Full (Wahapedia checked) | done | done | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
+| Tyranids | `faction/tyranids` | Full (WarOrgan passed) | done | done | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | 51/51 added | text only |
 | Astra Militarum | `faction/astra-militarum` | Full (WarOrgan sign-off pending) | done | partial (allies checked) | - | - | 72 + 63 Legends | 11 | 34 | 57/57 added | text only |
 | Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 38 | 8 | 24 | 36 added (7/8) | text only |
 | Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | 23/23 added | text only |
@@ -64,6 +64,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 
 ## Tyranids
 
+- 2026-11-24 (1.5.10): standalone roster and Legends app checks passed.
 - Allied datasheets for Final Day only: all 14 Vanguard Invader units. On 2026-11-23 they matched the November BSData dump on points, stats and weapons. BSData spells it distendible jaw; Wahapedia has distensible jaw. The Wahapedia check matched 13 of 14; Wahapedia omits the HYPERADAPTED RAVENERS keyword.
 - 2026-11-24 (1.5.2): filled to a full faction from BSData: 38 more datasheets, 5 Legends, 10 detachments, 34 enhancements and the Synapse and Shadow in the Warp army rules. The 14 allied datasheets were kept unchanged. Carnifex and Mucolid Spores points came from Wahapedia (BSData sets them by condition). Spawned units (Spore Mines and Mucolid Spores from other units, Parasite of Mortrex rippers) were left out. Final Day still offers only the 14 Vanguard Invaders: the four new Vanguard Invader units are Aircraft, Broodlord or Genestealers.
 
