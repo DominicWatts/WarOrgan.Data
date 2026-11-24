@@ -97,6 +97,13 @@
       "Category": "Imperium",
       "MainColor": "#8E2A1E",
       "DarkColor": "#C8644F"
+    },
+    {
+      "Name": "Agents of the Imperium",
+      "FactionKeyword": "Agents of the Imperium",
+      "Category": "Imperium",
+      "MainColor": "#4A4A52",
+      "DarkColor": "#9696A2"
     }
   ],
   "CoreAbilities": [
