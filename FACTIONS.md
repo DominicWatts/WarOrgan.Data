@@ -70,7 +70,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 
 ## Astra Militarum
 
-- 2026-11-24 (1.5.10): added Hell’s Last and Vendetta Gunship and reviewed main and Legends wargear. WarOrgan sign-off is pending for the Grenadier Squad, the Tempestus loadouts, the Ratlings options and the 51-unit ally list.
+- 2026-11-24 (1.5.10): added Hell’s Last and Vendetta Gunship and reviewed main and Legends wargear. Ratling Battlemutt and Demolition Gear passed their WarOrgan checks. Sign-off is still pending for the Grenadier Squad, the Tempestus loadouts and the 51-unit ally list.
 
 - Allied datasheets for Brood Brother Auxilia only. Cadian Shock Troops pilot matched the November BSData dump on 2026-11-23.
 - 2026-11-23 trial: the BSData importer drafted 52 units; the Wahapedia check matched 16 with no differences and listed 93 notes for the rest, including Orders missing from six officers.
@@ -80,6 +80,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 
 - 2026-11-24 (1.5.2): filled to a full faction from BSData: 21 more datasheets, 61 Legends, 11 detachments, 34 enhancements and the Voice of Command army rule. The 51 allied datasheets were kept unchanged. Hippogriff AFV and Legends weapon battery points came from Wahapedia. Hell's Last (Legends) is left out: Wahapedia has no 11th Edition datasheet for it. Brood Brother Auxilia now lists the 51 eligible datasheets by ID, so the new units (including Ratlings, the Valkyrie and the Legends units, which the keyword filter missed) are not offered to Genestealer Cults.
 - 2026-11-24 (1.5.11, issue 8): two Leaders for Cadian Shock Troops, Catachan Jungle Fighters, Death Korps of Krieg and Tempestus Scions (at most one Command Squad); Wahapedia wargear costs on every Leman Russ (+5 per lascannon, including the hull lascannon, multi-melta and plasma cannon; +15 demolisher battle cannon on the Commander); Recon Squads can take two long-las (the datasheet makes the second an alternative to the missile team, which WarOrgan cannot express); Bullgryn wargear swaps cover all six models; Ogryn Bodyguard and Nork Deddog join a Command Squad as Bodyguard-type leaders. Orders text for the Commissars, Dreir, Leontus, Creed and the Tempestus Command Squad was already added in 1.5.10.
+- 2026-11-24: WarOrgan checks passed for Leman Russ lascannon and multi-melta costs and all six Bullgryn wargear swaps. The Commander's demolisher cost and the other issue 8 cases remain unconfirmed.
 ## BSData drafts
 
 - 2026-11-24 (1.5.0): 31 factions drafted with `WarOrgan.Data.BsdataImport` from the pinned dump and merged unchecked. Chapters are their own factions with the Space Marines roster included (`IsIncludedInPrimaryRoster`); each chapter roster also repeats the generic Space Marine detachments, because BSData lists them for every chapter.
