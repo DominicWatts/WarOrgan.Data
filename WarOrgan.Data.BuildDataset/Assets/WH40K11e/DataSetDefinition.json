@@ -338,6 +338,13 @@
       "Category": "Xenos",
       "MainColor": "#1E6B2A",
       "DarkColor": "#5EC06E"
+    },
+    {
+      "Name": "Orks",
+      "FactionKeyword": "Orks",
+      "Category": "Xenos",
+      "MainColor": "#3F6B1E",
+      "DarkColor": "#7FAF5E"
     }
   ],
   "CoreAbilities": [
