@@ -9306,7 +9306,10 @@
             },
             "ModelName": "Saint Celestine",
             "StatlineRef": "Saint Celestine",
-            "Keywords": [],
+            "Keywords": [
+              "Character",
+              "Saint Celestine"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -9369,8 +9372,7 @@
         "Grenades",
         "Imperium",
         "Epic Hero",
-        "Jump Pack",
-        "Other Datasheets"
+        "Jump Pack"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
