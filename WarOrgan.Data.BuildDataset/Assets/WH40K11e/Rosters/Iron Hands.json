@@ -454,7 +454,62 @@
         "Priority Assets",
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "ARMOUR OF CONTEMPT",
+          "Category": "Gladius Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "Name": "A WORTHY DEATH",
+          "Category": "Gladius Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6: On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "Name": "MIGHT OF ANGELS",
+          "Category": "Gladius Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Your unit’s melee attacks have [Lance]."
+        },
+        {
+          "Name": "ADAPTIVE STRATEGY",
+          "Category": "Gladius Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly ADEPTUS ASTARTES unit.",
+          "Effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
+        },
+        {
+          "Name": "STORM OF DEVASTATION",
+          "Category": "Gladius Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Your unit’s ranged attacks have [IGNORES COVER]."
+        },
+        {
+          "Name": "RESPONSIVE TACTICS",
+          "Category": "Gladius Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "Target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "Effect": "Your unit can make a normal move of up to D6\"."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Artificer Armour",
@@ -518,7 +573,35 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "LAYERED CERAMITE",
+          "Category": "Ironstorm Spearhead Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly ADEPTUS ASTARTES VEHICLE unit suffers a mortal wound.",
+          "Target": "That ADEPTUS ASTARTES VEHICLE unit.",
+          "Effect": "Your unit has Feel No Pain 5+ against mortal wounds."
+        },
+        {
+          "Name": "MIGHT OF THE MACHINE SPIRIT",
+          "Category": "Ironstorm Spearhead Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly ADEPTUS ASTARTES VEHICLE unit (excluding DEDICATED TRANSPORT/FLY/WALKER units).",
+          "Effect": "Until the start of your next Command phase, your unit can ignore modifiers to your unit’s: M. BS. Hit rolls and wound rolls."
+        },
+        {
+          "Name": "HEADHUNTER DOCTRINE",
+          "Category": "Ironstorm Spearhead Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly ADEPTUS ASTARTES VEHICLE unit (excluding DEDICATED TRANSPORT/FLY/WALKER units) is selected to shoot.",
+          "Target": "That ADEPTUS ASTARTES VEHICLE unit.",
+          "Effect": "Your unit’s ranged attacks have [Lethal Hits: Monster/Vehicle]."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Gunnery Honours (Upgrade)",
@@ -567,7 +650,35 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "WIND-SWIFT EVASION",
+          "Category": "Stormlance Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of the Fight phase.",
+          "Target": "One friendly ADEPTUS ASTARTES MOUNTED unit that was eligible to fight this phase.",
+          "Effect": "If your unit is unengaged, your unit can make a normal move. Or: If your unit is engaged, your unit can make a fall-back move."
+        },
+        {
+          "Name": "SUDDEN ONSLAUGHT",
+          "Category": "Stormlance Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly ADEPTUS ASTARTES MOUNTED/SPEEDER unit is selected to make an advance move.",
+          "Target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
+          "Effect": "Your unit can change its advance rolls to a 6."
+        },
+        {
+          "Name": "HURTLING TARGETS",
+          "Category": "Stormlance Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
+          "Target": "That ADEPTUS ASTARTES MOUNTED/SPEEDER unit.",
+          "Effect": "Ranged attacks that target your unit have -1 to hit rolls."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Supercharged Engines (Upgrade)",
@@ -611,7 +722,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "ARMOUR OF CONTEMPT",
+          "Category": "Assault Brethren Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "Name": "GENE-WROUGHT MIGHT",
+          "Category": "Assault Brethren Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Your unit’s melee attacks have: [Lance]. Or: If the assault doctrine is active for your unit, [Lance] and +1 AP."
+        },
+        {
+          "Name": "DUTY IN DEATH",
+          "Category": "Assault Brethren Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if the assault doctrine is active for your unit: On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Imperium's Sword",
@@ -655,7 +794,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "ARMOUR OF CONTEMPT",
+          "Category": "Tactical Brethren Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "Name": "DOMINATION FIRE",
+          "Category": "Tactical Brethren Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit has shot.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next turn: While a unit is suppressed, that unit’s attacks have -1 to hit rolls."
+        },
+        {
+          "Name": "MASTERFUL TACTICS",
+          "Category": "Tactical Brethren Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "Target": "That ADEPTUS ASTARTES INFANTRY/MOUNTED unit.",
+          "Effect": "Your unit can make a normal move of: Up to D6\". Or: If the tactical doctrine is active for your unit, up to 6\"."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Laurels of Vigilance",
@@ -697,7 +864,35 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "ARMOUR OF CONTEMPT",
+          "Category": "Devastator Brethren Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES unit.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "Name": "STORM OF FIRE",
+          "Category": "Devastator Brethren Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly ADEPTUS ASTARTES unit is selected to shoot.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Your unit’s ranged attacks have: [Ignores Cover]. Or: If the devastator doctrine is active for your unit, [Ignores Cover] and +1 AP."
+        },
+        {
+          "Name": "HAIL OF VENGEANCE",
+          "Category": "Devastator Brethren Stratagem",
+          "CPCost": 2,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit has shot, if those attacks destroyed a model in a friendly ADEPTUS ASTARTES unit.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Honour of Vigilance",
@@ -740,7 +935,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "TACTICAL DREADNOUGHT FORTITUDE",
+          "Category": "Terminator Storm Force Stratagem",
+          "CPCost": 2,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS ASTARTES TERMINATOR unit.",
+          "Target": "That ADEPTUS ASTARTES TERMINATOR unit.",
+          "Effect": "Attacks that target your unit have -1 D until that enemy unit has attacked."
+        },
+        {
+          "Name": "MERCILESS VETERANS",
+          "Category": "Terminator Storm Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly ADEPTUS ASTARTES TERMINATOR unit is selected to shoot.",
+          "Target": "That ADEPTUS ASTARTES TERMINATOR unit.",
+          "Effect": "Your unit’s ranged attacks have: [Lethal Hits]. [Sustained Hits 1]."
+        },
+        {
+          "Name": "GUNSHIP EXTRACTION",
+          "Category": "Terminator Storm Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One friendly unengaged ADEPTUS ASTARTES TERMINATOR unit.",
+          "Effect": "Place your unit in strategic reserves."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Champion of the First Company",
@@ -784,7 +1007,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "RELENTLESS ASSAULT",
+          "Category": "Tacticus Attack Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase or the Fight phase, when a friendly TACTICUS unit is selected to attack.",
+          "Target": "That TACTICUS unit.",
+          "Effect": "Your unit’s attacks have: [Sustained Hits 1: non-Monster/Vehicle]. Or: [Lethal Hits: Monster/Vehicle]."
+        },
+        {
+          "Name": "TRANSHUMAN SWIFTNESS",
+          "Category": "Tacticus Attack Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit has fought.",
+          "Target": "One friendly TACTICUS unit that is within range of an objective and is eligible to fight.",
+          "Effect": "Your unit has Fights First and must be the next unit you select to fight."
+        },
+        {
+          "Name": "TACTICAL FOCUS",
+          "Category": "Tacticus Attack Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly TACTICUS unit is selected to make a consolidation move.",
+          "Target": "That TACTICUS unit.",
+          "Effect": "When making that consolidation move, your unit can move up to D3+3\"."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Martial Paragon",
@@ -828,7 +1079,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "FOR THE EMPEROR!",
+          "Category": "Tacticus Firestorm Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Command phase.",
+          "Target": "One friendly TACTICUS unit that is within range of an objective.",
+          "Effect": "Your unit has +1 OC until the end of the turn."
+        },
+        {
+          "Name": "RELENTLESS ASSAULT",
+          "Category": "Tacticus Firestorm Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase or the Fight phase, when a friendly TACTICUS unit is selected to attack.",
+          "Target": "That TACTICUS unit.",
+          "Effect": "Your unit’s attacks have: [Sustained Hits 1: non-Monster/Vehicle]. Or: [Lethal Hits: Monster/Vehicle]."
+        },
+        {
+          "Name": "POINT-BLANK BRUTALITY",
+          "Category": "Tacticus Firestorm Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly engaged TACTICUS unit is selected to shoot.",
+          "Target": "That TACTICUS unit.",
+          "Effect": "Your unit’s ranged attacks (excluding [Blast] attacks) have: [Close-Quarters]. [Ignores Cover]."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Cyber Familiar",
@@ -872,7 +1151,35 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "STRIKE FROM THE SHADOWS",
+          "Category": "Phobos Shadow Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase or the Fight phase, when a friendly hidden PHOBOS unit is selected to attack.",
+          "Target": "That PHOBOS unit.",
+          "Effect": "Your unit’s attacks have: +1 S. [Lethal Hits]."
+        },
+        {
+          "Name": "MORTIS SNARES",
+          "Category": "Phobos Shadow Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "End of your Movement phase.",
+          "Target": "One friendly unengaged PHOBOS/SCOUT SQUAD unit.",
+          "Effect": "If your unit is controlling an objective, that objective is snared. While an objective is snared, when an enemy unit ends a move within range of that objective, roll one D6: On a 2+, that enemy unit suffers D6 mortal wounds. That objective is no longer snared."
+        },
+        {
+          "Name": "TACTICAL WITHDRAWAL",
+          "Category": "Phobos Shadow Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One friendly unengaged PHOBOS/SCOUT SQUAD unit.",
+          "Effect": "Place your unit in strategic reserves."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Execute and Redeploy",
@@ -916,7 +1223,35 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "STRIKE FROM THE SHADOWS",
+          "Category": "Phobos Shock Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase or the Fight phase, when a friendly hidden PHOBOS unit is selected to attack.",
+          "Target": "That PHOBOS unit.",
+          "Effect": "Your unit’s attacks have: +1 S. [Lethal Hits]."
+        },
+        {
+          "Name": "TRANSHUMAN REACTIONS",
+          "Category": "Phobos Shock Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged PHOBOS unit.",
+          "Target": "That PHOBOS unit.",
+          "Effect": "Your unit can make a normal move of: Up to D6\". Or: If the tactical doctrine is active for your unit, up to 6\"."
+        },
+        {
+          "Name": "UMBRAL EVASION",
+          "Category": "Phobos Shock Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly PHOBOS unit.",
+          "Target": "That PHOBOS unit.",
+          "Effect": "Ranged attacks that target your unit have -1 to hit rolls."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Seal of Shrouding",
@@ -960,7 +1295,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "ANNIHILATING FORCE",
+          "Category": "Gravis Linebreaker Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase or the Fight phase, when a friendly GRAVIS unit is selected to attack.",
+          "Target": "That GRAVIS unit.",
+          "Effect": "Your unit’s attacks have [Lethal Hits]."
+        },
+        {
+          "Name": "PURGATION PUSH",
+          "Category": "Gravis Linebreaker Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly GRAVIS unit has shot.",
+          "Target": "That GRAVIS unit.",
+          "Effect": "If your unit is unengaged, your unit can make a normal move of up to 5\", and must end that move within range of an objective. Your unit is not eligible to declare a charge or embark within a TRANSPORT until the end of the turn."
+        },
+        {
+          "Name": "ARMOURED IMPACT",
+          "Category": "Gravis Linebreaker Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Charge phase, when a friendly GRAVIS unit ends a charge move.",
+          "Target": "That GRAVIS unit.",
+          "Effect": "When your unit ends a charge move, you can select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit engaged with that enemy unit: For each 3+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Indefatigable Fortitude",
@@ -1004,7 +1367,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "ANNIHILATING FORCE",
+          "Category": "Gravis Siege Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase or the Fight phase, when a friendly GRAVIS unit is selected to attack.",
+          "Target": "That GRAVIS unit.",
+          "Effect": "Your unit’s attacks have [Lethal Hits]."
+        },
+        {
+          "Name": "STAND UNYIELDING",
+          "Category": "Gravis Siege Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "End of your Movement phase.",
+          "Target": "One friendly GRAVIS unit.",
+          "Effect": "Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "Name": "SUPPRESSION VOLLEYS",
+          "Category": "Gravis Siege Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly GRAVIS unit has shot.",
+          "Target": "That GRAVIS unit.",
+          "Effect": "Select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Immovable Conquerors (Upgrade)",
@@ -1045,7 +1436,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "ADAMANTINE TERROR",
+          "Category": "Ironclad Champions Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Start of the Fight phase.",
+          "Target": "One friendly DREADNOUGHT unit.",
+          "Effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        },
+        {
+          "Name": "MERCY IS WEAKNESS",
+          "Category": "Ironclad Champions Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase or the Fight phase, when a friendly DREADNOUGHT unit is selected to attack.",
+          "Target": "That DREADNOUGHT unit.",
+          "Effect": "Your unit’s attacks have: [lethal hits]. Or: [Sustained Hits 1]."
+        },
+        {
+          "Name": "UPSTOPPABLE ADVANCE",
+          "Category": "Ironclad Champions Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Movement/Charge phase, when a friendly DREADNOUGHT unit is selected to move or declares a charge.",
+          "Target": "That DREADNOUGHT unit.",
+          "Effect": "Your unit has MOBILE."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Artificer Sarcophagus (Upgrade)",
@@ -1086,7 +1505,35 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "AGGRESSIVE DISEMBARKATION",
+          "Category": "Gauntlet Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly ADEPTUS ASTARTES unit embarked within a TRANSPORT is selected to move.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "While making that move, each model in your unit can be set up within the set-up distance of that TRANSPORT. This allows you to set up your unit within the set-up distance of your TRANSPORT, instead of wholly within that distance."
+        },
+        {
+          "Name": "DUTY IS NEVER DONE",
+          "Category": "Gauntlet Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of the Fight phase.",
+          "Target": "One friendly unengaged ADEPTUS ASTARTES INFANTRY unit that was eligible to fight this phase, is wholly within 6\" of a friendly TRANSPORT unit, and is eligible to embark within that TRANSPORT unit.",
+          "Effect": "Your unit embarks within that TRANSPORT unit."
+        },
+        {
+          "Name": "STORM AND SECURE",
+          "Category": "Gauntlet Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "End of your Movement phase.",
+          "Target": "One friendly ADEPTUS ASTARTES TRANSPORT unit that has an ADEPTUS ASTARTES BATTLELINE unit embarked within it.",
+          "Effect": "Select one objective your unit is controlling. That objective is secured."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Linebreaker Onslaught",
@@ -1193,7 +1640,44 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "KRAKEN ROUNDS",
+          "Category": "Deathwatch Support Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
+          "Target": "That KILL TEAM unit.",
+          "Effect": "Your unit’s ranged attacks have: Have +6\" R. Have +1 S."
+        },
+        {
+          "Name": "DRAGONFIRE ROUNDS",
+          "Category": "Deathwatch Support Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
+          "Target": "That KILL TEAM unit.",
+          "Effect": "Your unit’s ranged attacks: Can re-roll wound rolls of 1. Have [IGNORES COVER]."
+        },
+        {
+          "Name": "HELLFIRE ROUNDS",
+          "Category": "Deathwatch Support Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase when a KILL TEAM unit is selected to shoot.",
+          "Target": "That KILL TEAM unit.",
+          "Effect": "Your unit’s ranged attacks (excluding [DEVASTATING WOUNDS] attacks) have [ANTI-non-VEHICLE 4+]."
+        },
+        {
+          "Name": "BLACKSTAR EXTRACTION",
+          "Category": "Deathwatch Support Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One friendly unengaged KILL TEAM unit.",
+          "Effect": "Place your unit in strategic reserves."
+        }
+      ],
       "Enhancements": [],
       "Effects": []
     }
