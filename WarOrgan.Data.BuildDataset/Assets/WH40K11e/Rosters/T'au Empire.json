@@ -1411,14 +1411,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -1460,10 +1452,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "LeaderInfo": {
@@ -2013,14 +2001,6 @@
             ]
           },
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -2106,10 +2086,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "LeaderInfo": {
@@ -2651,14 +2627,6 @@
             ]
           },
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -2724,10 +2692,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "LeaderInfo": {
@@ -3548,14 +3512,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -3594,10 +3550,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -3936,14 +3888,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -3982,10 +3926,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -4299,14 +4239,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -4345,10 +4277,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -5088,14 +5016,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "hover drone",
             "DisplayName": "Hover Drone",
             "Cost": 0,
@@ -5153,10 +5073,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "LeaderInfo": {
@@ -9268,14 +9184,6 @@
             ]
           },
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "marker drone",
             "DisplayName": "Marker Drone",
             "Cost": 0,
@@ -9333,10 +9241,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
@@ -11249,14 +11153,6 @@
         ],
         "WargearDefinitions": [
           {
-            "Key": "guardian drone",
-            "DisplayName": "Guardian Drone",
-            "Cost": 0,
-            "GrantsAbilities": [
-              "Guardian Drone"
-            ]
-          },
-          {
             "Key": "homing beacon",
             "DisplayName": "Homing beacon",
             "Cost": 0,
@@ -11302,10 +11198,6 @@
         {
           "Title": "Shield Drone",
           "Text": "Add 1 to the bearer’s Wounds characteristic."
-        },
-        {
-          "Title": "Guardian Drone",
-          "Text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
         }
       ],
       "Infos": [],
