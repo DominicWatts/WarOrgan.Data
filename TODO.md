@@ -2,6 +2,31 @@
 
 Outstanding work for the `DominicWatts-WH40K11e` dataset. Tick items off in the same commit as the change.
 
+## 1.4.6.0 app test
+
+- [x] Confirm each Heavy Weapons Squad and Field Ordnance Battery model offers one mutually exclusive weapon swap.
+- [x] Confirm Krieg Heavy Weapons Squads start with lascannons and can replace them with heavy flamers or twin heavy stubbers.
+
+## 1.4.5.0 app test
+
+- [x] Confirm all 51 eligible Astra Militarum datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
+- [x] Check Characters, Battleline, Dedicated Transports and Other Datasheets are grouped correctly within the Astra Militarum roster.
+- [x] Spot-check vehicle wargear and points, including Chimera, Sentinels, Leman Russ variants, Rogal Dorn variants and a super-heavy tank.
+- [x] Confirm the Aegis Defence Line and Cyclops Demolition Vehicle load without weapon-selection errors.
+
+## 1.4.3.0 app test
+
+- [ ] Confirm the Cadian, Catachan and Krieg Command Squads appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
+- [ ] Check each command squad's fixed specialists, starting equipment and weapon replacements, including master vox, medi-pack, standards, servo-scribes and alchemyk counteragents.
+- [ ] Confirm each command squad can lead its listed unit and its Orders ability is visible.
+- [ ] Confirm Crossfire, Priority Target and Supreme Commander show plain uppercase keywords without BSData `**^^...^^**` markup.
+
+## 1.4.2.0 app test
+
+- [x] Confirm the 15 Astra Militarum infantry and mounted datasheets appear only with Brood Brother Auxilia, under Allied Units, and cannot be Warlord.
+- [x] Check the Cadian Castellan can lead Cadian Shock Troops and Kasrkin, and that Senior Officer grants Sustained Hits 1 to their ranged weapons.
+- [x] Check Attilan Rough Rider, Cadian Recon Squad and Krieg Combat Engineer wargear limits and the duplicate-unit points for Rough Riders, Kasrkin and Engineers.
+
 ## 1.1.2.0 release
 
 - [x] Rebuild Neophyte Hybrids unit size and wargear limits
@@ -44,7 +69,7 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 ## Genestealer Cults rules content
 
 - [x] Army rule (Cult Ambush)
-- [ ] Nine detachments and their Force Dispositions (eight done; Brood Brother Auxilia waits on Astra Militarum allies)
+- [x] Nine detachments and their Force Dispositions (all nine, 1.4.0)
 - [x] Core stratagems (Command Re-roll, Fire Overwatch and so on) in `DataSetDefinition.json` (1.3.9)
 - [ ] Unit limits per battle size, once the app's handling of the Battleline and Dedicated Transport doubling is known
 - [ ] Enhancements
@@ -52,7 +77,8 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [x] Enable the matching dataset `Features` and battle-size limits
 - [x] Tyranid allies for Final Day: all 14 Vanguard Invader datasheets added (1.3.0 to 1.3.3)
 - [x] Show invulnerable save values on GSC units (1.3.4)
-- [ ] Brood Brothers (Astra Militarum) allies for Brood Brother Auxilia
+- [x] Astra Militarum allies for Brood Brother Auxilia: all 51 eligible current datasheets completed in 1.4.5 (Legends and AIRCRAFT skipped)
+- [x] 1.4.0: confirmed Cadian Shock Troops only appear with Brood Brother Auxilia, sit under Allied Units, cannot be Warlord, count toward the 50% cap, and that their weapon options work.
 - [x] Add the Allied Units category with the first allied roster
 
 ## Blocked or needs app confirmation
@@ -66,18 +92,21 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 - [ ] 1.3.5: confirm Host of Ascension costs 3 DP, offers Take and Hold and Reconnaissance, and cannot be taken with Xenocult Masses (HOSTS tag).
 - [x] 1.3.8: Outlander Claw +1 OC and the 2 DP detachment limit confirmed in WarOrgan.
 - [x] Core abilities added by data: confirmed in WarOrgan that leader effects (Locus Fights First) and the Xenocreed detachment-added leader ability (Feel No Pain 3+ while leading) work.
-- [ ] Predatory Instincts (Biosanctic Broodsurge enhancement): confirm the bearer's attached unit gains Infiltrators with AttachedUnit scope.
+- [x] Predatory Instincts (Biosanctic Broodsurge enhancement): confirmed the bearer's attached unit gains Infiltrators with AttachedUnit scope.
 - [x] 1.3.12: confirmed wargear labels (Magus stave, Demolition charges) and leader sections without duplicated text.
 - [x] Core stratagems confirmed in WarOrgan (1.3.9).
 - [x] 1.3.10: confirmed the Ridgerunner spotter sets ranged BS to 3+ and the flare launcher adds SMOKE.
 - [ ] Leader effects: confirm in WarOrgan that Might From Beyond, Twisted Science, Bio-horror Disruption, Sudden Assault and Nexus of Devotion apply to the led unit, and that a Support character can join a unit alongside a Leader.
+- [x] 1.4.1: confirmed the Scouts, Deadly Demise and Feel No Pain values show on their units, the Biophagus lists the alchemicus familiar, and the Tectonic Fragdrill shows Fortification.
 - [ ] Find out whether WarOrgan can import a ZIP from a local file or a non-stable URL for pre-release testing.
 
 ## Tooling
 
-- [ ] Add repeatable source-comparison checks for names, model counts and points
+- [x] Add repeatable source-comparison checks for names, model counts and points (`WarOrgan.Data.BsdataImport`, `WarOrgan.Data.WahapediaCheck`)
 - [ ] Add builder validation for duplicate weapon IDs within a unit
 
 ## Later
 
-- [ ] Import and verify the remaining 11th Edition factions, one per `faction/<slug>` branch
+- [x] Draft the remaining 11th Edition factions from BSData, one per `faction/<slug>` branch (1.5.0)
+- [ ] Check each draft faction against Wahapedia and fix its held-back datasheets (see `FACTIONS.md`)
+- [x] Import enhancements for the draft factions whose BSData groups the importer does not find (1.5.1)

@@ -1,0 +1,1932 @@
+﻿{
+  "Name": "Drukhari",
+  "Units": [
+    {
+      "Id": "BEASTMASTER",
+      "DisplayName": "Beastmaster",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Beastmaster",
+            "StatlineRef": "Beastmaster",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "agonizer",
+                  "splinter pods"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Clawed Fiend",
+            "StatlineRef": "Clawed Fiend",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "clawed fiend fists"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Khymerae",
+            "StatlineRef": "Khymerae",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "khymerae talons"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Razorwing Flock",
+            "StatlineRef": "Razorwing Flock",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "razorwing feathers"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 6+ invulnerable save."
+        },
+        {
+          "Title": "Beastmaster",
+          "Text": "While this unit contains a Beastmaster model, you can re-roll Charge rolls made for this unit."
+        },
+        {
+          "Title": "Goaded Savagery (Pain)",
+          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While this unit is Empowered, if it contains a **BEASTMASTER MODEL, EACH TIME A BEAST** model in this unit makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Aeldari",
+        "Beast",
+        "Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Scouts 9\""
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Beastmaster",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "6+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32 Flying"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Clawed Fiend",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "6+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Khymerae",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "6+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Razorwing Flock",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "6+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "splinter pods",
+              "DisplayName": "Splinter pods",
+              "Keywords": "Anti-Infantry 3+, Assault, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "agonizer",
+              "DisplayName": "Agonizer",
+              "Keywords": "Anti-Infantry 3+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "clawed fiend fists",
+              "DisplayName": "Clawed Fiend fists",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "khymerae talons",
+              "DisplayName": "Khymerae talons",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "razorwing feathers",
+              "DisplayName": "Razorwing Feathers",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 7,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "COURT OF THE ARCHON",
+      "DisplayName": "Court of the Archon",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lhamaean",
+            "StatlineRef": "Court of the Archon",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "shaimeshi blade"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Sslyth",
+            "StatlineRef": "Court of the Archon",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "shardcarbine",
+                  "splinter pistol",
+                  "sslyth battle-blade"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Medusae",
+            "StatlineRef": "Court of the Archon",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "eyeburst",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ur-ghul",
+            "StatlineRef": "Court of the Archon",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "ur-ghul talons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Court of the Archon",
+          "Text": "While a **CHARACTER MODEL IS LEADING A UNIT THAT CONTAINS ONE OR MORE LHAMAEAN, MEDUSAE, SSLYTH AND/OR UR-GHUL MODELS, THAT CHARACTER** model has the Feel No Pain 4+ ability."
+        },
+        {
+          "Title": "Deadly Retinue (Pain)",
+          "Text": "At the start of your Shooting phase or at the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While this unit is Empowered:\n- If it contains one or more Lhamaean models, melee weapons equipped by models in this unit have the **[LETHAL HITS]** ability.\n- If it contains one or more Medusae models, ranged weapons equipped by models in this unit have the **[IGNORES COVER]** ability.\n- If it contains one or more Sslyth models, each time a melee attack targets this unit, subtract 1 from the Wound roll.\n- If this unit contains one or more Ur-ghul models, this unit has the Fights First ability."
+        },
+        {
+          "Title": "Court of the Archon [Legends]",
+          "Text": "This unit can be led by an **ARCHON. ALTERNATIVELY, IN THE DECLARE BATTLE FORMATIONS STEP, THIS UNIT CAN JOIN ONE KABALITE WARRIORS OR HAND OF THE ARCHON UNIT FROM YOUR ARMY THAT IS BEING LED BY AN ARCHON (A UNIT CANNOT HAVE MORE THAN ONE COURT OF THE ARCHON UNIT JOINED TO IT). IF IT DOES, UNTIL THE END OF THE BATTLE, EVERY MODEL IN THIS UNIT COUNTS AS PART OF THAT KABALITE WARRIORS OR HAND OF THE ARCHON** unit, and its Starting Strength is increased accordingly."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Court of the Archon",
+        "Aeldari",
+        "Kabal",
+        "Infantry",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Court of the Archon",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "eyeburst",
+              "DisplayName": "Eyeburst",
+              "Keywords": "Pistol, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "shardcarbine",
+              "DisplayName": "Shardcarbine",
+              "Keywords": "Anti-Infantry 3+, Assault",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "splinter pistol",
+              "DisplayName": "Splinter pistol",
+              "Keywords": "Anti-Infantry 3+, Assault, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "shaimeshi blade",
+              "DisplayName": "Shaimeshi Blade",
+              "Keywords": "Anti-Infantry 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "sslyth battle-blade",
+              "DisplayName": "Sslyth battle-blade",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "ur-ghul talons",
+              "DisplayName": "Ur-ghul Talons",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 95
+        }
+      ]
+    },
+    {
+      "Id": "GROTESQUES",
+      "DisplayName": "Grotesques",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 6
+            },
+            "ModelName": "Grotesque",
+            "StatlineRef": "Grotesque",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "paired monstrous weapons"
+                ],
+                "Options": [
+                  {
+                    "Max": 6,
+                    "Replaces": [
+                      "paired monstrous weapons"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "liquifier gun",
+                          "monstrous weapons"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 6+ invulnerable save."
+        },
+        {
+          "Title": "Monstrous Hulks",
+          "Text": "This unit cannot embark within a **VENOM, BUT IT CAN EMBARK WITHIN OTHER DRUKHARI TRANSPORTS; WHEN DOING SO, EACH GROTESQUE** model takes up the space of 3 models."
+        },
+        {
+          "Title": "Macro-steroids (Pain)",
+          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While Empowered, melee weapons equipped by models in this unit have a Strength characteristic of 8 and the **[LETHAL HITS]** ability."
+        },
+        {
+          "Title": "Monstrous Charge",
+          "Text": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers D3 mortal wounds."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Grotesques",
+        "Aeldari",
+        "Haemonculus Covens",
+        "Infantry",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Feel No Pain 5+"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Grotesque",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "6+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "liquifier gun",
+              "DisplayName": "Liquifier Gun",
+              "Keywords": "Anti-Infantry 3+, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "monstrous weapons",
+              "DisplayName": "Monstrous Weapons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "paired monstrous weapons",
+              "DisplayName": "Paired monstrous Weapons",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 3,
+          "Cost": 80
+        },
+        {
+          "ModelCount": 6,
+          "Cost": 170
+        }
+      ]
+    },
+    {
+      "Id": "RAVEN STRIKE FIGHTER",
+      "DisplayName": "Raven Strike Fighter",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Raven Strike Fighter",
+            "StatlineRef": "Raven Strike Fighter",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bladed wings",
+                  "dark lance",
+                  "dark lance",
+                  "splinterstorm cannon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Ground-attack Craft",
+          "Text": "Each time a model in this unit makes a ranged attack that targets an enemy unit  (excluding unit that can **FLY**), add 1 to the Hit roll."
+        },
+        {
+          "Title": "Shredding Fire (Pain)",
+          "Text": "In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, the Armour Penetration characteristic of its ranged weapons is increased by 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Aeldari",
+        "Raven Strike Fighter",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Raven Strike Fighter",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "20+\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "dark lance",
+              "DisplayName": "Dark lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+2"
+                }
+              ]
+            },
+            {
+              "Id": "splinterstorm cannon",
+              "DisplayName": "Splinterstorm cannon",
+              "Keywords": "Anti-Infantry 3+, Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "bladed wings",
+              "DisplayName": "Bladed wings",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 170
+        }
+      ]
+    },
+    {
+      "Id": "REAPER",
+      "DisplayName": "Reaper",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Reaper",
+            "StatlineRef": "Reaper",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bladevanes",
+                  "prow blade",
+                  "storm vortex projector - beam",
+                  "storm vortex projector - blast"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 6+ invulnerable save."
+        },
+        {
+          "Title": "Eradicate the Foe",
+          "Text": "Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, re-roll a Hit roll of 1. If the target unit has a Starting Strength of 1, this ability only applies if that unit has its starting number of wounds."
+        },
+        {
+          "Title": "Damaged: 1-4 Wounds Remaining",
+          "Text": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Electromagnetic Cascade (Pain)",
+          "Text": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered:\n- Each time this model makes a ranged attack that targets a **VEHICLE UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 2]** ability.\n- Each time this model makes a ranged attack that targets a non-**VEHICLE UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 1]** ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Kabal",
+        "Fly",
+        "Aeldari",
+        "Reaper",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Reaper",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "11"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "storm vortex projector - beam",
+              "DisplayName": "Storm vortex projector - beam",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "storm vortex projector - blast",
+              "DisplayName": "Storm vortex projector - blast",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "bladevanes",
+              "DisplayName": "Bladevanes",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "prow blade",
+              "DisplayName": "Prow blade",
+              "Keywords": "Extra Attacks, Lance, Sustained Hits 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Id": "TANTALUS",
+      "DisplayName": "Tantalus",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Tantalus",
+            "StatlineRef": "Tantalus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "dire scythe blades",
+                  "pulse disintegrators"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Damaged: 1-6 Wounds Remaining",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Scything Charge",
+          "Text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+        },
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 16 **DRUKHARI INFANTRY MODELS. EACH GROTESQUE MODEL TAKES UP THE SPACE OF 3 MODELS. THIS MODEL CANNOT TRANSPORT MODELS THAT CAN FLY**."
+        },
+        {
+          "Title": "Engine of Destruction (Pain)",
+          "Text": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, this model’s pulse disintegrators have the **[RAPID FIRE 8]** ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Fly",
+        "Aeldari",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6",
+        "Deep Strike",
+        "Firing Deck 16"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Tantalus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "16\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "18"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "5"
+            },
+            {
+              "Id": "Base",
+              "Value": "120x92"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "pulse disintegrators",
+              "DisplayName": "Pulse disintegrators",
+              "Keywords": "Assault",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "dire scythe blades",
+              "DisplayName": "Dire scythe blades",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "9"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 230
+        }
+      ]
+    },
+    {
+      "Id": "URIEN RAKARTH",
+      "DisplayName": "Urien Rakarth",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Urien Rakarth",
+            "StatlineRef": "Urien Rakarth",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "haemonculus tools and scissorhands",
+                  "casket of flensing"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Horrific Regeneration",
+          "Text": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining"
+        },
+        {
+          "Title": "Sculptor of Torments (Pain)",
+          "Text": "In your Fight phase, when you select this model’s unit to fight, you can spend 1 of your Pain tokens to Empower this model’s unit. While that unit is Empowered, each time a model in that unit makes a melee attack, add 1 to the Wound roll."
+        },
+        {
+          "Title": "Father of Pain",
+          "Text": "Each time an attack with a Damage characteristic of 1 is allocated to a model in this model’s unit, that model has the Feel No Pain 4+ ability against that attack."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Urien Rakarth",
+        "Haemonculus Covens",
+        "Aeldari",
+        "Haemonculus",
+        "Character",
+        "Epic Hero",
+        "Infantry"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Feel No Pain 4+"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Urien Rakarth",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "6+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "casket of flensing",
+              "DisplayName": "Casket of Flensing",
+              "Keywords": "Devastating Wounds, One Shot, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "haemonculus tools and scissorhands",
+              "DisplayName": "Haemonculus tools and scissorhands",
+              "Keywords": "Anti-Infantry 2+, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    }
+  ],
+  "Detachments": [],
+  "ArmyRules": []
+}
