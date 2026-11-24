@@ -72,6 +72,7 @@
       "CoreAbilities": [
         "Invulnerable Save",
         "Deadly Demise D3",
+        "Damaged 4",
         "Firing Deck 12"
       ],
       "FactionKeywords": [
@@ -1317,6 +1318,7 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
+        "Damaged 4",
         "Deadly Demise D3"
       ],
       "FactionKeywords": [
@@ -2150,6 +2152,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 6",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
