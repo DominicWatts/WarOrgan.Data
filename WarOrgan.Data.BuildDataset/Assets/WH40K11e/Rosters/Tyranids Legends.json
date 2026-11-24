@@ -191,7 +191,7 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "massive scything talons"
+                  "massive scything sickle-talons"
                 ],
                 "Options": []
               }
@@ -275,7 +275,7 @@
           "DisplayName": "Melee Weapons",
           "Weapons": [
             {
-              "Id": "massive scything talons",
+              "Id": "massive scything sickle-talons",
               "DisplayName": "Massive scything sickle-talons",
               "Keywords": "Twin-linked",
               "Flags": "None",
