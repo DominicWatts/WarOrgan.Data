@@ -268,6 +268,13 @@
       "Category": "Chaos",
       "MainColor": "#5A1414",
       "DarkColor": "#A65050"
+    },
+    {
+      "Name": "Chaos Daemons",
+      "FactionKeyword": "Legiones Daemonica",
+      "Category": "Chaos",
+      "MainColor": "#6B1F4A",
+      "DarkColor": "#B05F8A"
     }
   ],
   "CoreAbilities": [
