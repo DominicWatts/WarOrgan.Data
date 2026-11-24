@@ -2,11 +2,11 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.2.0
+## Coverage in 1.5.3.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Invulnerable saves are given as an Inv characteristic and as an ability on each unit that has one.
-- Astra Militarum: a full faction. The 51 non-AIRCRAFT datasheets available to Genestealer Cults as Brood Brother Auxilia allies are checked against Wahapedia. The other 21 datasheets, 61 Legends, 11 detachments, 34 enhancements and the Voice of Command army rule are an unchecked BSData draft, with points for the Hippogriff AFV and the Legends weapon batteries taken from Wahapedia. Hell's Last is not yet included.
+- Astra Militarum: a full faction. The 51 non-AIRCRAFT datasheets available to Genestealer Cults as Brood Brother Auxilia allies are checked against Wahapedia. The other 21 datasheets, 61 Legends, 11 detachments, 34 enhancements and the Voice of Command army rule are an unchecked BSData draft, with points for the Hippogriff AFV and the Legends weapon batteries taken from Wahapedia. Hell's Last is left out because it has no 11th Edition datasheet.
 - Tyranids: a full faction. The 14 Vanguard Invader datasheets used as Final Day allies are checked against Wahapedia: Winged Tyranid Prime, Gargoyles, Raveners, Hyperadapted Raveners, Lictor, Neurolictor, Von Ryan's Leapers, Mawloc, Trygon, Tyrannocyte, Winged Hive Tyrant, Deathleaper, The Red Terror and Parasite of Mortrex. Deathleaper cannot be your Warlord. The one-per-army limit for Epic Heroes is not enforced. The other 38 datasheets, 5 Legends, 10 detachments, 34 enhancements and the army rules are an unchecked BSData draft, with points for Carnifexes and Mucolid Spores taken from Wahapedia. The Winged Tyranid Prime (Alpha Warrior) and Hyperadapted Raveners (Alpha Invader) give [SUSTAINED HITS 1] to the unit they lead.
 - Unit and weapon profiles, model compositions, abilities and points tiers.
 - Duplicate-unit prices are represented where the first/second copies and third copy have different costs.
@@ -33,39 +33,40 @@ These 31 factions are drafts converted automatically from the November 2026 BSDa
 
 - They have no stratagems yet. A few detachments have no enhancements because BSData has none for them. Enhancements, detachment rules and leader abilities are text only: the app does not apply their effects.
 - Space Marine chapters are separate factions. Each can also take the Space Marines datasheets and has the generic Space Marine detachments alongside its own.
-- Some datasheets failed the dataset's checks and are left out until they are fixed by hand. `FACTIONS.md` in the repository lists them.
+- Where BSData's wargear could not be converted exactly, weapons are offered as swaps for a starting weapon of the same type, so some units allow loadouts their datasheet does not. Build units to the datasheet.
+- BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Captain in Gravis Armour, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.
 
-- Adepta Sororitas: 31 datasheets, 4 Legends, 8 detachments, 24 enhancements; 3 datasheets not yet included.
+- Adepta Sororitas: 33 datasheets, 5 Legends, 8 detachments, 24 enhancements.
 - Adeptus Custodes: 24 datasheets, 6 Legends, 7 detachments, 17 enhancements.
-- Adeptus Mechanicus: 33 datasheets, 3 Legends, 10 detachments, 33 enhancements; 1 datasheet not yet included.
-- Agents of the Imperium: 23 datasheets, 11 Legends, 5 detachments, 16 enhancements; 6 datasheets not yet included.
+- Adeptus Mechanicus: 34 datasheets, 3 Legends, 10 detachments, 33 enhancements.
+- Agents of the Imperium: 29 datasheets, 11 Legends, 5 detachments, 16 enhancements.
 - Grey Knights: 26 datasheets, 5 Legends, 9 detachments, 30 enhancements.
 - Imperial Knights: 22 datasheets, 8 detachments, 26 enhancements.
-- Space Marines: 67 datasheets, 64 Legends, 16 detachments, 32 enhancements; 4 datasheets not yet included.
-- Black Templars: 15 datasheets, 18 detachments, 36 enhancements; 1 datasheet not yet included.
-- Blood Angels: 13 datasheets, 8 Legends, 19 detachments, 40 enhancements; 6 datasheets not yet included.
-- Dark Angels: 16 datasheets, 2 Legends, 19 detachments, 40 enhancements; 1 datasheet not yet included.
-- Deathwatch: 7 datasheets, 16 detachments, 36 enhancements; 3 datasheets not yet included.
+- Space Marines: 69 datasheets, 64 Legends, 16 detachments, 32 enhancements.
+- Black Templars: 16 datasheets, 18 detachments, 36 enhancements.
+- Blood Angels: 14 datasheets, 8 Legends, 19 detachments, 40 enhancements.
+- Dark Angels: 16 datasheets, 2 Legends, 19 detachments, 40 enhancements.
+- Deathwatch: 10 datasheets, 16 detachments, 36 enhancements.
 - Imperial Fists: 3 datasheets, 17 detachments, 36 enhancements.
 - Iron Hands: 2 datasheets, 17 detachments, 36 enhancements.
 - Raven Guard: 2 datasheets, 17 detachments, 36 enhancements.
 - Salamanders: 2 datasheets, 17 detachments, 36 enhancements.
-- Space Wolves: 19 datasheets, 13 Legends, 19 detachments, 40 enhancements; 8 datasheets not yet included.
+- Space Wolves: 20 datasheets, 14 Legends, 19 detachments, 40 enhancements.
 - Ultramarines: 11 datasheets, 5 Legends, 17 detachments, 36 enhancements.
 - White Scars: 2 datasheets, 17 detachments, 36 enhancements.
 - Chaos Space Marines: 56 datasheets, 26 Legends, 17 detachments, 62 enhancements.
-- Chaos Daemons: 54 datasheets, 12 Legends, 9 detachments, 27 enhancements; 2 datasheets not yet included.
+- Chaos Daemons: 56 datasheets, 12 Legends, 9 detachments, 27 enhancements.
 - Chaos Knights: 19 datasheets, 8 detachments, 28 enhancements.
-- Death Guard: 29 datasheets, 11 Legends, 9 detachments, 26 enhancements; 1 datasheet not yet included.
+- Death Guard: 30 datasheets, 11 Legends, 9 detachments, 26 enhancements.
 - Emperor's Children: 18 datasheets, 10 detachments, 31 enhancements.
-- Thousand Sons: 28 datasheets, 2 Legends, 9 detachments, 29 enhancements; 1 datasheet not yet included.
-- World Eaters: 24 datasheets, 2 Legends, 8 detachments, 22 enhancements; 1 datasheet not yet included.
-- Aeldari: 55 datasheets, 20 Legends, 15 detachments, 52 enhancements; 3 datasheets not yet included.
-- Drukhari: 20 datasheets, 7 Legends, 9 detachments, 30 enhancements; 3 datasheets not yet included.
+- Thousand Sons: 29 datasheets, 2 Legends, 9 detachments, 29 enhancements.
+- World Eaters: 25 datasheets, 2 Legends, 8 detachments, 22 enhancements.
+- Aeldari: 57 datasheets, 21 Legends, 15 detachments, 52 enhancements.
+- Drukhari: 23 datasheets, 7 Legends, 9 detachments, 30 enhancements.
 - Leagues of Votann: 22 datasheets, 10 detachments, 32 enhancements.
-- Necrons: 47 datasheets, 12 Legends, 12 detachments, 33 enhancements; 5 datasheets not yet included.
-- Orks: 55 datasheets, 13 Legends, 15 detachments, 38 enhancements; 2 datasheets not yet included.
-- T'au Empire: 40 datasheets, 20 Legends, 7 detachments, 23 enhancements; 3 datasheets not yet included.
+- Necrons: 52 datasheets, 12 Legends, 12 detachments, 33 enhancements.
+- Orks: 55 datasheets, 15 Legends, 15 detachments, 38 enhancements.
+- T'au Empire: 43 datasheets, 20 Legends, 7 detachments, 23 enhancements.
 
 ## Installation
 
