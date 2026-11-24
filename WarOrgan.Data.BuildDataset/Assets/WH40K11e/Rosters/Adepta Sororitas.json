@@ -7010,6 +7010,10 @@
         {
           "Title": "Righteous Repugnance",
           "Text": "Each time this model's unit is selected to shoot or fight, you can discard 1 Miracle dice. If you do, until the end of the phase, add 3 to the Attacks characteristic of Fidelis and the Lance of Illumination. Each time an enemy unit is destroyed by this model, you gain 1 Miracle dice."
+        },
+        {
+          "Title": "Supreme Commander",
+          "Text": "If this model is in your army, it must be your Warlord."
         }
       ],
       "Infos": [],
