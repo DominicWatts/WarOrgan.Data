@@ -248,6 +248,19 @@
           "IsIncludedInPrimaryRoster": true
         }
       ]
+    },
+    {
+      "Name": "White Scars",
+      "FactionKeyword": "White Scars",
+      "Category": "Imperium",
+      "MainColor": "#7A1F1F",
+      "DarkColor": "#C2C2C2",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
