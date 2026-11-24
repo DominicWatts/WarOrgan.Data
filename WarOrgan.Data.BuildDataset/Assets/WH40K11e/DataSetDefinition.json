@@ -303,6 +303,13 @@
       "Category": "Chaos",
       "MainColor": "#1F5A8A",
       "DarkColor": "#D4AF37"
+    },
+    {
+      "Name": "World Eaters",
+      "FactionKeyword": "World Eaters",
+      "Category": "Chaos",
+      "MainColor": "#8A1E1E",
+      "DarkColor": "#C8C8C8"
     }
   ],
   "CoreAbilities": [
