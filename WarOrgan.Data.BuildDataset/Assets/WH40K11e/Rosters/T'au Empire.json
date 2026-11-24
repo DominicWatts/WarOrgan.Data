@@ -1679,12 +1679,15 @@
         },
         {
           "Title": "Puretide's Teachings",
-          "Text": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+          "Text": "Once per battle round, you can target this model’s unit with a Stratagem. Reduce the CP cost of that use by 1CP."
+        },
+        {
+          "Title": "Independent Power",
+          "Text": "Your army cannot include both Commander Farsight and an ETHEREAL unit."
         }
       ],
       "LeaderInfo": {
         "UnitNames": [
-          "CRISIS BATTLESUITS",
           "CRISIS FIREKNIFE BATTLESUITS",
           "CRISIS STARSCYTHE BATTLESUITS",
           "CRISIS SUNFORGE BATTLESUITS"
