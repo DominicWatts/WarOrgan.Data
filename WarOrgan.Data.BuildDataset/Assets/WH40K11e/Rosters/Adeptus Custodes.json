@@ -1,0 +1,6469 @@
+﻿{
+  "Name": "Adeptus Custodes",
+  "Units": [
+    {
+      "Id": "ALLARUS CUSTODIANS",
+      "DisplayName": "Allarus Custodians",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 3
+            },
+            "ModelName": "Allarus Custodian",
+            "StatlineRef": "Allarus Custodian",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "balistus grenade launcher"
+                ],
+                "Options": [
+                  {
+                    "Max": 3,
+                    "Options": [
+                      {
+                        "Items": [
+                          "castellan axe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "guardian spear"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Slayers of Tyrants",
+          "Text": "This unit's melee attacks that target a unit with a T greater than this unit's T have +1 to **wound rolls**."
+        },
+        {
+          "Title": "Vexilla",
+          "Text": "- This unit has +1 OC.\n- This unit can ignore modifiers to this unit's Ld."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Allarus Custodians",
+        "Imperium",
+        "Terminator",
+        "Infantry",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Allarus Custodian",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "balistus grenade launcher",
+              "DisplayName": "Balistus grenade launcher",
+              "Keywords": "Assault, Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "castellan axe",
+              "DisplayName": "Castellan axe",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "castellan axe",
+              "DisplayName": "Castellan axe",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 180
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 270
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 180
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 270
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 2,
+          "Cost": 210
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 300
+        }
+      ]
+    },
+    {
+      "Id": "AQUILON TERMINATORS WITH SOLARITE POWER GAUNTLETS",
+      "DisplayName": "Aquilon Terminators with Solarite Power Gauntlets",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Aquilon Terminator",
+            "StatlineRef": "Aquilon Terminator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "adrathic combi-destructor",
+                  "solarite power gauntlet"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Dread Foe",
+          "Text": "This unit's melee attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 AP."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Aquilon Terminators with Solarite Power Gauntlets",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Aquilon Terminator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "adrathic combi-destructor",
+              "DisplayName": "Adrathic Combi-destructor",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "solarite power gauntlet",
+              "DisplayName": "Solarite Power Gauntlet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 285
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 285
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 315
+        }
+      ]
+    },
+    {
+      "Id": "AQUILON TERMINATORS WITH SOLARITE POWER TALONS",
+      "DisplayName": "Aquilon Terminators with Solarite Power Talons",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Aquilon Terminator",
+            "StatlineRef": "Aquilon Terminator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "solarite power talons",
+                  "lastrum storm bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "lastrum storm bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "infernus firepike"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Reap a Terrible Tally",
+          "Text": "This unit’s attacks that target an Infantry unit can:\n- Re‑roll hit rolls of 1.\n- Re‑roll wound rolls of 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Emissaries",
+        "Aquilon Terminators with Solarite Power Talons",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Aquilon Terminator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "infernus firepike",
+              "DisplayName": "Infernus Firepike",
+              "Keywords": "Blast 2, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "lastrum storm bolter",
+              "DisplayName": "Lastrum Storm Bolter",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "solarite power talons",
+              "DisplayName": "Solarite Power Talons",
+              "Keywords": "Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 275
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 275
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 305
+        }
+      ]
+    },
+    {
+      "Id": "ARES GUNSHIP",
+      "DisplayName": "Ares Gunship",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ares Gunship",
+            "StatlineRef": "Ares Gunship",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "arachnus heavy blaze cannon",
+                  "arachnus heavy blaze cannon",
+                  "arachnus magna-blaze cannon",
+                  "armoured hull"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Infernus Firebombs",
+          "Text": "At the end of your opponent's Fight phase, select one visible enemy unit (excluding Lone Operative and Aircraft units) within 24\" of this unit:\n- Ranged attacks that target that enemy unit have [IGNORES COVER] until the end of your next turn,\n- Roll one D6 for each model in that enemy unit:\n- On a 6, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Aircraft",
+        "Fly",
+        "Imperium",
+        "Ares Gunship",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Ares Gunship",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "-"
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "22"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "-"
+            },
+            {
+              "Id": "Base",
+              "Value": "160"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "arachnus heavy blaze cannon",
+              "DisplayName": "Arachnus heavy blaze cannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "arachnus magna-blaze cannon",
+              "DisplayName": "Arachnus magna-blaze cannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "18"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "9"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 580
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 610
+        }
+      ]
+    },
+    {
+      "Id": "BLADE CHAMPION",
+      "DisplayName": "Blade Champion",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Blade Champion",
+            "StatlineRef": "Blade Champion",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "vaultswords - victus",
+                  "vaultswords - hurricanis",
+                  "vaultswords - behemor"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Sword of the Throne",
+          "Text": "At the start of the first battle round, select one enemy unit to be this model's **mark**.\n-This model's attacks that target this model's **mark** have +1 to **wound rolls**.\n- Each time this model's **mark** is destroyed, select one enemy unit to be this model's **mark**."
+        },
+        {
+          "Title": "Swift Onslaught",
+          "Text": "This unit can:\n- Re-roll **advance rolls**.\n- Re-roll **charge rolls**."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CUSTODIAN GUARD SODALITY",
+          "CUSTODIAN WARDENS",
+          "SENTINEL GUARD SODALITY"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Blade Champion",
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Emissaries"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Blade Champion",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "7"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "vaultswords - behemor",
+              "DisplayName": "Vaultswords - Behemor",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "vaultswords - hurricanis",
+              "DisplayName": "Vaultswords - Hurricanis",
+              "Keywords": "Cleave 1, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "vaultswords - victus",
+              "DisplayName": "Vaultswords - Victus",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 175
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 175
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 195
+        }
+      ]
+    },
+    {
+      "Id": "CALADIUS ANNIHILATOR GRAV-TANK",
+      "DisplayName": "Caladius Annihilator Grav-tank",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Caladius Annihilator Grav-tank",
+            "StatlineRef": "Caladius Annihilator Grav-tank",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "arachnus blaze carronade",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin lastrum bolt cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "twin neutronium cascade projectors"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Advanced Firepower",
+          "Text": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can:\n- Re-roll one **hit roll**.\n- Re-roll one **wound roll**.\n- Re-roll one **damage roll**."
+        },
+        {
+          "Title": "Flare Shields",
+          "Text": "This unit has a 4+ **InSv** against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Frame",
+        "Grav-assault",
+        "Caladius Annihilator Grav-tank",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Caladius Annihilator Grav-tank",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "4"
+            },
+            {
+              "Id": "Base",
+              "Value": "150x95 Oval"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "arachnus blaze carronade",
+              "DisplayName": "Arachnus Blaze Carronade",
+              "Keywords": "Lethal Hits: Monster/Vehicle",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin lastrum bolt cannon",
+              "DisplayName": "Twin Lastrum Bolt Cannon",
+              "Keywords": "Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin neutronium cascade projectors",
+              "DisplayName": "Twin Neutronium Cascade Projectors",
+              "Keywords": "Blast 1, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 250
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 250
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 280
+        }
+      ]
+    },
+    {
+      "Id": "CALADIUS GRAV-TANK",
+      "DisplayName": "Caladius Grav-tank",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Caladius Grav-tank",
+            "StatlineRef": "Caladius Grav-tank",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "twin iliastus accelerator cannon",
+                  "twin lastrum bolt cannon",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "twin lastrum bolt cannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin neutronium cascade projectors"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Destructor Optics",
+          "Text": "This unit's ranged attacks that target a unit (excluding MONSTER/VEHICLE) have +1 AP."
+        },
+        {
+          "Title": "Flare Shields",
+          "Text": "This unit has a 4+ **InSv** against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Imperium",
+        "Caladius Grav-tank",
+        "Frame",
+        "Grav-assault",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Caladius Grav-tank",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "4"
+            },
+            {
+              "Id": "Base",
+              "Value": "150x95 Oval"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "twin iliastus accelerator cannon",
+              "DisplayName": "Twin Iliastus Accelerator Cannon",
+              "Keywords": "Rapid Fire 4, Sustained Hits 1: non-Monster/Vehicle",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "twin lastrum bolt cannon",
+              "DisplayName": "Twin Lastrum Bolt Cannon",
+              "Keywords": "Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin neutronium cascade projectors",
+              "DisplayName": "Twin Neutronium Cascade Projectors",
+              "Keywords": "Blast 1, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 230
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 230
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 260
+        }
+      ]
+    },
+    {
+      "Id": "CONTEMPTOR-ACHILLUS DREADNOUGHT",
+      "DisplayName": "Contemptor-Achillus Dreadnought",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Contemptor-Achillus Dreadnought",
+            "StatlineRef": "Contemptor-Achillus Dreadnought",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "dreadspear",
+                  "lastrum storm bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "lastrum storm bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin infernus incinerator"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "adrathic combi-destructor"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Unyielding Ancient",
+          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to **wound rolls**."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Imperium",
+        "Walker",
+        "Contemptor-Achillus Dreadnought",
+        "Dreadnought",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Contemptor-Achillus Dreadnought",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "9\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "12"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "adrathic combi-destructor",
+              "DisplayName": "Adrathic combi-destructor",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "dreadspear",
+              "DisplayName": "Dreadspear",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "lastrum storm bolter",
+              "DisplayName": "Lastrum storm bolter",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin infernus incinerator",
+              "DisplayName": "Twin Infernus incinerator",
+              "Keywords": "Blast 2, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "dreadspear",
+              "DisplayName": "Dreadspear",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 230
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 230
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 260
+        }
+      ]
+    },
+    {
+      "Id": "CONTEMPTOR-GALATUS DREADNOUGHT",
+      "DisplayName": "Contemptor-Galatus Dreadnought",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Contemptor-Galatus Dreadnought",
+            "StatlineRef": "Contemptor-Galatus Dreadnought",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "warblade"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Unyielding Ancient",
+          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to **wound rolls**."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Contemptor-Galatus Dreadnought",
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Dreadnought",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Contemptor-Galatus Dreadnought",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "9\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "12"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "warblade",
+              "DisplayName": "Warblade",
+              "Keywords": "Blast 2, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "warblade",
+              "DisplayName": "Warblade",
+              "Keywords": "Cleave 1, Sustained Hits 1: non-Monster/Vehicle",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 220
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 220
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 250
+        }
+      ]
+    },
+    {
+      "Id": "CORONUS GRAV-CARRIER",
+      "DisplayName": "Coronus Grav-carrier",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Coronus Grav-carrier",
+            "StatlineRef": "Coronus Grav-carrier",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "armoured hull",
+                  "twin lastrum bolt cannon",
+                  "twin arachnus blaze cannon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "twin lastrum bolt cannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin neutronium cascade projectors"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Assault Vehicle",
+          "Text": "In your Movement phase, when this unit ends an **advance move**, units embarked within this unit can make a **shock disembark move**."
+        },
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 8 ADEPTUS CUSTODES INFANTRY models. It cannot transport **JUMP PACK** models."
+        },
+        {
+          "Title": "Repulsor Suspensor Technology",
+          "Text": "(Once per phase, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if this unit lost a wound as a result of those attacks and is **unengaged**, this unit can make a **normal move* of up to D6\"."
+        },
+        {
+          "Title": "Flare Shields",
+          "Text": "This unit has a 4+ **InSv** against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Fly",
+        "Imperium",
+        "Coronus Grav-carrier",
+        "Frame",
+        "Grav-assault",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Coronus Grav-carrier",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "16"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "5"
+            },
+            {
+              "Id": "Base",
+              "Value": "150x95 Oval"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "twin arachnus blaze cannon",
+              "DisplayName": "Twin Arachnus Blaze Cannon",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin lastrum bolt cannon",
+              "DisplayName": "Twin Lastrum Bolt Cannon",
+              "Keywords": "Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin neutronium cascade projectors",
+              "DisplayName": "Twin Neutronium Cascade Projectors",
+              "Keywords": "Blast 1, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 225
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 225
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 245
+        }
+      ]
+    },
+    {
+      "Id": "CUSTODIAN GUARD SODALITY",
+      "DisplayName": "Custodian Guard Sodality",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Custodian Guard",
+            "StatlineRef": "Custodian Guard",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "guardian spear"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Impenetrable Defence",
+          "Text": "This unit's attacks have [**SUSTAINED HITS 1: non-MONSTER/VEHICLE] if any of the following apply:\n- This unit is within range of an objective.\n- The target of those attacks is within range of an objective."
+        },
+        {
+          "Title": "Vexilla",
+          "Text": "- This unit has +1 OC.\n- This unit can ignore modifiers to this unit's Ld."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Custodian Guard Sodality",
+        "Infantry",
+        "Battleline",
+        "Imperium",
+        "Trusted Sentinel",
+        "Emissaries"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Custodian Guard",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 240
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 240
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 240
+        },
+        {
+          "UnitCount": 4,
+          "ModelCount": 3,
+          "Cost": 270
+        }
+      ]
+    },
+    {
+      "Id": "CUSTODIAN WARDENS",
+      "DisplayName": "Custodian Wardens",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 3
+            },
+            "ModelName": "Custodian Warden",
+            "StatlineRef": "Custodian Warden",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Max": 3,
+                    "Options": [
+                      {
+                        "Items": [
+                          "guardian spear"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "castellan axe"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Living Fortress",
+          "Text": "Attacks that target this unit have -1AP."
+        },
+        {
+          "Title": "Vexilla",
+          "Text": "- This unit has +1 OC.\n- This unit can ignore modifiers to this unit's Ld."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Custodian Wardens",
+        "Infantry",
+        "Imperium",
+        "Trusted Sentinel",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Custodian Warden",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "castellan axe",
+              "DisplayName": "Castellan axe",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "castellan axe",
+              "DisplayName": "Castellan axe",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 200
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 295
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 230
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 325
+        }
+      ]
+    },
+    {
+      "Id": "GYRFALCON JETBIKE SODALITY",
+      "DisplayName": "Gyrfalcon Jetbike Sodality",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Gyrfalcon Jetbike",
+            "StatlineRef": "Gyrfalcon Jetbike",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "solarite power lance",
+                  "lastrum bolt cannon"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "lastrum bolt cannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "adrathic devastator"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "twin corvae las-pulser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "arachnus volley cannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Death Blow",
+          "Text": "If this unit made a **charge move** this turn, this unit's melee attacks have +1 AP."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Mounted",
+        "Fly",
+        "Imperium",
+        "Gyrfalcon Jetbike Sodality",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Gyrfalcon Jetbike",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "9"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "75x42 Oval"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "adrathic devastator",
+              "DisplayName": "Adrathic Devastator",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "arachnus volley cannon",
+              "DisplayName": "Arachnus Volley Cannon",
+              "Keywords": "Devastating Wounds, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "lastrum bolt cannon",
+              "DisplayName": "Lastrum Bolt Cannon",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin corvae las-pulser",
+              "DisplayName": "Twin Corvae Las-pulser",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "solarite power lance",
+              "DisplayName": "Solarite Power Lance",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 260
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 280
+        }
+      ]
+    },
+    {
+      "Id": "ORION ASSAULT DROPSHIP",
+      "DisplayName": "Orion Assault Dropship",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Orion Assault Dropship",
+            "StatlineRef": "Orion Assault Dropship",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "arachnus heavy blaze cannon",
+                  "arachnus heavy blaze cannon",
+                  "armoured hull",
+                  "spiculus heavy bolt launcher",
+                  "spiculus heavy bolt launcher",
+                  "twin lastrum bolt cannon",
+                  "twin lastrum bolt cannon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Assault Dropship",
+          "Text": "In your Movement phase, when a friendly **ADEPTUS CUSTODES** unit is selected to make a **tactical disembark move** from this unit, if that unit is then selected to make an **advance move**, that **advance move** does not prevent that unit from being **eligible to declare a charge**."
+        },
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 12 **ADEPTUS CUSTODES INFANTRY MODELS. OR 1 DREADNOUGHT MODELS. WHILE TRANSPORTING 1 DREADNOUGHT UNIT, THIS UNIT ALSO HAS A TRANSPORT CAPACITY OF 6 ADEPTUS CUSTODES INFANTRY** models."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Fly",
+        "Imperium",
+        "Orion Assault Dropship",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Orion Assault Dropship",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "14\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "22"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "160"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "arachnus heavy blaze cannon",
+              "DisplayName": "Arachnus heavy blaze cannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "spiculus heavy bolt launcher",
+              "DisplayName": "Spiculus heavy bolt launcher",
+              "Keywords": "Blast 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin lastrum bolt cannon",
+              "DisplayName": "Twin lastrum bolt cannon",
+              "Keywords": "Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "9"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 690
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 740
+        }
+      ]
+    },
+    {
+      "Id": "PALLAS GRAV-ATTACK",
+      "DisplayName": "Pallas Grav-attack",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Pallas Grav-attack",
+            "StatlineRef": "Pallas Grav-attack",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "armoured hull",
+                  "twin arachnus blaze cannon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "twin arachnus blaze cannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin iliastus accelerator fusil"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Mobile Hunter",
+          "Text": "In your Shooting phase, when this unit has shot, you can use this ability. If you do:\n- This unit can make a **normal move** of up to D6\".\n- This unit is not **eligible to declare a charge** until the end of the turn."
+        },
+        {
+          "Title": "Flare Shields",
+          "Text": "This unit has a 4+ **InSv** against ranged attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Fly",
+        "Pallas Grav-attack",
+        "Imperium",
+        "Frame",
+        "Grav-assault",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise 1",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Pallas Grav-attack",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "105x70 Oval"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "twin arachnus blaze cannon",
+              "DisplayName": "Twin Arachnus Blaze Cannon",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin iliastus accelerator fusil",
+              "DisplayName": "Twin Iliastus Accelerator Fusil",
+              "Keywords": "Rapid Fire 2, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 135
+        }
+      ]
+    },
+    {
+      "Id": "SENTINEL GUARD SODALITY",
+      "DisplayName": "Sentinel Guard Sodality",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Sentinel Guard",
+            "StatlineRef": "Sentinel Guard",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "sentinel blade",
+                  "praesidium shield"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "praesidium shield",
+            "DisplayName": "Praesidium Shield",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Praesidium Shield"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Stand Vigil",
+          "Text": "This unit's attacks have [**LETHAL HITS: non-MONSTER/VEHICLE] if any of the following apply:\n- This unit is within range of an objective.\n- The target of those attacks is within range of an objective."
+        },
+        {
+          "Title": "Praesidium Shield",
+          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to **wound rolls**."
+        },
+        {
+          "Title": "Vexilla",
+          "Text": "- This unit has +1 OC.\n- This unit can ignore modifiers to this unit's Ld."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Battleline",
+        "Imperium",
+        "Trusted Sentinel",
+        "Sentinel Guard Sodality",
+        "Emissaries"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Sentinel Guard",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "sentinel blade",
+              "DisplayName": "Sentinel Blade",
+              "Keywords": "Assault, Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "sentinel blade",
+              "DisplayName": "Sentinel Blade",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 240
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 240
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 240
+        },
+        {
+          "UnitCount": 4,
+          "ModelCount": 3,
+          "Cost": 270
+        }
+      ]
+    },
+    {
+      "Id": "SHIELD-CAPTAIN",
+      "DisplayName": "Shield-Captain",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Shield-Captain",
+            "StatlineRef": "Shield-Captain",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "pyrithite spear"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "pyrithite spear"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "eternity-pattern paragon blade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "guardian spear"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "castellan axe"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Vengeful Surge",
+          "Text": "(Once per battle, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a **surge move** of up to D6+2\""
+        },
+        {
+          "Title": "Master of the Ka'tahs",
+          "Text": "(Once per battle round, per unit)\nIf this unit is not **readied**, you can use this ability. If you do, this unit is **readied**."
+        },
+        {
+          "Title": "Praesidium Shield",
+          "Text": "Attacks allocated to this model have -1 **D**."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CUSTODIAN GUARD SODALITY",
+          "CUSTODIAN GUARD SODALITY WITH ADRASITE SPEARS",
+          "CUSTODIAN GUARD SODALITY WITH PYRITHITE SPEARS",
+          "CUSTODIAN WARDENS",
+          "SAGITTARUM CUSTODIANS SODALITY",
+          "SENTINEL GUARD SODALITY"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Shield-Captain",
+        "Imperium",
+        "Character",
+        "Infantry",
+        "Emissaries"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Shield-Captain",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "8"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "castellan axe",
+              "DisplayName": "Castellan Axe",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "pyrithite spear",
+              "DisplayName": "Pyrithite Spear",
+              "Keywords": "Assault, Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "castellan axe",
+              "DisplayName": "Castellan Axe",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "eternity-pattern paragon blade",
+              "DisplayName": "Eternity-pattern Paragon Blade",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Keywords": "Cleave 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "pyrithite spear",
+              "DisplayName": "Pyrithite Spear",
+              "Keywords": "Cleave 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 180
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Id": "SHIELD-CAPTAIN IN ALLARUS TERMINATOR ARMOUR",
+      "DisplayName": "Shield-Captain in Allarus Terminator Armour",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Shield-Captain in Allarus Terminator Armour",
+            "StatlineRef": "Shield-Captain in Allarus Terminator Armour",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "guardian spear",
+                  "balistus grenade launcher"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "guardian spear"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "castellan axe"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Archeotech Teleport-shunter",
+          "Text": "(Once per battle, per unit)\nIn your Movement phase, if this unit is **unengaged** and has not been **selected to move** this phase, you can use this ability. If you do, place this unit in **strategic reserves** and this unit must make an **ingress move** this phase."
+        },
+        {
+          "Title": "Master of the Ka'tahs",
+          "Text": "(Once per battle round, per unit)\nIf this unit is not **readied**, you can use this ability. If you do, this unit is **readied**."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ALLARUS CUSTODIANS",
+          "AQUILON TERMINATORS WITH SOLARITE POWER GAUNTLETS",
+          "AQUILON TERMINATORS WITH SOLARITE POWER TALONS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Terminator",
+        "Shield-Captain",
+        "Infantry",
+        "Imperium",
+        "Character",
+        "Emissaries"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Shield-Captain in Allarus Terminator Armour",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "9"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "balistus grenade launcher",
+              "DisplayName": "Balistus grenade launcher",
+              "Keywords": "Assault, Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "castellan axe",
+              "DisplayName": "Castellan Axe",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "castellan axe",
+              "DisplayName": "Castellan Axe",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "guardian spear",
+              "DisplayName": "Guardian Spear",
+              "Keywords": "Cleave 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 185
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 205
+        }
+      ]
+    },
+    {
+      "Id": "SHIELD-CAPTAIN ON DAWNEAGLE JETBIKE",
+      "DisplayName": "Shield-Captain on Dawneagle Jetbike",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Shield-Captain on Dawneagle Jetbike",
+            "StatlineRef": "Shield-Captain on Dawneagle Jetbike",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "interceptor lance",
+                  "salvo launcher"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "salvo launcher"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hurricane bolter"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Sweeping Advance",
+          "Text": "(Once per battle, per unit)\nAt the end of the Fight phase, if this unit was **eligible to fight** this phase:\n- If this unit is **unengaged**, this unit can make a **normal move**.\n- Or: if this unit is **engaged**, this unit can make a **fall-back move**."
+        },
+        {
+          "Title": "Master of the Ka'tahs",
+          "Text": "(Once per battle round, per unit)\nIf this unit is not **readied**, you can use this ability. If you do, this unit is **readied**."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "GYRFALCON JETBIKE SODALITY",
+          "VERTUS PRAETORS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Mounted",
+        "Character",
+        "Fly",
+        "Shield-Captain",
+        "Emissaries"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Shield-Captain on Dawneagle Jetbike",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "75x42 Oval"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "hurricane bolter",
+              "DisplayName": "Hurricane bolter",
+              "Keywords": "Rapid Fire 3, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "salvo launcher",
+              "DisplayName": "Salvo launcher",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "interceptor lance",
+              "DisplayName": "Interceptor lance",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 205
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 225
+        }
+      ]
+    },
+    {
+      "Id": "TELEMON HEAVY DREADNOUGHT",
+      "DisplayName": "Telemon Heavy Dreadnought",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Telemon Heavy Dreadnought",
+            "StatlineRef": "Telemon Heavy Dreadnought",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "spiculus bolt launcher",
+                  "dual caestus fists",
+                  "twin neutronium cascade projectors",
+                  "twin neutronium cascade projectors"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "dual caestus fists",
+                      "twin neutronium cascade projectors",
+                      "twin neutronium cascade projectors"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "adrathic desolator",
+                          "caestus fist",
+                          "twin neutronium cascade projectors"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "arachnus storm cannon",
+                          "caestus fist",
+                          "twin neutronium cascade projectors"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "iliastus accelerator culverin",
+                          "caestus fist",
+                          "twin neutronium cascade projectors"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Guardian Eternal",
+          "Text": "Ranged attacks that target this unit have -1 D."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Imperium",
+        "Telemon Heavy Dreadnought",
+        "Walker",
+        "Dreadnought",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Telemon Heavy Dreadnought",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "4"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "adrathic desolator",
+              "DisplayName": "Adrathic Desolator",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "arachnus storm cannon",
+              "DisplayName": "Arachnus Storm Cannon",
+              "Keywords": "Devastating Wounds, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "iliastus accelerator culverin",
+              "DisplayName": "Iliastus Accelerator Culverin",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "spiculus bolt launcher",
+              "DisplayName": "Spiculus bolt launcher",
+              "Keywords": "Blast 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin neutronium cascade projectors",
+              "DisplayName": "Twin Neutronium Cascade Projectors",
+              "Keywords": "Blast 1, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "caestus fist",
+              "DisplayName": "Caestus Fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "dual caestus fists",
+              "DisplayName": "Dual Caestus Fists",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "7"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 280
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 310
+        }
+      ]
+    },
+    {
+      "Id": "TRAJANN VALORIS",
+      "DisplayName": "Trajann Valoris",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Trajann Valoris",
+            "StatlineRef": "Trajann Valoris",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "watcher's axe",
+                  "eagle's scream"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Captain-General (Aura)",
+          "Text": "Friendly **ADEPTUS CUSTODES UNITS (EXCLUDING MONSTER/VEHICLE** units) within 6\" of this model can:\n- Re-roll hit rolls of 1\n- Re-roll wound rolls of 1"
+        },
+        {
+          "Title": "Moment Shackle",
+          "Text": "(Once per battle, per army)\nAt the start of any phase, you can select one of the following to take effect until the end of the phase:\n- This model’s Watcher’s Axe weapon has +3 A.\n- This model has 3+ InSv."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ALLARUS CUSTODIANS",
+          "AQUILON TERMINATORS WITH SOLARITE POWER GAUNTLETS",
+          "AQUILON TERMINATORS WITH SOLARITE POWER TALONS",
+          "CUSTODIAN GUARD SODALITY",
+          "CUSTODIAN GUARD SODALITY WITH ADRASITE SPEARS",
+          "CUSTODIAN GUARD SODALITY WITH PYRITHITE SPEARS",
+          "CUSTODIAN WARDENS",
+          "SAGITTARUM CUSTODIANS SODALITY",
+          "SENTINEL GUARD SODALITY"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Trajann Valoris",
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Emissaries"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Deep Strike",
+        "Feel No Pain 5+"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Trajann Valoris",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "eagle's scream",
+              "DisplayName": "Eagle's Scream",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "watcher's axe",
+              "DisplayName": "Watcher's Axe",
+              "Keywords": "Cleave 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 265
+        }
+      ]
+    },
+    {
+      "Id": "VENATARI WITH KINETIC DESTROYERS",
+      "DisplayName": "Venatari with Kinetic Destroyers",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Venatari",
+            "StatlineRef": "Venatari",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "kinetic destroyer",
+                  "tarsis buckler"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Strike from the Skies",
+          "Text": "In your Shooting phase, if this unit made an **ingress move** this turn, this unit's ranged attacks can re-roll **hit rolls**."
+        },
+        {
+          "Title": "Neutronium Cascade Mine",
+          "Text": "(Once per battle, per unit)\nAt the start of any phase, you can select one enemy unit within 3\" of this unit and roll one D6. On a 2+:\n- That enemy unit suffers D3 mortal wounds.\n- Or: if that enemy unit is a VEHICLE/MONSTER unit that enemy unit suffers 2D3 mortal wounds."
+        },
+        {
+          "Title": "Take Wing",
+          "Text": "At the end of your opponent's Fight phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Venatari with Kinetic Destroyers",
+        "Explosives",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Venatari",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "kinetic destroyer",
+              "DisplayName": "Kinetic destroyer",
+              "Keywords": "Assault, Close-quarters, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "tarsis buckler",
+              "DisplayName": "Tarsis buckler",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 255
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 255
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 280
+        }
+      ]
+    },
+    {
+      "Id": "VENATARI WITH VERUTUM LANCES",
+      "DisplayName": "Venatari with Verutum Lances",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Venatari",
+            "StatlineRef": "Venatari",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "verutum lance"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Swift Ruin",
+          "Text": "(Once per phase, per army)\nYou can target this unit with the **Rapid Ingress stratagem** regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
+        },
+        {
+          "Title": "Neutronium Cascade Mine",
+          "Text": "(Once per battle, per unit)\nAt the start of any phase, you can select one enemy unit within 3\" of this unit and roll one D6. On a 2+:\n- That enemy unit suffers D3 mortal wounds.\n- Or: if that enemy unit is a VEHICLE/MONSTER unit that enemy unit suffers 2D3 mortal wounds."
+        },
+        {
+          "Title": "Take Wing",
+          "Text": "At the end of your opponent's Fight phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Imperium",
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Venatari with Kinetic Destroyers",
+        "Explosives",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Venatari",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "verutum lance",
+              "DisplayName": "Verutum Lance",
+              "Keywords": "Assault",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "verutum lance",
+              "DisplayName": "Verutum Lance",
+              "Keywords": "Lance, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 270
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 270
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 300
+        }
+      ]
+    },
+    {
+      "Id": "VERTUS PRAETORS",
+      "DisplayName": "Vertus Praetors",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 3
+            },
+            "ModelName": "Vertus Praetor",
+            "StatlineRef": "Vertus Praetors",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "interceptor lance",
+                  "salvo launcher"
+                ],
+                "Options": [
+                  {
+                    "Max": 3,
+                    "Replaces": [
+                      "salvo launcher"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hurricane bolter"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Quicksilver Execution",
+          "Text": "If this unit made a **charge move** this turn, this unit's melee attacks have [SUSTAINED HITS 1]"
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Fly",
+        "Mounted",
+        "Imperium",
+        "Vertus Praetors",
+        "Emissaries",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Custodes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Vertus Praetors",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "8"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "7"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "75x42 Oval"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "hurricane bolter",
+              "DisplayName": "Hurricane bolter",
+              "Keywords": "Rapid Fire 3, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "salvo launcher",
+              "DisplayName": "Salvo launcher",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "interceptor lance",
+              "DisplayName": "Interceptor lance",
+              "Keywords": "Lance",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 220
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 220
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 240
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 240
+        }
+      ]
+    }
+  ],
+  "Detachments": [
+    {
+      "Name": "Null Maiden Vigil",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Silent Sisterhood",
+        "Text": "- When mustering your army, you can select a friendly **ANATHEMA PSYKANA CHARACTER MODEL TO BE YOUR WARLORD**.\n- Friendly **PROSECUTOR SQUAD UNITS HAVE BATTLELINE**.\n- Friendly **ANATHEMA PSYKANA** units have the Creeping Dread ability."
+      },
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Oblivion Knight",
+          "Description": "This unit's attacks have:\n- +1 to **hit rolls**.\n- Or: If this unit targets a **PSYKER**/**battle-shocked** unit, +1 to **hit rolls** and **wound rolls**.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Huntress' Eye",
+          "Description": "In your Movement phase, you can select one **visible** enemy unit within 12\" of this unit. That unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Auric Champions",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Assemblage of Might",
+        "Text": "In your Command phase, you can select one enemy unit to be a **dreadful foe** unit until the start of your next Command phase. Friendly ^^**Adeptus Custodes Character** models' attacks that target a **dreadful foe** unit have +1 to **wound rolls**."
+      },
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Inspirational Exemplar",
+          "Description": "(Once per battle round, per army) At the start of any phase, you can select one friendly **battle-shocked** ADEPTUS CUSTODES unit within 9\" of the bearer: that unit is no longer **battle-shocked**.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Shroud of the Hidden Blade",
+          "Description": "This model has:\n- **Stealth**\n- **Lone Operative**",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Superior Creation",
+          "Description": "(Once per battle, per army)\nAt the end of a phase in which this model is **destroyed**, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was **destroyed, unengaged** with 3 wounds remaining.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Lions of the Emperor",
+      "Cost": 1,
+      "Rule": {
+        "Title": "On Gilded Wings",
+        "Text": "At the end of your opponent's Fight phase, if a friendly **ADEPTUS CUSTODES TERMINATOR** unit is **unengaged**, you can place that unit in **strategic reserves**."
+      },
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Lightning Descent",
+          "Description": "In your first Movement phase, this unit can make an **ingress move**.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Leonine Ferocity",
+          "Description": "(Once per phase, per army)\nYou can target this unit with the **Rapid Ingress stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Might of the Moritoi",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Moritoi Ancients",
+        "Text": "- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is at **starting strength**, that unit has +2 OC.\n- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is below **starting strength**, that unit's attacks can re-roll **hit rolls** of 1.\nWhile a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is **below half-strength**, that unit's attacks can:\n- Re-roll **hit rolls** of 1.\n- Re-roll **wound rolls** of 1."
+      },
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Memento Moritoi",
+          "Description": "This model's melee attacks have +1 A, S and D.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Augury Uplink",
+          "Description": "This model has **Feel No Pain 5+**.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Guardians of the Throne",
+      "Cost": 3,
+      "Rule": {
+        "Title": "Martial Mastery",
+        "Text": "In the Fight phase, when a friendly **ADEPTUS CUSTODES** unit is **selected to fight**, that unit's melee attacks have:\n- [SUSTAINED HITS 1]\n- Or: [LETHAL HITS]"
+      },
+      "ForceDispositions": [
+        "Priority Assets",
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Bane of Abominations",
+          "Description": "This model's attacks that target an enemy **CHARACTER/MONSTER/VEHICLE** unit have +1 to **wound rolls**.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Emperor's Light",
+          "Description": "",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Castellan's Mark",
+          "Description": "When both players have deployed their armies, you can redeploy up to three friendly **ADEPTUS CUSTODES** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Eagle's Eye",
+          "Description": "- This model has +1 W.\n- (Once per battle, per army) When attacks are allocated to this model, you can use this ability. If you do, this model has 3+ InSv.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Honoured Companions",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Companion's Watch",
+        "Text": "While a friendly **TRUSTED SENTINEL** unit is within range of an **objective**, that unit's attacks can re-roll **wound rolls** of 1."
+      },
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Arae-shrike",
+          "Description": "Enemy units that are selected to make an **ingress move** cannot be set up within 12\" of this unit.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Character"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Celeritous Sentries",
+          "Description": "(Once per phase, per unit)\nYou can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Trusted Sentinel"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Grav-Assault Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Flare Shields",
+        "Text": "Friendly **GRAV-ASSAULT** units have 4+ **InSv** against ranged attacks."
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Combat Deployment",
+          "Description": "When a friendly **ADEPTUS CUSTODES** unit is selected to make a **disembark move** from this unit, until the end of the turn:\n- That unit can re-roll **charge rolls**.\n- Enemy units cannot target that unit with **snap shooting** attacks.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Anti-Gravitic Mobility",
+          "Description": "When this unit makes a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot**.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    }
+  ],
+  "ArmyRules": [
+    {
+      "Title": "Martial Ka'tah",
+      "Text": "At the start of your Command phase, friendly **ADEPTUS CUSTODES** units with this ability are **readied**. While a friendly unit is **readied**, you can select one of the **ka-tah abilities** for that unit to use. If you do, that unit is no longer **readied**.\n\nEach **ka-tah ability** will tell you when that **ka-tah ability** can be used and the effects that **ka-tah ability** has on the unit using it."
+    },
+    {
+      "Title": "Aegis of the Emperor",
+      "Text": "Friendly **ADEPTUS CUSTODES** units with this ability have Feel No Pain 5+ against **mortal wounds**."
+    },
+    {
+      "Title": "Aquila Commander",
+      "Text": "At the start of the battle round, if a model with this ability is your **WARLORD**, gain 1CP."
+    },
+    {
+      "Title": "Daughters of the Abyss",
+      "Text": "- Friendly **ANATHEMA PSYKANA** units with this ability have **Feel No Pain 3+** against **psychic attacks**.\n- Friendly **ANATHEMA PSYKANA** units with this ability have the following ability:\nPsychic Null (Aura): Friendly **ADEPTUS CUSTODES** units within 6\" of this unit have Feel No Pain 5+ against **psychic attacks**."
+    }
+  ]
+}
