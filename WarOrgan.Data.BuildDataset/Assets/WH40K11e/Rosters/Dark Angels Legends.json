@@ -124,7 +124,6 @@
         "Character",
         "Infantry",
         "Imperium",
-        "Adeptus Astartes",
         "Deathwing",
         "Deathwing Strikemaster",
         "Terminator",
@@ -135,7 +134,8 @@
         "Leader"
       ],
       "FactionKeywords": [
-        "Dark Angels"
+        "Dark Angels",
+        "Adeptus Astartes"
       ],
       "StatLines": [
         {
@@ -510,13 +510,13 @@
         "Fly",
         "Ravenwing",
         "Ravenwing Talonmaster",
-        "Adeptus Astartes",
         "Imperium"
       ],
       "CoreAbilities": [
         "Deadly Demise 1"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Dark Angels"
       ],
       "StatLines": [
