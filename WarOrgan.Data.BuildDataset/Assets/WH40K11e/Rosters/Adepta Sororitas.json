@@ -12771,6 +12771,19 @@
       ],
       "Enhancements": [
         {
+          "Name": "Writ of Compunction",
+          "Description": "**CELESTIAN SACRESANTS** unit only. This unit has +1 **OC**.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Celestian Sacresants"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
           "Name": "Perfervid Haste",
           "Description": "This unit has +1\" M.",
           "Cost": 10,
