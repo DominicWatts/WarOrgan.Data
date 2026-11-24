@@ -383,7 +383,7 @@
         },
         {
           "Title": "Siege Captain",
-          "Text": "This model’s attacks that target a **FORTIFICATION/MONSTER/VEHICLE** unit have +2 S, AP and D."
+          "Text": "This model’s attacks that target a FORTIFICATION/MONSTER/VEHICLE unit have +2 S, AP and D."
         }
       ],
       "LeaderInfo": {

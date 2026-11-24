@@ -350,7 +350,7 @@
         },
         {
           "Title": "Prey Adaptation",
-          "Text": "Each time this model's unit is selected to fight, select one of the following abilities to apply to all melee weapons equipped by models in that unit until the end of the phase:\n- **[SUSTAINED HITS 1]**\n- **[LANCE]**\n- **[LETHAL HITS]**"
+          "Text": "Each time this model's unit is selected to fight, select one of the following abilities to apply to all melee weapons equipped by models in that unit until the end of the phase:\n- [SUSTAINED HITS 1]\n- [LANCE]\n- [LETHAL HITS]"
         }
       ],
       "LeaderInfo": {

@@ -31,11 +31,11 @@
       "UnitAbilities": [
         {
           "Title": "Waaagh! Banner",
-          "Text": "This unit has +1 to **charge rolls**."
+          "Text": "This unit has +1 to charge rolls."
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following units:\n- **BOYZ**\n- **NOBZ**"
+          "Text": "This model can be attached to the following units:\n- BOYZ\n- NOBZ"
         }
       ],
       "Infos": [],
@@ -235,11 +235,11 @@
         },
         {
           "Title": "Mobile Fortress",
-          "Text": "Ranged attacks that target this unit have -1 **D**."
+          "Text": "Ranged attacks that target this unit have -1 D."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 22 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models."
+          "Text": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR/JUMP PACK model takes up the space of 2 models. Each GHAZGHKULL THRAKA model takes up the space of 4 models."
         }
       ],
       "Infos": [],
@@ -525,7 +525,7 @@
         },
         {
           "Title": "Mobbed",
-          "Text": "When this unit ends a **charge move**, each enemy **MONSTER/VEHICLE** unit **engaged** with this unit makes a **battle-shock roll**:\n- With -1 to that **battle-shock roll**.\n- <ins>Or:</ins> With -2 to that **battle-shock roll** if this unit has 13+ models."
+          "Text": "When this unit ends a charge move, each enemy MONSTER/VEHICLE unit engaged with this unit makes a battle-shock roll:\n- With -1 to that battle-shock roll.\n- <ins>Or:</ins> With -2 to that battle-shock roll if this unit has 13+ models."
         }
       ],
       "Infos": [],
@@ -870,11 +870,11 @@
         },
         {
           "Title": "Dodge Dis!",
-          "Text": "This unit's attacks have +1 to **hit rolls**."
+          "Text": "This unit's attacks have +1 to hit rolls."
         },
         {
           "Title": "Keep Huntin'! (Once per battle round, per army)",
-          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **BEAST SNAGGA** unit within 6\" of this unit. That unit:\n- Is no longer **battle-shocked**.\n- Is **riled up** until the start of your next turn."
+          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly BEAST SNAGGA unit within 6\" of this unit. That unit:\n- Is no longer battle-shocked.\n- Is riled up until the start of your next turn."
         }
       ],
       "LeaderInfo": {
@@ -1072,15 +1072,15 @@
         },
         {
           "Title": "Thundering Stampede (Aura)",
-          "Text": "Friendly **BEAST SNAGGA** units within 6\" of this unit have +1 to **charge rolls**."
+          "Text": "Friendly BEAST SNAGGA units within 6\" of this unit have +1 to charge rolls."
         },
         {
           "Title": "Boss of da Hunt",
-          "Text": "While this unit is within 3\" of a friendly **BEAST SNAGGA** unit (excluding **MONSTER CHARACTER** units), this unit has **Lone Operative**."
+          "Text": "While this unit is within 3\" of a friendly BEAST SNAGGA unit (excluding MONSTER CHARACTER units), this unit has Lone Operative."
         },
         {
           "Title": "Keep Huntin'! (Once per battle round, per army)",
-          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **BEAST SNAGGA** unit within 6\" of this unit. That unit:\n- Is no longer **battle-shocked**.\n- Is **riled up** until the start of your next turn."
+          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly BEAST SNAGGA unit within 6\" of this unit. That unit:\n- Is no longer battle-shocked.\n- Is riled up until the start of your next turn."
         }
       ],
       "Infos": [],
@@ -1388,11 +1388,11 @@
       "UnitAbilities": [
         {
           "Title": "Shokk-boosta",
-          "Text": "In your Movement phase, when this unit is selected to make an **advance move**, you can use this ability. If you do:\n- This unit can change that **advance roll** to a 6.\n- This unit can move through all types of model.\n- When this unit ends that **advance move**, make a **hazard roll** for each model in this unit."
+          "Text": "In your Movement phase, when this unit is selected to make an advance move, you can use this ability. If you do:\n- This unit can change that advance roll to a 6.\n- This unit can move through all types of model.\n- When this unit ends that advance move, make a hazard roll for each model in this unit."
         },
         {
           "Title": "More Dakka",
-          "Text": "This unit's ranged attacks have:\n- **[IGNORES COVER]**.\n- If this unit is **riled up**, **[SUSTAINED HITS 1]**."
+          "Text": "This unit's ranged attacks have:\n- [IGNORES COVER].\n- If this unit is riled up, [SUSTAINED HITS 1]."
         }
       ],
       "LeaderInfo": {
@@ -1649,11 +1649,11 @@
         },
         {
           "Title": "Even More Dakka",
-          "Text": "If this unit is **riled up**, this unit's ranged attacks have **[SUSTAINED HITS 1]**."
+          "Text": "If this unit is riled up, this unit's ranged attacks have [SUSTAINED HITS 1]."
         },
         {
           "Title": "Blitz Dem Gitz!",
-          "Text": "In your Shooting phase, if this unit's Blitzkannon weapon targets a unit (excluding **MONSTER/VEHICLE** units), that weapon has +6 **A**."
+          "Text": "In your Shooting phase, if this unit's Blitzkannon weapon targets a unit (excluding MONSTER/VEHICLE units), that weapon has +6 A."
         }
       ],
       "Infos": [],
@@ -1921,15 +1921,15 @@
       "UnitAbilities": [
         {
           "Title": "Fix Dat Armour Up (Once per battle, per unit)",
-          "Text": "In your Command phase, this unit **heals** 3 wounds.\n*Place a Grot Oiler token next to the unit, removing it when this ability is used.*"
+          "Text": "In your Command phase, this unit heals 3 wounds.\n*Place a Grot Oiler token next to the unit, removing it when this ability is used.*"
         },
         {
           "Title": "More Dakka",
-          "Text": "This unit's ranged attacks have:\n- **[IGNORES COVER]**.\n- If this unit is **riled up**, **[SUSTAINED HITS 1]**."
+          "Text": "This unit's ranged attacks have:\n- [IGNORES COVER].\n- If this unit is riled up, [SUSTAINED HITS 1]."
         },
         {
           "Title": "Kustom Force Field",
-          "Text": "This unit has 4+ **InSv** against ranged attacks."
+          "Text": "This unit has 4+ InSv against ranged attacks."
         }
       ],
       "LeaderInfo": {
@@ -2327,11 +2327,11 @@
       "UnitAbilities": [
         {
           "Title": "Support Shokka",
-          "Text": "While this model is within 3\" of a friendly **ORKS INFANTRY** unit (excluding **BIG MEK WITH SHOKK ATTACK GUN** units), this model has **Lone Operative**."
+          "Text": "While this model is within 3\" of a friendly ORKS INFANTRY unit (excluding BIG MEK WITH SHOKK ATTACK GUN units), this model has Lone Operative."
         },
         {
           "Title": "More Dakka",
-          "Text": "This unit's ranged attacks have:\n- **[IGNORES COVER]**.\n- If this unit is **riled up**, **[SUSTAINED HITS 1]**."
+          "Text": "This unit's ranged attacks have:\n- [IGNORES COVER].\n- If this unit is riled up, [SUSTAINED HITS 1]."
         }
       ],
       "LeaderInfo": {
@@ -2515,19 +2515,19 @@
       "UnitAbilities": [
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is **engaged** with only **FORTIFICATION** units:\n- That enemy unit can be selected as a target of ranged attacks.\n- When shooting that enemy unit, those ranged attacks have -1 to **hit rolls** (excluding **[CLOSE-QUARTERS** attacks).\n- When that enemy unit is selected to make a **fall-back move**, if that enemy unit if only **engaged** with **FORTIFICATION** units, and that enemy unit is not **battle-shocked**, **hazard rolls** made for that enemy unit are automatically passed."
+          "Text": "While an enemy unit is engaged with only FORTIFICATION units:\n- That enemy unit can be selected as a target of ranged attacks.\n- When shooting that enemy unit, those ranged attacks have -1 to hit rolls (excluding [CLOSE-QUARTERS attacks).\n- When that enemy unit is selected to make a fall-back move, if that enemy unit if only engaged with FORTIFICATION units, and that enemy unit is not battle-shocked, hazard rolls made for that enemy unit are automatically passed."
         },
         {
           "Title": "Raucous Occupants",
-          "Text": "While this model is within range of your **home objective**, add the **OC** of models embarked within this model to this model's **OC**."
+          "Text": "While this model is within range of your home objective, add the OC of models embarked within this model to this model's OC."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 11 **ORKS INFANTRY** models. It cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 11 ORKS INFANTRY models. It cannot transport GHAZGHKULL THRAKA models. Each MEGA ARMOUR/JUMP PACK model takes up the space of 2 models."
         },
         {
           "Title": "Ramshackle Cover",
-          "Text": "When an attack targets a unit that is not **fully visible** to the attacking model because of this unit, the target has the **benefit of cover** against that attack."
+          "Text": "When an attack targets a unit that is not fully visible to the attacking model because of this unit, the target has the benefit of cover against that attack."
         }
       ],
       "Infos": [],
@@ -2723,11 +2723,11 @@
       "UnitAbilities": [
         {
           "Title": "Sumfin’ to Prove",
-          "Text": "This unit's melee attacks have +1 to **hit rolls**."
+          "Text": "This unit's melee attacks have +1 to hit rolls."
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following units:\n- **BOYZ**\n- **BREAKA BOYZ**\n- **NOBZ**"
+          "Text": "This model can be attached to the following units:\n- BOYZ\n- BREAKA BOYZ\n- NOBZ"
         }
       ],
       "Infos": [],
@@ -2899,7 +2899,7 @@
         },
         {
           "Title": "Boom Bomb",
-          "Text": "At the end of your opponent’s Fight phase, select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit, and roll one D6 for that unit:\n- On a 1-3, that enemy unit suffers D3 **mortal wounds**.\n- On a 4-5, that enemy unit suffers 3 **mortal wounds**.\n- On a 6, that enemy unit suffers D3+3 **mortal wounds**."
+          "Text": "At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for that unit:\n- On a 1-3, that enemy unit suffers D3 mortal wounds.\n- On a 4-5, that enemy unit suffers 3 mortal wounds.\n- On a 6, that enemy unit suffers D3+3 mortal wounds."
         }
       ],
       "Infos": [],
@@ -3110,11 +3110,11 @@
         },
         {
           "Title": "Deff from the Shadows (First battle round onwards)",
-          "Text": "At the end of your opponent's Movement phase, if this unit is in **strategic reserves**, this unit can make an **ingress move**."
+          "Text": "At the end of your opponent's Movement phase, if this unit is in strategic reserves, this unit can make an ingress move."
         },
         {
           "Title": "Kunnin’ Infiltrator",
-          "Text": "At the end of your opponent's Fight phase, if each model in this unit is **hidden** and **unengaged**, you can place this unit in **strategic reserves**."
+          "Text": "At the end of your opponent's Fight phase, if each model in this unit is hidden and unengaged, you can place this unit in strategic reserves."
         }
       ],
       "LeaderInfo": {
@@ -3392,15 +3392,15 @@
       "UnitAbilities": [
         {
           "Title": "Never Too Busy to Fight",
-          "Text": "Being **engaged** does not prevent this unit from being **eligible to start an action**."
+          "Text": "Being engaged does not prevent this unit from being eligible to start an action."
         },
         {
           "Title": "Ammo Runts (Once per battle, per unit)",
-          "Text": "In your Shooting phase, when this unit is **selected to shoot**, you can use this ability. If you do, this unit's ranged attacks have +1 to **hit rolls**.\n*Place any number of Ammo Runts tokens next to the unit, removing them when this ability is used.*"
+          "Text": "In your Shooting phase, when this unit is selected to shoot, you can use this ability. If you do, this unit's ranged attacks have +1 to hit rolls.\n*Place any number of Ammo Runts tokens next to the unit, removing them when this ability is used.*"
         },
         {
           "Title": "Tide of Muscle",
-          "Text": "In the Fight phase, if this unit made a charge move this turn, this unit's melee attacks have **[LETHAL HITS]**."
+          "Text": "In the Fight phase, if this unit made a charge move this turn, this unit's melee attacks have [LETHAL HITS]."
         }
       ],
       "Infos": [],
@@ -4111,11 +4111,11 @@
       "UnitAbilities": [
         {
           "Title": "Trophy Hunters",
-          "Text": "This unit has +1 to **charge rolls**."
+          "Text": "This unit has +1 to charge rolls."
         },
         {
           "Title": "Bomb Squig (Once per turn, twice per battle, per unit)",
-          "Text": "In your Movement phase, when this unit ends a **normal move**, you can select one **visible** enemy unit within 12\" of this unit and roll one D6:\n- On a 3+, that enemy unit suffers D3 **mortal wounds**.\n*Place two Bomb Squig tokens next to the unit, removing one each time this ability is used.*"
+          "Text": "In your Movement phase, when this unit ends a normal move, you can select one visible enemy unit within 12\" of this unit and roll one D6:\n- On a 3+, that enemy unit suffers D3 mortal wounds.\n*Place two Bomb Squig tokens next to the unit, removing one each time this ability is used.*"
         }
       ],
       "Infos": [],
@@ -4467,7 +4467,7 @@
         },
         {
           "Title": "Burna Bomb",
-          "Text": "At the end of your opponent’s Fight phase, you can select one **visible** enemy unit (excluding **Lone Operative** and **MONSTER/VEHICLE** units) within 36\" of this unit, and roll one D6 for that units. On a 2+:\n- That enemy unit suffers D3 **mortal wounds**.\n- That enemy unit cannot be **hidden** until the end of your next turn.\n- Ranged attacks that target that enemy unit have **[IGNORES COVER]** until the end of your next turn."
+          "Text": "At the end of your opponent’s Fight phase, you can select one visible enemy unit (excluding Lone Operative and MONSTER/VEHICLE units) within 36\" of this unit, and roll one D6 for that units. On a 2+:\n- That enemy unit suffers D3 mortal wounds.\n- That enemy unit cannot be hidden until the end of your next turn.\n- Ranged attacks that target that enemy unit have [IGNORES COVER] until the end of your next turn."
         }
       ],
       "Infos": [],
@@ -4711,7 +4711,7 @@
         },
         {
           "Title": "Strafing Run",
-          "Text": "In your Shooting phase, this unit's ranged attacks that target a unit (excluding **FLY** units) have +1 to **hit rolls**."
+          "Text": "In your Shooting phase, this unit's ranged attacks that target a unit (excluding FLY units) have +1 to hit rolls."
         }
       ],
       "Infos": [],
@@ -4945,7 +4945,7 @@
         },
         {
           "Title": "Dead 'Ard",
-          "Text": "Attacks that target this unit have -1 **D**."
+          "Text": "Attacks that target this unit have -1 D."
         }
       ],
       "Infos": [],
@@ -5294,11 +5294,11 @@
         },
         {
           "Title": "Get Back in da Race! (Once per battle round, per army)",
-          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **SPEED FREEKS** unit within 6\" of this unit. That unit (and any units embarked within that unit):\n- Is no longer **battle-shocked**.\n- Is **riled up** until the start of your next turn."
+          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly SPEED FREEKS unit within 6\" of this unit. That unit (and any units embarked within that unit):\n- Is no longer battle-shocked.\n- Is riled up until the start of your next turn."
         },
         {
           "Title": "Fuel-mixa Grot",
-          "Text": "This unit has +1 to **advance rolls**."
+          "Text": "This unit has +1 to advance rolls."
         }
       ],
       "LeaderInfo": {
@@ -5613,11 +5613,11 @@
         },
         {
           "Title": "Aerial Manoover",
-          "Text": "At the end of your opponent's Fight phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**."
+          "Text": "At the end of your opponent's Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
         },
         {
           "Title": "Deff from Above",
-          "Text": "In your Shooting phase, if this unit made an **ingress move** this turn, this unit's ranged attacks have +1 to **hit rolls**."
+          "Text": "In your Shooting phase, if this unit made an ingress move this turn, this unit's ranged attacks have +1 to hit rolls."
         }
       ],
       "Infos": [],
@@ -5967,7 +5967,7 @@
       "UnitAbilities": [
         {
           "Title": "Finderz Keeperz",
-          "Text": "In your Shooting phase, if any of the following apply, this unit's ranged attacks have +1 **AP**.\n- This unit is within range of an **objective**.\n- The target of that attack is within range of an **objective**."
+          "Text": "In your Shooting phase, if any of the following apply, this unit's ranged attacks have +1 AP.\n- This unit is within range of an objective.\n- The target of that attack is within range of an objective."
         }
       ],
       "Infos": [],
@@ -6492,19 +6492,19 @@
         },
         {
           "Title": "Supreme Commander",
-          "Text": "If this model is in your army, it must be your **WARLORD**."
+          "Text": "If this model is in your army, it must be your WARLORD."
         },
         {
           "Title": "Makari, Hoist Dat Banner! (Once per battle, per army)",
-          "Text": "In your Movement phase, you can select a number of friendly **ORKS** units equal to or less than the current battle round number. Those units are **riled up** until the start of your next turn.\n*Place one Makari token next to the unit, removing it after this ability is used.*"
+          "Text": "In your Movement phase, you can select a number of friendly ORKS units equal to or less than the current battle round number. Those units are riled up until the start of your next turn.\n*Place one Makari token next to the unit, removing it after this ability is used.*"
         },
         {
           "Title": "Da Grand Warlord's Ladz",
-          "Text": "While this unit is within 3\" of another friendly **ORKS INFANTRY** unit, this unit has **Lone Operative**."
+          "Text": "While this unit is within 3\" of another friendly ORKS INFANTRY unit, this unit has Lone Operative."
         },
         {
           "Title": "Prophet of Da Great Waaagh! (Aura)",
-          "Text": "While a friendly **ORKS** unit is within 6\" of this unit, that unit's melee attacks have:\n- +1 to **hit rolls**.\n- +1 to **wound rolls**."
+          "Text": "While a friendly ORKS unit is within 6\" of this unit, that unit's melee attacks have:\n- +1 to hit rolls.\n- +1 to wound rolls."
         }
       ],
       "Infos": [],
@@ -6754,15 +6754,15 @@
         },
         {
           "Title": "Big an’ Stompy",
-          "Text": "This unit's melee attacks can re-roll **hit rolls** of 1."
+          "Text": "This unit's melee attacks can re-roll hit rolls of 1."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models It cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 12 ORKS INFANTRY models It cannot transport GHAZGHKULL THRAKA models. Each MEGA ARMOUR/JUMP PACK model takes up the space of 2 models."
         },
         {
           "Title": "Gut Hatch",
-          "Text": "In your Movement phase, when this unit ends a **normal move**, units embarked within this unit can make an **assault disembark move**."
+          "Text": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move."
         }
       ],
       "Infos": [],
@@ -7110,11 +7110,11 @@
       "UnitAbilities": [
         {
           "Title": "Downtrodden",
-          "Text": "For the purposes of **transport capacity**, each 2 Gretchin models (rounding up) take up the space of 1 model."
+          "Text": "For the purposes of transport capacity, each 2 Gretchin models (rounding up) take up the space of 1 model."
         },
         {
           "Title": "Thievin’ Scavengers",
-          "Text": "At the end of your Movement phase, if this unit is controlling an **objective**, that **objective** is **secured**."
+          "Text": "At the end of your Movement phase, if this unit is controlling an objective, that objective is secured."
         }
       ],
       "Infos": [],
@@ -7348,11 +7348,11 @@
         },
         {
           "Title": "Mobile Arsenal",
-          "Text": "In your Shooting phase, this unit's ranged attacks can re-roll **hit rolls** of 1."
+          "Text": "In your Shooting phase, this unit's ranged attacks can re-roll hit rolls of 1."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models."
+          "Text": "This model has a transport capacity of 12 ORKS INFANTRY models. Each MEGA ARMOUR/JUMP PACK model takes up the space of 2 models. Each GHAZGHKULL THRAKA model takes up the space of 4 models."
         }
       ],
       "Infos": [],
@@ -7770,15 +7770,15 @@
         },
         {
           "Title": "Tramplasquig Charge",
-          "Text": "When you target this unit with the **Crushing Impact stratagem**, that use is -1 CP."
+          "Text": "When you target this unit with the Crushing Impact stratagem, that use is -1 CP."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 22 **BEAST SNAGGAS INFANTRY** models."
+          "Text": "This model has a transport capacity of 22 BEAST SNAGGAS INFANTRY models."
         },
         {
           "Title": "Fully Loaded Butchery",
-          "Text": "This unit's Butcha Boyz weapon has +2 **A** for each model embarked within this unit (to a maximum of +22 **A**)."
+          "Text": "This unit's Butcha Boyz weapon has +2 A for each model embarked within this unit (to a maximum of +22 A)."
         }
       ],
       "Infos": [],
@@ -8071,11 +8071,11 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 12 **BEAST SNAGGAS INFANTRY** models."
+          "Text": "This model has a transport capacity of 12 BEAST SNAGGAS INFANTRY models."
         },
         {
           "Title": "Wurrboy (psyker level 1)",
-          "Text": "This model has the **psychic abilities** listed in the Psychic Abilities section."
+          "Text": "This model has the psychic abilities listed in the Psychic Abilities section."
         }
       ],
       "Infos": [],
@@ -8415,7 +8415,7 @@
         },
         {
           "Title": "Spiteful Power Trip",
-          "Text": "This unit's attacks that target a unit that has no models with a **T** of 7+ have +1 to **hit rolls**."
+          "Text": "This unit's attacks that target a unit that has no models with a T of 7+ have +1 to hit rolls."
         }
       ],
       "Infos": [],
@@ -8759,19 +8759,19 @@
       "UnitAbilities": [
         {
           "Title": "Found 'Em!",
-          "Text": "In your Movement phase, you can select one enemy unit within 12\" of this unit. That unit has +3\" **detection range** until the end of the turn.\n*Place one Kommando Grot token next to that enemy unit to remind you.*"
+          "Text": "In your Movement phase, you can select one enemy unit within 12\" of this unit. That unit has +3\" detection range until the end of the turn.\n*Place one Kommando Grot token next to that enemy unit to remind you.*"
         },
         {
           "Title": "Taktikal Know-wotz",
-          "Text": "In the Declare Battle Formations step, you can split this unit into two units, each with a **starting strength** of 5. If you do, select which one of those units will have the **Bomb Squig** ability and which one of those units will have the **Found 'Em!** ability."
+          "Text": "In the Declare Battle Formations step, you can split this unit into two units, each with a starting strength of 5. If you do, select which one of those units will have the Bomb Squig ability and which one of those units will have the Found 'Em! ability."
         },
         {
           "Title": "Nowhere to Hide",
-          "Text": "This unit's attacks that target a **hidden** unit have +1 to **hit rolls**."
+          "Text": "This unit's attacks that target a hidden unit have +1 to hit rolls."
         },
         {
           "Title": "Bomb Squig (Once per battle, per unit)",
-          "Text": "In your Movement phase, when this unit ends a **normal move**, you can select one **visible** enemy unit within 12\" of this unit and roll one D6:\n- On a 3+, that enemy unit suffers D3 **mortal wounds**.\n*Place one Bomb Squig token next to the unit, removing it after this ability is used.*"
+          "Text": "In your Movement phase, when this unit ends a normal move, you can select one visible enemy unit within 12\" of this unit and roll one D6:\n- On a 3+, that enemy unit suffers D3 mortal wounds.\n*Place one Bomb Squig token next to the unit, removing it after this ability is used.*"
         }
       ],
       "Infos": [],
@@ -9249,11 +9249,11 @@
       "UnitAbilities": [
         {
           "Title": "Krumpin’ Time",
-          "Text": "In the Fight phase, if this unit is **riled up**, this unit has +1 to **hit rolls**."
+          "Text": "In the Fight phase, if this unit is riled up, this unit has +1 to hit rolls."
         },
         {
           "Title": "Arrogant Invulnerability",
-          "Text": "Attacks that target this unit have -1 **AP**."
+          "Text": "Attacks that target this unit have -1 AP."
         }
       ],
       "Infos": [],
@@ -9635,15 +9635,15 @@
       "UnitAbilities": [
         {
           "Title": "Clever Know-wotz",
-          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **ORKS VEHICLE** model (excluding **AIRCRAFT/TITANIC** models) within 3\" of this model:\n- That **VEHICLE** model **heals** D3 wounds.\n- That **VEHICLE** model's attacks have +1 to **hit rolls** until the start of your next Movement phase."
+          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly ORKS VEHICLE model (excluding AIRCRAFT/TITANIC models) within 3\" of this model:\n- That VEHICLE model heals D3 wounds.\n- That VEHICLE model's attacks have +1 to hit rolls until the start of your next Movement phase."
         },
         {
           "Title": "Kustom Dakka",
-          "Text": "This unit's ranged attacks have **[IGNORES COVER]**."
+          "Text": "This unit's ranged attacks have [IGNORES COVER]."
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following units:\n- **BOYZ**\n- **FLASH GITZ**\n- **MEK GUNZ**\n- **NOBZ**\n- **TANKBUSTAS**"
+          "Text": "This model can be attached to the following units:\n- BOYZ\n- FLASH GITZ\n- MEK GUNZ\n- NOBZ\n- TANKBUSTAS"
         }
       ],
       "Infos": [],
@@ -9854,7 +9854,7 @@
         },
         {
           "Title": "Madcap Artillery",
-          "Text": "In your Shooting phase, when this unit has shot, if all ranged weapons equipped by each Mek Gunz model in this unit are the same, select one enemy unit hit by those attacks. That enemy unit has the ability below that matches that weapon's name until the start of your next turn:\n- **Bubblechukka:** This unit is **wobbled**. While a **wobbled** unit is attacking, its targets have the **benefit of cover** against those attacks.\n- **Kustom Mega-kannon:** This unit is zapped. While a unit is **zapped**, that unit has -1 **Ld**.\n- **Smash Gun:** This unit is **smashed**. While a unit is **smashed**, that unit has -2\" **M**.\n- **Tracktor Kannon:** This unit is **grounded**. While a unit is **grounded**, it cannot **take to the skies**.\n*Place five Grot Crew tokens next to each Mek Gun model, removing one each time its Mek Gun model loses a wound (a Mek Gun model itself is considered to represent its final wound).*"
+          "Text": "In your Shooting phase, when this unit has shot, if all ranged weapons equipped by each Mek Gunz model in this unit are the same, select one enemy unit hit by those attacks. That enemy unit has the ability below that matches that weapon's name until the start of your next turn:\n- Bubblechukka: This unit is wobbled. While a wobbled unit is attacking, its targets have the benefit of cover against those attacks.\n- Kustom Mega-kannon: This unit is zapped. While a unit is zapped, that unit has -1 Ld.\n- Smash Gun: This unit is smashed. While a unit is smashed, that unit has -2\" M.\n- Tracktor Kannon: This unit is grounded. While a unit is grounded, it cannot take to the skies.\n*Place five Grot Crew tokens next to each Mek Gun model, removing one each time its Mek Gun model loses a wound (a Mek Gun model itself is considered to represent its final wound).*"
         }
       ],
       "Infos": [],
@@ -10159,15 +10159,15 @@
         },
         {
           "Title": "Big an’ Shooty",
-          "Text": "In your Shooting phase, this unit's ranged attacks can re-roll **hit rolls** of 1."
+          "Text": "In your Shooting phase, this unit's ranged attacks can re-roll hit rolls of 1."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. In cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 12 ORKS INFANTRY models. In cannot transport GHAZGHKULL THRAKA models. Each MEGA ARMOUR/JUMP PACK model takes up the space of 2 models."
         },
         {
           "Title": "Gut Hatch",
-          "Text": "In your Movement phase, when this unit ends a **normal move**, units embarked within this unit can make an **assault disembark move**."
+          "Text": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move."
         }
       ],
       "Infos": [],
@@ -10489,15 +10489,15 @@
         },
         {
           "Title": "Beast Snagga Following",
-          "Text": "While this unit is within 3\" of a friendly **BEAST SNAGGA** unit (excluding **MONSTER CHARACTER** units), this unit has **Lone Operative**."
+          "Text": "While this unit is within 3\" of a friendly BEAST SNAGGA unit (excluding MONSTER CHARACTER units), this unit has Lone Operative."
         },
         {
           "Title": "One Last Kill",
-          "Text": "In the Fight phase, when this model is **destroyed**, if this unit has not been **selected to fight** this phase, roll one D6:\n- On a 2+, do not remove this model from the battlefield. When this unit has fought, or at the end of the phase (whichever comes first), this model is removed from the battlefield."
+          "Text": "In the Fight phase, when this model is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n- On a 2+, do not remove this model from the battlefield. When this unit has fought, or at the end of the phase (whichever comes first), this model is removed from the battlefield."
         },
         {
           "Title": "Da Bigger Dey Iz…",
-          "Text": "This unit's melee attacks that target a **MONSTER/VEHICLE** unit can re-roll **wounds rolls**."
+          "Text": "This unit's melee attacks that target a MONSTER/VEHICLE unit can re-roll wounds rolls."
         }
       ],
       "Infos": [],
@@ -10742,15 +10742,15 @@
         },
         {
           "Title": "Nazdreg's Know-wotz",
-          "Text": "- This unit has **Deep Strike**\n- This unit's ranged attacks have **[IGNORES COVER]**."
+          "Text": "- This unit has Deep Strike\n- This unit's ranged attacks have [IGNORES COVER]."
         },
         {
           "Title": "Supreme Kunnin' (Once per phase, per army)",
-          "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is **unengaged**, this unit can:\n- Make a **normal move** of up to D6\".\n- <ins>Or:</ins> If this unit is **riled up**, make a **normal move** of up to 5\"."
+          "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can:\n- Make a normal move of up to D6\".\n- <ins>Or:</ins> If this unit is riled up, make a normal move of up to 5\"."
         },
         {
           "Title": "Intimidating Motivation (Once per battle round, per army)",
-          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **ORKS** unit within 6\" of this unit. That unit:\n- Is no longer **battle-shocked**.\n- Is **riled up** until the start of your next turn."
+          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly ORKS unit within 6\" of this unit. That unit:\n- Is no longer battle-shocked.\n- Is riled up until the start of your next turn."
         }
       ],
       "LeaderInfo": {
@@ -11109,15 +11109,15 @@
       "UnitAbilities": [
         {
           "Title": "Ammo Runts (Once per battle, per unit)",
-          "Text": "In your Shooting phase, when this unit is **selected to shoot**, you can use this ability. If you do, this unit's ranged attacks have +1 to **hit rolls**.\n*Place any number of Ammo Runt tokens next to the unit, removing them when this ability is used.*"
+          "Text": "In your Shooting phase, when this unit is selected to shoot, you can use this ability. If you do, this unit's ranged attacks have +1 to hit rolls.\n*Place any number of Ammo Runt tokens next to the unit, removing them when this ability is used.*"
         },
         {
           "Title": "Get Out da Way!",
-          "Text": "While making a **charge move**, this unit can move through models (excluding **MONSTER/VEHICLE** models)."
+          "Text": "While making a charge move, this unit can move through models (excluding MONSTER/VEHICLE models)."
         },
         {
           "Title": "Paired Krumpas",
-          "Text": "Attacks made with this model's Kustom Krumpa weapon can re-roll **hit rolls** and **wound rolls**."
+          "Text": "Attacks made with this model's Kustom Krumpa weapon can re-roll hit rolls and wound rolls."
         }
       ],
       "Infos": [],
@@ -11501,19 +11501,19 @@
         },
         {
           "Title": "Push Dat Bit Back In (Once per battle, per unit)",
-          "Text": "In your Command phase, select one friendly **BEAST SNAGGA** unit within 6\" of this unit. That unit **heals** 3 wounds.\n*Place a Grot Orderly token next to the unit, removing it when this ability is used.*"
+          "Text": "In your Command phase, select one friendly BEAST SNAGGA unit within 6\" of this unit. That unit heals 3 wounds.\n*Place a Grot Orderly token next to the unit, removing it when this ability is used.*"
         },
         {
           "Title": "Runnin' wiv da Herd",
-          "Text": "While this model is attached to a **MOUNTED** unit, this model:\n- Does not have **INFANTRY**.\n- Has **MOBILE** and **MOUNTED**.\n- Has +4\" **M**."
+          "Text": "While this model is attached to a MOUNTED unit, this model:\n- Does not have INFANTRY.\n- Has MOBILE and MOUNTED.\n- Has +4\" M."
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following unit:\n- **BEAST SNAGGA BOYZ**\n- **SQUIGHOG BOYZ**"
+          "Text": "This model can be attached to the following unit:\n- BEAST SNAGGA BOYZ\n- SQUIGHOG BOYZ"
         },
         {
           "Title": "Hardy Bioniks",
-          "Text": "Attacks that target this unit with a **S** greater than this unit's **T** have -1 to **wound rolls**."
+          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
         }
       ],
       "Infos": [],
@@ -11659,15 +11659,15 @@
       "UnitAbilities": [
         {
           "Title": "Crude Surgery",
-          "Text": "In your Command phase, this unit **heals** 3 wounds."
+          "Text": "In your Command phase, this unit heals 3 wounds."
         },
         {
           "Title": "Catch Dat Red Bit (Once per battle, per unit)",
-          "Text": "When this model uses its **Crude Surgery** ability, you can add D3 to the number of wounds **healed**.\n*Place a Grot Orderly token next to the unit, removing it when this ability is used.*"
+          "Text": "When this model uses its Crude Surgery ability, you can add D3 to the number of wounds healed.\n*Place a Grot Orderly token next to the unit, removing it when this ability is used.*"
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following units:\n- **BOYZ**\n- **BREAKA BOYZ**\n- **FLASH GITZ**\n- **NOBZ**\n- **TANKBUSTAS**"
+          "Text": "This model can be attached to the following units:\n- BOYZ\n- BREAKA BOYZ\n- FLASH GITZ\n- NOBZ\n- TANKBUSTAS"
         }
       ],
       "Infos": [],
@@ -11832,7 +11832,7 @@
         },
         {
           "Title": "Squig Barrage",
-          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit (excluding **MONSTER/VEHICLE** units) hit by this unit's Squig Launchas weapons. That enemy unit is **covered in Squigs** until the start of your next turn:\n- While a unit is **covered in Squigs**, that unit's attacks have -1 to **hit rolls**."
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit (excluding MONSTER/VEHICLE units) hit by this unit's Squig Launchas weapons. That enemy unit is covered in Squigs until the start of your next turn:\n- While a unit is covered in Squigs, that unit's attacks have -1 to hit rolls."
         }
       ],
       "Infos": [],
@@ -12042,11 +12042,11 @@
       "UnitAbilities": [
         {
           "Title": "That'll Learn Ya (Once per battle round, per unit)",
-          "Text": "When this unit becomes **battle-shocked**, if this unit contains 4+ Gretchin models, you can roll one D3:\n- That number of Gretchin models in this unit are **destroyed**.\n- That unit is no longer **battle-shocked**."
+          "Text": "When this unit becomes battle-shocked, if this unit contains 4+ Gretchin models, you can roll one D3:\n- That number of Gretchin models in this unit are destroyed.\n- That unit is no longer battle-shocked."
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following units:\n- **GRETCHIN**"
+          "Text": "This model can be attached to the following units:\n- GRETCHIN"
         }
       ],
       "Infos": [],
@@ -12237,11 +12237,11 @@
         },
         {
           "Title": "Brutal Impact",
-          "Text": "If this unit made a **charge move** this turn, this unit's attacks have +1 **D**."
+          "Text": "If this unit made a charge move this turn, this unit's attacks have +1 D."
         },
         {
           "Title": "Bomb Squig (Once per battle, per unit)",
-          "Text": "In your Movement phase, when this unit ends a **normal move**, you can select one **visible** enemy unit within 12\" of this unit and roll one D6:\n- On a 3+, that enemy unit suffers D3 **mortal wounds**.\n*Place one Bomb Squig token next to the unit, removing it after this ability is used.*"
+          "Text": "In your Movement phase, when this unit ends a normal move, you can select one visible enemy unit within 12\" of this unit and roll one D6:\n- On a 3+, that enemy unit suffers D3 mortal wounds.\n*Place one Bomb Squig token next to the unit, removing it after this ability is used.*"
         }
       ],
       "Infos": [],
@@ -12619,15 +12619,15 @@
         },
         {
           "Title": "Waaagh! Effigy",
-          "Text": "This unit is **riled up**."
+          "Text": "This unit is riled up."
         },
         {
           "Title": "Idol of Belligerence",
-          "Text": "In your Movement phase, when a unit embarked within this unit is selected to make a **disembark move**, that unit is **riled up** until the start of your next turn."
+          "Text": "In your Movement phase, when a unit embarked within this unit is selected to make a disembark move, that unit is riled up until the start of your next turn."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 22 **ORKS INFANTRY** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models. Each **GHAZGHKULL THRAKA** model takes up the space of 4 models."
+          "Text": "This model has a transport capacity of 22 ORKS INFANTRY models. Each MEGA ARMOUR/JUMP PACK model takes up the space of 2 models. Each GHAZGHKULL THRAKA model takes up the space of 4 models."
         }
       ],
       "Infos": [],
@@ -12972,7 +12972,7 @@
       "UnitAbilities": [
         {
           "Title": "Rokkit Charge",
-          "Text": "When this unit is **selected to fight**, if this unit made a **charge move** this turn, you can use this ability. If you do, this unit's melee attacks have:\n- +1 **A** and **S**.\n- **[HAZARDOUS]**."
+          "Text": "When this unit is selected to fight, if this unit made a charge move this turn, you can use this ability. If you do, this unit's melee attacks have:\n- +1 A and S.\n- [HAZARDOUS]."
         }
       ],
       "Infos": [],
@@ -13307,15 +13307,15 @@
       "UnitAbilities": [
         {
           "Title": "Rokkit Barrage",
-          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That unit makes a battle-shock roll, with -1 to that battle-shock roll."
         },
         {
           "Title": "Bomb Squig (Once per turn, twice per battle, per unit)",
-          "Text": "In your Movement phase, when this unit ends a **normal move**, you can select one **visible** enemy unit within 12\" of this unit and roll one D6:\n- On a 3+, that enemy unit suffers D3 **mortal wounds**.\n*Place two Bomb Squig tokens next to the unit, removing one each time this ability is used.*"
+          "Text": "In your Movement phase, when this unit ends a normal move, you can select one visible enemy unit within 12\" of this unit and roll one D6:\n- On a 3+, that enemy unit suffers D3 mortal wounds.\n*Place two Bomb Squig tokens next to the unit, removing one each time this ability is used.*"
         },
         {
           "Title": "Pulsa Rokkit (Once per battle, per unit)",
-          "Text": "In your Shooting phase, when this unit is **selected to shoot**, you can select one enemy **MONSTER/VEHICLE** unit within 24\" of this unit. If you do, this unit's attacks that target that unit have:\n- +1 **AP**.\n- **[LETHAL HITS]**."
+          "Text": "In your Shooting phase, when this unit is selected to shoot, you can select one enemy MONSTER/VEHICLE unit within 24\" of this unit. If you do, this unit's attacks that target that unit have:\n- +1 AP.\n- [LETHAL HITS]."
         }
       ],
       "Infos": [],
@@ -13714,11 +13714,11 @@
         },
         {
           "Title": "Pilin' Out",
-          "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this model, units embarked within this model can make a **disembark move** using the **rapid disembark mode**."
+          "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this model, units embarked within this model can make a disembark move using the rapid disembark mode."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a **transport capacity** of 12 **ORKS INFANTRY** models. It cannot transport **GHAZGHKULL THRAKA/JUMP PACK** models. Each **MEGA ARMOUR** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 12 ORKS INFANTRY models. It cannot transport GHAZGHKULL THRAKA/JUMP PACK models. Each MEGA ARMOUR model takes up the space of 2 models."
         }
       ],
       "Infos": [],
@@ -14060,7 +14060,7 @@
         },
         {
           "Title": "High-speed Carnage",
-          "Text": "If this unit made a **charge move** this turn, this unit's melee attacks have:\n- +1 **S** and **D**."
+          "Text": "If this unit made a charge move this turn, this unit's melee attacks have:\n- +1 S and D."
         }
       ],
       "Infos": [],
@@ -14448,15 +14448,15 @@
         },
         {
           "Title": "Might is Right",
-          "Text": "If this unit made a **charge move** this turn, this model's melee attacks have:\n- +3 **A**.\n- +2 **S**."
+          "Text": "If this unit made a charge move this turn, this model's melee attacks have:\n- +3 A.\n- +2 S."
         },
         {
           "Title": "Boss' Ammo Runt (Once per battle, per unit)",
-          "Text": "In your Shooting phase, when this unit is **selected to shoot**, you can use this ability. If you do, this model's ranged attacks have +1 to **hit rolls**.\n*Place a Boss' Ammo Runt token next to the unit, removing it when this ability is used.*"
+          "Text": "In your Shooting phase, when this unit is selected to shoot, you can use this ability. If you do, this model's ranged attacks have +1 to hit rolls.\n*Place a Boss' Ammo Runt token next to the unit, removing it when this ability is used.*"
         },
         {
           "Title": "Intimidating Motivation (Once per battle round, per army)",
-          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **ORKS** unit within 6\" of this unit. That unit:\n- Is no longer **battle-shocked**.\n- Is **riled up** until the start of your next turn."
+          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly ORKS unit within 6\" of this unit. That unit:\n- Is no longer battle-shocked.\n- Is riled up until the start of your next turn."
         }
       ],
       "LeaderInfo": {
@@ -14799,11 +14799,11 @@
         },
         {
           "Title": "Krushin' Impetus",
-          "Text": "When this unit ends a **charge move**, you can select one enemy unit **engaged** with this unit. If you do, roll one D6 for each model in this unit **engaged** with that enemy unit:\n- For each 3+, that enemy unit suffers 1 **mortal wound**."
+          "Text": "When this unit ends a charge move, you can select one enemy unit engaged with this unit. If you do, roll one D6 for each model in this unit engaged with that enemy unit:\n- For each 3+, that enemy unit suffers 1 mortal wound."
         },
         {
           "Title": "Intimidating Motivation (Once per battle round, per army)",
-          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **ORKS** unit within 6\" of this unit. That unit:\n- Is no longer **battle-shocked**.\n- Is **riled up** until the start of your next turn."
+          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly ORKS unit within 6\" of this unit. That unit:\n- Is no longer battle-shocked.\n- Is riled up until the start of your next turn."
         }
       ],
       "LeaderInfo": {
@@ -15016,7 +15016,7 @@
         },
         {
           "Title": "Drive-by Skorchin'",
-          "Text": "In your Movement phase, you can select one **visible** enemy unit (excluding **MONSTER/VEHICLE** units) within 6\" of this unit:\n- That enemy unit cannot be targeted with the **Fire Overwatch stratagem** until the end of the turn."
+          "Text": "In your Movement phase, you can select one visible enemy unit (excluding MONSTER/VEHICLE units) within 6\" of this unit:\n- That enemy unit cannot be targeted with the Fire Overwatch stratagem until the end of the turn."
         }
       ],
       "Infos": [],
@@ -15327,11 +15327,11 @@
         },
         {
           "Title": "Speednob Support",
-          "Text": "While each model in this unit is within 3\" of a friendly **SPEED FREEKS** unit (excluding **WARTRAKK** units), this unit has **Lone Operative**."
+          "Text": "While each model in this unit is within 3\" of a friendly SPEED FREEKS unit (excluding WARTRAKK units), this unit has Lone Operative."
         },
         {
           "Title": "Bust 'Em",
-          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That enemy unit is **busted** until the end of the turn:\n- Friendly **SPEED FREEKS** units' attacks that target a **busted** unit have **[LETHAL HITS]**."
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That enemy unit is busted until the end of the turn:\n- Friendly SPEED FREEKS units' attacks that target a busted unit have [LETHAL HITS]."
         }
       ],
       "Infos": [],
@@ -15580,11 +15580,11 @@
         },
         {
           "Title": "Go fer da Weak Spot",
-          "Text": "In your Shooting phase, this unit's ranged attacks that target a **MONSTER/VEHICLE** unit have +1 to **wound rolls**."
+          "Text": "In your Shooting phase, this unit's ranged attacks that target a MONSTER/VEHICLE unit have +1 to wound rolls."
         },
         {
           "Title": "Blastajet Force Field",
-          "Text": "Models in this unit:\n- Have 5+ **InSv**.\n- Do not have **SMOKE**."
+          "Text": "Models in this unit:\n- Have 5+ InSv.\n- Do not have SMOKE."
         }
       ],
       "Infos": [],
@@ -16147,11 +16147,11 @@
       "UnitAbilities": [
         {
           "Title": "Waaagh! Energy (psyker level 1)",
-          "Text": "This model has the **psychic abilities** listed in the Psychic Abilities section."
+          "Text": "This model has the psychic abilities listed in the Psychic Abilities section."
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following unit:\n- **BEAST SNAGGA BOYZ**\n\n- **BOYZ**"
+          "Text": "This model can be attached to the following unit:\n- BEAST SNAGGA BOYZ\n\n- BOYZ"
         }
       ],
       "Infos": [],
@@ -16324,7 +16324,7 @@
         },
         {
           "Title": "Super Runts",
-          "Text": "- This unit is **riled up**.\n- This unit's Scavenged Shivs weapons have +1 **A**, **WS** and **S**."
+          "Text": "- This unit is riled up.\n- This unit's Scavenged Shivs weapons have +1 A, WS and S."
         }
       ],
       "LeaderInfo": {
@@ -16480,7 +16480,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Get Stuck In",
-        "Text": "Friendly **ORKS** units' melee attacks have **[SUSTAINED HITS 1]**."
+        "Text": "Friendly ORKS units' melee attacks have [SUSTAINED HITS 1]."
       },
       "ForceDispositions": [
         "Take and Hold",
@@ -16490,7 +16490,7 @@
       "Enhancements": [
         {
           "Name": "Da Boss Is Watchin'",
-          "Description": "**ORKS** model only. (Once per battle, per army) In your Movement phase, you can use this ability. If you do, this unit is **riled up** until the start of your next turn.",
+          "Description": "ORKS model only. (Once per battle, per army) In your Movement phase, you can use this ability. If you do, this unit is riled up until the start of your next turn.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16501,7 +16501,7 @@
         },
         {
           "Name": "Headwoppa’s Killchoppa",
-          "Description": "**ORKS** model only. If this unit made a **charge move** this turn, this model's melee attacks have +1 **AP**.",
+          "Description": "ORKS model only. If this unit made a charge move this turn, this model's melee attacks have +1 AP.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16512,7 +16512,7 @@
         },
         {
           "Name": "Kunnin’ But Brutal",
-          "Description": "**ORKS** model only. When this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot/declare a charge**.",
+          "Description": "ORKS model only. When this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot/declare a charge.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16523,7 +16523,7 @@
         },
         {
           "Name": "Follow Me Ladz",
-          "Description": "**ORKS** model only. This unit has +2\" **M**.",
+          "Description": "ORKS model only. This unit has +2\" M.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16540,7 +16540,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Da Hunt Is On",
-        "Text": "Friendly **BEAST SNAGGA** units' attacks that targets a **MONSTER/VEHICLE** unit have +1 **AP**."
+        "Text": "Friendly BEAST SNAGGA units' attacks that targets a MONSTER/VEHICLE unit have +1 AP."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -16549,7 +16549,7 @@
       "Enhancements": [
         {
           "Name": "It Came From Da Drops",
-          "Description": "**BEASTBOSS ON SQUIGOSAUR** model only. This model has +1 **T**.",
+          "Description": "BEASTBOSS ON SQUIGOSAUR model only. This model has +1 T.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16562,7 +16562,7 @@
         },
         {
           "Name": "Glory Hog",
-          "Description": "**BEAST SNAGGA** model only. When this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to declare a charge**.",
+          "Description": "BEAST SNAGGA model only. When this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to declare a charge.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16581,7 +16581,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Try Dat Button!",
-        "Text": "In your Shooting phase or the Fight phase, when a friendly **ORKS WALKER** unit (excluding **TITANIC** units) is **selected to attack**, you can use this ability. If you do, roll either one D6 or two D6 (keep re-rolling duplicate results). This unit's attacks have the relevant rule(s).\n\nIf you rolled two D6, when this unit has attacked, this unit makes one **hazard roll**."
+        "Text": "In your Shooting phase or the Fight phase, when a friendly ORKS WALKER unit (excluding TITANIC units) is selected to attack, you can use this ability. If you do, roll either one D6 or two D6 (keep re-rolling duplicate results). This unit's attacks have the relevant rule(s).\n\nIf you rolled two D6, when this unit has attacked, this unit makes one hazard roll."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -16590,7 +16590,7 @@
       "Enhancements": [
         {
           "Name": "Cybork Boosta",
-          "Description": "**BIG MEK/MEK** model only. This model has +2\" **M**.",
+          "Description": "BIG MEK/MEK model only. This model has +2\" M.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16601,7 +16601,7 @@
         },
         {
           "Name": "Dreadherder",
-          "Description": "**BIG MEK** model only. While this model is within 3\" of a friendly **ORKS WALKER** unit (excluding **BIG MEK** units):\n- This model has **Lone Operative**.\n- In your Shooting phase, you can select one friendly **ORKS WALKER** unit within 3\" of this model. That unit's attacks can re-roll **hit rolls** of 1 until the end of the turn.",
+          "Description": "BIG MEK model only. While this model is within 3\" of a friendly ORKS WALKER unit (excluding BIG MEK units):\n- This model has Lone Operative.\n- In your Shooting phase, you can select one friendly ORKS WALKER unit within 3\" of this model. That unit's attacks can re-roll hit rolls of 1 until the end of the turn.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16620,7 +16620,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Mob-handed Brutality",
-        "Text": "- Friendly **BOYZ** units' melee attacks have **[SUSTAINED HITS 1]**.\n- If a friendly **ORKS INFANTRY** unit made a **charge move** this turn, that unit's melee attacks have **[LETHAL HITS: non-MONSTER/VEHICLE]**."
+        "Text": "- Friendly BOYZ units' melee attacks have [SUSTAINED HITS 1].\n- If a friendly ORKS INFANTRY unit made a charge move this turn, that unit's melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -16629,7 +16629,7 @@
       "Enhancements": [
         {
           "Name": "Ferocious Show-off",
-          "Description": "**ORKS INFANTRY** model only. This model's melee attacks have:\n- +1 **A**.\n- <ins>Or:</ins> If this unit has 11+ models, +2 **A**.",
+          "Description": "ORKS INFANTRY model only. This model's melee attacks have:\n- +1 A.\n- <ins>Or:</ins> If this unit has 11+ models, +2 A.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16642,7 +16642,7 @@
         },
         {
           "Name": "'Ardboyz",
-          "Description": "**BOYZ** unit only. This unit has 4+ **Sv**.",
+          "Description": "BOYZ unit only. This unit has 4+ Sv.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16661,7 +16661,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Displays of Savagery",
-        "Text": "Friendly **MEGANOBZ/NOBZ** units' melee attacks have **[SUSTAINED HITS 1]**."
+        "Text": "Friendly MEGANOBZ/NOBZ units' melee attacks have [SUSTAINED HITS 1]."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -16670,7 +16670,7 @@
       "Enhancements": [
         {
           "Name": "Tellyporta Boss",
-          "Description": "**MEGA ARMOUR** model only. This unit (excluding **VEHICLE** units) has **Deep Strike**.",
+          "Description": "MEGA ARMOUR model only. This unit (excluding VEHICLE units) has Deep Strike.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16683,7 +16683,7 @@
         },
         {
           "Name": "Wimp-kickaz",
-          "Description": "**NOBZ** unit only. When an enemy unit **engaged** with this unit is selected to make a **fall-back move**:\n- That enemy unit must select the **desperate escape** mode.\n- If this unit is **riled up**, that enemy unit has -1 to the **hazard rolls** made for that **desperate escape**.",
+          "Description": "NOBZ unit only. When an enemy unit engaged with this unit is selected to make a fall-back move:\n- That enemy unit must select the desperate escape mode.\n- If this unit is riled up, that enemy unit has -1 to the hazard rolls made for that desperate escape.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16702,7 +16702,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Adrenaline Junkies",
-        "Text": "- Friendly **WARBIKERS** units have **BATTLELINE**.\n- When a friendly **SPEED FREEKS** unit is selected to make an **advance/fall-back move**:\n    - That unit's ranged attacks have **[ASSAULT]** until the end of the turn.\n    - That move does not prevent that unit from being **eligible to declare a charge**."
+        "Text": "- Friendly WARBIKERS units have BATTLELINE.\n- When a friendly SPEED FREEKS unit is selected to make an advance/fall-back move:\n    - That unit's ranged attacks have [ASSAULT] until the end of the turn.\n    - That move does not prevent that unit from being eligible to declare a charge."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -16711,7 +16711,7 @@
       "Enhancements": [
         {
           "Name": "Competitive Streak",
-          "Description": "**DEFFKILLA WARTRIKE** model only. This unit can re-roll **charge rolls**.",
+          "Description": "DEFFKILLA WARTRIKE model only. This unit can re-roll charge rolls.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16724,7 +16724,7 @@
         },
         {
           "Name": "Smoky Gubbinz",
-          "Description": "**SPEED FREEKS** unit only (excluding **AIRCRAFT** units). When an attack targets a unit that is not **fully visible** to the attacking model because of a model in this unit, the target has the **benefit of cover** against that attack.",
+          "Description": "SPEED FREEKS unit only (excluding AIRCRAFT units). When an attack targets a unit that is not fully visible to the attacking model because of a model in this unit, the target has the benefit of cover against that attack.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16743,7 +16743,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Suspiciously Well Organised",
-        "Text": "Friendly **STORMBOYZ** units have **BATTLELINE**.\n- When a friendly **BOYZ/KOMMANDOS/STORMBOYZ** unit is selected to make an **fall‑back move**, that **fall-back move** does not prevent that unit from being **eligible to declare a charge**."
+        "Text": "Friendly STORMBOYZ units have BATTLELINE.\n- When a friendly BOYZ/KOMMANDOS/STORMBOYZ unit is selected to make an fall‑back move, that fall-back move does not prevent that unit from being eligible to declare a charge."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -16752,7 +16752,7 @@
       "Enhancements": [
         {
           "Name": "Kill Kommanda",
-          "Description": "**BIG MEK/WARBOSS INFANTRY** model only. While this unit is part of an attached unit, this model has:\n- **Infiltrators**.\n- **Stealth**.",
+          "Description": "BIG MEK/WARBOSS INFANTRY model only. While this unit is part of an attached unit, this model has:\n- Infiltrators.\n- Stealth.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16765,7 +16765,7 @@
         },
         {
           "Name": "Throat-slittas",
-          "Description": "**KOMMANDOS/STORMBOYZ** unit only. This unit's melee attacks have **[LETHAL HITS: non-MONSTER/VEHICLE]**.",
+          "Description": "KOMMANDOS/STORMBOYZ unit only. This unit's melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE].",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16785,7 +16785,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Unstoppable Momentum",
-        "Text": "- Friendly **WAGON** units can re-roll **charge rolls**.\n- When a friendly **WAGON** unit is selected to make an **advance move**, that unit can change **advance rolls** to a 6."
+        "Text": "- Friendly WAGON units can re-roll charge rolls.\n- When a friendly WAGON unit is selected to make an advance move, that unit can change advance rolls to a 6."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -16794,7 +16794,7 @@
       "Enhancements": [
         {
           "Name": "Targetin' Gizmos",
-          "Description": "**WAGON** unit only. While a **BIG MEK** model is embarked within this unit:\n- This unit's ranged attacks have **[IGNORES COVER]**.\n- If this unit is **riled up**, this unit's ranged attacks have **[SUSTAINED HITS 1]**.",
+          "Description": "WAGON unit only. While a BIG MEK model is embarked within this unit:\n- This unit's ranged attacks have [IGNORES COVER].\n- If this unit is riled up, this unit's ranged attacks have [SUSTAINED HITS 1].",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16807,7 +16807,7 @@
         },
         {
           "Name": "Boss Boomer",
-          "Description": "**WAGON** unit only. While a **WARBOSS** model is embarked within this unit, this unit has that **WARBOSS** model's **Intimidating Motivation/Keep Huntin'** ability.",
+          "Description": "WAGON unit only. While a WARBOSS model is embarked within this unit, this unit has that WARBOSS model's Intimidating Motivation/Keep Huntin' ability.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16826,7 +16826,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Sneaky Little Gitz",
-        "Text": "- Friendly **GRETCHIN** units have **BATTLELINE**.\n- When a friendly **GRETCHIN** unit is selected to make an **advance/fall-back move**, that move does not prevent this unit from being **eligible to start an action**."
+        "Text": "- Friendly GRETCHIN units have BATTLELINE.\n- When a friendly GRETCHIN unit is selected to make an advance/fall-back move, that move does not prevent this unit from being eligible to start an action."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -16835,7 +16835,7 @@
       "Enhancements": [
         {
           "Name": "Minefield Detail",
-          "Description": "**GRETCHIN** unit only. While this unit is not embarked, this unit has Scouts 6\".",
+          "Description": "GRETCHIN unit only. While this unit is not embarked, this unit has Scouts 6\".",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16848,7 +16848,7 @@
         },
         {
           "Name": "Extra Sneaky",
-          "Description": "**GRETCHIN** unit only. This unit has -3\" **detection range**.",
+          "Description": "GRETCHIN unit only. This unit has -3\" detection range.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16867,7 +16867,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Dakka! Dakka! Dakka!",
-        "Text": "Friendly **ORKS INFANTRY** units’ ranged attacks have **[ASSAULT]**.\n- While this unit is **riled up**, +3\" **R**."
+        "Text": "Friendly ORKS INFANTRY units’ ranged attacks have [ASSAULT].\n- While this unit is riled up, +3\" R."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -16876,7 +16876,7 @@
       "Enhancements": [
         {
           "Name": "Supa-glowy Fing",
-          "Description": "**ORKS INFANTRY** model only (excluding **WEIRDBOY** models). This model’s ranged attacks have:\n- **[ANTI-INFANTRY 4+}**\n\n- **[DEVASTATING WOUNDS]**.\n- **[SUPA-HAZARDOUS]**.",
+          "Description": "ORKS INFANTRY model only (excluding WEIRDBOY models). This model’s ranged attacks have:\n- [ANTI-INFANTRY 4+}\n\n- [DEVASTATING WOUNDS].\n- [SUPA-HAZARDOUS].",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16889,7 +16889,7 @@
         },
         {
           "Name": "Targetin' Squigs",
-          "Description": "**BIG MEK/BIGBOSS/WARBOSS** model only. This unit's ranged attacks (excluding **[TORRENT]** attacks) have +3\" **R**.",
+          "Description": "BIG MEK/BIGBOSS/WARBOSS model only. This unit's ranged attacks (excluding [TORRENT] attacks) have +3\" R.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16906,7 +16906,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Wreckin' and Lootin'",
-        "Text": "In your Shooting phase, when a friendly **BREAKA BOYZ/FLASH GITZ/TANKBUSTAS** unit is **selected to shoot**, if any of the following apply, that unit's attacks can re-roll **hit rolls** of 1:\n- That unit is within range of an **objective**.\n- The target of that attack is within range of an **objective**."
+        "Text": "In your Shooting phase, when a friendly BREAKA BOYZ/FLASH GITZ/TANKBUSTAS unit is selected to shoot, if any of the following apply, that unit's attacks can re-roll hit rolls of 1:\n- That unit is within range of an objective.\n- The target of that attack is within range of an objective."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -16915,7 +16915,7 @@
       "Enhancements": [
         {
           "Name": "Kaptin's Hat",
-          "Description": "**BIG MEK/WARBOSS INFANTRY** model only. When both players have deployed their armies, you can redeploy up to three friendly **ORKS INFANTRY** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**.",
+          "Description": "BIG MEK/WARBOSS INFANTRY model only. When both players have deployed their armies, you can redeploy up to three friendly ORKS INFANTRY units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16928,7 +16928,7 @@
         },
         {
           "Name": "Supa-snazz Dakka",
-          "Description": "**FLASH GITZ** unit only. This unit's Snazzgun weapons have **[RAPID FIRE 1]**.",
+          "Description": "FLASH GITZ unit only. This unit's Snazzgun weapons have [RAPID FIRE 1].",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16947,7 +16947,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Unpredictable Genius",
-        "Text": "In your Shooting phase, when all of a friendly **BIG MEK/MEK GUNS/MORKANAUT/WAZBOM BLASTAJET** unit's ranged attacks target a single enemy unit: roll one D6:"
+        "Text": "In your Shooting phase, when all of a friendly BIG MEK/MEK GUNS/MORKANAUT/WAZBOM BLASTAJET unit's ranged attacks target a single enemy unit: roll one D6:"
       },
       "ForceDispositions": [
         "Disruption"
@@ -16956,7 +16956,7 @@
       "Enhancements": [
         {
           "Name": "Mekwaaagh! Mastermind",
-          "Description": "**BIG MEK** model only. This unit is **riled up**.",
+          "Description": "BIG MEK model only. This unit is riled up.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16969,7 +16969,7 @@
         },
         {
           "Name": "Enhanced Runt-maw",
-          "Description": "**BIG MEK WITH SHOKK ATTACK GUN** model only. When this unit has shot, select one enemy unit hit by those attacks. That unit is **infested with Snotlings** until the start of your next turn.\n- While an enemy unit is **infested with Snotlings**, that unit has -1 to **leadership rolls**.",
+          "Description": "BIG MEK WITH SHOKK ATTACK GUN model only. When this unit has shot, select one enemy unit hit by those attacks. That unit is infested with Snotlings until the start of your next turn.\n- While an enemy unit is infested with Snotlings, that unit has -1 to leadership rolls.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16982,7 +16982,7 @@
         },
         {
           "Name": "Temperamental Shokka",
-          "Description": "**BIG MEK WITH SHOKK ATTACK GUN** model only. In your Shooting phase, when this unit is **selected to shoot**, you can roll one D6:\n- On a 1, this model's Shokk Attack Gun weapon has **[TORRENT]**, and when this unit has shot, this model is **destroyed**.\n- On a 2-5, this model's Shokk Attack Gun weapon has +1 **A**.\n- One a 6, this model's Shokk Attack Gun wepon has **SUSTAINED HITS 2]**.",
+          "Description": "BIG MEK WITH SHOKK ATTACK GUN model only. In your Shooting phase, when this unit is selected to shoot, you can roll one D6:\n- On a 1, this model's Shokk Attack Gun weapon has [TORRENT], and when this unit has shot, this model is destroyed.\n- On a 2-5, this model's Shokk Attack Gun weapon has +1 A.\n- One a 6, this model's Shokk Attack Gun wepon has SUSTAINED HITS 2].",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17001,7 +17001,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Skyborne Loons",
-        "Text": "- Friendly **ORKS AIRCRAFT** do not count towards the combined points value of your **strategic reserves** units.\n- While a friendly **ORKS AIRCRAFT/DEFFKOPTAS** unit is **riled up**, this unit's ranged attacks have +1 to **hit rolls**."
+        "Text": "- Friendly ORKS AIRCRAFT do not count towards the combined points value of your strategic reserves units.\n- While a friendly ORKS AIRCRAFT/DEFFKOPTAS unit is riled up, this unit's ranged attacks have +1 to hit rolls."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -17010,7 +17010,7 @@
       "Enhancements": [
         {
           "Name": "Impulsive Recon",
-          "Description": "**ORKS AIRCRAFT** unit only. In your first Movement phase, this unit can make an **ingress move**.",
+          "Description": "ORKS AIRCRAFT unit only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17023,7 +17023,7 @@
         },
         {
           "Name": "Flyboss",
-          "Description": "**ORKS AIRCRAFT** unit only.\n- This unit has **CHARACTER**.\n- When this unit ends an **ingress move**, each friendly **ORKS AIRCRAFT/DEFFKOPTAS** unit within 6\" of this unit is **riled up** until the start of your next turn.",
+          "Description": "ORKS AIRCRAFT unit only.\n- This unit has CHARACTER.\n- When this unit ends an ingress move, each friendly ORKS AIRCRAFT/DEFFKOPTAS unit within 6\" of this unit is riled up until the start of your next turn.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17042,7 +17042,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "'Ard As Nails",
-        "Text": "When a friendly **WARBOSS** model is **destroyed**, if this unit has not been **selected to fight** this phase, roll one D6, with +1 to the roll if your unit is **riled up**:\n- On a 3+, do not remove this **WARBOSS** model from the battlefield. When this unit has fought, or at the end of the phase (whichever comes first), this **WARBOSS** model is removed from the battlefield."
+        "Text": "When a friendly WARBOSS model is destroyed, if this unit has not been selected to fight this phase, roll one D6, with +1 to the roll if your unit is riled up:\n- On a 3+, do not remove this WARBOSS model from the battlefield. When this unit has fought, or at the end of the phase (whichever comes first), this WARBOSS model is removed from the battlefield."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -17051,7 +17051,7 @@
       "Enhancements": [
         {
           "Name": "Brutal But Kunnin'",
-          "Description": "**WARBOSS** model only. This model's melee attacks have +1 **D**.",
+          "Description": "WARBOSS model only. This model's melee attacks have +1 D.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17064,7 +17064,7 @@
         },
         {
           "Name": "Surly As A Squiggoth",
-          "Description": "**INFANTRY WARBOSS** model only. (Once per battle, per army) At the end of phase in which this model is **destroyed**, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was **destroyed**, **unengaged**, with 3 wounds remaining.",
+          "Description": "INFANTRY WARBOSS model only. (Once per battle, per army) At the end of phase in which this model is destroyed, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged, with 3 wounds remaining.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17091,7 +17091,7 @@
         },
         {
           "Name": "Blitzboss",
-          "Description": "**WARBOSS** model only. A **TRANSPORT** unit (excluding **WALKER** units) this unit is embarked within has:\n- +2\" **M**.\n- 5+ **InSv**.",
+          "Description": "WARBOSS model only. A TRANSPORT unit (excluding WALKER units) this unit is embarked within has:\n- +2\" M.\n- 5+ InSv.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17104,7 +17104,7 @@
         },
         {
           "Name": "Proper Killy",
-          "Description": "**WARBOSS** model only. This model can re-roll **hit rolls** of 1.",
+          "Description": "WARBOSS model only. This model can re-roll hit rolls of 1.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17117,7 +17117,7 @@
         },
         {
           "Name": "Morgog's Finkin' Cap",
-          "Description": "**WARBOSS** model only. (Once per battle, per army) At the end of your opponent's Movement phase, if this unit is **unengaged**, this unit can make a **normal move** of:\n- Up to D6\".\n- If this unit is **riled up**, you can re-roll that D6.",
+          "Description": "WARBOSS model only. (Once per battle, per army) At the end of your opponent's Movement phase, if this unit is unengaged, this unit can make a normal move of:\n- Up to D6\".\n- If this unit is riled up, you can re-roll that D6.",
           "Cost": 50,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17136,7 +17136,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Powers of Da Waaagh!",
-        "Text": "Friendly **ORKS PSYKER** models' **[PSYCHIC]** attacks have:\n- +1 **S**.\n- +1 **S** for every 5 models in this unit (or embarked within this model).\n\nFriendly **ORKS PSYKER** models have the **Roar of Mork** and **Visions of Violence psychic abilities**"
+        "Text": "Friendly ORKS PSYKER models' [PSYCHIC] attacks have:\n- +1 S.\n- +1 S for every 5 models in this unit (or embarked within this model).\n\nFriendly ORKS PSYKER models have the Roar of Mork and Visions of Violence psychic abilities"
       },
       "ForceDispositions": [
         "Disruption"
@@ -17145,7 +17145,7 @@
       "Enhancements": [
         {
           "Name": "Warphead",
-          "Description": "**ORKS PSYKER** model only. This model:\n- Has **psyker level 2**.\n- Has **Deadly Demise D6**.\n- Can re-roll **psychic rolls**.",
+          "Description": "ORKS PSYKER model only. This model:\n- Has psyker level 2.\n- Has Deadly Demise D6.\n- Can re-roll psychic rolls.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17193,11 +17193,11 @@
     },
     {
       "Title": "Da Boss",
-      "Text": "At the start of the battle round, if a model with this ability is your **WARLORD**, gain 1CP."
+      "Text": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP."
     },
     {
       "Title": "Unstable Energies",
-      "Text": "**ORKS PSYKER** units with this ability have a **psyker level** of 1 or higher, specified in that unit's abilities. Each **psychic ability** has a **psychic level** of 1 or higher, specified in that ability's name.\nIn a battle round, a friendly **ORKS PSYKER** unit can use a number of **psychic abilities** whose total **psychic level** does not exceed that **PSYKER** unit's **psyker level**."
+      "Text": "ORKS PSYKER units with this ability have a psyker level of 1 or higher, specified in that unit's abilities. Each psychic ability has a psychic level of 1 or higher, specified in that ability's name.\nIn a battle round, a friendly ORKS PSYKER unit can use a number of psychic abilities whose total psychic level does not exceed that PSYKER unit's psyker level."
     }
   ]
 }

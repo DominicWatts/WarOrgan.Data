@@ -1409,7 +1409,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "Infos": [],
@@ -1596,7 +1596,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "Infos": [],
@@ -1851,7 +1851,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "LeaderInfo": {
@@ -2341,7 +2341,7 @@
         },
         {
           "Title": "Daemonic Lord",
-          "Text": "While this model is within 3\" of one or more friendly **LEGIONES DAEMONICA** Infantry units, this model has the Lone Operative ability."
+          "Text": "While this model is within 3\" of one or more friendly LEGIONES DAEMONICA Infantry units, this model has the Lone Operative ability."
         },
         {
           "Title": "Seductive Gambit",
@@ -3164,7 +3164,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "LeaderInfo": {
@@ -3396,7 +3396,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "LeaderInfo": {
@@ -3653,7 +3653,7 @@
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         },
         {
           "Title": "Gloam Rot",
@@ -3955,7 +3955,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "Infos": [],
@@ -4370,7 +4370,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "LeaderInfo": {
@@ -5221,7 +5221,7 @@
         },
         {
           "Title": "Beast Handler",
-          "Text": "While this model is leading a unit, you can re-roll **charge rolls** made for that unit. In addition, once per battle, you can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
+          "Text": "While this model is leading a unit, you can re-roll charge rolls made for that unit. In addition, once per battle, you can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
         },
         {
           "Title": "Seed the Garden of Nurgle",
@@ -6801,7 +6801,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "Infos": [],
@@ -7564,7 +7564,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         },
         {
           "Title": "Daemonic Icon",
@@ -8770,7 +8770,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "Infos": [],
@@ -9657,7 +9657,7 @@
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         },
         {
           "Title": "Murderer's Cowl",
@@ -11809,7 +11809,7 @@
         },
         {
           "Title": "Tormentbringer (Aura)",
-          "Text": "While a friendly **SLAANESH LEGIONS DAEMONICA** unit is within 6\" of this model, melee weapons in that unit have the [SUSTAINED HITS 1] ability."
+          "Text": "While a friendly SLAANESH LEGIONS DAEMONICA unit is within 6\" of this model, melee weapons in that unit have the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Hysterical Frenzy",
@@ -12263,7 +12263,7 @@
         },
         {
           "Title": "Penumbral Puppetry",
-          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+          "Text": "This unit has Stealth. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
         }
       ],
       "Infos": [],
@@ -12672,7 +12672,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Fates in Flux",
-        "Text": "You start the battle with three Flux tokens (we recommend using a dice to track how many Flux tokens you have). You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a LEGIONES DAEMONICA TZEENTCH model or LEGIONES DAEMONICA TZEENTCH unit from your army to re‑roll the result of that roll, throw or test. Flux tokens can also be spent to enhance the effect of some Stratagems. Each time you spend a Flux token, reduce the number of Flux tokens you have by one and your opponent gains one Flux token.\n\n\n Whenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re‑roll the result of that roll or throw. If they do, they reduce the number of Flux tokens they have by one and you gain one Flux token. This is ignored if your opponent has the Fates in Flux Detachment rule.\n\n\nIn your Command phase, if your opponent has one or more Flux tokens, you gain one Flux token.\n\n\n**Designer’s Note**: *When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re‑roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once.*"
+        "Text": "You start the battle with three Flux tokens (we recommend using a dice to track how many Flux tokens you have). You can spend one Flux token just after an Advance roll, Hit roll, Wound roll, Damage roll, saving throw or Hazardous test is made for a LEGIONES DAEMONICA TZEENTCH model or LEGIONES DAEMONICA TZEENTCH unit from your army to re‑roll the result of that roll, throw or test. Flux tokens can also be spent to enhance the effect of some Stratagems. Each time you spend a Flux token, reduce the number of Flux tokens you have by one and your opponent gains one Flux token.\n\n\n Whenever your opponent has one or more Flux tokens, they can spend one Flux token after an Advance roll, Hit roll, Wound roll or saving throw is made for a model or unit from their army, to re‑roll the result of that roll or throw. If they do, they reduce the number of Flux tokens they have by one and you gain one Flux token. This is ignored if your opponent has the Fates in Flux Detachment rule.\n\n\nIn your Command phase, if your opponent has one or more Flux tokens, you gain one Flux token.\n\n\nDesigner’s Note: *When using fast dice rolling, this rule can be used to spend any number of Flux tokens (up to the amount you have), to re‑roll a number of dice up to the amount spent, after rolling multiple rolls or saving throws at once.*"
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -12681,7 +12681,7 @@
       "Enhancements": [
         {
           "Name": "Infernal Puppeteer",
-          "Description": "**LEGIONES DAEMONICA TZEENTCH MONSTER** model only. In your Shooting phase, when this unit is selected to shoot, while an enemy unit is visible to a friendly LEGIONES DAEMONICA TZEENTCH unit, that enemy unit has +9\" detection range until this unit has shot.",
+          "Description": "LEGIONES DAEMONICA TZEENTCH MONSTER model only. In your Shooting phase, when this unit is selected to shoot, while an enemy unit is visible to a friendly LEGIONES DAEMONICA TZEENTCH unit, that enemy unit has +9\" detection range until this unit has shot.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12697,7 +12697,7 @@
         },
         {
           "Name": "Inescapable Eye",
-          "Description": "**LEGIONES DAEMONICA TZEENTCH** model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token.",
+          "Description": "LEGIONES DAEMONICA TZEENTCH model only. In your Command phase, if the bearer is on the battlefield, if your opponent has one or more Flux tokens, you gain one additional Flux token.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12744,7 +12744,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Murdercall",
-        "Text": "In your opponent’s movement phase, each time an enemy unit (excluding AIRCRAFT) ends a move within 8\" of one or more LEGIONES DAEMONICA KHORNE units from your army, one of those **LEGIONES DAEMONICA KHORNE** units can make a surge move of up to D6\".\n\n**Bloodtainted**\n\nAt the end of a phase in which a **LEGIONES DAEMONICA KHORNE** unit from your army destroyed an enemy unit that was within range of an objective marker at the start of the phase, if your unit has a higher Level of Control over that objective marker, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        "Text": "In your opponent’s movement phase, each time an enemy unit (excluding AIRCRAFT) ends a move within 8\" of one or more LEGIONES DAEMONICA KHORNE units from your army, one of those LEGIONES DAEMONICA KHORNE units can make a surge move of up to D6\".\n\n**Bloodtainted**\n\nAt the end of a phase in which a LEGIONES DAEMONICA KHORNE unit from your army destroyed an enemy unit that was within range of an objective marker at the start of the phase, if your unit has a higher Level of Control over that objective marker, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -12961,7 +12961,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Unholy Avalanche",
-        "Text": "If a friendly **LEGIONES DAEMONICA MOUNTED** unit made a **fall‑back move** this turn, that move does not prevent that unit from being **eligible to shoot/eligible to declare a charge**."
+        "Text": "If a friendly LEGIONES DAEMONICA MOUNTED unit made a fall‑back move this turn, that move does not prevent that unit from being eligible to shoot/eligible to declare a charge."
       },
       "ForceDispositions": [
         "Disruption"
@@ -12970,7 +12970,7 @@
       "Enhancements": [
         {
           "Name": "Soul-shattering Charge",
-          "Description": "When this unit is **selected to fight**, if this unit made a **charge move** this turn, you can use this ability. If you do, when determining which models in this unit can fight, friendly models that are within 3\" of enemy units **engaged** with this unit can target those enemy units,",
+          "Description": "When this unit is selected to fight, if this unit made a charge move this turn, you can use this ability. If you do, when determining which models in this unit can fight, friendly models that are within 3\" of enemy units engaged with this unit can target those enemy units,",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -13030,7 +13030,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Shudderblink",
-        "Text": "When a friendly **LEGIONES DAEMONICA BATTLELINE** unit is selected to make an **advance move**:\n- That unit’s ranged attacks have **[ASSAULT]** until the end of the turn.\n- That move does not prevent that unit from being **eligible to declare a charge**."
+        "Text": "When a friendly LEGIONES DAEMONICA BATTLELINE unit is selected to make an advance move:\n- That unit’s ranged attacks have [ASSAULT] until the end of the turn.\n- That move does not prevent that unit from being eligible to declare a charge."
       },
       "ForceDispositions": [
         "Reconnaissance"
