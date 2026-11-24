@@ -3,14 +3,15 @@
 Drafts a WarOrgan roster from a BSData dump: step 1 of the source order in `FACTIONS.md`. The output is a starting point, not a release. Check it against Wahapedia and work through the import report before copying it onto the faction branch.
 
 ```bash
-curl -L -o /tmp/bsdata.zip https://codeload.github.com/momper14/wh40k-11e/zip/f015101d4c495173283e1b97e9d59f2befb877ad
-dotnet run --project WarOrgan.Data.BsdataImport -- --source /tmp/bsdata.zip --catalogue "Genestealer Cults" --out /tmp/bsdata-out
+# Download to the repo root (gitignored as bsdata.zip) if not already present:
+curl -L -o bsdata.zip https://codeload.github.com/momper14/wh40k-11e/zip/f015101d4c495173283e1b97e9d59f2befb877ad
+dotnet run --project WarOrgan.Data.BsdataImport -- --source bsdata.zip --catalogue "Genestealer Cults" --out /tmp/bsdata-out
 ```
 
 Allied rosters take units only, filtered by the detachment's exclusions:
 
 ```bash
-dotnet run --project WarOrgan.Data.BsdataImport -- --source /tmp/bsdata.zip --catalogue "Imperium - Astra Militarum" \
+dotnet run --project WarOrgan.Data.BsdataImport -- --source bsdata.zip --catalogue "Imperium - Astra Militarum" \
   --no-detachments --skip-legends --exclude-keywords "Aircraft;Commissar;Epic Hero;Militarum Tempestus;Ogryn;Ratling;Tech-Priest Enginseer;Ministorum Priest" \
   --out /tmp/bsdata-out
 ```

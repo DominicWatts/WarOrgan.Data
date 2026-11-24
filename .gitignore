@@ -14,3 +14,6 @@ Staging/
 # Source tool reports
 BsdataImport-Output/
 WahapediaCheck-Output/
+
+# Cached local source dumps
+bsdata.zip
