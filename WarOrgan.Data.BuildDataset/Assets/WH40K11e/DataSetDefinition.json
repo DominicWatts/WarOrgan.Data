@@ -196,6 +196,19 @@
           "IsIncludedInPrimaryRoster": true
         }
       ]
+    },
+    {
+      "Name": "Raven Guard",
+      "FactionKeyword": "Raven Guard",
+      "Category": "Imperium",
+      "MainColor": "#26262B",
+      "DarkColor": "#85858F",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
