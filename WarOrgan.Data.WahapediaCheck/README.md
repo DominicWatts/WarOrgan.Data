@@ -1,6 +1,6 @@
 # Wahapedia check
 
-Compares WarOrgan rosters with Wahapedia's 11th Edition pages: step 2 of the source order in `FACTIONS.md`. It writes one Markdown report per roster, listing every difference it finds and which datasheets and detachments matched with none.
+Compares WarOrgan rosters with Wahapedia's 11th Edition pages: step 3 of the source order in `FACTIONS.md`. It writes one Markdown report per roster, listing every difference it finds and which datasheets and detachments matched with none.
 
 ```bash
 dotnet run --project WarOrgan.Data.WahapediaCheck -- --faction-slug genestealer-cults \
@@ -28,7 +28,7 @@ Pages are downloaded once a day into a cache (system temp by default; `--cache` 
 
 Wahapedia is the source of truth, but not every note is a fault. Expected notes include:
 
-- Deliberate dataset choices, such as Hybrid Metamorphs' bio-weapons, settled from the codex.
+- Deliberate dataset choices, such as Hybrid Metamorphs' bio-weapons, which follow Wahapedia's weapon table rather than its equipment line.
 - Wahapedia typos, which appear as text differences.
 - Core ability values the dataset leaves off, such as `Scouts 9"` held as `Scouts`.
 
