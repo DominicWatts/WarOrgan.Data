@@ -122,8 +122,9 @@ BSData offers drones that Wahapedia does not allow, for example guardian drones 
 ### 7. Add builder validation for duplicate weapon IDs within a unit
 
 - **Branch:** `chore/validate-duplicate-weapons`.
-- **Do:** in `WarOrgan.Data.BuildDataset/Validation/`, fail the build when a unit has two weapons with the same `Id` across its weapon sets.
+- **Do:** in `WarOrgan.Data.BuildDataset/Validation/`, fail the build when a unit reuses a weapon `Id` across weapon sets, except a same-named ranged/melee profile pair for one selectable weapon.
 - **Done when:** the check exists, the current dataset still builds, and a deliberately duplicated weapon fails.
+- **Completed:** added the cross-set check, preserving the dataset's intentional ranged/melee profile pairs. The full dataset builds, and an injected duplicate fails validation.
 
 ## Needs the owner (app testing)
 
