@@ -1779,7 +1779,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "WRACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
