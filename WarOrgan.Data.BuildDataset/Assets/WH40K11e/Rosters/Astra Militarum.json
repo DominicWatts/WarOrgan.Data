@@ -23035,32 +23035,30 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "close combat weapon"
+                  "grenadier gauntlet",
+                  "close combat weapon",
+                  "slabshield"
                 ],
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "grenadier gauntlet"
+                    ],
                     "Options": [
                       {
                         "Items": [
                           "bullgryn maul"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "grenadier gauntlet"
                         ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "slabshield"
+                    ],
                     "Options": [
-                      {
-                        "Items": [
-                          "slabshield"
-                        ]
-                      },
                       {
                         "Items": [
                           "brute shield"
@@ -23703,6 +23701,7 @@
                   "enforcer crew",
                   "armoured hull",
                   "chiron gatling cannon",
+                  "aquiline prow",
                   "power sword and manus mortis"
                 ],
                 "Options": []
@@ -23710,7 +23709,13 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "aquiline prow",
+            "DisplayName": "Aquiline prow",
+            "Cost": 0
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -24583,16 +24588,20 @@
         {
           "Title": "Orders",
           "Text": "This unit’s OFFICER can issue up to 2 Orders to REGIMENT or GAUNT’S GHOSTS units."
+        },
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Ibram Gaunt has a 5+ invulnerable save."
         }
       ],
       "Infos": [],
       "Keywords": [
-        "Gaunt’s Ghosts",
         "Imperium",
         "Epic Hero",
+        "Character",
+        "Officer",
         "Infantry",
-        "Grenades",
-        "Other Datasheets"
+        "Grenades"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -27694,6 +27703,7 @@
           "CADIAN SHOCK TROOPS",
           "CATACHAN JUNGLE FIGHTERS",
           "DEATH KORPS OF KRIEG",
+          "DEATH KORPS GRENADIER SQUAD",
           "KASRKIN",
           "KRIEG COMBAT ENGINEERS"
         ],
@@ -27708,7 +27718,6 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Lone Operative",
         "Leader"
       ],
       "FactionKeywords": [
