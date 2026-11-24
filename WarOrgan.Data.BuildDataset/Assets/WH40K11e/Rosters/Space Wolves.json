@@ -4247,6 +4247,477 @@
       ]
     },
     {
+      "Id": "WOLF GUARD TERMINATORS",
+      "DisplayName": "Wolf Guard Terminators",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Wolf Guard Terminator Pack Leader",
+            "StatlineRef": "Wolf Guard Terminator Pack Leader",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "storm bolter",
+                  "master-crafted power weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "storm bolter",
+                      "master-crafted power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin lightning claws"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "relic great axe"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "storm shield",
+                          "master-crafted power weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Wolf Guard Terminator",
+            "StatlineRef": "Wolf Guard Terminator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "storm bolter",
+                  "master-crafted power weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "storm bolter",
+                      "master-crafted power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power fist",
+                          "assault cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "storm bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "storm shield"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "storm shield",
+            "DisplayName": "Storm shield",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Storm Shield"
+            ]
+          },
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Rugged Resilience",
+          "Text": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+        },
+        {
+          "Title": "Storm Shield",
+          "Text": "This model has +1 W."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Wolf Guard Terminators",
+        "Wolf Guard",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Space Wolves"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Wolf Guard Terminator Pack Leader",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Wolf Guard Terminator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "assault cannon",
+              "DisplayName": "Assault Cannon",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "relic great axe",
+              "DisplayName": "Relic Great Axe",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "twin lightning claws",
+              "DisplayName": "Twin lightning claws",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 180
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 365
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 180
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 365
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 220
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 405
+        }
+      ]
+    },
+    {
       "Id": "WOLF PRIEST",
       "DisplayName": "Wolf Priest",
       "Flags": 0,
