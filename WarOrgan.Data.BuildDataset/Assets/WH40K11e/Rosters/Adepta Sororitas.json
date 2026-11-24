@@ -2563,7 +2563,7 @@
         },
         {
           "Title": "Virtue of Intolerance",
-          "Text": "At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the **[PRECISION]** ability and you can re‑roll the Hit roll. This ability can be used even if this unit is embarked within a **TRANSPORT**."
+          "Text": "At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the **[PRECISION]** ability and you can re-roll the Hit roll. This ability can be used even if this unit is embarked within a **TRANSPORT**."
         },
         {
           "Title": "Attached Unit",
@@ -3628,7 +3628,7 @@
         },
         {
           "Title": "Stirring Rhetoric",
-          "Text": "While this model is leading a unit, each time that unit performs an Act of Faith, the value of one of the Miracle dice used in that Act of Faith is first changed to a 6."
+          "Text": "While this model is leading a unit, each time this model’s unit performs an Act of Faith, the value of one of the Miracle dice used in that Act of Faith is first changed to a 6."
         },
         {
           "Title": "Support",
@@ -4775,7 +4775,7 @@
         },
         {
           "Title": "Devastating Refrain",
-          "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, the model's Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of a 6."
+          "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of a 6."
         }
       ],
       "Infos": [],
@@ -8758,7 +8758,7 @@
         },
         {
           "Title": "Storm of Retribution",
-          "Text": "Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more **ADEPTA SORORITAS** units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well."
+          "Text": "Each time a model in this unit makes a ranged attack, that model can re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more **ADEPTA SORORITAS** units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well."
         }
       ],
       "Infos": [],
