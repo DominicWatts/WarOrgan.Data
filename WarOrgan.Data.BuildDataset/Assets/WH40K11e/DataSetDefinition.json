@@ -111,6 +111,13 @@
       "Category": "Imperium",
       "MainColor": "#5E6A78",
       "DarkColor": "#A3B0BE"
+    },
+    {
+      "Name": "Imperial Knights",
+      "FactionKeyword": "Imperial Knights",
+      "Category": "Imperium",
+      "MainColor": "#1F4E79",
+      "DarkColor": "#5F8FBF"
     }
   ],
   "CoreAbilities": [
