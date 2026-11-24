@@ -1,3 +1,5 @@
+2026-11-24 : 1.5.8.0 - Added 52 Wahapedia faction stratagems to the 16 Space Marine detachment rosters, plus Wahapedia stratagem import support.
+
 # Dataset changelog
 
 2026-11-24 : 1.5.7.0 - Space Marine chapters now group the Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets instead of as allies.

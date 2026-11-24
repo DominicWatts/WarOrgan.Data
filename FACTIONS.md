@@ -26,7 +26,7 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Agents of the Imperium | `faction/agents-of-the-imperium` | Draft | done (draft) | - | - | - | 40 | 5 | 16 | - | text only |
 | Grey Knights | `faction/grey-knights` | Draft | done (draft) | - | - | - | 31 | 9 | 30 | - | text only |
 | Imperial Knights | `faction/imperial-knights` | Draft | done (draft) | - | - | - | 22 | 8 | 26 | - | text only |
-| Space Marines | `faction/space-marines` | Draft | done (draft) | - | - | - | 133 | 16 | 32 | - | text only |
+| Space Marines | `faction/space-marines` | Draft | done (draft) | - | - | - | 133 | 16 | 32 | 52/52 added | text only |
 | Black Templars | `faction/black-templars` | Draft | done (draft) | - | - | - | 16 | 18 | 36 | - | text only |
 | Blood Angels | `faction/blood-angels` | Draft | done (draft) | - | - | - | 22 | 19 | 40 | - | text only |
 | Dark Angels | `faction/dark-angels` | Draft | done (draft) | - | - | - | 18 | 19 | 40 | - | text only |
