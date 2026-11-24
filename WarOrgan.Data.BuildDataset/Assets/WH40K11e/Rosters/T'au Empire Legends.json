@@ -167,7 +167,11 @@
             },
             "ModelName": "Aun'va",
             "StatlineRef": "Aun'va",
-            "Keywords": [],
+            "Keywords": [
+              "Character",
+              "Ethereal",
+              "Aun'Va"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -218,8 +222,7 @@
       "Infos": [],
       "Keywords": [
         "Epic Hero",
-        "Non-Kroot",
-        "Other Datasheets"
+        "Non-Kroot"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
