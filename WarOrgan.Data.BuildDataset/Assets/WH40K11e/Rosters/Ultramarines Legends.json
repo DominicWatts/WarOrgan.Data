@@ -54,14 +54,14 @@
         "Character",
         "Infantry",
         "Chaplain Cassius",
-        "Imperium",
-        "Adeptus Astartes"
+        "Imperium"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Ultramarines"
       ],
       "StatLines": [
@@ -232,11 +232,11 @@
         "Character",
         "Epic Hero",
         "Imperium",
-        "Sergeant Chronus",
-        "Adeptus Astartes"
+        "Sergeant Chronus"
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Ultramarines"
       ],
       "StatLines": [
@@ -408,8 +408,7 @@
         "Character",
         "Infantry",
         "Imperium",
-        "Sergeant Telion",
-        "Adeptus Astartes"
+        "Sergeant Telion"
       ],
       "CoreAbilities": [
         "Leader",
@@ -418,6 +417,7 @@
         "Infiltrators"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Ultramarines"
       ],
       "StatLines": [
@@ -649,11 +649,11 @@
         "Grenades",
         "Imperium",
         "Tyrannic War Veterans",
-        "Adeptus Astartes",
         "Other Datasheets"
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Ultramarines"
       ],
       "StatLines": [
@@ -939,12 +939,12 @@
         "Grenades",
         "Imperium",
         "Honor Guard",
-        "Adeptus Astartes",
         "Other Datasheets"
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
-        "Ultramarines"
+        "Ultramarines",
+        "Adeptus Astartes"
       ],
       "StatLines": [
         {
