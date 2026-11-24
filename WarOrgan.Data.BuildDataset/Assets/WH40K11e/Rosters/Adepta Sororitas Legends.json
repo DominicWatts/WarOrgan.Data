@@ -33,6 +33,10 @@
         {
           "Title": "Holy Cover",
           "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
+        },
+        {
+          "Title": "Fortification",
+          "Text": "Enemies engaged only with your FORTIFICATIONS can still be targeted by ranged attacks. Subtract 1 from Hit rolls for those attacks unless they use Pistols. Those enemy models can Fall Back while Battle-shocked without Desperate Escape tests unless they move over enemy models."
         }
       ],
       "Infos": [],
