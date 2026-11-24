@@ -280,23 +280,19 @@
                   "stormhammer cannon",
                   "twin battle cannon",
                   "armoured tracks",
-                  "lascannon"
+                  "lascannon",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser",
+                  "multi-laser"
                 ],
                 "Options": [
                   {
                     "Max": 1,
                     "Options": [
-                      {
-                        "Items": [
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser",
-                          "multi-laser"
-                        ]
-                      },
                       {
                         "Items": [
                           "heavy bolter",
@@ -330,6 +326,15 @@
                           "lascannon"
                         ]
                       }
+                    ],
+                    "Replaces": [
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser",
+                      "multi-laser"
                     ]
                   },
                   {
@@ -2008,7 +2013,7 @@
             },
             {
               "Id": "multi-laser",
-              "DisplayName": "Multi-laser",
+              "DisplayName": "Militarum Multi-laser",
               "Flags": "None",
               "Stats": [
                 {
@@ -2416,6 +2421,14 @@
         {
           "Title": "Trapped by Excuses",
           "Text": "In the Deploy Armies step, you must set this unit up on the battlefield, or embarked within a **TRANSPORT** unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place a unit in **strategic reserves** cannot affect this unit or a **TRANSPORT** unit this unit is embarked within."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 2 Orders to REGIMENT units, limited to Duty and Honour!, Move! Move! Move!, and Take Cover!."
+        },
+        {
+          "Title": "Embarking",
+          "Text": "This model occupies two spaces in a TRANSPORT."
         }
       ],
       "LeaderInfo": {
@@ -3836,6 +3849,10 @@
         {
           "Title": "Political Overwatch",
           "Text": "While another Officer model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can give one REGIMENT unit either Duty and Honour! or Fix Bayonets!."
         }
       ],
       "LeaderInfo": {
@@ -7009,7 +7026,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "4"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
@@ -7027,7 +7044,7 @@
             },
             {
               "Id": "omega-pattern plasma blastgun - supercharged",
-              "DisplayName": "Omega-pattern plasma blastgun - supercharged",
+              "DisplayName": "Omega-pattern plasma blastgun – supercharge",
               "Keywords": "Blast, Hazardous",
               "Flags": "None",
               "Stats": [
@@ -8452,22 +8469,22 @@
                 "InitialWargear": [
                   "demolisher cannon",
                   "malcador twin lascannon",
-                  "autocannon",
-                  "autocannon",
+                  "heavy bolter",
+                  "heavy bolter",
                   "armoured tracks"
                 ],
                 "Options": [
                   {
                     "Max": 1,
                     "Replaces": [
-                      "autocannon",
-                      "autocannon"
+                      "heavy bolter",
+                      "heavy bolter"
                     ],
                     "Options": [
                       {
                         "Items": [
-                          "heavy bolter",
-                          "heavy bolter"
+                          "autocannon",
+                          "autocannon"
                         ]
                       },
                       {
@@ -9315,18 +9332,24 @@
               {
                 "InitialWargear": [
                   "inferno gun",
-                  "heavy bolter",
-                  "heavy bolter",
+                  "heavy stubber",
+                  "heavy stubber",
                   "armoured tracks"
                 ],
                 "Options": [
                   {
                     "Max": 1,
                     "Replaces": [
-                      "heavy bolter",
-                      "heavy bolter"
+                      "heavy stubber",
+                      "heavy stubber"
                     ],
                     "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      },
                       {
                         "Items": [
                           "autocannon",
@@ -9395,7 +9418,6 @@
         "Imperium",
         "Squadron",
         "Smoke",
-        "Malcador",
         "Frame",
         "Other Datasheets",
         "Malcador Infernus"
@@ -10953,7 +10975,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Vehicle",
         "Infantry",
         "Artillery",
         "Imperium",
@@ -11693,7 +11714,7 @@
             },
             {
               "Id": "plasma pistol - supercharged",
-              "DisplayName": "Plasma pistol - supercharged",
+              "DisplayName": "Plasma pistol – supercharge",
               "Keywords": "Hazardous, Rapid Fire 1",
               "Flags": "None",
               "Stats": [
@@ -12125,7 +12146,7 @@
           "Weapons": [
             {
               "Id": "servitor's servo arm",
-              "DisplayName": "Servitor's servo arm",
+              "DisplayName": "Servitor’s servo-arm",
               "Flags": "None",
               "Stats": [
                 {
@@ -13725,7 +13746,7 @@
             },
             {
               "Id": "LD",
-              "Value": "7"
+              "Value": "7+"
             },
             {
               "Id": "OC",
@@ -14742,6 +14763,10 @@
         {
           "Title": "Payback Time",
           "Text": "Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Payback weapon has an Attacks characteristic of 6 and the **[SUSTAINED HITS 3]** ability instead of the **[SUSTAINED HITS 1]** ability."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can give 1 Order to a CATACHAN JUNGLE FIGHTERS unit."
         }
       ],
       "LeaderInfo": {
@@ -15817,7 +15842,9 @@
         "Frame",
         "Other Datasheets"
       ],
-      "CoreAbilities": [],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
       "FactionKeywords": [
         "Astra Militarum"
       ],
@@ -16471,7 +16498,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "4"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
@@ -17694,7 +17721,7 @@
             },
             {
               "Id": "hellstrike missiles",
-              "DisplayName": "Hellstrike missiles",
+              "DisplayName": "Hellstrike missile",
               "Flags": "None",
               "Stats": [
                 {
@@ -18166,7 +18193,7 @@
             },
             {
               "Id": "multiple rocket pods",
-              "DisplayName": "Multiple rocket pods",
+              "DisplayName": "Multiple rocket pod",
               "Keywords": "Blast",
               "Flags": "None",
               "Stats": [
@@ -18349,6 +18376,10 @@
         {
           "Title": "Cold Steel and Courage",
           "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+        },
+        {
+          "Title": "Orders",
+          "Text": "This OFFICER can issue up to 2 Orders to REGIMENT units."
         }
       ],
       "LeaderInfo": {
