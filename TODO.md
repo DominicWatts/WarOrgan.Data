@@ -61,6 +61,13 @@ Done for a faction when: the check report has only expected notes, `FACTIONS.md`
 
 `FACTIONS.md` lists the faction branch and source-layer state for each item.
 
+**Progress notes — 2026-11-24**
+
+- **Tyranids** (`faction/tyranids`, `94da392`): corrected Harridan and Hierophant to Deadly Demise 2D6 and added the Harpooned keyword to the Norn Assimilator's Toxinjector Harpoon. The shared registry now accepts these abilities (`114c8e5`, merged as `4d8af3e`). The check reports 58/62 main-roster entries clean with 5 notes; Legends are 5/5 clean. Remaining notes are the Winged Tyranid Prime's two missing Warrior Leader options, empty starting wargear on spawned Mucolid Spores and Spore Mines, and a Synaptic Nexus wording difference. Checked Vanguard Invader ally records were not changed.
+- **Astra Militarum** (`faction/astra-militarum`, `d26c9d4`, `f377e41`): added source-backed Orders to nine officers, added Sly Marbo's Loner rule, corrected Commissar Graves on Foot's keyword, removed the unsupported Tempestus Aquilons Signal Flares ability and corrected the Hot-shot long-las display name. The check reports 57/83 main-roster entries clean with 51 notes; Legends are 21/61 clean with 87 notes. The checked Brood Brother Auxilia ally records were not changed.
+- **Adepta Sororitas** (`faction/adepta-sororitas`, `6f1705f`): corrected Arco-Flagellants' 10-model points, Insidiants/Paragons/Repentia composition names, the Daemonifuge weapon name, Dominion boltgun keywords and Sanctifiers' size, points and plasma BS. The check reports 12/41 main-roster entries clean with 106 notes; Legends are 0/5 clean with 8 notes.
+- These are incremental corrections only; none of these factions meets the completion criteria above. Keep their Wahapedia status open and continue with the remaining draft differences.
+
 ### 2. Add stratagems for every faction except Genestealer Cults
 
 BSData has no stratagems. Genestealer Cults and ten draft factions now have them; the remaining factions and chapter-specific detachments are still empty.
