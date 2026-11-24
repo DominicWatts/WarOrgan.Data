@@ -34,6 +34,8 @@ Run it from the repository root so it finds `DataSetDefinition.json`, or pass `-
 - Units and detachments from linked libraries (Aeldari, Knights, Daemons) and, for Space Marine chapters, from the Space Marines catalogue. BSData's per-army visibility rules decide which shared detachments each army gets.
 - Weapon keywords in the core rule spellings ("BLAST 2" becomes "Blast 2", "Anti-INFANTRY 4+" becomes "Anti-Infantry 4+"). Keywords still unregistered are dropped and reported, so every draft builds.
 
+- A repair pass for structures the dataset validator rejects: it drops "(ref. only)" profiles, statlines no model uses, empty and zero-limit options and choices offered twice for the same weapon, and makes weapons no option gives out selectable (as swaps for a starting weapon of the same type, or as starting equipment). Each repair is reported, because the result approximates the datasheet.
+
 ## What it leaves to you
 
 - Stratagems (BSData has none) and detachment effects.

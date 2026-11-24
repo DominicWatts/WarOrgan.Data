@@ -1364,6 +1364,199 @@
       ]
     },
     {
+      "Id": "BLUE HORRORS",
+      "DisplayName": "Blue Horrors",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 10,
+              "Max": 10
+            },
+            "ModelName": "Blue Horror",
+            "StatlineRef": "Blue Horror",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "coruscating blue flames",
+                  "blue claws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Split",
+          "Text": "Each time a BLUE HORROR model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one BRIMSTONE HORROR model to this unit."
+        },
+        {
+          "Title": "Sullen Malevolence (Aura)",
+          "Text": "While an enemy unit is within 6\" of this unit, if this unit contains one or more BLUE HORROR models, worsen the Leadership characteristic of models in that enemy unit by 1."
+        },
+        {
+          "Title": "Exploding Horrors",
+          "Text": "Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more BRIMSTONE HORROR models in this unit. For each BRIMSTONE HORROR model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "Title": "Penumbral Puppetry",
+          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Battleline",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Tzeentch Battleline",
+        "Shadow Legion"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Infiltrators",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Blue Horror",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "7+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "coruscating blue flames",
+              "DisplayName": "Coruscating Blue flames",
+              "Keywords": "Pistol, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "blue claws",
+              "DisplayName": "Blue claws",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 125
+        }
+      ]
+    },
+    {
       "Id": "BURNING CHARIOT",
       "DisplayName": "Burning Chariot",
       "Flags": 0,
@@ -1662,7 +1855,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PINK HORRORS",
+          "BLUE HORRORS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -4178,7 +4374,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PINK HORRORS",
+          "BLUE HORRORS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -7320,6 +7519,202 @@
         {
           "ModelCount": 6,
           "Cost": 90
+        }
+      ]
+    },
+    {
+      "Id": "PINK HORRORS",
+      "DisplayName": "Pink Horrors",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 10,
+              "Max": 10
+            },
+            "ModelName": "Pink Horror",
+            "StatlineRef": "Pink Horror",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "coruscating pink flames",
+                  "pink claws"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Split",
+          "Text": "Each time a PINK HORROR or BLUE HORROR model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a PINK HORROR, add two BLUE HORROR models to this unit, and if it was a BLUE HORROR, add one BRIMSTONE HORROR model to this unit."
+        },
+        {
+          "Title": "Horrors are Pink. Horrors are Blue. Where once there was one, now there are two.",
+          "Text": "If, at any point, this unit contains no PINK HORRORS models, use the BLUE HORRORS datasheet for this unit.\n\n\n_Designer’s Note: While this unit contains one or more PINK HORRORS models, the Cackling Horrors and Exploding Horrors abilities from the Blue Horrors datasheet do not apply to this unit._"
+        },
+        {
+          "Title": "Penumbral Puppetry",
+          "Text": "This unit has **Stealth**. Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Daemonic Icon",
+          "Text": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+        },
+        {
+          "Title": "Instrument of Chaos",
+          "Text": "Add 1 to Charge rolls made for the bearer’s unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Battleline",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Tzeentch Battleline",
+        "Shadow Legion"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Legiones Daemonica"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Pink Horror",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "7+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "coruscating pink flames",
+              "DisplayName": "Coruscating Pink flames",
+              "Keywords": "Pistol, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "pink claws",
+              "DisplayName": "Pink claws",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 150
         }
       ]
     },

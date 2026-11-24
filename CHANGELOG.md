@@ -1,5 +1,6 @@
 # Dataset changelog
 
+2026-11-24 : 1.5.3.0 - Added the 40 draft datasheets that were held back, including the Battle Sisters Squad, Space Marine Captain, C'tan Shards and Broadsides, and left out 14 BSData datasheets that no longer exist in 11th Edition.
 2026-11-24 : 1.5.2.0 - Filled Tyranids and Astra Militarum into full factions with unchecked BSData drafts of their remaining datasheets, detachments, enhancements and army rules, keeping the checked allied datasheets unchanged.
 2026-11-24 : 1.5.1.0 - Added the missing enhancements to the draft factions, core abilities such as Damaged and Super-Heavy Walker, and removed Agents and Knights detachments wrongly given to the Space Marine chapters.
 2026-11-24 : 1.5.0.0 - Added unchecked drafts of 31 more factions from the November BSData dump, including each Space Marine chapter, and registered the 11th Edition weapon keywords they use.

@@ -4198,6 +4198,292 @@
       ]
     },
     {
+      "Id": "PTERAXII STERYLIZORS",
+      "DisplayName": "Pteraxii Sterylizors",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Pteraxii Sterylizor Alpha",
+            "StatlineRef": "Pteraxii Sterylizors",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "flechette blaster",
+                  "taser goad",
+                  "pteraxii talons"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Pteraxii Sterylizors",
+            "StatlineRef": "Pteraxii Sterylizors",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "pteraxii talons",
+                  "phosphor torch"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Searing Conflagaration",
+          "Text": "Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker, re-roll a Wound roll of 1. If this unit is also within 6\" of one or more friendly **ADEPTUS MECHANICUS BATTLELINE** units, each time such an attack targets such a unit, you can re-roll the Wound roll instead."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Sterylizors",
+        "Imperium",
+        "Infantry",
+        "Fly",
+        "Jump Pack",
+        "Skitarii",
+        "Pteraxii",
+        "Recon Augury",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Mechanicus"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Pteraxii Sterylizors",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "flechette blaster",
+              "DisplayName": "Flechette blaster",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "phosphor torch",
+              "DisplayName": "Phosphor torch",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "pteraxii talons",
+              "DisplayName": "Pteraxii talons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "taser goad",
+              "DisplayName": "Taser goad",
+              "Keywords": "Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 75
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 75
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 85
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 160
+        }
+      ]
+    },
+    {
       "Id": "SERBERYS RAIDERS",
       "DisplayName": "Serberys Raiders",
       "Flags": 0,

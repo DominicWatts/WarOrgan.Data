@@ -108,5 +108,6 @@ Compare each datasheet line by line with Wahapedia: statline, weapons, abilities
 ## Later
 
 - [x] Draft the remaining 11th Edition factions from BSData, one per `faction/<slug>` branch (1.5.0)
-- [ ] Check each draft faction against Wahapedia and fix its held-back datasheets (see `FACTIONS.md`)
+- [x] Fix the draft factions' held-back datasheets (1.5.3)
+- [ ] Check each draft faction against Wahapedia (see `FACTIONS.md`)
 - [x] Import enhancements for the draft factions whose BSData groups the importer does not find (1.5.1)

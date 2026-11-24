@@ -6608,6 +6608,490 @@
       ]
     },
     {
+      "Id": "SCARAB OCCULT TERMINATORS",
+      "DisplayName": "Scarab Occult Terminators",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Scarab Occult Sorcerer",
+            "StatlineRef": "Scarab Occult Sorcerer",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "force weapon",
+                  "malefic curse",
+                  "inferno combi-bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "inferno combi-bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "prosperine khopesh"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "malefic curse"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hellfyre missile rack"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Scarab Occult Terminator",
+            "StatlineRef": "Scarab Occult Terminator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "inferno combi-bolter",
+                  "prosperine khopesh"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "inferno combi-bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy warpflamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "soulreaper cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "inferno combi-bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hellfyre missile rack"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Rites of Coalescence",
+          "Text": "While this unit contains one or more **PSYKER** models, each time an attack targets this unit, subtract 1 from the\nWound roll."
+        },
+        {
+          "Title": "Mortal Sorcery (Aura)",
+          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Chaos",
+        "Tzeentch",
+        "Scarab Occult",
+        "Rubricae",
+        "Terminator",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Thousand Sons"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Scarab Occult Sorcerer",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Scarab Occult Terminator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy warpflamer",
+              "DisplayName": "Heavy warpflamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hellfyre missile rack",
+              "DisplayName": "Hellfyre missile rack",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "inferno combi-bolter",
+              "DisplayName": "Inferno combi-bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "malefic curse",
+              "DisplayName": "Malefic Curse",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "soulreaper cannon",
+              "DisplayName": "Soulreaper cannon",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "force weapon",
+              "DisplayName": "Force weapon",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "prosperine khopesh",
+              "DisplayName": "Prosperine khopesh",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 200
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 425
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 200
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 425
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 240
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 465
+        }
+      ]
+    },
+    {
       "Id": "SEKHETAR ROBOTS",
       "DisplayName": "Sekhetar Robots",
       "Flags": 0,
@@ -7316,7 +7800,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "SCARAB OCCULT TERMINATORS"
+        ],
         "Features": 0
       },
       "Infos": [],
