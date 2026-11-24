@@ -3140,29 +3140,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 2,
-                    "Options": [
-                      {
-                        "Items": [
-                          "totemic presence upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "totemic presence upgrade",
-            "DisplayName": "Totemic Presence upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
@@ -8579,29 +8563,13 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 1,
-                    "Options": [
-                      {
-                        "Items": [
-                          "trademark weapon upgrade"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": [
-          {
-            "Key": "trademark weapon upgrade",
-            "DisplayName": "Trademark Weapon upgrade",
-            "Cost": 0
-          }
-        ]
+        "WargearDefinitions": []
       },
       "UnitAbilities": [
         {
