@@ -317,6 +317,13 @@
       "Category": "Xenos",
       "MainColor": "#1E6E6E",
       "DarkColor": "#5EB0B0"
+    },
+    {
+      "Name": "Drukhari",
+      "FactionKeyword": "Drukhari",
+      "Category": "Xenos",
+      "MainColor": "#2A4A3A",
+      "DarkColor": "#6E9A84"
     }
   ],
   "CoreAbilities": [
