@@ -275,6 +275,13 @@
       "Category": "Chaos",
       "MainColor": "#6B1F4A",
       "DarkColor": "#B05F8A"
+    },
+    {
+      "Name": "Chaos Knights",
+      "FactionKeyword": "Chaos Knights",
+      "Category": "Chaos",
+      "MainColor": "#3B2F2F",
+      "DarkColor": "#9A7E7E"
     }
   ],
   "CoreAbilities": [
