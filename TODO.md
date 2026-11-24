@@ -25,14 +25,49 @@ The 1.5.x drafts were produced with throwaway scripts that are not in the reposi
 - **Do:** add a `--all` mode (or a small script under `WarOrgan.Data.BsdataImport/`) driven by a committed faction list: name, BSData catalogue, faction keyword, category, colours and, for chapters, `Allies: [{ "FactionKeyword": "Adeptus Astartes", "IsIncludedInPrimaryRoster": true }]`. It should also apply a committed list of retired datasheets (see `FACTIONS.md`), keep hand-fixed datasheets (Crusader Squad, Crusaders, Corsair Voidscarred, Grot Tanks) and, when a roster already exists, add only datasheets whose `Id` it lacks.
 - **Done when:** regenerating any draft faction reproduces its committed roster exactly (apart from deliberate improvements), and the README explains the command.
 
-### 2. Check each draft faction against Wahapedia
+### 2. Check factions against Wahapedia
 
-The biggest remaining job: 31 draft factions plus the draft parts of Tyranids and Astra Militarum. Work one faction at a time on its own branch, and release in batches.
+Check and release each faction on its own `faction/<slug>` branch. Wahapedia wins over BSData. Fix names, statlines, weapons, keywords, abilities, composition, wargear options, points, Leader attachments, Support attachments and detachment differences; work through the importer report and preserve hand fixes.
 
-- **Branch:** `faction/<slug>`.
-- **Do:** run `WarOrgan.Data.WahapediaCheck` on the faction's rosters, then fix every difference that is not an expected note (see that tool's README): names, statlines, weapons and keywords, abilities, composition, wargear options, points, Led By and Supported By. Wahapedia wins over BSData. Pay particular attention to units the importer repaired: their wargear is looser than the datasheet (weapons offered as swaps for any starting weapon of the same type). Regenerate the importer report to see which ones.
-- **Done when:** the check report has only expected notes, `FACTIONS.md` marks layer 2 as done for that faction, and the dataset README's draft line for it moves into the checked coverage.
-- **Suggested order:** Space Marines first (every chapter inherits its datasheets), then the most-played armies.
+Done for a faction when: the check report has only expected notes, `FACTIONS.md` marks Wahapedia layer 2 as done, and the dataset README moves it from Draft coverage to checked coverage.
+
+**Priority**
+
+- [ ] Tyranids — remaining draft datasheets and detachments, while keeping the checked Vanguard Invader allies
+- [ ] Astra Militarum — remaining draft datasheets and detachments, while keeping the checked Brood Brother Auxilia allies
+- [ ] Adepta Sororitas
+- [ ] Adeptus Custodes
+- [ ] Adeptus Mechanicus
+- [ ] Agents of the Imperium
+- [ ] Grey Knights
+- [ ] Imperial Knights
+- [ ] Space Marines
+- [ ] Black Templars
+- [ ] Blood Angels
+- [ ] Dark Angels
+- [ ] Deathwatch
+- [ ] Imperial Fists
+- [ ] Iron Hands
+- [ ] Raven Guard
+- [ ] Salamanders
+- [ ] Space Wolves
+- [ ] Ultramarines
+- [ ] White Scars
+- [ ] Chaos Space Marines
+- [ ] Chaos Daemons
+- [ ] Chaos Knights
+- [ ] Death Guard
+- [ ] Emperor's Children
+- [ ] Thousand Sons
+- [ ] World Eaters
+- [ ] Aeldari
+- [ ] Drukhari
+- [ ] Leagues of Votann
+- [ ] Necrons
+- [ ] Orks
+- [ ] T'au Empire
+
+`FACTIONS.md` lists the faction branch and source-layer state for each item.
 
 ### 3. Add stratagems for every faction except Genestealer Cults
 
