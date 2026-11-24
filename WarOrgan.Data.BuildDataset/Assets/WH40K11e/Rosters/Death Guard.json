@@ -7826,7 +7826,60 @@
         "Purge the Foe"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Daemon Weapon of Nurgle",
+          "Description": "Each time the bearer makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Furnace of Plagues",
+          "Description": "Add 1 to the Strength and Attacks characteristics of the bearer's melee weapons, and the bearer's melee weapons have the Devastating Wounds abilty.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Revolting Regeneration",
+          "Description": "The bearer has the Feel No Pain 5+ ability.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Arch Contaminator",
+          "Description": "While the bearer's unit is within range of an objective marker you control, each time a model in the bearer's unit makes an attack, you can re-roll the Wound roll.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7840,7 +7893,60 @@
         "Disruption"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Lord of the Walking Pox",
+          "Description": "If the bearer is leading a **POXWALKERS** unit, and is in Strategic Reserves, for the purposes of setting up that unit on the battlefield, treat the current battle round as the third battle round.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Talisman of Burgeoning",
+          "Description": "While the bearer is leading a **POXWALKERS UNIT, ADD 1 TO THE TOUGHNESS CHARACTERISTIC OF POXWALKERS** models in that unit.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Witherbone Pipes",
+          "Description": "While the bearer is leading a **POXWALKERS** unit, add 1 to the Objective Control characteristic of models in that unit, and each time that unit takes a Battle-shock or Leadership test, add 1 to that test.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Noxious Blightbringer"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Sorrowsyphon",
+          "Description": "While the bearer is leading a **POXWALKERS** unit, add 1 to the Damage characteristic of the bearer's Plague Wind weapon. Each time the bearer makes one or more attacks with a Plague Wind weapon, after the bearer's unit has resolved its attacks, D3 Bodyguard models from the bearer's unit are destroyed.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Malignant Plaguecaster"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7854,7 +7960,60 @@
         "Priority Assets"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Face of Death",
+          "Description": "At the start of the Fight phase, each enemy unit within Engagement Range of the bearer's unit must take a Battle-shock test.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Vile Vigour",
+          "Description": "While the bearer is leading a unit, add 1\" to the Movement characteristics of models in that unit and you can re-roll Advance rolls made for that unit.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Warprot Talisman",
+          "Description": "Once per battle, at the end of your opponent's turn, if the bearer's unit is not within Engagement Range of one or more enemy units, you can remove it from the battle field and place it into Strategic Reserves.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Helm of the Fly King ",
+          "Description": "While the bearer is leading a unit, models in that unit cannot be targeted by ranged attacks unless the attacking model is within 18\".",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7868,7 +8027,60 @@
         "Purge the Foe"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Eye of Affliction",
+          "Description": "Ranged weapons equipped by model's in the bearer's unit have the [Ignores Cover] ability while targeting an Afflicted enemy unit.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Bilemaw Blight",
+          "Description": "At the start of your Shooting phase, until the end of the phase, add 12\" to the Range characteristics of the bearer's Plague Wind weapon.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Malignant Plaguecaster"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Shriekworm Familiar",
+          "Description": "Once per battle round, you can target the bearer's unit with the Fire Overwatch Stratagem for 0CP.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tendrilous Emissions",
+          "Description": "While the bearer is within 3\" of one or more friendly **DEATH GUARD VEHICLE UNITS, THE BEARER HAS THE LONE OPERATIVE ABILITY, AND EACH TIME ONE OF THOSE VEHICLE** units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Lord of Virulence"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7882,7 +8094,60 @@
         "Take and Hold"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Final Ingredient",
+          "Description": "Once per battle, after the bearer's unit has fought, if one or more **CHARACTER** models were destroyed by those attacks, select one Plague. Until the end of the battle, if an enemy unit is Afflicted, that unit has the effect of the selected Plague in addition to any other.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Biologus Putrifier"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Visions of Virulence",
+          "Description": "While an enemy unit is enfeebled by the bearer's Pestilent Fallout ability, that unit is also Afflicted.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Malignant Plaguecaster"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Needle of Nurgle",
+          "Description": "Each time the bearer uses its Tainted Narthecium ability, you can return up to D3 destroyed models to the bearer's unit (instead of 1).",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Plague Surgeon"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Cornucophagus",
+          "Description": "In the Declare Battle Formations step, select one Plague. Until the end of the battle, while an enemy is within Contagion Range of the bearer, that enemy unit has the effect of that Plague in addition to any other.",
+          "Cost": 35,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Lord of Poxes"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7896,7 +8161,60 @@
         "Disruption"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Beckoning Blight",
+          "Description": "Each time a **PLAGUE LEGIONS** unit from your army is set up on the battle field using the Deep Strike ability, if it is set up wholly within 12\" of the bearer, it can be set up anywhere that is more than 6\" horizontally away from any enemy models, instead of more than 8\".",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Fell Harvester",
+          "Description": "Add 2 to the Attacks characteristic of the bearer's melee weapons.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Faction: Death Guard"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Entropic Knell",
+          "Description": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 6\" of the bearer that is below its Starting Strength must take a Battle-shock test, subtracting 1 from that test.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Great Unclean One"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tome of Bounteous Blessings",
+          "Description": "Each time a **PLAGUE LEGIONS** unit within 12\" of the bearer takes a Battle-shock test, add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a **BATTLELINE** unit and that test is passed, up to D3 destroyed models can be returned to that unit instead).",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Malignant Plaguecaster"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7924,7 +8242,36 @@
         "Priority Assets"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Host of the Hybridised Pox",
+          "Description": "(Once per battle, per army) In your Command phase, you can use this ability. If you do, select one of the **Plagues** listed in **Nurgle’s Gift** (see Codex: Death Guard). Enemy units within **Contagion Range** of this unit also have the effect of that **Plague** in addition to your army’s chosen **Plague** until the end of the battle.",
+          "Cost": 40,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Rejuvenating Swarm",
+          "Description": "Attacks that target this unit with a **S** greater than this unit’s **T** have ‑1 to **wound rolls**.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Terminator"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],
