@@ -14,9 +14,24 @@ public static class TextUtils
         var result = text.Replace('\u00a0', ' ').Replace("\r\n", "\n");
         result = Regex.Replace(result, @"\*\*\^\^(.+?)\^\^\*\*", m => m.Groups[1].Value.ToUpperInvariant());
         result = Regex.Replace(result, @"\^\^(.+?)\^\^", m => m.Groups[1].Value.ToUpperInvariant());
+        result = CleanInlineAsterisks(result);
         result = Regex.Replace(result, @"^■\s*", "- ", RegexOptions.Multiline);
         result = Regex.Replace(result, @"[ \t]+\n", "\n");
         return result.Trim();
+    }
+
+    private static string CleanInlineAsterisks(string text)
+    {
+        var lines = text.Split('\n');
+        for (var i = 0; i < lines.Length; i++)
+        {
+            var line = lines[i];
+            if (Regex.IsMatch(line, @"^\s*\*\*[^*]+\*\*\s*$"))
+                continue;
+
+            lines[i] = Regex.Replace(line, @"\*\*([^*]+?)\*\*", "$1").Replace("**", string.Empty);
+        }
+        return string.Join("\n", lines);
     }
 
     /// <summary>Weapon and wargear display names without BSData's "➤" profile markers.</summary>

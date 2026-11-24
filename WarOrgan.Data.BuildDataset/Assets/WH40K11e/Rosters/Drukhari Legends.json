@@ -90,7 +90,7 @@
         },
         {
           "Title": "Goaded Savagery (Pain)",
-          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While this unit is Empowered, if it contains a **BEASTMASTER MODEL, EACH TIME A BEAST** model in this unit makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While this unit is Empowered, if it contains a BEASTMASTER MODEL, EACH TIME A BEAST model in this unit makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
         }
       ],
       "Infos": [],
@@ -529,15 +529,15 @@
         },
         {
           "Title": "Court of the Archon",
-          "Text": "While a **CHARACTER MODEL IS LEADING A UNIT THAT CONTAINS ONE OR MORE LHAMAEAN, MEDUSAE, SSLYTH AND/OR UR-GHUL MODELS, THAT CHARACTER** model has the Feel No Pain 4+ ability."
+          "Text": "While a CHARACTER MODEL IS LEADING A UNIT THAT CONTAINS ONE OR MORE LHAMAEAN, MEDUSAE, SSLYTH AND/OR UR-GHUL MODELS, THAT CHARACTER model has the Feel No Pain 4+ ability."
         },
         {
           "Title": "Deadly Retinue (Pain)",
-          "Text": "At the start of your Shooting phase or at the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While this unit is Empowered:\n- If it contains one or more Lhamaean models, melee weapons equipped by models in this unit have the **[LETHAL HITS]** ability.\n- If it contains one or more Medusae models, ranged weapons equipped by models in this unit have the **[IGNORES COVER]** ability.\n- If it contains one or more Sslyth models, each time a melee attack targets this unit, subtract 1 from the Wound roll.\n- If this unit contains one or more Ur-ghul models, this unit has the Fights First ability."
+          "Text": "At the start of your Shooting phase or at the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While this unit is Empowered:\n- If it contains one or more Lhamaean models, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.\n- If it contains one or more Medusae models, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.\n- If it contains one or more Sslyth models, each time a melee attack targets this unit, subtract 1 from the Wound roll.\n- If this unit contains one or more Ur-ghul models, this unit has the Fights First ability."
         },
         {
           "Title": "Court of the Archon [Legends]",
-          "Text": "This unit can be led by an **ARCHON. ALTERNATIVELY, IN THE DECLARE BATTLE FORMATIONS STEP, THIS UNIT CAN JOIN ONE KABALITE WARRIORS OR HAND OF THE ARCHON UNIT FROM YOUR ARMY THAT IS BEING LED BY AN ARCHON (A UNIT CANNOT HAVE MORE THAN ONE COURT OF THE ARCHON UNIT JOINED TO IT). IF IT DOES, UNTIL THE END OF THE BATTLE, EVERY MODEL IN THIS UNIT COUNTS AS PART OF THAT KABALITE WARRIORS OR HAND OF THE ARCHON** unit, and its Starting Strength is increased accordingly."
+          "Text": "This unit can be led by an ARCHON. ALTERNATIVELY, IN THE DECLARE BATTLE FORMATIONS STEP, THIS UNIT CAN JOIN ONE KABALITE WARRIORS OR HAND OF THE ARCHON UNIT FROM YOUR ARMY THAT IS BEING LED BY AN ARCHON (A UNIT CANNOT HAVE MORE THAN ONE COURT OF THE ARCHON UNIT JOINED TO IT). IF IT DOES, UNTIL THE END OF THE BATTLE, EVERY MODEL IN THIS UNIT COUNTS AS PART OF THAT KABALITE WARRIORS OR HAND OF THE ARCHON unit, and its Starting Strength is increased accordingly."
         }
       ],
       "Infos": [],
@@ -886,11 +886,11 @@
         },
         {
           "Title": "Monstrous Hulks",
-          "Text": "This unit cannot embark within a **VENOM, BUT IT CAN EMBARK WITHIN OTHER DRUKHARI TRANSPORTS; WHEN DOING SO, EACH GROTESQUE** model takes up the space of 3 models."
+          "Text": "This unit cannot embark within a VENOM, BUT IT CAN EMBARK WITHIN OTHER DRUKHARI TRANSPORTS; WHEN DOING SO, EACH GROTESQUE model takes up the space of 3 models."
         },
         {
           "Title": "Macro-steroids (Pain)",
-          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While Empowered, melee weapons equipped by models in this unit have a Strength characteristic of 8 and the **[LETHAL HITS]** ability."
+          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While Empowered, melee weapons equipped by models in this unit have a Strength characteristic of 8 and the [LETHAL HITS] ability."
         },
         {
           "Title": "Monstrous Charge",
@@ -1109,7 +1109,7 @@
         },
         {
           "Title": "Ground-attack Craft",
-          "Text": "Each time a model in this unit makes a ranged attack that targets an enemy unit  (excluding unit that can **FLY**), add 1 to the Hit roll."
+          "Text": "Each time a model in this unit makes a ranged attack that targets an enemy unit  (excluding unit that can FLY), add 1 to the Hit roll."
         },
         {
           "Title": "Shredding Fire (Pain)",
@@ -1333,7 +1333,7 @@
         },
         {
           "Title": "Electromagnetic Cascade (Pain)",
-          "Text": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered:\n- Each time this model makes a ranged attack that targets a **VEHICLE UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 2]** ability.\n- Each time this model makes a ranged attack that targets a non-**VEHICLE UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 1]** ability."
+          "Text": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered:\n- Each time this model makes a ranged attack that targets a VEHICLE UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 2] ability.\n- Each time this model makes a ranged attack that targets a non-VEHICLE UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 1] ability."
         }
       ],
       "Infos": [],
@@ -1583,11 +1583,11 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 16 **DRUKHARI INFANTRY MODELS. EACH GROTESQUE MODEL TAKES UP THE SPACE OF 3 MODELS. THIS MODEL CANNOT TRANSPORT MODELS THAT CAN FLY**."
+          "Text": "This model has a transport capacity of 16 DRUKHARI INFANTRY MODELS. EACH GROTESQUE MODEL TAKES UP THE SPACE OF 3 MODELS. THIS MODEL CANNOT TRANSPORT MODELS THAT CAN FLY."
         },
         {
           "Title": "Engine of Destruction (Pain)",
-          "Text": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, this model’s pulse disintegrators have the **[RAPID FIRE 8]** ability."
+          "Text": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, this model’s pulse disintegrators have the [RAPID FIRE 8] ability."
         }
       ],
       "Infos": [],

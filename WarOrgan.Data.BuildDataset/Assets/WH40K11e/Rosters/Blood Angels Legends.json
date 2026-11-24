@@ -501,7 +501,7 @@
         },
         {
           "Title": "Black Rage",
-          "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly **CHAPLAIN** models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+          "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
         }
       ],
       "Infos": [],
@@ -2142,7 +2142,7 @@
         },
         {
           "Title": "Black Rage",
-          "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly **CHAPLAIN** models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+          "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
         }
       ],
       "LeaderInfo": {

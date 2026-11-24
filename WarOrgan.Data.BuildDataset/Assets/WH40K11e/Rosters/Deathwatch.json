@@ -87,7 +87,7 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **DEATHWATCH INFANTRY MODELS. EACH GRAVIS/JUMP PACK/TERMINATOR** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 12 DEATHWATCH INFANTRY MODELS. EACH GRAVIS/JUMP PACK/TERMINATOR model takes up the space of 2 models."
         },
         {
           "Title": "Auspex Array",
@@ -5861,7 +5861,7 @@
         },
         {
           "Title": "Watch Master",
-          "Text": "This model’s attacks that target a **CHARACTER** unit can:\n\n\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1."
+          "Text": "This model’s attacks that target a CHARACTER unit can:\n\n\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1."
         },
         {
           "Title": "Purgatus Quarry",

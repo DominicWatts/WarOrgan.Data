@@ -942,7 +942,7 @@
         },
         {
           "Title": "Reign of Confusion",
-          "Text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, this model can use this ability. If you do increase the CP cost of that use of that **stratagem** by 1CP."
+          "Text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, this model can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
         },
         {
           "Title": "Acrobatic Escape",
@@ -2428,7 +2428,7 @@
         },
         {
           "Title": "Intra-neural Biotech",
-          "Text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
+          "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
         }
       ],
       "Infos": [],
@@ -4514,7 +4514,7 @@
         },
         {
           "Title": "Authority of the Inquisition",
-          "Text": "While this model is leading a unit, it can embark within any **TRANSPORT** that its Bodyguard unit can embark within."
+          "Text": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
         },
         {
           "Title": "Power of the Rosette",
@@ -4832,7 +4832,7 @@
         },
         {
           "Title": "Authority of the Inquisition",
-          "Text": "While this model is leading a unit, it can embark within any **TRANSPORT** that its Bodyguard unit can embark within."
+          "Text": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
         },
         {
           "Title": "Glovodan Psyber-eagle",
@@ -5069,7 +5069,7 @@
         },
         {
           "Title": "Authority of the Inquisition",
-          "Text": "While this model is leading a unit, it can embark within any **TRANSPORT** that its Bodyguard unit can embark within."
+          "Text": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
         }
       ],
       "LeaderInfo": {
@@ -5302,7 +5302,7 @@
         },
         {
           "Title": "Authority of the Inquisition",
-          "Text": "While this model is leading a unit, it can embark within any **TRANSPORT** that its Bodyguard unit can embark within."
+          "Text": "While this model is leading a unit, it can embark within any TRANSPORT that its Bodyguard unit can embark within."
         }
       ],
       "LeaderInfo": {
@@ -5529,7 +5529,7 @@
         },
         {
           "Title": "On My Signal, Fire!",
-          "Text": "After this unit has shot, you can select one enemy unit hit by those attacks. Until the end of the phase, each time an **AGENTS OF THE IMPERIUM** or **IMPERIUM INFANTRY BATTLELINE** model from your army makes an attack that targets that enemy unit, you can re‑roll the Hit roll."
+          "Text": "After this unit has shot, you can select one enemy unit hit by those attacks. Until the end of the phase, each time an AGENTS OF THE IMPERIUM or IMPERIUM INFANTRY BATTLELINE model from your army makes an attack that targets that enemy unit, you can re‑roll the Hit roll."
         },
         {
           "Title": "Tox‑cycler",
@@ -7865,7 +7865,7 @@
         },
         {
           "Title": "Ministorum Sermon",
-          "Text": "While this unit contains a **MINISTORUM PRIEST**, each time a model in this unit makes a melee attack, add 1 to the Wound roll."
+          "Text": "While this unit contains a MINISTORUM PRIEST, each time a model in this unit makes a melee attack, add 1 to the Wound roll."
         },
         {
           "Title": "Cherub",
@@ -7873,11 +7873,11 @@
         },
         {
           "Title": "Attached Unit",
-          "Text": "If a **MINISTORUM PRIEST** or **INQUISITOR** model from your army with the Leader ability can be attached to a **SISTERS OF BATTLE SQUAD**, it can be attached to this unit instead. If a **MINISTORUM PRIEST** or **INQUISITOR** model from your army is attached to this unit during the Declare Battle Formations step, that model gains the Scouts 6\" ability."
+          "Text": "If a MINISTORUM PRIEST or INQUISITOR model from your army with the Leader ability can be attached to a SISTERS OF BATTLE SQUAD, it can be attached to this unit instead. If a MINISTORUM PRIEST or INQUISITOR model from your army is attached to this unit during the Declare Battle Formations step, that model gains the Scouts 6\" ability."
         },
         {
           "Title": "Salvationist Medikit",
-          "Text": "In your Command phase, if the bearer is on the battlefield, you can return up to D3 destroyed models (excluding **CHARACTER MODELS**) to this unit."
+          "Text": "In your Command phase, if the bearer is on the battlefield, you can return up to D3 destroyed models (excluding CHARACTER MODELS) to this unit."
         },
         {
           "Title": "Simulacrum Imperialis",
@@ -10213,7 +10213,7 @@
         },
         {
           "Title": "Dead-shot",
-          "Text": "When this unit is **selected to shoot**, until this unit has shot:\n- Enemy units do not have Lone Operative.\n- Hidden enemy units have +15\" detection range.'"
+          "Text": "When this unit is selected to shoot, until this unit has shot:\n- Enemy units do not have Lone Operative.\n- Hidden enemy units have +15\" detection range.'"
         },
         {
           "Title": "Shadow Assignment",
@@ -10983,7 +10983,7 @@
         },
         {
           "Title": "Purgatus Quarry",
-          "Text": "At the start of the first battle round, select up to one enemy unit to be this unit’s **hunted**:\n- This unit’s attacks that target this unit’s **hunted** unit can re-roll **wound rolls** of 1.\n- Each time this unit’s **hunted** is **destroyed**, select up to one enemy unit to be this unit’s **hunted**."
+          "Text": "At the start of the first battle round, select up to one enemy unit to be this unit’s hunted:\n- This unit’s attacks that target this unit’s hunted unit can re-roll wound rolls of 1.\n- Each time this unit’s hunted is destroyed, select up to one enemy unit to be this unit’s hunted."
         }
       ],
       "LeaderInfo": {
@@ -11287,7 +11287,7 @@
         },
         {
           "Name": "Daemon Slayer",
-          "Description": "Add 1 to the Attacks characteristic of the bearer's melee weapons, and those weapons have the **[ANTI-DAEMON 3+]** ability.",
+          "Description": "Add 1 to the Attacks characteristic of the bearer's melee weapons, and those weapons have the [ANTI-DAEMON 3+] ability.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11412,7 +11412,7 @@
     },
     {
       "Title": "Kill Team",
-      "Text": "Each time an attack targets this unit, if it contains models with different Toughness characteristics, until the attacking unit has finished making its attacks, use the Toughness characteristic of the majority of the models in that unit when determining what roll is required for that attack to successfully wound. If two or more Toughness characteristics are tied for majority, use the highest value.\nFor the purposes of determining which models in this unit can embark within a TRANSPORT, Kill Team Terminator models, Kill Team Outrider models, Kill Team Biker models and models equipped with a jump pack each take up the space of 2 models, but can otherwise embark within any TRANSPORT their unit can embark within, even though similar models in other units have the TERMINATOR, MOUNTED or JUMP PACK keywords.\nFor the purposes of interacting with terrain features, all models in units with this ability are considered Infantry models, even though similar models in other units may have the Mounted or Jump Pack keywords.\n**Designer’s Note**: *While the abstractions in the above rule cause some models to behave differently to similar models in other units, they are designed to minimise complicated movement, Transport and Benefit of Cover rules.*"
+      "Text": "Each time an attack targets this unit, if it contains models with different Toughness characteristics, until the attacking unit has finished making its attacks, use the Toughness characteristic of the majority of the models in that unit when determining what roll is required for that attack to successfully wound. If two or more Toughness characteristics are tied for majority, use the highest value.\nFor the purposes of determining which models in this unit can embark within a TRANSPORT, Kill Team Terminator models, Kill Team Outrider models, Kill Team Biker models and models equipped with a jump pack each take up the space of 2 models, but can otherwise embark within any TRANSPORT their unit can embark within, even though similar models in other units have the TERMINATOR, MOUNTED or JUMP PACK keywords.\nFor the purposes of interacting with terrain features, all models in units with this ability are considered Infantry models, even though similar models in other units may have the Mounted or Jump Pack keywords.\nDesigner’s Note: *While the abstractions in the above rule cause some models to behave differently to similar models in other units, they are designed to minimise complicated movement, Transport and Benefit of Cover rules.*"
     }
   ]
 }

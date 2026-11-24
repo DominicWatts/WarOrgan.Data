@@ -54,7 +54,7 @@
         },
         {
           "Title": "Spiked Ram",
-          "Text": "When this unit ends a **charge move**, you can select one enemy unit **engaged**with this unit. If you do, roll one D6:\n- On a 2-5, that enemy unit suffers D3 **mortal wounds**.\n- On a 6, that enemy unit suffers 3 **mortal wounds**."
+          "Text": "When this unit ends a charge move, you can select one enemy unit engagedwith this unit. If you do, roll one D6:\n- On a 2-5, that enemy unit suffers D3 mortal wounds.\n- On a 6, that enemy unit suffers 3 mortal wounds."
         },
         {
           "Title": "Transport",
@@ -363,11 +363,11 @@
         },
         {
           "Title": "Drill Boss",
-          "Text": "This unit's melee attacks have +1 to **hit rolls**."
+          "Text": "This unit's melee attacks have +1 to hit rolls."
         },
         {
           "Title": "Plummeting Descent",
-          "Text": "If this unit made an **ingress move** this turn, this unit can re-roll **charge rolls**."
+          "Text": "If this unit made an ingress move this turn, this unit can re-roll charge rolls."
         }
       ],
       "LeaderInfo": {
@@ -588,7 +588,7 @@
       "UnitAbilities": [
         {
           "Title": "Pyromaniaks",
-          "Text": "This unit's attacks that target a unit within 6\" of this unit can re-roll **wound rolls** of 1."
+          "Text": "This unit's attacks that target a unit within 6\" of this unit can re-roll wound rolls of 1."
         }
       ],
       "Infos": [],
@@ -1306,7 +1306,7 @@
       "UnitAbilities": [
         {
           "Title": "Bizarrely Resilient",
-          "Text": "Attacks that target this unit have -1 **AP**."
+          "Text": "Attacks that target this unit have -1 AP."
         }
       ],
       "Infos": [],
@@ -1735,7 +1735,7 @@
       "UnitAbilities": [
         {
           "Title": "Scatter! (Once per phase, per unit)",
-          "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is **unengaged**, this unit can make a **normal move** of up to 6\"."
+          "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can make a normal move of up to 6\"."
         }
       ],
       "Infos": [],
@@ -2241,11 +2241,11 @@
         },
         {
           "Title": "Flashiest Gitz",
-          "Text": "This unit's ranged attacks can re-roll **hit rolls**."
+          "Text": "This unit's ranged attacks can re-roll hit rolls."
         },
         {
           "Title": "Ded Glowy Ammo (Aura)",
-          "Text": "Enemy units within 6\" of this model have -1 **T**."
+          "Text": "Enemy units within 6\" of this model have -1 T."
         }
       ],
       "LeaderInfo": {
@@ -2554,7 +2554,7 @@
       "UnitAbilities": [
         {
           "Title": "Da Biggest Boom",
-          "Text": "In your Shooting phase, when this unit has shot, you can select one enemy unit hit by this unit's Tank Kannon attacks. If you do, enemy units (excluding **MONSTER/VEHICLE** units) within 3\" of that enemy unit make a **battle-shock roll**."
+          "Text": "In your Shooting phase, when this unit has shot, you can select one enemy unit hit by this unit's Tank Kannon attacks. If you do, enemy units (excluding MONSTER/VEHICLE units) within 3\" of that enemy unit make a battle-shock roll."
         },
         {
           "Title": "Transport",
@@ -2562,7 +2562,7 @@
         },
         {
           "Title": "Rolling Fortress",
-          "Text": "When an attack targets a friendly **ORKS** unit that is not **fully visible** to the attacking model because of this unit, the target has the **benefit of cover** against that attack."
+          "Text": "When an attack targets a friendly ORKS unit that is not fully visible to the attacking model because of this unit, the target has the benefit of cover against that attack."
         }
       ],
       "Infos": [],
@@ -3135,7 +3135,7 @@
         },
         {
           "Title": "Da Bigger Dey Are, Da Better Dey Drop",
-          "Text": "In your Shooting phase, when this unit's Lifta-droppa destroys an enemy **MONSTER/VEHICLE** model with **Deadly Demise**, that enemy model suffers a **Deadly Demise** on a roll of 3+, instead of a 6."
+          "Text": "In your Shooting phase, when this unit's Lifta-droppa destroys an enemy MONSTER/VEHICLE model with Deadly Demise, that enemy model suffers a Deadly Demise on a roll of 3+, instead of a 6."
         }
       ],
       "Infos": [],
@@ -3507,7 +3507,7 @@
       "UnitAbilities": [
         {
           "Title": "Dat’s Our Loot",
-          "Text": "- This unit's ranged attacks can re-roll **hit rolls** of 1.\n- This unit's ranged attacks that target a unit within range of an **objective** can re-roll **hit rolls**."
+          "Text": "- This unit's ranged attacks can re-roll hit rolls of 1.\n- This unit's ranged attacks that target a unit within range of an objective can re-roll hit rolls."
         }
       ],
       "Infos": [],
@@ -3829,11 +3829,11 @@
         },
         {
           "Title": "Mad Dok",
-          "Text": "In your Command phase, select one friendly **ORKS INFANTRY** unit within 6\" of this model, and select one of the following:\n- That unit **heals** 3 wounds.\n- <ins>Or:</ins> If all models in that unit have their starting number of wounds, **revive** one **CHARACTER** model in that unit."
+          "Text": "In your Command phase, select one friendly ORKS INFANTRY unit within 6\" of this model, and select one of the following:\n- That unit heals 3 wounds.\n- <ins>Or:</ins> If all models in that unit have their starting number of wounds, revive one CHARACTER model in that unit."
         },
         {
           "Title": "One Scalpel Short of a Medpack",
-          "Text": "When this unit is selected to make a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to declare a charge**."
+          "Text": "When this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to declare a charge."
         }
       ],
       "LeaderInfo": {
@@ -4046,15 +4046,15 @@
       "UnitAbilities": [
         {
           "Title": "Ramshackle Cover",
-          "Text": "When an attack targets a unit that is not **fully visible** to the attacking model because of this unit, the target has the **benefit of cover** against that attack."
+          "Text": "When an attack targets a unit that is not fully visible to the attacking model because of this unit, the target has the benefit of cover against that attack."
         },
         {
           "Title": "Workshop",
-          "Text": "When this unit is set up, all parts of it must be set up in a single group, in which each part is within 1\" of another part.\nAt the end of the Movement phase, each friendly **ORKS VEHICLE** within 6\" of this unit **heals** D3 wounds. Each friendly **ORKS VEHICLE** unit can only be affected by this ability once per turn."
+          "Text": "When this unit is set up, all parts of it must be set up in a single group, in which each part is within 1\" of another part.\nAt the end of the Movement phase, each friendly ORKS VEHICLE within 6\" of this unit heals D3 wounds. Each friendly ORKS VEHICLE unit can only be affected by this ability once per turn."
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is **engaged** with only **FORTIFICATION** units:\n- That enemy unit can be selected as a target of ranged attacks.\n- When shooting that enemy unit, those ranged attacks have -1 to **hit rolls** (excluding **[CLOSE-QUARTERS]** attacks).\n- When that enemy unit is selected to make a **fall-back move**, if that enemy unit is only **engaged** with **FORTIFICATION** units, and that enemy unit is not **battle-shocked**, **hazard rolls** made for that enemy unit are automatically passed."
+          "Text": "While an enemy unit is engaged with only FORTIFICATION units:\n- That enemy unit can be selected as a target of ranged attacks.\n- When shooting that enemy unit, those ranged attacks have -1 to hit rolls (excluding [CLOSE-QUARTERS] attacks).\n- When that enemy unit is selected to make a fall-back move, if that enemy unit is only engaged with FORTIFICATION units, and that enemy unit is not battle-shocked, hazard rolls made for that enemy unit are automatically passed."
         }
       ],
       "Infos": [],
@@ -4209,11 +4209,11 @@
         },
         {
           "Title": "Speedboss",
-          "Text": "This unit's melee attacks have +1 to **hit rolls**."
+          "Text": "This unit's melee attacks have +1 to hit rolls."
         },
         {
           "Title": "Get Back in Da Race",
-          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **SPEED FREEKS** unit within 6\" of this unit. That unit (and any units embarked within that unit):\n- Is no longer **battle-shocked**.\n- Is **riled up** until the start of your next turn."
+          "Text": "In your Movement phase, at the start or end of this unit's move, you can select one friendly SPEED FREEKS unit within 6\" of this unit. That unit (and any units embarked within that unit):\n- Is no longer battle-shocked.\n- Is riled up until the start of your next turn."
         }
       ],
       "LeaderInfo": {
