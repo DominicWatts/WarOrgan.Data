@@ -423,11 +423,6 @@
                         "Items": [
                           "guardian drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -559,37 +554,6 @@
           "Id": "RANGED WEAPONS",
           "DisplayName": "Ranged Weapons",
           "Weapons": [
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
-                }
-              ]
-            },
             {
               "Id": "pulse blaster",
               "DisplayName": "Pulse blaster",
@@ -836,11 +800,6 @@
                       {
                         "Items": [
                           "shield drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
                         ]
                       },
                       {
@@ -1434,16 +1393,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -1596,37 +1545,6 @@
                 {
                   "Id": "AP",
                   "Value": "0"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
                 },
                 {
                   "Id": "D",
@@ -2065,16 +1983,6 @@
                       {
                         "Items": [
                           "shield drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
                         ]
                       }
                     ]
@@ -2714,16 +2622,6 @@
                       {
                         "Items": [
                           "shield drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
                         ]
                       }
                     ]
@@ -3568,16 +3466,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   },
@@ -3630,11 +3518,6 @@
                       {
                         "Items": [
                           "twin pulse carbine"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
                         ]
                       },
                       {
@@ -3971,16 +3854,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   },
@@ -4033,11 +3906,6 @@
                       {
                         "Items": [
                           "twin pulse carbine"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
                         ]
                       },
                       {
@@ -4197,37 +4065,6 @@
                 {
                   "Id": "D",
                   "Value": "1"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
                 }
               ]
             },
@@ -4393,16 +4230,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   },
@@ -4442,11 +4269,6 @@
                       {
                         "Items": [
                           "twin pulse carbine"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
                         ]
                       },
                       {
@@ -4612,37 +4434,6 @@
                 {
                   "Id": "D",
                   "Value": "D6"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
                 }
               ]
             },
@@ -5278,16 +5069,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -5435,37 +5216,6 @@
           "Id": "RANGED WEAPONS",
           "DisplayName": "Ranged Weapons",
           "Weapons": [
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
-                }
-              ]
-            },
             {
               "Id": "twin pulse carbine",
               "DisplayName": "Twin pulse carbine",
@@ -9403,16 +9153,6 @@
                         "Items": [
                           "shield drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   },
@@ -9737,37 +9477,6 @@
                 {
                   "Id": "D",
                   "Value": "1"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
                 }
               ]
             },
@@ -11437,31 +11146,21 @@
                     ]
                   },
                   {
-                    "Max": 2,
+                    "Max": 1,
                     "Options": [
-                      {
-                        "Items": [
-                          "twin pulse carbine"
-                        ]
-                      },
                       {
                         "Items": [
                           "marker drone"
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
                       {
                         "Items": [
-                          "shield drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "guardian drone"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
+                          "twin pulse carbine"
                         ]
                       }
                     ]
@@ -11702,37 +11401,6 @@
                 {
                   "Id": "D",
                   "Value": "D6"
-                }
-              ]
-            },
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
                 }
               ]
             },
@@ -12395,11 +12063,6 @@
                         "Items": [
                           "guardian drone"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "missile pod"
-                        ]
                       }
                     ]
                   }
@@ -12545,37 +12208,6 @@
           "Id": "RANGED WEAPONS",
           "DisplayName": "Ranged Weapons",
           "Weapons": [
-            {
-              "Id": "missile pod",
-              "DisplayName": "Missile pod",
-              "Flags": "None",
-              "Stats": [
-                {
-                  "Id": "Range",
-                  "Value": "30\""
-                },
-                {
-                  "Id": "A",
-                  "Value": "2"
-                },
-                {
-                  "Id": "BS",
-                  "Value": "5+"
-                },
-                {
-                  "Id": "S",
-                  "Value": "7"
-                },
-                {
-                  "Id": "AP",
-                  "Value": "-1"
-                },
-                {
-                  "Id": "D",
-                  "Value": "2"
-                }
-              ]
-            },
             {
               "Id": "pulse carbine",
               "DisplayName": "Pulse carbine",
