@@ -5207,7 +5207,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -5616,6 +5618,7 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "PLAGUE MARINES",
           "POXWALKERS"
         ],
         "Features": 0
@@ -6563,6 +6566,7 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "PLAGUE MARINES",
           "POXWALKERS"
         ],
         "Features": 0
@@ -6732,6 +6736,730 @@
         {
           "ModelCount": 1,
           "Cost": 50
+        }
+      ]
+    },
+    {
+      "Id": "PLAGUE MARINES",
+      "DisplayName": "Plague Marines",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Plague Champion",
+            "StatlineRef": "Plague Marine",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Options": [
+                      {
+                        "Items": [
+                          "plague knives"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boltgun options"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Plague Marine",
+            "StatlineRef": "Plague Marine",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "plague knives",
+                  "boltgun"
+                ],
+                "Options": [
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "bubotic weapons"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy plague weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "blight launcher"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "plague spewer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "icon of despair"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma gun - standard",
+                          "plasma gun - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plague belcher"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "bolt pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol - standard",
+                          "plasma pistol - supercharge"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "plague knives"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power fist"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "boltgun options",
+            "DisplayName": "Boltgun options",
+            "Cost": 0
+          },
+          {
+            "Key": "icon of despair",
+            "DisplayName": "Icon of Despair",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Icon of Despair (Aura)"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Infused with the Blessings of Nurgle",
+          "Text": "In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted."
+        },
+        {
+          "Title": "Icon of Despair (Aura)",
+          "Text": "While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Chaos",
+        "Nurgle",
+        "Grenades",
+        "Battleline",
+        "Plague Marines"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Death Guard"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Plague Marine",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "blight launcher",
+              "DisplayName": "Blight launcher",
+              "Keywords": "Blast, Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Lethal Hits, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "plague belcher",
+              "DisplayName": "Plague belcher",
+              "Keywords": "Anti-Infantry 4+, Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plague spewer",
+              "DisplayName": "Plague spewer",
+              "Keywords": "Anti-Infantry 2+, Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - standard",
+              "DisplayName": "Plasma gun - standard",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - supercharge",
+              "DisplayName": "Plasma gun - supercharge",
+              "Keywords": "Hazardous, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "bubotic weapons",
+              "DisplayName": "Bubotic weapons",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy plague weapon",
+              "DisplayName": "Heavy plague weapon",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plague knives",
+              "DisplayName": "Plague knives",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 90
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 175
         }
       ]
     },
