@@ -2146,7 +2146,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATH COMPANY MARINES"
+        ],
         "Features": 0
       },
       "Infos": [],
