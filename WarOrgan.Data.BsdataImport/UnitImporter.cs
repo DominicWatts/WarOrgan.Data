@@ -141,9 +141,14 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
         foreach (var weapon in unit.Weapons.SelectMany(s => s.Weapons))
         {
             wargear.KnownWeapons.Add(weapon.Id!);
-            foreach (var keyword in (weapon.Keywords ?? string.Empty).Split(", ", StringSplitOptions.RemoveEmptyEntries))
-                if (!settings.IsWeaponAbility(keyword))
-                    report.Add(section, $"Weapon keyword \"{keyword}\" on {weapon.DisplayName} is not registered; register it or correct it.");
+            var keywords = (weapon.Keywords ?? string.Empty).Split(", ", StringSplitOptions.RemoveEmptyEntries).ToList();
+            // Unregistered keywords fail the dataset build, so drop them and report each one
+            foreach (var keyword in keywords.Where(k => !settings.IsWeaponAbility(k)).ToList())
+            {
+                keywords.Remove(keyword);
+                report.Add(section, $"Weapon keyword \"{keyword}\" on {weapon.DisplayName} is not registered and was dropped; register it or correct it.");
+            }
+            weapon.Keywords = keywords.Count > 0 ? string.Join(", ", keywords) : null;
         }
     }
 

@@ -30,6 +30,8 @@ Run it from the repository root so it finds `DataSetDefinition.json`, or pass `-
 - Leader lists written either as bullets or inline after the Leader introduction.
 - Detachments with a Detachment Points cost: Force Dispositions, rule, enhancements and their unit restrictions. Other detachment categories become Tags.
 - Army rules from the catalogue's shared rules.
+- Units and detachments from linked libraries (Aeldari, Knights, Daemons) and, for Space Marine chapters, from the Space Marines catalogue. BSData's per-army visibility rules decide which shared detachments each army gets.
+- Weapon keywords in the core rule spellings ("BLAST 2" becomes "Blast 2", "Anti-INFANTRY 4+" becomes "Anti-Infantry 4+"). Keywords still unregistered are dropped and reported, so every draft builds.
 
 ## What it leaves to you
 

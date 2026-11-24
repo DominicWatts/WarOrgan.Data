@@ -40,7 +40,9 @@ var settings = new ImportSettings(
     FactionKeywords: definition.Arr("Factions").Select(f => f.Str("FactionKeyword")!).Append(faction).ToHashSet(StringComparer.OrdinalIgnoreCase),
     CoreAbilityPatterns: definition.Arr("CoreAbilities").Select(a => new Regex(a.Str("Regex")!, RegexOptions.IgnoreCase)).ToList(),
     WeaponAbilityPatterns: definition.Arr("WeaponAbilities").Select(a => new Regex(a.Str("Regex")!, RegexOptions.IgnoreCase)).ToList(),
-    ArmyRuleIds: catalogue.Arr("sharedRules").Select(r => r.Str("id")!).ToHashSet());
+    // Faction rules can live in a parent catalogue (Combat Doctrines for chapters), so collect every catalogue's
+    ArmyRuleIds: data.Catalogues.Where(c => !c.Key.Equals("Warhammer 40,000", StringComparison.OrdinalIgnoreCase))
+        .SelectMany(c => c.Value.Arr("sharedRules")).Select(r => r.Str("id")!).ToHashSet());
 
 var report = new ImportReport();
 var entries = UnitEntries(catalogue, faction)
@@ -96,8 +98,12 @@ return 0;
 
 IEnumerable<JsonObject> UnitEntries(JsonObject source, string factionKeyword)
 {
+    // Libraries linked with importRootEntries (Daemons, Knights, Heresy Legends) contribute their root units too
+    var libraries = source.Arr("catalogueLinks").Where(l => l["importRootEntries"]?.GetValue<bool>() == true)
+        .Select(l => data.Catalogues.Values.FirstOrDefault(c => c.Str("id") == l.Str("targetId"))).OfType<JsonObject>();
     var candidates = source.Arr("sharedSelectionEntries")
-        .Concat(source.Arr("entryLinks").Select(l => data.Get(l.Str("targetId"))).OfType<JsonObject>());
+        .Concat(source.Arr("entryLinks").Select(l => data.Get(l.Str("targetId"))).OfType<JsonObject>())
+        .Concat(libraries.SelectMany(l => l.Arr("sharedSelectionEntries")));
     return candidates.Where(e => e.Str("type") is "unit" or "model")
         .Where(e => e.Arr("categoryLinks").Any(c => c.Name().Equals($"Faction: {factionKeyword}", StringComparison.OrdinalIgnoreCase)));
 }
