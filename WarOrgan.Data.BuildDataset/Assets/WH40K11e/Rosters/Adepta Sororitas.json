@@ -12702,10 +12702,12 @@
       "Enhancements": [
         {
           "Name": "Symphonic Payload",
-          "Description": "This unit can re‑roll rolls to determine the **A** of a weapon.",
+          "Description": "Exorcist unit only. This unit can re-roll rolls to determine the **A** of a weapon.",
           "Cost": 10,
-          "Features": "None",
-          "RequiredUnitNames": [],
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "EXORCIST"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -12713,10 +12715,12 @@
         },
         {
           "Name": "Clarion of Urgency",
-          "Description": "At the end of your opponent’s Fight phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**.",
+          "Description": "Canoness with Jump Pack model only. At the end of your opponent’s Fight phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**.",
           "Cost": 15,
           "Features": "None",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "CANONESS WITH JUMP PACK"
+          ],
           "RequiredKeywords": [
             "Jump Pack"
           ],
@@ -12785,7 +12789,7 @@
         },
         {
           "Name": "Perfervid Haste",
-          "Description": "This unit has +1\" M.",
+          "Description": "Adepta Sororitas model only. This unit has +1\" M.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -12811,11 +12815,13 @@
       "Enhancements": [
         {
           "Name": "Hagiomnifex",
-          "Description": "(Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below:\n- **Rite of Revelation**: While this unit is shooting, enemy units have +6\" detection range.\n- **Sermon of Intolerance**: This unit’s battle‑shock rolls automatically succeed.\n- **Catechism of Raging Fervour**: This unit has +1\" M.\n- **Psalm of Righteous Smiting**: This unit’s attacks have +1 S.\n- **Chorus of Repudiation**: Attacks that target this unit with a S greater than this unit’s T have ‑1 to wound rolls.",
+          "Description": "Adepta Sororitas Character model only, excluding Penitent units. (Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below:\n- **Rite of Revelation**: While this unit is shooting, enemy units have +6\" detection range.\n- **Sermon of Intolerance**: This unit’s battle‑shock rolls automatically succeed.\n- **Catechism of Raging Fervour**: This unit has +1\" M.\n- **Psalm of Righteous Smiting**: This unit’s attacks have +1 S.\n- **Chorus of Repudiation**: Attacks that target this unit with a S greater than this unit’s T have ‑1 to wound rolls.",
           "Cost": 25,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Character"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [
             "Penitent"
