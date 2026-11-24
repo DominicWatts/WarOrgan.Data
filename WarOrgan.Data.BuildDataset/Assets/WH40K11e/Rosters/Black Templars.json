@@ -400,6 +400,7 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "CRUSADER SQUAD",
           "SWORD BRETHREN SQUAD"
         ],
         "Features": 0
@@ -824,6 +825,676 @@
         {
           "ModelCount": 1,
           "Cost": 45
+        }
+      ]
+    },
+    {
+      "Id": "CRUSADER SQUAD",
+      "DisplayName": "Crusader Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Sword Brother",
+            "StatlineRef": "Initiate",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy bolt pistol",
+                  "master-crafted power weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 8
+            },
+            "ModelName": "Neophyte",
+            "StatlineRef": "Neophyte",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "neophyte chainsword"
+                ],
+                "Options": [
+                  {
+                    "Max": 8,
+                    "Replaces": [
+                      "bolt pistol",
+                      "neophyte chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "shotgun",
+                          "combat knife"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 11
+            },
+            "ModelName": "Initiate",
+            "StatlineRef": "Initiate",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "bolt rifle - focused fire",
+                  "bolt rifle - saturation",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 11,
+                    "Replaces": [
+                      "bolt rifle - focused fire",
+                      "bolt rifle - saturation"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolt pistol",
+                          "initiate chainsword"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 10,
+                    "Replaces": [
+                      "bolt rifle - focused fire",
+                      "bolt rifle - saturation"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolt pistol",
+                          "power fist"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "pyreblaster"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Righteous Zeal",
+          "Text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+1."
+        },
+        {
+          "Title": "Attached Unit",
+          "Text": "If a CHARACTER from your army with the Leader ability can be attached to an INTERCESSOR SQUAD, it can be attached to this unit instead."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Unit composition",
+          "Text": "1 Sword Brother, 4-8 Neophytes and 5-11 Initiates: 10 or 20 models in total. WarOrgan cannot enforce the total; build the unit to the datasheet."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Battleline",
+        "Imperium",
+        "Tacticus",
+        "Crusader Squad",
+        "Explosives"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Initiate",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "28.5"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Neophyte",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "28.5"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Close-quarters"
+            },
+            {
+              "Id": "bolt rifle - focused fire",
+              "DisplayName": "Bolt rifle - focused fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Heavy, Rapid Fire 1"
+            },
+            {
+              "Id": "bolt rifle - saturation",
+              "DisplayName": "Bolt rifle - saturation",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Rapid Fire 1"
+            },
+            {
+              "Id": "hand flamer",
+              "DisplayName": "Hand flamer",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "9\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Close-quarters, Torrent"
+            },
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy bolt pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Close-quarters"
+            },
+            {
+              "Id": "pyreblaster",
+              "DisplayName": "Pyreblaster",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Blast 1, Torrent"
+            },
+            {
+              "Id": "shotgun",
+              "DisplayName": "Shotgun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Assault, Blast 1"
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combat knife",
+              "DisplayName": "Combat knife",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "initiate chainsword",
+              "DisplayName": "Initiate chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Sustained Hits 1"
+            },
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ],
+              "Keywords": "Lethal Hits"
+            },
+            {
+              "Id": "neophyte chainsword",
+              "DisplayName": "Neophyte chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Sustained Hits 1"
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 160
+        },
+        {
+          "ModelCount": 20,
+          "Cost": 305
         }
       ]
     },
