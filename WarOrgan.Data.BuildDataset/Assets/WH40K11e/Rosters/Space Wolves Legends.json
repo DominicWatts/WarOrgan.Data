@@ -48,7 +48,6 @@
       },
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Mounted",
         "Character",
         "Epic Hero",
@@ -59,6 +58,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -265,7 +265,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Beast",
         "Character",
         "Imperium",
@@ -276,6 +275,7 @@
         "Support"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -415,7 +415,6 @@
       },
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Mounted",
         "Character",
         "Epic Hero",
@@ -429,6 +428,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -648,7 +648,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Infantry",
         "Grenades",
         "Smoke",
@@ -662,6 +661,7 @@
         "Scouts 6\""
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -870,13 +870,13 @@
         "Mounted",
         "Grenades",
         "Imperium",
-        "Iron Priest",
-        "Adeptus Astartes"
+        "Iron Priest"
       ],
       "CoreAbilities": [
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -1210,7 +1210,6 @@
       },
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Infantry",
         "Character",
         "Epic Hero",
@@ -1224,6 +1223,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -1399,7 +1399,6 @@
       },
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Mounted",
         "Character",
         "Epic Hero",
@@ -1413,6 +1412,7 @@
         "Deadly Demise D3"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -1787,7 +1787,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Infantry",
         "Grenades",
         "Imperium",
@@ -1796,6 +1795,7 @@
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -2609,7 +2609,6 @@
       },
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Infantry",
         "Character",
         "Epic Hero",
@@ -2621,6 +2620,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -2922,7 +2922,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Infantry",
         "Jump Pack",
         "Fly",
@@ -2935,6 +2934,7 @@
         "Deep Strike"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -3525,7 +3525,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Vehicle",
         "Aircraft",
         "Fly",
@@ -3535,9 +3534,11 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
+        "Hover",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -3922,7 +3923,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Vehicle",
         "Aircraft",
         "Fly",
@@ -3932,9 +3932,11 @@
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Hover"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
@@ -4320,7 +4322,6 @@
       ],
       "Infos": [],
       "Keywords": [
-        "Adeptus Astartes",
         "Infantry",
         "Grenades",
         "Imperium",
@@ -4329,6 +4330,7 @@
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Space Wolves"
       ],
       "StatLines": [
