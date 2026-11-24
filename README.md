@@ -7,7 +7,10 @@ We recommend forking this repository to create and maintain your own dataset. Ke
 
 This fork maintains an unofficial Warhammer 40,000 11th Edition dataset for personal and community use. Development is deliberately data-only: the supplied WarOrgan model is unchanged, and the builder only has a few extra validation checks.
 
-- Current coverage: Genestealer Cults datasheets, army rule, detachments and enhancements, Tyranid Vanguard Invader allies, and core stratagems.
+- Current coverage: all 34 armies, including each Space Marine chapter as its own faction, plus the 11th Edition core stratagems.
+  - Checked against Wahapedia and GW's faction packs: Genestealer Cults in full, the Tyranid Vanguard Invaders used by Final Day and the Astra Militarum datasheets used by Brood Brother Auxilia.
+  - Unchecked drafts from the November 2026 BSData dump: every other datasheet, detachment and enhancement. They have no stratagems yet, and their rule effects are text only.
+- Faction progress through the sources: [FACTIONS.md](FACTIONS.md).
 - Dataset ID: `DominicWatts-WH40K11e` (kept stable for saved-list compatibility).
 - Release history: [CHANGELOG.md](CHANGELOG.md).
 - Outstanding work: [TODO.md](TODO.md).
@@ -22,6 +25,8 @@ Paste the direct-download URL into WarOrgan's dataset importer. Use the developm
 
 - **WarOrgan.Data.Model** — the data model shared with the WarOrgan app.
 - **WarOrgan.Data.BuildDataset** — a console tool for loading, validating and packaging dataset JSON files.
+- **WarOrgan.Data.BsdataImport** (this fork) — drafts a faction roster from a BSData dump. See its [README](WarOrgan.Data.BsdataImport/README.md).
+- **WarOrgan.Data.WahapediaCheck** (this fork) — compares rosters with Wahapedia and reports every difference. See its [README](WarOrgan.Data.WahapediaCheck/README.md).
 - **Example dataset** — five faction rosters and a dataset definition showing how to use the model. See the [example notes and attribution](WarOrgan.Data.BuildDataset/Assets/Fracture/README.md).
 
 ## Building a dataset
