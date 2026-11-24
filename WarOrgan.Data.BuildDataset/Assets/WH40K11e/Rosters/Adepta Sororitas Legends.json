@@ -280,6 +280,150 @@
       ]
     },
     {
+      "Id": "CRUSADERS",
+      "DisplayName": "Crusaders",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 4
+            },
+            "ModelName": "Crusader",
+            "StatlineRef": "Crusaders",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Spiritual Fortitude",
+          "Text": "Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
+        },
+        {
+          "Title": "Attached Unit",
+          "Text": "If a model from your army with the Leader ability can be attached to a BATTLE SISTERS SQUAD, it can be attached to this unit instead."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Crusaders",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Crusaders",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 40
+        },
+        {
+          "ModelCount": 4,
+          "Cost": 80
+        }
+      ]
+    },
+    {
       "Id": "DEATH CULT ASSASSINS",
       "DisplayName": "Death Cult Assassins",
       "Flags": 0,

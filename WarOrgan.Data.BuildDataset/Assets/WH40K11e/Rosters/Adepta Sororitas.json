@@ -61,8 +61,11 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "BATTLE SISTERS SQUAD",
           "CELESTIAN INSIDIANTS",
           "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
           "RETRIBUTOR SQUAD",
           "SISTERS NOVITIATE SQUAD"
         ],
@@ -423,6 +426,860 @@
       ]
     },
     {
+      "Id": "BATTLE SISTERS SQUAD",
+      "DisplayName": "Battle Sisters Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Sister Superior",
+            "StatlineRef": "Battle Sister",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "bolt pistol",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "condemnor boltgun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combi-weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bolt pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "inferno pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum hand flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol - supercharge",
+                          "plasma pistol - standard"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "chainsword"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 9
+            },
+            "ModelName": "Battle Sister",
+            "StatlineRef": "Battle Sister",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "boltgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "simulacrum imperialis"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "special weapons"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy weapons"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "artificer-crafted storm bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "heavy weapons",
+            "DisplayName": "Heavy Weapons",
+            "Cost": 0
+          },
+          {
+            "Key": "simulacrum imperialis",
+            "DisplayName": "Simulacrum Imperialis",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Simulacrum Imperialis"
+            ]
+          },
+          {
+            "Key": "special weapons",
+            "DisplayName": "Special Weapons",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 6+ invulnerable save."
+        },
+        {
+          "Title": "Defenders of the Faith",
+          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        },
+        {
+          "Title": "Cherub",
+          "Text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice."
+        },
+        {
+          "Title": "Simulacrum Imperialis",
+          "Text": "At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice showing a value equal to that result."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Battleline",
+        "Grenades",
+        "Battle Sisters Squad",
+        "Imperium"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Battle Sister",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "artificer-crafted storm bolter",
+              "DisplayName": "Artificer-crafted storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon",
+              "DisplayName": "Combi-weapon",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "condemnor boltgun",
+              "DisplayName": "Condemnor boltgun",
+              "Keywords": "Anti-Psyker 2+, Devastating Wounds, Precision, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Heavy, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "inferno pistol",
+              "DisplayName": "Inferno pistol",
+              "Keywords": "Melta 2, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "ministorum flamer",
+              "DisplayName": "Ministorum flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "ministorum hand flamer",
+              "DisplayName": "Ministorum hand flamer",
+              "Keywords": "Ignores Cover, Pistol, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "ministorum heavy flamer",
+              "DisplayName": "Ministorum heavy flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Heavy, Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 100
+        }
+      ]
+    },
+    {
       "Id": "CANONESS",
       "DisplayName": "Canoness",
       "Flags": 0,
@@ -553,8 +1410,11 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "BATTLE SISTERS SQUAD",
           "CELESTIAN INSIDIANTS",
           "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
           "RETRIBUTOR SQUAD",
           "SISTERS NOVITIATE SQUAD"
         ],
@@ -3109,6 +3969,732 @@
       ]
     },
     {
+      "Id": "DOMINION SQUAD",
+      "DisplayName": "Dominion Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Dominion Superior",
+            "StatlineRef": "Dominion Squad",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "bolt pistol",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "condemnor boltgun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combi-weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bolt pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "inferno pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum hand flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol - supercharge",
+                          "plasma pistol - standard"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "chainsword"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum flamer"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 9,
+              "Max": 9
+            },
+            "ModelName": "Dominion",
+            "StatlineRef": "Dominion Squad",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "boltgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "simulacrum imperialis"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "artificer-crafted storm bolter"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "ministorum flamer"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "simulacrum imperialis",
+            "DisplayName": "Simulacrum Imperialis",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Simulacrum Imperialis"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 6+ invulnerable save."
+        },
+        {
+          "Title": "Holy Vanguard",
+          "Text": "If this unit has a Leader unit attached to it during the Declare Battle Formations step and this unit starts the battle embarked within a Transport, that Leader unit gains the Scouts 6\" ability."
+        },
+        {
+          "Title": "Righteous Awareness",
+          "Text": "In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units it can make a Normal move of up to D6”."
+        },
+        {
+          "Title": "Cherub",
+          "Text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice."
+        },
+        {
+          "Title": "Simulacrum Imperialis",
+          "Text": "At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice showing a value equal to that result."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Dominion Squad",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Scouts 6\""
+      ],
+      "FactionKeywords": [
+        "Adepta Sororitas"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Dominion Squad",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "artificer-crafted storm bolter",
+              "DisplayName": "Artificer-crafted storm bolter",
+              "Keywords": "Assault, Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon",
+              "DisplayName": "Combi-weapon",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "condemnor boltgun",
+              "DisplayName": "Condemnor boltgun",
+              "Keywords": "Anti-Psyker 2+, Devastating Wounds, Precision, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "inferno pistol",
+              "DisplayName": "Inferno pistol",
+              "Keywords": "Melta 2, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Assault, Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "ministorum flamer",
+              "DisplayName": "Ministorum flamer",
+              "Keywords": "Assault, Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "ministorum hand flamer",
+              "DisplayName": "Ministorum hand flamer",
+              "Keywords": "Ignores Cover, Pistol, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 90
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 90
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 100
+        }
+      ]
+    },
+    {
       "Id": "EXORCIST",
       "DisplayName": "Exorcist",
       "Flags": 0,
@@ -4519,8 +6105,11 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "BATTLE SISTERS SQUAD",
           "CELESTIAN INSIDIANTS",
           "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
           "RETRIBUTOR SQUAD",
           "SISTERS NOVITIATE SQUAD"
         ],
@@ -4732,7 +6321,10 @@
       "LeaderInfo": {
         "UnitNames": [
           "ARCO-FLAGELLANTS",
+          "BATTLE SISTERS SQUAD",
           "CELESTIAN INSIDIANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
           "SANCTIFIERS",
           "SISTERS NOVITIATE SQUAD"
         ],
@@ -5674,8 +7266,11 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
+          "BATTLE SISTERS SQUAD",
           "CELESTIAN INSIDIANTS",
           "CELESTIAN SACRESANTS",
+          "CRUSADERS",
+          "DOMINION SQUAD",
           "RETRIBUTOR SQUAD",
           "SISTERS NOVITIATE SQUAD"
         ],
@@ -9986,7 +11581,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "BATTLE SISTERS SQUAD",
+          "CRUSADERS"
+        ],
         "Features": 0
       },
       "Infos": [],
