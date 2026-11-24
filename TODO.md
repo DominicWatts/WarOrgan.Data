@@ -142,6 +142,7 @@ BSData offers drones that Wahapedia does not allow, for example guardian drones 
 
 Only the owner can run these, in the WarOrgan app, using the development build URL. Record results here.
 
+- [ ] Astra Militarum (1.5.11, issue 8): a Cadian Shock Troops unit takes two Leaders but not two Command Squads; a Leman Russ Battle Tank costs 165 with its lascannon and 175 with two multi-meltas; a Leman Russ Commander with a demolisher battle cannon costs 15 more; a Recon Squad takes two long-las; all six Bullgryns can swap wargear; an Ogryn Bodyguard and Nork Deddog can each join a Command Squad, one per squad.
 - [x] Shield drones: a Cadre Fireblade with one shield drone gains 1 W, with two gains 2 W (1.5.4). Reopen issue 4 if two do not stack.
 - [x] Chapters (1.5.7): Ultramarines groups Space Marines datasheets under Characters, Battleline, Dedicated Transports and Other Datasheets, not "Allies: Adeptus Astartes" (issue 6). Passed.
 - [ ] Draft factions (1.5.3): a Battle Sisters Squad and a Crusader Squad for their composition and wargear.
