@@ -567,7 +567,6 @@
       },
       "Infos": [],
       "Keywords": [
-        "Hyperadapted Raveners",
         "Infantry",
         "Great Devourer",
         "Vanguard Invader",
@@ -1261,6 +1260,7 @@
       "Infos": [],
       "Keywords": [
         "Mawloc",
+        "Burrower",
         "Other Datasheets",
         "Monster",
         "Great Devourer",
@@ -1427,6 +1427,7 @@
       "Infos": [],
       "Keywords": [
         "Trygon",
+        "Burrower",
         "Other Datasheets",
         "Monster",
         "Great Devourer",
@@ -2745,7 +2746,7 @@
       "UnitAbilities": [
         {
           "Title": "Seed Spore Mines",
-          "Text": "Once per turn, in your Shooting Phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new **SPORE MINES** unit to your army and set it up anywhere on the battlefield that is wholly within 48\" of this unit and more than 8\" horizontally away from all enemy units. That **SPORE MINES** unit contains 1 model for each model in this unit."
+          "Text": "Once per turn, in your Shooting Phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new SPORE MINES unit to your army and set it up anywhere on the battlefield that is wholly within 48\" of this unit and more than 8\" horizontally away from all enemy units. That SPORE MINES unit contains 1 model for each model in this unit."
         }
       ],
       "Infos": [],
@@ -2923,7 +2924,7 @@
         },
         {
           "Title": "Vicious Insight",
-          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+          "Text": "While this model is leading a unit, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
         },
         {
           "Title": "Hypnotic Gaze (Psychic)",
@@ -3053,7 +3054,7 @@
               "Min": 1,
               "Max": 2
             },
-            "ModelName": "Carnifex",
+            "ModelName": "Carnifexes",
             "StatlineRef": "Carnifex",
             "Keywords": [],
             "Wargear": [
@@ -3166,7 +3167,7 @@
       "UnitAbilities": [
         {
           "Title": "Blistering Assault",
-          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a **surge move** of up to D6+2\"."
+          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\"."
         }
       ],
       "Infos": [],
@@ -3950,7 +3951,7 @@
       "UnitAbilities": [
         {
           "Title": "Spore Mine Cysts",
-          "Text": "At the end of your opponent’s Fight phase, you can do one of the following:\n- Select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit and roll six D6 for that unit: for each 3+, that unit suffers 1 **mortal wound**.\n- Add a new **SPORE MINES** unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 8\" horizontally away from all enemy units. You cannot select this option for more than one model per turn."
+          "Text": "At the end of your opponent’s Fight phase, you can do one of the following:\n- Select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit and roll six D6 for that unit: for each 3+, that unit suffers 1 mortal wound.\n- Add a new SPORE MINES unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 8\" horizontally away from all enemy units. You cannot select this option for more than one model per turn."
         },
         {
           "Title": "Damaged: 1-4 Wounds Remaining",
@@ -5409,7 +5410,7 @@
         },
         {
           "Title": "Onslaught (Aura, Psychic)",
-          "Text": "While a friendly **TYRANIDS** unit is within 6\" of this model, ranged weapons equipped by models in that unit have the **[ASSAULT]** and **[LETHAL HITS]** abilities."
+          "Text": "While a friendly TYRANIDS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [ASSAULT] and [LETHAL HITS] abilities."
         },
         {
           "Title": "Will of the Hive Mind",
@@ -7170,7 +7171,7 @@
       "UnitAbilities": [
         {
           "Title": "Bio-stimulus",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **TYRANIDS** unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly TYRANIDS unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
         },
         {
           "Title": "Feeding Frenzy",
@@ -8824,7 +8825,7 @@
               "Min": 1,
               "Max": 1
             },
-            "ModelName": "The Swarmlord",
+            "ModelName": "Swarmlord – EPIC HERO",
             "StatlineRef": "The Swarmlord",
             "Keywords": [],
             "Wargear": [
@@ -9212,7 +9213,7 @@
       "UnitAbilities": [
         {
           "Title": "Alpha Warrior",
-          "Text": "Weapons equipped by models in this model’s unit have the **[SUSTAINED HITS 1]** ability."
+          "Text": "Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Aggressive Leader-beast",
@@ -10448,7 +10449,7 @@
       "UnitAbilities": [
         {
           "Title": "Foul Spores (Aura)",
-          "Text": "Friendly **TYRANIDS** units within 6\" of this unit have **Stealth**."
+          "Text": "Friendly TYRANIDS units within 6\" of this unit have Stealth."
         }
       ],
       "Infos": [],
@@ -10922,7 +10923,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Feed the Swarm",
-        "Text": "In your Command phase, each **HARVESTER** unit from your army can Regenerate one friendly **TYRANIDS** unit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:\n▪ One model in that unit regains up to D3+1 lost wounds.\n▪ One destroyed **INFANTRY** model (excluding **CHARACTERS**) is returned to that unit with its full wounds remaining. If that unit is an **ENDLESS MULTITUDE** unit, up to 3 destroyed models are returned instead."
+        "Text": "In your Command phase, each HARVESTER unit from your army can Regenerate one friendly TYRANIDS unit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:\n▪ One model in that unit regains up to D3+1 lost wounds.\n▪ One destroyed INFANTRY model (excluding CHARACTERS) is returned to that unit with its full wounds remaining. If that unit is an ENDLESS MULTITUDE unit, up to 3 destroyed models are returned instead."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -11046,7 +11047,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Enraged Behemoths",
-        "Text": "Each time a **TYRANIDS MONSTER** model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half‑strength. In addition, while a **TYRANIDS MONSTER** unit from your army (excluding Battle‑shocked units) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit."
+        "Text": "Each time a TYRANIDS MONSTER model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half‑strength. In addition, while a TYRANIDS MONSTER unit from your army (excluding Battle‑shocked units) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -11298,7 +11299,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Insurmountable Odds",
-        "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model from a friendly **ENDLESS MULTITUDE** unit was **destroyed** as a result of those attacks, that friendly unit can make a **surge move** of up to D6\"."
+        "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model from a friendly ENDLESS MULTITUDE unit was destroyed as a result of those attacks, that friendly unit can make a surge move of up to D6\"."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -11500,7 +11501,7 @@
         },
         {
           "Name": "Neuronode",
-          "Description": "**TYRANIDS** model only. After both players have deployed their armies, you can select up to three **VANGUARD INVADER** units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+          "Description": "TYRANIDS model only. After both players have deployed their armies, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11527,7 +11528,7 @@
         },
         {
           "Name": "Chameleonic",
-          "Description": "**VANGUARD INVADER** model only. This unit has **Stealth**.",
+          "Description": "VANGUARD INVADER model only. This unit has Stealth.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11547,7 +11548,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Leader-beasts",
-        "Text": "- Friendly **TYRANID WARRIORS WITH RANGED BIO‑WEAPONS/TYRANID WARRIORS WITH MELEE BIO‑WEAPONS** units have:\n-- **TYRANID WARRIORS**.\n-- **BATTLELINE**.\n- **TYRANID WARRIORS/TYRANID PRIME WITH LASH WHIP/WINGED TYRANID PRIME** models from your army have 5+ **InSv**."
+        "Text": "- Friendly TYRANID WARRIORS WITH RANGED BIO‑WEAPONS/TYRANID WARRIORS WITH MELEE BIO‑WEAPONS units have:\n-- TYRANID WARRIORS.\n-- BATTLELINE.\n- TYRANID WARRIORS/TYRANID PRIME WITH LASH WHIP/WINGED TYRANID PRIME models from your army have 5+ InSv."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -11598,7 +11599,7 @@
         },
         {
           "Name": "Ocular Adaptation",
-          "Description": "**WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP** model only. This unit’s melee attacks have +1 to **hit rolls**.",
+          "Description": "WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP model only. This unit’s melee attacks have +1 to hit rolls.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11618,7 +11619,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Keywords",
-        "Text": "MAWLOC and TRYGON units from your army have the Burrower keyword.\n\nIn the Muster Armies step, you can select up to 2 TRYGON models from your army. The selected units gain the CHARACTER keyword.\n\n**Designer’s Note:** *This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD.*\n\n**Surprise Assault**\n\nEach time a TYRANIDS model from your army makes an attack, re-roll a Hit roll of 1.\n\nEach time a BURROWER unit from your army is set up on the battlefield from Reserves, place a circular 40mm Tunnel Marker anywhere on the battlefield within 1\" of that unit and more than 3\" horizontally away from all enemy units.\n\nIn the Reinforcements step of your Movement phase, when you set up a unit on the battlefield from Reserves, you can set that unit up wholly within 9\" of one of your Tunnel Markers and more than 6\" horizontally away from any enemy units.\n\nIf an enemy model (excluding AIRCRAFT) ends any kind of move within 3\" of one of your Tunnel Markers, that Tunnel Marker is removed from the battlefield."
+        "Text": "MAWLOC and TRYGON units from your army have the Burrower keyword.\n\nIn the Muster Armies step, you can select up to 2 TRYGON models from your army. The selected units gain the CHARACTER keyword.\n\nDesigner’s Note: *This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD.*\n\n**Surprise Assault**\n\nEach time a TYRANIDS model from your army makes an attack, re-roll a Hit roll of 1.\n\nEach time a BURROWER unit from your army is set up on the battlefield from Reserves, place a circular 40mm Tunnel Marker anywhere on the battlefield within 1\" of that unit and more than 3\" horizontally away from all enemy units.\n\nIn the Reinforcements step of your Movement phase, when you set up a unit on the battlefield from Reserves, you can set that unit up wholly within 9\" of one of your Tunnel Markers and more than 6\" horizontally away from any enemy units.\n\nIf an enemy model (excluding AIRCRAFT) ends any kind of move within 3\" of one of your Tunnel Markers, that Tunnel Marker is removed from the battlefield."
       },
       "ForceDispositions": [
         "Disruption",
@@ -11742,7 +11743,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Mindhunger",
-        "Text": "- Friendly **DEATHLEAPER/LICTOR/NEUROLICTOR** units have Deep Strike.\n- Friendly **LICTOR/NEUROLICTOR** units’ attacks that target a **CHARACTER** unit can re‑roll **hit rolls** of 1.\n\n**Deep Strike**\n\nEach time this unit makes an **ingress move** (20.04), if every model in this unit has this ability, it can be set up anywhere on the battlefield that is more than 8\" horizontally from all enemy units, even if that is within your opponent’s deployment zone."
+        "Text": "- Friendly DEATHLEAPER/LICTOR/NEUROLICTOR units have Deep Strike.\n- Friendly LICTOR/NEUROLICTOR units’ attacks that target a CHARACTER unit can re‑roll hit rolls of 1.\n\n**Deep Strike**\n\nEach time this unit makes an ingress move (20.04), if every model in this unit has this ability, it can be set up anywhere on the battlefield that is more than 8\" horizontally from all enemy units, even if that is within your opponent’s deployment zone."
       },
       "ForceDispositions": [
         "Disruption"
@@ -11779,7 +11780,7 @@
       "Enhancements": [
         {
           "Name": "Encircling Horrors",
-          "Description": "**NEUROLICTOR/LICTOR/VON RYAN’S LEAPERS** unit only. In your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, this unit can make a **normal move** of up to D3+3\".",
+          "Description": "NEUROLICTOR/LICTOR/VON RYAN’S LEAPERS unit only. In your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, this unit can make a normal move of up to D3+3\".",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -11813,7 +11814,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Higher Imperatives",
-        "Text": "Friendly **NORN EMISSARY/NORN ASSIMILATOR** units have the **Protean Purpose** ability."
+        "Text": "Friendly NORN EMISSARY/NORN ASSIMILATOR units have the Protean Purpose ability."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -11863,7 +11864,7 @@
         },
         {
           "Name": "Synaptoprescience",
-          "Description": "**NORN ASSIMILATOR** unit only. This unit has 4+ **InSv**.",
+          "Description": "NORN ASSIMILATOR unit only. This unit has 4+ InSv.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
