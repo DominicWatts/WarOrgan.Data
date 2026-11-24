@@ -2424,7 +2424,7 @@
         },
         {
           "Title": "Orders",
-          "Text": "This OFFICER can issue up to 2 Orders to REGIMENT units, limited to Duty and Honour!, Move! Move! Move!, and Take Cover!."
+          "Text": "This OFFICER can issue up to 2 Orders to REGIMENT units, limited to Duty and Honour!, Move! Move! Move!, and Take Cover!"
         },
         {
           "Title": "Embarking",
@@ -2448,7 +2448,6 @@
         "Character",
         "Epic Hero",
         "Officer",
-        "Ciaphas Cain",
         "Commissar"
       ],
       "CoreAbilities": [
@@ -6258,6 +6257,10 @@
         {
           "Title": "Rearm, Reload, Fire",
           "Text": "While this model is being affected by an Order, provided it Remained Stationary this turn, ranged weapons equipped by this model have the [SUSTAINED HITS 1] ability"
+        },
+        {
+          "Title": "Artillery Team",
+          "Text": "Crew tokens track wounds: start with three and remove one for each wound lost. The artillery model represents the final wound."
         }
       ],
       "Infos": [],
@@ -6426,6 +6429,10 @@
         {
           "Title": "Suppression Bombardment",
           "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "Title": "Artillery Team",
+          "Text": "Crew tokens track wounds: start with three and remove one for each wound lost. The artillery model represents the final wound."
         }
       ],
       "Infos": [],
@@ -12806,8 +12813,7 @@
         "Imperium",
         "Grenades",
         "Regiment",
-        "Quartermaster Cadre Squad",
-        "Krieg"
+        "Quartermaster Cadre Squad"
       ],
       "CoreAbilities": [
         "Leader"
