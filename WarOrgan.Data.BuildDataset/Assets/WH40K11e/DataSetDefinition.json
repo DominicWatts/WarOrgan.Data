@@ -331,6 +331,13 @@
       "Category": "Xenos",
       "MainColor": "#8A5A1E",
       "DarkColor": "#C89A5E"
+    },
+    {
+      "Name": "Necrons",
+      "FactionKeyword": "Necrons",
+      "Category": "Xenos",
+      "MainColor": "#1E6B2A",
+      "DarkColor": "#5EC06E"
     }
   ],
   "CoreAbilities": [
