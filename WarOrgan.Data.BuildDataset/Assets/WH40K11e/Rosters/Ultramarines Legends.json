@@ -1,0 +1,1104 @@
+﻿{
+  "Name": "Ultramarines",
+  "Units": [
+    {
+      "Id": "CHAPLAIN CASSIUS",
+      "DisplayName": "Chaplain Cassius",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaplain Cassius",
+            "StatlineRef": "Chaplain Cassius",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "infernus",
+                  "artificer crozius"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Catechism of Death",
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "Title": "Inspired Retribution",
+          "Text": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "TYRANNIC WAR VETERANS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Chaplain Cassius",
+        "Imperium"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaplain Cassius",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "~40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "infernus",
+              "DisplayName": "Infernus",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "artificer crozius",
+              "DisplayName": "Artificer Crozius",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Id": "SERGEANT CHRONUS",
+      "DisplayName": "Sergeant Chronus",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Sergeant Chronus",
+            "StatlineRef": "Sergeant Chronus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "chronus' servo-arm",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Tank Commander",
+          "Text": "While this model is commanding a Vehicle model (see reverse):\n\n- Ranged weapons equipped by that Vehicle model have a Ballistic Skill characteristic of 2+.\n- Each time that Vehicle model is selected to shoot, you can re-roll one Wound roll when resolving those attacks.\n\nIf your army includes one or more of the Vehicle models listed below, Sergeant Chronus must start the battle embarked within one of those models as if it were a Transport. Sergeant Chronus can only disembark from that Vehicle if it is destroyed. While embarked in this way, Sergeant Chronus is said to be commanding that Vehicle.\n\n- Hunter\n- Land Raider\n- Land Raider Crusader\n- Land Raider Redeemer\n- Predator Annihilator\n- Predator Destructor\n- Stalker\n- Vindicator\n- Whirlwind"
+        },
+        {
+          "Title": "Chronus",
+          "Text": "When this model disembarks from a Vehicle model it was commanding, it has the Lone Operative ability until the end of the battle."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Sergeant Chronus"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Sergeant Chronus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chronus' servo-arm",
+              "DisplayName": "Chronus' Servo-Arm",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Id": "SERGEANT TELION",
+      "DisplayName": "Sergeant Telion",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Sergeant Telion",
+            "StatlineRef": "Sergeant Telion",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "combat knife",
+                  "quietus",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Voice of Experience",
+          "Text": "While this model is leading a unit, improve the Objective Control characteristic of models in that unit by 1 and each time a model in that unit makes an attack, add 1 to the Hit roll."
+        },
+        {
+          "Title": "Guiding Hand",
+          "Text": "While this model is leading a unit, each time that unit is selected to shoot or fight, select one of the following abilities to apply to weapons equipped by models in that unit until the end of the phase:\n\n\n- [LETHAL HITS]\n- [PRECISION]\n- [SUSTAINED HITS 1]"
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Sergeant Telion"
+      ],
+      "CoreAbilities": [
+        "Leader",
+        "Stealth",
+        "Scouts",
+        "Infiltrators"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Sergeant Telion",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "28.5"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "quietus",
+              "DisplayName": "Quietus",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "combat knife",
+              "DisplayName": "Combat Knife",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Id": "TYRANNIC WAR VETERANS",
+      "DisplayName": "Tyrannic War Veterans",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 5
+            },
+            "ModelName": "Tyrannic War Veteran",
+            "StatlineRef": "Tyrannic War Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "boltgun",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 5
+            },
+            "ModelName": "Veteran Sergeant",
+            "StatlineRef": "Tyrannic War Veterans",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "close combat weapon",
+                  "boltgun",
+                  "bolt pistol"
+                ],
+                "Options": [
+                  {
+                    "Max": 5,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Tyrannic War Veterans",
+          "Text": "Weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability when targeting Tyranids units."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tyrannic War Veterans",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Tyrannic War Veterans",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt Pistol",
+              "Keywords": "Anti-Tyranids 4+, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Anti-Tyranids 4+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close Combat Weapon",
+              "Keywords": "Anti-Tyranids 4+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 10,
+          "Cost": 85
+        }
+      ]
+    },
+    {
+      "Id": "ULTRAMARINES HONOUR GUARD",
+      "DisplayName": "Ultramarines Honour Guard",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Company Ancient",
+            "StatlineRef": "Ultramarines Honor Guard",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "boltgun",
+                  "power weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Company Champion",
+            "StatlineRef": "Ultramarines Honor Guard",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "boltgun",
+                  "power weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 2,
+              "Max": 2
+            },
+            "ModelName": "Honour Guard",
+            "StatlineRef": "Ultramarines Honor Guard",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "boltgun",
+                  "power weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 2,
+                    "Options": [
+                      {
+                        "Items": [
+                          "terminator honours upgrade"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "terminator honours upgrade",
+            "DisplayName": "Terminator Honours upgrade",
+            "Cost": 0
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Honour Guard",
+          "Text": "While a Captain or Chapter Master model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+        },
+        {
+          "Title": "Honour Guard of Macragge",
+          "Text": "MARNEUS CALGAR can be attached to this unit. If a CAPTAIN model from your army with the Leader ability can be attached to a COMMAND SQUAD, it can be attached to this unit instead."
+        },
+        {
+          "Title": "Astartes Banner",
+          "Text": "While this unit contains a Company Ancient, add 1 to the Objective Control characteristic of models in this unit."
+        },
+        {
+          "Title": "Honour or Death",
+          "Text": "While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic  Intervention Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Honor Guard",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Ultramarines",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Ultramarines Honor Guard",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 155
+        }
+      ]
+    }
+  ],
+  "Detachments": [],
+  "ArmyRules": []
+}

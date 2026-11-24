@@ -1,0 +1,3713 @@
+﻿{
+  "Name": "Ultramarines",
+  "Units": [
+    {
+      "Id": "CAPTAIN SICARIUS",
+      "DisplayName": "Captain Sicarius",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Captain Sicarius",
+            "StatlineRef": "Captain Sicarius",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "artisan plasma pistol",
+                  "talassarian tempest blade"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Lead From the Front",
+          "Text": "While this model is leading a unit, models in that unit have the Scouts 6\" ability and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+        },
+        {
+          "Title": "Knight Champion of Macragge",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+        },
+        {
+          "Title": "Invulnerable Save",
+          "Text": "4+"
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Sicarius"
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Captain Sicarius",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "artisan plasma pistol",
+              "DisplayName": "Artisan Plasma Pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "talassarian tempest blade",
+              "DisplayName": "Talassarian Tempest Blade",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 85
+        }
+      ]
+    },
+    {
+      "Id": "CAPTAIN TITUS",
+      "DisplayName": "Captain Titus",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Captain Titus",
+            "StatlineRef": "Captain Titus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted chainsword",
+                  "master-crafted bolter",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Press the Attack",
+          "Text": "This unit’s melee attacks have:\n\n\n- [Sustained Hits 1: non-Monster/Vehicle].\n- Or: If the assault doctrine is active for this unit, [Sustained Hits 1]."
+        },
+        {
+          "Title": "Honour of Ultramar",
+          "Text": "n the fight phase, when this model is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n- On a 2+, do not remove this model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), this model is removed from the battlefield."
+        },
+        {
+          "Title": "Righteous Fury",
+          "Text": "(Once per battle, per army)\nIn the Fight phase, you can use this ability. If you do, this unit’s melee attacks have +1 S, and when this unit has fought:\n- This model heals D3 wounds.\n- Or: If this model destroyed an enemy model this phase, this model heals 2D3 wounds"
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Titus",
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Tacticus",
+        "Captain",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Feel No Pain 5+"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Captain Titus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted bolter",
+              "DisplayName": "Master-crafted Bolter",
+              "Keywords": "Assault, Heavy, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted chainsword",
+              "DisplayName": "Master-crafted Chainsword",
+              "Keywords": "Anti-non-Monster/Vehicle 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Id": "CATO SICARIUS",
+      "DisplayName": "Cato Sicarius",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Cato Sicarius",
+            "StatlineRef": "Cato Sicarius",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "artisan plasma pistol",
+                  "talassarian tempest blade - strike",
+                  "talassarian tempest blade - coup de grace",
+                  "talassarian tempest blade - sweep"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Knight Champion of Macragge",
+          "Text": "(Once per phase, per army)\nIn your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can make a normal move of up to 6\"."
+        },
+        {
+          "Title": "Honour or Death",
+          "Text": "When you target this unit with the Heroic Intervention stratagem, that use is -1 CP."
+        },
+        {
+          "Title": "Support",
+          "Text": "This model can be attached to the following units:\nVICTRIX HONOUR GUARD"
+        },
+        {
+          "Title": "Captain of the Honour Guard",
+          "Text": "If your army includes a Marneus Calgar unit, replace this unit’s Leader ability with the Support ability (this unit can still be attached to the same units)."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Tacticus",
+        "Sicarius",
+        "Cato",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Cato Sicarius",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "artisan plasma pistol",
+              "DisplayName": "Artisan Plasma Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "talassarian tempest blade - coup de grace",
+              "DisplayName": "Talassarian Tempest Blade - Coup de Grace",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "7"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "talassarian tempest blade - strike",
+              "DisplayName": "Talassarian Tempest Blade - Strike",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "talassarian tempest blade - sweep",
+              "DisplayName": "Talassarian Tempest Blade - Sweep",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "9"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Id": "CHIEF LIBRARIAN TIGURIUS",
+      "DisplayName": "Chief Librarian Tigurius",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chief Librarian Tigurius",
+            "StatlineRef": "Chief Librarian Tigurius",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "storm of the emperor's wrath",
+                  "rod of tigurius",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Hood of Hellfire",
+          "Text": "This unit has Feel No Pain 4+ against psychic attacks and mortal wounds."
+        },
+        {
+          "Title": "Chief Librarian (psyker level 3)",
+          "Text": "This model has the psychic abilities listed in the Psychic Abilities section."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Imperium",
+        "Psyker",
+        "Chief Librarian Tigurius",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chief Librarian Tigurius",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "storm of the emperor's wrath",
+              "DisplayName": "Storm of the Emperor’s Wrath",
+              "Keywords": "Blast 1, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "rod of tigurius",
+              "DisplayName": "Rod of Tigurius",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 115
+        }
+      ]
+    },
+    {
+      "Id": "KAIUS KONORIUS",
+      "DisplayName": "Kaius Konorius",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Kaius Konorius",
+            "StatlineRef": "Kaius Konorius",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "severance and rebuke - strike",
+                  "severance and rebuke - sweep",
+                  "heavy bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Support",
+          "Text": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD"
+        },
+        {
+          "Title": "Veteran Bodyguard",
+          "Text": "While this model is attached to a unit, other Character models in this unit have Feel No Pain 4+."
+        },
+        {
+          "Title": "Calgar’s Champion",
+          "Text": "This model’s attacks that target a Character unit can:\n\n\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Explosives",
+        "Infantry",
+        "Character",
+        "Tacticus"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Support"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Kaius Konorius",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "-"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "severance and rebuke - strike",
+              "DisplayName": "Severance and Rebuke - Strike",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "severance and rebuke - sweep",
+              "DisplayName": "Severance and Rebuke - Sweep",
+              "Keywords": "Cleave 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Id": "LIEUTENANT TITUS",
+      "DisplayName": "Lieutenant Titus",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lieutenant Titus",
+            "StatlineRef": "Lieutenant Titus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "astartes chainsword",
+                  "heavy bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Press the Attack",
+          "Text": ": Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "Title": "Honour of the Chapter",
+          "Text": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Imperium",
+        "Grenades",
+        "Epic Hero",
+        "Lieutenant",
+        "Titus",
+        "Tacticus"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 5+",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Lieutenant Titus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "astartes chainsword",
+              "DisplayName": "Astartes Chainsword",
+              "Keywords": "Anti-Infantry 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Id": "MARNEUS CALGAR",
+      "DisplayName": "Marneus Calgar",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Marneus Calgar",
+            "StatlineRef": "Marneus Calgar",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "gauntlets of ultramar",
+                  "gauntlets of ultramar (overhead smash)"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Master Tactician",
+          "Text": "In your Movement phase, you can select one visible friendly **ADEPTUS ASTARTES** unit within 9\" of this model, and select one combat doctrine. That combat doctrine is active for that unit until the start of your next Command phase."
+        },
+        {
+          "Title": "Thunderhawk Insertion",
+          "Text": "In the Declare Battle Formations step, you can select one friendly **GRAVIS/PHOBOS/TACTICUS** unit. That unit has Deep Strike."
+        },
+        {
+          "Title": "Codex Adept",
+          "Text": "The Assault Doctrine, Devastator Doctrine, and Tactical Doctrine are active for this unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "VICTRIX HONOUR GUARD"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Terminator",
+        "Chapter Master",
+        "Marneus Calgar"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Marneus Calgar",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "~50"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "gauntlets of ultramar",
+              "DisplayName": "Gauntlets of Ultramar",
+              "Keywords": "Close-quarters, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "gauntlets of ultramar",
+              "DisplayName": "Gauntlets of Ultramar",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "gauntlets of ultramar (overhead smash)",
+              "DisplayName": "Gauntlets of Ultramar (Overhead Smash)",
+              "Keywords": "Extra Attacks, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 180
+        }
+      ]
+    },
+    {
+      "Id": "ROBOUTE GUILLIMAN",
+      "DisplayName": "Roboute Guilliman",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Roboute Guilliman",
+            "StatlineRef": "Roboute Guilliman",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hand of dominion",
+                  "the emperor's sword"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Author of the Codex",
+          "Text": "In your Movement phase, you can select one visible friendly ADEPTUS ASTARTES unit within 12\" of this model, and select one Combat Doctrine. That Combat Doctrine is active for that unit in addition to any other Combat Doctrines that are active for that unit until the start of your next Command phase."
+        },
+        {
+          "Title": "Leader of Astartes",
+          "Text": "While this unit is within 3\" of a friendly **ADEPTUS ASTARTES INFANTRY** unit, this unit has Lone Operative."
+        },
+        {
+          "Title": "Supreme Commander",
+          "Text": "If this model is in your army, it must be your Warlord."
+        },
+        {
+          "Title": "Primarch of the XIII (Aura)",
+          "Text": "While a Friendly ADEPTUS ASTARTES unit is within 6\" of this unit, that unit's attacks can:\n- Re-roll hit rolls of 1\n- Re-roll wound rolls of 1"
+        },
+        {
+          "Title": "Codex Adept",
+          "Text": "The Assault Doctrine, Devastator Doctrine, and Tactical Doctrine are active for this unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Character",
+        "Imperium",
+        "Primarch",
+        "Roboute Guilliman",
+        "Monster",
+        "Mobile"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Feel No Pain 5+"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Roboute Guilliman",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "16"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "4"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "hand of dominion",
+              "DisplayName": "Hand of Dominion",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "hand of dominion",
+              "DisplayName": "Hand of Dominion",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "7"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "4"
+                }
+              ]
+            },
+            {
+              "Id": "the emperor's sword",
+              "DisplayName": "The Emperor's Sword",
+              "Keywords": "Cleave 2, Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 415
+        }
+      ]
+    },
+    {
+      "Id": "URIEL VENTRIS",
+      "DisplayName": "Uriel Ventris",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Uriel Ventris",
+            "StatlineRef": "Uriel Ventris",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "invictus",
+                  "sword of idaeus",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Unorthodox Strategist [Aura]",
+          "Text": "Each time your opponent targets a unit from their army with a  stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem)."
+        },
+        {
+          "Title": "Master of the Fleet",
+          "Text": "During the Declare Battle Formations step, if your army includes this model, select one Phobos, Gravis, or Tacticus Adeptus Astartes Infantry unit from your army.  That unit gains the Deep Strike ability."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "VICTRIX HONOUR GUARD"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Uriel Ventris",
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Captain",
+        "Imperium",
+        "Tacticus"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Uriel Ventris",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "invictus",
+              "DisplayName": "Invictus",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "sword of idaeus",
+              "DisplayName": "Sword of Idaeus",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 105
+        }
+      ]
+    },
+    {
+      "Id": "VICTRIX HONOUR GUARD",
+      "DisplayName": "Victrix Honour Guard",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 6
+            },
+            "ModelName": "Victrix Honour Guard",
+            "StatlineRef": "Victrix Honour Guard",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted bolt carbine",
+                  "master-crafted power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 0,
+              "Max": 6
+            },
+            "ModelName": "Chapter Champion",
+            "StatlineRef": "Victrix Honour Guard",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "blades of honour"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 0,
+              "Max": 6
+            },
+            "ModelName": "Chapter Ancient",
+            "StatlineRef": "Victrix Honour Guard",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "banner of macragge",
+                  "master-crafted bolt carbine",
+                  "master-crafted power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "banner of macragge",
+            "DisplayName": "Banner of Macragge",
+            "Cost": 15,
+            "GrantsAbilities": [
+              "Banner of Macragge"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Honour Guard of Macragge",
+          "Text": "Attacks that target this unit have -1 to wound rolls."
+        },
+        {
+          "Title": "Glory of Ultramar",
+          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed by those attacks, this unit can make a surge move of up to D6\"."
+        },
+        {
+          "Title": "Banner of Macragge",
+          "Text": "- At the end of your Movement phase, if this unit is controlling an objective, that objective is secured.\n- (Once per battle, per army) When this unit is selected to fight, you can use this ability. If you do, this unit’s melee attacks have +1 A and S."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Victrix Honour Guard",
+        "Tacticus",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Ultramarines",
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Victrix Honour Guard",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted bolt carbine",
+              "DisplayName": "Master-crafted Bolt Carbine",
+              "Keywords": "Assault, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "blades of honour",
+              "DisplayName": "Blades of Honour",
+              "Keywords": "Precision, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 120
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 18,
+          "Cost": 250
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 120
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 18,
+          "Cost": 250
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 150
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 18,
+          "Cost": 280
+        }
+      ]
+    },
+    {
+      "Id": "WARDENS OF ULTRAMAR",
+      "DisplayName": "Wardens of Ultramar",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ancient Gadriel",
+            "StatlineRef": "Ancient Gadriel",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt rifle - focused fire",
+                  "bolt rifle - saturation",
+                  "ceramite fists"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Veteran Sergeant Metaurus",
+            "StatlineRef": "Veteran Sergeant Metaurus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy bolt pistol",
+                  "master-crafted power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Gaius Silva",
+            "StatlineRef": "Gaius Silva",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "archeotech laspistol",
+                  "power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Aemelia Minervas",
+            "StatlineRef": "Aemelia Minervas",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "archeotech laspistol",
+                  "power weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Dainal Kornelius",
+            "StatlineRef": "Dainal Kornelius",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "astropathic blast",
+                  "force stave"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Lucia Vestha",
+            "StatlineRef": "Lucia Vestha",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "ultramarian combat weapons",
+                  "archeotech laspistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Raise the  Banner",
+          "Text": "At the end of your Movement phase, if this unit is controlling an objective, that objective is secured."
+        },
+        {
+          "Title": "Strategium Command",
+          "Text": "When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves."
+        },
+        {
+          "Title": "Support",
+          "Text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Epic Hero",
+        "Imperium",
+        "Tacticus",
+        "Wardens of Ultramar",
+        "Explosives",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Support"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Ultramarines"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Ancient Gadriel",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Veteran Sergeant Metaurus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Gaius Silva",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Aemelia Minervas",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Dainal Kornelius",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Lucia Vestha",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "archeotech laspistol",
+              "DisplayName": "Archeotech Laspistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "astropathic blast",
+              "DisplayName": "Astropathic Blast",
+              "Keywords": "Blast 1, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "bolt rifle - focused fire",
+              "DisplayName": "Bolt Rifle - Focused Fire",
+              "Keywords": "Heavy, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "bolt rifle - saturation",
+              "DisplayName": "Bolt Rifle - Saturation",
+              "Keywords": "Assault, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "ceramite fists",
+              "DisplayName": "Ceramite Fists",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "force stave",
+              "DisplayName": "Force Stave",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power Weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "ultramarian combat weapons",
+              "DisplayName": "Ultramarian Combat Weapons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 6,
+          "Cost": 115
+        }
+      ]
+    }
+  ],
+  "Detachments": [
+    {
+      "Name": "Gladius Task Force",
+      "Cost": 3,
+      "Rule": {
+        "Title": "Codex Discipline",
+        "Text": "You can select one Combat Doctrine one additional time per battle."
+      },
+      "ForceDispositions": [
+        "Priority Assets",
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Artificer Armour",
+          "Description": "ADEPTUS ASTARTES model only. This model has:\n▪ 2+ Sv\n▪  Feel No Pain 5+",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Laurels of Triumph",
+          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1S and AP\n▪ Or: if the assault doctrine is active for this unit, +2S and AP",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Adept of the Codex",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Standard of the Emperor Ascendant",
+          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Ironstorm Spearhead",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Ironstorm Auto-Targeters",
+        "Text": "Friendly Adeptus Astartes Vehicle units' (excluding Walker units) ranged attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll"
+      },
+      "Tags": [
+        "IRONSTORM DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Gunnery Honours (Upgrade)",
+          "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit's ranged attacks have [Heavy]",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Dedicated Transport",
+            "Fly",
+            "Walker"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Redoubtable Machine Spirit (Upgrade)",
+          "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units) This unit:\n▪ Has a 5+ InvSv\n▪ At the end of your Command phase, heals 1 wound",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Dedicated Transport",
+            "Fly",
+            "Walker"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Stormlance Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Lightning-Fast Strike",
+        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Supercharged Engines (Upgrade)",
+          "Description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Mounted"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Auspex Triangulation Shrines (Upgrade)",
+          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy is spotted.\n▪ While a unit is spotted, that unit has +3\" detection range",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Speeder"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Blade of Ultramar",
+      "Cost": 3,
+      "Rule": {
+        "Title": "Mastered Doctrines",
+        "Text": "If your army includes a Marneus Calgar unit, you can select the assault doctrine/devastator doctrine/tactical doctrine each one additional time per battle."
+      },
+      "ForceDispositions": [
+        "Priority Assets",
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Armour of Antoninus",
+          "Description": "Adeptus Astartes model only. This model has:\n\n▪ 2+ Sv.\n▪ Feel No Pain 5+.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Oath of Macragge",
+          "Description": "Adeptus Astartes model only. This model’s melee attacks have:\n\n▪ +1 S and AP.\n▪ Or: If the assault doctrine is active for this unit, +2 S and AP.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Student of the Codex",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Veteran of Behemoth",
+          "Description": "Adeptus Astartes model only. This unit’s ranged attacks have [Sustained Hits 1].",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Assault Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Assault Mastery",
+        "Text": "You can select the assault doctrine one additional time per battle"
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Imperium's Sword",
+          "Description": "",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Furious Assault (Upgrade)",
+          "Description": "Adeptus Astartes Infantry unit only. This unit's melee attacks have [Sustained Hits 1: non-Monster/Vehicle]",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tactical Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Tactical Mastery",
+        "Text": "You can select the Tactical Doctrine one additional time."
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Laurels of Vigilance",
+          "Description": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tactical Insight",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Devastator Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Devastator Mastery",
+        "Text": "You can select the devastator doctrine one additional time per battle."
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Honour of Vigilance",
+          "Description": "Adeptus Astartes model only.\n▪ This unit's ranged attacks have [Lethal Hits]\n▪ If the devastator doctrine is active for this unit, this unit can re-roll advance rolls.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Master-Forged Firearms",
+          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Terminator Storm Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Death Blow",
+        "Text": "Friendly Adeptus Astartes Terminator units have +1 to charge rolls"
+      },
+      "Tags": [
+        "TERMINATOR DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Champion of the First Company",
+          "Description": "Adeptus Astartes Terminator model only. This unit's melee attacks have [Lethal Hits]",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Corporeum Reliquary",
+          "Description": "Adeptus Astartes Terminator model only. In your first Movement phase, this unit can make an ingress move.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tacticus Attack Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Wrath of the Chapter",
+        "Text": "Friendly Tacticus units can re-roll advance rolls."
+      },
+      "Tags": [
+        "TACTICUS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Martial Paragon",
+          "Description": "Tacticus model only. This unit's attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Spearpoint War Leader",
+          "Description": "Tacticus model only. This unit has Scouts 6\"",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tacticus Firestorm Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Codex Fire-Patterns",
+        "Text": "Friendly Tacticus units [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack's maximum range."
+      },
+      "Tags": [
+        "TACTICUS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Cyber Familiar",
+          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tempered in Battle (Aura)",
+          "Description": "Tacticus model only. Friendly Adeptus Astartes units within 6\" of this model can re-roll leadership rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Phobos Shadow Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Shadow Masters",
+        "Text": "When a Phobos or Scout Squad unit has shot:\n▪ Those attacks do not prevent that unit from being hidden\n▪ Or: That unit can make a normal move of up to D6\". That unit is not eligible to declare a charge until the end of the turn."
+      },
+      "Tags": [
+        "PHOBOS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Execute and Redeploy",
+          "Description": "Phobos model only. In your shooting phase, after this unit has shot, if this unit is unengaged, this unit can make a normal move of up to 6\". If it does, this unit is not eligible to declare a charge until the end of the turn.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venator Omni-Auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 0,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Phobos Shock Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Vanguard Ambushers",
+        "Text": "At the end of your Movement phase, if a friendly Phobos unit is hidden, that unit’s attacks can re-roll wound rolls of 1 until the end of the turn."
+      },
+      "Tags": [
+        "PHOBOS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Seal of Shrouding",
+          "Description": "Phobos model only. Enemy units cannot target this unit with snap shooting attacks.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venator Omni-Auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 0,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gravis Linebreaker Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Walking Fortress",
+        "Text": "In a turn a friendly Gravis unit made a normal move, that unit's ranged attacks:\n▪ Do not have [Heavy]\n▪ Have +1 to hit rolls"
+      },
+      "Tags": [
+        "GRAVIS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Indefatigable Fortitude",
+          "Description": "Gravis model only. Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Relentless Advance",
+          "Description": "Gravis model only. This unit has Scouts 5\"",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gravis Siege Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Indomitable Defence",
+        "Text": "While a friendly Gravis unit is within range of an objective, attacks that target that unit with a S greater than that unit's T have -1 to wound rolls"
+      },
+      "Tags": [
+        "GRAVIS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Immovable Conquerors (Upgrade)",
+          "Description": "Gravis unit only. This unit has +1 OC",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Narthecis Gauntlet",
+          "Description": "Apothecary Biologis model only. In your Command phase, this unit heals D3+1 wounds.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Apothecary Biologis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Ironclad Champions",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Enduring Vengeance",
+        "Text": "Friendly Adeptus Astartes Dreadnought units can re-roll hit rolls of 1"
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Artificer Sarcophagus (Upgrade)",
+          "Description": "Dreadnought unit only. Attacks that target this unit have -1D",
+          "Cost": 40,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Dreadnought"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venerable Champion (Aura) (Upgrade)",
+          "Description": "Dreadnought unit only. While a friendly Adeptus Astartes Infantry/Mounted unit is within 6\" of this unit, that unit's attacks can re-roll hit rolls of 1",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Dreadnought"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gauntlet Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Combined Deployment",
+        "Text": "In your Shooting phase, when a friendly Adeptus Astartes Transport unit has shot, you can select one enemy unit hit by those attacks. That enemy unit is assailed until the end of the turn.\n▪ While a unit is assailed, when an Adeptus Astartes unit that disembarked this turn targets that unit, those attacks have [Sustained Hits 1]"
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Linebreaker Onslaught",
+          "Description": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\n▪ This unit can re-roll charge rolls\n▪ Enemy units cannot target this unit with snap shooting attacks.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Damocles-Class Uplink",
+          "Description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that Transport unit and select one combat doctrine. That combat doctrine is active for that Infantry unit.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Deathwatch Support",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Mission Tactics",
+        "Text": "Friendly KILL TEAM units with this ability have the following abilities:\n\n\nFuror Tactics: If the devastator doctrine is active for your unit, your unit’s attacks have [SUSTAINED HITS 1].\n\n\nMalleus Tactics: If the tactical doctrine is active for your unit, your unit’s attacks have [LETHAL HITS].\n\n\nPurgatus Tactics: If the assault doctrine is active for your unit, your unit’s attacks that target an enemy unit within 9\" of this unit have [PRECISION].\n\n\nDEATHWATCH ALLIES\n\n\nYou can include Deathwatch units in your army, even though they do not have the same Chapter faction keyword as other units in your army. The combined points value of such units cannot exceed 500 points.\n\n\nWhen mustering your army, unless otherwise stated, you cannot select a Deathwatch model to be your Warlord. In addition Kill Team units can only contain enhancements taken from this detachment."
+      },
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    }
+  ],
+  "ArmyRules": []
+}

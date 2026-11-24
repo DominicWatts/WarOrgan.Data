@@ -1,0 +1,3767 @@
+﻿{
+  "Name": "Agents of the Imperium",
+  "Units": [
+    {
+      "Id": "DAEMONHOST",
+      "DisplayName": "Daemonhost",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 2
+            },
+            "ModelName": "Daemonhost",
+            "StatlineRef": "Daemonhost",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "unholy gaze",
+                  "warp grasp"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Malefic Warding",
+          "Text": "While an INQUISITOR model is leading a unit that contains one or more DAEMONHOST models, models in this unit have a 5+ invulnerable save."
+        },
+        {
+          "Title": "Bound Daemon",
+          "Text": "While an INQUISITOR model is leading a unit that includes one or more DAEMONHOST models, the Objective Control characteristic of DAEMONHOST models in that unit is 1."
+        },
+        {
+          "Title": "Inquisitorial Retinue",
+          "Text": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each unique pairing of 1 INQUISITORIAL AGENTS unit and 1 DAEMONHOST unit occuring in your army, increase the maximum number of RETINUE units permitted in your army by 1. At the start of the Declare Battle Formations step, this unit can join one INQUISITORIAL AGENTS unit from your army that is being led by an INQUISITOR model (a unit cannot have more than one DAEMONHOST unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Psyker",
+        "Retinue",
+        "Daemon",
+        "Daemonhost",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Daemonhost",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "unholy gaze",
+              "DisplayName": "Unholy gaze",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "warp grasp",
+              "DisplayName": "Warp grasp",
+              "Keywords": "Lethal Hits, Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 0
+        },
+        {
+          "ModelCount": 2,
+          "Cost": 0
+        }
+      ]
+    },
+    {
+      "Id": "DAMNED LEGIONNAIRES",
+      "DisplayName": "Damned Legionnaires",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Legionnaire Sergeant",
+            "StatlineRef": "Damned Legionnaires",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "bolt pistol",
+                          "power weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol - standard",
+                          "plasma pistol - supercharge",
+                          "power weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bolt pistol",
+                          "astartes chainsword"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol - supercharge",
+                          "plasma pistol - standard",
+                          "astartes chainsword"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 9
+            },
+            "ModelName": "Legionnaire",
+            "StatlineRef": "Damned Legionnaires",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "close combat weapon",
+                  "boltgun"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "plasma gun - standard",
+                          "plasma gun - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "meltagun"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Grim Spectres",
+          "Text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result when doing so."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Damned Legionaires",
+        "Retinue",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Damned Legionnaires",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Ignores Cover, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "flamer",
+              "DisplayName": "Flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Heavy, Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - standard",
+              "DisplayName": "Plasma gun - standard",
+              "Keywords": "Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma gun - supercharge",
+              "DisplayName": "Plasma gun - supercharge",
+              "Keywords": "Hazardous, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "astartes chainsword",
+              "DisplayName": "Astartes chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 90
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 180
+        }
+      ]
+    },
+    {
+      "Id": "INQUISITOR EISENHORN",
+      "DisplayName": "Inquisitor Eisenhorn",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Inquisitor Eisenhorn",
+            "StatlineRef": "Inquisitor Eisenhorn",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "artificer bolt pistol",
+                  "mind assault",
+                  "runestaff and barbarisater"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Malus Codicium",
+          "Text": "While this model is leading a unit, double the Attacks characteristic of weapons equipped by Daemonhost models in that unit."
+        },
+        {
+          "Title": "Dominate Will (Psychic)",
+          "Text": "At the start of your opponent’s Shooting phase, select one enemy INFANTRY unit that is within 12\" of and visible to this model and roll one D6: on a 1, this model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; on a 6, until the end of the phase, that unit is not eligible to shoot."
+        },
+        {
+          "Title": "Authority of the Inquisition",
+          "Text": "While this model is leading a unit, it can embark within any **TRANSPORT** that its Bodyguard unit can embark within."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "DAEMONHOST",
+          "EXACTION SQUAD",
+          "INQUISITORIAL AGENTS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Psyker",
+        "Grenades",
+        "Imperium",
+        "Inquisitor",
+        "Eisenhorn",
+        "Ordo Xenos"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Feel No Pain 6+"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Inquisitor Eisenhorn",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "~32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "artificer bolt pistol",
+              "DisplayName": "Artificer bolt pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "mind assault",
+              "DisplayName": "Mind Assault",
+              "Keywords": "Devastating Wounds, Precision, Psychic, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "runestaff and barbarisater",
+              "DisplayName": "Runestaff and Barbarisater",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Id": "INQUISITOR IN TERMINATOR ARMOUR",
+      "DisplayName": "Inquisitor in Terminator Armour",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Inquisitor in Terminator Armour",
+            "StatlineRef": "Inquisitor in Terminator Armour",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "inquisitorial melee weapon",
+                  "storm bolter",
+                  "blessed wardings"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "psychic shock wave"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "inquisitorial melee weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "force weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "storm bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "combi-weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "psycannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "blessed wardings"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "psychic gifts"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "blessed wardings",
+            "DisplayName": "Blessed wardings",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Blessed Wardings"
+            ]
+          },
+          {
+            "Key": "psychic gifts",
+            "DisplayName": "Psychic gifts",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Psychic Gifts"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Authority of the Inquisition",
+          "Text": "While this model is leading a unit, it can embark within any **TRANSPORT** that its Bodyguard unit can embark within."
+        },
+        {
+          "Title": "Power of the Rosette",
+          "Text": "Each time you target this model’s unit with a Stratagem, roll one D6: on a 3+, you gain 1CP."
+        },
+        {
+          "Title": "Psychic Gifts",
+          "Text": "The bearer has the PSYKER keyword."
+        },
+        {
+          "Title": "Blessed Wardings",
+          "Text": "While this model is leading a unit, models in that unit have a 6+ invulnerable save."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "EXACTION SQUAD",
+          "GREY KNIGHTS TERMINATOR SQUAD",
+          "INQUISITORIAL AGENTS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Grenades",
+        "Terminator",
+        "Imperium",
+        "Inquisitor"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Inquisitor in Terminator Armour",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "~32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "combi-weapon",
+              "DisplayName": "Combi-weapon",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "psycannon",
+              "DisplayName": "Psycannon",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "psychic shock wave",
+              "DisplayName": "Psychic shock wave",
+              "Keywords": "Devastating Wounds, Psychic, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "force weapon",
+              "DisplayName": "Force weapon",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "inquisitorial melee weapon",
+              "DisplayName": "Inquisitorial melee weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
+      "Id": "INQUISITOR KARAMAZOV",
+      "DisplayName": "Inquisitor Karamazov",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Inquisitor Karamazov",
+            "StatlineRef": "Inquisitor Karamazov",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted multi-melta",
+                  "master-crafted power sword"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Unsubtle Crusader",
+          "Text": "At the start of the Declare Battle Formations step, you can select up to 3 **AGENTS OF THE IMPERIUM INFANTRY** units from your army, or one **IMPERIUM BATTLELINE** unit from your army - those units gain the Scouts 6\" ability."
+        },
+        {
+          "Title": "Throne of Judgement (Aura)",
+          "Text": "While a friendly unit is within 6\" of this model, improve the Leadership characteristic of models in that unit by 1. While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "Inquisitor",
+        "Karamazov",
+        "Ordo Hereticus"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Inquisitor Karamazov",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "~32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted multi-melta",
+              "DisplayName": "Master-crafted multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted power sword",
+              "DisplayName": "Master-crafted power sword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 140
+        }
+      ]
+    },
+    {
+      "Id": "INQUISITOR OSTROMANDEUS",
+      "DisplayName": "Inquisitor Ostromandeus",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Inquisitor Ostromandeus",
+            "StatlineRef": "Inquisitor Ostromandeus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "inferno pistol",
+                  "power sword",
+                  "vox-skull"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Stentor-I-52",
+            "StatlineRef": "Stentor-I-52",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "hydraulic vox-ram"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "vox-skull",
+            "DisplayName": "Vox-skull",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Vox-skull"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Ward Against the Malefic Arts",
+          "Text": "While this unit is leading a unit, each time a Psychic Attack targets that unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+        },
+        {
+          "Title": "Vox‑cast Proclamations (Aura)",
+          "Text": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this unit’s Inquisitor Ostromandeus model, increase the cost of that use of that Stratagem by 1CP."
+        },
+        {
+          "Title": "Authority of the Inquisition",
+          "Text": "While this model is leading a unit, it can embark within any **TRANSPORT** that its Bodyguard unit can embark within."
+        },
+        {
+          "Title": "Vox-skull",
+          "Text": "Once per battle, at the start of any phase, you can select one enemy unit (excluding **MONSTERS** and **VEHICLES**) within 12\" of the bearer. That unit must take a Battle-shock test; if that test is failed, until the end of your next turn, that unit cannot have the Benefit of Cover.\n**Designer’s Note**: *Place a vox‑skull token next to the unit, removing it once this ability has been used.*"
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "EXACTION SQUAD",
+          "INQUISITORIAL AGENTS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Infantry",
+        "Imperium",
+        "Grenades",
+        "Character",
+        "Inquisitor",
+        "Ostromandeus"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Feel No Pain 4+"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Inquisitor Ostromandeus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "~32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Stentor-I-52",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "~32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "inferno pistol",
+              "DisplayName": "Inferno pistol",
+              "Keywords": "Melta 2, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "hydraulic vox-ram",
+              "DisplayName": "Hydraulic vox-ram",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power sword",
+              "DisplayName": "Power sword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Id": "JANUS DRAIK",
+      "DisplayName": "Janus Draik",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Janus Draik",
+            "StatlineRef": "Janus Draik",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heirloom pistol",
+                  "monomolecular rapier"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Backroom Deals",
+          "Text": "If your army contains one or more units with this ability, during the Declare Battle Formations step, select one of those units. While the selected unit is leading a unit, models in that unit have the Infiltrators ability."
+        },
+        {
+          "Title": "Warrant of Trade",
+          "Text": "If your army includes one or more units with this ability, after both players have deployed their armies, select up to D3 **IMPERIUM BATTLELINE** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "VOIDSMEN-AT-ARMS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Janus Draik",
+        "Voidfarer Character",
+        "Voidfarers"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Infiltrators"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Janus Draik",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heirloom pistol",
+              "DisplayName": "Heirloom pistol",
+              "Keywords": "Anti-Infantry 4+, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "monomolecular rapier",
+              "DisplayName": "Monomolecular rapier",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 40
+        }
+      ]
+    },
+    {
+      "Id": "JOKAERO WEAPONSMITH",
+      "DisplayName": "Jokaero Weaponsmith",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Jokaero Weaponsmith",
+            "StatlineRef": "Jokaero Weaponsmith",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "close combat weapon",
+                  "jokaero weapons - focused",
+                  "jokaero weapons - scattered"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Inconceivable Augmentation",
+          "Text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+          "Title": "Inquisitorial Agent",
+          "Text": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each unique pairing of 1 INQUISITORIAL AGENTS unit and 1 JOKAERO WEAPONSMITH unit occuring in your army, increase the maximum number of CHARACTER units permitted in your army by 1."
+        },
+        {
+          "Title": "A Weaponsmith, Not a Warlord",
+          "Text": "This model cannot be selected to be your Warlord. While an INQUISITOR model is leading a unit that includes one or more JOKAERO WEAPONSMITH models, the Objective Control characteristic of JOKAERO WEAPONSMITH models in that unit is 1."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "INQUISITORIAL AGENTS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Character",
+        "Jokaero Weaponsmith"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Jokaero Weaponsmith",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "0"
+            },
+            {
+              "Id": "Base",
+              "Value": "25"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "jokaero weapons - focused",
+              "DisplayName": "Jokaero weapons - focused",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "jokaero weapons - scattered",
+              "DisplayName": "Jokaero weapons - scattered",
+              "Keywords": "Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 30
+        }
+      ]
+    },
+    {
+      "Id": "KILL TEAM CASSIUS",
+      "DisplayName": "Kill Team Cassius",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaplain Cassius",
+            "StatlineRef": "Chaplain Cassius",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "artificer crozius",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Vael Donatus",
+            "StatlineRef": "Vael Donatus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "close combat weapon",
+                  "bolt pistol",
+                  "boltgun"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Zameon Gydrael",
+            "StatlineRef": "Zameon Gydrael",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "long vigil ranged weapon",
+                  "long vigil melee weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Rodricus Grytt",
+            "StatlineRef": "Rodricus Grytt",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "close combat weapon",
+                  "frag cannon",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Antor Delassio",
+            "StatlineRef": "Antor Delassio",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "long vigil ranged weapon",
+                  "long vigil melee weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Edryc Setorax",
+            "StatlineRef": "Edryc Setorax",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "twin lightning claws"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Jensus Natorian",
+            "StatlineRef": "Jensus Natorian",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "psychic cleanse",
+                  "force weapon",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Drenn Redblade",
+            "StatlineRef": "Drenn Redblade",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "long vigil melee weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Garran Branatar",
+            "StatlineRef": "Garran Branatar",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "power fist",
+                  "long vigil ranged weapon",
+                  "heavy flamer"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Ennox Sorrlock",
+            "StatlineRef": "Ennox Sorrlock",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "close combat weapon",
+                  "long vigil ranged weapon"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Jetek Suberei",
+            "StatlineRef": "Jetek Suberei",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "deathwatch twin boltgun",
+                  "long vigil melee weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Catechism of Death",
+          "Text": "While this unit contains Chaplain Cassius, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+        },
+        {
+          "Title": "Unflinching",
+          "Text": "You can re-roll Battle-shock tests for this unit."
+        },
+        {
+          "Title": "Jump Pack",
+          "Text": "The bearer has a Move characteristic of 12\" and can move over models and terrain as if they were not there."
+        },
+        {
+          "Title": "Psychic Hood",
+          "Text": "Models in the bearer’s unit have the Feel No Pain 4+ ability against Psychic Attacks."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Kill Team Cassius",
+        "Deathwatch",
+        "Ordo Xenos",
+        "Kill Team",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaplain Cassius",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Vael Donatus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Zameon Gydrael",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Rodricus Grytt",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Antor Delassio",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Edryc Setorax",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Jensus Natorian",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Drenn Redblade",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Garran Branatar",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Ennox Sorrlock",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Jetek Suberei",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "75x42"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "deathwatch twin boltgun",
+              "DisplayName": "Deathwatch twin boltgun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "frag cannon",
+              "DisplayName": "Frag cannon",
+              "Keywords": "Blast, Heavy, Rapid Fire D3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "long vigil ranged weapon",
+              "DisplayName": "Long Vigil ranged weapon",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "psychic cleanse",
+              "DisplayName": "Psychic Cleanse",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "artificer crozius",
+              "DisplayName": "Artificer crozius",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "force weapon",
+              "DisplayName": "Force weapon",
+              "Keywords": "Psychic",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "long vigil melee weapon",
+              "DisplayName": "Long Vigil melee weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin lightning claws",
+              "DisplayName": "Twin lightning claws",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 11,
+          "Cost": 220
+        }
+      ]
+    },
+    {
+      "Id": "NEYAM SHAI MURAD",
+      "DisplayName": "Neyam Shai Murad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Neyam Shai Murad",
+            "StatlineRef": "Neyam Shai Murad",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "negotiator pistols",
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Backroom Deals",
+          "Text": "If your army contains one or more units with this ability, during the Declare Battle Formations step, select one of those units. While the selected unit is leading a unit, models in that unit have the Infiltrators ability."
+        },
+        {
+          "Title": "Warrant of Trade",
+          "Text": "If your army includes one or more units with this ability, after both players have deployed their armies, select up to D3 **IMPERIUM BATTLELINE** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "VOIDSMEN-AT-ARMS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Grenades",
+        "Imperium",
+        "Neyam Shai Murad",
+        "Voidfarers",
+        "Voidfarer Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Infiltrators"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Neyam Shai Murad",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "4+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "negotiator pistols",
+              "DisplayName": "Negotiator pistols",
+              "Keywords": "Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 40
+        }
+      ]
+    },
+    {
+      "Id": "UR-025",
+      "DisplayName": "UR-025",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "UR-025",
+            "StatlineRef": "UR-025",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "mk 1 assault weapon",
+                  "power claw"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Self Repair",
+          "Text": "At the start of your Command phase, this model regains 1 lost wound."
+        },
+        {
+          "Title": "Evade and Survive",
+          "Text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Imperium",
+        "UR-025"
+      ],
+      "CoreAbilities": [
+        "Lone Operative"
+      ],
+      "FactionKeywords": [
+        "Agents of the Imperium"
+      ],
+      "StatLines": [
+        {
+          "StatName": "UR-025",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "mk 1 assault weapon",
+              "DisplayName": "Mk 1 assault weapon",
+              "Keywords": "Assault",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "power claw",
+              "DisplayName": "Power claw",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 55
+        }
+      ]
+    }
+  ],
+  "Detachments": [],
+  "ArmyRules": []
+}

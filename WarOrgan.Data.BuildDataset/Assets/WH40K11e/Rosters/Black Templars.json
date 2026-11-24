@@ -1,0 +1,5368 @@
+﻿{
+  "Name": "Black Templars",
+  "Units": [
+    {
+      "Id": "CASTELLAN",
+      "DisplayName": "Castellan",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Castellan",
+            "StatlineRef": "Castellan",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted power weapon",
+                  "combi-weapon - damnatus",
+                  "combi-weapon - infernus",
+                  "combi-weapon - purgatus"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "master-crafted power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "chainsword"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "combi-weapon - damnatus",
+                      "combi-weapon - infernus",
+                      "combi-weapon - purgatus"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolt pistol"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Support",
+          "Text": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, CRUSADER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD"
+        },
+        {
+          "Title": "Vehement Aggression",
+          "Text": "In the Fight phase, when this unit is selected to fight, you can use this ability. If you do, make a leadership roll for this unit:\n- This unit's melee attacks can re-roll hit rolls of 1.\n- Or: If that roll succeeds:\nThis unit's melee attacks:\n- Can re-roll hit rolls of 1.\n- Can re-roll wound rolls of 1."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Tacticus",
+        "Lieutenant",
+        "Castellan",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Support"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Castellan",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "combi-weapon - damnatus",
+              "DisplayName": "Combi-weapon - Damnatus",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon - infernus",
+              "DisplayName": "Combi-weapon - Infernus",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon - purgatus",
+              "DisplayName": "Combi-weapon - Purgatus",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "7"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted Power Weapon",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 75
+        }
+      ]
+    },
+    {
+      "Id": "CHAPLAIN GRIMALDUS",
+      "DisplayName": "Chaplain Grimaldus",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaplain Grimaldus",
+            "StatlineRef": "Chaplain Grimaldus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "artificer crozius",
+                  "plasma pistol - supercharge",
+                  "plasma pistol - standard"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 3,
+              "Max": 3
+            },
+            "ModelName": "Cenobyte Servitor",
+            "StatlineRef": "Cenobyte Servitor",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "close combat weapon"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Litanies of the Devout",
+          "Text": "This unit's melee attacks can re-roll hit rolls."
+        },
+        {
+          "Title": "Temple Relics",
+          "Text": "At the start of your Command phase, if this unit contains one or more Cenobyte Servitor models, select up to one of the abilities in the Temple Relics section. Until the start of your next Command phase, this model has that ability.\n\n\nBanner of the Emperor Victorious\nThis unit has +1 to advance rolls and charge rolls.\n\n\nColumn from the Major Altar\nThis unit has +1 T.\n\n\nWater from the Stoup of Elucidation\nThis unit's melee attacks have +1 AP."
+        },
+        {
+          "Title": "Faithful Cenobytes",
+          "Text": "- If this unit’s Chaplain Grimaldus model is destroyed, this unit’s remaining Cenobyte Servitor models are also destroyed.\n- Each Cenobyte Servitor model in this unit takes up 0 transport capacity."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "SWORD BRETHREN SQUAD"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Imperium",
+        "Tacticus",
+        "Chaplain",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Feel No Pain 5+",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaplain Grimaldus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Cenobyte Servitor",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "8+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma Pistol - Standard",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma Pistol - Supercharge",
+              "Keywords": "Close-quarters, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "artificer crozius",
+              "DisplayName": "Artificer Crozius",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close Combat Weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 120
+        }
+      ]
+    },
+    {
+      "Id": "CRUSADE ANCIENT",
+      "DisplayName": "Crusade Ancient",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Crusade Ancient",
+            "StatlineRef": "Crusade Ancient",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted power weapon",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Vengeful Exhortation",
+          "Text": "n the Fight phase, you can use this ability. If you do, when a model in this unit is destroyed, if this unit has not been selected to fight this phase, roll one D6:\n- On a 4+, do not remove this model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), this model is removed from the battlefield."
+        },
+        {
+          "Title": "Martial Honour",
+          "Text": "(Once per battle, per unit) If this unit's melee attacks destroyed an enemy unit this phase, you can use this ability. If you do, until the end of the battle, this model has +5 OC."
+        },
+        {
+          "Title": "Support",
+          "Text": "This model can be attached to the following units:\nCRUSADER SQUAD, SWORD BRETHREN SQUAD"
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Infantry",
+        "Ancient",
+        "Tacticus",
+        "Imperium",
+        "Crusade Ancient",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Support"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Crusade Ancient",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted Power Weapon",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 45
+        }
+      ]
+    },
+    {
+      "Id": "EMPEROR'S CHAMPION",
+      "DisplayName": "Emperor's Champion",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Emperor's Champion",
+            "StatlineRef": "The Emperor's Champion",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "black sword - strike",
+                  "black sword - sweep",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Armour of Faith",
+          "Text": "Attacks allocated to this model have ‑1 D."
+        },
+        {
+          "Title": "Sigismund's Heir",
+          "Text": "This unit has +1 to charge rolls."
+        },
+        {
+          "Title": "Chosen of the Emperor",
+          "Text": "You cannot include more than one EMPEROR'S CHAMPION unit in your army."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Tacticus",
+        "Emperor's Champion",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Lone Operative",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "The Emperor's Champion",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "black sword - strike",
+              "DisplayName": "Black Sword - Strike",
+              "Keywords": "Anti-Character 5+, Devastating Wounds, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "black sword - sweep",
+              "DisplayName": "Black Sword - Sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Id": "EMPEROR'S CHAMPION (ANOINTED)",
+      "DisplayName": "Emperor's Champion (Anointed)",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Emperor's Champion (Anointed)",
+            "StatlineRef": "The Emperor's Champion",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "black sword - strike",
+                  "black sword - sweep",
+                  "bolt pistol"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Armour of Faith",
+          "Text": "Attacks allocated to this model have ‑1 D."
+        },
+        {
+          "Title": "Sigismund's Heir",
+          "Text": "This unit has +1 to charge rolls."
+        },
+        {
+          "Title": "Chosen of the Emperor",
+          "Text": "You cannot include more than one EMPEROR'S CHAMPION unit in your army."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Emperor's Champion"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Lone Operative",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "The Emperor's Champion",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "black sword - strike",
+              "DisplayName": "Black Sword - Strike",
+              "Keywords": "Anti-Character 5+, Devastating Wounds, Precision",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "black sword - sweep",
+              "DisplayName": "Black Sword - Sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "10"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 100
+        }
+      ]
+    },
+    {
+      "Id": "EXECRATOR",
+      "DisplayName": "Execrator",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Execrator",
+            "StatlineRef": "Execrator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "absolvor bolt pistol",
+                  "crozius arcanum"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "master-crafted power weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "absolvor bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Remorseless Persecution",
+          "Text": "In your Movement phase, when this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge."
+        },
+        {
+          "Title": "Condemnatory Annihilation",
+          "Text": "After this unit has fought, if this unit destroyed an enemy model this phase, each enemy unit engaged with this unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Chaplain",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Execrator"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Execrator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "5+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "absolvor bolt pistol",
+              "DisplayName": "Absolvor bolt pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "hand flamer",
+              "DisplayName": "Hand flamer",
+              "Keywords": "Close-quarters, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "9\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "crozius arcanum",
+              "DisplayName": "Crozius arcanum",
+              "Keywords": "Cleave 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted Power Weapon",
+              "Keywords": "Extra Attacks, Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 65
+        }
+      ]
+    },
+    {
+      "Id": "GLADIATOR LANCER",
+      "DisplayName": "Gladiator Lancer",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Gladiator Lancer",
+            "StatlineRef": "Gladiator Lancer",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "laser destroyer",
+                  "armoured hull",
+                  "defensive array"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Aquilon Optics",
+          "Text": "This unit’s ranged attacks that target a Monster/Vehicle unit can:\n\n\n- Re-roll one hit roll.\n- Re-roll one wound roll.\n- Re-roll one damage roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Imperium",
+        "Smoke",
+        "Gladiator Lancer",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Damaged 4"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Gladiator Lancer",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "12"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "defensive array",
+              "DisplayName": "Defensive Array",
+              "Keywords": "Rapid Fire 6",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "laser destroyer",
+              "DisplayName": "Laser Destroyer",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "72\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+3"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 165
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 165
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 185
+        }
+      ]
+    },
+    {
+      "Id": "GLADIATOR REAPER",
+      "DisplayName": "Gladiator Reaper",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Gladiator Reaper",
+            "StatlineRef": "Gladiator Reaper",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "twin heavy onslaught gatling cannon",
+                  "defensive array",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Reaping Tally",
+          "Text": "This unit’s ranged attacks that target a unit (excluding Monster/Vehicle units) have +1 AP."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Smoke",
+        "Imperium",
+        "Vehicle",
+        "Gladiator Reaper",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Damaged 4"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Gladiator Reaper",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "12"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "defensive array",
+              "DisplayName": "Defensive Array",
+              "Keywords": "Rapid Fire 12",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin heavy onslaught gatling cannon",
+              "DisplayName": "Twin Heavy Onslaught Gatling Cannon",
+              "Keywords": "Devastating Wounds: non-Monster/Vehicle, Sustained Hits 2: non-Monster/Vehicle Twin-Linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 165
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 165
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 185
+        }
+      ]
+    },
+    {
+      "Id": "GLADIATOR VALIANT",
+      "DisplayName": "Gladiator Valiant",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Gladiator Valiant",
+            "StatlineRef": "Gladiator Valiant",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "twin las-talon",
+                  "defensive array",
+                  "armoured hull",
+                  "multi-melta",
+                  "multi-melta"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Priority Target Acquisition",
+          "Text": "This unit’s ranged attacks that target a unit within 12\" of this unit have +1 S."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Imperium",
+        "Gladiator Valiant",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Damaged 4"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Gladiator Valiant",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "12"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "defensive array",
+              "DisplayName": "Defensive Array",
+              "Keywords": "Rapid Fire 6",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin las-talon",
+              "DisplayName": "Twin Las-talon",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 145
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 145
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 165
+        }
+      ]
+    },
+    {
+      "Id": "HIGH MARSHAL HELBRECHT",
+      "DisplayName": "High Marshal Helbrecht",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "High Marshal Helbrecht",
+            "StatlineRef": "High Marshal Helbrecht",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "sword of the high marshals - sweep",
+                  "sword of the high marshals - strike",
+                  "ferocity"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Crusade of Wrath",
+          "Text": "This unit's melee attacks have:\n- +1 A.\n- +1 S."
+        },
+        {
+          "Title": "High Marshal",
+          "Text": "At the start of the Fight phase, select up to one enemy unit engaged with this unit and roll one D6:\n\n\n- On a 2-3, that enemy unit suffers D3 mortal wounds.\n- On a 4-5, that enemy unit suffers 3 mortal wounds.\n- On a 6+, that enemy unit suffers D3+3 mortal wounds."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Epic Hero",
+        "Character",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "High Marshal Helbrecht",
+        "Infantry",
+        "Chapter Master"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "High Marshal Helbrecht",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "ferocity",
+              "DisplayName": "Ferocity",
+              "Keywords": "Anti-Infantry 4+, Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "sword of the high marshals - strike",
+              "DisplayName": "Sword of the High Marshals - Strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "sword of the high marshals - sweep",
+              "DisplayName": "Sword of the High Marshals - Sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 125
+        }
+      ]
+    },
+    {
+      "Id": "IMPULSOR",
+      "DisplayName": "Impulsor",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Impulsor",
+            "StatlineRef": "Impulsor",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "storm bolters",
+                  "armoured hull"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "orbital comms array"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shield dome"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bellicatus missile array - frag",
+                          "bellicatus missile array - icarus",
+                          "bellicatus missile array - krak"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "ironhail heavy stubber"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "storm bolters"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "fragstorm grenade launchers"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "orbital comms array",
+            "DisplayName": "Orbital Comms Array",
+            "Cost": 10,
+            "GrantsAbilities": [
+              "Orbital Comms Array [Aura]"
+            ]
+          },
+          {
+            "Key": "shield dome",
+            "DisplayName": "Shield Dome",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Shield Dome"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 7 Adeptus Astartes Infantry models. It cannot transport Terminator or Jump Pack models. Each Gravis model takes up the space of 2 models."
+        },
+        {
+          "Title": "Rapid Disembarkation",
+          "Text": "In your Movement phase, when this unit ends an advance move, units embarked within this unit can make a shock disembark move."
+        },
+        {
+          "Title": "Orbital Comms Array [Aura]",
+          "Text": "This unit has Scouts 6\"."
+        },
+        {
+          "Title": "Shield Dome",
+          "Text": "This unit has 5+ InSv."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Imperium",
+        "Impulsor",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Firing Deck 7"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Impulsor",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "11"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bellicatus missile array - frag",
+              "DisplayName": "Bellicatus Missile Array - Frag",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "bellicatus missile array - icarus",
+              "DisplayName": "Bellicatus Missile Array - Icarus",
+              "Keywords": "Anti-Fly 2+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "bellicatus missile array - krak",
+              "DisplayName": "Bellicatus Missile Array - Krak",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "fragstorm grenade launchers",
+              "DisplayName": "Fragstorm Grenade Launchers",
+              "Keywords": "Blast 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "ironhail heavy stubber",
+              "DisplayName": "Ironhail Heavy Stubber",
+              "Keywords": "Rapid Fire 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolters",
+              "DisplayName": "Storm Bolters",
+              "Keywords": "Rapid Fire 4",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 70
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 70
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 70
+        },
+        {
+          "UnitCount": 4,
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Id": "MARSHAL",
+      "DisplayName": "Marshal",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Marshal",
+            "StatlineRef": "Marshal",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted power weapon",
+                  "plasma pistol - standard",
+                  "plasma pistol - supercharge"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "plasma pistol - standard",
+                      "plasma pistol - supercharge"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "combi-weapon - damnatus",
+                          "combi-weapon - infernus",
+                          "combi-weapon - purgatus"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Inspirational Exemplar",
+          "Text": "This unit's melee attacks have +1 to hit rolls."
+        },
+        {
+          "Title": "Pious Fervour",
+          "Text": "When this unit is selected to fight, you can use this ability. If you do, this model's melee attacks have +1 A for each enemy unit within 6\" of this model (to a maximum of +3 A)."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Tacticus",
+        "Marshal",
+        "Captain",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Marshal",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "combi-weapon - damnatus",
+              "DisplayName": "Combi-weapon - Damnatus",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon - infernus",
+              "DisplayName": "Combi-weapon - Infernus",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon - purgatus",
+              "DisplayName": "Combi-weapon - Purgatus",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma Pistol - Standard",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma Pistol - Supercharge",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted Power Weapon",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "7"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Id": "REPULSOR",
+      "DisplayName": "Repulsor",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Repulsor",
+            "StatlineRef": "Repulsor",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "twin heavy bolter",
+                  "heavy onslaught gatling cannon",
+                  "armoured hull",
+                  "hunter-slayer missile",
+                  "defensive array"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin lascannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy onslaught gatling cannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "las-talon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 14 Adeptus Astartes Infantry models. Each Terminator, Gravis, Jump Pack, Wulfen model takes up the space of 2 models."
+        },
+        {
+          "Title": "Combat Embarkation",
+          "Text": "In your opponent’s Charge phase, when an enemy unit has selected charge targets, you can select one friendly unengaged **Adeptus Astartes** unit that was one of those charge targets and is eligible to embark within this transport. If every model in that unit is within 3\" of this transport, that unit can embark within this transport. That enemy unit can then select new charge targets for that charge move."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Imperium",
+        "Smoke",
+        "Repulsor",
+        "Transport",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Damaged 6"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Repulsor",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "16"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "5"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "defensive array",
+              "DisplayName": "Defensive Array",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "18"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy onslaught gatling cannon",
+              "DisplayName": "Heavy Onslaught Gatling Cannon",
+              "Keywords": "Devastating Wounds: non-Monster/Vehicle, Sustained Hits 2: non-Monster/Vehicles",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hunter-slayer missile",
+              "DisplayName": "Hunter-slayer missile",
+              "Keywords": "Indirect Fire, One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "las-talon",
+              "DisplayName": "Las-talon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin heavy bolter",
+              "DisplayName": "Twin heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin lascannon",
+              "DisplayName": "Twin lascannon",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 190
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 190
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 210
+        }
+      ]
+    },
+    {
+      "Id": "REPULSOR EXECUTIONER",
+      "DisplayName": "Repulsor Executioner",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Repulsor Executioner",
+            "StatlineRef": "Repulsor Executioner",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "defensive array",
+                  "heavy laser destroyer",
+                  "armoured hull",
+                  "heavy onslaught gatling cannon",
+                  "twin heavy bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy laser destroyer"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "macro plasma incinerator - standard",
+                          "macro plasma incinerator - supercharge"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Terminator, Gravis, Jump Pack, Wulfen model takes up the space of 2 models."
+        },
+        {
+          "Title": "Executioner",
+          "Text": "This unit’s ranged attacks that target a unit not below half-strength have +1 to hit rolls."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Imperium",
+        "Transport",
+        "Repulsor Executioner",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Damaged 6"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Repulsor Executioner",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "16"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "5"
+            },
+            {
+              "Id": "Base",
+              "Value": "100"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "defensive array",
+              "DisplayName": "Defensive Array",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "18"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy laser destroyer",
+              "DisplayName": "Heavy Laser Destroyer",
+              "Keywords": "Devastating Wounds, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "72\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "16"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+4"
+                }
+              ]
+            },
+            {
+              "Id": "heavy onslaught gatling cannon",
+              "DisplayName": "Heavy Onslaught Gatling Cannon",
+              "Keywords": "Devastating Wounds: non-Monster/Vehicle, Sustained Hits 2: non-Monster/Vehicles",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "macro plasma incinerator - standard",
+              "DisplayName": "Macro Plasma Incinerator - Standard",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "macro plasma incinerator - supercharge",
+              "DisplayName": "Macro Plasma Incinerator - Supercharge",
+              "Keywords": "Blast 1, Hazardous",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin heavy bolter",
+              "DisplayName": "Twin heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 265
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 265
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 285
+        }
+      ]
+    },
+    {
+      "Id": "SWORD BRETHREN SQUAD",
+      "DisplayName": "Sword Brethren Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 10
+            },
+            "ModelName": "Sword Brother",
+            "StatlineRef": "Sword Brother",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy bolt pistol",
+                  "chainsword"
+                ],
+                "Options": [
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "plasma pistol (supercharge)",
+                          "plasma pistol (standard)"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "thunder hammer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "master-crafted power weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "heavy bolt pistol",
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin lightning claws"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Exploit Their Cowardice",
+          "Text": "In your opponent's Movement phase, when an enemy unit that was engaged with this unit ends a fall-back move, if this unit is unengaged it can make a normal move of up to 6\"."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Sword Brethren Squad",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Black Templars"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Sword Brother",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "hand flamer",
+              "DisplayName": "Hand flamer",
+              "Keywords": "Close-quarters, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "9\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol (standard)",
+              "DisplayName": "Plasma pistol (Standard)",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol (supercharge)",
+              "DisplayName": "Plasma pistol (Supercharge)",
+              "Keywords": "Close-quarters, Hazardous",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Keywords": "Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted Power Weapon",
+              "Keywords": "Lethal Hits",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "thunder hammer",
+              "DisplayName": "Thunder Hammer",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "twin lightning claws",
+              "DisplayName": "Twin Lightning Claws",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 4,
+          "Cost": 115
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 10,
+          "Cost": 275
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 4,
+          "Cost": 115
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
+          "Cost": 275
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 4,
+          "Cost": 135
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 10,
+          "Cost": 295
+        }
+      ]
+    }
+  ],
+  "Detachments": [
+    {
+      "Name": "Gladius Task Force",
+      "Cost": 3,
+      "Rule": {
+        "Title": "Codex Discipline",
+        "Text": "You can select one Combat Doctrine one additional time per battle."
+      },
+      "ForceDispositions": [
+        "Priority Assets",
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Artificer Armour",
+          "Description": "ADEPTUS ASTARTES model only. This model has:\n▪ 2+ Sv\n▪  Feel No Pain 5+",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Laurels of Triumph",
+          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1S and AP\n▪ Or: if the assault doctrine is active for this unit, +2S and AP",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Adept of the Codex",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Standard of the Emperor Ascendant",
+          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Ironstorm Spearhead",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Ironstorm Auto-Targeters",
+        "Text": "Friendly Adeptus Astartes Vehicle units' (excluding Walker units) ranged attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll"
+      },
+      "Tags": [
+        "IRONSTORM DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Gunnery Honours (Upgrade)",
+          "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit's ranged attacks have [Heavy]",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Dedicated Transport",
+            "Fly",
+            "Walker"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Redoubtable Machine Spirit (Upgrade)",
+          "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units) This unit:\n▪ Has a 5+ InvSv\n▪ At the end of your Command phase, heals 1 wound",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Dedicated Transport",
+            "Fly",
+            "Walker"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Stormlance Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Lightning-Fast Strike",
+        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Supercharged Engines (Upgrade)",
+          "Description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Mounted"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Auspex Triangulation Shrines (Upgrade)",
+          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy is spotted.\n▪ While a unit is spotted, that unit has +3\" detection range",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Speeder"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Marshal's Household",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Faith-Fuelled Resolve",
+        "Text": "In the Fight phase, if a friendly Sword Brethren Squad unit is within range of an objective, that unit's melee attacks have +1A\n\n\nRestrictions: Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Fervent Exemplars (Upgrade)",
+          "Description": "SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Inheritors of Sigismund (Upgrade)",
+          "Description": "SWORD BRETHREN SQUAD unit only. This unit has Fights First",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Assault Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Assault Mastery",
+        "Text": "You can select the assault doctrine one additional time per battle"
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Imperium's Sword",
+          "Description": "",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Character"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Furious Assault (Upgrade)",
+          "Description": "Adeptus Astartes Infantry unit only. This unit's melee attacks have [Sustained Hits 1: non-Monster/Vehicle]",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tactical Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Tactical Mastery",
+        "Text": "You can select the Tactical Doctrine one additional time."
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Laurels of Vigilance",
+          "Description": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tactical Insight",
+          "Description": "Captain model only. The tactical doctrine is active for this unit in addition to any other combat doctrine",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Devastator Brethren",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Devastator Mastery",
+        "Text": "You can select the devastator doctrine one additional time per battle."
+      },
+      "Tags": [
+        "DOCTRINES"
+      ],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Honour of Vigilance",
+          "Description": "Adeptus Astartes model only.\n▪ This unit's ranged attacks have [Lethal Hits]\n▪ If the devastator doctrine is active for this unit, this unit can re-roll advance rolls.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Master-Forged Firearms",
+          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Terminator Storm Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Death Blow",
+        "Text": "Friendly Adeptus Astartes Terminator units have +1 to charge rolls"
+      },
+      "Tags": [
+        "TERMINATOR DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Champion of the First Company",
+          "Description": "Adeptus Astartes Terminator model only. This unit's melee attacks have [Lethal Hits]",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Corporeum Reliquary",
+          "Description": "Adeptus Astartes Terminator model only. In your first Movement phase, this unit can make an ingress move.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tacticus Attack Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Wrath of the Chapter",
+        "Text": "Friendly Tacticus units can re-roll advance rolls."
+      },
+      "Tags": [
+        "TACTICUS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Martial Paragon",
+          "Description": "Tacticus model only. This unit's attacks can:\n▪ Re-roll one hit roll\n▪ Re-roll one wound roll.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Spearpoint War Leader",
+          "Description": "Tacticus model only. This unit has Scouts 6\"",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Tacticus Firestorm Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Codex Fire-Patterns",
+        "Text": "Friendly Tacticus units [Rapid Fire] attacks benefit from [Rapid Fire] when targeting units up to that attack's maximum range."
+      },
+      "Tags": [
+        "TACTICUS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Cyber Familiar",
+          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tempered in Battle (Aura)",
+          "Description": "Tacticus model only. Friendly Adeptus Astartes units within 6\" of this model can re-roll leadership rolls.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Tacticus"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Phobos Shadow Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Shadow Masters",
+        "Text": "When a Phobos or Scout Squad unit has shot:\n▪ Those attacks do not prevent that unit from being hidden\n▪ Or: That unit can make a normal move of up to D6\". That unit is not eligible to declare a charge until the end of the turn."
+      },
+      "Tags": [
+        "PHOBOS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Execute and Redeploy",
+          "Description": "Phobos model only. In your shooting phase, after this unit has shot, if this unit is unengaged, this unit can make a normal move of up to 6\". If it does, this unit is not eligible to declare a charge until the end of the turn.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venator Omni-Auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 0,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Phobos Shock Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Vanguard Ambushers",
+        "Text": "At the end of your Movement phase, if a friendly Phobos unit is hidden, that unit’s attacks can re-roll wound rolls of 1 until the end of the turn."
+      },
+      "Tags": [
+        "PHOBOS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Seal of Shrouding",
+          "Description": "Phobos model only. Enemy units cannot target this unit with snap shooting attacks.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venator Omni-Auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 0,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Phobos"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gravis Linebreaker Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Walking Fortress",
+        "Text": "In a turn a friendly Gravis unit made a normal move, that unit's ranged attacks:\n▪ Do not have [Heavy]\n▪ Have +1 to hit rolls"
+      },
+      "Tags": [
+        "GRAVIS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Indefatigable Fortitude",
+          "Description": "Gravis model only. Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Relentless Advance",
+          "Description": "Gravis model only. This unit has Scouts 5\"",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gravis Siege Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Indomitable Defence",
+        "Text": "While a friendly Gravis unit is within range of an objective, attacks that target that unit with a S greater than that unit's T have -1 to wound rolls"
+      },
+      "Tags": [
+        "GRAVIS DETACHMENT"
+      ],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Immovable Conquerors (Upgrade)",
+          "Description": "Gravis unit only. This unit has +1 OC",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Gravis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Narthecis Gauntlet",
+          "Description": "Apothecary Biologis model only. In your Command phase, this unit heals D3+1 wounds.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Apothecary Biologis"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Ironclad Champions",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Enduring Vengeance",
+        "Text": "Friendly Adeptus Astartes Dreadnought units can re-roll hit rolls of 1"
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Artificer Sarcophagus (Upgrade)",
+          "Description": "Dreadnought unit only. Attacks that target this unit have -1D",
+          "Cost": 40,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Dreadnought"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Venerable Champion (Aura) (Upgrade)",
+          "Description": "Dreadnought unit only. While a friendly Adeptus Astartes Infantry/Mounted unit is within 6\" of this unit, that unit's attacks can re-roll hit rolls of 1",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Dreadnought"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Gauntlet Task Force",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Combined Deployment",
+        "Text": "In your Shooting phase, when a friendly Adeptus Astartes Transport unit has shot, you can select one enemy unit hit by those attacks. That enemy unit is assailed until the end of the turn.\n▪ While a unit is assailed, when an Adeptus Astartes unit that disembarked this turn targets that unit, those attacks have [Sustained Hits 1]"
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Linebreaker Onslaught",
+          "Description": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\n▪ This unit can re-roll charge rolls\n▪ Enemy units cannot target this unit with snap shooting attacks.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Damocles-Class Uplink",
+          "Description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that Transport unit and select one combat doctrine. That combat doctrine is active for that Infantry unit.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Fist of the God-Emperor",
+      "Cost": 1,
+      "Rule": {
+        "Title": "New Rule",
+        "Text": "Each time a friendly Crusader Squad unit makes a surge move, instead of selecting a surge target, you can select the closest objective to that unit. When that unit makes that surge move, each model in that unit must end that surge move as close as possible to that objective instead.\n\n\nRestrictions: Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+      },
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [],
+      "Enhancements": [
+        {
+          "Name": "Oathbound Exemplar",
+          "Description": "Adeptus Astartes Infantry unit only. When this unit is selected to make an advance/fall-back move, that advance/fall-back move does not prevent this unit from being eligible to start an action.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Character",
+            "Infantry"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Righteous Fervour (Upgrade)",
+          "Description": "Crusader Squad only. This unit can re-roll Advance rolls.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Crusader Squad"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Deathwatch Support",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Mission Tactics",
+        "Text": "Friendly KILL TEAM units with this ability have the following abilities:\n\n\nFuror Tactics: If the devastator doctrine is active for your unit, your unit’s attacks have [SUSTAINED HITS 1].\n\n\nMalleus Tactics: If the tactical doctrine is active for your unit, your unit’s attacks have [LETHAL HITS].\n\n\nPurgatus Tactics: If the assault doctrine is active for your unit, your unit’s attacks that target an enemy unit within 9\" of this unit have [PRECISION].\n\n\nDEATHWATCH ALLIES\n\n\nYou can include Deathwatch units in your army, even though they do not have the same Chapter faction keyword as other units in your army. The combined points value of such units cannot exceed 500 points.\n\n\nWhen mustering your army, unless otherwise stated, you cannot select a Deathwatch model to be your Warlord. In addition Kill Team units can only contain enhancements taken from this detachment."
+      },
+      "ForceDispositions": [
+        "Disruption"
+      ],
+      "Stratagems": [],
+      "Enhancements": [],
+      "Effects": []
+    }
+  ],
+  "ArmyRules": []
+}
