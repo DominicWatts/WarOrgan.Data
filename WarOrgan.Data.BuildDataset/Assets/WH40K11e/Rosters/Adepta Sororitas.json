@@ -10654,7 +10654,8 @@
               {
                 "InitialWargear": [
                   "bolt pistol",
-                  "boltgun"
+                  "boltgun",
+                  "close combat weapon"
                 ],
                 "Options": [
                   {
@@ -10688,92 +10689,71 @@
               "Min": 9,
               "Max": 9
             },
-            "ModelName": "Novitiate with Sacred Banner",
-            "StatlineRef": "Novitiate Superior",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "sacred banner",
-                  "close combat weapon",
-                  "novitiate autopistol"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 9
-            },
-            "ModelName": "Novitiate with Simulacrum Imperialis",
-            "StatlineRef": "Novitiate Superior",
+            "ModelName": "Sisters Novitiate",
+            "StatlineRef": "Sister Novitiate",
             "Keywords": [],
             "Wargear": [
               {
                 "InitialWargear": [
                   "novitiate autopistol",
-                  "simulacrum imperialis",
+                  "novitiate autogun",
                   "close combat weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 9
-            },
-            "ModelName": "Novitiate with Ministorum Flamer",
-            "StatlineRef": "Novitiate Superior",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "ministorum flamer",
-                  "close combat weapon",
-                  "novitiate autopistol"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 9
-            },
-            "ModelName": "Sister Novitiate (Autogun)",
-            "StatlineRef": "Sister Novitiate",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "novitiate autogun",
-                  "close combat weapon",
-                  "novitiate autopistol"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 9
-            },
-            "ModelName": "Sister Novitiate (Melee Weapon)",
-            "StatlineRef": "Sister Novitiate",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "novitiate melee weapon",
-                  "novitiate autopistol"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "novitiate autogun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "sacred banner"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "novitiate autogun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "simulacrum imperialis"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "Replaces": [
+                      "novitiate autogun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "ministorum flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 9,
+                    "Replaces": [
+                      "novitiate autogun",
+                      "close combat weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "novitiate melee weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -11011,7 +10991,7 @@
             },
             {
               "Id": "novitiate autogun",
-              "DisplayName": "Novitiate autogun",
+              "DisplayName": "Autogun",
               "Keywords": "Rapid Fire 1",
               "Flags": "None",
               "Stats": [
@@ -11043,7 +11023,7 @@
             },
             {
               "Id": "novitiate autopistol",
-              "DisplayName": "Novitiate autopistol",
+              "DisplayName": "Autopistol",
               "Keywords": "Pistol",
               "Flags": "None",
               "Stats": [
@@ -11176,7 +11156,7 @@
             },
             {
               "Id": "novitiate melee weapon",
-              "DisplayName": "Novitiate melee weapon",
+              "DisplayName": "Novitiate melee weapons",
               "Flags": "None",
               "Stats": [
                 {
@@ -11242,7 +11222,7 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 46,
+          "ModelCount": 10,
           "Cost": 90
         }
       ]
