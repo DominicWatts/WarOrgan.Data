@@ -6399,25 +6399,22 @@
                   "close combat weapon",
                   "kroot rifle"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 9,
-              "Max": 19
-            },
-            "ModelName": "Kroot Carnivore",
-            "StatlineRef": "Kroot Carnivores",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "tanglebomb launcher",
-                  "close combat weapon"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 2,
+                    "PerXModels": 9,
+                    "Replaces": [
+                      "kroot rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "tanglebomb launcher"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -6664,11 +6661,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 19,
-          "Cost": 130
+          "ModelCount": 10,
+          "Cost": 65
         },
         {
-          "ModelCount": 39,
+          "ModelCount": 20,
           "Cost": 130
         }
       ]
@@ -8720,6 +8717,10 @@
           "Cost": 45
         },
         {
+          "ModelCount": 2,
+          "Cost": 60
+        },
+        {
           "ModelCount": 3,
           "Cost": 90
         }
@@ -10048,6 +10049,11 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 110
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 3,
           "Cost": 165
         },
@@ -10058,6 +10064,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 110
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 3,
           "Cost": 165
         },
@@ -10065,6 +10076,11 @@
           "UnitCount": 3,
           "ModelCount": 1,
           "Cost": 75
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 2,
+          "Cost": 120
         },
         {
           "UnitCount": 3,
