@@ -76,6 +76,19 @@
       "Category": "Imperium",
       "MainColor": "#1B3F8B",
       "DarkColor": "#5B7FCB"
+    },
+    {
+      "Name": "Black Templars",
+      "FactionKeyword": "Black Templars",
+      "Category": "Imperium",
+      "MainColor": "#2A2A2A",
+      "DarkColor": "#8A8A8A",
+      "Allies": [
+        {
+          "FactionKeyword": "Adeptus Astartes",
+          "IsIncludedInPrimaryRoster": true
+        }
+      ]
     }
   ],
   "CoreAbilities": [
