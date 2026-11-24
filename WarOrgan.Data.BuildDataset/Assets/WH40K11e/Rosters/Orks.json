@@ -254,7 +254,8 @@
       "CoreAbilities": [
         "Invulnerable Save",
         "Deadly Demise D6",
-        "Firing Deck 11"
+        "Firing Deck 11",
+        "Damaged 6"
       ],
       "FactionKeywords": [
         "Orks"
@@ -2912,6 +2913,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 4",
         "Deadly Demise D3"
       ],
       "FactionKeywords": [
@@ -4479,6 +4481,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 4",
         "Deadly Demise D3"
       ],
       "FactionKeywords": [
@@ -4722,6 +4725,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 4",
         "Deadly Demise D3"
       ],
       "FactionKeywords": [
@@ -6253,7 +6257,9 @@
       ],
       "CoreAbilities": [
         "Firing Deck 11",
-        "Deadly Demise"
+        "Deadly Demise",
+        "Super-Heavy Walker",
+        "Damaged 10"
       ],
       "FactionKeywords": [
         "Orks"
@@ -6771,6 +6777,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 7",
+        "Super-Heavy Walker",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
@@ -7358,7 +7366,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Damaged 6"
       ],
       "FactionKeywords": [
         "Orks"
@@ -7783,6 +7792,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 6",
         "Feel No Pain 5+",
         "Firing Deck 11",
         "Deadly Demise D6"
@@ -8080,6 +8090,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 6",
         "Feel No Pain 5+",
         "Deadly Demise D6"
       ],
@@ -10171,6 +10182,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 7",
+        "Super-Heavy Walker",
         "Deadly Demise D6"
       ],
       "FactionKeywords": [
@@ -12630,6 +12643,8 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 10",
+        "Super-Heavy Walker",
         "Deadly Demise"
       ],
       "FactionKeywords": [
@@ -15584,6 +15599,7 @@
       ],
       "CoreAbilities": [
         "Invulnerable Save",
+        "Damaged 4",
         "Deadly Demise D3"
       ],
       "FactionKeywords": [
