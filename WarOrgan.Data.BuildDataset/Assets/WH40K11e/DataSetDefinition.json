@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Aeldari",
+      "FactionKeyword": "Asuryani",
+      "Category": "Xenos",
+      "MainColor": "#1E6E6E",
+      "DarkColor": "#5EB0B0"
     }
   ],
   "CoreAbilities": [
