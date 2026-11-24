@@ -18,8 +18,8 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Faction | Branch | Scope | 1 BSData | 2 Wahapedia | 3 Codex 10e | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
-| Tyranids | `faction/tyranids` | GSC allies only | done (allies) | done (allies) | - | partial (1.3) | 14 Vanguard Invader | - | - | - | - |
-| Astra Militarum | `faction/astra-militarum` | GSC allies only | done (allies) | done (allies) | - | - | 51/51 eligible | - | - | - | - |
+| Tyranids | `faction/tyranids` | Full (allies checked, rest draft) | done | done (allies) | - | partial (1.3) | 52 + 5 Legends | 10 | 34 | - | text only |
+| Astra Militarum | `faction/astra-militarum` | Full (allies checked, rest draft) | done | done (allies) | - | - | 72 + 61 Legends | 11 | 34 | - | text only |
 
 | Adepta Sororitas | `faction/adepta-sororitas` | Draft | done (draft) | - | - | - | 35 | 8 | 24 | - | text only |
 | Adeptus Custodes | `faction/adeptus-custodes` | Draft | done (draft) | - | - | - | 30 | 7 | 17 | - | text only |
@@ -65,7 +65,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 ## Tyranids
 
 - Allied datasheets for Final Day only: all 14 Vanguard Invader units. On 2026-11-23 they matched the November BSData dump on points, stats and weapons. BSData spells it distendible jaw; Wahapedia has distensible jaw. The Wahapedia check matched 13 of 14; Wahapedia omits the HYPERADAPTED RAVENERS keyword.
-- Full faction (army rule, detachments, remaining datasheets) not started.
+- 2026-11-24 (1.5.2): filled to a full faction from BSData: 38 more datasheets, 5 Legends, 10 detachments, 34 enhancements and the Synapse and Shadow in the Warp army rules. The 14 allied datasheets were kept unchanged. Carnifex and Mucolid Spores points came from Wahapedia (BSData sets them by condition). Spawned units (Spore Mines and Mucolid Spores from other units, Parasite of Mortrex rippers) were left out. Final Day still offers only the 14 Vanguard Invaders: the four new Vanguard Invader units are Aircraft, Broodlord or Genestealers.
 
 ## Astra Militarum
 
@@ -75,6 +75,7 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 - 2026-11-23: added the Cadian, Catachan and Krieg Command Squads. The Cadian and Krieg squads use separate fixed specialist model entries so WarOrgan cannot assign their mandatory equipment to the wrong veteran; the source check's aggregate model-name notes are expected for those two units.
 - 2026-11-23: completed all 51 non-AIRCRAFT datasheets eligible for Brood Brother Auxilia. The final 33 add the transports, Sentinels, artillery vehicles, Leman Russ and Rogal Dorn variants, super-heavy tanks, Aegis Defence Line and Cyclops Demolition Vehicle. All wargear options were checked manually; the Wahapedia ally-page check reports 48 exact matches and only the expected command-squad aggregation, Cyclops empty-loadout and excluded Valkyrie notes.
 
+- 2026-11-24 (1.5.2): filled to a full faction from BSData: 21 more datasheets, 61 Legends, 11 detachments, 34 enhancements and the Voice of Command army rule. The 51 allied datasheets were kept unchanged. Hippogriff AFV and Legends weapon battery points came from Wahapedia. Hell's Last (Legends) is held back: its statline does not match. Brood Brother Auxilia now lists the 51 eligible datasheets by ID, so the new units (including Ratlings, the Valkyrie and the Legends units, which the keyword filter missed) are not offered to Genestealer Cults.
 ## BSData drafts
 
 - 2026-11-24 (1.5.0): 31 factions drafted with `WarOrgan.Data.BsdataImport` from the pinned dump and merged unchecked. Chapters are their own factions with the Space Marines roster included (`IsIncludedInPrimaryRoster`); each chapter roster also repeats the generic Space Marine detachments, because BSData lists them for every chapter.
