@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Leagues of Votann",
+      "FactionKeyword": "Leagues of Votann",
+      "Category": "Xenos",
+      "MainColor": "#8A5A1E",
+      "DarkColor": "#C89A5E"
     }
   ],
   "CoreAbilities": [
