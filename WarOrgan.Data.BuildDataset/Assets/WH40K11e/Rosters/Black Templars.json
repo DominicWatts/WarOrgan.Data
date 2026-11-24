@@ -75,7 +75,6 @@
         "Infantry",
         "Imperium",
         "Tacticus",
-        "Adeptus Astartes",
         "Lieutenant",
         "Castellan",
         "Explosives"
@@ -84,6 +83,7 @@
         "Support"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -409,7 +409,6 @@
         "Infantry",
         "Imperium",
         "Tacticus",
-        "Adeptus Astartes",
         "Chaplain",
         "Other Datasheets"
       ],
@@ -419,6 +418,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -695,7 +695,6 @@
         "Ancient",
         "Tacticus",
         "Imperium",
-        "Adeptus Astartes",
         "Crusade Ancient",
         "Explosives"
       ],
@@ -703,6 +702,7 @@
         "Support"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -883,7 +883,6 @@
         "Infantry",
         "Imperium",
         "Tacticus",
-        "Adeptus Astartes",
         "Emperor's Champion",
         "Explosives"
       ],
@@ -893,6 +892,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -1109,7 +1109,6 @@
         "Grenades",
         "Imperium",
         "Tacticus",
-        "Adeptus Astartes",
         "Emperor's Champion"
       ],
       "CoreAbilities": [
@@ -1118,6 +1117,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -1354,7 +1354,6 @@
         "Grenades",
         "Imperium",
         "Tacticus",
-        "Adeptus Astartes",
         "Execrator"
       ],
       "CoreAbilities": [
@@ -1362,6 +1361,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -1605,14 +1605,15 @@
         "Imperium",
         "Smoke",
         "Gladiator Lancer",
-        "Adeptus Astartes",
         "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Damaged 4"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -1861,15 +1862,16 @@
         "Smoke",
         "Imperium",
         "Vehicle",
-        "Adeptus Astartes",
         "Gladiator Reaper",
         "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Damaged 4"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -2110,14 +2112,15 @@
         "Smoke",
         "Imperium",
         "Gladiator Valiant",
-        "Adeptus Astartes",
         "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D3"
+        "Deadly Demise D3",
+        "Damaged 4"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -2368,7 +2371,6 @@
         "Character",
         "Grenades",
         "Imperium",
-        "Adeptus Astartes",
         "Tacticus",
         "High Marshal Helbrecht",
         "Infantry",
@@ -2379,6 +2381,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -2656,7 +2659,6 @@
         "Transport",
         "Dedicated Transport",
         "Imperium",
-        "Adeptus Astartes",
         "Impulsor",
         "Frame"
       ],
@@ -2665,6 +2667,7 @@
         "Firing Deck 7"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -3064,7 +3067,6 @@
         "Infantry",
         "Imperium",
         "Tacticus",
-        "Adeptus Astartes",
         "Marshal",
         "Captain",
         "Explosives"
@@ -3074,6 +3076,7 @@
         "Leader"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -3412,15 +3415,16 @@
         "Imperium",
         "Smoke",
         "Repulsor",
-        "Adeptus Astartes",
         "Transport",
         "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Damaged 6"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -3817,14 +3821,15 @@
         "Imperium",
         "Transport",
         "Repulsor Executioner",
-        "Adeptus Astartes",
         "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
-        "Deadly Demise D6"
+        "Deadly Demise D6",
+        "Damaged 6"
       ],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
@@ -4241,12 +4246,12 @@
         "Grenades",
         "Imperium",
         "Tacticus",
-        "Adeptus Astartes",
         "Sword Brethren Squad",
         "Other Datasheets"
       ],
       "CoreAbilities": [],
       "FactionKeywords": [
+        "Adeptus Astartes",
         "Black Templars"
       ],
       "StatLines": [
