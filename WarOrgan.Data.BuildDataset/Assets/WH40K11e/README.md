@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.4.7.0
+## Coverage in 1.5.0.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Invulnerable saves are given as an Inv characteristic and as an ability on each unit that has one.
@@ -26,6 +26,46 @@ Unofficial, fan-maintained data for personal and community use. Warhammer 40,000
 Final Day lets you include Tyranids Vanguard Invader units (excluding AIRCRAFT, BROODLORD and GENESTEALERS) up to half your points. They appear under Allied Units and cannot be your Warlord.
 
 Brood Brother Auxilia lets you include Astra Militarum units (excluding AIRCRAFT, COMMISSAR, EPIC HERO, MILITARUM TEMPESTUS, OGRYN, RATLING, TECH-PRIEST ENGINSEER and MINISTORUM PRIEST) up to half your points. They appear under Allied Units, cannot be your Warlord and lose Voice of Command.
+
+## Draft factions (unchecked)
+
+These 31 factions are drafts converted automatically from the November 2026 BSData dump. They have not been checked against Wahapedia, GW's faction packs or the codexes, so expect mistakes in rules text, wargear options and points. Treat them as a starting point and build lists to the datasheets.
+
+- They have no stratagems yet, and enhancements, detachment rules and leader abilities are text only: the app does not apply their effects.
+- Space Marine chapters are separate factions. Each can also take the Space Marines datasheets and has the generic Space Marine detachments alongside its own.
+- Some datasheets failed the dataset's checks and are left out until they are fixed by hand. `FACTIONS.md` in the repository lists them.
+
+- Adepta Sororitas: 31 datasheets, 4 Legends, 8 detachments; 3 datasheets not yet included.
+- Adeptus Custodes: 24 datasheets, 6 Legends, 7 detachments.
+- Adeptus Mechanicus: 33 datasheets, 3 Legends, 10 detachments; 1 datasheet not yet included.
+- Agents of the Imperium: 23 datasheets, 11 Legends, 5 detachments; 6 datasheets not yet included.
+- Grey Knights: 26 datasheets, 5 Legends, 9 detachments.
+- Imperial Knights: 22 datasheets, 8 detachments.
+- Space Marines: 67 datasheets, 64 Legends, 16 detachments; 4 datasheets not yet included.
+- Black Templars: 15 datasheets, 18 detachments; 1 datasheet not yet included.
+- Blood Angels: 13 datasheets, 8 Legends, 32 detachments; 6 datasheets not yet included.
+- Dark Angels: 16 datasheets, 2 Legends, 32 detachments; 1 datasheet not yet included.
+- Deathwatch: 7 datasheets, 16 detachments; 3 datasheets not yet included.
+- Imperial Fists: 3 datasheets, 22 detachments.
+- Iron Hands: 2 datasheets, 30 detachments.
+- Raven Guard: 2 datasheets, 30 detachments.
+- Salamanders: 2 datasheets, 22 detachments.
+- Space Wolves: 19 datasheets, 13 Legends, 32 detachments; 8 datasheets not yet included.
+- Ultramarines: 11 datasheets, 5 Legends, 30 detachments.
+- White Scars: 2 datasheets, 30 detachments.
+- Chaos Space Marines: 56 datasheets, 26 Legends, 17 detachments.
+- Chaos Daemons: 54 datasheets, 12 Legends, 9 detachments; 2 datasheets not yet included.
+- Chaos Knights: 19 datasheets, 8 detachments.
+- Death Guard: 29 datasheets, 11 Legends, 9 detachments; 1 datasheet not yet included.
+- Emperor's Children: 18 datasheets, 10 detachments.
+- Thousand Sons: 28 datasheets, 2 Legends, 9 detachments; 1 datasheet not yet included.
+- World Eaters: 24 datasheets, 2 Legends, 8 detachments; 1 datasheet not yet included.
+- Aeldari: 55 datasheets, 20 Legends, 15 detachments; 3 datasheets not yet included.
+- Drukhari: 20 datasheets, 7 Legends, 9 detachments; 3 datasheets not yet included.
+- Leagues of Votann: 22 datasheets, 10 detachments.
+- Necrons: 47 datasheets, 12 Legends, 12 detachments; 5 datasheets not yet included.
+- Orks: 55 datasheets, 13 Legends, 15 detachments; 2 datasheets not yet included.
+- T'au Empire: 40 datasheets, 20 Legends, 7 detachments; 3 datasheets not yet included.
 
 ## Installation
 
