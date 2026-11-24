@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "Death Guard",
+      "FactionKeyword": "Death Guard",
+      "Category": "Chaos",
+      "MainColor": "#5E6B2A",
+      "DarkColor": "#A0AE66"
     }
   ],
   "CoreAbilities": [
