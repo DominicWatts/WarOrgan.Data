@@ -29720,6 +29720,7 @@
             {
               "Id": "hellstrike missiles",
               "DisplayName": "Hellstrike missiles",
+              "Keywords": "Anti-Fly 2+",
               "Flags": "None",
               "Stats": [
                 {
