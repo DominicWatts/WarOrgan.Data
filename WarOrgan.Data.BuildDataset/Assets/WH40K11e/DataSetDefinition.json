@@ -69,6 +69,13 @@
       "Category": "Imperium",
       "MainColor": "#3E5A35",
       "DarkColor": "#86A876"
+    },
+    {
+      "Name": "T'au Empire",
+      "FactionKeyword": "T'au Empire",
+      "Category": "Xenos",
+      "MainColor": "#B86A1E",
+      "DarkColor": "#E0A060"
     }
   ],
   "CoreAbilities": [
