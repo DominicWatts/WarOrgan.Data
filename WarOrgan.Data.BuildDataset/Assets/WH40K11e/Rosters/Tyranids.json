@@ -39,7 +39,9 @@
       ],
       "LeaderInfo": {
         "UnitNames": [
-          "GARGOYLES"
+          "GARGOYLES",
+          "TYRANID WARRIORS WITH MELEE BIO-WEAPONS",
+          "TYRANID WARRIORS WITH RANGED BIO-WEAPONS"
         ],
         "Features": 0,
         "Abilities": [
