@@ -7165,7 +7165,56 @@
         "Reconnaissance"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Bastion Shield",
+          "Description": "Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1. If you spend 1YP, until the end of the phase, if the attacking model is within 18\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1 instead.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "High Kâhl",
+          "Description": "Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Kâhl"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Ironskein",
+          "Description": "Add 2 to the bearer’s Wounds characteristic.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Quake Multigenerator",
+          "Description": "In your Shooting phase, after the bearer has shot, select one enemy unit (excluding TITANIC units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Kâhl"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7179,7 +7228,52 @@
         "Disruption"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Writ of Acquisition",
+          "Description": "In your Shooting phase, after the bearer's unit has shot, you gain 1YP for each assailed unit hit by one or more of those attacks (to a maximum of 3YP).",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Surgical Saboteur",
+          "Description": "In your Shooting phase, after this model has shot, select one **MONSTER** or **VEHICLE** unit hit by one or more of those attacks; until the start of your next Shooting phase, that model is pinned.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Nomad Strategist",
+          "Description": "Once per battle, at the end of your opponent's Fight phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one **HERNKYN** unit from your army, and, for every 2YP you just spent, select up to one additional **HERNKYN** unit from your army. You can remove those units from the battlefield and place them into Strategic Reserves. You cannot select a unit that is within Engagement Range of one or more enemy units (excluding assailed units).",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Eye For Weakness",
+          "Description": "Each time a model in the bearer's unit makes an attack that targets an assailed unit, add 1 to the Wound roll.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7193,7 +7287,52 @@
         "Purge the Foe"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Oathbound Speculator",
+          "Description": "Each time a model in the bearer's unit makes an attack, re-roll a Wound roll of 1. Each time the bearer's unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer's unit makes an attack, add 1 to the Wound roll.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Dead Reckoning",
+          "Description": "LEAGUES OF VOTANN model only. At the end of the turn, if the bearer is on the battlefield and you spent no YP in that turn, you gain 1YP.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Iron Ambassador",
+          "Description": "LEAGUES OF VOTANN model equipped with an Autoch-pattern combi-bolter only. Once per battle, when the bearer's unit is selected to shoot, the bearer can use this Enhancement. If it does, spend up to 3YP, and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer's ranged weapons.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Ancestral Crest",
+          "Description": "Once per turn, when you target the bearer's unit with the Command Re-roll Stratagem, the bearer can use this Enhancement. If it does, spend 1YP and reduces the CP cost of that Stratagem by 1CP.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7207,7 +7346,62 @@
         "Priority Assets"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Fârstryder Node",
+          "Description": "Models in the bearer's unit have the Deep Strike abilty.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Memnyr Strategist",
+            "Brôkhyr Iron-master"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Graviton Vault",
+          "Description": "In your Shooting phase, after the bearer has shot, and in the Fight phase, after the bearer has fought, select one enemy **MONSTER** or **VEHICLE** unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Brôkhyr Iron-master"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Mantle of Elders",
+          "Description": "Each time the bearer's unit is selected to shoot, if you spend YP using the Optimal Application Detachment rule when doing so, you can roll one D6: on a 2+, you gain 1YP.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Memnyr Strategist"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Calculated Tenacity",
+          "Description": "While the bearer is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Memnyr Strategist",
+            "Brôkhyr Iron-master"
+          ],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7221,7 +7415,52 @@
         "Purge the Foe"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Dêlvwerke Navigator",
+          "Description": "In the Reinforcements step of your Movement phase, the bearer can use this Enhancement. If it does, select one friendly **CTHONIAN BESERKS** unit visible to the bearer and then spend any number of YP. Return one destroyed model (excluding **CHARACTER MODELS) TO THAT UNIT, AND THEN, FOR EVERY 2YP YOU JUST SPENT, RETURN UP TO ONE ADDITIONAL DESTROYED MODEL (EXCLUDING CHARACTER** models) to that unit.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Quake Supervisor",
+          "Description": "While the bearer is within 3\" of one or more friendly **LEAGUES OF VOTANN ARTILLERY** units, the bearer has the Lone Operative ability, and each time one of those **ARTILLERY** units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Piledriver",
+          "Description": "Each time the bearer's unit is selected to fight, the bearer can use this Enhancement. If it does, spend up to 2YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer's melee weapons.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Multiwave System Jammer",
+          "Description": "Once per battle, in your Movement phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one friendly **CTHONIAN** unit that is in Reserves. Until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as one higher than it actually is.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7235,7 +7474,58 @@
         "Take and Hold"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Tactical Alchemy",
+          "Description": "In your Command phase, if the bearer's unit is in range of one or more objective markers you control that are not in your deployment zone, you can spend 1YP. If you do, roll one D6: on a 4+, you gain 1CP.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Kâhl"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Trivârg Cyber Implant",
+          "Description": "In your Shooting phase, each time the bearer's unit is selected to shoot, if it disembarked from a **TRANSPORT** this turn, or if you spend 2YP, until the end of the phase, ranged weapons equipped by model in that unit have the [SUSTAINED HITS 2] ability.",
+          "Cost": 40,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Precursive Judgement",
+          "Description": "While the bearer's unit is wholly within 6\" of one or more friendly **LEAGUES OF VOTANN TRANSPORT** units, you can target the bearer's unit with the Fire Overwatch Stratagem for 0CP and hits are scored on an unmodified Hit roll of 5+ while resolving that Stratagem.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Kâhl"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Signature Restoration",
+          "Description": "Each time a friendly **LEAGUES OF VOTANN** model is repaired using the bearer's Forgewrought Expertise ability, that model regains one additional lost wound.",
+          "Cost": 5,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Brôkhyr Iron-master"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7249,7 +7539,56 @@
         "Take and Hold"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Mercenary Prospector",
+          "Description": "Each time an enemy unit is destroyed by the bearer’s unit, gain 2YP.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Kâhl"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Metaphysical Brokerage",
+          "Description": "At the end of your turn, if the bearer is on the battlefield and you gained fewer than 3YP this turn, you gain an amount of YP equal to the difference.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Memnyr Strategist"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Etacarn SB9 Targeting Implant",
+          "Description": "Each time a model in the bearer’s unit makes an attack, re‑roll a Hit roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, that attack has the [SUSTAINED HITS 1] ability.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Asset Manipulator",
+          "Description": "At the start of the Command phase, you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3” of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7277,7 +7616,30 @@
         "Reconnaissance"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Pan-spectral Lockons",
+          "Description": "In your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit is **spotted**:\n- While a unit is spotted, that unit has +3\" **detection range**.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Shroudwërke Talismans",
+          "Description": "This unit has -3\" **detection range**.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -7295,7 +7657,34 @@
         "Priority Assets"
       ],
       "Stratagems": [],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Ironskein",
+          "Description": "This model has +2**W**.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Kâhl"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "High Kâhl",
+          "Description": "In the Fight phase, when a model in this unit is **destroyed**, if this unit has not been **selected to fight** this phase, roll one D6: on a 4+, do not remove that model from the battlefield; after this unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Kâhl"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],
