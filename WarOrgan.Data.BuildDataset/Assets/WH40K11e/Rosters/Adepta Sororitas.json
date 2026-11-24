@@ -421,7 +421,7 @@
         },
         {
           "ModelCount": 10,
-          "Cost": 50
+          "Cost": 140
         }
       ]
     },
@@ -2457,7 +2457,7 @@
               "Min": 9,
               "Max": 9
             },
-            "ModelName": "Insidiant",
+            "ModelName": "Celestian Insidiants",
             "StatlineRef": "Celestian Insidiants",
             "Keywords": [],
             "Wargear": [
@@ -3552,7 +3552,7 @@
             },
             {
               "Id": "the outcast's blades",
-              "DisplayName": "The Outcast's Blades",
+              "DisplayName": "The Outcast’s Weapons",
               "Keywords": "Precision",
               "Flags": "None",
               "Stats": [
@@ -4284,7 +4284,7 @@
             {
               "Id": "boltgun",
               "DisplayName": "Boltgun",
-              "Keywords": "Rapid Fire 1",
+              "Keywords": "Assault, Rapid Fire 1",
               "Flags": "None",
               "Stats": [
                 {
@@ -7562,7 +7562,7 @@
               "Min": 2,
               "Max": 2
             },
-            "ModelName": "Paragon Warsuit",
+            "ModelName": "Paragons",
             "StatlineRef": "Paragon Warsuits",
             "Keywords": [],
             "Wargear": [
@@ -8328,8 +8328,8 @@
               "Min": 4,
               "Max": 9
             },
-            "ModelName": "Sister Repentia",
-            "StatlineRef": "Sister Repentia",
+            "ModelName": "Sisters Repentia",
+            "StatlineRef": "Sisters Repentia",
             "Keywords": [],
             "Wargear": [
               {
@@ -8371,7 +8371,7 @@
       ],
       "StatLines": [
         {
-          "StatName": "Sister Repentia",
+          "StatName": "Sisters Repentia",
           "Stats": [
             {
               "Id": "M",
@@ -9666,7 +9666,7 @@
           {
             "Limit": {
               "Min": 4,
-              "Max": 6
+              "Max": 4
             },
             "ModelName": "Sanctifier",
             "StatlineRef": "Sanctifiers",
@@ -9960,7 +9960,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "3+"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
@@ -9992,7 +9992,7 @@
                 },
                 {
                   "Id": "BS",
-                  "Value": "3+"
+                  "Value": "4+"
                 },
                 {
                   "Id": "S",
@@ -10147,10 +10147,6 @@
       "Points": [
         {
           "ModelCount": 9,
-          "Cost": 110
-        },
-        {
-          "ModelCount": 11,
           "Cost": 110
         }
       ]
