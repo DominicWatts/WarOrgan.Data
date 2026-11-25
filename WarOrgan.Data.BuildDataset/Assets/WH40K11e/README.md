@@ -34,7 +34,7 @@ These 31 factions are drafts converted automatically from the November 2026 BSDa
 - Most draft factions have no stratagems yet. A few detachments have no enhancements because BSData has none for them. The 16 Space Marine detachment rosters include 52 Wahapedia stratagems. Enhancements, detachment rules and leader abilities are text only: the app does not apply their effects.
 - Space Marine chapters are separate factions. Each can also take the Space Marines datasheets and has the generic Space Marine detachments alongside its own.
 - Where BSData's wargear could not be converted exactly, weapons are offered as swaps for a starting weapon of the same type, so some units allow loadouts their datasheet does not. Build units to the datasheet.
-- BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Captain in Gravis Armour, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.
+- BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.
 
 - Adepta Sororitas: 33 datasheets, 5 Legends, 8 detachments, 24 enhancements.
 - Adeptus Custodes: 24 datasheets, 6 Legends, 7 detachments, 17 enhancements.
@@ -42,7 +42,7 @@ These 31 factions are drafts converted automatically from the November 2026 BSDa
 - Agents of the Imperium: 29 datasheets, 11 Legends, 5 detachments, 16 enhancements.
 - Grey Knights: 26 datasheets, 5 Legends, 9 detachments, 30 enhancements.
 - Imperial Knights: 22 datasheets, 8 detachments, 26 enhancements.
-- Space Marines: 69 datasheets, 64 Legends, 16 detachments, 32 enhancements.
+- Space Marines: 72 datasheets, 72 Legends, 16 detachments, 32 enhancements.
 - Black Templars: 16 datasheets, 18 detachments, 36 enhancements.
 - Blood Angels: 14 datasheets, 8 Legends, 19 detachments, 40 enhancements.
 - Dark Angels: 16 datasheets, 2 Legends, 19 detachments, 40 enhancements.
