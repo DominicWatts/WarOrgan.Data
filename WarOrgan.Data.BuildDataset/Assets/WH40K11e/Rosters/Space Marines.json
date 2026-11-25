@@ -1260,8 +1260,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Intercessor Sergeant",
             "StatlineRef": "Assault Intercessor Squad",
@@ -1331,8 +1331,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Assault Intercessors",
             "StatlineRef": "Assault Intercessor Squad",
@@ -1681,12 +1681,12 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
-          "Cost": 85
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
-          "ModelCount": 20,
-          "Cost": 85
+          "ModelCount": 10,
+          "Cost": 150
         }
       ]
     },
@@ -1698,8 +1698,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Intercessor Sergeant with Jump Pack",
             "StatlineRef": "Assault Intercessors with Jump Packs",
@@ -1764,8 +1764,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Assault Intercessors with Jump Pack",
             "StatlineRef": "Assault Intercessors with Jump Packs",
@@ -2102,32 +2102,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 95
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 95
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 95
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 95
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 95
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 105
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 105
         }
       ]
@@ -3059,8 +3059,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Bladeguard Veterans",
             "StatlineRef": "Bladeguard Veteran Squad",
@@ -3077,8 +3077,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Bladeguard Veteran Sergeant",
             "StatlineRef": "Bladeguard Veteran Squad",
@@ -3374,32 +3374,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 90
         },
         {
           "UnitCount": 1,
-          "ModelCount": 12,
-          "Cost": 90
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 6,
           "Cost": 90
         },
         {
           "UnitCount": 2,
-          "ModelCount": 12,
+          "ModelCount": 3,
+          "Cost": 90
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 6,
           "Cost": 90
         },
         {
           "UnitCount": 3,
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 110
         },
         {
           "UnitCount": 3,
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 110
         }
       ]
@@ -6810,8 +6810,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 5
+              "Min": 4,
+              "Max": 4
             },
             "ModelName": "Desolation Marine",
             "StatlineRef": "Desolation Squad",
@@ -6844,8 +6844,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 5
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Desolation Sergeant",
             "StatlineRef": "Desolation Squad",
@@ -7168,18 +7168,8 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 140
-        },
-        {
-          "UnitCount": 2,
-          "ModelCount": 10,
-          "Cost": 140
-        },
-        {
-          "UnitCount": 3,
-          "ModelCount": 10,
-          "Cost": 150
         }
       ]
     },
@@ -8394,8 +8384,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Eradicator",
             "StatlineRef": "Eradicator Squad with Heavy Bolters",
@@ -8413,8 +8403,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Eradicator Sergeant",
             "StatlineRef": "Eradicator Squad with Heavy Bolters",
@@ -8601,32 +8591,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 100
         },
         {
           "UnitCount": 1,
-          "ModelCount": 12,
-          "Cost": 100
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 6,
           "Cost": 100
         },
         {
           "UnitCount": 2,
-          "ModelCount": 12,
+          "ModelCount": 3,
+          "Cost": 100
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 6,
           "Cost": 100
         },
         {
           "UnitCount": 3,
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 130
         },
         {
           "UnitCount": 3,
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 130
         }
       ]
@@ -8639,8 +8629,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Eradicator Sergeant",
             "StatlineRef": "Eradicator Squad with Melta Rifles",
@@ -8670,8 +8660,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Eradicator",
             "StatlineRef": "Eradicator Squad with Melta Rifles",
@@ -8690,8 +8680,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Eradicator with Multi-melta",
             "StatlineRef": "Eradicator Squad with Melta Rifles",
@@ -8981,32 +8971,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 9,
+          "ModelCount": 3,
           "Cost": 100
         },
         {
           "UnitCount": 1,
-          "ModelCount": 18,
+          "ModelCount": 6,
           "Cost": 100
         },
         {
           "UnitCount": 2,
-          "ModelCount": 9,
+          "ModelCount": 3,
           "Cost": 100
         },
         {
           "UnitCount": 2,
-          "ModelCount": 18,
+          "ModelCount": 6,
           "Cost": 100
         },
         {
           "UnitCount": 3,
-          "ModelCount": 9,
+          "ModelCount": 3,
           "Cost": 120
         },
         {
           "UnitCount": 3,
-          "ModelCount": 18,
+          "ModelCount": 6,
           "Cost": 120
         }
       ]
@@ -9927,8 +9917,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Heavy Intercessors",
             "StatlineRef": "Heavy Intercessor Squad",
@@ -9946,8 +9936,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Heavy Intercessor Sergeant",
             "StatlineRef": "Heavy Intercessor Squad",
@@ -9976,8 +9966,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Heavy Intercessor",
             "StatlineRef": "Heavy Intercessor Squad",
@@ -10201,11 +10191,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 15,
+          "ModelCount": 5,
           "Cost": 115
         },
         {
-          "ModelCount": 30,
+          "ModelCount": 10,
           "Cost": 115
         }
       ]
@@ -10218,8 +10208,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Hellblaster Sergeant",
             "StatlineRef": "Hellblaster Squad",
@@ -10264,8 +10254,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Hellblaster",
             "StatlineRef": "Hellblaster Squad",
@@ -10555,32 +10545,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 115
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 115
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 115
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 115
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 115
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 130
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 130
         }
       ]
@@ -11912,8 +11902,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Infiltrator",
             "StatlineRef": "Infiltrator Squad",
@@ -11931,8 +11921,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Infiltrator Sergeant",
             "StatlineRef": "Infiltrator Squad",
@@ -12142,11 +12132,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 85
         },
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 85
         }
       ]
@@ -16898,8 +16888,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Outrider",
             "StatlineRef": "Outrider Squad",
@@ -16932,8 +16922,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Outrider Sergeant",
             "StatlineRef": "Outrider Squad",
@@ -17295,11 +17285,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 80
         },
         {
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 80
         }
       ]
@@ -19004,8 +18994,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Scouts",
             "StatlineRef": "Scout Squad",
@@ -19037,8 +19027,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Scout Sergeant",
             "StatlineRef": "Scout Squad",
@@ -19093,8 +19083,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Scout",
             "StatlineRef": "Scout Squad",
@@ -19505,11 +19495,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 15,
+          "ModelCount": 5,
           "Cost": 65
         },
         {
-          "ModelCount": 30,
+          "ModelCount": 10,
           "Cost": 65
         }
       ]
@@ -19522,8 +19512,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Sternguard Veteran",
             "StatlineRef": "Sternguard Veteran Squad",
@@ -19564,8 +19554,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Sternguard Veteran Sergeant",
             "StatlineRef": "Sternguard Veteran Squad",
@@ -20011,32 +20001,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 105
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 105
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 105
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 105
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 105
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 120
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 120
         }
       ]
@@ -21251,8 +21241,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Assault Terminator",
             "StatlineRef": "Assault Terminator w/ Storm Shield",
@@ -21284,8 +21274,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Terminator Sergeant",
             "StatlineRef": "Assault Terminator Sergeant",
@@ -21528,32 +21518,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 170
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 170
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 170
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 170
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 170
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 210
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 210
         }
       ]
@@ -21566,8 +21556,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Terminator Sergeant",
             "StatlineRef": "Terminator Squad",
@@ -21614,8 +21604,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Terminator",
             "StatlineRef": "Terminator Squad",
@@ -22049,32 +22039,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 190
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 190
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 190
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 190
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 190
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 230
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 230
         }
       ]
@@ -22448,8 +22438,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Vanguard Veteran with Jump Packs",
             "StatlineRef": "Vanguard Veteran Squad with Jump Packs",
@@ -22466,8 +22456,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Vanguard Veteran Sergeant with Jump Pack",
             "StatlineRef": "Vanguard Veteran Squad with Jump Packs",
@@ -22532,8 +22522,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Vanguard Veteran with Jump Pack",
             "StatlineRef": "Vanguard Veteran Squad with Jump Packs",
@@ -22551,8 +22541,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Vanguard Veteran wtih Jump Packs",
             "StatlineRef": "Vanguard Veteran Squad with Jump Packs",
@@ -22887,32 +22877,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 20,
+          "ModelCount": 5,
           "Cost": 110
         },
         {
           "UnitCount": 1,
-          "ModelCount": 40,
+          "ModelCount": 10,
           "Cost": 110
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
           "Cost": 110
         },
         {
           "UnitCount": 2,
-          "ModelCount": 40,
+          "ModelCount": 10,
           "Cost": 110
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 5,
           "Cost": 130
         },
         {
           "UnitCount": 3,
-          "ModelCount": 40,
+          "ModelCount": 10,
           "Cost": 130
         }
       ]
