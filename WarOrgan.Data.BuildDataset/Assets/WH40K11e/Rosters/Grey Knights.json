@@ -1377,6 +1377,10 @@
             "GrantsAbilities": [
               "Apothecary's narthecium"
             ]
+          },
+          {
+            "Key": "psycannon",
+            "Cost": 5
           }
         ]
       },
@@ -2265,7 +2269,16 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "heavy psycannon",
+            "Cost": 15
+          },
+          {
+            "Key": "sublimator",
+            "Cost": 15
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -4795,7 +4808,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "heavy psycannon",
+            "Cost": 15
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -5282,6 +5300,10 @@
             "GrantsAbilities": [
               "Apothecary's narthecium"
             ]
+          },
+          {
+            "Key": "psycannon",
+            "Cost": 5
           }
         ]
       },
@@ -5639,7 +5661,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "psycannon",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -7368,7 +7395,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "hurricane bolter",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
