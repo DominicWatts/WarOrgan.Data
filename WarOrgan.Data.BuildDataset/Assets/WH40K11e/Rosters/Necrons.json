@@ -12490,7 +12490,34 @@
           "Effect": "Select one <b>objective</b> your unit is controlling. That <b>objective</b> is <b>secured</b>."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Enlivened Sentinels",
+          "Description": "<k>Necron Warriors</k> unit only. This unit has <b>Scouts 5\"</b>.",
+          "Cost": 20,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "NECRON WARRIORS"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Tools of Dominion",
+          "Description": "<k>Immortals</k> unit only. This unit’s ranged attacks have <k>[Rapid Fire 1]</k>.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "IMMORTALS"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -12532,7 +12559,35 @@
           "Effect": "Your unit can make a <b>normal move</b> of up to D3+3\"."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Recursive Reanimation",
+          "Description": "<k>Tomb Blades</k> unit only. When this unit activates its <b>Reanimation Protocols</b>, +1 to the roll.",
+          "Cost": 5,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "TOMB BLADES"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Deepening Madness",
+          "Description": "<k>Destroyer Cult Mounted</k> unit only. This unit’s ranged attacks have <k>[Assault]</k>.",
+          "Cost": 20,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Mounted",
+            "Destroyer Cult"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
