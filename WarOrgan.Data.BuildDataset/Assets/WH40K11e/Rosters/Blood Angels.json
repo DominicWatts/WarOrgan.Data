@@ -4715,7 +4715,62 @@
         "Priority Assets",
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Focused Fury",
+          "Category": "Angelic Inheritors Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>ADEPTUS ASTARTES</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>ADEPTUS ASTARTES</k> unit.",
+          "Effect": "Your unit’s melee attacks: <ul><li>Have <k>[LETHAL HITS]</k>.</li><li><u>Or:</u> If your unit is a <k>Character</k> unit, have <k>[LETHAL HITS]</k>, <k>[LANCE]</k>.</li></ul>"
+        },
+        {
+          "Name": "Instant of Grace",
+          "Category": "Angelic Inheritors Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>Adeptus Astartes Infantry</k> unit.",
+          "Effect": "Your unit has <k>Character</k> until the start of your next Command phase."
+        },
+        {
+          "Name": "Unto the Burning Skies",
+          "Category": "Angelic Inheritors Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One friendly <k>The Sanguinor</k>/<b>unengaged</b> <k>Adeptus Astartes Jump Pack</k> unit.",
+          "Effect": "Place your unit in <b>strategic reserves</b>."
+        },
+        {
+          "Name": "In the Shadow of Great Wings",
+          "Category": "Angelic Inheritors Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly <k>Adeptus Astartes Character</k> unit.",
+          "Target": "That <k>Adeptus Astartes Character</k> unit.",
+          "Effect": "Your unit has:<ul><li><b>Stealth</b>.</li><li>-3\" <b>detection range</b>.</li></ul>."
+        },
+        {
+          "Name": "Strike Now for Glory",
+          "Category": "Angelic Inheritors Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase when a friendly <k>Adeptus Astartes</k> unit is selected to attack.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "Your unit’s ranged attacks have <k>[SUSTAINED HITS 1]</k>."
+        },
+        {
+          "Name": "Measured Strategist",
+          "Category": "Angelic Inheritors Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>Adeptus Astartes Character</k> unit.",
+          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Prescient Flash",
@@ -4776,7 +4831,35 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Judgement of the Golden Host",
+          "Category": "Encarmine Speartip Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Charge phase, when a friendly <k>Sanguinary Guard</k> unit form your army ends a <b>charge move</b>.",
+          "Target": "That <k>Sanguinary Guard</k> unit.",
+          "Effect": "Select one enemy unit <b>engaged</b> with your unit. Roll one D6 for each model in your unit <b>engaged</b> with that enemy unit:<ul><li>For each 3+, that enemy unit suffers 1 <b>mortal wound</b>.</li></ul>"
+        },
+        {
+          "Name": "Inexorable Valour",
+          "Category": "Encarmine Speartip Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent's Movement phase, when an enemy unit that was <b>engaged</b> with a friendly <k>Sanguinary Guard</k> unit ends a <b>fall-back move</b>, if that <k>Sanguinary Guard</k> unit is <b>unengaged</b>.",
+          "Target": "That <k>Sanguinary Guard</k> unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3\"."
+        },
+        {
+          "Name": "Blinding Blurs of Vengeance",
+          "Category": "Encarmine Speartip Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly <k>Sanguinary Guard</k> unit.",
+          "Target": "That <k>Sanguinary Guard</k> unit.",
+          "Effect": "Your unit has:<ul><li><b>Stealth</b>.</li><li>-3\" <b>detection range</b>.</li></ul>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Angelic Executioner",
@@ -4820,7 +4903,35 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "No Barrier to Retribution",
+          "Category": "Wrath of the Doomed Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement or Charge",
+          "When": "Your Movement or your Charge phase, when a friendly <k>Death Company Dreadnought</k> unit is selected to make a <b>normal/advance/charge move</b>.",
+          "Target": "That <k>Death Company Dreadnought</k> unit.",
+          "Effect": "Your unit has <k>Mobile</k>."
+        },
+        {
+          "Name": "Rage-fuelled Response",
+          "Category": "Wrath of the Doomed Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly <b>unengaged</b> <k>Death Company</k> unit has shot.",
+          "Target": "That <k>Death Company</k> unit.",
+          "Effect": "Your unit can make a <b>surge move</b> of up to D6\"."
+        },
+        {
+          "Name": "Death Begets Vengeance",
+          "Category": "Wrath of the Doomed Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly <k>Death Company</k> unit is <b>destroyed</b> by an enemy unit.",
+          "Target": "That enemy unit.",
+          "Effect": "That enemy unit is <b>hated</b> until the end of the battle:<ul><li>While a unit is <b>hated</b>, friendly <k>Death Company</k> units' attacks that target that unit have +1 to <b>wound rolls</b>. </li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Instinctive Interception",

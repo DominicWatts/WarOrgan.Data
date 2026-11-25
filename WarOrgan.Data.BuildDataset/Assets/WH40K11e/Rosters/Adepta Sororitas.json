@@ -4154,6 +4154,10 @@
             "GrantsAbilities": [
               "Simulacrum Imperialis"
             ]
+          },
+          {
+            "Key": "meltagun",
+            "Cost": 5
           }
         ]
       },
@@ -5516,7 +5520,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "twin multi-melta",
+            "Cost": 15
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -7685,6 +7694,10 @@
             "Key": "totemic presence upgrade",
             "DisplayName": "Totemic Presence upgrade",
             "Cost": 0
+          },
+          {
+            "Key": "multi-melta",
+            "Cost": 10
           }
         ]
       },
@@ -8745,7 +8758,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {

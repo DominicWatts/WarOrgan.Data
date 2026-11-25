@@ -5543,7 +5543,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Blade of Detestation",
+          "Category": "Marshal's Household Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Charge phase, when a friendly <k>Sword Brethren Squad</k> unit ends a <b>charge move</b>.",
+          "Target": "That <k>Sword Brethren Squad</k>.",
+          "Effect": "Select one enemy unit <b>engaged</b> with your unit. Roll one D6 for each model in your unit <b>engaged</b> with that enemy unit:<ul><li>For each 4+, that enemy unit suffers 1 <b>mortal wound</b> (to a maximum of 6 <b>mortal wounds</b>).</li></ul>"
+        },
+        {
+          "Name": "Slayers of Abominations",
+          "Category": "Marshal's Household Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Sword Brethren Squad</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Sword Brethren Squad</k> unit.",
+          "Effect": "Your unit's melee attacks that target a <k>Monster/Vehicle</k> unit have +2 <b>S</b>."
+        },
+        {
+          "Name": "Unsparing Execution",
+          "Category": "Marshal's Household Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent's Movement phase, when a unit is selected to make a <b>fall-back move</b>, if that unit is <b>engaged</b> with a friendly <k>Sword Brethren Squad </k> unit.",
+          "Target": "That <k>Sword Brethren Squad</k> unit.",
+          "Effect": "When an enemy unit <b>engaged</b> with your unit is selected to make a <b>fall-back move </b>, that enemy unit must use the <b>desperate escape</b> mode, with -1 to those <b>hazard rolls</b> if that enemy unit is <b>battle-shocked</b>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Fervent Exemplars (Upgrade)",
@@ -6435,7 +6463,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Angels Defiant",
+          "Category": "Fist of the God-Emperor Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly <k>CRUSADER SQUAD</k> unit.",
+          "Target": "That <k>CRUSADER SQUAD</k> unit.",
+          "Effect": "Attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have -1 to <b>wound rolls</b>."
+        },
+        {
+          "Name": "Avowed Destruction",
+          "Category": "Fist of the God-Emperor Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "The Fight phase, when a friendly <k>CRUSADER SQUAD</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>CRUSADER SQUAD</k> unit.",
+          "Effect": "Your unit’s melee attacks: <ul><li>Have <k>[LETHAL HITS]</k>.</li><li><u>Or:</u> Have <k>[SUSTAINED HITS 1]</k>.</li></ul>"
+        },
+        {
+          "Name": "Doctrinal Flexibility",
+          "Category": "Fist of the God-Emperor Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>Crusader Squad</k> unit.",
+          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Oathbound Exemplar",
