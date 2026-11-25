@@ -12,15 +12,21 @@ Work is tracked as [GitHub issues](https://github.com/DominicWatts/WarOrgan.Data
 | `in-progress` | Claimed by an agent; leave it alone | Agents |
 | `needs-testing` | Checks the owner runs in the WarOrgan app | Owner |
 | `blocked` | Waiting on the WarOrgan author or an owner decision; don't publish speculative fixes | Owner |
+| `army-rules`, `detachments`, `roster`, `leader-support`, `faction-pack` | The task's dataset scope; a task may have more than one | Agents |
+| `faction:<slug>` | The owning faction branch, for example `faction:orks` | Agents |
 | no label | A new bug report from the owner; fix it like a `task` | Agents |
 
 To work on an issue:
 
-1. Pick one open `task` (or unlabelled bug) without `in-progress`. One issue per session; don't take a second issue on the same branch while another is claimed.
+1. Pick one open `task` (or unlabelled bug) without `in-progress`. One issue per session. For a faction task, first check that no other issue with the same `faction:<slug>` label has `in-progress`; only one agent may write to a faction branch at a time.
 2. Before changing anything, add `in-progress` and comment the branch you'll use: `gh issue edit <n> --add-label in-progress` and `gh issue comment <n> --body "Working on faction/<slug>"`.
 3. Follow the core flow below up to step 4 (merge into `dataset/develop`). Tick the issue's checkboxes as you go.
 4. Comment the commit, the merge, and what the owner should test, then remove `in-progress`. Leave the issue open; the owner closes it when it's tested.
 5. If you can't finish, comment what's done and what's left, and remove `in-progress`.
+
+Faction work is split into standalone, independently claimable issues rather than parent trackers. Every faction task has `task`, one `faction:<slug>` label and at least one scope label. When opening follow-up work, apply all three kinds of label. Keep the issue small enough for one session; detachment audits should normally cover no more than five detachments. Do not widen an issue when the audit finds unrelated work.
+
+`FACTIONS.md` is the faction-level summary. Mark a category Complete only when all scoped work supports that status; completing one chunk does not make the whole category Complete.
 
 The Prepare commit, the `develop-build` upload and releases (steps 5 to 8) are run by one session only, when the owner asks for a test version. That session bundles everything already merged and adds a `needs-testing` issue for the new checks.
 

@@ -8843,7 +8843,7 @@
             },
             {
               "Id": "melta rifle hunter:monster/vehicle",
-              "DisplayName": "Melta Rifle HUNTER:Monster/Vehicle",
+              "DisplayName": "Melta Rifle - Hunter (Monster/Vehicle)",
               "Keywords": "Melta 2",
               "Flags": "None",
               "Stats": [
@@ -8907,7 +8907,7 @@
             },
             {
               "Id": "multi-melta hunter:monster/vehicle",
-              "DisplayName": "Multi-melta HUNTER:Monster/Vehicle",
+              "DisplayName": "Multi-melta - Hunter (Monster/Vehicle)",
               "Keywords": "Melta 3",
               "Flags": "None",
               "Stats": [
@@ -21920,7 +21920,7 @@
           "Weapons": [
             {
               "Id": "chainfist - hunter: monster/vehicle",
-              "DisplayName": "Chainfist - Hunter: Monster/Vehicle",
+              "DisplayName": "Chainfist - Hunter (Monster/Vehicle)",
               "Flags": "None",
               "Stats": [
                 {

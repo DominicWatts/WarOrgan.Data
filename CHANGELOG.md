@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.26.0 - Adepta Sororitas: audited army rules, roster and wargear, all 8 detachments and Leader/Support links, and recorded the 14 October 2026 Codex errata superseding a separate faction-pack pass (issues 68, 70-73).
+
 2026-11-25 : 1.5.25.0 - Space Marines: added the Captain in Gravis Armour, and corrected Infernus and Intercessor squads to 5 or 10 models with their 10-model points (issue 66).
 
 2026-11-25 : 1.5.24.0 - Removed stray inline double-asterisk bold markers from rule text across 31 factions, and the builder now strips any that remain when exporting (issue 65).
