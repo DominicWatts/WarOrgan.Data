@@ -39,7 +39,7 @@
         },
         {
           "Title": "Dark Destiny",
-          "Text": "Each time this model makes a Dark Pact and does not fail the resulting **leadership roll**, if the result of that roll was 7+, you gain 1CP."
+          "Text": "Each time this model makes a Dark Pact and does not fail the resulting leadership roll, if the result of that roll was 7+, you gain 1CP."
         }
       ],
       "LeaderInfo": {
@@ -271,7 +271,7 @@
       "UnitAbilities": [
         {
           "Title": "Howling Horde",
-          "Text": "In your opponent's Shooting phase, when an enemy unit has shot, if a model from this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\"."
+          "Text": "In your opponent's Shooting phase, when an enemy unit has shot, if a model from this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\"."
         },
         {
           "Title": "Khorne",
@@ -738,7 +738,7 @@
         },
         {
           "Title": "Massive Fangs",
-          "Text": "Melee weapons equipped by this model have the **[LANCE]** ability."
+          "Text": "Melee weapons equipped by this model have the [LANCE] ability."
         },
         {
           "Title": "Eightfold Eyes",
@@ -1397,7 +1397,7 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **HERETIC ASTARTES INFANTRY (EXCLUDING OBLITERATOR** and **JUMP PACK** models). Each **POSSESSED, MUTILATORS** and **TERMINATOR** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY (EXCLUDING OBLITERATOR and JUMP PACK models). Each POSSESSED, MUTILATORS and TERMINATOR model takes up the space of 2 models."
         },
         {
           "Title": "Damaged: 1-5 wounds remaining",
@@ -4069,7 +4069,7 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **HERETIC ASTARTES INFANTRY MODELS. IT CANNOT TRANSPORT TERMINATOR, JUMP PACK, MUTILATORS, OBLITERATORS OR POSSESSED** models."
+          "Text": "This model has a transport capacity of 12 HERETIC ASTARTES INFANTRY MODELS. IT CANNOT TRANSPORT TERMINATOR, JUMP PACK, MUTILATORS, OBLITERATORS OR POSSESSED models."
         },
         {
           "Title": "Khorne",
@@ -4860,7 +4860,7 @@
         },
         {
           "Title": "Massive Fangs",
-          "Text": "Melee weapons equipped by this model have the **[LANCE]** ability."
+          "Text": "Melee weapons equipped by this model have the [LANCE] ability."
         },
         {
           "Title": "Eightfold Eyes",
@@ -6009,7 +6009,7 @@
         },
         {
           "Title": "Massive Fangs",
-          "Text": "Melee weapons equipped by this model have the **[LANCE]** ability."
+          "Text": "Melee weapons equipped by this model have the [LANCE] ability."
         },
         {
           "Title": "Eightfold Eyes",
@@ -6880,7 +6880,7 @@
         },
         {
           "Title": "Massive Fangs",
-          "Text": "Melee weapons equipped by this model have the **[LANCE]** ability."
+          "Text": "Melee weapons equipped by this model have the [LANCE] ability."
         },
         {
           "Title": "Eightfold Eyes",
@@ -7123,7 +7123,7 @@
         },
         {
           "Title": "Agent of Discord (Aura)",
-          "Text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem** by 1CP."
+          "Text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
         },
         {
           "Title": "Guns Blazing",
@@ -8325,7 +8325,7 @@
         },
         {
           "Title": "Scuttling Walker",
-          "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **TITANIC** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+          "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
         },
         {
           "Title": "Daemonforge",
@@ -11764,7 +11764,7 @@
         },
         {
           "Title": "Lord of Chaos",
-          "Text": "While this model is within 3\" of a friendly **HERETIC ASTARTES INFANTRY** unit, this model has **Lone Operative**."
+          "Text": "While this model is within 3\" of a friendly HERETIC ASTARTES INFANTRY unit, this model has Lone Operative."
         },
         {
           "Title": "Khorne",
@@ -12287,7 +12287,7 @@
         },
         {
           "Title": "Lord of Badab (Aura)",
-          "Text": "While a friendly **HERETIC ASTARTES INFANTRY UNIT (EXCLUDING BATTLE-SHOCKED UNITS AND DAMNED** units) is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit."
+          "Text": "While a friendly HERETIC ASTARTES INFANTRY UNIT (EXCLUDING BATTLE-SHOCKED UNITS AND DAMNED units) is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit."
         },
         {
           "Title": "Hamadrya’s Knowledge (Psychic)",
@@ -12574,7 +12574,7 @@
       "UnitAbilities": [
         {
           "Title": "Blood Surge",
-          "Text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding **AIRCRAFT**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
+          "Text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
         },
         {
           "Title": "Murderous Charge",
@@ -14513,11 +14513,11 @@
         },
         {
           "Title": "Corrupt Machine Spirits",
-          "Text": "At the start of your Shooting phase, select one visible enemy **VEHICLE** unit within 12\" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’"
+          "Text": "At the start of your Shooting phase, select one visible enemy VEHICLE unit within 12\" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’"
         },
         {
           "Title": "Spirit Thief",
-          "Text": "At the start of your Shooting phase, select one visible enemy **VEHICLE** unit. Until the end of the phase, each time a friendly **HERETIC ASTARTES** model makes an attack that targets that unit, re-roll a Wound roll of 1."
+          "Text": "At the start of your Shooting phase, select one visible enemy VEHICLE unit. Until the end of the phase, each time a friendly HERETIC ASTARTES model makes an attack that targets that unit, re-roll a Wound roll of 1."
         },
         {
           "Title": "Khorne",
@@ -15552,7 +15552,7 @@
       "UnitAbilities": [
         {
           "Title": "Fleet Command",
-          "Text": "After both players have deployed their armies, if this unit is on the battlefield (or any **TRANSPORT IT IS EMBARKED WITHIN IS ON THE BATTLEFIELD) SELECT UP TO THREE HERETIC ASTARTES** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+          "Text": "After both players have deployed their armies, if this unit is on the battlefield (or any TRANSPORT IT IS EMBARKED WITHIN IS ON THE BATTLEFIELD) SELECT UP TO THREE HERETIC ASTARTES units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
         },
         {
           "Title": "Plunder",
@@ -15564,7 +15564,7 @@
         },
         {
           "Title": "Choice Samples",
-          "Text": "While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding **CHARACTER MODELS) TO THIS UNIT, OR, IF ONE OR MORE HERETIC ASTARTES INFANTRY** units from your army are below Starting Strength and within 3\" of this unit, you gain 1CP."
+          "Text": "While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding CHARACTER MODELS) TO THIS UNIT, OR, IF ONE OR MORE HERETIC ASTARTES INFANTRY units from your army are below Starting Strength and within 3\" of this unit, you gain 1CP."
         }
       ],
       "LeaderInfo": {
@@ -17659,7 +17659,7 @@
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         },
         {
           "Title": "Khorne",
@@ -18197,7 +18197,7 @@
         },
         {
           "Title": "Warp Rift Firepower",
-          "Text": "(Once per battle, per unit): In your Shooting phase, when this unit is **selected to shoot**, you can use this ability. If you do, this unit's ranged attacks have **[INDIRECT FIRE]**."
+          "Text": "(Once per battle, per unit): In your Shooting phase, when this unit is selected to shoot, you can use this ability. If you do, this unit's ranged attacks have [INDIRECT FIRE]."
         },
         {
           "Title": "Khorne",
@@ -20124,7 +20124,7 @@
         },
         {
           "Title": "Attached Unit",
-          "Text": "If a **CHARACTER UNIT FROM YOUR ARMY WITH THE LEADER ABILITY CAN BE ATTACHED TO A LEGIONARIES** unit, it can be attached to this unit instead."
+          "Text": "If a CHARACTER UNIT FROM YOUR ARMY WITH THE LEADER ABILITY CAN BE ATTACHED TO A LEGIONARIES unit, it can be attached to this unit instead."
         },
         {
           "Title": "Khorne",
@@ -20939,7 +20939,7 @@
         },
         {
           "Title": "Icon of Flame",
-          "Text": "Ranged weapons equipped by models in this unit (excluding **CHARACTERS**) have the [Ignores Cover] ability."
+          "Text": "Ranged weapons equipped by models in this unit (excluding CHARACTERS) have the [Ignores Cover] ability."
         }
       ],
       "Infos": [],
@@ -22205,7 +22205,7 @@
       "UnitAbilities": [
         {
           "Title": "Twisted Defence Force",
-          "Text": "While this unit is within range of an **objective**, this unit has +1 **Sv** against ranged attacks."
+          "Text": "While this unit is within range of an objective, this unit has +1 Sv against ranged attacks."
         },
         {
           "Title": "Khorne",
@@ -22742,7 +22742,7 @@
         },
         {
           "Title": "Unholy Mechanisms (Aura)",
-          "Text": "While a friendly **DAEMON VEHICLE** unit is within 6\" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit."
+          "Text": "While a friendly DAEMON VEHICLE unit is within 6\" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit."
         },
         {
           "Title": "Reorder Reality",
@@ -22750,7 +22750,7 @@
         },
         {
           "Title": "Indentured Daemon Engines",
-          "Text": "While this model is within 3\" of one or more friendly **DAEMON VEHICLE** units, this model has the Lone Operative ability."
+          "Text": "While this model is within 3\" of one or more friendly DAEMON VEHICLE units, this model has the Lone Operative ability."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -23527,15 +23527,15 @@
       "UnitAbilities": [
         {
           "Title": "Warpsmith",
-          "Text": "While this model is within 3\" of one or more friendly **HERETIC ASTARTES VEHICLE** units, this model has the Lone Operative ability."
+          "Text": "While this model is within 3\" of one or more friendly HERETIC ASTARTES VEHICLE units, this model has the Lone Operative ability."
         },
         {
           "Title": "Master of Mechanisms",
-          "Text": "In your Command phase, select one friendly **HERETIC ASTARTES VEHICLE** model within 3\" of this model. That ** VEHICLE** model regains up to D3 lost wounds and, until the start of your next Command phase, each time that **VEHICLE** makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase."
+          "Text": "In your Command phase, select one friendly HERETIC ASTARTES VEHICLE model within 3\" of this model. That  VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase."
         },
         {
           "Title": "Enrage Machine Spirits",
-          "Text": "At the end of your Movement phase, select one enemy **VEHICLE** unit within 12\" of this model. That unit must take a Battle-shock test."
+          "Text": "At the end of your Movement phase, select one enemy VEHICLE unit within 12\" of this model. That unit must take a Battle-shock test."
         },
         {
           "Title": "Khorne",
@@ -24056,7 +24056,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Marks of Chaos",
-        "Text": "When mustering your army, when you select a HERETIC ASTARTES unit to include in your army, if that unit is not an EPIC HERO and does not already have one of the following keywords, you must select one for that unit to gain and note it on your Army Roster: KHORNE, TZEENTCH, NURGLE, SLAANESH, CHAOS UNDIVIDED.\n\n\nEach time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test, until the end of the phase, that unit gains the associated ability below.\n\n\nRESTRICTIONS\n- You cannot select the KHORNE keyword for a PSYKER unit.\n- A **CHARACTER/EPIC HERO** unit can only be attached to a unit if both units share the same keyword from the list above.\n- A unit can only embark within (or start the battle embarked within) a TRANSPORT if both of those units share the same keyword from the list above.’"
+        "Text": "When mustering your army, when you select a HERETIC ASTARTES unit to include in your army, if that unit is not an EPIC HERO and does not already have one of the following keywords, you must select one for that unit to gain and note it on your Army Roster: KHORNE, TZEENTCH, NURGLE, SLAANESH, CHAOS UNDIVIDED.\n\n\nEach time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test, until the end of the phase, that unit gains the associated ability below.\n\n\nRESTRICTIONS\n- You cannot select the KHORNE keyword for a PSYKER unit.\n- A CHARACTER/EPIC HERO unit can only be attached to a unit if both units share the same keyword from the list above.\n- A unit can only embark within (or start the battle embarked within) a TRANSPORT if both of those units share the same keyword from the list above.’"
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -24171,7 +24171,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Focus of Hatred",
-        "Text": "At the start of your Command phase, select one unit from your opponent's army to be your focus of hatred. Until the start of your next Command phase, each time a **HERETIC ASTARTES MODEL FROM YOUR ARMY (EXCLUDING DAMNED** models) makes an attack that targets your focus of hatred, you can re-roll the Hit roll."
+        "Text": "At the start of your Command phase, select one unit from your opponent's army to be your focus of hatred. Until the start of your next Command phase, each time a HERETIC ASTARTES MODEL FROM YOUR ARMY (EXCLUDING DAMNED models) makes an attack that targets your focus of hatred, you can re-roll the Hit roll."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -24293,7 +24293,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Masters of Misdirection",
-        "Text": "In the Declare Battle Formations step, you can select a number of **LEGIONARIES AND CULTIST MOB UNITS FROM YOUR ARMY; UNTIL THE END OF THE BATTLE, THOSE UNITS, AND ANY CHARACTER UNITS ATTACHED TO THEM (EXCLUDING EPIC HEROES**), have the Infiltrator ability. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\n\n**Battle Size | Legionaries | Cultist Mobs**\nIncursion | Up to 2 units | Up to 2 units\nStrike Force | Up to 3 units | Up to 3 units\nOnslaught | Up to 4 units | Up to 4 units"
+        "Text": "In the Declare Battle Formations step, you can select a number of LEGIONARIES AND CULTIST MOB UNITS FROM YOUR ARMY; UNTIL THE END OF THE BATTLE, THOSE UNITS, AND ANY CHARACTER UNITS ATTACHED TO THEM (EXCLUDING EPIC HEROES), have the Infiltrator ability. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\n\n**Battle Size | Legionaries | Cultist Mobs**\nIncursion | Up to 2 units | Up to 2 units\nStrike Force | Up to 3 units | Up to 3 units\nOnslaught | Up to 4 units | Up to 4 units"
       },
       "ForceDispositions": [
         "Disruption"
@@ -24357,7 +24357,7 @@
       "Enhancements": [
         {
           "Name": "Falsehood",
-          "Description": "In the Declare Battle Formations step, you can set up the bearer in Reserves instead of setting it up on the battlefield. If you do, in one of your Movement phases, you can select one model in a friendly **LEGIONARIES** or **CHOSEN** unit that has two or more models remaining and is on the battlefield (excluding Attached units).. The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and the bearer is set up as close as possible to where that model was destroyed and only within Engagement Range of any units if the destroyed model was in Engagement Range of those units. The bearer now attaches to that unit as its Leader.",
+          "Description": "In the Declare Battle Formations step, you can set up the bearer in Reserves instead of setting it up on the battlefield. If you do, in one of your Movement phases, you can select one model in a friendly LEGIONARIES or CHOSEN unit that has two or more models remaining and is on the battlefield (excluding Attached units).. The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and the bearer is set up as close as possible to where that model was destroyed and only within Engagement Range of any units if the destroyed model was in Engagement Range of those units. The bearer now attaches to that unit as its Leader.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -24418,7 +24418,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Raiders and Reavers",
-        "Text": "Ranged weapons equipped by **HERETIC ASTARTES MODELS FROM YOUR ARMY HAVE THE [ASSAULT] ABILITY, AND EACH TIME A HERETIC ASTARTES** model from your army makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
+        "Text": "Ranged weapons equipped by HERETIC ASTARTES MODELS FROM YOUR ARMY HAVE THE [ASSAULT] ABILITY, AND EACH TIME A HERETIC ASTARTES model from your army makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
       },
       "ForceDispositions": [
         "Reconnaissance",
@@ -24533,7 +24533,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Terror Descends (Aura)",
-        "Text": "In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 12\" of one or more **HERETIC ASTARTES** units from your army, that enemy unit must take a Battle-shock test.\nEach time an enemy unit within 12\" of one or more **HERETIC ASTARTES** units from your army takes a Battle-shock test, subtract 1 from the result.\nEnemy units affected by this Detachment rule do not need to take any other Battle-shock tests in the same phase."
+        "Text": "In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 12\" of one or more HERETIC ASTARTES units from your army, that enemy unit must take a Battle-shock test.\nEach time an enemy unit within 12\" of one or more HERETIC ASTARTES units from your army takes a Battle-shock test, subtract 1 from the result.\nEnemy units affected by this Detachment rule do not need to take any other Battle-shock tests in the same phase."
       },
       "ForceDispositions": [
         "Disruption"
@@ -24653,7 +24653,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Iron Fortitude",
-        "Text": "Each time a ranged attack targets a **HERETIC ASTARTES UNIT FROM YOUR ARMY (EXCLUDING DAMNED** units), if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        "Text": "Each time a ranged attack targets a HERETIC ASTARTES UNIT FROM YOUR ARMY (EXCLUDING DAMNED units), if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -24773,7 +24773,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Desperate Devotion",
-        "Text": "Each time a **DAMNED** unit from your army with the Dark Pacts ability is selected to make a Normal or Advance move or declare a charge (excluding units that arrived from Reserves this turn) it can make a Desperate Pact. If it does, until the end of the phase, add 2\" to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit.\n\n\nDesperate Pacts\nEach time a unit makes a Desperate Pact, it must first take a Leadership test; if that test is failed, the unit suffers D3 mortal wounds before any effects of the Desperate Pact are resolved."
+        "Text": "Each time a DAMNED unit from your army with the Dark Pacts ability is selected to make a Normal or Advance move or declare a charge (excluding units that arrived from Reserves this turn) it can make a Desperate Pact. If it does, until the end of the phase, add 2\" to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit.\n\n\nDesperate Pacts\nEach time a unit makes a Desperate Pact, it must first take a Leadership test; if that test is failed, the unit suffers D3 mortal wounds before any effects of the Desperate Pact are resolved."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -24889,7 +24889,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Debt to the Soulforge",
-        "Text": "Each time a **HERETIC ASTARTES DAEMON VEHICLE** model from your army makes a Dark Pact, it can invoke its contract. If it does, subtract 1 from the resulting Leadership test when making that Dark Pact and, until the end of the phase:\n- Each time a model in that unit makes a ranged attack, add 1 to the Wound roll.\n- Add 2 to the Attacks characteristic of melee weapons equipped by models in that unit."
+        "Text": "Each time a HERETIC ASTARTES DAEMON VEHICLE model from your army makes a Dark Pact, it can invoke its contract. If it does, subtract 1 from the resulting Leadership test when making that Dark Pact and, until the end of the phase:\n- Each time a model in that unit makes a ranged attack, add 1 to the Wound roll.\n- Add 2 to the Attacks characteristic of melee weapons equipped by models in that unit."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -25005,7 +25005,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Creations of Bile",
-        "Text": "At the start of the battle, select which augmentations are active for **HERETIC ASTARTES INFANTRY MODELS (EXCLUDING DAMNED MODELS) FROM YOUR ARMY UNTIL THE END OF THE BATTLE. TO DO SO, EITHER SELECT ONE FROM THE LIST BELOW, OR RANDOMLY DETERMINE TWO BY ROLLING TWO D6. IF FABIUS BILE IS YOUR WARLORD**, when randomly determining your augmentations, you can re‑roll one or both of the dice. Duplicated augmentations have no additional effect.\n\n\n1 - **Cholinergic Accelerants:** Add 1 to the Attacks characteristic of melee weapons equipped by this model.\n2 - **Hyperadrenal Infusion:** Add 2\" to the Move characteristic of this model.\n3 - **Paraneural Reactions:** Improve the Weapon Skill characteristic of melee weapons equipped by this model by 1.\n4 - **Supracutaneous Chitination:** Improve the Toughness characteristic of this model by 1.\n5 - **Macrotensile Sinews:** Add 1 to the Strength characteristic of melee weapons equipped by this model.\n6 - **Ophthalmic Enhancement:** Improve the Ballistic Skill characteristic of ranged weapons equipped by this model by 1."
+        "Text": "At the start of the battle, select which augmentations are active for HERETIC ASTARTES INFANTRY MODELS (EXCLUDING DAMNED MODELS) FROM YOUR ARMY UNTIL THE END OF THE BATTLE. TO DO SO, EITHER SELECT ONE FROM THE LIST BELOW, OR RANDOMLY DETERMINE TWO BY ROLLING TWO D6. IF FABIUS BILE IS YOUR WARLORD, when randomly determining your augmentations, you can re‑roll one or both of the dice. Duplicated augmentations have no additional effect.\n\n\n1 - Cholinergic Accelerants: Add 1 to the Attacks characteristic of melee weapons equipped by this model.\n2 - Hyperadrenal Infusion: Add 2\" to the Move characteristic of this model.\n3 - Paraneural Reactions: Improve the Weapon Skill characteristic of melee weapons equipped by this model by 1.\n4 - Supracutaneous Chitination: Improve the Toughness characteristic of this model by 1.\n5 - Macrotensile Sinews: Add 1 to the Strength characteristic of melee weapons equipped by this model.\n6 - Ophthalmic Enhancement: Improve the Ballistic Skill characteristic of ranged weapons equipped by this model by 1."
       },
       "ForceDispositions": [
         "Purge the Foe",
@@ -25132,7 +25132,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Empyric Wellspring",
-        "Text": "- In your Shooting phase, when a friendly **HERETIC ASTARTES PSYKER** unit (excluding **DAEMON** units) is **selected to shoot**, if that unit makes a **Dark Pact**, that unit’s ranged attacks have +1 **S**.\n- In the Fight phase, when a friendly **HERETIC ASTARTES DAEMON PRINCE/DAEMON PRINCE WITH WINGS** unit (excluding **KHORNE** units) is **selected to fight**, if that unit makes a **Dark Pact**, that unit’s melee attacks have:\n- +2 **S**.\n- +1 **AP**."
+        "Text": "- In your Shooting phase, when a friendly HERETIC ASTARTES PSYKER unit (excluding DAEMON units) is selected to shoot, if that unit makes a Dark Pact, that unit’s ranged attacks have +1 S.\n- In the Fight phase, when a friendly HERETIC ASTARTES DAEMON PRINCE/DAEMON PRINCE WITH WINGS unit (excluding KHORNE units) is selected to fight, if that unit makes a Dark Pact, that unit’s melee attacks have:\n- +2 S.\n- +1 AP."
       },
       "ForceDispositions": [
         "Disruption"
@@ -25203,7 +25203,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Terror Made Manifest",
-        "Text": "In the Battle‑shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12\" of one or more **HERETIC ASTARTES** units from your army, that enemy unit must take a Battle‑shock test, subtracting 1 from the result. Enemy units affected by this Detachment rule do not need to take any other Battle‑shock tests in the same phase.\nEach time a **HERETIC ASTARTES** model from your army makes an attack that targets a unit that is Below Half‑strength, add 1 to the Hit roll.\nEach time an attack targets a **HERETIC ASTARTES** unit from your army, if the attacking model is Battle‐shocked, subtract 1 from the Hit roll.\nEach time a **HERETIC ASTARTES** model from your army makes an attack that targets a Battle‐shocked unit, add 1 to the Wound roll."
+        "Text": "In the Battle‑shock step of your opponent’s Command phase, if an enemy unit that is below its Starting Strength is within 12\" of one or more HERETIC ASTARTES units from your army, that enemy unit must take a Battle‑shock test, subtracting 1 from the result. Enemy units affected by this Detachment rule do not need to take any other Battle‑shock tests in the same phase.\nEach time a HERETIC ASTARTES model from your army makes an attack that targets a unit that is Below Half‑strength, add 1 to the Hit roll.\nEach time an attack targets a HERETIC ASTARTES unit from your army, if the attacking model is Battle‐shocked, subtract 1 from the Hit roll.\nEach time a HERETIC ASTARTES model from your army makes an attack that targets a Battle‐shocked unit, add 1 to the Wound roll."
       },
       "Tags": [
         "NIGHTMARE"
@@ -25326,7 +25326,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Tyrannical Motivation",
-        "Text": "In your Command phase, select one of the following abilities. Until the start of your next Command phase, each **HERETIC ASTARTES INFANTRY** unit from your army has that ability. At the start of each phase, if such a unit is visible to a friendly **HURON BLACKHEART** model, until the end of the phase, it has both of the following abilities.\n\n\n**Huron's Elite**\nEach time a model in this unit makes an attack, add 1 to the Hit roll.\n\n\n**Mobile Marauders**\nThis unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n***Designer’s Note:** If a unit is gaining eligibility to shoot and declare a charge in a turn in which it Fell Back as a result of being visible to Huron Blackheart, but after making a Fall Back move it is no longer visible to Huron Blackheart, that unit will not be eligible to shoot in your Shooting phase or to declare a charge in your Charge phase unless it is visible again at the start of the respective phase.*"
+        "Text": "In your Command phase, select one of the following abilities. Until the start of your next Command phase, each HERETIC ASTARTES INFANTRY unit from your army has that ability. At the start of each phase, if such a unit is visible to a friendly HURON BLACKHEART model, until the end of the phase, it has both of the following abilities.\n\n\n**Huron's Elite**\nEach time a model in this unit makes an attack, add 1 to the Hit roll.\n\n\n**Mobile Marauders**\nThis unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n*Designer’s Note: If a unit is gaining eligibility to shoot and declare a charge in a turn in which it Fell Back as a result of being visible to Huron Blackheart, but after making a Fall Back move it is no longer visible to Huron Blackheart, that unit will not be eligible to shoot in your Shooting phase or to declare a charge in your Charge phase unless it is visible again at the start of the respective phase.*"
       },
       "ForceDispositions": [
         "Purge the Foe",
@@ -25404,7 +25404,7 @@
         },
         {
           "Name": "Raid Leader",
-          "Description": "Each time the bearer’s unit is set up after disembarking from a **TRANSPORT** that has made a Normal move this turn, the bearer’s unit is still eligible to declare a charge.",
+          "Description": "Each time the bearer’s unit is set up after disembarking from a TRANSPORT that has made a Normal move this turn, the bearer’s unit is still eligible to declare a charge.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -25447,7 +25447,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Slaves to None",
-        "Text": "**HERETIC ASTARTES** models from your army lose the Dark Pacts ability. Ranged weapons equipped by **HERETIC ASTARTES** models from your army have the [ASSAULT] ability.\n\nWhen mustering your army, you cannot use the Cults of the Dark Gods rule.\n\n**Vendetta**\n\nAt the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Vendetta target. Each time a **HERETIC ASTARTES** model from your army (excluding **DAMNED** models) makes an attack that targets your Vendetta target, you can re‑roll the Hit roll.\n\n**Twisted Doctrine**\n\nIn your Movement phase, each time you set up or select a **HERETIC ASTARTES** unit (excluding Battle‑shocked units) from your army to move, it can choose to Default to Doctrine. If it does, it must first take a Battle‑shock test. Then, select one of the following:\n- Until the end of the turn, this unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n- Until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced."
+        "Text": "HERETIC ASTARTES models from your army lose the Dark Pacts ability. Ranged weapons equipped by HERETIC ASTARTES models from your army have the [ASSAULT] ability.\n\nWhen mustering your army, you cannot use the Cults of the Dark Gods rule.\n\n**Vendetta**\n\nAt the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Vendetta target. Each time a HERETIC ASTARTES model from your army (excluding DAMNED models) makes an attack that targets your Vendetta target, you can re‑roll the Hit roll.\n\n**Twisted Doctrine**\n\nIn your Movement phase, each time you set up or select a HERETIC ASTARTES unit (excluding Battle‑shocked units) from your army to move, it can choose to Default to Doctrine. If it does, it must first take a Battle‑shock test. Then, select one of the following:\n- Until the end of the turn, this unit is eligible to shoot and declare a charge in a turn in which it Fell Back.\n- Until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -25563,7 +25563,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Warp Portals",
-        "Text": "At the end of your opponent’s turn, you can select a number of **HERETIC ASTARTES TERMINATOR, OBLITERATORS AND MUTILATORS** units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:\n\n\nIncursion - Up to 1 unit\nStrike Force - Up to 2 units\nOnslaught - Up to 3 units\n\n\nOnce you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
+        "Text": "At the end of your opponent’s turn, you can select a number of HERETIC ASTARTES TERMINATOR, OBLITERATORS AND MUTILATORS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:\n\n\nIncursion - Up to 1 unit\nStrike Force - Up to 2 units\nOnslaught - Up to 3 units\n\n\nOnce you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
       },
       "ForceDispositions": [
         "Disruption"
@@ -25681,7 +25681,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Soul Forge Boons",
-        "Text": "**HERETIC ASTARTES VEHICLE** units from your army gain the **DAEMON** keyword.\n**HERETIC ASTARTES VEHICLE, LORD DISCORDANT** and **VASHTORR THE ARKIFANE** units from your army gain the **SOUL FORGE** keyword.\n**SOUL FORGE** units from your army have a 5+ invulnerable save."
+        "Text": "HERETIC ASTARTES VEHICLE units from your army gain the DAEMON keyword.\nHERETIC ASTARTES VEHICLE, LORD DISCORDANT and VASHTORR THE ARKIFANE units from your army gain the SOUL FORGE keyword.\nSOUL FORGE units from your army have a 5+ invulnerable save."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -25758,7 +25758,7 @@
         },
         {
           "Name": "Cybinfernal Font",
-          "Description": "Models in the bearer’s unit have the **SOUL FORGE** keyword.",
+          "Description": "Models in the bearer’s unit have the SOUL FORGE keyword.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -25840,7 +25840,7 @@
       "Enhancements": [
         {
           "Name": "Pact of Destruction",
-          "Description": "- When this unit uses its **Dark Pacts** ability, this unit can re‑roll **Leadership rolls**.\n- In your Shooting phase, when this unit has shot, if this unit used its **Dark Pacts** ability and if those attacks **destroyed** an enemy model, this unit **heals** 3 wounds.",
+          "Description": "- When this unit uses its Dark Pacts ability, this unit can re‑roll Leadership rolls.\n- In your Shooting phase, when this unit has shot, if this unit used its Dark Pacts ability and if those attacks destroyed an enemy model, this unit heals 3 wounds.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -25853,7 +25853,7 @@
         },
         {
           "Name": "Eye Of Oblivion",
-          "Description": "When this unit is **selected to shoot**, select one enemy unit within 24\" of this unit. That enemy unit has +6\" **detection range** until this unit has shot.",
+          "Description": "When this unit is selected to shoot, select one enemy unit within 24\" of this unit. That enemy unit has +6\" detection range until this unit has shot.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -25872,7 +25872,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Prey on the Weak",
-        "Text": "- Friendly **HERETIC ASTARTES INFANTRY FLY** units’ attacks that target a **battle-shocked** unit or a unit at or below **half-strength** can re‑roll **hit rolls** of 1.\n- When an enemy unit’s attacks target a friendly **HERETIC ASTARTES INFANTRY FLY** unit, if that enemy unit is **battle-shocked** or at or below **half-strength**, those attacks have ‑1 to **hit rolls**.\nThis detachment has the NIGHTMARE tag and cannot be taken with another NIGHTMARE detachment."
+        "Text": "- Friendly HERETIC ASTARTES INFANTRY FLY units’ attacks that target a battle-shocked unit or a unit at or below half-strength can re‑roll hit rolls of 1.\n- When an enemy unit’s attacks target a friendly HERETIC ASTARTES INFANTRY FLY unit, if that enemy unit is battle-shocked or at or below half-strength, those attacks have ‑1 to hit rolls.\nThis detachment has the NIGHTMARE tag and cannot be taken with another NIGHTMARE detachment."
       },
       "Tags": [
         "NIGHTMARE"
@@ -25943,7 +25943,7 @@
   "ArmyRules": [
     {
       "Title": "Dark Pacts",
-      "Text": "If your Army Faction is **HERETIC ASTARTES**, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of the Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n- [LETHAL HITS]\n- [SUSTAINED HITS 1]"
+      "Text": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of the Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n- [LETHAL HITS]\n- [SUSTAINED HITS 1]"
     }
   ]
 }
