@@ -364,7 +364,7 @@
         },
         {
           "Title": "Blistering Fusillade",
-          "Text": "If this unit has a Starting Strength of 5 or more, or if a **CHARACTER** is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+          "Text": "If this unit has a Starting Strength of 5 or more, or if a CHARACTER is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
         }
       ],
       "Infos": [],
@@ -788,7 +788,7 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 14 **DEATH GUARD INFANTRY** models. Each **TERMINATOR** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 14 DEATH GUARD INFANTRY models. Each TERMINATOR model takes up the space of 2 models."
         },
         {
           "Title": "Damaged: 1-5 wounds remaining",
@@ -1144,7 +1144,7 @@
       "UnitAbilities": [
         {
           "Title": "Metalophagic Infection",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy **MONSTER** or **VEHICLE** unit hit by one or more of those attacks. Roll one D6, adding 1 to the result if that unit is Afflicted; on a 5+, that unit suffers D3 mortal wounds."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Roll one D6, adding 1 to the result if that unit is Afflicted; on a 5+, that unit suffers D3 mortal wounds."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -1531,7 +1531,7 @@
       "UnitAbilities": [
         {
           "Title": "Hail of Corrosive Disease",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks. Until the end of the phase, each time a friending **DEATH GUARD** unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the end of the phase, each time a friending DEATH GUARD unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -1910,11 +1910,11 @@
       "UnitAbilities": [
         {
           "Title": "Fire Support",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this **TRANSPORT** this turn makes an attack that targets that unit, you can re-roll the Wound roll."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that unit, you can re-roll the Wound roll."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **DEATH GUARD INFANTRY MODELS. IT CANNOT TRANSPORT TERMINATOR** models."
+          "Text": "This model has a transport capacity of 12 DEATH GUARD INFANTRY MODELS. IT CANNOT TRANSPORT TERMINATOR models."
         }
       ],
       "Infos": [],
@@ -2302,15 +2302,15 @@
         },
         {
           "Title": "Death Guard Defenders",
-          "Text": "While this model is within 3\" of one or more friendly **DEATH GUARD INFANTRY** units, this model has the Lone Operative ability."
+          "Text": "While this model is within 3\" of one or more friendly DEATH GUARD INFANTRY units, this model has the Lone Operative ability."
         },
         {
           "Title": "Fevered Strategist",
-          "Text": "Once per Battle Round, one model from your army with this ability can use it when a friendly **DEATH GUARD** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP."
+          "Text": "Once per Battle Round, one model from your army with this ability can use it when a friendly DEATH GUARD unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP."
         },
         {
           "Title": "Miasma of Pestilence (Aura)",
-          "Text": "While a friendly **DEATH GUARD** unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
+          "Text": "While a friendly DEATH GUARD unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
         }
       ],
       "Infos": [],
@@ -2526,7 +2526,7 @@
         },
         {
           "Title": "Enfeebling Miasma (Aura)",
-          "Text": "While an enemy unit (excluding *MONSTERS** and **VEHICLES**) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+          "Text": "While an enemy unit (excluding *MONSTERS and VEHICLES) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those Desperate Escape tests."
         }
       ],
       "Infos": [],
@@ -2779,7 +2779,7 @@
         },
         {
           "Title": "Silent Bodyguard",
-          "Text": "While a **CHARACTER** model is leading this unit, that **CHARACTER** model has the Feel No Pain 4+ ability."
+          "Text": "While a CHARACTER model is leading this unit, that CHARACTER model has the Feel No Pain 4+ ability."
         },
         {
           "Title": "Death Approaches",
@@ -3106,7 +3106,7 @@
         },
         {
           "Title": "Scuttling Walker",
-          "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **TITANIC** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+          "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
         },
         {
           "Title": "Barrage of Filth",
@@ -4840,7 +4840,7 @@
         },
         {
           "Title": "Blessed Icon of Disease",
-          "Text": "Once per battle, at the start of any phase, you can select one friendly **DEATH GUARD** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+          "Text": "Once per battle, at the start of any phase, you can select one friendly DEATH GUARD unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
         }
       ],
       "LeaderInfo": {
@@ -5021,7 +5021,7 @@
         },
         {
           "Title": "Vector of Disease",
-          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[Sustained Hits 1]** and **[Lance]** abilties."
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [Sustained Hits 1] and [Lance] abilties."
         },
         {
           "Title": "Unholy Resilience",
@@ -5433,7 +5433,7 @@
         },
         {
           "Title": "Blight Bombardment",
-          "Text": "At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this model. Until the end of the phase, each time a friendly **DEATH GUARD** unit makes a ranged attack that targets that unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead)."
+          "Text": "At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this model. Until the end of the phase, each time a friendly DEATH GUARD unit makes a ranged attack that targets that unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead)."
         }
       ],
       "LeaderInfo": {
@@ -5622,7 +5622,7 @@
         },
         {
           "Title": "Pestilent Fallout (Psychic)",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy **INFANTRY** unit hit by one or more of those attacks made with its Plague Wind. Until the end of your opponent's next turn, that unit is enfeebled. While a unit is enfeebled, subtract 2\" from the Move characteristic of models in that unit."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks made with its Plague Wind. Until the end of your opponent's next turn, that unit is enfeebled. While a unit is enfeebled, subtract 2\" from the Move characteristic of models in that unit."
         }
       ],
       "LeaderInfo": {
@@ -5870,11 +5870,11 @@
         },
         {
           "Title": "Deployment",
-          "Text": "Both parts of this **FORTIFICATION** must be deployed within 1\" of each other. Both parts are then treated as a single model for all rules purposes."
+          "Text": "Both parts of this FORTIFICATION must be deployed within 1\" of each other. Both parts are then treated as a single model for all rules purposes."
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         }
       ],
       "Infos": [],
@@ -6290,7 +6290,7 @@
         },
         {
           "Title": "Tank Hunters",
-          "Text": "In your Shooting phase, each time a model in this unit makes a attack that targets a **MONSTER** or **VEHICLE** unit, add 1 to the Hit roll and add 1 to the Wound roll."
+          "Text": "In your Shooting phase, each time a model in this unit makes a attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll."
         }
       ],
       "Infos": [],
@@ -6570,7 +6570,7 @@
         },
         {
           "Title": "Tocsin of Misery (Aura)",
-          "Text": "In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1 from that test if it is a **PSYKER** unit."
+          "Text": "In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1 from that test if it is a PSYKER unit."
         }
       ],
       "LeaderInfo": {
@@ -8035,7 +8035,7 @@
       "UnitAbilities": [
         {
           "Title": "Curse of the Walking Pox",
-          "Text": "Each time a **POXWALKER** model in this unit makes an attack that destroys an enemy model (excluding **MONSTER** and **VEHICLE** models), after this unit has resolved its attacks, you can return one destroyed **POXWALKER** model to this unit.\n\nWhile **TYPHUS** is leading this unit, enemy models destroyed as a result of **TYPHUS**’ Eater Plague ability count as enemy models destroyed by an attack made by a **POXWALKER** model in this unit for the purposes of this ability."
+          "Text": "Each time a POXWALKER model in this unit makes an attack that destroys an enemy model (excluding MONSTER and VEHICLE models), after this unit has resolved its attacks, you can return one destroyed POXWALKER model to this unit.\n\nWhile TYPHUS is leading this unit, enemy models destroyed as a result of TYPHUS’ Eater Plague ability count as enemy models destroyed by an attack made by a POXWALKER model in this unit for the purposes of this ability."
         }
       ],
       "Infos": [],
@@ -8391,7 +8391,7 @@
         },
         {
           "Title": "Eater Plague (Psychic)",
-          "Text": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this **PSYKER** (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this **PSYKER** and roll one D6: on a 1, this **PSYKER**'s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+          "Text": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this PSYKER (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this PSYKER and roll one D6: on a 1, this PSYKER's unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
         }
       ],
       "LeaderInfo": {
@@ -8548,7 +8548,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Verminous Haze",
-        "Text": "In the **Declare Battle Formations** step, you can select up to two friendly **PLAGUE MARINES** units. Those units have **Infiltrators**."
+        "Text": "In the Declare Battle Formations step, you can select up to two friendly PLAGUE MARINES units. Those units have Infiltrators."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -8740,7 +8740,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Numberless Horde",
-        "Text": "In your Command phase in each of the following battle rounds, depending on your chosen battle size, add a new **POXWALKERS** unit with a Starting Strength of 10 to your army, in Strategic Reserves.\n\nIncursion - Battle Rounds 2,3\nStrike Force - Battle Rounds 2,3,4\nOnslaught - Battle Round 2,3,4,5\n\n**POXWALKERS UNIT FROM YOUR ARMY GAIN THE BATTLELINE** keyword."
+        "Text": "In your Command phase in each of the following battle rounds, depending on your chosen battle size, add a new POXWALKERS unit with a Starting Strength of 10 to your army, in Strategic Reserves.\n\nIncursion - Battle Rounds 2,3\nStrike Force - Battle Rounds 2,3,4\nOnslaught - Battle Round 2,3,4,5\n\nPOXWALKERS UNIT FROM YOUR ARMY GAIN THE BATTLELINE keyword."
       },
       "ForceDispositions": [
         "Disruption"
@@ -8804,7 +8804,7 @@
       "Enhancements": [
         {
           "Name": "Lord of the Walking Pox",
-          "Description": "If the bearer is leading a **POXWALKERS** unit, and is in Strategic Reserves, for the purposes of setting up that unit on the battlefield, treat the current battle round as the third battle round.",
+          "Description": "If the bearer is leading a POXWALKERS unit, and is in Strategic Reserves, for the purposes of setting up that unit on the battlefield, treat the current battle round as the third battle round.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8817,7 +8817,7 @@
         },
         {
           "Name": "Talisman of Burgeoning",
-          "Description": "While the bearer is leading a **POXWALKERS UNIT, ADD 1 TO THE TOUGHNESS CHARACTERISTIC OF POXWALKERS** models in that unit.",
+          "Description": "While the bearer is leading a POXWALKERS UNIT, ADD 1 TO THE TOUGHNESS CHARACTERISTIC OF POXWALKERS models in that unit.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8830,7 +8830,7 @@
         },
         {
           "Name": "Witherbone Pipes",
-          "Description": "While the bearer is leading a **POXWALKERS** unit, add 1 to the Objective Control characteristic of models in that unit, and each time that unit takes a Battle-shock or Leadership test, add 1 to that test.",
+          "Description": "While the bearer is leading a POXWALKERS unit, add 1 to the Objective Control characteristic of models in that unit, and each time that unit takes a Battle-shock or Leadership test, add 1 to that test.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8843,7 +8843,7 @@
         },
         {
           "Name": "Sorrowsyphon",
-          "Description": "While the bearer is leading a **POXWALKERS** unit, add 1 to the Damage characteristic of the bearer's Plague Wind weapon. Each time the bearer makes one or more attacks with a Plague Wind weapon, after the bearer's unit has resolved its attacks, D3 Bodyguard models from the bearer's unit are destroyed.",
+          "Description": "While the bearer is leading a POXWALKERS unit, add 1 to the Damage characteristic of the bearer's Plague Wind weapon. Each time the bearer makes one or more attacks with a Plague Wind weapon, after the bearer's unit has resolved its attacks, D3 Bodyguard models from the bearer's unit are destroyed.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9087,7 +9087,7 @@
         },
         {
           "Name": "Tendrilous Emissions",
-          "Description": "While the bearer is within 3\" of one or more friendly **DEATH GUARD VEHICLE UNITS, THE BEARER HAS THE LONE OPERATIVE ABILITY, AND EACH TIME ONE OF THOSE VEHICLE** units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1.",
+          "Description": "While the bearer is within 3\" of one or more friendly DEATH GUARD VEHICLE UNITS, THE BEARER HAS THE LONE OPERATIVE ABILITY, AND EACH TIME ONE OF THOSE VEHICLE units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9170,7 +9170,7 @@
       "Enhancements": [
         {
           "Name": "Final Ingredient",
-          "Description": "Once per battle, after the bearer's unit has fought, if one or more **CHARACTER** models were destroyed by those attacks, select one Plague. Until the end of the battle, if an enemy unit is Afflicted, that unit has the effect of the selected Plague in addition to any other.",
+          "Description": "Once per battle, after the bearer's unit has fought, if one or more CHARACTER models were destroyed by those attacks, select one Plague. Until the end of the battle, if an enemy unit is Afflicted, that unit has the effect of the selected Plague in addition to any other.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9228,7 +9228,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Reverberant Rancidity",
-        "Text": "While a **PLAGUE LEGIONS** unit from your army is within 7\" of one or more **DEATH GUARD** units from your army, that **PLAGUE LEGIONS** unit has the Nurgle's Gift ability.\n\nWhile a **DEATH GUARD** unit from your army is within 7\" of one or more **PLAGUE LEGIONS** units from your army, add 3\" to that **DEATH GUARD** unit's Contagion Range."
+        "Text": "While a PLAGUE LEGIONS unit from your army is within 7\" of one or more DEATH GUARD units from your army, that PLAGUE LEGIONS unit has the Nurgle's Gift ability.\n\nWhile a DEATH GUARD unit from your army is within 7\" of one or more PLAGUE LEGIONS units from your army, add 3\" to that DEATH GUARD unit's Contagion Range."
       },
       "ForceDispositions": [
         "Disruption"
@@ -9292,7 +9292,7 @@
       "Enhancements": [
         {
           "Name": "Beckoning Blight",
-          "Description": "Each time a **PLAGUE LEGIONS** unit from your army is set up on the battle field using the Deep Strike ability, if it is set up wholly within 12\" of the bearer, it can be set up anywhere that is more than 6\" horizontally away from any enemy models, instead of more than 8\".",
+          "Description": "Each time a PLAGUE LEGIONS unit from your army is set up on the battle field using the Deep Strike ability, if it is set up wholly within 12\" of the bearer, it can be set up anywhere that is more than 6\" horizontally away from any enemy models, instead of more than 8\".",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9331,7 +9331,7 @@
         },
         {
           "Name": "Tome of Bounteous Blessings",
-          "Description": "Each time a **PLAGUE LEGIONS** unit within 12\" of the bearer takes a Battle-shock test, add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a **BATTLELINE** unit and that test is passed, up to D3 destroyed models can be returned to that unit instead).",
+          "Description": "Each time a PLAGUE LEGIONS unit within 12\" of the bearer takes a Battle-shock test, add 1 to that test and, if that test is passed, one model in that unit regains up to D3 lost wounds (if that unit is a BATTLELINE unit and that test is passed, up to D3 destroyed models can be returned to that unit instead).",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9423,7 +9423,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Hypervirulent Strains",
-        "Text": "Friendly **DEATH GUARD CHARACTER** units have +3\" to their **Contagion Range** (to a maximum of 12\")."
+        "Text": "Friendly DEATH GUARD CHARACTER units have +3\" to their Contagion Range (to a maximum of 12\")."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -9460,7 +9460,7 @@
       "Enhancements": [
         {
           "Name": "Host of the Hybridised Pox",
-          "Description": "(Once per battle, per army) In your Command phase, you can use this ability. If you do, select one of the **Plagues** listed in **Nurgle’s Gift** (see Codex: Death Guard). Enemy units within **Contagion Range** of this unit also have the effect of that **Plague** in addition to your army’s chosen **Plague** until the end of the battle.",
+          "Description": "(Once per battle, per army) In your Command phase, you can use this ability. If you do, select one of the Plagues listed in Nurgle’s Gift (see Codex: Death Guard). Enemy units within Contagion Range of this unit also have the effect of that Plague in addition to your army’s chosen Plague until the end of the battle.",
           "Cost": 40,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9473,7 +9473,7 @@
         },
         {
           "Name": "Rejuvenating Swarm",
-          "Description": "Attacks that target this unit with a **S** greater than this unit’s **T** have ‑1 to **wound rolls**.",
+          "Description": "Attacks that target this unit with a S greater than this unit’s T have ‑1 to wound rolls.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9493,7 +9493,7 @@
   "ArmyRules": [
     {
       "Title": "Nurgle's Gift (Aura)",
-      "Text": "If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of one or more **DEATH GUARD** units from your army, it is Afflicted.\n\nCONTAGION RANGE\n1st Battle Round: Contagion Range = 3\"\n2nd Battle Round: Contagion Range = 6\"\n3rd Battle Round Onwards: Contagion Range = 9\"\n\nContagion Range cannot be greater than 12\" after modifiers.\n\n**AFFLICTED**\n\nDuring the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.\n\n**Skullsquirm Blight**\n- Each time a model in this unit makes a ranged attack, enemy units have the benefit of cover against that attack.\n- Each time a model in this unit makes a melee attack, subtract 1 from the Hit roll.\n\n**Rattlejoint Ague**\nWorsen the Save characteristic of models in this unit by 1.\n\n**Scabrous Soulrot**\nWorsen the Move, Leadership and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model's Objective Control characteristic to a minimum of 1)."
+      "Text": "If your Army Faction is DEATH GUARD, while an enemy unit is within Contagion Range of one or more DEATH GUARD units from your army, it is Afflicted.\n\nCONTAGION RANGE\n1st Battle Round: Contagion Range = 3\"\n2nd Battle Round: Contagion Range = 6\"\n3rd Battle Round Onwards: Contagion Range = 9\"\n\nContagion Range cannot be greater than 12\" after modifiers.\n\n**AFFLICTED**\n\nDuring the Declare Battle Formations step, select one of the Plagues below. Until the end of the battle, while an enemy unit is Afflicted, subtract 1 from the Toughness characteristic of models in that unit, and that unit has the effect of your chosen Plague.\n\n**Skullsquirm Blight**\n- Each time a model in this unit makes a ranged attack, enemy units have the benefit of cover against that attack.\n- Each time a model in this unit makes a melee attack, subtract 1 from the Hit roll.\n\n**Rattlejoint Ague**\nWorsen the Save characteristic of models in this unit by 1.\n\n**Scabrous Soulrot**\nWorsen the Move, Leadership and Objective Control characteristics of models in this unit by 1 (this rule can only worsen a model's Objective Control characteristic to a minimum of 1)."
     }
   ]
 }
