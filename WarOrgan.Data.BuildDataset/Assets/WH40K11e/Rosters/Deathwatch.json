@@ -6090,7 +6090,62 @@
         "Purge the Foe",
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Armour of Contempt",
+          "Category": "Black Spear Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly <k>ADEPTUS ASTARTES</k> unit.",
+          "Target": "That <k>ADEPTUS ASTARTES</k> unit.",
+          "Effect": "Attacks that target your unit have -1 <b>AP</b> until that enemy unit has attacked."
+        },
+        {
+          "Name": "Adaptive Tactics",
+          "Category": "Black Spear Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>ADEPTUS ASTARTES</k> unit.",
+          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+        },
+        {
+          "Name": "Hellfire Rounds",
+          "Category": "Black Spear Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase when a <k>KILL TEAM</k> unit is selected to shoot.",
+          "Target": "That <k>KILL TEAM</k> unit.",
+          "Effect": "Your unit’s ranged attacks (excluding <k>[DEVASTATING WOUNDS]</k> attacks) have <k>[ANTI-</k><b>non-</b><k>VEHICLE 4+]</k>."
+        },
+        {
+          "Name": "Kraken Rounds",
+          "Category": "Black Spear Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase when a <k>KILL TEAM</k> unit is selected to shoot.",
+          "Target": "That <k>KILL TEAM</k> unit.",
+          "Effect": "Your unit’s ranged attacks: <ul><li>Have +6” <b>R</b>.</li><li>Have +1 <b>S</b>.</li></ul>"
+        },
+        {
+          "Name": "Dragonfire Rounds",
+          "Category": "Black Spear Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase when a <k>KILL TEAM</k> unit is selected to shoot.",
+          "Target": "That <k>KILL TEAM</k> unit.",
+          "Effect": "Your unit’s ranged attacks: <ul><li>Can re-roll <b>wound rolls</b> of 1.</li><li>Have <k>[IGNORES COVER]</k>.</li></ul>"
+        },
+        {
+          "Name": "Site-To-Site Teleportation",
+          "Category": "Black Spear Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One friendly <b>unengaged</b> <k>ADEPTUS ASTARTES INFANTRY</k> unit.",
+          "Effect": "<ul><li>Place your unit in <b>strategic reserves</b>.</li>\n<li>If your unit has <k>Kill Team</k>, your unit has <k>Deep Strike</k> until the end of your next Movement phase.</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Thief of Secrets",
