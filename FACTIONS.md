@@ -17,11 +17,16 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 
 | Faction | Branch | Scope | 1 BSData | 2 Wahapedia | 3 Codex 10e | 4 Faction pack | Datasheets | Detachments | Enhancements | Stratagems | Army rule |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| Adepta Sororitas | `faction/adepta-sororitas` | Army rules | - | - | - | - | - | - | - | - | done |
 | Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
 | Tyranids | `faction/tyranids` | GSC allies only | done (allies) | done (allies) | - | partial (1.3) | 14 Vanguard Invader | - | - | - | - |
 | Astra Militarum | `faction/astra-militarum` | GSC allies only | done (allies) | done (allies) | - | - | 51/51 eligible | - | - | - | - |
 
 Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.json` and are not counted per faction.
+
+## Adepta Sororitas
+
+- 2026-11-25: audited all faction-wide army rules against the November BSData dump and GW data. Acts of Faith, the detachment army rules and the Keywords rule match; no source-supported army-rule correction was required.
 
 ## Genestealer Cults
 
