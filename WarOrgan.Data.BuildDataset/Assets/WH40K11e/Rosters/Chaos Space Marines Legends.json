@@ -4536,6 +4536,14 @@
           "Text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CHOSEN",
+          "LEGIONARIES"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Infantry",

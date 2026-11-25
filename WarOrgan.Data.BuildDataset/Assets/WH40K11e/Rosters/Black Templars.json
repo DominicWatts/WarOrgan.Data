@@ -69,6 +69,20 @@
           "Text": "In the Fight phase, when this unit is selected to fight, you can use this ability. If you do, make a leadership roll for this unit:\n- This unit's melee attacks can re-roll hit rolls of 1.\n- Or: If that roll succeeds:\nThis unit's melee attacks:\n- Can re-roll hit rolls of 1.\n- Can re-roll wound rolls of 1."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "CRUSADER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -689,6 +703,14 @@
           "Text": "This model can be attached to the following units:\nCRUSADER SQUAD, SWORD BRETHREN SQUAD"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CRUSADER SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -1545,7 +1567,13 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "CRUSADER SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1770,7 +1798,13 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "CRUSADER SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -2014,7 +2048,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "CRUSADER SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -3033,7 +3070,14 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "CRUSADER SQUAD",
+          "INTERCESSOR SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -3729,7 +3773,15 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "CRUSADER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],

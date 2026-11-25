@@ -8194,7 +8194,34 @@
           "Effect": "Your unit has <k>Mobile</k>."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Talons of Butchery",
+          "Description": "<k>Maulerfiend</k> unit only. This unit’s <b>Maulerfiend Fists</b> have <k>[Cleave 2]</k>.",
+          "Cost": 20,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "MAULERFIEND"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Murder-forged Entity",
+          "Description": "<k>World Eaters Vehicle</k> unit only. This unit has <k>Daemon</k>.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Vehicle"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {

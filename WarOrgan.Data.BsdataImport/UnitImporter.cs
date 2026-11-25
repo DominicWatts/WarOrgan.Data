@@ -318,9 +318,12 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
 
             if (title.Equals("Leader", StringComparison.OrdinalIgnoreCase))
             {
-                AddLeader(unit, text, section, knownUnitIds);
+                AddLeader(unit, text, section, knownUnitIds, support: false);
                 continue;
             }
+            // Support lists attach targets the same way; keep its text as an ability as well
+            if (title.Equals("Support", StringComparison.OrdinalIgnoreCase) && unit.LeaderInfo == null)
+                AddLeader(unit, text, section, knownUnitIds, support: true);
             if (title.Equals("Unit Composition", StringComparison.OrdinalIgnoreCase))
             {
                 unit.Infos.Add(new UnitInfoSection { Title = "Unit composition", Text = text.Trim('*').Trim() });
@@ -343,7 +346,7 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
             report.Add(section, "BSData marks this as a Leader or Support character but lists no units it can attach to; add LeaderInfo from Wahapedia.");
     }
 
-    private void AddLeader(Unit unit, string text, string section, IReadOnlySet<string> knownUnitIds)
+    private void AddLeader(Unit unit, string text, string section, IReadOnlySet<string> knownUnitIds, bool support)
     {
         var info = new LeaderInfo();
         var listed = Regex.Matches(text, @"^\s*[-■•]\s*(.+?)\s*\**\s*$", RegexOptions.Multiline)
@@ -353,10 +356,13 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
         // Some catalogues put a short Leader list on the same line as the introductory sentence instead of
         // using bullets. Treat both forms identically so ordinary leaders do not require manual repair.
         var header = Regex.Match(text,
-            @"^[ \t]*This (?:model|unit) can be attached to the following units?:[ \t]*(?<targets>[^\r\n]*)",
+            @"^[ \t]*This (?:model|unit) (?:can|must) be attached to the following units?:[ \t]*(?<targets>[^\r\n]*)(?:\s*^(?<next>[^-■•\s][^\r\n]*))?",
             RegexOptions.IgnoreCase | RegexOptions.Multiline);
-        if (header.Success && header.Groups["targets"].Value.Trim().Length > 0)
-            listed.AddRange(header.Groups["targets"].Value.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries));
+        // The list may also follow on the next non-blank line when it is not bulleted
+        var targets = header.Groups["targets"].Value.Trim().Length > 0 ? header.Groups["targets"]
+            : listed.Count == 0 ? header.Groups["next"] : null;
+        if (header.Success && targets is { Success: true })
+            listed.AddRange(targets.Value.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries));
 
         foreach (var listedName in listed)
         {
@@ -372,15 +378,20 @@ public class UnitImporter(BsData data, ImportSettings settings, ImportReport rep
 
         var extra = Regex.Replace(text, @"^\s*[-■•].*$", string.Empty, RegexOptions.Multiline);
         extra = Regex.Replace(extra,
-            @"^\s*This (?:model|unit) can be attached to the following units?:.*$",
+            @"^\s*This (?:model|unit) (?:can|must) be attached to the following units?:.*$",
             string.Empty,
             RegexOptions.IgnoreCase | RegexOptions.Multiline).Trim();
+        if (header.Groups["next"].Success && targets == header.Groups["next"])
+            extra = extra.Replace(header.Groups["next"].Value, string.Empty).Trim();
         if (extra.Length > 0)
             report.Add(section, $"Leader has extra attachment rules to model by hand: \"{extra}\"");
 
         unit.LeaderInfo = info;
-        if (!unit.CoreAbilities.Contains("Leader", StringComparer.OrdinalIgnoreCase))
-            unit.CoreAbilities.Add("Leader");
+        var coreAbility = support ? LeaderInfo.SupportLeaderId : LeaderInfo.DefaultLeaderId;
+        if (support)
+            info.LeaderType = LeaderInfo.SupportLeaderId;
+        if (!unit.CoreAbilities.Contains(coreAbility, StringComparer.OrdinalIgnoreCase))
+            unit.CoreAbilities.Add(coreAbility);
     }
 
     /// <summary>

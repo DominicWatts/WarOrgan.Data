@@ -40,7 +40,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -4050,7 +4053,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -4838,7 +4844,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -7501,7 +7510,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -8168,7 +8180,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -8567,7 +8582,34 @@
           "Effect": "Select one enemy unit <b>engaged</b> with your unit. That enemy unit makes a <b>battle‑shock roll</b>, with -1 to that <b>battle‑shock roll</b>."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Insectile Murmuration",
+          "Description": "<k>Plague Marines</k> unit only. When this unit’s attacks target a unit within <b>Contagion Range</b> of a friendly unit, those attacks can re‑roll <b>wound rolls</b> of 1.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "PLAGUE MARINES"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Plagueveil",
+          "Description": "<k>Plague Marines</k> unit only. This unit has -3\" <b>detection range</b>.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "PLAGUE MARINES"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
@@ -9342,7 +9384,38 @@
           "Effect": "Your unit’s attacks can re‑roll <b>wound rolls</b> of 1."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Parasitic Woe-reaper",
+          "Description": "Contagion Engine unit only. After this unit fights, one model in it heals D3 wounds.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "HELBRUTE",
+            "MYPHITIC BLIGHT-HAULER",
+            "FOETID BLOAT-DRONE",
+            "FOETID BLOAT-DRONE WITH HEAVY BLIGHT LAUNCHER"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Lancet of the Worldsore",
+          "Description": "Helbrute or Myphitic Blight-hauler unit only. This unit has Mobile.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "HELBRUTE",
+            "MYPHITIC BLIGHT-HAULER"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {

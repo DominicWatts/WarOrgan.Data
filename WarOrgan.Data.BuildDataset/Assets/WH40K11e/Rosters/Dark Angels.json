@@ -44,7 +44,15 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INNER CIRCLE COMPANIONS",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -275,7 +283,16 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INNER CIRCLE COMPANIONS",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -466,7 +483,11 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATHWING KNIGHTS",
+          "DEATHWING TERMINATOR SQUAD",
+          "TERMINATOR SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1575,7 +1596,15 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INNER CIRCLE COMPANIONS",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -2385,7 +2414,15 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "INFERNUS SQUAD",
+          "INNER CIRCLE COMPANIONS",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -3633,6 +3670,14 @@
           "Text": "While this unit contains a Ravenwing Champion:\n\n\n- This unit has +1 to advance rolls and charge rolls.\n- When you target this unit with the Heroic Intervention stratagem, that use is -1CP."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "OUTRIDER SQUAD",
+          "RAVENWING BLACK KNIGHTS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Mounted",
@@ -3643,7 +3688,8 @@
         "Character"
       ],
       "CoreAbilities": [
-        "Invulnerable Save"
+        "Invulnerable Save",
+        "Support"
       ],
       "FactionKeywords": [
         "Dark Angels",
@@ -4456,7 +4502,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "OUTRIDER SQUAD",
+          "RAVENWING BLACK KNIGHTS"
+        ],
         "Features": 0
       },
       "Infos": [],

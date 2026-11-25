@@ -12295,6 +12295,13 @@
           "Text": "This model can be attached to the following unit:\n- DRAGON KNIGHTS"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "DRAGON KNIGHTS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -14831,6 +14838,14 @@
           "Text": "Each time this model is selected to shoot, until the end of the phase, add 1 to the Attacks and Strength characteristics of its Destructor weapon for each other friendly AELDARI PSYKER  model within 6\" of this model (to a maximum of +2)."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "GUARDIAN DEFENDERS",
+          "STORM GUARDIANS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -15134,6 +15149,14 @@
           "Text": "This model can be attached to the following units:\n- GUARDIAN DEFENDERS\n- STORM GUARDIANS"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "GUARDIAN DEFENDERS",
+          "STORM GUARDIANS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Warlock Conclave",
@@ -15444,6 +15467,13 @@
           "Text": "Weapons equipped by models in this unit have the [IGNORES COVER] ability."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "WINDRIDERS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Psyker",

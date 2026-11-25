@@ -5676,7 +5676,11 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATHWATCH VETERANS",
+          "DECIMUS KILL TEAM",
+          "FORTIS KILL TEAM"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -5869,7 +5873,11 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATHWATCH VETERANS",
+          "DECIMUS KILL TEAM",
+          "FORTIS KILL TEAM"
+        ],
         "Features": 0
       },
       "Infos": [],

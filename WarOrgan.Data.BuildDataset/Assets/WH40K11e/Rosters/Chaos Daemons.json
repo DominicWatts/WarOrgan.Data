@@ -10806,7 +10806,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUEBEARERS"
+        ],
         "Features": 0
       },
       "Infos": [],

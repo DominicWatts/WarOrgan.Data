@@ -399,7 +399,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "SCOUT SQUAD",
+          "SCOUT SNIPER SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],

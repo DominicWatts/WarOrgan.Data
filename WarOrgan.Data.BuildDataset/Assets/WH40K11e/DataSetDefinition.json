@@ -360,7 +360,46 @@
       "FactionKeyword": "Legiones Daemonica",
       "Category": "Chaos",
       "MainColor": "#6B1F4A",
-      "DarkColor": "#B05F8A"
+      "DarkColor": "#B05F8A",
+      "Allies": [
+        {
+          "FactionKeyword": "Heretic Astartes",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Shadow Legion"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "ACCURSED CULTISTS",
+                "CHAOS LORD",
+                "CHAOS LORD IN TERMINATOR ARMOUR",
+                "CHAOS LORD WITH JUMP PACK",
+                "CHAOS TERMINATOR SQUAD",
+                "CHOSEN",
+                "CULTIST FIREBRAND",
+                "CULTIST MOB",
+                "DARK APOSTLE",
+                "DARK COMMUNE",
+                "FELLGOR BEASTMEN",
+                "HAVOCS",
+                "LEGIONARIES",
+                "MASTER OF POSSESSION",
+                "POSSESSED",
+                "RAPTORS",
+                "SORCERER",
+                "SORCERER IN TERMINATOR ARMOUR",
+                "TRAITOR ENFORCER",
+                "TRAITOR GUARDSMEN SQUAD",
+                "WARP TALONS"
+              ],
+              "AddedKeywords": [
+                "Allied Units"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Chaos Knights",
@@ -374,28 +413,126 @@
       "FactionKeyword": "Death Guard",
       "Category": "Chaos",
       "MainColor": "#5E6B2A",
-      "DarkColor": "#A0AE66"
+      "DarkColor": "#A0AE66",
+      "Allies": [
+        {
+          "FactionKeyword": "Legiones Daemonica",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Tallyband Summoners"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "BEASTS OF NURGLE",
+                "GREAT UNCLEAN ONE",
+                "NURGLINGS",
+                "PLAGUE DRONES",
+                "PLAGUEBEARERS",
+                "ROTIGUS"
+              ],
+              "AddedKeywords": [
+                "Allied Units",
+                "Plague Legions"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Emperor's Children",
       "FactionKeyword": "Emperor's Children",
       "Category": "Chaos",
       "MainColor": "#6A2C7A",
-      "DarkColor": "#B06CC0"
+      "DarkColor": "#B06CC0",
+      "Allies": [
+        {
+          "FactionKeyword": "Legiones Daemonica",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Carnival of Excess"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "DAEMONETTES",
+                "FIENDS",
+                "KEEPER OF SECRETS",
+                "SEEKERS",
+                "SHALAXI HELBANE"
+              ],
+              "AddedKeywords": [
+                "Allied Units",
+                "Legions of Excess"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Thousand Sons",
       "FactionKeyword": "Thousand Sons",
       "Category": "Chaos",
       "MainColor": "#1F5A8A",
-      "DarkColor": "#D4AF37"
+      "DarkColor": "#D4AF37",
+      "Allies": [
+        {
+          "FactionKeyword": "Legiones Daemonica",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Changehost of Deceit"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "BLUE HORRORS",
+                "FLAMERS",
+                "KAIROS FATEWEAVER",
+                "LORD OF CHANGE",
+                "PINK HORRORS",
+                "SCREAMERS"
+              ],
+              "AddedKeywords": [
+                "Allied Units",
+                "Scintillating Legions"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "World Eaters",
       "FactionKeyword": "World Eaters",
       "Category": "Chaos",
       "MainColor": "#8A1E1E",
-      "DarkColor": "#C8C8C8"
+      "DarkColor": "#C8C8C8",
+      "Allies": [
+        {
+          "FactionKeyword": "Legiones Daemonica",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Khorne Daemonkin"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "BLOODCRUSHERS",
+                "BLOODLETTERS",
+                "BLOODTHIRSTER",
+                "FLESH HOUNDS",
+                "SKARBRAND"
+              ],
+              "AddedKeywords": [
+                "Allied Units",
+                "Blood Legions"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Aeldari",

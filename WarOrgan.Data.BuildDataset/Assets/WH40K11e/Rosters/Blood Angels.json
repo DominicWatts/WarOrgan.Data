@@ -42,7 +42,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATH COMPANY MARINES WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -621,7 +623,13 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "COMPANY HEROES",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1415,7 +1423,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATH COMPANY MARINES",
+          "DEATH COMPANY MARINES WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1764,7 +1775,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATH COMPANY MARINES WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -4147,6 +4160,20 @@
           "Text": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, DESOLATION SQUAD, HELLBLASTER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "DESOLATION SQUAD",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",

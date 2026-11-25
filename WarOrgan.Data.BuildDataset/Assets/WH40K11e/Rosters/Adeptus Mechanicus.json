@@ -1198,6 +1198,13 @@
           "Text": "In your Shooting phase, when this unit is selected to shoot, if this unit is not battle-shocked, you can use this ability. If you do, roll one D6:\n- On a 2+, select one enemy VEHICLE unit within 12\" of this unit. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll. A unit cannot be selected for this ability more than once per turn.\n- Or: On 2+, those ranged attacks do not prevent this unit from being hidden."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "KASTELAN ROBOTS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Cybernetica Datasmith",
@@ -6231,6 +6238,18 @@
           "Text": "Once per battle, at the start of any phase, you can select one friendly SKITARII unit that is Battle-shocked and within 6\" of this model. That unit is no longer Battle-shocked."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "HASTARII EXTERMINATORS",
+          "HASTARII FUSILIERS",
+          "SECUTARII HOPLITES",
+          "SECUTARII PELTASTS",
+          "SKITARII RANGERS",
+          "SKITARII VANGUARD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Marshal",
@@ -9466,6 +9485,23 @@
           "Text": "In your Shooting phase, when this unit is selected to shoot, if this unit is not battle-shocked, you can use this ability. If you do, roll one D6:\n- On a 2+, select one enemy VEHICLE unit within 12\" of this unit. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll. A unit cannot be selected for this ability more than once per turn.\n- Or: On 2+, those ranged attacks do not prevent this unit from being hidden."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CORPUSCARII ELECTRO-PRIESTS",
+          "FULGURITE ELECTRO-PRIESTS",
+          "HASTARII EXTERMINATORS",
+          "HASTARII FUSILIERS",
+          "KATAPHRON BREACHERS",
+          "KATAPHRON DESTROYERS",
+          "SECUTARII HOPLITES",
+          "SECUTARII PELTASTS",
+          "SERVITOR BATTLECLADE",
+          "SKITARII RANGERS",
+          "SKITARII VANGUARD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Technoarcheologist",
