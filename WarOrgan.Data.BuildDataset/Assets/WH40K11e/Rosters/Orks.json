@@ -16815,7 +16815,35 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Armed To Da Teef",
+          "Category": "Bully Boyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase, when a friendly <k>Meganobz/Nobz</k> unit is <b>selected to attack</b>.",
+          "Target": "That <k>Meganobz/Nobz</k> unit.",
+          "Effect": "Your unit’s attacks can:\r<ul><li>Re-roll <b>hit rolls</b> of 1.</li>\r<li>If your unit is <b>riled up</b>, re-roll <b>hit rolls</b>.</li></ul>"
+        },
+        {
+          "Name": "Hulking Brutes",
+          "Category": "Bully Boyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>Meganobz/Nobz</k> unit.",
+          "Target": "That <k>Meganobz/Nobz</k> unit.",
+          "Effect": "Ranged attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have -1 to <b>wound rolls</b>.\n\nAdditional effect (+1 CP): \u0007<u>Or:</u> Ranged attacks that target your unit have -1 to <b>wound rolls</b>."
+        },
+        {
+          "Name": "Too Arrogant to Die",
+          "Category": "Bully Boyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly <k>Meganobz/Nobz</k> unit.",
+          "Target": "That <k>Meganobz/Nobz</k> unit.",
+          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6, with +1 to that roll if your unit is <b>riled up</b>:\r<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Tellyporta Boss",
