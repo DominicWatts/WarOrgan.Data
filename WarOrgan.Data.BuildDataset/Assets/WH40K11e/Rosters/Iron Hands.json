@@ -43,7 +43,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "TERMINATOR SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -236,7 +238,12 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "AGGRESSOR SQUAD",
+          "ERADICATOR SQUAD WITH HEAVY BOLTERS",
+          "ERADICATOR SQUAD WITH MELTA RIFLES",
+          "HEAVY INTERCESSOR SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
