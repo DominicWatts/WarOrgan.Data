@@ -771,8 +771,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Sergeant with Jump Pack",
             "StatlineRef": "Assault Squad with Jump Packs",
@@ -873,8 +873,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Assault Marine with Jump Pack",
             "StatlineRef": "Assault Squad with Jump Packs",
@@ -1549,11 +1549,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 115
         },
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 115
         }
       ]
@@ -1566,8 +1566,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Sergeant",
             "StatlineRef": "Assault Squad",
@@ -1667,8 +1667,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Assault Marine",
             "StatlineRef": "Assault Squad",
@@ -2330,11 +2330,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 95
         },
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 95
         }
       ]
@@ -3029,8 +3029,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Biker Sergeant",
             "StatlineRef": "Biker Sergeant",
@@ -3123,8 +3123,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Space Marine Bikers",
             "StatlineRef": "Space Marine Biker",
@@ -4036,11 +4036,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 7,
+          "ModelCount": 4,
           "Cost": 80
         },
         {
-          "ModelCount": 13,
+          "ModelCount": 7,
           "Cost": 80
         }
       ]
@@ -5260,8 +5260,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Centurion Sergeant",
             "StatlineRef": "Centurion Assault Squad",
@@ -5317,8 +5317,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Assault Centurion",
             "StatlineRef": "Centurion Assault Squad",
@@ -5581,11 +5581,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 150
         },
         {
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 150
         }
       ]
@@ -5598,8 +5598,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Devastator Centurion Sergeant",
             "StatlineRef": "Centurion Devastator Squad",
@@ -5660,8 +5660,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Devastator Centurion",
             "StatlineRef": "Centurion Devastator Squad",
@@ -5980,11 +5980,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 175
         },
         {
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 175
         }
       ]
@@ -17804,8 +17804,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Relic Terminator Sergeant",
             "StatlineRef": "Relic Terminator Squad",
@@ -17880,8 +17880,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Relic Terminator",
             "StatlineRef": "Relic Terminator Squad",
@@ -18383,11 +18383,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 200
         },
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 200
         }
       ]
@@ -18653,8 +18653,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Scout Biker",
             "StatlineRef": "Scout Bike Squad",
@@ -18688,8 +18688,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Scout Biker Sergeant",
             "StatlineRef": "Scout Bike Squad",
@@ -19516,11 +19516,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 75
         },
         {
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 75
         }
       ]
@@ -19533,8 +19533,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Scout Sniper Sergeant",
             "StatlineRef": "Scout Sniper Squad",
@@ -19563,8 +19563,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Scout Snipers",
             "StatlineRef": "Scout Sniper Squad",
@@ -19576,27 +19576,22 @@
                   "close combat weapon",
                   "bolt pistol"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 5,
-              "Max": 10
-            },
-            "ModelName": "Scout Sniper",
-            "StatlineRef": "Scout Sniper Squad",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "missile launcher - frag",
-                  "missile launcher - krak",
-                  "close combat weapon",
-                  "bolt pistol"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "scout sniper rifle"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "missile launcher - frag",
+                          "missile launcher - krak"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -19842,11 +19837,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 15,
+          "ModelCount": 5,
           "Cost": 75
         },
         {
-          "ModelCount": 30,
+          "ModelCount": 10,
           "Cost": 75
         }
       ]
@@ -24121,8 +24116,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Vanguard Veteran",
             "StatlineRef": "Vanguard Veteran Squad",
@@ -24174,8 +24169,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Vanguard Veteran Sergeant",
             "StatlineRef": "Vanguard Veteran Squad",
@@ -24552,11 +24547,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 240
         },
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 240
         }
       ]
