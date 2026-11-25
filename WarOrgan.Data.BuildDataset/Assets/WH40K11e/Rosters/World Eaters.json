@@ -248,7 +248,7 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 14 **WORLD EATERS INFANTRY** models. Each **POSSESSED** and **TERMINATOR** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 14 WORLD EATERS INFANTRY models. Each POSSESSED and TERMINATOR model takes up the space of 2 models."
         },
         {
           "Title": "Damaged: 1-5 wounds remaining",
@@ -605,7 +605,7 @@
       "UnitAbilities": [
         {
           "Title": "Blood-hungry Annihilator",
-          "Text": "Each time this model makes a ranged attack that targets the closest eligible **MONSTER** or **VEHICLE** target within 18\", you can re-roll the Wound roll and you can re-roll the Damage roll."
+          "Text": "Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE target within 18\", you can re-roll the Wound roll and you can re-roll the Damage roll."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -992,7 +992,7 @@
       "UnitAbilities": [
         {
           "Title": "Punishing Suppression",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks (excluding **MONSTERS** and **VEHICLES*). Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks (excluding MONSTERS and VEHICLES). Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -1375,7 +1375,7 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **WORLD EATERS INFANTRY MODELS. IT CANNOT TRANSPORT POSSESSED** or **TERMINATOR** models."
+          "Text": "This model has a transport capacity of 12 WORLD EATERS INFANTRY MODELS. IT CANNOT TRANSPORT POSSESSED or TERMINATOR models."
         }
       ],
       "Infos": [],
@@ -1982,7 +1982,7 @@
         },
         {
           "Title": "Bloody Fury",
-          "Text": "- This unit’s ranged attacks that target the closest eligible target can re-roll **hit rolls**.\n- When this unit **declares a charge**, you can use this part of this ability.\nIf you do:\n-- This unit can re-roll that **charge roll**.\n-- This unit must end that **charge move engaged** with the closest **charge target**."
+          "Text": "- This unit’s ranged attacks that target the closest eligible target can re-roll hit rolls.\n- When this unit declares a charge, you can use this part of this ability.\nIf you do:\n-- This unit can re-roll that charge roll.\n-- This unit must end that charge move engaged with the closest charge target."
         }
       ],
       "Infos": [],
@@ -2378,7 +2378,7 @@
         },
         {
           "Title": "Lord of Murder",
-          "Text": "While this model is within 3\" of one or more friendly **WORLD EATERS INFANTRY** units, this model has the Lone Operative ability."
+          "Text": "While this model is within 3\" of one or more friendly WORLD EATERS INFANTRY units, this model has the Lone Operative ability."
         },
         {
           "Title": "Devastating Assault",
@@ -2386,7 +2386,7 @@
         },
         {
           "Title": "Direct the Slaughter",
-          "Text": "Once per battle round, one model from your army with this ability can use it when a friendly **WORLD EATERS** unit within 12\" of this model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP."
+          "Text": "Once per battle round, one model from your army with this ability can use it when a friendly WORLD EATERS unit within 12\" of this model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP."
         }
       ],
       "Infos": [],
@@ -2893,7 +2893,7 @@
         },
         {
           "Title": "Scuttling Walker",
-          "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **TITANIC** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+          "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
         },
         {
           "Title": "Unleash Wrath",
@@ -2905,7 +2905,7 @@
         },
         {
           "Title": "Terror of Khorne",
-          "Text": "At the start of the Fight phase, you can select one enemy unit **engaged** with this unit. That enemy unit makes a **battle‑shock roll**, with -1 to that **battle‑shock roll**. You cannot select the same enemy unit for this effect more than once per phase."
+          "Text": "At the start of the Fight phase, you can select one enemy unit engaged with this unit. That enemy unit makes a battle‑shock roll, with -1 to that battle‑shock roll. You cannot select the same enemy unit for this effect more than once per phase."
         }
       ],
       "Infos": [],
@@ -3425,11 +3425,11 @@
         },
         {
           "Title": "Beacons of Rage (Aura)",
-          "Text": "While a friendly **WORLD EATERS** unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding **MONSTERS** and **VEHICLES**), add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the Wound roll as well."
+          "Text": "While a friendly WORLD EATERS unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding MONSTERS and VEHICLES), add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the Wound roll as well."
         },
         {
           "Title": "Brazen Fury",
-          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\". That **surge move** is a **Brazen Fury move**."
+          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\". That surge move is a Brazen Fury move."
         }
       ],
       "Infos": [],
@@ -3612,11 +3612,11 @@
         },
         {
           "Title": "Rend and Tear",
-          "Text": "Each time a model in this unit makes a melee attack that targets a **MONSTER** or **VEHICLE** unit, until the end of the phase, improve the Damage characteristic of that attack by 1."
+          "Text": "Each time a model in this unit makes a melee attack that targets a MONSTER or VEHICLE unit, until the end of the phase, improve the Damage characteristic of that attack by 1."
         },
         {
           "Title": "Brazen Fury",
-          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\". That **surge move** is a **Brazen Fury move**."
+          "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\". That surge move is a Brazen Fury move."
         }
       ],
       "Infos": [],
@@ -3823,7 +3823,7 @@
         },
         {
           "Title": "Terror of Khorne",
-          "Text": "At the start of the Fight phase, you can select one enemy unit **engaged** with this unit. That enemy unit makes a **battle‑shock roll**, with -1 to that **battle‑shock roll**. You cannot select the same enemy unit for this effect more than once per phase."
+          "Text": "At the start of the Fight phase, you can select one enemy unit engaged with this unit. That enemy unit makes a battle‑shock roll, with -1 to that battle‑shock roll. You cannot select the same enemy unit for this effect more than once per phase."
         }
       ],
       "Infos": [],
@@ -4413,7 +4413,7 @@
       "UnitAbilities": [
         {
           "Title": "Frenzy",
-          "Text": "(Once per turn, per unit) In the Fight phase, when an enemy unit targets this unit, after that unit has resolved its attacks, you can use this ability. If you do, this unit is **eligible to fight** (even if it has already fought this phase) and must be **selected to fight** next."
+          "Text": "(Once per turn, per unit) In the Fight phase, when an enemy unit targets this unit, after that unit has resolved its attacks, you can use this ability. If you do, this unit is eligible to fight (even if it has already fought this phase) and must be selected to fight next."
         },
         {
           "Title": "Devoted to Destruction",
@@ -4953,7 +4953,7 @@
         },
         {
           "Title": "Airborne Predator",
-          "Text": "Each time this model makes an attack that targets a unit that can **FLY**, add 1 to the Hit roll."
+          "Text": "Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -4961,7 +4961,7 @@
         },
         {
           "Title": "Terror of Khorne",
-          "Text": "At the start of the Fight phase, you can select one enemy unit **engaged** with this unit. That enemy unit makes a **battle‑shock roll**, with -1 to that **battle‑shock roll**. You cannot select the same enemy unit for this effect more than once per phase."
+          "Text": "At the start of the Fight phase, you can select one enemy unit engaged with this unit. That enemy unit makes a battle‑shock roll, with -1 to that battle‑shock roll. You cannot select the same enemy unit for this effect more than once per phase."
         }
       ],
       "Infos": [],
@@ -5859,7 +5859,7 @@
         },
         {
           "Title": "Terror of Khorne",
-          "Text": "At the start of the Fight phase, you can select one enemy unit **engaged** with this unit. That enemy unit makes a **battle‑shock roll**, with -1 to that **battle‑shock roll**. You cannot select the same enemy unit for this effect more than once per phase."
+          "Text": "At the start of the Fight phase, you can select one enemy unit engaged with this unit. That enemy unit makes a battle‑shock roll, with -1 to that battle‑shock roll. You cannot select the same enemy unit for this effect more than once per phase."
         }
       ],
       "Infos": [],
@@ -6211,7 +6211,7 @@
         },
         {
           "Title": "The Betrayer",
-          "Text": "At the end of your Charge phase, if this unit is on the battlefield, is **unengaged**, and contains a **bodyguard** model, this unit makes a **leadership roll**:\n- If that **leadership roll** is failed, one **bodyguard** model in this unit is **destroyed**."
+          "Text": "At the end of your Charge phase, if this unit is on the battlefield, is unengaged, and contains a bodyguard model, this unit makes a leadership roll:\n- If that leadership roll is failed, one bodyguard model in this unit is destroyed."
         },
         {
           "Title": "Berserker Frenzy",
@@ -6909,7 +6909,7 @@
       "UnitAbilities": [
         {
           "Title": "A Worthy Skull",
-          "Text": "Each time this model makes a melee attack that targets a **CHARACTER** unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a **CHARACTER** model, you gain 1CP."
+          "Text": "Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a CHARACTER model, you gain 1CP."
         },
         {
           "Title": "Forwards, For Blood!",
@@ -7107,7 +7107,7 @@
         },
         {
           "Title": "The Scent of Blood",
-          "Text": "In the Charge phase, when this unit **declares a charge**:\n- If an enemy unit **below starting strength** is within 9\" of this unit, this unit has +1 to **charge rolls**.\n- Or: If an enemy unit **below half strength** is within 9\" of this unit, this unit has +2 to **charge rolls**."
+          "Text": "In the Charge phase, when this unit declares a charge:\n- If an enemy unit below starting strength is within 9\" of this unit, this unit has +1 to charge rolls.\n- Or: If an enemy unit below half strength is within 9\" of this unit, this unit has +2 to charge rolls."
         },
         {
           "Title": "Savage Exaltation",
@@ -7119,7 +7119,7 @@
         },
         {
           "Title": "Terror of Khorne",
-          "Text": "At the start of the Fight phase, you can select one enemy unit **engaged** with this unit. That enemy unit makes a **battle‑shock roll**, with -1 to that **battle‑shock roll**. You cannot select the same enemy unit for this effect more than once per phase."
+          "Text": "At the start of the Fight phase, you can select one enemy unit engaged with this unit. That enemy unit makes a battle‑shock roll, with -1 to that battle‑shock roll. You cannot select the same enemy unit for this effect more than once per phase."
         }
       ],
       "Infos": [],
@@ -7348,7 +7348,7 @@
         },
         {
           "Title": "Lord of the Eightbound",
-          "Text": "If this model is attached to a **WORLD EATERS POSSESSED** unit during the Declare Battle Formations step, this model has the Deep Strike and Scouts 6\" abilities."
+          "Text": "If this model is attached to a WORLD EATERS POSSESSED unit during the Declare Battle Formations step, this model has the Deep Strike and Scouts 6\" abilities."
         }
       ],
       "LeaderInfo": {
@@ -7592,7 +7592,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Wrath of Khorne",
-        "Text": "When a friendly **WORLD EATERS CHARACTER** unit (excluding **EPIC HERO** units) is **selected to fight**, that unit's **CHARACTER** models' melee attacks can have:\n- **[CLEAVE 1]**.\n- Or: +1 **AP**."
+        "Text": "When a friendly WORLD EATERS CHARACTER unit (excluding EPIC HERO units) is selected to fight, that unit's CHARACTER models' melee attacks can have:\n- [CLEAVE 1].\n- Or: +1 AP."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -7629,7 +7629,7 @@
       "Enhancements": [
         {
           "Name": "Archslaughterer",
-          "Description": "(Once per battle, per army) In your Command phase, you can use this ability. If you do, every **Blessing of Khorne** is active for this unit until the start of your next turn.",
+          "Description": "(Once per battle, per army) In your Command phase, you can use this ability. If you do, every Blessing of Khorne is active for this unit until the start of your next turn.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7662,7 +7662,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Idols of Khorne",
-        "Text": "At the start of your Command phase, you can select one of the Idols of Khorne abilities listed below. Until the start of your next Command phase, that ability is active, and its effects apply to all **WORLD EATERS TITANIC** and **WORLD EATERS MONSTER** units from your army. You can only select each Idols of Khorne ability once per battle.\n\n\n**Idol of Infinite Rage (Aura)**\nWhile a friendly **JAKHALS** or **GOREMONGERS** unit is within 6\" of this model (or within 9\" if this model is **TITANIC**), each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.\n\n\n**Idol of Burning Wrath (Aura)**\nWhile a friendly **JAKHALS** or **GOREMONGERS** unit is within 6\" of this model (or within 9\" if this model is **TITANIC**), add 1\" to the Movement characteristic of models in that unit and add 1 to Advance and Charge rolls made for that unit.\n\n\n**Idol of Blessed Blood (Aura)**\nWhile a friendly **JAKHALS** or **GOREMONGERS** unit is within 6\" of this model (or within 9\" if this model is **TITANIC**), models in that unit have a 4+ invulnerable save.\n\n\n**JAKHALS** or **GOREMONGERS** units from your army have the **BATTLELINE** keyword."
+        "Text": "At the start of your Command phase, you can select one of the Idols of Khorne abilities listed below. Until the start of your next Command phase, that ability is active, and its effects apply to all WORLD EATERS TITANIC and WORLD EATERS MONSTER units from your army. You can only select each Idols of Khorne ability once per battle.\n\n\n**Idol of Infinite Rage (Aura)**\nWhile a friendly JAKHALS or GOREMONGERS unit is within 6\" of this model (or within 9\" if this model is TITANIC), each time a model in that unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll.\n\n\n**Idol of Burning Wrath (Aura)**\nWhile a friendly JAKHALS or GOREMONGERS unit is within 6\" of this model (or within 9\" if this model is TITANIC), add 1\" to the Movement characteristic of models in that unit and add 1 to Advance and Charge rolls made for that unit.\n\n\n**Idol of Blessed Blood (Aura)**\nWhile a friendly JAKHALS or GOREMONGERS unit is within 6\" of this model (or within 9\" if this model is TITANIC), models in that unit have a 4+ invulnerable save.\n\n\nJAKHALS or GOREMONGERS units from your army have the BATTLELINE keyword."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -7769,7 +7769,7 @@
         },
         {
           "Name": "Strategic Slaughter",
-          "Description": "After both players have deployed their armies, select up to 3 **JAKHALS** and/or **GOREMONGERS** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+          "Description": "After both players have deployed their armies, select up to 3 JAKHALS and/or GOREMONGERS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7788,7 +7788,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Blood Tithe",
-        "Text": "Each time a **BLOOD LEGIONS** or **WORLD EATERS** unit from your army destroys an enemy unit, roll one D6; on a 3+, you gain 1 Blood Tithe point (BTP). At the start of the Command phase, you can spend 1 or more of your BTP to activate one of the following abilities until the end of the battle.\n\n\n**Enraged Abjuration [2BTP]**\n**BLOOD LEGIONS** and **WORLD EATERS** models from your army have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.\n\n\n**Daemonic Rage [3BTP]**\nMelee weapons equipped by **BLOOD LEGIONS** units from your army have the [Lance] ability.\n\n\n**Boon of Blood [4BTP]**\n**BLOOD LEGIONS** units from your army have a 4+ invulnerable save.\n\n\n**Might of Khorne [5BTP]**\n**BLOOD LEGIONS** units from your army gain the Blessings of Khorne ability."
+        "Text": "Each time a BLOOD LEGIONS or WORLD EATERS unit from your army destroys an enemy unit, roll one D6; on a 3+, you gain 1 Blood Tithe point (BTP). At the start of the Command phase, you can spend 1 or more of your BTP to activate one of the following abilities until the end of the battle.\n\n\n**Enraged Abjuration [2BTP]**\nBLOOD LEGIONS and WORLD EATERS models from your army have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.\n\n\n**Daemonic Rage [3BTP]**\nMelee weapons equipped by BLOOD LEGIONS units from your army have the [Lance] ability.\n\n\n**Boon of Blood [4BTP]**\nBLOOD LEGIONS units from your army have a 4+ invulnerable save.\n\n\n**Might of Khorne [5BTP]**\nBLOOD LEGIONS units from your army gain the Blessings of Khorne ability."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -7878,7 +7878,7 @@
         },
         {
           "Name": "Icon of War",
-          "Description": "While a friendly **BLOOD LEGIONS** unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly **BLOOD LEGIONS** unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit.",
+          "Description": "While a friendly BLOOD LEGIONS unit is within 6\" of the bearer, that unit has the Blessings of Khorne ability. If the Might of Khorne ability is active for your army, then while a friendly BLOOD LEGIONS unit is within 6\" of the bearer, you can re-roll Battle-shock tests taken for that unit.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7910,7 +7910,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Brazen Fury",
-        "Text": "**WORLD EATERS POSSESSED** units in your army have the following ability:\n\n**Brazen Fury**: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\". That **surge move** is a **Brazen Fury move**."
+        "Text": "WORLD EATERS POSSESSED units in your army have the following ability:\n\nBrazen Fury: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\". That surge move is a Brazen Fury move."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -8036,7 +8036,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Rush to the Fray",
-        "Text": "Each time a **WORLD EATERS** unit from your army disembarks from a **TRANSPORT**, until then end of the turn, add 1 to Charge rolls made for that unit and that unit's melee weapons have the [Lance] ability."
+        "Text": "Each time a WORLD EATERS unit from your army disembarks from a TRANSPORT, until then end of the turn, add 1 to Charge rolls made for that unit and that unit's melee weapons have the [Lance] ability."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -8102,7 +8102,7 @@
       "Enhancements": [
         {
           "Name": "Aggressive Deployment",
-          "Description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a **DEDICATED TRANSPORT**, that **DEDICATED TRANSPORT** has the Scouts 9\" ability.",
+          "Description": "In the Declare Battle Formations step, if the bearer starts the battle embarked within a DEDICATED TRANSPORT, that DEDICATED TRANSPORT has the Scouts 9\" ability.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8115,7 +8115,7 @@
         },
         {
           "Name": "Unleash Hell",
-          "Description": "At the start of your Shooting phase, you can select one **VEHICLE** model within 6\" of the bearer or, if the bearer is embarked within a **TRANSPORT**, you can select that **TRANSPORT** model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+          "Description": "At the start of your Shooting phase, you can select one VEHICLE model within 6\" of the bearer or, if the bearer is embarked within a TRANSPORT, you can select that TRANSPORT model. Until the end of the phase, after the selected model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8141,7 +8141,7 @@
         },
         {
           "Name": "Murderous Onslaught",
-          "Description": "If the bearer's unit disembarked from a **TRANSPORT** this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit.",
+          "Description": "If the bearer's unit disembarked from a TRANSPORT this turn, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8229,7 +8229,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Adamantine Avalanche",
-        "Text": "At the start of the Fight phase, if a friendly **TERMINATOR SQUAD** unit is **engaged**, make a **Blessings of Khorne** roll and use the results to activate one **Blessing of Khorne**. Until the end of the phase, that **Blessing of Khorne** is active for friendly **TERMINATOR SQUAD** units in addition to any other **Blessings of Khorne** that are currently active."
+        "Text": "At the start of the Fight phase, if a friendly TERMINATOR SQUAD unit is engaged, make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the phase, that Blessing of Khorne is active for friendly TERMINATOR SQUAD units in addition to any other Blessings of Khorne that are currently active."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -8297,11 +8297,11 @@
   "ArmyRules": [
     {
       "Title": "Blessings of Khorne",
-      "Text": "If your Army Faction is **WORLD EATERS**, at the start of the battle round, you can make a Blessings of Khorne roll. To do so, roll eight D6. You can then use those dice to activate up to two Blessings of Khorne. Each Blessing of Khorne specifies the dice results it requires (where a number is specified, a double or triple of that value or higher is required). You can only activate each Blessing of Khorne once per battle round. Any unused dice from the Blessings of Khorne roll are then discarded. Once activated, each Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.\n\nExample: **Ash makes their Blessings of Khorne roll and gets the following dice: 1, 2, 2, 2, 3, 4, 6, 6. First they use the two 6s to activate Warp Blades (which requires a double 5+), leaving the following dice: 1, 2, 2, 2, 3, 4.\nThey then use the two 2s to activate Wrathful Devotion (which requires any double), leaving the following dice: 1, 2, 3, 4.\nHowever, now that they have activated two Blessings of Khorne, they cannot activate any more and the remaining dice are discarded.**"
+      "Text": "If your Army Faction is WORLD EATERS, at the start of the battle round, you can make a Blessings of Khorne roll. To do so, roll eight D6. You can then use those dice to activate up to two Blessings of Khorne. Each Blessing of Khorne specifies the dice results it requires (where a number is specified, a double or triple of that value or higher is required). You can only activate each Blessing of Khorne once per battle round. Any unused dice from the Blessings of Khorne roll are then discarded. Once activated, each Blessing of Khorne applies to all units from your army with this ability until the end of the battle round.\n\nExample: Ash makes their Blessings of Khorne roll and gets the following dice: 1, 2, 2, 2, 3, 4, 6, 6. First they use the two 6s to activate Warp Blades (which requires a double 5+), leaving the following dice: 1, 2, 2, 2, 3, 4.\nThey then use the two 2s to activate Wrathful Devotion (which requires any double), leaving the following dice: 1, 2, 3, 4.\nHowever, now that they have activated two Blessings of Khorne, they cannot activate any more and the remaining dice are discarded."
     },
     {
       "Title": "Wrath of Khorne",
-      "Text": "When a friendly **WORLD EATERS CHARACTER** unit (excluding **EPIC HERO** units) is **selected to fight**, that unit's **CHARACTER** models' melee attacks can have:\n- **[CLEAVE 1]**.\n- Or: +1 **AP**."
+      "Text": "When a friendly WORLD EATERS CHARACTER unit (excluding EPIC HERO units) is selected to fight, that unit's CHARACTER models' melee attacks can have:\n- [CLEAVE 1].\n- Or: +1 AP."
     }
   ]
 }
