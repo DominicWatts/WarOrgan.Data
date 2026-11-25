@@ -7412,7 +7412,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "ferrumite cannon",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
