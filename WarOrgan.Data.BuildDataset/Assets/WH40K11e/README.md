@@ -2,7 +2,9 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.21.0
+## Coverage in 1.5.22.0
+
+- Adeptus Custodes: five Anathema Psykana units join the Base roster, and Aleya joins Legends. The Emperor's Light enhancement now includes its weapon profile and eligibility requirements; app testing is pending.
 
 - Leaders, such as the Space Marine Captain, Chaplain and Librarian, can be attached to the units their datasheets list.
 
@@ -45,7 +47,7 @@ These 31 factions are drafts converted automatically from the November 2026 BSDa
 - BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Captain in Gravis Armour, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.
 
 - Adepta Sororitas: 33 datasheets, 5 Legends, 8 detachments, 24 enhancements.
-- Adeptus Custodes: 24 datasheets, 6 Legends, 7 detachments, 17 enhancements.
+- Adeptus Custodes: 29 datasheets, 7 Legends, 7 detachments, 17 enhancements.
 - Adeptus Mechanicus: 34 datasheets, 3 Legends, 10 detachments, 33 enhancements.
 - Agents of the Imperium: 29 datasheets, 11 Legends, 5 detachments, 16 enhancements.
 - Grey Knights: 26 datasheets, 5 Legends, 9 detachments, 30 enhancements.

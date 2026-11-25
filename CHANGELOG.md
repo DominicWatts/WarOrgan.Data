@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.22.0 - Added five Anathema Psykana units and Aleya to Adeptus Custodes, with enhancement weapon details and eligibility restrictions (issue 16).
+
 2026-11-25 : 1.5.21.0 - 57 Leaders in 14 factions, including the Space Marine Librarian, now list the units they can be attached to (issue 11).
 
 2026-11-25 : 1.5.20.0 - Support characters in 12 factions, including the Chaos Space Marines Master of Executions, can now be attached to the units their datasheets list (issue 10).
