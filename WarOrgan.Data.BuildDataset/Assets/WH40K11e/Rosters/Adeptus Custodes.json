@@ -6175,6 +6175,1021 @@
           "Cost": 240
         }
       ]
+    },
+    {
+      "Id": "ANATHEMA PSYKANA RHINO",
+      "DisplayName": "Anathema Psykana Rhino",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Anathema Psykana Rhino",
+            "StatlineRef": "Anathema Psykana Rhino",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "storm bolter",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "hunter-killer missile"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 12 ANATHEMA PSYKANA INFANTRY models."
+        },
+        {
+          "Title": "Assault Vehicle",
+          "Text": "In your Movement phase, when this unit ends an **advance move**, units embarked within this unit can make a **shock disembark move**."
+        },
+        {
+          "Title": "Creeping Dread (Aura)",
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Anathema Psykana",
+        "Vehicle",
+        "Dedicated Transport",
+        "Transport",
+        "Smoke",
+        "Imperium",
+        "Frame",
+        "Anathema Psykana Rhino"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3",
+        "Firing Deck 2",
+        "Feel No Pain 3+*"
+      ],
+      "FactionKeywords": [
+        "Anathema Psykana"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Anathema Psykana Rhino",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "10"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "hunter-killer missile",
+              "DisplayName": "Hunter-killer missile",
+              "Keywords": "One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm Bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured tracks",
+              "DisplayName": "Armoured tracks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 70
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 70
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 70
+        },
+        {
+          "UnitCount": 4,
+          "ModelCount": 1,
+          "Cost": 80
+        }
+      ]
+    },
+    {
+      "Id": "KNIGHT-CENTURA",
+      "DisplayName": "Knight-Centura",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Knight-Centura",
+            "StatlineRef": "Knight-Centura",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "executioner greatblade"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "executioner greatblade"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "master-crafted flamer",
+                          "gun stock"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "master-crafted boltgun",
+                          "gun stock"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Support",
+          "Text": "This model can be attached to the following units: PROSECUTOR SQUAD, VIGILATOR SQUAD, WITCHSEEKER SQUAD"
+        },
+        {
+          "Title": "Seeker's Instincts",
+          "Text": "- This unit has +2\" M.\n- This unit can re-roll **advance rolls** and **charge rolls**."
+        },
+        {
+          "Title": "Corner the Quarry",
+          "Text": "When an enemy unit (excluding MONSTERS/VEHICLES) **engaged** with this unit makes a **fall-back move**, that enemy unit must use the **desperate escape mode**. If that enemy unit is **battle-shocked**, -1 from those **hazard rolls**."
+        },
+        {
+          "Title": "Creeping Dread (Aura)",
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "PROSECUTOR SQUAD",
+          "VIGILATOR SQUAD",
+          "WITCHSEEKER SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Knight-Centura",
+        "Infantry",
+        "Anathema Psykana",
+        "Imperium",
+        "Character"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Support",
+        "Scouts 7\"",
+        "Feel No Pain 3+*"
+      ],
+      "FactionKeywords": [
+        "Anathema Psykana"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Knight-Centura",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted boltgun",
+              "DisplayName": "Master-crafted boltgun",
+              "Keywords": "Anti-PSYKER 4+, Assault, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted flamer",
+              "DisplayName": "Master-crafted Flamer",
+              "Keywords": "Anti-PSYKER 4+, Assault, Blast 2, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "executioner greatblade",
+              "DisplayName": "Executioner Greatblade",
+              "Keywords": "Anti-Psyker 5+, Cleave 1, Devastating Wounds: PSYKER",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "gun stock",
+              "DisplayName": "Gun Stock",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 55
+        }
+      ]
+    },
+    {
+      "Id": "PROSECUTOR SQUAD",
+      "DisplayName": "Prosecutor Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 10
+            },
+            "ModelName": "Prosecutor",
+            "StatlineRef": "Prosecutor",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "gun stock"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Purity of Execution",
+          "Text": "In your Shooting phase, you can select one **visible** enemy unit within 18\" of this unit. That unit is **detected**.\n- While a unit is **detected**, that unit has +3\" **detection range**."
+        },
+        {
+          "Title": "Creeping Dread (Aura)",
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Prosecutor Squad",
+        "Imperium",
+        "Infantry",
+        "Anathema Psykana",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 3+*"
+      ],
+      "FactionKeywords": [
+        "Anathema Psykana"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Prosecutor",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Keywords": "Anti-PSYKER 4+, Assault, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "gun stock",
+              "DisplayName": "Gun Stock",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 45
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 45
+        }
+      ]
+    },
+    {
+      "Id": "VIGILATOR SQUAD",
+      "DisplayName": "Vigilator Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 10
+            },
+            "ModelName": "Vigilator",
+            "StatlineRef": "Vigilator",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "executioner greatblade"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Deft Parry",
+          "Text": "Melee attacks that target this unit have -1 to **hit rolls**."
+        },
+        {
+          "Title": "Creeping Dread (Aura)",
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vigilator Squad",
+        "Anathema Psykana",
+        "Infantry",
+        "Imperium",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 3+*"
+      ],
+      "FactionKeywords": [
+        "Anathema Psykana"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Vigilator",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "executioner greatblade",
+              "DisplayName": "Executioner greatblade",
+              "Keywords": "Anti-Psyker 5+, Devastating Wounds: PSYKER",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 50
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 50
+        }
+      ]
+    },
+    {
+      "Id": "WITCHSEEKER SQUAD",
+      "DisplayName": "Witchseeker Squad",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 4,
+              "Max": 10
+            },
+            "ModelName": "Witchseeker",
+            "StatlineRef": "Witchseeker",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "flamer",
+                  "gun stock"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sanctified Flames",
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That enemy unit makes a **battle-shock roll**, with -1 to that **battle-shock roll** if that enemy unit is a **PSYKER** unit."
+        },
+        {
+          "Title": "Creeping Dread (Aura)",
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Witchseeker Squad",
+        "Anathema Psykana",
+        "Infantry",
+        "Imperium",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Scouts 7\"",
+        "Feel No Pain 3+*"
+      ],
+      "FactionKeywords": [
+        "Anathema Psykana"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Witchseeker",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "flamer",
+              "DisplayName": "Flamer",
+              "Keywords": "Anti-PSYKER 4+, Assault, Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "gun stock",
+              "DisplayName": "Gun Stock",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 4,
+          "Cost": 55
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 55
+        }
+      ]
     }
   ],
   "Detachments": [

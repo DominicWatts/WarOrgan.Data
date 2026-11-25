@@ -75,7 +75,10 @@
       "FactionKeyword": "Adeptus Custodes",
       "Category": "Imperium",
       "MainColor": "#A8812A",
-      "DarkColor": "#D9B45C"
+      "DarkColor": "#D9B45C",
+      "AdditionalFactionKeywords": [
+        "Anathema Psykana"
+      ]
     }
   ],
   "CoreAbilities": [
