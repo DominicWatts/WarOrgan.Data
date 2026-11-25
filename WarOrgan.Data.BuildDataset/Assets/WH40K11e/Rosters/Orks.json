@@ -7339,7 +7339,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "zzap gun",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -9244,7 +9249,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "killsaw",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -16486,7 +16496,62 @@
         "Take and Hold",
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Breakin’ Heads",
+          "Category": "War Horde Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly <b>attached</b> <k>Orks Infantry</k> unit becomes <b>battle‑shocked</b>.",
+          "Target": "That <k>Orks infantry</k> unit. You can target that unit with this <b>stratagem</b> even though it is <b>battle-shocked</b>.",
+          "Effect": "Roll one D3: \r<ul><li>Your unit suffers a number of <b>mortal wounds</b> equal to the result.</li>\r<li>Your unit is no longer <b>battle‑shocked</b>.</li></ul>"
+        },
+        {
+          "Name": "Hit ’Em Harder",
+          "Category": "War Horde Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Orks</k> unit is selected to fight.",
+          "Target": "That <k>Orks</k> unit.",
+          "Effect": "Your unit’s melee attacks have <k>[Lethal Hits]</k>."
+        },
+        {
+          "Name": "Fungus-fuel Injection",
+          "Category": "War Horde Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly <k>Orks mounted/vehicle</k> unit is <b>selected to move</b>.",
+          "Target": "That <k>Orks Mounted/Vehicle</k> unit.",
+          "Effect": "Your unit has +2\" <b>M</b>."
+        },
+        {
+          "Name": "Close-range Dakka",
+          "Category": "War Horde Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Orks</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Orks</k> unit.",
+          "Effect": "Your unit’s ranged attacks have:\r<ul><li><k>[Rapid Fire 1]</k>.</li>\r<li><u>Or:</u> If that attack already has <k>[Rapid Fire]</k>, +1 to the value of that <k>[Rapid Fire]</k> (e.g. <k>[Rapid Fire 1]</k> becomes <k>[Rapid Fire 2]</k>).</li></ul>"
+        },
+        {
+          "Name": "Orks Is Never Beaten",
+          "Category": "War Horde Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly <k>Orks</k> unit (excluding <k>Titanic</k> units).",
+          "Target": "That <k>Orks</k> unit.",
+          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6, with +1 to that roll if your unit is <b>riled up</b>:\r<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+        },
+        {
+          "Name": "Mow ’Em Down",
+          "Category": "War Horde Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Orks</k> <k>Vehicle</k> unit (excluding <k>Walker</k> units) that made a <b>charge move</b> this turn is <b>selected to fight</b>.",
+          "Target": "That <k>Orks Vehicle</k> unit.",
+          "Effect": "Your unit’s melee attacks have:\r<ul><li><k>[Cleave 1]</k>.</li>\r<li><u>Or:</u> If that attack already has <k>[Cleave]</k>, +1 to the value of that <k>[Cleave]</k> (e.g. <k>[Cleave 1]</k> becomes <k>[Cleave 2]</k>).</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Da Boss Is Watchin'",
@@ -16545,7 +16610,35 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Instinctive Hunters",
+          "Category": "Da Big Hunt Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One friendly <b>unengaged</b> <k>Beast Snagga</k> unit within 6\" of a battlefield edge.",
+          "Effect": "Place your unit in <b>strategic reserves</b>."
+        },
+        {
+          "Name": "Where D’ya Fink You’re Going?",
+          "Category": "Da Big Hunt Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit is selected to make a <b>fall-back move</b>, if that enemy unit is <b>engaged</b> with a friendly <k>Beast Snagga</k> unit.",
+          "Target": "That <k>Beast Snagga</k> unit.",
+          "Effect": "When an enemy unit <b>engaged</b> with your unit is selected to make a <b>fall-back move</b>, that enemy unit must use the <b>desperate escape </b>mode. If that enemy unit is a <k>Monster/Vehicle</k> unit, that enemy unit makes three additional <b>hazard rolls</b> for each <k>Beast Snagga</k> unit it is <b>engaged</b> with, with -1 from those <b>hazard rolls</b> if that enemy unit is <b>battle-shocked</b>."
+        },
+        {
+          "Name": "Goaded Into Action",
+          "Category": "Da Big Hunt Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit has shot.",
+          "Target": "One friendly <b>unengaged</b> <k>Beast Snagga</k> unit that lost a wound as a result of those attacks.",
+          "Effect": "Your unit can make a <b>surge move</b> of up to D6\". If your unit is <b>riled up</b>, it can re-roll that D6."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "It Came From Da Drops",
@@ -16586,7 +16679,35 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Stomping Juggernaut",
+          "Category": "Dread Mob Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement or Charge",
+          "When": "Your Movement/Charge phase, when a friendly <k>Orks Walker</k> unit is <b>selected to move</b> or <b>declares a charge</b>.",
+          "Target": "That <k>Orks Walker</k> unit.",
+          "Effect": "Your unit has <k>Mobile</k>."
+        },
+        {
+          "Name": "Dread Power",
+          "Category": "Dread Mob Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase.",
+          "Target": "One friendly <k>Orks Walker</k> unit.",
+          "Effect": "Your unit is <b>riled up</b> until the start of your next turn."
+        },
+        {
+          "Name": "Crazed Rampage",
+          "Category": "Dread Mob Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly <k>Orks Walker</k> unit (excluding <k>Titanic</k> units).",
+          "Target": "That <k>Orks Walker</k> unit.",
+          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6, with +3 to the result if your unit has <k>Deff Dread</k>:\r<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Cybork Boosta",
@@ -16625,7 +16746,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "’Ere We Go",
+          "Category": "Green Tide Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly <k>Beast Snagga Boyz/Boyz</k> unit is <b>selected to move</b>.",
+          "Target": "That <k>Beast Snagga Boyz/Boyz</k> unit.",
+          "Effect": "Your unit has +2 to <b>advance rolls</b>."
+        },
+        {
+          "Name": "Unbridled Carnage",
+          "Category": "Green Tide Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Boyz</k> unit that made a <b>charge move</b> this turn is <b>selected to fight</b>.",
+          "Target": "That <k>Boyz</k> unit.",
+          "Effect": "Your unit’s melee attacks have +1 <b>A</b>."
+        },
+        {
+          "Name": "Mob Mentality",
+          "Category": "Green Tide Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Start of the Battle-shock step of your Command phase.",
+          "Target": "One friendly <k>Orks Infantry</k> unit of 13+ models.",
+          "Effect": "Select one <b>visible</b> friendly <k>Orks</k> unit within 12\" of your unit. That unit’s <b>battle-shock rolls</b> are automatically successful."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Ferocious Show-off",
@@ -16707,7 +16856,35 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Delicious Eating Squigs",
+          "Category": "Kult of Speed Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase.",
+          "Target": "One friendly <k>Rukkatrukk Squigbuggies</k> unit.",
+          "Effect": "Select any number of friendly <k>Orks Infantry</k> units within 3\" of your unit. Each selected unit <b>heals</b> 3 wounds."
+        },
+        {
+          "Name": "Dakkastorm",
+          "Category": "Kult of Speed Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Speed Freeks</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Speed Freeks</k> unit.",
+          "Effect": "Your unit’s ranged attacks have <k>[Sustained Hits 1]</k>."
+        },
+        {
+          "Name": "Speediest Freeks",
+          "Category": "Kult of Speed Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>Speed Freeks</k> unit.",
+          "Target": "That <k>Speed Freeks</k> unit.",
+          "Effect": "Ranged attacks that target your unit fail on an unmodified <b>hit roll</b> of 1‑3."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Competitive Streak",
@@ -16748,7 +16925,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "While Their Backs are Turned",
+          "Category": "Taktikal Brigade Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "End of your opponent’s Movement phase.",
+          "Target": "One friendly <b>unengaged</b> <k>Boyz</k>/<k>Kommandos/Stormboyz</k> unit that was <b>engaged</b> at the start of the phase.",
+          "Effect": "Your unit can make a <b>normal move</b> of up to 6\"."
+        },
+        {
+          "Name": "Mind Mostly on the Mission",
+          "Category": "Taktikal Brigade Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly <k>Boyz/Kommandos/Stormboyz</k> unit is selected to make an <b>advance/fall-back move</b>.",
+          "Target": "That <k>Boyz/Kommandos/Stormboyz</k> unit.",
+          "Effect": "That move does not prevent your unit from being <b>eligible to start an action</b>."
+        },
+        {
+          "Name": "Dubious Restraint",
+          "Category": "Taktikal Brigade Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Start/end of your Movement phase.",
+          "Target": "One friendly <k>Boyz</k>/<k>Kommandos/Stormboyz</k> unit.",
+          "Effect": "Select one <b>objective</b> your unit is controlling. That <b>objective</b> is <b>secured</b>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Kill Kommanda",
@@ -16790,7 +16995,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Readied Brawlers",
+          "Category": "Blitz Brigade Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly <k>Wagon</k> unit ends a <b>normal move</b>.",
+          "Target": "That <k>Wagon</k> unit.",
+          "Effect": "Units embarked within your unit can make an <b>assault disembark move</b> (pg 121)."
+        },
+        {
+          "Name": "Impending Krunch",
+          "Category": "Blitz Brigade Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Charge phase, when a friendly <k>Wagon</k> unit ends a <b>charge move</b>.",
+          "Target": "That <k>Wagon</k> unit.",
+          "Effect": "Each enemy unit <b>engaged</b> with your unit makes a <b>battle-shock roll</b>, with -1 to that <b>battle-shock roll</b>."
+        },
+        {
+          "Name": "Keep It Runnin’",
+          "Category": "Blitz Brigade Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of the Fight phase.",
+          "Target": "One friendly <b>unengaged</b> <k>Orks Infantry</k> unit that was <b>eligible to fight</b> this phase and is wholly within 6\" of a friendly <k>Transport</k> unit that <k>Infantry</k> unit is able to embark within.",
+          "Effect": "Your <k>Infantry</k> unit embarks within that <k>Transport</k> unit."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Targetin' Gizmos",
@@ -16831,7 +17064,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Scarper!",
+          "Category": "Runt Swarm Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly <b>unengaged</b> <k>Gretchin</k> unit.",
+          "Target": "That <k>Gretchin</k> unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of:\r<ul><li>Up to D6\".</li>\r<li><u>Or:</u> Up to 6\" instead if your unit is an <b>attached</b> unit.</li></ul>"
+        },
+        {
+          "Name": "Infested War Zone",
+          "Category": "Runt Swarm Stratagem",
+          "CPCost": 2,
+          "Phase": "Any",
+          "When": "Any phase, when an enemy unit has attacked.",
+          "Target": "One friendly <k>Gretchin</k> unit that was just <b>destroyed</b>. You can target that unit with this <b>stratagem</b> even though that unit was just <b>destroyed</b>.",
+          "Effect": "Add a new <k>Gretchin</k> unit to your army identical to your <b>destroyed</b> unit, in <b>strategic reserves</b>, at its <b>starting strength</b>, with its full wounds remaining."
+        },
+        {
+          "Name": "Grot Shields",
+          "Category": "Runt Swarm Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>Orks Infantry</k> unit (excluding <k>Gretchin</k> units).",
+          "Target": "One friendly <k>Gretchin</k> unit within 3\" of that <k>Orks Infantry</k> unit.",
+          "Effect": "When a <b>hit roll</b> for that enemy unit’s ranged attacks that target that <k>Orks</k> unit results in a hit, if a model in your <k>Gretchin</k> unit is on the battlefield, end the attack sequence for that attack and your <k>Gretchin</k> unit suffers 1 <b>mortal wound</b>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Minefield Detail",
@@ -16872,7 +17133,35 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Kustom Dakka",
+          "Category": "Shoota Boyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Orks Infantry</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Orks Infantry</k> unit.",
+          "Effect": "Your unit’s ranged attacks that target a unit (excluding <k>Monster/Vehicle</k> units) have +1 to <b>wound rolls</b>."
+        },
+        {
+          "Name": "Glowin’ Dakka",
+          "Category": "Shoota Boyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Orks Infantry</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Orks Infantry</k> unit.",
+          "Effect": "Your unit’s ranged attacks that target a unit within 9\" have +1 <b>AP</b>."
+        },
+        {
+          "Name": "Never Enough Dakka",
+          "Category": "Shoota Boyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Orks Infantry</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Orks Infantry</k> unit.",
+          "Effect": "Your unit’s ranged attacks have <k>[Sustained Hits 1]</k>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Supa-glowy Fing",
@@ -16911,7 +17200,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Drive-By Bustin’",
+          "Category": "Wreckas Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Orks Transport</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Orks Transport</k> unit.",
+          "Effect": "Your unit’s ranged attacks with weapons selected for the <b>Firing Deck</b> ability have +1 to <b>hit rolls</b>."
+        },
+        {
+          "Name": "Grab It",
+          "Category": "Wreckas Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <b>unengaged</b> <k>Breaka Boyz/Flash Gitz/Tankbustas</k> unit has shot.",
+          "Target": "That <k>Breaka Boyz/Flash Gitz/Tankbustas</k> unit.",
+          "Effect": "<ul><li>Your unit can make a <b>normal move</b> of up to 6\", and must end that move within range of an <b>objective</b>.</li>\r<li>Your unit is <u>not</u> <b>eligible to declare a charge</b> until the end of the turn.</li></ul>"
+        },
+        {
+          "Name": "Gun-crazy Show-offs",
+          "Category": "Wreckas Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit has shot.",
+          "Target": "One friendly <k>Flash Gitz/Tankbustas</k> unit hit by those attacks.",
+          "Effect": "Your unit shoots using <b>normal shooting</b>, but while doing so your unit can only target that enemy unit."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Kaptin's Hat",
@@ -16952,7 +17269,17 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Vindictive Artillerists",
+          "Category": "Madcap Meks Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Mek Gunz</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Mek Gunz</k> unit.",
+          "Effect": "Your unit’s ranged attacks have: \r<ul><li><k>[Lethal Hits]</k>.</li>\r<li><u>Or:</u> <k>[Sustained Hits 1]</k>.</li>\r<li><u>Or:</u> <k>[Hazardous]</k>, <k>[Lethal Hits]</k>, <k>[Sustained Hits 1]</k>.</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Mekwaaagh! Mastermind",
@@ -17006,7 +17333,35 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Long, Uncontrolled Bursts",
+          "Category": "Flyboyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Orks Aircraft/Deffkoptas</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Orks Aircraft/Deffkoptas</k> unit.",
+          "Effect": "When your unit’s ranged attacks target a <k>Fly</k> unit, those attacks can re-roll <b>hit rolls</b>."
+        },
+        {
+          "Name": "Flyin’ Headbutt",
+          "Category": "Flyboyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly <k>Orks Aircraft</k> unit is <b>destroyed</b>, before rolling for any <b>Deadly Demise</b>.",
+          "Target": "That <k>Orks</k> unit.",
+          "Effect": "Your unit does not have the <b>Deadly Demise</b> ability. Select one enemy unit within 12\" of your unit and roll eight D6:\r<ul><li>For each 4+, that enemy unit suffers 1 <b>mortal wound</b>.</li></ul>\rThen remove your unit from the battlefield."
+        },
+        {
+          "Name": "Whirligig Evasion",
+          "Category": "Flyboyz Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move.",
+          "Target": "One friendly <b>unengaged</b> <k>Deffkoptas</k> unit within 8\" of that enemy unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of: \r<ul><li>Up to D6\".</li>\r<li><u>Or:</u> If your unit is <b>riled up</b>, up to 6\".</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Impulsive Recon",
