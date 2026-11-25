@@ -2,7 +2,9 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.25.0
+## Coverage in 1.5.26.0
+
+- Adepta Sororitas: faction-wide army rules and all 8 detachments have been audited. Sacred Champions includes the Reverend disposition, and source-supported roster rule text corrections are applied.
 
 - Space Marines: the Captain in Gravis Armour is included. Infernus and Intercessor squads take 5 or 10 models, and the points rise with the larger squad.
 
