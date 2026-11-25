@@ -395,7 +395,31 @@
       "FactionKeyword": "World Eaters",
       "Category": "Chaos",
       "MainColor": "#8A1E1E",
-      "DarkColor": "#C8C8C8"
+      "DarkColor": "#C8C8C8",
+      "Allies": [
+        {
+          "FactionKeyword": "Legiones Daemonica",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Khorne Daemonkin"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "BLOODCRUSHERS",
+                "BLOODLETTERS",
+                "BLOODTHIRSTER",
+                "FLESH HOUNDS",
+                "SKARBRAND"
+              ],
+              "AddedKeywords": [
+                "Allied Units",
+                "Blood Legions"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Aeldari",
