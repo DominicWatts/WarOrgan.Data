@@ -42,7 +42,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATH COMPANY MARINES WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -621,7 +623,13 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "COMPANY HEROES",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1415,7 +1423,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATH COMPANY MARINES",
+          "DEATH COMPANY MARINES WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1764,7 +1775,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "DEATH COMPANY MARINES WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],

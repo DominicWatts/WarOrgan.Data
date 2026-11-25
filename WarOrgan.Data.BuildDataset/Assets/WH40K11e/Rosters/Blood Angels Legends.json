@@ -39,7 +39,15 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT SQUAD",
+          "ASSAULT SQUAD WITH JUMP PACKS",
+          "ASSAULT INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "DEVASTATOR SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -228,7 +236,16 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT SQUAD",
+          "ASSAULT SQUAD WITH JUMP PACKS",
+          "COMMAND SQUAD",
+          "ASSAULT INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -782,7 +799,17 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT SQUAD",
+          "ASSAULT SQUAD WITH JUMP PACKS",
+          "COMMAND SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS",
+          "ASSAULT INTERCESSOR SQUAD",
+          "COMPANY HEROES",
+          "STERNGUARD VETERAN SQUAD",
+          "BLADEGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1396,7 +1423,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "BIKE SQUAD",
+          "OUTRIDER SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
