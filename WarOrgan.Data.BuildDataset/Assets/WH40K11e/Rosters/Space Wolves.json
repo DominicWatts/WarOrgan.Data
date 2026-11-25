@@ -42,7 +42,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "TERMINATOR SQUAD",
+          "WOLF GUARD TERMINATORS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1452,7 +1455,13 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "INTERCESSOR SQUAD",
+          "WOLF GUARD HEADTAKERS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1667,7 +1676,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "TERMINATOR SQUAD",
+          "WOLF GUARD TERMINATORS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -2137,7 +2149,14 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "INTERCESSOR SQUAD",
+          "WOLF GUARD HEADTAKERS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -2965,7 +2984,14 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "INTERCESSOR SQUAD",
+          "WOLF GUARD HEADTAKERS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -3690,7 +3716,14 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "INTERCESSOR SQUAD",
+          "WOLF GUARD HEADTAKERS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -4759,7 +4792,14 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "BLOOD CLAWS",
+          "GREY HUNTERS",
+          "INTERCESSOR SQUAD",
+          "WOLF GUARD HEADTAKERS"
+        ],
         "Features": 0
       },
       "Infos": [],
