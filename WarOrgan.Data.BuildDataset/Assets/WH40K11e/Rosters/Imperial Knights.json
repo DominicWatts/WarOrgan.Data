@@ -3470,7 +3470,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "rapid-fire battle cannon",
+            "Cost": 15
+          }
+        ]
       },
       "UnitAbilities": [
         {
