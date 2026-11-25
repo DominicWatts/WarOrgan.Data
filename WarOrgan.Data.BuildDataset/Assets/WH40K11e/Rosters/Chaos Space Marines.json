@@ -14961,6 +14961,16 @@
           "Text": "Add 3 to the Attacks characteristic of this model's infernal cannon."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CHOSEN",
+          "LEGIONARIES",
+          "NEMESIS CLAW",
+          "RED CORSAIRS RAIDERS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Infantry",
@@ -15557,6 +15567,15 @@
           "Text": "While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding **CHARACTER MODELS) TO THIS UNIT, OR, IF ONE OR MORE HERETIC ASTARTES INFANTRY** units from your army are below Starting Strength and within 3\" of this unit, you gain 1CP."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "CHOSEN",
+          "LEGIONARIES",
+          "RED CORSAIRS RAIDERS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Epic Hero",
