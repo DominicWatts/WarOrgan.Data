@@ -2396,15 +2396,15 @@
         },
         {
           "Title": "Psychic Blank",
-          "Text": "This model has Feel No Pain 4+ against **psychic attacks** and **mortal wounds**."
+          "Text": "This model has Feel No Pain 4+ against psychic attacks and mortal wounds."
         },
         {
           "Title": "Hero of the Imperium (Aura)",
-          "Text": "While a friendly **ASTRA MILITARUM** unit is within 6\" of this model, that unit can re-roll **battle-shock rolls**."
+          "Text": "While a friendly ASTRA MILITARUM unit is within 6\" of this model, that unit can re-roll battle-shock rolls."
         },
         {
           "Title": "Trapped by Excuses",
-          "Text": "In the Deploy Armies step, you must set this unit up on the battlefield, or embarked within a **TRANSPORT** unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place a unit in **strategic reserves** cannot affect this unit or a **TRANSPORT** unit this unit is embarked within."
+          "Text": "In the Deploy Armies step, you must set this unit up on the battlefield, or embarked within a TRANSPORT unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place a unit in strategic reserves cannot affect this unit or a TRANSPORT unit this unit is embarked within."
         },
         {
           "Title": "Orders",
@@ -6560,7 +6560,7 @@
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         }
       ],
       "Infos": [],
@@ -10185,7 +10185,7 @@
         },
         {
           "Title": "Fortification",
-          "Text": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+          "Text": "While an enemy unit is only within Engagement Range of one or more FORTIFICATIONS from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
         }
       ],
       "Infos": [],
@@ -13120,7 +13120,7 @@
         },
         {
           "Title": "Artillery Commander",
-          "Text": "At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this unit’s Master of Ordnance model that has not already been selected for this ability this phase. Until the end of the phase, Blast weapons equipped by friendly ASTRA MILITARUM ARTILLERY models have the **[SUSTAINED HITS 1]** ability when targeting that unit"
+          "Text": "At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this unit’s Master of Ordnance model that has not already been selected for this ability this phase. Until the end of the phase, Blast weapons equipped by friendly ASTRA MILITARUM ARTILLERY models have the [SUSTAINED HITS 1] ability when targeting that unit"
         }
       ],
       "Infos": [],
@@ -14674,7 +14674,7 @@
         },
         {
           "Title": "Payback Time",
-          "Text": "Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Payback weapon has an Attacks characteristic of 6 and the **[SUSTAINED HITS 3]** ability instead of the **[SUSTAINED HITS 1]** ability."
+          "Text": "Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Payback weapon has an Attacks characteristic of 6 and the [SUSTAINED HITS 3] ability instead of the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Orders",
@@ -18240,7 +18240,7 @@
         },
         {
           "Title": "Cold Steel and Courage",
-          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
         },
         {
           "Title": "Orders",

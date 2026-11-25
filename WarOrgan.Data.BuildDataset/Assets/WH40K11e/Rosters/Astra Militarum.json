@@ -24727,7 +24727,7 @@
       "UnitAbilities": [
         {
           "Title": "Covert Stealth Team",
-          "Text": "At the end of your opponent’s turn, if this unit is **unengaged**, you can use this ability. If you do:\n- Place this unit in **strategic reserves**.\n- This unit has **Deep Strike** until the start of your next Shooting phase.\n- This unit must make an **ingress move** in your next Movement phase (including in your first turn)."
+          "Text": "At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do:\n- Place this unit in strategic reserves.\n- This unit has Deep Strike until the start of your next Shooting phase.\n- This unit must make an ingress move in your next Movement phase (including in your first turn)."
         },
         {
           "Title": "Tanith Camo-cloaks",
@@ -25182,7 +25182,7 @@
         },
         {
           "Title": "Leading the Charge",
-          "Text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+          "Text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
         },
         {
           "Title": "Orders",
@@ -25791,7 +25791,7 @@
       "UnitAbilities": [
         {
           "Title": "Tempestor Prime",
-          "Text": "While this unit contains a Tempestor Prime, ranged weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability."
+          "Text": "While this unit contains a Tempestor Prime, ranged weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Regimental Standard",
@@ -26435,7 +26435,7 @@
         },
         {
           "Title": "War Hymns",
-          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
         }
       ],
       "LeaderInfo": {
@@ -26927,7 +26927,7 @@
       "UnitAbilities": [
         {
           "Title": "Loyal Protector",
-          "Text": "At the start of the Declare Battle Formations step, this model must join one COMMAND SQUAD unit from your army (a COMMAND SQUAD cannot have more than one LOYAL PROTECTOR model joined to it). This model then counts as part of that COMMAND SQUAD for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a COMMAND SQUAD, it does not take part in the battle and counts as having been destroyed.\n\nWhile this model is joined to a unit, it can embark within any TRANSPORT that unit can embark within, and takes up the space of 3 models.\n\nThis model cannot be selected as your **WARLORD** and cannot be given Enhancements"
+          "Text": "At the start of the Declare Battle Formations step, this model must join one COMMAND SQUAD unit from your army (a COMMAND SQUAD cannot have more than one LOYAL PROTECTOR model joined to it). This model then counts as part of that COMMAND SQUAD for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a COMMAND SQUAD, it does not take part in the battle and counts as having been destroyed.\n\nWhile this model is joined to a unit, it can embark within any TRANSPORT that unit can embark within, and takes up the space of 3 models.\n\nThis model cannot be selected as your WARLORD and cannot be given Enhancements"
         },
         {
           "Title": "Ogryn Bodyguard",
@@ -27488,7 +27488,7 @@
         },
         {
           "Title": "Ratling Battlemutt",
-          "Text": "Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability.\n\n**Designer’s Note:** *Place a Ratling Battlemutt token next to the unit, removing it once this ability has been used.*"
+          "Text": "Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability.\n\nDesigner’s Note: *Place a Ratling Battlemutt token next to the unit, removing it once this ability has been used.*"
         },
         {
           "Title": "Demolition Gear",
@@ -30100,7 +30100,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Born Soldiers",
-        "Text": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES) that attack has the **[LETHAL HITS]** ability.\n\nEach time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the **[LETHAL HITS]** ability.\n\n**Lethal Hits**\n\nEach time an attack made with a **[LETHAL HITS]** weapon results in a **critical hit**, you can choose for that attack to automatically wound the target.\n***Designer’s Note:** Choosing to automatically wound the target means that no **wound roll** is made for that attack. You may decide against this, as it means that attack cannot result in a **critical wound** and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*"
+        "Text": "Each time a model in a REGIMENT unit from your army makes a ranged attack that targets a visible unit (excluding MONSTERS and VEHICLES) that attack has the [LETHAL HITS] ability.\n\nEach time a model in a SQUADRON unit from your army makes a ranged attack that targets a visible MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.\n\n**Lethal Hits**\n\nEach time an attack made with a [LETHAL HITS] weapon results in a critical hit, you can choose for that attack to automatically wound the target.\n*Designer’s Note: Choosing to automatically wound the target means that no wound roll is made for that attack. You may decide against this, as it means that attack cannot result in a critical wound and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*"
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -30223,7 +30223,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Fire Zone Purge",
-        "Text": "- If a friendly **MILITARUM TEMPESTUS OFFICER** model is your **WARLORD**, friendly **TEMPESTUS SCIONS** units have:\n-- **BATTLELINE**.\n-- +1 **OC**.\n- When a friendly **MILITARUM TEMPESTUS** unit is **selected to shoot**, if that unit was set up this turn, that unit’s ranged attacks have +1 to **hit rolls**."
+        "Text": "- If a friendly MILITARUM TEMPESTUS OFFICER model is your WARLORD, friendly TEMPESTUS SCIONS units have:\n-- BATTLELINE.\n-- +1 OC.\n- When a friendly MILITARUM TEMPESTUS unit is selected to shoot, if that unit was set up this turn, that unit’s ranged attacks have +1 to hit rolls."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -30260,7 +30260,7 @@
       "Enhancements": [
         {
           "Name": "Bombast-class Vox-array",
-          "Description": "**MILITARUM TEMPESTUS OFFICER** model only. When this model issues an **Order**, if this unit has the **Master Vox** wargear ability, this model can issue that **Order** to up to three different **REGIMENT** units, instead of only one.",
+          "Description": "MILITARUM TEMPESTUS OFFICER model only. When this model issues an Order, if this unit has the Master Vox wargear ability, this model can issue that Order to up to three different REGIMENT units, instead of only one.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30274,7 +30274,7 @@
         },
         {
           "Name": "Priority drop Beacon",
-          "Description": "**MILITARUM TEMPESTUS OFFICER** model only. In your first Movement phase, this unit can make an **ingress move**.",
+          "Description": "MILITARUM TEMPESTUS OFFICER model only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30294,7 +30294,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Artillery Support",
-        "Text": "At the start of the battle round, select one of the following types of artillery support.\n\n- **Creeping Barrage:** Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.\n\n- **Incendiary Bombardment:** Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select this way depends on the battle size, as shown below.\n\n- **Smoke Shells:** Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\n**Battle Size - Maximum Number of Units**\nIncursion - 2\nStrike Force - 3\nOnslaught - 4\n\n**Stealth**\n\nIf every model in a unit has this ability, each time a ranged attack targets that unit, that unit has the **benefit of cover** against that attack (13.08)."
+        "Text": "At the start of the battle round, select one of the following types of artillery support.\n\n- Creeping Barrage: Roll one D6 for each enemy unit that is more than 12\" from every model from your army that is on the battlefield: On a 5+, until the end of the battle round, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it. The maximum number of units that can be shaken by this rule in each battle round depends on the battle size, as shown below.\n\n- Incendiary Bombardment: Select a number of enemy units more than 12\" from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are scattered. While a unit is scattered, it cannot have the Benefit of Cover. The maximum number of units you can select this way depends on the battle size, as shown below.\n\n- Smoke Shells: Select a number of units from your army. Until the end of the battle round, those units have the Stealth ability. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\n**Battle Size - Maximum Number of Units**\nIncursion - 2\nStrike Force - 3\nOnslaught - 4\n\n**Stealth**\n\nIf every model in a unit has this ability, each time a ranged attack targets that unit, that unit has the benefit of cover against that attack (13.08)."
       },
       "ForceDispositions": [
         "Disruption"
@@ -30670,7 +30670,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Masters of Camouflage",
-        "Text": "Friendly **ASTRA MILITARUM** units (excluding **TITANIC** units) have **Stealth**."
+        "Text": "Friendly ASTRA MILITARUM units (excluding TITANIC units) have Stealth."
       },
       "Tags": [
         "RECON"
@@ -30877,7 +30877,7 @@
         },
         {
           "Name": "Aquilan Eye",
-          "Description": "ASTRA MILITARUM OFFICER model only. Each time you select an Order for the bearer to issue, you can select the Order below:\n\n**Target Weak Spot (Order):** Each time a model in this unit makes a ranged attack that targets an enemy unit within 12\", improve the Armour Penetration characteristic of that attack by 1.",
+          "Description": "ASTRA MILITARUM OFFICER model only. Each time you select an Order for the bearer to issue, you can select the Order below:\n\nTarget Weak Spot (Order): Each time a model in this unit makes a ranged attack that targets an enemy unit within 12\", improve the Armour Penetration characteristic of that attack by 1.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30905,7 +30905,7 @@
         },
         {
           "Name": "Spec Ops Veteran",
-          "Description": "ASTRA MILITARUM INFANTRY OFFICER model only. Each time you select an Order for the bearer to issue, you can select the Order below:\n\n**Move to the Shadows (Order):** Each time a ranged attack targets this unit, until those attacks are resolved, models in this unit have the Stealth ability.",
+          "Description": "ASTRA MILITARUM INFANTRY OFFICER model only. Each time you select an Order for the bearer to issue, you can select the Order below:\n\nMove to the Shadows (Order): Each time a ranged attack targets this unit, until those attacks are resolved, models in this unit have the Stealth ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -30926,7 +30926,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Ceaseless Cannonade",
-        "Text": "Each time an ASTRA MILITARUM TITANIC or ASTRA MILITARUM SQUADRON unit from your army is selected to shoot, models in that unit can target enemy units within Engagement Range of that unit (including with Blast weapons), provided no other friendly units are also within Engagement Range of that enemy unit. When doing so, such models do not suffer the penalty to their Hit rolls for being within Engagement Range of one or more enemy units (excluding attacks made with Indirect Fire weapons).\n\n**Keywords**\n\nIn the Muster Armies step, you can select one or more ASTRA MILITARUM TITANIC units from your army to gain the CHARACTER keyword.\n\n**Designer’s Note:** *This means that the selected units can be given Enhancements, and one of them can be selected as your WARLORD.*"
+        "Text": "Each time an ASTRA MILITARUM TITANIC or ASTRA MILITARUM SQUADRON unit from your army is selected to shoot, models in that unit can target enemy units within Engagement Range of that unit (including with Blast weapons), provided no other friendly units are also within Engagement Range of that enemy unit. When doing so, such models do not suffer the penalty to their Hit rolls for being within Engagement Range of one or more enemy units (excluding attacks made with Indirect Fire weapons).\n\n**Keywords**\n\nIn the Muster Armies step, you can select one or more ASTRA MILITARUM TITANIC units from your army to gain the CHARACTER keyword.\n\nDesigner’s Note: *This means that the selected units can be given Enhancements, and one of them can be selected as your WARLORD.*"
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -31181,7 +31181,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Absolutist Principles",
-        "Text": "Friendly **BULLGRYN SQUAD/OGRYN SQUAD/RATLINGS** units have **ABHUMAN**.\n- Friendly **COMMISSAR** models can:\n-- Issue the Take Aim! Order.\n-- Issue 1 Order to a friendly **ABHUMAN** unit.\nThis **detachment** has the **ABHUMAN** tag and cannot be taken with another **ABHUMAN detachment**."
+        "Text": "Friendly BULLGRYN SQUAD/OGRYN SQUAD/RATLINGS units have ABHUMAN.\n- Friendly COMMISSAR models can:\n-- Issue the Take Aim! Order.\n-- Issue 1 Order to a friendly ABHUMAN unit.\nThis detachment has the ABHUMAN tag and cannot be taken with another ABHUMAN detachment."
       },
       "Tags": [
         "ABHUMAN"
@@ -31221,7 +31221,7 @@
       "Enhancements": [
         {
           "Name": "Sharp Eyes",
-          "Description": "**RATLINGS** unit only. When this unit is **selected to shoot**, enemy units have +6\" **detection range** until this unit has shot.",
+          "Description": "RATLINGS unit only. When this unit is selected to shoot, enemy units have +6\" detection range until this unit has shot.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -31253,7 +31253,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Designated Targets",
-        "Text": "Friendly **SCOUT SENTINEL/ASTRA MILITARUM INFANTRY SMOKE** units have the Signal Flares ability.\n\nThis **detachment** has the **RECON** tag and cannot be taken with another **RECON detachment**."
+        "Text": "Friendly SCOUT SENTINEL/ASTRA MILITARUM INFANTRY SMOKE units have the Signal Flares ability.\n\nThis detachment has the RECON tag and cannot be taken with another RECON detachment."
       },
       "Tags": [
         "RECON"
@@ -31293,7 +31293,7 @@
       "Enhancements": [
         {
           "Name": "Recon Star",
-          "Description": "**ASTRA MILITARUM INFANTRY PLATOON** unit only. In your first Movement phase, this unit can make an **ingress move**.",
+          "Description": "ASTRA MILITARUM INFANTRY PLATOON unit only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -31308,7 +31308,7 @@
         },
         {
           "Name": "Long-range Scout",
-          "Description": "SCOUT SENTINEL unit only. This unit has **Infiltrators**.",
+          "Description": "SCOUT SENTINEL unit only. This unit has Infiltrators.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
