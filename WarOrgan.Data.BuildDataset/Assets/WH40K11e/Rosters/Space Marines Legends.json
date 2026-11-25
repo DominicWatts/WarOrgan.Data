@@ -26026,6 +26026,3516 @@
           "Cost": 195
         }
       ]
+    },
+    {
+      "Id": "CERBERUS",
+      "DisplayName": "Cerberus",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Cerberus",
+            "StatlineRef": "Cerberus",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "cerberus neutron pulse array",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "storm bolter"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lascannon",
+                          "lascannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Atomantic Arc-reactor",
+          "Text": "In a turn this unit remained stationary, this unit's Cerberus Neutron Pulse Array ranged attacks have [LETHAL HITS]."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Cerberus",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Damaged 6"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Cerberus",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "18"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "cerberus neutron pulse array",
+              "DisplayName": "Cerberus neutron pulse array",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "16"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+6"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured tracks",
+              "DisplayName": "Armoured tracks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 270
+        }
+      ]
+    },
+    {
+      "Id": "FALCHION",
+      "DisplayName": "Falchion",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Falchion",
+            "StatlineRef": "Falchion",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "twin falchion volcano cannon",
+                  "twin heavy bolter",
+                  "quad lascannon",
+                  "quad lascannon",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "twin heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin heavy flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "storm bolter"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "quad lascannon",
+                      "quad lascannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "laser destroyer",
+                          "laser destroyer"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Titan-killer",
+          "Text": "This unit's Twin Falchion Volcano Cannon ranged attacks that target a MONSTER/VEHICLE unit have [DEVASTATING WOUNDS]."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Smoke",
+        "Falchion",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6+2",
+        "Damaged 8"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Falchion",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "9\""
+            },
+            {
+              "Id": "T",
+              "Value": "13"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "24"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "8"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "laser destroyer",
+              "DisplayName": "Laser destroyer",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+3"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "quad lascannon",
+              "DisplayName": "Quad lascannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "twin falchion volcano cannon",
+              "DisplayName": "Twin Falchion volcano cannon",
+              "Keywords": "Blast 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "120\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "24"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "12"
+                }
+              ]
+            },
+            {
+              "Id": "twin heavy bolter",
+              "DisplayName": "Twin heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin heavy flamer",
+              "DisplayName": "Twin heavy flamer",
+              "Keywords": "Blast 1, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured tracks",
+              "DisplayName": "Armoured tracks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 420
+        }
+      ]
+    },
+    {
+      "Id": "KRATOS",
+      "DisplayName": "Kratos",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Kratos",
+            "StatlineRef": "Kratos",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy bolter",
+                  "heavy bolter",
+                  "kratos battlecannon (piercing)",
+                  "kratos battlecannon (blast)",
+                  "heavy bolter",
+                  "heavy bolter",
+                  "armoured tracks",
+                  "autocannon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy bolter",
+                      "heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "volkite caliver",
+                          "volkite caliver"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lascannon",
+                          "lascannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "autocannon",
+                          "autocannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "volkite culverin",
+                          "volkite culverin"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy flamer",
+                          "heavy flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "kratos battlecannon (piercing)",
+                      "kratos battlecannon (blast)"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "melta blast-gun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "volkite cardanelle"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "twin boltgun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "combi-weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "havoc launcher"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "hunter-killer missile"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Line-breaker",
+          "Text": "In your Shooting phase, when this unit is selected to shoot using close-quarters shooting:\n- This unit's attacks that target a unit engaged with this unit can ignore modifiers to:\n- BS.\n- Hit rolls.\n- For each of this unit's [Blast] weapons, you can choose for that weapon to not have [Blast]:\n- If you do, that weapon can only target an enemy unit that is not engaged with another friendly unit."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Kratos",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6",
+        "Damaged 6"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Kratos",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "18"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "autocannon",
+              "DisplayName": "Autocannon",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "combi-weapon",
+              "DisplayName": "Combi-weapon",
+              "Keywords": "Anti-Infantry 3+, Devastating Wounds, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "havoc launcher",
+              "DisplayName": "Havoc launcher",
+              "Keywords": "Blast 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hunter-killer missile",
+              "DisplayName": "Hunter-killer missile",
+              "Keywords": "One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "kratos battlecannon (blast)",
+              "DisplayName": "Kratos battlecannon (Blast)",
+              "Keywords": "Blast 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "kratos battlecannon (piercing)",
+              "DisplayName": "Kratos battlecannon (Piercing)",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "18"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+6"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "melta blast-gun",
+              "DisplayName": "Melta blast-gun",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin boltgun",
+              "DisplayName": "Twin boltgun",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "volkite caliver",
+              "DisplayName": "Volkite caliver",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "volkite cardanelle",
+              "DisplayName": "Volkite cardanelle",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "9"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "volkite culverin",
+              "DisplayName": "Volkite culverin",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured tracks",
+              "DisplayName": "Armoured tracks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 240
+        }
+      ]
+    },
+    {
+      "Id": "MASTODON",
+      "DisplayName": "Mastodon",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Mastodon",
+            "StatlineRef": "Mastodon",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "siege melta array",
+                  "skyreaper battery",
+                  "heavy flamer",
+                  "heavy flamer",
+                  "lascannon",
+                  "lascannon",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy flamer",
+                      "heavy flamer"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "lascannon",
+                          "lascannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "volkite culverin",
+                          "volkite culverin"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "lascannon",
+                      "lascannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy flamer",
+                          "heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "volkite culverin",
+                          "volkite culverin"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Inviolable Transport",
+          "Text": "Attacks allocated to this unit have -1 D."
+        },
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 45 Adeptus Astartes Infantry models. And 2 Dreadnought models. Each Jump Pack, Gravis, Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Dreadnought model take up the space of a number of models equal to their W characteristic."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Titanic",
+        "Transport",
+        "Smoke",
+        "Mastodon",
+        "Frame",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise",
+        "Damaged 10"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Mastodon",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "9\""
+            },
+            {
+              "Id": "T",
+              "Value": "14"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "30"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "12"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "siege melta array",
+              "DisplayName": "Siege melta array",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "skyreaper battery",
+              "DisplayName": "Skyreaper battery",
+              "Keywords": "Anti-Fly 4+",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "volkite culverin",
+              "DisplayName": "Volkite culverin",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured tracks",
+              "DisplayName": "Armoured tracks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 540
+        }
+      ]
+    },
+    {
+      "Id": "RAPIER CARRIER",
+      "DisplayName": "Rapier Carrier",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Rapier Carrier",
+            "StatlineRef": "Rapier Carrier",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "armoured hull",
+                  "quad heavy bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "quad heavy bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "graviton cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "laser destroyer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "quad launcher (shatter shells)",
+                          "quad launcher (thunderfire shells)"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Powerful Volley",
+          "Text": "In a turn this unit remained stationary, ranged attacks that have [HEAVY] also have [LETHAL HITS]."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Artillery",
+        "Vehicle",
+        "Rapier Carrier",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Rapier Carrier",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "3\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "graviton cannon",
+              "DisplayName": "Graviton cannon",
+              "Keywords": "Anti-Vehicle 2+, Blast 2, Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "laser destroyer",
+              "DisplayName": "Laser destroyer",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6+3"
+                }
+              ]
+            },
+            {
+              "Id": "quad heavy bolter",
+              "DisplayName": "Quad heavy bolter",
+              "Keywords": "Heavy, Rapid Fire 2, Sustained Hits 1, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "quad launcher (shatter shells)",
+              "DisplayName": "Quad launcher (Shatter shells)",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "quad launcher (thunderfire shells)",
+              "DisplayName": "Quad launcher (Thunderfire shells)",
+              "Keywords": "Blast 1, Heavy, Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "60\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D3+6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured hull",
+              "DisplayName": "Armoured Hull",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
+      "Id": "SICARAN",
+      "DisplayName": "Sicaran",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Sicaran",
+            "StatlineRef": "Sicaran Battle Tank",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "herakles-pattern autocannon",
+                  "armoured tracks",
+                  "heavy bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lascannon",
+                          "lascannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "herakles-pattern autocannon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "arcus multi-launcher"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "omega plasma array (standard)",
+                          "omega plasma array (supercharge)"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "punisher rotary cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "venator neutron laser"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "hunter-killer missile"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "storm bolter"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Armoured Spearhead",
+          "Text": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+        },
+        {
+          "Title": "Damaged: 1-5 wounds remaining",
+          "Text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Sicaran Battle Tank",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Sicaran Battle Tank",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "4"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "arcus multi-launcher",
+              "DisplayName": "Arcus multi-launcher",
+              "Keywords": "Indirect Fire",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "7"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "herakles-pattern autocannon",
+              "DisplayName": "Herakles-pattern autocannon",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "hunter-killer missile",
+              "DisplayName": "Hunter-killer missile",
+              "Keywords": "One Shot",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "omega plasma array (standard)",
+              "DisplayName": "Omega plasma array (Standard)",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "omega plasma array (supercharge)",
+              "DisplayName": "Omega plasma array (Supercharge)",
+              "Keywords": "Hazardous",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "punisher rotary cannon",
+              "DisplayName": "Punisher rotary cannon",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "18"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "venator neutron laser",
+              "DisplayName": "Venator neutron laser",
+              "Keywords": "Heavy",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "16"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured tracks",
+              "DisplayName": "Armoured tracks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 180
+        }
+      ]
+    },
+    {
+      "Id": "TERRAX-PATTERN TERMITE",
+      "DisplayName": "Terrax-pattern Termite",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Terrax-pattern Termite",
+            "StatlineRef": "Terrax-pattern Termite",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "termite drill",
+                  "terrax melta cutter",
+                  "storm bolter",
+                  "storm bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "storm bolter",
+                      "storm bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy flamer",
+                          "heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "twin volkite charger"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Termite Assault",
+          "Text": "- This unit must start the battle in strategic reserves.\n- In your first Movement phase, this unit can make an ingress move.\n- When this unit is set up, all units embarked within this unit must make a disembark/assault disembark move, and those units must be set up more than 8\" away from all enemy units."
+        },
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Gravis, Jump Pack, Terminator or Centurion models."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Terrax-pattern Termite"
+      ],
+      "CoreAbilities": [
+        "Damaged 5",
+        "Deep Strike",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Terrax-pattern Termite",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "10"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "14"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "terrax melta cutter",
+              "DisplayName": "Terrax melta cutter",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "twin volkite charger",
+              "DisplayName": "Twin volkite charger",
+              "Keywords": "Devastating Wounds, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "termite drill",
+              "DisplayName": "Termite drill",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 200
+        }
+      ]
+    },
+    {
+      "Id": "TYPHON",
+      "DisplayName": "Typhon",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Typhon",
+            "StatlineRef": "Typhon",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "dreadhammer siege cannon",
+                  "armoured tracks"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "multi-melta"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "storm bolter"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy bolter",
+                          "heavy bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lascannon",
+                          "lascannon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Sunderer of Fortresses",
+          "Text": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristic of that attack by 1 (if that attack targets a FORTIFICATION unit, improve the Strength and Damage characteristics of that attack by 2 instead)."
+        },
+        {
+          "Title": "Damaged: 1-6 wounds remaining",
+          "Text": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Smoke",
+        "Typhon",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise D6"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Typhon",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "12"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "18"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "6"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "dreadhammer siege cannon",
+              "DisplayName": "Dreadhammer siege cannon",
+              "Keywords": "Blast",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6+6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "heavy bolter",
+              "DisplayName": "Heavy bolter",
+              "Keywords": "Rapid Fire 2, Sustained Hits 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "36\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Blast 1, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "-"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "lascannon",
+              "DisplayName": "Lascannon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+3"
+                }
+              ]
+            },
+            {
+              "Id": "multi-melta",
+              "DisplayName": "Multi-melta",
+              "Keywords": "Melta 3",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3+2"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "armoured tracks",
+              "DisplayName": "Armoured tracks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 320
+        }
+      ]
     }
   ],
   "Detachments": [],
