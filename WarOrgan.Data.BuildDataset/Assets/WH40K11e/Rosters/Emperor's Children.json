@@ -6675,7 +6675,34 @@
           "Effect": "Your unit can move through models (excluding <k>MONSTER/VEHICLE</k> models)."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Eager Patrons",
+          "Description": "<k>Flawless Blades</k> unit only. This unit has +2\" <b>M</b>.",
+          "Cost": 20,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "FLAWLESS BLADES"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Beguiling Grotesquerie",
+          "Description": "<k>Flawless Blades</k> unit only. Enemy units cannot target this unit with <b>snap shooting</b> attacks.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "FLAWLESS BLADES"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],
