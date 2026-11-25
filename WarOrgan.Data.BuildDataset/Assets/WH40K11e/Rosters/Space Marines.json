@@ -6398,6 +6398,10 @@
             "Key": "terminator honours upgrade",
             "DisplayName": "Terminator Honours upgrade",
             "Cost": 0
+          },
+          {
+            "Key": "vengor launcher",
+            "Cost": 5
           }
         ]
       },
@@ -12327,7 +12331,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -16786,7 +16795,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "macro plasma incinerator - standard",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
