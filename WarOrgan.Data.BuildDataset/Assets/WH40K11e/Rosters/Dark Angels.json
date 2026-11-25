@@ -959,8 +959,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Deathwing Sergeant",
             "StatlineRef": "Deathwing Terminator",
@@ -1007,8 +1007,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Deathwing Terminator",
             "StatlineRef": "Deathwing Terminator",
@@ -1518,32 +1518,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 380
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 380
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 380
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 380
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 380
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 420
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 420
         }
       ]
