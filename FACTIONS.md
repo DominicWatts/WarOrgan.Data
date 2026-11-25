@@ -46,7 +46,8 @@ Issue counts are closed/total faction-specific GitHub issues.
 
 - Candidate gaps (12): Space Marines — Drop Pod (Base), plus Cerberus, Falchion, Kratos, Mastodon, Rapier Carrier, Sicaran, Terrax-pattern Termite and Typhon (Legends). Adeptus Custodes — Aleya (Legends). Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
 - Classification review: Captain on Bike and Wolf Scouts remain in their shipped Legends rosters. Harlequins are tracked separately as an eight-datasheet prerequisite for Reaper’s Wager.
-- 1.5.20 wires attach targets for 43 Support characters (issue 10). 57 Leaders, mostly Space Marine characters, still have empty attach lists.
+- 1.5.20 wires attach targets for 43 Support characters (issue 10).
+- 1.5.21 fills attach targets for 57 Leaders that had none (issue 11). The five Death Guard specialists join Plague Marines as Support, since they can join a unit that already has a Leader.
 - 1.5.19 adds the Traitor Enforcer and 21 Shadow Legion allies. Reaper’s Wager still needs eight Harlequin datasheets.
 - 1.5.18 adds detachment-specific Daemon allies for World Eaters, Death Guard, Thousand Sons and Emperor’s Children. WarOrgan checks are pending.
 - 1.5.14 adds 572 stratagems and 12 enhancements. 1.5.15 adds 153 stratagems across Aeldari, Orks and Space Marine chapters. Empty lists remain for Sanctified Orators, Brute Bosses and Wurrband.
