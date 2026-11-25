@@ -43,6 +43,7 @@ Roster counts cover native datasheets. A dash means the target is unconfirmed or
 
 ## Status notes
 
+- 1.5.18 adds detachment-specific Daemon allies for World Eaters, Death Guard, Thousand Sons and Emperor’s Children. WarOrgan checks are pending.
 - 1.5.14 adds 572 stratagems and 12 enhancements. 1.5.15 adds 153 stratagems across Aeldari, Orks and Space Marine chapters. Empty lists remain for Sanctified Orators, Brute Bosses and Wurrband.
 - Genestealer Cults: signed off. Faction Pack 1.1 applied in 1.5.13.
 - Tyranids: roster and WarOrgan smoke checks passed. Faction Pack 1.3 coverage is partial.

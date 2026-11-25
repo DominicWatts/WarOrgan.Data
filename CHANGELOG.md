@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.18.0 - Added detachment-specific Daemon allies for World Eaters, Death Guard, Thousand Sons and Emperor’s Children.
+
 2026-11-25 : 1.5.17.0 - Added 14 enhancements to seven detachments across Death Guard, Emperor’s Children, World Eaters, Leagues of Votann and Necrons.
 
 2026-11-25 : 1.5.16.0 - Strip formatting tags from exported rule text while preserving list items.
