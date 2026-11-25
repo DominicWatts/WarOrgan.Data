@@ -90,7 +90,7 @@
         },
         {
           "Title": "Overlord",
-          "Text": "Once per battle, at the start of any phase, you can select one friendly **DRUKHARI** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+          "Text": "Once per battle, at the start of any phase, you can select one friendly DRUKHARI unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
         },
         {
           "Title": "Devious Mastermind",
@@ -102,7 +102,7 @@
         },
         {
           "Title": "Shadowfield",
-          "Text": "While this model has an **InSv**, this unit cannot re‑roll **save rolls**. When this model loses a wound (excluding from **mortal wounds**), this model has no **InSv** until the end of the battle."
+          "Text": "While this model has an InSv, this unit cannot re‑roll save rolls. When this model loses a wound (excluding from mortal wounds), this model has no InSv until the end of the battle."
         },
         {
           "Title": "Soul Trap",
@@ -415,7 +415,7 @@
         },
         {
           "Title": "Pain Engine (Aura)",
-          "Text": "Each time you spend 1 Pain token to Empower a friendly unit within 9\" of this unit, roll one D6, adding 1 to the result if one or more models in this unit are not equipped with a spirit vortex: on a 5+, you gain 1 Pain token.\n\n\n**Designer's Note:** Pain tokens you spend for reasons other than Empowering a unit do not trigger this ability."
+          "Text": "Each time you spend 1 Pain token to Empower a friendly unit within 9\" of this unit, roll one D6, adding 1 to the result if one or more models in this unit are not equipped with a spirit vortex: on a 5+, you gain 1 Pain token.\n\n\nDesigner's Note: Pain tokens you spend for reasons other than Empowering a unit do not trigger this ability."
         },
         {
           "Title": "Pain Parasite (Pain)",
@@ -1262,7 +1262,7 @@
         },
         {
           "Title": "Assassins' Poisons (Pain)",
-          "Text": "In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, weapons equipped by models in this unit (excluding blast pistols, blasters and dark lances) have the **[LETHAL HITS] AND [PRECISION]** abilities."
+          "Text": "In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, weapons equipped by models in this unit (excluding blast pistols, blasters and dark lances) have the [LETHAL HITS] AND [PRECISION] abilities."
         },
         {
           "Title": "Archon's Will",
@@ -1274,7 +1274,7 @@
         },
         {
           "Title": "Phantasm Grenade Launcher",
-          "Text": "The bearer’s unit has the **SMOKE** keyword."
+          "Text": "The bearer’s unit has the SMOKE keyword."
         },
         {
           "Title": "Kabalite icon",
@@ -1877,7 +1877,7 @@
         },
         {
           "Title": "Phantasm Grenade Launcher",
-          "Text": "The bearer’s unit has the **SMOKE AND GRENADES** keywords."
+          "Text": "The bearer’s unit has the SMOKE AND GRENADES keywords."
         }
       ],
       "Infos": [],
@@ -2213,7 +2213,7 @@
         },
         {
           "Title": "Decapitating Strikes (Pain)",
-          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a melee attack that targets an **INFANTRY UNIT, THAT ATTACK HAS THE [DEVASTATING WOUNDS]** ability."
+          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a melee attack that targets an INFANTRY UNIT, THAT ATTACK HAS THE [DEVASTATING WOUNDS] ability."
         },
         {
           "Title": "Incubi Shrine Token",
@@ -2643,7 +2643,7 @@
         },
         {
           "Title": "Phantasm Grenade Launcher",
-          "Text": "The bearer’s unit has the **SMOKE AND GRENADES** keywords."
+          "Text": "The bearer’s unit has the SMOKE AND GRENADES keywords."
         },
         {
           "Title": "Kabalite Icon",
@@ -3051,11 +3051,11 @@
         },
         {
           "Title": "Precognisant",
-          "Text": "If you army includes this model, after both players have deployed their armies, select up to three **DRUKHARI** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+          "Text": "If you army includes this model, after both players have deployed their armies, select up to three DRUKHARI units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
         },
         {
           "Title": "Mind Like a Steel Trap",
-          "Text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem** by 1CP."
+          "Text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
         }
       ],
       "LeaderInfo": {
@@ -3636,11 +3636,11 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 11 **DRUKHARI INFANTRY  MODELS (EXCLUDING JUMP PACK** models)."
+          "Text": "This model has a transport capacity of 11 DRUKHARI INFANTRY  MODELS (EXCLUDING JUMP PACK models)."
         },
         {
           "Title": "Splinter Racks (Pain)",
-          "Text": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the **ANTI** ability, you can re-roll the Hit roll."
+          "Text": "In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the ANTI ability, you can re-roll the Hit roll."
         },
         {
           "Title": "Vanguard of the Dark City",
@@ -4137,11 +4137,11 @@
         },
         {
           "Title": "Ground-attack Craft",
-          "Text": "Each time a model in this unit makes a ranged attack that targets an enemy unit (excluding units that can **FLY**), add 1 to the Hit roll."
+          "Text": "Each time a model in this unit makes a ranged attack that targets an enemy unit (excluding units that can FLY), add 1 to the Hit roll."
         },
         {
           "Title": "Nowhere to Run (Pain)",
-          "Text": "In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit (excluding **MONSTERS AND VEHICLES**) hit by one or more of those attacks; until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit's Move characteristic and subtract 2 from Charge rolls made for that unit."
+          "Text": "In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit (excluding MONSTERS AND VEHICLES) hit by one or more of those attacks; until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit's Move characteristic and subtract 2 from Charge rolls made for that unit."
         }
       ],
       "Infos": [],
@@ -4667,7 +4667,7 @@
         },
         {
           "Title": "Eviscerating Fly-by",
-          "Text": "Each time this unit ends a Normal or Advance move, you can select one enemy unit (excluding **MONSTER AND VEHICLE** units) that it moved over during that move, then roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+          "Text": "Each time this unit ends a Normal or Advance move, you can select one enemy unit (excluding MONSTER AND VEHICLE units) that it moved over during that move, then roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
         },
         {
           "Title": "Matchless Swiftness (Pain)",
@@ -4679,7 +4679,7 @@
         },
         {
           "Title": "Grav Talon",
-          "Text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the **[LETHAL HITS]** ability."
+          "Text": "The bearer’s melee weapons have an Armour Penetration characteristic of -2 and the [LETHAL HITS] ability."
         }
       ],
       "Infos": [],
@@ -5777,7 +5777,7 @@
         },
         {
           "Title": "Murderous Crossfire",
-          "Text": "After this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly **DRUKHARI** unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+          "Text": "After this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly DRUKHARI unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
         },
         {
           "Title": "Swooping Descent (Pain)",
@@ -6136,11 +6136,11 @@
         },
         {
           "Title": "Storm of Blades",
-          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+          "Text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Bloody Spectacle",
-          "Text": "Each time this model makes a melee attack that targets a **CHARACTER UNIT, YOU CAN RE-ROLL THE HIT ROLL AND YOU CAN RE-ROLL THE WOUND ROLL. EACH TIME THIS MODEL'S UNIT DESTROYS A CHARACTER** model, you gain 1CP."
+          "Text": "Each time this model makes a melee attack that targets a CHARACTER UNIT, YOU CAN RE-ROLL THE HIT ROLL AND YOU CAN RE-ROLL THE WOUND ROLL. EACH TIME THIS MODEL'S UNIT DESTROYS A CHARACTER model, you gain 1CP."
         }
       ],
       "LeaderInfo": {
@@ -6363,7 +6363,7 @@
         },
         {
           "Title": "Devoted to Pain",
-          "Text": "If a model in this unit is equipped with 2 macro-scalpels, those weapons have the **[TWIN-LINKED]** ability."
+          "Text": "If a model in this unit is equipped with 2 macro-scalpels, those weapons have the [TWIN-LINKED] ability."
         },
         {
           "Title": "Mindless Killing Machines (Pain)",
@@ -6808,11 +6808,11 @@
         },
         {
           "Title": "Aerialists",
-          "Text": "At the end of the Fight phase, if there are no models currently embarked within this **TRANSPORT**, you can select one friendly **DRUKHARI INFANTRY** unit that has 6 or fewer models that is wholly within 6\" of this **TRANSPORT** (you cannot select a unit that can **FLY**). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this **TRANSPORT**. That unit can embark within this **TRANSPORT** in a turn it disembarked from a **TRANSPORT**."
+          "Text": "At the end of the Fight phase, if there are no models currently embarked within this TRANSPORT, you can select one friendly DRUKHARI INFANTRY unit that has 6 or fewer models that is wholly within 6\" of this TRANSPORT (you cannot select a unit that can FLY). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT. That unit can embark within this TRANSPORT in a turn it disembarked from a TRANSPORT."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 6 **DRUKHARI INFANTRY** models (excluding **JUMP PACK** models).\n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one **KABALITE WARRIORS**, **HAND OF THE ARCHON** or **WYCHES** unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this model; the other can start the battle embarked within another **TRANSPORT**, or it can be deployed as a separate unit."
+          "Text": "This model has a transport capacity of 6 DRUKHARI INFANTRY models (excluding JUMP PACK models).\n\nBefore the battle, at the start of the Declare Battle Formations step, you can select one KABALITE WARRIORS, HAND OF THE ARCHON or WYCHES unit from your army that has not already been split. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units). One of these units must start the battle embarked within this model; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit."
         },
         {
           "Title": "Rapid Deployment (Pain)",
@@ -7078,7 +7078,7 @@
         },
         {
           "Title": "Void Mine",
-          "Text": "At the end of your opponent’s Fight phase, select one **visible** enemy model (excluding **Lone Operative** units) within 24\" of this unit, and roll one D6 for each enemy unit within D6\" of that model:\n- For each 4+, that enemy unit suffers D6 **mortal wounds**."
+          "Text": "At the end of your opponent’s Fight phase, select one visible enemy model (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for each enemy unit within D6\" of that model:\n- For each 4+, that enemy unit suffers D6 mortal wounds."
         },
         {
           "Title": "Nowhere to Hide (Pain)",
@@ -7546,11 +7546,11 @@
         },
         {
           "Title": "Torturer’s Craft",
-          "Text": "In your Shooting phase and the Fight phase, after this unit has shot or fought, select one enemy unit (excluding **VEHICLES**) hit by one or more of those attacks. That units must take a Battle-shock test."
+          "Text": "In your Shooting phase and the Fight phase, after this unit has shot or fought, select one enemy unit (excluding VEHICLES) hit by one or more of those attacks. That units must take a Battle-shock test."
         },
         {
           "Title": "Experimental Enhancements (Pain)",
-          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. Each time you do, select one of the following to apply to this unit until the end of the phase:\n\n- Melee weapons equipped by non-**CHARACTER** models in this unit have an Attacks characteristic of 3.\n- Melee weapons equipped by non-**CHARACTER MODELS IN THIS UNIT HAVE AN ATTACKS CHARACTERISTIC OF 4 AND THE [HAZARDOUS]** ability."
+          "Text": "In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. Each time you do, select one of the following to apply to this unit until the end of the phase:\n\n- Melee weapons equipped by non-CHARACTER models in this unit have an Attacks characteristic of 3.\n- Melee weapons equipped by non-CHARACTER MODELS IN THIS UNIT HAVE AN ATTACKS CHARACTERISTIC OF 4 AND THE [HAZARDOUS] ability."
         }
       ],
       "Infos": [],
@@ -7951,7 +7951,7 @@
         },
         {
           "Title": "No Escape",
-          "Text": "Each time an enemy unit (excluding **MONSTERS AND VEHICLES**) within Engagement Range of one or more units from your army with this ability Falls Back, all models in that enemy unit must take Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+          "Text": "Each time an enemy unit (excluding MONSTERS AND VEHICLES) within Engagement Range of one or more units from your army with this ability Falls Back, all models in that enemy unit must take Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
         },
         {
           "Title": "Acrobatic Gladiators (Pain)",
@@ -8204,7 +8204,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Alliance of Agony",
-        "Text": "At the start of the battle, you gain 2 Pain tokens for each of the following combinations your army contains (these do not need to be in the same Attached unit):\n- One or more ARCHON models and one or more KABALITE WARRIORS units.\n- One or more SUCCUBUS models and one or more WYCHES units.\n- One or more HAEMONCULUS models and one or more WRACKS units.\n\nDesigner’s Note: These are all cumulative, so if your army contains at least one of all of the combinations listed above, you start the battle with 6 Pain tokens.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is **DRUKHARI**, you can include **HARLEQUINS** and **ANHRATHE** units in your army, even though they do not have the **DRUKHARI** Faction keyword. The combined points value of **HARLEQUINS** and/or **ANHRATHE** units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo **HARLEQUINS** or **ANHRATHE** models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
+        "Text": "At the start of the battle, you gain 2 Pain tokens for each of the following combinations your army contains (these do not need to be in the same Attached unit):\n- One or more ARCHON models and one or more KABALITE WARRIORS units.\n- One or more SUCCUBUS models and one or more WYCHES units.\n- One or more HAEMONCULUS models and one or more WRACKS units.\n\nDesigner’s Note: These are all cumulative, so if your army contains at least one of all of the combinations listed above, you start the battle with 6 Pain tokens.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -8325,7 +8325,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Rain of Cruelty",
-        "Text": "Each time a **DRUKHARI UNIT FROM YOUR ARMY DISEMBARKS FROM A TRANSPORT**, until the end of the turn:\nRanged weapons equipped by models in that disembarking units have the **[IGNORES COVER]** ability.\nMelee weapons equipped by models in that disembarking unit have the **[LANCE]** ability.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is **DRUKHARI**, you can include **HARLEQUINS** and **ANHRATHE** units in your army, even though they do not have the **DRUKHARI** Faction keyword. The combined points value of **HARLEQUINS** and/or **ANHRATHE** units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo **HARLEQUINS** or **ANHRATHE** models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
+        "Text": "Each time a DRUKHARI UNIT FROM YOUR ARMY DISEMBARKS FROM A TRANSPORT, until the end of the turn:\nRanged weapons equipped by models in that disembarking units have the [IGNORES COVER] ability.\nMelee weapons equipped by models in that disembarking unit have the [LANCE] ability.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -8389,7 +8389,7 @@
       "Enhancements": [
         {
           "Name": "Phantasmal Smoke",
-          "Description": "**DRUKHARI MODEL ONLY. WHILE THE BEARER’S UNIT IS WHOLLY WITHIN 6\" OF A FRIENDLY DRUKHARI TRANSPORT**:\nModels in the bearer’s unit have the  Stealth ability\nEach time a ranged attack targets the bearer's unit, models in that unit have the Benefit of Cover against that attack.",
+          "Description": "DRUKHARI MODEL ONLY. WHILE THE BEARER’S UNIT IS WHOLLY WITHIN 6\" OF A FRIENDLY DRUKHARI TRANSPORT:\nModels in the bearer’s unit have the  Stealth ability\nEach time a ranged attack targets the bearer's unit, models in that unit have the Benefit of Cover against that attack.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8400,7 +8400,7 @@
         },
         {
           "Name": "Sadistic Fulcrum",
-          "Description": "**DRUKHARI MODEL ONLY. EACH TIME YOU SPEND 1 PAIN TOKEN TO EMPOWER THE BEARER’S UNIT IN THE SHOOTING PHASE, SELECT ONE FRIENDLY DRUKHARI TRANSPORT WITHIN 6\" OF THE BEARER’S UNIT; UNTIL THE END OF THE PHASE, EACH TIME THAT TRANSPORT** makes an attack, you can re-roll the Hit roll.",
+          "Description": "DRUKHARI MODEL ONLY. EACH TIME YOU SPEND 1 PAIN TOKEN TO EMPOWER THE BEARER’S UNIT IN THE SHOOTING PHASE, SELECT ONE FRIENDLY DRUKHARI TRANSPORT WITHIN 6\" OF THE BEARER’S UNIT; UNTIL THE END OF THE PHASE, EACH TIME THAT TRANSPORT makes an attack, you can re-roll the Hit roll.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8411,7 +8411,7 @@
         },
         {
           "Name": "Spiteful Raider",
-          "Description": "**DRUKHARI** model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token.",
+          "Description": "DRUKHARI model only. Each time the bearer’s unit destroys an enemy unit in the Fight phase, if that enemy unit was within range of one or more objective markers when the bearer’s unit was selected to fight, you gain 1 additional Pain token.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8422,7 +8422,7 @@
         },
         {
           "Name": "Nightmare Shroud",
-          "Description": "**DRUKHARI MODEL ONLY. EACH TIME THE BEARER’S UNIT DISEMBARKS FROM A TRANSPORT**, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
+          "Description": "DRUKHARI MODEL ONLY. EACH TIME THE BEARER’S UNIT DISEMBARKS FROM A TRANSPORT, until the end of the turn, enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer’s unit.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8504,7 +8504,7 @@
       "Enhancements": [
         {
           "Name": "Archraider",
-          "Description": "**HARLEQUINS OR DRUKHARI MODEL ONLY. IN THE DECLARE BATTLE FORMATIONS STEP, IF THE BEARER STARTS THE BATTLE EMBARKED WITHIN A DEDICATED TRANSPORT, THAT DEDICATED TRANSPORT** has the Scouts 9\" ability.",
+          "Description": "HARLEQUINS OR DRUKHARI MODEL ONLY. IN THE DECLARE BATTLE FORMATIONS STEP, IF THE BEARER STARTS THE BATTLE EMBARKED WITHIN A DEDICATED TRANSPORT, THAT DEDICATED TRANSPORT has the Scouts 9\" ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8515,7 +8515,7 @@
         },
         {
           "Name": "Webway walker",
-          "Description": "**HARLEQUINS OR DRUKHARI** model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re‑roll Charge rolls made for that unit.",
+          "Description": "HARLEQUINS OR DRUKHARI model only. Models in the bearer’s unit have the Deep Strike ability. Each time the bearer’s unit is set up on the battlefield using the Deep Strike ability, if that unit is currently losing the wager, until the end of the turn, you can re‑roll Charge rolls made for that unit.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8526,7 +8526,7 @@
         },
         {
           "Name": "Reaper's Cowl",
-          "Description": "**HARLEQUINS** model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities.",
+          "Description": "HARLEQUINS model only. Models in the bearer’s unit have the Stealth and Infiltrators abilities.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8539,7 +8539,7 @@
         },
         {
           "Name": "Conductor of Torment",
-          "Description": "**DRUKHARI** model only. In your Command phase, you can do one of the following:\n- If your **DRUKHARI UNITS ARE CURRENTLY LOSING THE WAGER, YOU CAN GAIN 1 PAIN TOKEN. IF YOU DO, DRUKHARI** units from your army are now winning the wager.\n- If your **DRUKHARI UNITS ARE CURRENTLY WINNING THE WAGER, YOU CAN DISCARD 1 PAIN TOKEN. IF YOU DO, HARLEQUINS** units from your army are now winning the wager.",
+          "Description": "DRUKHARI model only. In your Command phase, you can do one of the following:\n- If your DRUKHARI UNITS ARE CURRENTLY LOSING THE WAGER, YOU CAN GAIN 1 PAIN TOKEN. IF YOU DO, DRUKHARI units from your army are now winning the wager.\n- If your DRUKHARI UNITS ARE CURRENTLY WINNING THE WAGER, YOU CAN DISCARD 1 PAIN TOKEN. IF YOU DO, HARLEQUINS units from your army are now winning the wager.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8558,7 +8558,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Stitchflesh Abominations",
-        "Text": "Each time an attack targets a HAEMONCULUS COVENS unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is **DRUKHARI**, you can include **HARLEQUINS** and **ANHRATHE** units in your army, even though they do not have the **DRUKHARI** Faction keyword. The combined points value of **HARLEQUINS** and/or **ANHRATHE** units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo **HARLEQUINS** or **ANHRATHE** models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
+        "Text": "Each time an attack targets a HAEMONCULUS COVENS unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -8623,7 +8623,7 @@
       "Enhancements": [
         {
           "Name": "Master Regenesist",
-          "Description": "**HAEMONCULUS** model only. Each time the bearer uses its Fleshcraft ability, you can return up to D3+3 destroyed Bodyguard models to the bearer's unit instead of D3+1.",
+          "Description": "HAEMONCULUS model only. Each time the bearer uses its Fleshcraft ability, you can return up to D3+3 destroyed Bodyguard models to the bearer's unit instead of D3+1.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8636,7 +8636,7 @@
         },
         {
           "Name": "Master Nemesine",
-          "Description": "**HAEMONCULUS MODEL ONLY. THE BEARER'S WEAPONS HAVE THE [ANTI-BEAST 2+] AND [ANTI-MONSTER 4+]** abilities.",
+          "Description": "HAEMONCULUS MODEL ONLY. THE BEARER'S WEAPONS HAVE THE [ANTI-BEAST 2+] AND [ANTI-MONSTER 4+] abilities.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8649,7 +8649,7 @@
         },
         {
           "Name": "Master Artisan",
-          "Description": "**HAEMONCULUS** model only. Add 1 to the bearer's Wounds characteristic and add 1 to the Toughness characteristic of models in the bearer's unit.",
+          "Description": "HAEMONCULUS model only. Add 1 to the bearer's Wounds characteristic and add 1 to the Toughness characteristic of models in the bearer's unit.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8662,7 +8662,7 @@
         },
         {
           "Name": "Master Repugnomancer [Aura]",
-          "Description": "**HAEMONCULUS MODEL ONLY. ADD 3\" TO THE RANGE OF THE BEARER'S FEAR INCARNATE ABILITY, AND EACH TIME A FRIENDLY DRUKHARI** within 9\" of the bearer fails a Battle-shock test or is destroyed, roll one D6; on a 4+, you gain 1 Pain token.",
+          "Description": "HAEMONCULUS MODEL ONLY. ADD 3\" TO THE RANGE OF THE BEARER'S FEAR INCARNATE ABILITY, AND EACH TIME A FRIENDLY DRUKHARI within 9\" of the bearer fails a Battle-shock test or is destroyed, roll one D6; on a 4+, you gain 1 Pain token.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8681,7 +8681,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Murderous Agenda",
-        "Text": "At the start of the first battle round, select one of the Contracts from below, then select one unit from your opponent's army that matches the 'Contract' description in the Contract. Until that Contract is completed, that unit is your Contract unit and **KABAL AND BLADES FOR HIRE** units from your army have the ability stated in that Contract. At the start of your Command phase, if your Contract unit is destroyed, that Contract is completed and you gain 3 Pain tokens.\n\n**Trophy Hunters**\n**Contract:** One **CHARACTER** unit.\n**Ability:** Each time a **KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS THE CONTRACT UNIT, THAT ATTACK HAS THE [PRECISION]** ability.\n\n**Sow Fear and Terror**\n**Contract:** One **INFANTRY OR MOUNTED UNIT (EXCLUDING UNITS CONTAINING ONLY CHARACTER MODELS). AT THE START OF YOUR COMMAND PHASE, THIS CONTRACT IS COMPLETED IF ALL NON-CHARACTER** models in that unit are destroyed.\n**Ability:** Each time a **KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS AN INFANTRY OR MOUNTED UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 1]** ability.\n\n**Show of Strength**\n**Contract:** One **MONSTER OR VEHICLE** unit.\n**Ability:** Each time a **KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS A MONSTER OR VEHICLE UNIT, THAT ATTACK HAS THE [LETHAL HITS]** ability.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is **DRUKHARI**, you can include **HARLEQUINS** and **ANHRATHE** units in your army, even though they do not have the **DRUKHARI** Faction keyword. The combined points value of **HARLEQUINS** and/or **ANHRATHE** units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo **HARLEQUINS** or **ANHRATHE** models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
+        "Text": "At the start of the first battle round, select one of the Contracts from below, then select one unit from your opponent's army that matches the 'Contract' description in the Contract. Until that Contract is completed, that unit is your Contract unit and KABAL AND BLADES FOR HIRE units from your army have the ability stated in that Contract. At the start of your Command phase, if your Contract unit is destroyed, that Contract is completed and you gain 3 Pain tokens.\n\n**Trophy Hunters**\nContract: One CHARACTER unit.\nAbility: Each time a KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS THE CONTRACT UNIT, THAT ATTACK HAS THE [PRECISION] ability.\n\n**Sow Fear and Terror**\nContract: One INFANTRY OR MOUNTED UNIT (EXCLUDING UNITS CONTAINING ONLY CHARACTER MODELS). AT THE START OF YOUR COMMAND PHASE, THIS CONTRACT IS COMPLETED IF ALL NON-CHARACTER models in that unit are destroyed.\nAbility: Each time a KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS AN INFANTRY OR MOUNTED UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 1] ability.\n\n**Show of Strength**\nContract: One MONSTER OR VEHICLE unit.\nAbility: Each time a KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS A MONSTER OR VEHICLE UNIT, THAT ATTACK HAS THE [LETHAL HITS] ability.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
       "ForceDispositions": [
         "Disruption"
@@ -8745,7 +8745,7 @@
       "Enhancements": [
         {
           "Name": "Leechbite Plate",
-          "Description": "**ARCHON** model only. The bearer has a Save characteristic of 3+. At the start of either player's Command phase, you can spend 1 Pain token; if you do, the bearer regains all of its lost wounds.",
+          "Description": "ARCHON model only. The bearer has a Save characteristic of 3+. At the start of either player's Command phase, you can spend 1 Pain token; if you do, the bearer regains all of its lost wounds.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8758,7 +8758,7 @@
         },
         {
           "Name": "Webway Awl",
-          "Description": "**ARCHON** model only. Models in the bearer's unit have the Deep Strike ability, and you can target the bearer's unit with the Rapid Ingress Stratagem for 0CP.",
+          "Description": "ARCHON model only. Models in the bearer's unit have the Deep Strike ability, and you can target the bearer's unit with the Rapid Ingress Stratagem for 0CP.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8771,7 +8771,7 @@
         },
         {
           "Name": "Informant Network",
-          "Description": "**ARCHON MODEL ONLY. AT THE START OF THE DECLARE BATTLE FORMATIONS STEP, SELECT UP TO THREE KABALITE WARRIORS AND/OR HAND OF THE ARCHON** units from your army; those units gain the Infiltrators ability.",
+          "Description": "ARCHON MODEL ONLY. AT THE START OF THE DECLARE BATTLE FORMATIONS STEP, SELECT UP TO THREE KABALITE WARRIORS AND/OR HAND OF THE ARCHON units from your army; those units gain the Infiltrators ability.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8784,7 +8784,7 @@
         },
         {
           "Name": "Towering Arrogance",
-          "Description": "**ARCHON** models only. While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1.",
+          "Description": "ARCHON models only. While the bearer is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8803,7 +8803,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Combat Drugs",
-        "Text": "At the start of your Command phase, select which Combat Drugs will be active for your army until the start of your next Command phase. To do so, either select one from the list below (you cannot select the same Combat Drug more than once per battle), or randomly select two by rolling two D6. When doing so randomly, Combat Drugs you have previously selected can become active again, but if you randomly select one that is already active for your army, it has no additional effect.\n\n\n**1. Adrenalight**\nAdd 1 to the Attacks characteristic of melee weapons equipped by **WYCH CULT** models from your army.\n\n\n**2. Hypex**\nAdd 2\" to the Move characteristic of **WYCH CULT** models from your army.\n\n\n**3. Serpentin**\nImprove the Weapon Skill characteristic of melee weapons equipped by **WYCH CULT** models from your army by 1.\n\n\n**4. Painbringer**\nAdd 1 to the Toughness characteristic of **WYCH CULT** models from your army.\n\n\n**5. Grave Lotus**\nAdd 1 to the Strength characteristic of melee weapons equipped by **WYCH CULT** models from your army.\n\n\n**6. Splintermind**\nImprove the Leadership characteristic of **WYCH CULT MODELS FROM YOUR ARMY BY 1, AND IMPROVE THE BALLISTIC SKILL CHARACTERISTIC OF RANGED WEAPONS EQUIPPED BY WYCH CULT** models from your army by 1.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is **DRUKHARI**, you can include **HARLEQUINS** and **ANHRATHE** units in your army, even though they do not have the **DRUKHARI** Faction keyword. The combined points value of **HARLEQUINS** and/or **ANHRATHE** units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo **HARLEQUINS** or **ANHRATHE** models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
+        "Text": "At the start of your Command phase, select which Combat Drugs will be active for your army until the start of your next Command phase. To do so, either select one from the list below (you cannot select the same Combat Drug more than once per battle), or randomly select two by rolling two D6. When doing so randomly, Combat Drugs you have previously selected can become active again, but if you randomly select one that is already active for your army, it has no additional effect.\n\n\n**1. Adrenalight**\nAdd 1 to the Attacks characteristic of melee weapons equipped by WYCH CULT models from your army.\n\n\n**2. Hypex**\nAdd 2\" to the Move characteristic of WYCH CULT models from your army.\n\n\n**3. Serpentin**\nImprove the Weapon Skill characteristic of melee weapons equipped by WYCH CULT models from your army by 1.\n\n\n**4. Painbringer**\nAdd 1 to the Toughness characteristic of WYCH CULT models from your army.\n\n\n**5. Grave Lotus**\nAdd 1 to the Strength characteristic of melee weapons equipped by WYCH CULT models from your army.\n\n\n**6. Splintermind**\nImprove the Leadership characteristic of WYCH CULT MODELS FROM YOUR ARMY BY 1, AND IMPROVE THE BALLISTIC SKILL CHARACTERISTIC OF RANGED WEAPONS EQUIPPED BY WYCH CULT models from your army by 1.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -8867,7 +8867,7 @@
       "Enhancements": [
         {
           "Name": "Pharmacophex",
-          "Description": "**SUCCUBUS** model only. At the start of your Command phase, after selecting which Combat Drugs will be active for your army, roll one D6 and consult the Combat Drugs list. The result rolled applies to the bearer's unit until the start of your next Command phase in addition to any other Combat Drugs that are active for your army. If you randomly select one that is already active for your army, it has no additional effect.",
+          "Description": "SUCCUBUS model only. At the start of your Command phase, after selecting which Combat Drugs will be active for your army, roll one D6 and consult the Combat Drugs list. The result rolled applies to the bearer's unit until the start of your next Command phase in addition to any other Combat Drugs that are active for your army. If you randomly select one that is already active for your army, it has no additional effect.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8880,7 +8880,7 @@
         },
         {
           "Name": "Chronoshard",
-          "Description": "** SUCCUBUS** model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability.",
+          "Description": " SUCCUBUS model only. Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8893,7 +8893,7 @@
         },
         {
           "Name": "Periapt of Torments",
-          "Description": "**SUCCUBUS** model only. Enemy units cannot use the Fire Overwatch stratagem to shoot at the bearer's unit.",
+          "Description": "SUCCUBUS model only. Enemy units cannot use the Fire Overwatch stratagem to shoot at the bearer's unit.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8906,7 +8906,7 @@
         },
         {
           "Name": "Morghenna's Curse",
-          "Description": "**SUCCUBUS** model only. Improve the Armour Penetration and Damage characteristics of the bearer's melee weapons by 1.",
+          "Description": "SUCCUBUS model only. Improve the Armour Penetration and Damage characteristics of the bearer's melee weapons by 1.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8925,7 +8925,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Exacting Cruelty",
-        "Text": "Friendly **WYCH CULT** units' melee attacks have **[LETHAL HITS: non-MONSTER/VEHICLE]**.\n\nThis **detachment** has the **WYCH CULT** tag and cannot be taken with another **WYCH CULT detachment**.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is **DRUKHARI**, you can include **HARLEQUINS** and **ANHRATHE** units in your army, even though they do not have the **DRUKHARI** Faction keyword. The combined points value of **HARLEQUINS** and/or **ANHRATHE** units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo **HARLEQUINS** or **ANHRATHE** models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
+        "Text": "Friendly WYCH CULT units' melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE].\n\nThis detachment has the WYCH CULT tag and cannot be taken with another WYCH CULT detachment.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -8962,7 +8962,7 @@
       "Enhancements": [
         {
           "Name": "Hyperstimm Trafficker",
-          "Description": "**SUCCUBUS** model only. This unit has +1 **T**.",
+          "Description": "SUCCUBUS model only. This unit has +1 T.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8975,7 +8975,7 @@
         },
         {
           "Name": "Periapt of Torments",
-          "Description": "**SUCCUBUS** model only. Enemy units cannot target this unit with **snap shooting** attacks.",
+          "Description": "SUCCUBUS model only. Enemy units cannot target this unit with snap shooting attacks.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8994,7 +8994,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Contracted Harvest",
-        "Text": "Friendly **BLADES FOR HIRE/KABAL** units’ ranged attacks have **[SUSTAINED HITS 1: non-MONSTER/VEHICLE]**.\n\nThis **detachment** has the **KABAL** tag and cannot be taken with another **KABAL detachment**.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is **DRUKHARI**, you can include **HARLEQUINS** and **ANHRATHE** units in your army, even though they do not have the **DRUKHARI** Faction keyword. The combined points value of **HARLEQUINS** and/or **ANHRATHE** units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo **HARLEQUINS** or **ANHRATHE** models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
+        "Text": "Friendly BLADES FOR HIRE/KABAL units’ ranged attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE].\n\nThis detachment has the KABAL tag and cannot be taken with another KABAL detachment.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
       "ForceDispositions": [
         "Disruption"
@@ -9031,7 +9031,7 @@
       "Enhancements": [
         {
           "Name": "Towering Arrogance",
-          "Description": "**ARCHON** model only. This unit has:\n- +1 **Ld** and **OC**.",
+          "Description": "ARCHON model only. This unit has:\n- +1 Ld and OC.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9044,7 +9044,7 @@
         },
         {
           "Name": "Contempt For Rivals",
-          "Description": "**ARCHON** model only. This unit’s attacks have **[PRECISION]**.",
+          "Description": "ARCHON model only. This unit’s attacks have [PRECISION].",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9063,7 +9063,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Darkest Artifice",
-        "Text": "Attacks that target friendly **CRONOS/TALOS** units with a **S** greater than that unit’s **T** have ‑1 to **wound rolls**.\n\n\nThis **detachment** has the **COVENS** tag and cannot be taken with another **COVENS detachment**.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is **DRUKHARI**, you can include **HARLEQUINS** and **ANHRATHE** units in your army, even though they do not have the **DRUKHARI** Faction keyword. The combined points value of **HARLEQUINS** and/or **ANHRATHE** units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo **HARLEQUINS** or **ANHRATHE** models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
+        "Text": "Attacks that target friendly CRONOS/TALOS units with a S greater than that unit’s T have ‑1 to wound rolls.\n\n\nThis detachment has the COVENS tag and cannot be taken with another COVENS detachment.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -9100,7 +9100,7 @@
       "Enhancements": [
         {
           "Name": "Gnarlskin Experimentor",
-          "Description": "**HAEMONCULUS** model only. Attacks that target this unit with a **S** greater than your unit’s **T** have ‑1 to **wound rolls**.",
+          "Description": "HAEMONCULUS model only. Attacks that target this unit with a S greater than your unit’s T have ‑1 to wound rolls.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9113,7 +9113,7 @@
         },
         {
           "Name": "Elixir of the Corpse Courts",
-          "Description": "**CRONOS/TALOS** unit only. This unit has **5+ InSv**.",
+          "Description": "CRONOS/TALOS unit only. This unit has 5+ InSv.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
