@@ -2,7 +2,7 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.14.0
+## Coverage in 1.5.15.0
 
 - Genestealer Cults: all 24 native datasheets, plus the Tectonic Fragdrill as a Warhammer Legends unit. Switch on Legends for a list to select it.
 - Invulnerable saves are given as an Inv characteristic and as an ability on each unit that has one.
@@ -31,7 +31,7 @@ Brood Brother Auxilia lets you include the 51 eligible Astra Militarum datasheet
 
 These 31 factions are drafts converted automatically from the November 2026 BSData dump. They have not been checked against Wahapedia or GW's faction packs, so expect mistakes in rules text, wargear options and points. Treat them as a starting point and build lists to the datasheets.
 
-- The latest batch added 572 stratagems and 12 enhancements. Some Aeldari, Orks and chapter-specific detachments still have gaps. See FACTIONS.md for coverage. Some enhancement, detachment and leader effects are represented as rule text.
+- Versions 1.5.14 and 1.5.15 added 725 stratagems and 12 enhancements. Sanctified Orators, Brute Bosses and Wurrband still have empty stratagem lists. See FACTIONS.md for coverage. Some enhancement, detachment and leader effects are represented as rule text.
 - Space Marine chapters are separate factions. Each can also take the Space Marines datasheets and has the generic Space Marine detachments alongside its own.
 - Where BSData's wargear could not be converted exactly, weapons are offered as swaps for a starting weapon of the same type, so some units allow loadouts their datasheet does not. Build units to the datasheet.
 - BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Captain in Gravis Armour, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.

@@ -22,14 +22,15 @@ See [FACTIONS.md](FACTIONS.md) for coverage and [CHANGELOG.md](CHANGELOG.md) for
 
 ## Progress
 
-- Public release: **1.5.13.0**. Genestealer Cults and Tyranids are signed off.
-- Development test: **1.5.14.0** adds 572 stratagems, 12 enhancements and paid wargear. Check that a newly populated detachment shows its entries and that selected wargear is charged once per selection.
+- Genestealer Cults and Tyranids are signed off.
+- **1.5.15.0** adds 153 stratagems, including Blade of Ultramar, on top of the 1.5.14 batch. Three empty lists remain without matching entries: Sanctified Orators, Brute Bosses and Wurrband.
 - Astra Militarum includes Hell’s Last and Vendetta Gunship. The Brood Brother Auxilia list still contains 51 IDs. App checks below remain open.
 - Sororitas and T’au have roster and wargear fixes on develop, including the latest weapon surcharges. Both remain in progress.
-- Marine army-rule display passed in 1.5.12. Chapter-specific stratagem coverage remains open.
+- Marine army-rule display passed in 1.5.12. Chapter stratagems are in place and await WarOrgan display testing.
 
 ## Needs the owner (app testing)
 
+- [ ] Ultramarines (1.5.15, issue 7): Blade of Ultramar shows six stratagems. Ironstorm Spearhead, Devastator Brethren and Terminator Storm Force still show three each.
 - [ ] Astra Militarum (1.5.10): both 110-point Grenadier lineups and rejection of mixed invalid counts.
 - [ ] Astra Militarum (1.5.10): Tempestus special-weapon limits and both medi-pack choices.
 - [x] Astra Militarum (1.5.10): Ratling Battlemutt and Demolition Gear on a ten-model unit only. Passed.

@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.15.0 - Added 153 stratagems across Aeldari, Orks and Space Marine chapters, including six for Blade of Ultramar (issue 7).
+
 2026-11-25 : 1.5.14.0 - Added 572 stratagems, 12 enhancements and missing wargear surcharges across the faction rosters.
 
 2026-11-24 : 1.5.13.0 - Genestealer Cults checked against Faction Pack 1.1 (22 July 2026): the data already had its changes; the Cult Ambush rule now uses the pack's wording, and a duplicated Psionic Parasitism heading was removed from the faction branch.
