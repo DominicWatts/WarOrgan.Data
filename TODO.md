@@ -17,6 +17,7 @@ See [FACTIONS.md](FACTIONS.md) for coverage and [CHANGELOG.md](CHANGELOG.md) for
 
 1. Batch missing stratagems and enhancements on the existing faction branches. Skip Boarding Actions and preserve intentional empty entries.
 2. Fill missing base and Legends rosters, army rules, detachment rules, dispositions, points, paid wargear and attachment links. Preserve published IDs and hand fixes. Keep unsupported effects as rule text.
+   - Start with the 12 candidate roster gaps and two classification conflicts in [FACTIONS.md](FACTIONS.md#status-notes). Reconcile the provisional totals against ListForge and faction packs as those inputs become available.
 3. Add remaining allies with explicit eligibility and points caps where needed. Cover Agents of the Imperium, Imperial Knights, Chaos Daemons and Chaos Knights.
 4. Apply faction-pack corrections and record the pack versions. Genestealer Cults 1.1 is already applied.
 
