@@ -2,7 +2,9 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.23.0
+## Coverage in 1.5.24.0
+
+- Rule text no longer shows stray double-asterisk bold markers; whole-line headings are kept.
 
 - Adeptus Custodes: all 13 Codex detachments, including the six Shield Host detachments, with full Martial Ka'tah rules. Anathema Psykana units and Aleya are included. Points follow GW's app data, and the Shield-Captain's Praesidium Shield costs 25 points. Only one Shield Host detachment per army is not enforced.
 

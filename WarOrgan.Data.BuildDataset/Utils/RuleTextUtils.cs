@@ -48,17 +48,39 @@ public static partial class RuleTextUtils
 
     private static string ToPlainText(string text)
     {
-        if (!RuleTag().IsMatch(text))
-            return text;
-
-        return RuleTag().Replace(text, match => match.Value.ToLowerInvariant() switch
+        if (RuleTag().IsMatch(text))
         {
-            "<li>" => "\n- ",
-            "<br>" or "<br/>" or "<br />" or "</ul>" or "</ol>" => "\n",
-            _ => string.Empty
-        }).Trim();
+            text = RuleTag().Replace(text, match => match.Value.ToLowerInvariant() switch
+            {
+                "<li>" => "\n- ",
+                "<br>" or "<br/>" or "<br />" or "</ul>" or "</ol>" => "\n",
+                _ => string.Empty
+            }).Trim();
+        }
+
+        return text.Contains("**") ? StripInlineBold(text) : text;
+    }
+
+    /// <summary>Removes inline ** markers, keeping lines that are a whole **Heading**.</summary>
+    private static string StripInlineBold(string text)
+    {
+        var lines = text.Split('\n');
+        for (var i = 0; i < lines.Length; i++)
+        {
+            if (BoldHeadingLine().IsMatch(lines[i]))
+                continue;
+
+            lines[i] = InlineBold().Replace(lines[i], "$1").Replace("**", string.Empty);
+        }
+        return string.Join("\n", lines);
     }
 
     [GeneratedRegex(@"</?(?:b|i|ins|k|u|ul|ol|li)>|<br\s*/?>", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)]
     private static partial Regex RuleTag();
+
+    [GeneratedRegex(@"^\s*\*\*[^*]+\*\*\s*\r?$")]
+    private static partial Regex BoldHeadingLine();
+
+    [GeneratedRegex(@"\*\*([^*]+?)\*\*")]
+    private static partial Regex InlineBold();
 }
