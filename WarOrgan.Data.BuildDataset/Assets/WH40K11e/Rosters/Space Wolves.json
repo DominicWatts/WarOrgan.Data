@@ -5890,7 +5890,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Heroic Resolve",
+          "Category": "Champions of Fenris Stratagem",
+          "CPCost": 2,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly <k>Adeptus Astartes Character</k> unit.",
+          "Target": "That <k>Adeptus Astartes Character</k> unit.",
+          "Effect": "Attacks that target your unit have ‑1 <b>D</b> until that enemy unit has attacked."
+        },
+        {
+          "Name": "Birth of a Saga",
+          "Category": "Champions of Fenris Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>Adeptus Astartes</k> unit (excluding <k>Monster/Vehicle</k> units).",
+          "Effect": "Until the start of your next Command phase, your unit has <k>Character</k>."
+        },
+        {
+          "Name": "Champion's Guidance",
+          "Category": "Champions of Fenris Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Adeptus Astartes Character</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Adeptus Astartes Character</k> unit.",
+          "Effect": "Your unit’s melee attacks can re-roll <b>hit rolls</b> of 1 and <b>wound rolls</b> of 1."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "A Giant Amongst Giants",
@@ -5931,7 +5959,35 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Impetuosity",
+          "Category": "Saga of the Beastslayer Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly <b>unengaged</b> <k>Blood Claws/Thunderwolf Cavalry/Wulfen</k> unit has shot.",
+          "Target": "That <k>Blood Claws/Thunderwolf Cavalry/Wulfen</k> unit.",
+          "Effect": "Your unit can make a <b>surge move</b> of up to D6”."
+        },
+        {
+          "Name": "Co-ordinated Strike",
+          "Category": "Saga of the Beastslayer Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One <b>unengaged</b> <k>Blood Claws/Thunderwolf Cavalry/Wulfen</k> unit that is within 9\" of one or more battlefield edges.",
+          "Effect": "Place your unit in <b>strategic reserves</b>."
+        },
+        {
+          "Name": "Unbridled Feroicity",
+          "Category": "Saga of the Beastslayer Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Blood Claws/Thunderwolf Cavalry/Wulfen</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Blood Claws/Thunderwolf Cavalry/Wulfen</k> unit.",
+          "Effect": "Your unit’s melee attacks have <k>[LANCE]</k>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Wolf-Touched",
@@ -5968,7 +6024,62 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Fangs of the Pack",
+          "Category": "Saga of the Great Wolf Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Adeptus Astartes Infantry/Mounted</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Adeptus Astartes Infantry/Mounted</k> unit.",
+          "Effect": "Your unit’s melee attacks have <k>[Precision]</k>."
+        },
+        {
+          "Name": "Grimnar's Command",
+          "Category": "Saga of the Great Wolf Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>Adeptus Astartes</k> unit (excluding <k>Monster/Vehicle</k> units).",
+          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+        },
+        {
+          "Name": "Fenrisian Ferocity",
+          "Category": "Saga of the Great Wolf Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement or Charge",
+          "When": "Your Movement/Charge phase, when a friendly <k>Adeptus Astartes Mounted/Walker</k> unit is <b>selected to move</b> or <b>declares a charge</b>.",
+          "Target": "That <k>Adeptus Astartes Mounted/Walker</k> unit.",
+          "Effect": "Your unit has <k>Mobile</k>."
+        },
+        {
+          "Name": "Eye of the Pack",
+          "Category": "Saga of the Great Wolf Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase, or the Fight phase, when a friendly <k>Adeptus Astartes Infantry</k> unit is <b>selected to attack</b>.",
+          "Target": "That <k>Adeptus Astartes Infantry</k> unit.",
+          "Effect": "Your unit’s attacks can re-roll <b>wound rolls</b> of 1 and 2."
+        },
+        {
+          "Name": "Wolf Totems",
+          "Category": "Saga of the Great Wolf Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly <k>Adeptus Astartes Infantry/Mounted</k> unit suffers a <b>mortal wound</b>.",
+          "Target": "That <k>Adeptus Astartes Infantry/Mounted</k> unit.",
+          "Effect": "Your unit has <b>Feel No Pain 5+</b> against <b>mortal wounds</b>."
+        },
+        {
+          "Name": "Battle Instincts",
+          "Category": "Saga of the Great Wolf Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly <b>unengaged</b> <k>Adeptus Astartes Infantry/Mounted</k> unit has shot.",
+          "Target": "That <k>Adeptus Astartes Infantry/Mounted</k> unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3”."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Grimnar's Mark",
