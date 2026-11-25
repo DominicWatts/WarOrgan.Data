@@ -11,7 +11,7 @@ Roster counts cover native datasheets. A dash means the target is unconfirmed or
 | Astra Militarum | 72/72 (100%) | 63/63 (100%) | Complete | Complete | Complete | Complete | Complete | 2/2 (100%) |
 | Adepta Sororitas | 33/— | 5/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
 | Adeptus Custodes | 24/— | 6/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Adeptus Mechanicus | 34/— | 3/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
+| Adeptus Mechanicus | 34/— | 3/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Agents of the Imperium | 29/— | 11/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Grey Knights | 26/— | 5/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Imperial Knights | 22/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
@@ -27,22 +27,23 @@ Roster counts cover native datasheets. A dash means the target is unconfirmed or
 | Space Wolves | 20/— | 14/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
 | Ultramarines | 11/— | 5/— | Complete | Incomplete | Incomplete | Incomplete | Incomplete | 2/3 (67%) |
 | White Scars | 2/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Chaos Space Marines | 56/— | 26/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Chaos Daemons | 56/— | 12/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Chaos Knights | 19/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Death Guard | 30/— | 11/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Emperor's Children | 18/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Thousand Sons | 29/— | 2/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| World Eaters | 25/— | 2/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
+| Chaos Space Marines | 56/— | 26/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Chaos Daemons | 56/— | 12/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Chaos Knights | 19/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Death Guard | 30/— | 11/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Emperor's Children | 18/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Thousand Sons | 29/— | 2/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| World Eaters | 25/— | 2/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Aeldari | 57/— | 21/— | Complete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Drukhari | 23/— | 7/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Leagues of Votann | 22/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Necrons | 52/— | 12/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
+| Drukhari | 23/— | 7/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Leagues of Votann | 22/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Necrons | 52/— | 12/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Orks | 55/— | 15/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
 | T'au Empire | 43/— | 20/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | 1/1 (100%) |
 
 ## Status notes
 
+- 1.5.14 adds 572 stratagems and 12 enhancements. Aeldari, Orks and chapter-specific gaps remain open.
 - Genestealer Cults: signed off. Faction Pack 1.1 applied in 1.5.13.
 - Tyranids: roster and WarOrgan smoke checks passed. Faction Pack 1.3 coverage is partial.
 - Astra Militarum: 51 Brood Brother Auxilia allies retained. Remaining app tests are in TODO.md.

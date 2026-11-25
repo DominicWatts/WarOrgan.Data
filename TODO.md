@@ -23,6 +23,7 @@ See [FACTIONS.md](FACTIONS.md) for coverage and [CHANGELOG.md](CHANGELOG.md) for
 ## Progress
 
 - Public release: **1.5.13.0**. Genestealer Cults and Tyranids are signed off.
+- Development test: **1.5.14.0** adds 572 stratagems, 12 enhancements and paid wargear. Check that a newly populated detachment shows its entries and that selected wargear is charged once per selection.
 - Astra Militarum includes Hell’s Last and Vendetta Gunship. The Brood Brother Auxilia list still contains 51 IDs. App checks below remain open.
 - Sororitas and T’au have roster and wargear fixes on develop, including the latest weapon surcharges. Both remain in progress.
 - Marine army-rule display passed in 1.5.12. Chapter-specific stratagem coverage remains open.
