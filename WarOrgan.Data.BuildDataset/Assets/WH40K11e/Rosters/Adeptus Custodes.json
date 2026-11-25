@@ -7304,7 +7304,9 @@
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         },
         {
@@ -7315,7 +7317,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         },
         {
@@ -7328,7 +7332,9 @@
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         }
       ],
@@ -7549,7 +7555,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         },
         {
@@ -7560,7 +7568,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         },
         {
@@ -7571,7 +7581,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         },
         {
@@ -7582,7 +7594,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         }
       ],
@@ -7634,12 +7648,13 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
-            "Infantry",
-            "Character"
+          "RequiredKeywords": [
+            "Infantry"
           ],
-          "ExcludedKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         },
         {
@@ -7723,6 +7738,433 @@
           ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Dread Host",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Instruments of the Emperor's Wrath",
+        "Text": "Friendly ADEPTUS CUSTODES units can re-roll **charge rolls**.\n\n**Favoured Ka'tah:** Dacatarai\n\n**Additional Effect:** When an enemy unit **engaged** with your unit makes a **pile-in/consolidation move**, -2\" from that **pile-in/consolidation move**."
+      },
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [
+        {
+          "Name": "GOLDEN LIGHT OF THE MOIRAIDES",
+          "Category": "Dread Host Stratagem",
+          "CPCost": 2,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to make an ingress move.",
+          "Target": "That ADEPTUS CUSTODES Unit.",
+          "Effect": "Until the start of your next turn:\n- Attacks that target your unit have -1 to hit rolls.\n- Enemy units cannot target your unit with snap shooting attacks."
+        },
+        {
+          "Name": "PRETERNATURAL RAPIDITY",
+          "Category": "Dread Host Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit ends an advance move.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "That advance move does not prevent your unit from being eligible to declare a charge."
+        },
+        {
+          "Name": "LIGHTNING WRATH",
+          "Category": "Dread Host Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly ADEPTUS CUSTODES unit is selected to make a pile-in move.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "When making that pile-in move, your unit can move up to D3+3\"."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Flawless Bladework",
+          "Description": "This model’s melee attacks have [Sustained Hits 1].",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Auric Exemplar",
+          "Description": "This model’s melee attacks have [Cleave 1].",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Aquilan Shield",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Gilded Guardians",
+        "Text": "While a friendly ADEPTUS CUSTODES unit (excluding MONSTER/VEHICLE units) is within range of an **objective**, ranged attacks that target that unit with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\n\n**Favoured Ka'tah:** Salvus\n\n**Additional Effect:** Your unit’s ranged attacks have +6\" **R**."
+      },
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
+      "Stratagems": [
+        {
+          "Name": "RAPID REACTIONS",
+          "Category": "Aquilan Shield Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a fall-back move.",
+          "Target": "One friendly ADEPTUS CUSTODES INFANTRY unit that was engaged with that enemy unit at the start of the phase.",
+          "Effect": "Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit."
+        },
+        {
+          "Name": "MANOEUVRE AND FIRE",
+          "Category": "Aquilan Shield Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to make a fall-back move.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "That move does not prevent your unit from being eligible to shoot/declare a charge."
+        },
+        {
+          "Name": "TIP OF THE TALON",
+          "Category": "Aquilan Shield Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly ADEPTUS CUSTODES unit is selected to shoot.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Your unit’s ranged attacks that target an enemy unit within 9\" of your unit have +1 S."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Not a Shell Wasted",
+          "Description": "This unit’s ranged attacks have +1 **A**.",
+          "Cost": 10,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Pareldor's Caducatrix",
+          "Description": "(Once per battle, per army) At the start of any phase, this model **heals** D3+3 wounds.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Emissaries Imperatus",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Heralds of the Throne",
+        "Text": "Friendly ADEPTUS CUSTODES units have **Fights First**.\n\n**Favoured Ka'tah:** Conservai\n\n**Additional Effect:** Until the end of the turn, being selected to make an **advance/fall-back move** does not prevent your unit from being **eligible to start an action**."
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [
+        {
+          "Name": "BEARERS OF HIS LIGHT",
+          "Category": "Emissaries Imperatus Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly ADEPTUS CUSTODES unit is selected to fight.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Your unit’s melee attacks can ignore modifiers to hit rolls and wound rolls."
+        },
+        {
+          "Name": "SLAYERS OF NIGHTMARES",
+          "Category": "Emissaries Imperatus Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly ADEPTUS CUSTODES unit is selected to fight.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Your unit’s melee attacks that target a unit with a T greater than this unit’s T have +1 to wound rolls."
+        },
+        {
+          "Name": "SELFLESS SERVICE",
+          "Category": "Emissaries Imperatus Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "End of your opponent’s Charge phase.",
+          "Target": "One friendly unengaged ADEPTUS CUSTODES unit within 6\" of an enemy unit. You can only select a VEHICLE unit if it is a CHARACTER/WALKER unit.",
+          "Effect": "Declare a charge with your unit:\n- When making the charge roll, if the result is greater than 6 (after modifiers), change it to 6.\n- When selecting charge targets, you can select any enemy units that are within 6\" of your unit and within the maximum distance."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Edge of the Blade",
+          "Description": "If this unit made a **charge move** this turn, this model’s attacks can:\n- Re-roll **hit rolls** of 1.\n- Re-roll **wound rolls** of 1.",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Auriferous Orb",
+          "Description": "This model has the following weapon:\nRanged | 12\" | A 3 | BS 2+ | S 1 | AP 0 | D 1 | [Anti-non-Monster/Vehicle 2+, Blinding Light, Devastating Wounds]\n**Blinding Light:** In your Shooting phase, when this unit has shot, select one enemy unit hit by this unit’s Auriferous Orb weapon. That enemy unit’s attacks have -1 to **hit rolls** until the start of your next turn.",
+          "Cost": 20,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Emperor's Chosen",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Magna Imperator",
+        "Text": "When a friendly ADEPTUS CUSTODES unit is selected to attack, that unit’s attacks can:\n- Re-roll one **hit roll**.\n- Re-roll one **wound roll**.\n\n**Favoured Ka'tah:** Rendax\n\n**Additional Effect:** You can select one enemy MONSTER/VEHICLE unit **engaged** with your unit and roll one D6:\n- On a 1-2, that enemy unit suffers 1 **mortal wound**.\n- On a 3-5, that enemy unit suffers D3 **mortal wounds**.\n- On a 6, that enemy unit suffers 3 **mortal wounds**."
+      },
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
+      "Stratagems": [
+        {
+          "Name": "IN AURAMITE CLAD",
+          "Category": "Emperor's Chosen Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly ADEPTUS CUSTODES unit (excluding CUSTODIAN WARDENS units).",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Attacks that target your unit have -1 AP until that enemy unit has attacked."
+        },
+        {
+          "Name": "IMPENETRABLE BASTION",
+          "Category": "Emperor's Chosen Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "End of your Movement phase.",
+          "Target": "One friendly ADEPTUS CUSTODES unit (excluding MONSTER/VEHICLE units).",
+          "Effect": "Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "Name": "SUPERHUMAN FOCUS",
+          "Category": "Emperor's Chosen Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "End of any phase.",
+          "Target": "One friendly ADEPTUS CUSTODES unit that is not readied.",
+          "Effect": "Your unit is readied.",
+          "Restrictions": "You cannot select the same unit as the target of this stratagem more than once per battle round."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "From the Hall of Armouries",
+          "Description": "This model’s melee attacks have [Devastating Wounds].",
+          "Cost": 15,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Radiant Mantle",
+          "Description": "Attacks that target this unit have -1 to **hit rolls**.",
+          "Cost": 40,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Solar Watch",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Talon Sortie",
+        "Text": "When a friendly ADEPTUS CUSTODES unit makes a **fall-back move**, that **fall-back move** does not prevent that unit from being **eligible to charge**.\n\n**Favoured Ka'tah:** Calistus\n\n**Additional Effect:** Your unit has +2\" **M**."
+      },
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
+      "Stratagems": [
+        {
+          "Name": "INEXORABLE",
+          "Category": "Solar Watch Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to move.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Until the end of the turn, your unit can ignore modifiers to your unit’s:\n- M.\n- Advance rolls and charge rolls."
+        },
+        {
+          "Name": "AT SPEAR'S LENGTH",
+          "Category": "Solar Watch Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to make a fall-back move.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "That fall-back move does not prevent your unit from being eligible to shoot."
+        },
+        {
+          "Name": "GRAVIMETRIC GRENADE",
+          "Category": "Solar Watch Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Start of your opponent’s Charge phase.",
+          "Target": "One friendly unengaged ADEPTUS CUSTODES unit.",
+          "Effect": "Select one visible enemy unit within 12\" of your unit. When that enemy unit declares a charge, that enemy unit has -1 to charge rolls."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Sally Forth",
+          "Description": "At the start of your Charge phase, select one friendly ADEPTUS CUSTODES INFANTRY unit within 6\" of this model. If that unit made an **advance move** this turn, that **advance move** does not prevent that unit from being **eligible to declare a charge**.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Shield-Captain"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Auric Eagle",
+          "Description": "This unit has +1 to **advance rolls** and **charge rolls**.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
+          ],
+          "ExcludedKeywords": [
+            "Terminator",
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        }
+      ],
+      "Effects": []
+    },
+    {
+      "Name": "Shadowkeepers",
+      "Cost": 1,
+      "Rule": {
+        "Title": "Wardens of the Dark Cells",
+        "Text": "While a friendly ADEPTUS CUSTODES unit (excluding MONSTER/VEHICLE units) is within range of an **objective**, melee attacks that target that unit with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\n\n**Favoured Ka'tah:** Kaptaris\n\n**Additional Effect:** You can select one enemy unit **engaged** with your unit. That enemy unit must make a **battle-shock roll**, with -1 to that **battle-shock roll**. You cannot select the same enemy unit for this effect more than once per phase."
+      },
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
+      "Stratagems": [
+        {
+          "Name": "GRIM RESPONSIBILITY",
+          "Category": "Shadowkeepers Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly ADEPTUS CUSTODES INFANTRY unit is selected to fight.",
+          "Target": "That ADEPTUS CUSTODES unit.",
+          "Effect": "Your unit’s melee attacks have [Lethal Hits: Character/Monster]."
+        },
+        {
+          "Name": "NO ESCAPE",
+          "Category": "Shadowkeepers Stratagem",
+          "CPCost": 2,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a fall-back move.",
+          "Target": "One friendly unengaged ADEPTUS CUSTODES INFANTRY unit that is within 6\" of that enemy unit.",
+          "Effect": "Declare a charge with your unit. When selecting charge targets, you can only select enemy units that made a fall-back move this phase and are within the maximum distance."
+        },
+        {
+          "Name": "INDOMITABLE GUARDIANS",
+          "Category": "Shadowkeepers Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Your opponent’s Fight phase, when an enemy unit has fought.",
+          "Target": "One friendly ADEPTUS CUSTODES unit that is within range of an objective and is eligible to fight.",
+          "Effect": "Your unit has Fights First and must be the next unit you select to fight."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Unstoppable Destroyer",
+          "Description": "When this unit is selected to make a **pile-in/consolidation move**:\n- This unit can move up to 4\".\n- You can select any **consolidation mode** for that **consolidation move**, regardless of that **consolidation move**’s Before Moving restrictions.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Genalchemic Warding",
+          "Description": "This model has **Feel No Pain 5+**.",
+          "Cost": 30,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [
+            "Anathema Psykana"
+          ],
           "RequiredAbilities": []
         }
       ],
