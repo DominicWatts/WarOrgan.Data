@@ -4948,7 +4948,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Duty Unto Death",
+          "Category": "Inner Circle Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly <k>Deathwing</k> unit.",
+          "Target": "That <k>Deathwing</k> unit.",
+          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6, with +1 to that roll if your unit is <b>engaged</b> with an enemy unit within range of your <b>vowed objective</b>:<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+        },
+        {
+          "Name": "Relic Teleportarium",
+          "Category": "Inner Circle Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly <k>Deathwing</k> unit with the <b>Deep Strike</b> ability is selected to make an <b>ingress move</b>.",
+          "Target": "That <k>Deathwing</k> unit.",
+          "Effect": "<ul><li>Your unit can be set up more than 6” horizontally from all enemy units (instead of more than 8”).</li><li>Your unit is <u>not</u> <b>eligible to declare a charge</b> until the end of this turn.</li></ul>"
+        },
+        {
+          "Name": "Wrath of the Lion",
+          "Category": "Inner Circle Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Charge",
+          "When": "Your Charge phase, when a friendly <k>Deathwing</k> unit ends a <b>charge move</b>.",
+          "Target": "That <k>Deathwing</k> unit.",
+          "Effect": "Select one enemy unit <b>engaged</b> with your unit. If you do, roll one D6 for each model in your unit <b>engaged</b> with that enemy unit:<ul><li>For each 3+, that enemy unit suffers 1 <b>mortal wound</b> (to a maximum of 6 <b>mortal wounds</b>).</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Champion of the Deathwing",
@@ -4992,7 +5020,62 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Knights of Iron",
+          "Category": "Wrath of the Rock Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement or Charge",
+          "When": "Your Movement/Charge phase, when a friendly <k>Ravenwing</k> unit is <b>selected to move</b> or <b>declares a charge</b>.",
+          "Target": "That <k>Ravenwing</k> unit.",
+          "Effect": "Your unit has <k>Mobile</k>."
+        },
+        {
+          "Name": "Relics of the Dark Age",
+          "Category": "Wrath of the Rock Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Adeptus Astartes Infantry/Mounted</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Adeptus Astartes Infantry/Mounted</k> unit.",
+          "Effect": "Your unit’s ranged attacks have +2 <b>S</b>."
+        },
+        {
+          "Name": "Inescapable Justice",
+          "Category": "Wrath of the Rock Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "The Fight phase, when a friendly <k>Adeptus Astartes</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "Your unit's melee attacks have <k>[Precision]</k>."
+        },
+        {
+          "Name": "Lion's Will",
+          "Category": "Wrath of the Rock Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Command phase.",
+          "Target": "One friendly <k>Adeptus Astartes</k> unit that is within range of an <b>objective</b>.",
+          "Effect": "Your unit has +1 <b>OC</b> until the end of the turn."
+        },
+        {
+          "Name": "Tactical Mastery",
+          "Category": "Wrath of the Rock Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>Deathwing/Ravenwing</k> unit.",
+          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+        },
+        {
+          "Name": "In Sacrifice, Victory",
+          "Category": "Wrath of the Rock Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly <k>Deathwing/Ravenwing</k> unit within range of an <b>objective</b> is <b>destroyed</b>.",
+          "Target": "That <k>Deathwing/Ravenwing</k> unit. You can target that unit with this <b>stratagem</b> even though it is <b>destroyed</b>.",
+          "Effect": "Select one <b>objective</b>: <ul><li>That no enemy units (excluding <k>AIRCRAFT</k> units) are within range of.</li><li>That your unit was controlling at the end of the previous phase.</li></ul>That <b>objective</b> is <b>secured</b>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Deathwing Assault",
@@ -5056,7 +5139,35 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Wings of Shadow",
+          "Category": "Darkflight Pursuit Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly <k>Ravenwing Fly/Mounted</k> unit.",
+          "Target": "That <k>Ravenwing Fly/Mounted</k> unit.",
+          "Effect": "Your unit has <b>Stealth</b>."
+        },
+        {
+          "Name": "Skyborne Surveillance",
+          "Category": "Darkflight Pursuit Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Ravenwing Fly</k> unit has shot.",
+          "Target": "That <k>Ravenwing Fly</k> unit.",
+          "Effect": "<b>Visible</b> enemy units within 6\" of your unit have +3\" <b>detection range</b>."
+        },
+        {
+          "Name": "We Are Vengeance",
+          "Category": "Darkflight Pursuit Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly <b>unengaged</b> <k>Ravenwing Fly</k> unit has shot.",
+          "Target": "That <k>Ravenwing Fly</k> unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3\"."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Thundercowl Turbines (Upgrade)",
