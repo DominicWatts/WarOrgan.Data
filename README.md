@@ -40,7 +40,7 @@ Codexes are not used as a source.
 Each faction is developed on its own `faction/<name>` branch. Work is merged into `dataset/develop` for testing, and releases are merged into `dataset/wh40k11e` and tagged.
 
 - Release history: [CHANGELOG.md](CHANGELOG.md).
-- Outstanding work: [TODO.md](TODO.md).
+- Outstanding work: [GitHub issues](https://github.com/DominicWatts/WarOrgan.Data/issues).
 
 ## What's included
 
