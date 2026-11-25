@@ -38,7 +38,7 @@
         },
         {
           "Title": "Champion of the Kingsguard",
-          "Text": "This model’s attacks that target a **CHARACTER** unit:\n\n\n- Can re-roll hit rolls of 1.\n- Can re-roll wound rolls of 1."
+          "Text": "This model’s attacks that target a CHARACTER unit:\n\n\n- Can re-roll hit rolls of 1.\n- Can re-roll wound rolls of 1."
         }
       ],
       "LeaderInfo": {
@@ -889,7 +889,7 @@
         },
         {
           "Title": "Hunting Hounds",
-          "Text": "While this unit is within 6\" of a friendly **SPACE WOLVES CHARACTER MODEL (EXCLUDING WULFEN**), if this unit is not battle-shocked, Hunting Wolf models have +1 OC."
+          "Text": "While this unit is within 6\" of a friendly SPACE WOLVES CHARACTER MODEL (EXCLUDING WULFEN), if this unit is not battle-shocked, Hunting Wolf models have +1 OC."
         }
       ],
       "Infos": [],
@@ -1443,15 +1443,15 @@
       "UnitAbilities": [
         {
           "Title": "Iron Priest",
-          "Text": "While this model is within 3\" of a friendly **SPACE WOLVES VEHICLE** unit, this model has **Lone Operative**."
+          "Text": "While this model is within 3\" of a friendly SPACE WOLVES VEHICLE unit, this model has Lone Operative."
         },
         {
           "Title": "Gift of the Iron Wolf",
-          "Text": "In your Movement phase, at the start or end of this unit's move, select up to one friendly Space Wolves Vehicle model within 3\" of this model:\n- That **VEHICLE** model **heals** D3 wounds.\n- That **VEHICLE** model’s attacks can ignore modifiers to **hit rolls** and **wound rolls** until the start of your next Movement phase.\n\nYou cannot select the same **VEHICLE** model for this ability more than once per phase."
+          "Text": "In your Movement phase, at the start or end of this unit's move, select up to one friendly Space Wolves Vehicle model within 3\" of this model:\n- That VEHICLE model heals D3 wounds.\n- That VEHICLE model’s attacks can ignore modifiers to hit rolls and wound rolls until the start of your next Movement phase.\n\nYou cannot select the same VEHICLE model for this ability more than once per phase."
         },
         {
           "Title": "Judgement of the Omnissiah",
-          "Text": "This model's attacks that target an enemy unit engaged with a friendly **SPACE WOLVES VEHICLE** can re-roll wound rolls."
+          "Text": "This model's attacks that target an enemy unit engaged with a friendly SPACE WOLVES VEHICLE can re-roll wound rolls."
         }
       ],
       "LeaderInfo": {
@@ -1668,7 +1668,7 @@
         },
         {
           "Title": "High King of Fenris",
-          "Text": "(Once per battle round, per unit)\nIn your Movement phase, select up to one friendly **SPACE WOLVES** unit in strategic reserves. If you do, when that unit makes an ingress move, treat the current battle round number as being one higher than it actually is."
+          "Text": "(Once per battle round, per unit)\nIn your Movement phase, select up to one friendly SPACE WOLVES unit in strategic reserves. If you do, when that unit makes an ingress move, treat the current battle round number as being one higher than it actually is."
         },
         {
           "Title": "Guile of the Wolf",
@@ -1921,7 +1921,7 @@
       "UnitAbilities": [
         {
           "Title": "Murder-maker",
-          "Text": "In the Fight phase, each time an attack targets a friendly WULFEN unit within 6\" of In the Fight phase, when a friendly **WULFEN** model within 6\" of this unit is destroyed, if that model's unit has not been selected to fight this phase, roll one D6:\n\n\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+          "Text": "In the Fight phase, each time an attack targets a friendly WULFEN unit within 6\" of In the Fight phase, when a friendly WULFEN model within 6\" of this unit is destroyed, if that model's unit has not been selected to fight this phase, roll one D6:\n\n\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         },
         {
           "Title": "Force of Untamed Destruction",
@@ -2976,7 +2976,7 @@
         },
         {
           "Title": "Slayer’s Oath",
-          "Text": "At the start of the first battle round, you select up to one enemy **CHARACTER/MONSTER/VEHICLE** unit to be this unit's **slayer's oath**:\n\n- This unit's attacks that target this unit's **slayer's oath** can ignore modifiers to your unit's:\n- BS and WS.\n- Hit rolls."
+          "Text": "At the start of the first battle round, you select up to one enemy CHARACTER/MONSTER/VEHICLE unit to be this unit's slayer's oath:\n\n- This unit's attacks that target this unit's slayer's oath can ignore modifiers to your unit's:\n- BS and WS.\n- Hit rolls."
         },
         {
           "Title": "Oathbound",
@@ -4008,7 +4008,7 @@
         },
         {
           "Title": "Hunting Hounds",
-          "Text": "While this unit is within 6\" of a friendly **SPACE WOLVES CHARACTER MODEL (EXCLUDING WULFEN**), if this unit is not battle-shocked, Hunting Wolf models have +1 OC."
+          "Text": "While this unit is within 6\" of a friendly SPACE WOLVES CHARACTER MODEL (EXCLUDING WULFEN), if this unit is not battle-shocked, Hunting Wolf models have +1 OC."
         },
         {
           "Title": "Let Loose the Wolves",
@@ -4990,11 +4990,11 @@
       "UnitAbilities": [
         {
           "Title": "Savage Frenzy",
-          "Text": "When an enemy unit engaged with your unit (excluding **MONSTER/VEHICLE** units) makes a fall-back move that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
+          "Text": "When an enemy unit engaged with your unit (excluding MONSTER/VEHICLE units) makes a fall-back move that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
         },
         {
           "Title": "Death Totem",
-          "Text": "This unit's melee attacks can re-roll **hit rolls** of 1."
+          "Text": "This unit's melee attacks can re-roll hit rolls of 1."
         }
       ],
       "Infos": [],
@@ -5550,11 +5550,11 @@
         },
         {
           "Title": "Hammer Blow",
-          "Text": "In the Fight phase, when this unit has fought, select up to one enemy **MONSTER/VEHICLE** unit hit by those attacks. If you do, that enemy unit is suppressed until the start of your next turn:\n\n\n-While a unit is suppressed, that unit's attacks have -1 to hit rolls."
+          "Text": "In the Fight phase, when this unit has fought, select up to one enemy MONSTER/VEHICLE unit hit by those attacks. If you do, that enemy unit is suppressed until the start of your next turn:\n\n\n-While a unit is suppressed, that unit's attacks have -1 to hit rolls."
         },
         {
           "Title": "Death Totem",
-          "Text": "This unit's melee attacks can re-roll **hit rolls** of 1."
+          "Text": "This unit's melee attacks can re-roll hit rolls of 1."
         },
         {
           "Title": "Storm Shield",
