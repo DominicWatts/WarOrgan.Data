@@ -7412,7 +7412,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "ferrumite cannon",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -10499,7 +10504,62 @@
         "Priority Assets",
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Eradication Protocols",
+          "Category": "Haloscreed Battleclade Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase.",
+          "Target": "One ADEPTUS MECHANICUS unit from your army that has not been selected to shoot or fight this phase.",
+          "Effect": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1, and, if it is a HALO OVERRIDE unit, re‑roll a Hit roll of 1."
+        },
+        {
+          "Name": "Targeting Override",
+          "Category": "Haloscreed Battleclade Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase.",
+          "Target": "One ADEPTUS MECHANICUS unit from your army that has not been selected to shoot or fight this phase.",
+          "Effect": "Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "Name": "Neural Overload",
+          "Category": "Haloscreed Battleclade Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase.",
+          "Target": "One ADEPTUS MECHANICUS unit from your army.",
+          "Effect": "If your unit is a HALO OVERRIDE unit, it suffers D3 mortal wounds. Select one Override ability. Until the start of your next Command phase, that ability is active for your unit.\n\nDesigner’s Note: *This means that if the targeted unit already has the* HALO OVERRIDE *keyword, it can be affected by multiple Override abilities at the same time, but suffers mortal wounds to do so. Alternatively, if your unit does not have the* HALO OVERRIDE *keyword, it instead has the chosen Override ability until the start of your next Command phase, but does not benefit from any other Override abilities that are active.*"
+        },
+        {
+          "Name": "Aggressive Impulse",
+          "Category": "Haloscreed Battleclade Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase.",
+          "Target": "One SKORPIUS DUNERIDER model from your army that has not been selected to move this phase.",
+          "Effect": "Until the end of the turn, each time an ADEPTUS MECHANICUS unit disembarks from that model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        },
+        {
+          "Name": "Guided Retreat",
+          "Category": "Haloscreed Battleclade Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, just after an ADEPTUS MECHANICUS unit from your army is selected to make a Fall Back move.",
+          "Target": "That ADEPTUS MECHANICUS unit.",
+          "Effect": "▫ If your unit is a HALO OVERRIDE unit, your unit can re-roll hazard rolls.\n▫ That fall-back move does not prevent your unit from:\n▫ Being eligible to shoot.\n▫ Being eligible to declare a charge."
+        },
+        {
+          "Name": "Analytical Divination",
+          "Category": "Haloscreed Battleclade Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+          "Target": "One ADEPTUS MECHANICUS INFANTRY unit (excluding KATAPHRON units) from your army that is within 8\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+          "Effect": "Your unit can make a Normal move of up to D6\", or up to 6\" instead if it is a HALO OVERRIDE unit."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Transoracular Dyad Wafers",
