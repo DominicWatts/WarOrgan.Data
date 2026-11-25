@@ -4182,6 +4182,385 @@
       ]
     },
     {
+      "Id": "CAPTAIN IN GRAVIS ARMOUR",
+      "DisplayName": "Captain in Gravis Armour",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Captain in Gravis Armour",
+            "StatlineRef": "Captain in Gravis Armour",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "master-crafted heavy bolt rifle",
+                  "master-crafted power weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "master-crafted heavy bolt rifle",
+                      "master-crafted power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "boltstorm gauntlet",
+                          "relic blade"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boltstorm gauntlet",
+                          "relic chainsword"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "boltstorm gauntlet",
+                          "relic power fist"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Refuse to Yield",
+          "Text": "Attacks allocated to this model have -1 D."
+        },
+        {
+          "Title": "Strategic Acumen",
+          "Text": "In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "AGGRESSOR SQUAD",
+          "ERADICATOR SQUAD WITH HEAVY BOLTERS",
+          "ERADICATOR SQUAD WITH MELTA RIFLES",
+          "HEAVY INTERCESSOR SQUAD",
+          "INDOMITOR KILL TEAM"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Captain",
+        "Gravis",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Captain in Gravis Armour",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "5\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "boltstorm gauntlet",
+              "DisplayName": "Boltstorm Gauntlet",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted heavy bolt rifle",
+              "DisplayName": "Master-crafted Heavy Bolt Rifle",
+              "Keywords": "Assault, Heavy, Rapid Fire 1",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "30\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "boltstorm gauntlet",
+              "DisplayName": "Boltstorm Gauntlet",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted Power Weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "relic blade",
+              "DisplayName": "Relic Blade",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "relic chainsword",
+              "DisplayName": "Relic Chainsword",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "relic power fist",
+              "DisplayName": "Relic Power Fist",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 90
+        }
+      ]
+    },
+    {
       "Id": "CAPTAIN IN PHOBOS ARMOUR",
       "DisplayName": "Captain in Phobos Armour",
       "Flags": 0,
