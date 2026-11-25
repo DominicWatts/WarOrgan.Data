@@ -263,6 +263,13 @@
           "Text": "This model cannot be your WARLORD and cannot be given Enhancements."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "FENRISIAN WOLVES"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Beast",
