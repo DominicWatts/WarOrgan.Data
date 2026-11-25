@@ -18659,7 +18659,35 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Layered Wards",
+          "Category": "Armoured Warhost Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly <k>Aeldari Vehicle</k> unit suffers a <b>mortal wound</b>.",
+          "Target": "That <k>Aeldari Vehicle</k> unit.",
+          "Effect": "Your unit has <b>Feel No Pain 5+</b> against <b>mortal wounds</b>."
+        },
+        {
+          "Name": "Soulsight",
+          "Category": "Armoured Warhost Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Aeldari Vehicle</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Aeldari Vehicle</k> unit.",
+          "Effect": "Your unit’s attacks can re‑roll:\r<ul><li><u>One</u> <b>hit roll</b>.</li>\r<li><u>One</u> <b>wound roll</b>.</li>\r<li><u>One</u> <b>damage roll</b>.</li></ul>"
+        },
+        {
+          "Name": "Vectored Engines",
+          "Category": "Armoured Warhost Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly <k>Aeldari Vehicle</k> unit makes a <b>fall‑back move</b>.",
+          "Target": "That <k>Aeldari Vehicle</k> unit.",
+          "Effect": "That move does not prevent your unit from being <b>eligible to shoot</b>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Guiding Presence",
@@ -19378,7 +19406,35 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Exit the Stage",
+          "Category": "Fateful Performance Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One friendly <b>unengaged</b> <k>Harlequins</k> unit.",
+          "Effect": "Place your unit in <b>strategic reserves</b>."
+        },
+        {
+          "Name": "Deceptive Feint",
+          "Category": "Fateful Performance Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly <b>unengaged</b> <k>Harlequins Infantry</k> unit.",
+          "Target": "That <k>Harlequins Infantry</k> unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3\"."
+        },
+        {
+          "Name": "Heroes’ Fall",
+          "Category": "Fateful Performance Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when an enemy unit targets a friendly <k>Harlequins</k> unit.",
+          "Target": "That <k>Harlequins</k> unit.",
+          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6:\r<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "A Foot in the Future",
@@ -19419,7 +19475,35 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Eldritch Suppression",
+          "Category": "Path of the Outcast Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Rangers/Shroud Runners</k> unit has shot.",
+          "Target": "That <k>Rangers/Shroud Runners</k> unit.",
+          "Effect": "Select one enemy unit hit by those ranged attacks. That enemy unit makes a <b>battle‑shock roll</b>, with ‑1 to that <b>battle‑shock roll</b> if a model in that enemy unit was <b>destroyed</b> by those attacks."
+        },
+        {
+          "Name": "Casting Back the Veil",
+          "Category": "Path of the Outcast Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Rangers/Shroud Runners</k> unit has shot.",
+          "Target": "That <k>Rangers/Shroud Runners</k> unit.",
+          "Effect": "Select one enemy unit hit by those ranged attacks. That enemy unit has +6\" <b>detection range</b>."
+        },
+        {
+          "Name": "Nomads of the Hidden Way",
+          "Category": "Path of the Outcast Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Rangers/Shroud Runners</k> unit has shot.",
+          "Target": "That <k>Rangers/Shroud Runners</k> unit.",
+          "Effect": "\r<ul><li>Your unit can make a <b>normal move</b> of up to D6\".</li>\r<li>Your unit is <u>not</u> <b>eligible to declare a charge</b> or embark within a <k>Transport</k> until the end of the turn.</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Camouflaged Snipers",
@@ -19461,7 +19545,35 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Phantasmal Mirage",
+          "Category": "Twilight Flickers Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Harlequins Vehicle</k> unit has shot.",
+          "Target": "That <k>Harlequins Vehicle</k> unit.",
+          "Effect": "\r<ul><li>Your unit can make a <b>normal move</b> of up to D6\".</li>\r<li>Your unit is <u>not</u> <b>eligible to declare a charge</b> until the end of the turn.</li></ul>"
+        },
+        {
+          "Name": "Presaged Rehearsal",
+          "Category": "Twilight Flickers Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Troupe</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Troupe</k> unit.",
+          "Effect": "Your unit’s melee attacks have <k>[lance]</k>."
+        },
+        {
+          "Name": "Captivating Performance",
+          "Category": "Twilight Flickers Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "End of your Movement phase.",
+          "Target": "One friendly <k>Troupe</k> unit.",
+          "Effect": "Select one <b>objective</b> your unit is controlling. That <b>objective</b> is <b>secured</b>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Prelude Performer",
