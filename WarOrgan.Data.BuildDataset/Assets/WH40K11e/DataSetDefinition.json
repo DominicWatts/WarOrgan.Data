@@ -360,7 +360,46 @@
       "FactionKeyword": "Legiones Daemonica",
       "Category": "Chaos",
       "MainColor": "#6B1F4A",
-      "DarkColor": "#B05F8A"
+      "DarkColor": "#B05F8A",
+      "Allies": [
+        {
+          "FactionKeyword": "Heretic Astartes",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Shadow Legion"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "ACCURSED CULTISTS",
+                "CHAOS LORD",
+                "CHAOS LORD IN TERMINATOR ARMOUR",
+                "CHAOS LORD WITH JUMP PACK",
+                "CHAOS TERMINATOR SQUAD",
+                "CHOSEN",
+                "CULTIST FIREBRAND",
+                "CULTIST MOB",
+                "DARK APOSTLE",
+                "DARK COMMUNE",
+                "FELLGOR BEASTMEN",
+                "HAVOCS",
+                "LEGIONARIES",
+                "MASTER OF POSSESSION",
+                "POSSESSED",
+                "RAPTORS",
+                "SORCERER",
+                "SORCERER IN TERMINATOR ARMOUR",
+                "TRAITOR ENFORCER",
+                "TRAITOR GUARDSMEN SQUAD",
+                "WARP TALONS"
+              ],
+              "AddedKeywords": [
+                "Allied Units"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Chaos Knights",
