@@ -27,7 +27,7 @@ Roster counts cover native datasheets. A dash means the target is unconfirmed or
 | Space Wolves | 20/— | 14/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Ultramarines | 11/— | 5/— | Complete | Incomplete | Incomplete | Incomplete | Complete | 2/3 (67%) |
 | White Scars | 2/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Chaos Space Marines | 56/— | 26/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Chaos Space Marines | 57/— | 26/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Chaos Daemons | 56/— | 12/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Chaos Knights | 19/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Death Guard | 30/— | 11/— | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
@@ -43,6 +43,7 @@ Roster counts cover native datasheets. A dash means the target is unconfirmed or
 
 ## Status notes
 
+- 1.5.19 adds the Traitor Enforcer and 21 Shadow Legion allies. Reaper’s Wager still needs eight Harlequin datasheets.
 - 1.5.18 adds detachment-specific Daemon allies for World Eaters, Death Guard, Thousand Sons and Emperor’s Children. WarOrgan checks are pending.
 - 1.5.14 adds 572 stratagems and 12 enhancements. 1.5.15 adds 153 stratagems across Aeldari, Orks and Space Marine chapters. Empty lists remain for Sanctified Orators, Brute Bosses and Wurrband.
 - Genestealer Cults: signed off. Faction Pack 1.1 applied in 1.5.13.
