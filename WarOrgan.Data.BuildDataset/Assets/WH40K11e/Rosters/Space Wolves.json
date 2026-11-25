@@ -536,8 +536,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 10,
-              "Max": 20
+              "Min": 9,
+              "Max": 19
             },
             "ModelName": "Blood Claw",
             "StatlineRef": "Blood Claws",
@@ -554,8 +554,8 @@
           },
           {
             "Limit": {
-              "Min": 10,
-              "Max": 20
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Blood Claw Pack Leader",
             "StatlineRef": "Blood Claws",
@@ -848,11 +848,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 290
         },
         {
-          "ModelCount": 40,
+          "ModelCount": 20,
           "Cost": 290
         }
       ]
@@ -1022,8 +1022,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 10,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Grey Hunter Pack Leader",
             "StatlineRef": "Grey Hunters",
@@ -1084,8 +1084,8 @@
           },
           {
             "Limit": {
-              "Min": 10,
-              "Max": 10
+              "Min": 9,
+              "Max": 9
             },
             "ModelName": "Grey Hunter",
             "StatlineRef": "Grey Hunters",
@@ -1408,7 +1408,7 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 180
         }
       ]
