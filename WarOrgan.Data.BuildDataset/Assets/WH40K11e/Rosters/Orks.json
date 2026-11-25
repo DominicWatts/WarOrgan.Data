@@ -7339,7 +7339,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "zzap gun",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -9244,7 +9249,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "killsaw",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
