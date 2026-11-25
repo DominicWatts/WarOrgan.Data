@@ -3,7 +3,7 @@ using WarOrgan.Data.BuildDataset.Validation;
 using WarOrgan.Model.DataSet;
 
 var defaultDatasetId = "DominicWatts-WH40K11e";
-var defaultVersion = new Version(1, 5, 15, 0);
+var defaultVersion = new Version(1, 5, 16, 0);
 var defaultBuildDirectory = AppContext.BaseDirectory;
 
 var datasetInfo = new DataSetInfo(
@@ -22,6 +22,7 @@ try
     datasetInfo
         .CreateDatasetBuildModel(assetsFolder)
         .AddRosters(rostersFolder)
+        .NormalizeRuleText()
         .IncludeReadme(assetsFolder)
         .Validate()
         .PublishToZipArchive(outputFolder);
