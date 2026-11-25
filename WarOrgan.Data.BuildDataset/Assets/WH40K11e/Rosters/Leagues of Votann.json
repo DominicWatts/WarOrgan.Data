@@ -8017,7 +8017,34 @@
           "Effect": "Ranged attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have -1 to <b>wound rolls</b>."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Saturation Rounds",
+          "Description": "<k>Sagitaur</k> unit only. This unit’s ranged attacks have <k>[Ignores Cover]</k>.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "SAGITAUR"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Optimised Attack Lines",
+          "Description": "<k>Sagitaur</k> unit only. This unit has <k>Mobile</k>.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [
+            "SAGITAUR"
+          ],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     },
     {
