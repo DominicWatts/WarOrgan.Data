@@ -40,7 +40,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -4050,7 +4053,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -4838,7 +4844,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -7501,7 +7510,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
@@ -8168,7 +8180,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "PLAGUE MARINES"
+        ],
+        "LeaderType": "Support",
         "Features": 0
       },
       "Infos": [],
