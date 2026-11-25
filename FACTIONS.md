@@ -45,6 +45,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 ## Status notes
 
 - Candidate gaps (2): Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Space Marines: 1.5.28 completes the missing roster entries and corrects squad limits for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
 - Space Marines: 1.5.27 fixes Sergeant and regular model composition limits across the roster and adds the correct 5-model and 10-model Assault Intercessor point tiers (issue 272).
 - Space Marines: issue 101 adds Drop Pod, eight Legends datasheets and the separate 110-point Captain on Bike, retaining the existing 95-point Legends entry.
 - Space Marines: 1.5.25 adds the Captain in Gravis Armour, which the inventory had missed, and fixes Infernus and Intercessor squad sizes and points (issue 66).

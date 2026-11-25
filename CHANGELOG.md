@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.28.0 - Space Marines: completed missing roster entries, including the Drop Pod, eight Legends datasheets and a separate Captain on Bike; corrected squad limits for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
+
 2026-11-25 : 1.5.27.0 - Space Marines: corrected squad compositions so Sergeants are exactly 1 model and regular models use the remaining squad ranges; corrected Assault Intercessor 5-model and 10-model points (issue 272).
 
 2026-11-25 : 1.5.26.0 - Adepta Sororitas: audited army rules, roster and wargear, all 8 detachments and Leader/Support links, and recorded the 14 October 2026 Codex errata superseding a separate faction-pack pass (issues 68, 70-73).
