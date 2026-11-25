@@ -4129,7 +4129,7 @@
         },
         {
           "Title": "Combat Embarkation",
-          "Text": "In your opponent’s Charge phase, when an enemy unit has selected charge targets, you can select one friendly unengaged **Adeptus Astartes** unit that was one of those charge targets and is eligible to embark within this transport. If every model in that unit is within 3\" of this transport, that unit can embark within this transport. That enemy unit can then select new charge targets for that charge move."
+          "Text": "In your opponent’s Charge phase, when an enemy unit has selected charge targets, you can select one friendly unengaged Adeptus Astartes unit that was one of those charge targets and is eligible to embark within this transport. If every model in that unit is within 3\" of this transport, that unit can embark within this transport. That enemy unit can then select new charge targets for that charge move."
         }
       ],
       "Infos": [],
