@@ -700,7 +700,62 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Augmented Targeting",
+          "Category": "Ceramite Sentinels Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase, when a friendly <k>Adeptus Astartes</k> unit is <b>selected to attack</b>.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "Your unit’s attacks have:<ul><li><k>[LETHAL HITS]</k>.</li><li><u>Or:</u> <k>[SUSTAINED HITS 1]</k>.</li><li><u>Or:</u> If your unit is <b>entrenched</b>, <k>[LETHAL HITS]</k> and <k>[SUSTAINED HITS 1]</k>.</li></ul>"
+        },
+        {
+          "Name": "Evasive Repositioning",
+          "Category": "Ceramite Sentinels Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit has shot.",
+          "Target": "One friendly <b>unengaged</b> <k>Adeptus Astartes Infantry/Mounted</k> unit that lost a wound as a result of those attacks.",
+          "Effect": "<ul><li>Your unit can make a <b>normal move</b> of up to D6\".</li><li><u>Or:</u> If your unit is <b>entrenched</b>, your unit can make a <b>normal move</b> of up to D3+3\".</li></ul>Your unit is <u>not</u> able to embark within a <k>TRANSPORT</k> until the end of the turn."
+        },
+        {
+          "Name": "Unyielding Might",
+          "Category": "Ceramite Sentinels Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Command phase.",
+          "Target": "One friendly <k>Adeptus Astartes</k> unit that is within range of an <b>objective</b>.",
+          "Effect": "Your unit has +1 <b>OC</b> until the end of the turn."
+        },
+        {
+          "Name": "Stand to the End",
+          "Category": "Ceramite Sentinels Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly <k>ADEPTUS ASTARTES</k> unit (excluding <k>Monster/Vehicle</k> units).",
+          "Target": "That <k>ADEPTUS ASTARTES</k> unit.",
+          "Effect": "<ul><li>Attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have -1 to <b>wound rolls</b>.</li><li><u>Or:</u> If your unit is <b>entrenched</b>, attacks that target your unit have -1 to <b>wound rolls</b>.</ul>"
+        },
+        {
+          "Name": "Establish Supremacy",
+          "Category": "Ceramite Sentinels Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <b>entrenched</b> <k>ADEPTUS ASTARTES INFANTRY</k> unit is selected to make a <b>consolidation move</b>.",
+          "Target": "That <k>ADEPTUS ASTARTES INFANTRY</k> unit.",
+          "Effect": "You can select the <b>objective consolidation</b> mode for that <b>consolidation move</b>, regardless of that <b>consolidation move</b>’s Before Moving restrictions.\n\n<b>Designer’s Note:</b><i> This means your unit can move out of <b>engagement range</b> with enemy units, provided it meets the conditions of the\n<b>objective consolidation mode</b>.</i>"
+        },
+        {
+          "Name": "Priority Strike",
+          "Category": "Ceramite Sentinels Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase, when a friendly <k>Adeptus Astartes Infantry/Mounted</k> unit is <b>selected to attack</b>.",
+          "Target": "That <k>Adeptus Astartes Infantry/Mounted</k> unit.",
+          "Effect": "Your unit’s attacks that target a <k>Monster/Vehicle</k> unit, have +1 to <b>wound rolls</b>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Honour Indefatigable",
