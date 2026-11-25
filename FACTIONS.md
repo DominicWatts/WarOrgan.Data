@@ -20,6 +20,7 @@ Key: `done`, `partial`, `-` (not started), `n/a`.
 | Genestealer Cults | `faction/genestealer-cults` | Full | done | done | done | done (1.0) | 25/25 | 9/9 | 30/30 | 45/45 | done |
 | Tyranids | `faction/tyranids` | GSC allies only | done (allies) | done (allies) | - | partial (1.3) | 14 Vanguard Invader | - | - | - | - |
 | Astra Militarum | `faction/astra-militarum` | GSC allies only | done (allies) | done (allies) | - | - | 51/51 eligible | - | - | - | - |
+| T'au Empire | `faction/tau-empire` | Full | done | - | done | partial (1.2) | 43/43 | 7/7 | 23/23 | 31/31 | done |
 
 Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.json` and are not counted per faction.
 
@@ -35,6 +36,12 @@ Datasheet counts include Legends. Core stratagems live in `DataSetDefinition.jso
 
 - Allied datasheets for Final Day only: all 14 Vanguard Invader units. On 2026-11-23 they matched the November BSData dump on points, stats and weapons. BSData spells it distendible jaw; Wahapedia has distensible jaw. The Wahapedia check matched 13 of 14; Wahapedia omits the HYPERADAPTED RAVENERS keyword.
 - Full faction (army rule, detachments, remaining datasheets) not started.
+
+## T'au Empire
+
+- 2026-11-25: reviewed T'au Empire Faction Pack v1.2, legal for matched play from 26 August 2026. Applied pack corrections: Ethereal gained the For the Greater Good faction ability; Stealth Battlesuits gained the Stealth keyword; Tidewall Shieldline, Razorshark Strike Fighter and Sun Shark Bomber gained the FRAME keyword.
+- Existing data already matched the faction pack for the Seven detachments, rules updates, The Twin Lance, Vespid Stingwings, Riptide Ion Accelerators and the remaining listed datasheet updates. Legends datasheets were checked for the pack's FRAME removals.
+- Boarding Actions remain excluded.
 
 ## Astra Militarum
 
