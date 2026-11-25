@@ -4033,7 +4033,8 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "pyrithite spear"
+                  "pyrithite spear",
+                  "praesidium shield"
                 ],
                 "Options": [
                   {
@@ -4046,15 +4047,24 @@
                         "Items": [
                           "eternity-pattern paragon blade"
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "pyrithite spear",
+                      "praesidium shield"
+                    ],
+                    "Options": [
                       {
                         "Items": [
-                          "guardian spear"
+                          "castellan axe"
                         ]
                       },
                       {
                         "Items": [
-                          "castellan axe"
+                          "guardian spear"
                         ]
                       }
                     ]
@@ -4064,7 +4074,16 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "praesidium shield",
+            "DisplayName": "Praesidium Shield",
+            "Cost": 25,
+            "GrantsAbilities": [
+              "Praesidium Shield"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -6162,7 +6181,7 @@
         {
           "UnitCount": 1,
           "ModelCount": 3,
-          "Cost": 220
+          "Cost": 330
         },
         {
           "UnitCount": 2,
@@ -6172,7 +6191,7 @@
         {
           "UnitCount": 2,
           "ModelCount": 3,
-          "Cost": 240
+          "Cost": 350
         }
       ]
     },
@@ -6871,8 +6890,16 @@
           "Cost": 45
         },
         {
+          "ModelCount": 5,
+          "Cost": 50
+        },
+        {
+          "ModelCount": 9,
+          "Cost": 80
+        },
+        {
           "ModelCount": 10,
-          "Cost": 45
+          "Cost": 90
         }
       ]
     },
@@ -7009,8 +7036,16 @@
           "Cost": 50
         },
         {
+          "ModelCount": 5,
+          "Cost": 55
+        },
+        {
+          "ModelCount": 9,
+          "Cost": 90
+        },
+        {
           "ModelCount": 10,
-          "Cost": 50
+          "Cost": 100
         }
       ]
     },
@@ -7186,8 +7221,16 @@
           "Cost": 55
         },
         {
+          "ModelCount": 5,
+          "Cost": 60
+        },
+        {
+          "ModelCount": 9,
+          "Cost": 100
+        },
+        {
           "ModelCount": 10,
-          "Cost": 55
+          "Cost": 110
         }
       ]
     }
@@ -8174,7 +8217,7 @@
   "ArmyRules": [
     {
       "Title": "Martial Ka'tah",
-      "Text": "At the start of your Command phase, friendly **ADEPTUS CUSTODES** units with this ability are **readied**. While a friendly unit is **readied**, you can select one of the **ka-tah abilities** for that unit to use. If you do, that unit is no longer **readied**.\n\nEach **ka-tah ability** will tell you when that **ka-tah ability** can be used and the effects that **ka-tah ability** has on the unit using it."
+      "Text": "At the start of your Command phase, friendly **ADEPTUS CUSTODES** units with this ability are **readied**. While a friendly unit is **readied**, you can select one of the **ka'tah abilities** below for that unit to use. If you do, that unit is no longer **readied**.\n\nEach **ka'tah ability** will tell you when that **ka'tah ability** can be used, and the effects that **ka'tah ability** has on the unit using it.\n\n**Conversai**\nWHEN: Your Command phase.\nTARGET: One friendly **readied** unit.\nEFFECT: Until the end of the turn:\n- Being **engaged/battle-shocked** does not prevent your unit from being **eligible to start an action**.\n- Starting an **action** does not prevent your unit from being **eligible to shoot**.\n\n**Calistus**\nWHEN: Your Movement phase, when a friendly **readied** unit is **selected to move**.\nTARGET: That **readied** unit.\nEFFECT: When your unit makes a **normal/advance/fall-back move**, your unit can move through all types of model.\n\n**Salvus**\nWHEN: Your Shooting phase, when a friendly **readied** unit is **selected to shoot**.\nTARGET: That **readied** unit.\nEFFECT: Your unit can ignore modifiers to your unit's:\n- **BS**.\n- **Hit rolls** and **wound rolls**.\n\n**Dacatarai**\nWHEN: Start of the Fight phase.\nTARGET: One friendly **readied** unit.\nEFFECT: Your unit's melee attacks that target an enemy unit (excluding **MONSTER/VEHICLE** units) can **re-roll** hit rolls of 1.\n\n**Kaptaris**\nWHEN: Start of the Fight phase.\nTARGET: One friendly **readied** unit.\nEFFECT: Melee attacks that target your unit have -1 to **hit rolls**.\n\n**Rendax**\nWHEN: Fight phase, when a friendly **readied** unit is **selected to fight**.\nTARGET: One friendly **readied** unit.\nEFFECT: Your unit's melee attacks have [Lethal Hits: Monster/Vehicle].\n\n**Favoured Ka'tah**\nAll **detachments** tagged 'Unique: Shield Host' state a Favoured Ka'tah. If you selected one of these **detachments**, the **ka'tah ability** that is the Favoured Ka'tah of that **detachment** grants the additional effect listed in that **detachment**."
     },
     {
       "Title": "Aegis of the Emperor",
@@ -8186,7 +8229,7 @@
     },
     {
       "Title": "Daughters of the Abyss",
-      "Text": "- Friendly **ANATHEMA PSYKANA** units with this ability have **Feel No Pain 3+** against **psychic attacks**.\n- Friendly **ANATHEMA PSYKANA** units with this ability have the following ability:\nPsychic Null (Aura): Friendly **ADEPTUS CUSTODES** units within 6\" of this unit have Feel No Pain 5+ against **psychic attacks**."
+      "Text": "- Friendly **ANATHEMA PSYKANA** units with this ability have **Feel No Pain 3+** against **psychic attacks**.\n- Friendly **ANATHEMA PSYKANA** units with this ability have the following ability:\nPsychic Null (Aura): Friendly **ADEPTUS CUSTODES** units within 6\" of this unit have Feel No Pain 5+ against **psychic attacks**.\n\n**Anathema Psykana**\nYou can include **ANATHEMA PSYKANA** units in your army, even though they do not have the **ADEPTUS CUSTODES** faction keyword. When mustering your army, unless otherwise stated:\n- You cannot select **ANATHEMA PSYKANA** as your **army faction**.\n- You cannot select an **ANATHEMA PSYKANA** model to be your **WARLORD**."
     }
   ]
 }

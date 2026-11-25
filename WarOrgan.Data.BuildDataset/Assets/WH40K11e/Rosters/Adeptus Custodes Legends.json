@@ -989,19 +989,8 @@
       "Upgrades": [],
       "Points": [
         {
-          "UnitCount": 1,
           "ModelCount": 1,
           "Cost": 220
-        },
-        {
-          "UnitCount": 2,
-          "ModelCount": 1,
-          "Cost": 220
-        },
-        {
-          "UnitCount": 3,
-          "ModelCount": 1,
-          "Cost": 235
         }
       ]
     },
@@ -1295,14 +1284,8 @@
       "Upgrades": [],
       "Points": [
         {
-          "UnitCount": 1,
           "ModelCount": 1,
           "Cost": 230
-        },
-        {
-          "UnitCount": 2,
-          "ModelCount": 1,
-          "Cost": 250
         }
       ]
     },
