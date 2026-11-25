@@ -5113,6 +5113,14 @@
             "Key": "1 splinter pistol and 1 power weapon",
             "DisplayName": "1 Splinter pistol and 1 Power weapon",
             "Cost": 0
+          },
+          {
+            "Key": "dark lance",
+            "Cost": 5
+          },
+          {
+            "Key": "haywire blaster",
+            "Cost": 5
           }
         ]
       },
@@ -6337,6 +6345,10 @@
             "Key": "totemic presence upgrade",
             "DisplayName": "Totemic Presence upgrade",
             "Cost": 0
+          },
+          {
+            "Key": "twin haywire blaster",
+            "Cost": 5
           }
         ]
       },
