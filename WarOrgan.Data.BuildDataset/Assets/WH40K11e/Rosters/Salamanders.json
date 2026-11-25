@@ -43,7 +43,16 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -234,7 +243,15 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "ERADICATOR SQUAD WITH MELTA RIFLES",
+          "INFERNUS SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
