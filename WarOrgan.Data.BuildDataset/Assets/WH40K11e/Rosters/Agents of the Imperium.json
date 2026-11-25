@@ -3248,6 +3248,10 @@
             "GrantsAbilities": [
               "Narthecium"
             ]
+          },
+          {
+            "Key": "psycannon",
+            "Cost": 5
           }
         ]
       },
@@ -8340,7 +8344,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "twin multi-melta",
+            "Cost": 15
+          }
+        ]
       },
       "UnitAbilities": [
         {
