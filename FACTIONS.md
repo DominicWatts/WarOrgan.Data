@@ -48,6 +48,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 - Space Marines: 1.5.25 adds the Captain in Gravis Armour, which the inventory had missed, and fixes Infernus and Intercessor squad sizes and points (issue 66).
 - 1.5.24 removes stray inline bold markers from rule text on every faction branch and at build time (issue 65).
 - Adepta Sororitas: army rules audited against the November BSData dump and GW data; no source-supported army-rule correction was required (issue 68).
+- Adepta Sororitas: Codex errata dated 14 October 2026 supersedes a separate faction-pack pass; clear errata corrections are already present, with no speculative roster change (issue 73).
 - Adeptus Custodes: 1.5.22 adds the Anathema Psykana datasheets and Aleya (app checks in issue 63). 1.5.23 completes issue 16: 13 Codex detachments, army rules, GW points and Praesidium Shield wargear. Faction Pack 1.1 (22 July 2026) is skipped because the Codex errata of 14 October 2026 in the GW app data replaces it. The Shield Host limit and Upgrade enhancements are tracked in issue 64.
 - Classification review: Captain on Bike and Wolf Scouts remain in their shipped Legends rosters. Harlequins are tracked separately as an eight-datasheet prerequisite for Reaper’s Wager.
 - 1.5.20 wires attach targets for 43 Support characters (issue 10).
