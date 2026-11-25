@@ -38,6 +38,14 @@
           "Text": "This model can be attached to the following units:\n- BOYZ\n- NOBZ"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "NOBZ"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -2730,6 +2738,15 @@
           "Text": "This model can be attached to the following units:\n- BOYZ\n- BREAKA BOYZ\n- NOBZ"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "BREAKA BOYZ",
+          "NOBZ"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Infantry",
@@ -9656,6 +9673,17 @@
           "Text": "This model can be attached to the following units:\n- BOYZ\n- FLASH GITZ\n- MEK GUNZ\n- NOBZ\n- TANKBUSTAS"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "FLASH GITZ",
+          "MEK GUNZ",
+          "NOBZ",
+          "TANKBUSTAS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -11526,6 +11554,14 @@
           "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BEAST SNAGGA BOYZ",
+          "SQUIGHOG BOYZ"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -11680,6 +11716,17 @@
           "Text": "This model can be attached to the following units:\n- BOYZ\n- BREAKA BOYZ\n- FLASH GITZ\n- NOBZ\n- TANKBUSTAS"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BOYZ",
+          "BREAKA BOYZ",
+          "FLASH GITZ",
+          "NOBZ",
+          "TANKBUSTAS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Infantry",
@@ -12059,6 +12106,13 @@
           "Text": "This model can be attached to the following units:\n- GRETCHIN"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "GRETCHIN"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Infantry",
@@ -16164,6 +16218,14 @@
           "Text": "This model can be attached to the following unit:\n- BEAST SNAGGA BOYZ\n\n- BOYZ"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BEAST SNAGGA BOYZ",
+          "BOYZ"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Weirdboy",
