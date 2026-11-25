@@ -3124,7 +3124,62 @@
         "Priority Assets",
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Ultramarian Adaptivity",
+          "Category": "Blade of Ultramar Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>Adeptus Astartes</k> unit.",
+          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+        },
+        {
+          "Name": "Exemplary Vigilance",
+          "Category": "Blade of Ultramar Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Adeptus Astartes</k> unit is <b>selected to shoot</b>.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "Your unit’s ranged attacks have <k>[IGNORES COVER]</k>."
+        },
+        {
+          "Name": "Courage and Honour!",
+          "Category": "Blade of Ultramar Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Adeptus Astartes</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "Your unit’s melee attacks have <k>[Lance]</k>."
+        },
+        {
+          "Name": "Tactical Foresight",
+          "Category": "Blade of Ultramar Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly <k>Adeptus Astartes</k> unit.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "Attacks that target your unit with a <b>S</b> greater than this unit’s <b>T</b> have -1 to <b>wound rolls</b>."
+        },
+        {
+          "Name": "Practical Tactics",
+          "Category": "Blade of Ultramar Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly <b>unengaged</b> <k>Adeptus Astartes Infantry/Mounted</k> unit.",
+          "Target": "That <k>Adeptus Astartes Infantry/Mounted</k> unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3\"."
+        },
+        {
+          "Name": "Armour of Contempt",
+          "Category": "Blade of Ultramar Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly <k>Adeptus Astartes</k> unit.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "Attacks that target your unit have -1 <b>AP</b> until that enemy unit has attacked."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Armour of Antoninus",
