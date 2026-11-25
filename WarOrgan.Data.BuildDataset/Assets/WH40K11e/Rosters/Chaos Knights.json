@@ -39,7 +39,7 @@
         },
         {
           "Title": "Sunderer of Fortresses",
-          "Text": "Each time this model makes an attack that targets a **VEHICLE**, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a **FORTIFICATION**, improve the Strength and Damage characteristics of that attack by 2 instead)."
+          "Text": "Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead)."
         },
         {
           "Title": "Damaged: 1-10 wounds remaining",
@@ -657,7 +657,7 @@
         },
         {
           "Title": "Unrestrained Terror (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more **WAR DOG** units affected by this ability must take a Battle-shock test."
+          "Text": "While a friendly WAR DOG model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more WAR DOG units affected by this ability must take a Battle-shock test."
         },
         {
           "Title": "Damaged: 1-10 wounds remaining",
@@ -917,11 +917,11 @@
         },
         {
           "Title": "Macro-extinction Protocols",
-          "Text": "Each time this model makes an attack that targets a **MONSTER** or **VEHICLE** unit, add 1 to the Hit roll. If that target is **TITANIC** or **TOWERING**, add 1 to the Wound roll as well."
+          "Text": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well."
         },
         {
           "Title": "Consumed with Hunger (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, each time that **WAR DOG** model makes an attack that targets a **TITANIC** or **TOWERING** unit, you can re-roll the Hit roll."
+          "Text": "While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes an attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
         },
         {
           "Title": "Damaged: 1-10 wounds remaining",
@@ -1243,11 +1243,11 @@
         },
         {
           "Title": "Storm of Bolts",
-          "Text": "In your Shooting phase, after this model has shot, select one unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+          "Text": "In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
         },
         {
           "Title": "Offerings for the Dark Gods (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, ranged weapons equipped by that **WAR DOG** model have the [SUSTAINED HITS 1] ability."
+          "Text": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [SUSTAINED HITS 1] ability."
         },
         {
           "Title": "Damaged: 1-10 wounds remaining",
@@ -1479,7 +1479,7 @@
         },
         {
           "Title": "Dark Fervour (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, ranged weapons equipped by that **WAR DOG** model have the [ASSAULT] ability."
+          "Text": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [ASSAULT] ability."
         },
         {
           "Title": "Damaged: 1-10 wounds remaining",
@@ -1722,11 +1722,11 @@
         },
         {
           "Title": "Grav-pinned",
-          "Text": "In your Shooting phase, after this model has shot, if an enemy **INFANTRY** unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit."
+          "Text": "In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Advance and Charge rolls made for that unit."
         },
         {
           "Title": "Preysight (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, ranged weapons equipped by that **WAR DOG** model have the [IGNORES COVER] ability."
+          "Text": "While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [IGNORES COVER] ability."
         },
         {
           "Title": "Damaged: 1-9 wounds remaining",
@@ -2367,7 +2367,7 @@
         },
         {
           "Title": "Taskmaster (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 9\" of this model, each time that **WAR DOG** model makes a ranged attack, re-roll a Hit roll of 1."
+          "Text": "While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a ranged attack, re-roll a Hit roll of 1."
         },
         {
           "Title": "Obsessive Ruthlessness",
@@ -2796,7 +2796,7 @@
         },
         {
           "Title": "Dread Dominion (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 9\" of this model, improve that **WAR DOG** model's Leadership  and Objective Control characteristics by 1."
+          "Text": "While a friendly WAR DOG model is within 9\" of this model, improve that WAR DOG model's Leadership  and Objective Control characteristics by 1."
         },
         {
           "Title": "Seething Hatred",
@@ -3377,7 +3377,7 @@
         },
         {
           "Title": "Frenzied Rampage (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 9\" of this model, each time that **WAR DOG** model makes a melee attack, re-roll a Hit roll of 1."
+          "Text": "While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a melee attack, re-roll a Hit roll of 1."
         },
         {
           "Title": "Bloodlust",
@@ -3685,7 +3685,7 @@
         },
         {
           "Title": "Close-range Killers (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 9\" of this model, each time that **WAR DOG** model makes an attack that targets the closest enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+          "Text": "While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes an attack that targets the closest enemy unit, improve the Armour Penetration characteristic of that attack by 1."
         },
         {
           "Title": "Damaged: 1-9 wounds remaining",
@@ -3991,7 +3991,7 @@
         },
         {
           "Title": "Infernal Aegis (Aura)",
-          "Text": "While a friendly **WAR DOG** model is within 6\" of this model, that **WAR DOG** model has the Benefit of Cover."
+          "Text": "While a friendly WAR DOG model is within 6\" of this model, that WAR DOG model has the Benefit of Cover."
         },
         {
           "Title": "Bastion of Corruption",
@@ -5040,7 +5040,7 @@
         },
         {
           "Title": "Huntsman",
-          "Text": "Each time this model makes an attack that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Wound roll."
+          "Text": "Each time this model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll."
         },
         {
           "Title": "Damaged: 1-5 wounds remaining",
@@ -6472,7 +6472,7 @@
         },
         {
           "Name": "Tyrant's Shadow",
-          "Description": "At the end of your Command phase, select one objective marker the bearer is in range of and that you control. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a **CHAOS KNIGHTS** model from your army.",
+          "Description": "At the end of your Command phase, select one objective marker the bearer is in range of and that you control. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a CHAOS KNIGHTS model from your army.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6504,7 +6504,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Wretched Thralls",
-        "Text": "- You can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units cannot exceed 500 points.\n- Friendly DAMNED units can re-roll **leadership rolls**."
+        "Text": "- You can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units cannot exceed 500 points.\n- Friendly DAMNED units can re-roll leadership rolls."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -6573,7 +6573,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Tyrannical Court",
-        "Text": "Improve the Objective Control characteristic of **CHAOS KNIGHT CHARACTER** models from your army by 2. In addition, once per battle round, if your **WARLORD** is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
+        "Text": "Improve the Objective Control characteristic of CHAOS KNIGHT CHARACTER models from your army by 2. In addition, once per battle round, if your WARLORD is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -6676,7 +6676,7 @@
         },
         {
           "Name": "Mirror of Fates",
-          "Description": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do, increase the CP cost of that use of that **stratagem** by 1CP.",
+          "Description": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6722,7 +6722,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Marked Prey",
-        "Text": "At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time a **WAR DOG** model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.\n\n\n**Keywords**\nWhile using the Houndpack Lance Detachment, the following rules apply:\n\n\n- Your army must include 3 or more **WAR DOG** units.\n- **WAR DOG** units from your army have the **BATTLELINE** keyword.\n- When mustering your army, select 3 **WAR DOG** units from your army. Until the end of the battle, those units have the **CHARACTER** keyword.*\n\n\n*** Designer's Note:** *This means that the selected units can be given Enhancements and one of them can be selected as your* **WARLORD**."
+        "Text": "At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.\n\n\n**Keywords**\nWhile using the Houndpack Lance Detachment, the following rules apply:\n\n\n- Your army must include 3 or more WAR DOG units.\n- WAR DOG units from your army have the BATTLELINE keyword.\n- When mustering your army, select 3 WAR DOG units from your army. Until the end of the battle, those units have the CHARACTER keyword.*\n\n\n* Designer's Note: *This means that the selected units can be given Enhancements and one of them can be selected as your* WARLORD."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -6801,7 +6801,7 @@
         },
         {
           "Name": "Final Howl (Aura)",
-          "Description": "While a friendly **WAR DOG** model is within 6\" of the bearer, each time that model makes an attack, re-roll a Wound roll of 1.",
+          "Description": "While a friendly WAR DOG model is within 6\" of the bearer, each time that model makes an attack, re-roll a Wound roll of 1.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6849,7 +6849,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Malefic Surge",
-        "Text": "In your Command phase, one or more **CHAOS KNIGHTS** units from your army can make a Malefic Surge. Each one that does must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase, that unit is Empowered. While a unit is Empowered, it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.\n\n**Unholy Hunger:** When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3\" to its Move characteristic.\n\n**Diabolic Power:** When this unit is selected to shoot or fight, select either the [Lethal Hits] or [Sustained Hits 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.\n\n**Unnatural Fortitude:** When this unit is selected as the target of an attack, until the end of the phase, select one of the following:\n- Models in this unit have a 5+ invulnerable save\n- Models in this unit have the Feel No Pain 6+ ability."
+        "Text": "In your Command phase, one or more CHAOS KNIGHTS units from your army can make a Malefic Surge. Each one that does must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase, that unit is Empowered. While a unit is Empowered, it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.\n\nUnholy Hunger: When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3\" to its Move characteristic.\n\nDiabolic Power: When this unit is selected to shoot or fight, select either the [Lethal Hits] or [Sustained Hits 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.\n\nUnnatural Fortitude: When this unit is selected as the target of an attack, until the end of the phase, select one of the following:\n- Models in this unit have a 5+ invulnerable save\n- Models in this unit have the Feel No Pain 6+ ability."
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -6973,7 +6973,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Masters of the Pack",
-        "Text": "If a **TITANIC CHAOS KNIGHTS** unit from your army has an Aura ability that affects friendly **WAR DOG** units, while two or more friendly **WAR DOG** models are within range of that **TITANIC CHAOS KNIGHTS** unit’s Aura ability, that **TITANIC CHAOS KNIGHTS** unit is affected by that Aura ability as well."
+        "Text": "If a TITANIC CHAOS KNIGHTS unit from your army has an Aura ability that affects friendly WAR DOG units, while two or more friendly WAR DOG models are within range of that TITANIC CHAOS KNIGHTS unit’s Aura ability, that TITANIC CHAOS KNIGHTS unit is affected by that Aura ability as well."
       },
       "ForceDispositions": [
         "Disruption"
@@ -7050,7 +7050,7 @@
         },
         {
           "Name": "Octagram of Conjuration",
-          "Description": "While a friendly **WAR DOG MODEL IS WITHIN 9” OF THIS MODEL, AFTER THAT WAR DOG** model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test.",
+          "Description": "While a friendly WAR DOG MODEL IS WITHIN 9” OF THIS MODEL, AFTER THAT WAR DOG model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test.",
           "Cost": 40,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7063,7 +7063,7 @@
         },
         {
           "Name": "Throne Tyrannicus",
-          "Description": "In your Command phase, select one other **CHAOS KNIGHTS CHARACTER** model within 9” of the bearer. If the bearer has one or more Aura abilities that affect friendly **WAR DOG** units, until the start of your next Command phase, the selected **CHAOS KNIGHTS CHARACTER** model is affected by those Aura abilities as well.",
+          "Description": "In your Command phase, select one other CHAOS KNIGHTS CHARACTER model within 9” of the bearer. If the bearer has one or more Aura abilities that affect friendly WAR DOG units, until the start of your next Command phase, the selected CHAOS KNIGHTS CHARACTER model is affected by those Aura abilities as well.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7095,7 +7095,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Annihilate the Unworthy",
-        "Text": "Friendly **KNIGHT TYRANT** units’ attacks that target a **battle-shocked** unit have +1 to the **hit roll**."
+        "Text": "Friendly KNIGHT TYRANT units’ attacks that target a battle-shocked unit have +1 to the hit roll."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -7132,7 +7132,7 @@
       "Enhancements": [
         {
           "Name": "Pterrorshade Rookery",
-          "Description": "When this unit is **selected to shoot**, select one enemy unit within 24\" of this unit. That enemy unit has +6\" **detection range** until this unit has shot.",
+          "Description": "When this unit is selected to shoot, select one enemy unit within 24\" of this unit. That enemy unit has +6\" detection range until this unit has shot.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7145,7 +7145,7 @@
         },
         {
           "Name": "Hate-filled Dominion",
-          "Description": "This unit can re-roll rolls to determine the **A** of a weapon.",
+          "Description": "This unit can re-roll rolls to determine the A of a weapon.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7164,7 +7164,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Scenting Fear",
-        "Text": "(Once per battle round, per army) In your Shooting phase, you can select one **visible** enemy unit within 12\" of a friendly **WAR DOG** unit. That enemy unit has +6\" **detection range**.\nThis detachment has the WAR DOGS tag and cannot be taken with another WAR DOGS detachment."
+        "Text": "(Once per battle round, per army) In your Shooting phase, you can select one visible enemy unit within 12\" of a friendly WAR DOG unit. That enemy unit has +6\" detection range.\nThis detachment has the WAR DOGS tag and cannot be taken with another WAR DOGS detachment."
       },
       "ForceDispositions": [
         "Reconnaissance"
