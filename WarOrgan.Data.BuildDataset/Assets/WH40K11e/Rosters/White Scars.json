@@ -572,7 +572,7 @@
         },
         {
           "Name": "Laurels of Triumph",
-          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1S and AP\n▪ Or: if the assault doctrine is active for this unit, +2S and AP",
+          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1 S and AP\n▪ Or: if the assault doctrine is active for this unit, +2 S and AP",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -596,7 +596,7 @@
         },
         {
           "Name": "Standard of the Emperor Ascendant",
-          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
+          "Description": "Ancient model only. This model has:\n▪ +1 OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1 A until the end of the phase.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -695,7 +695,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Lightning-Fast Strike",
-        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
+        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\" M"
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -745,7 +745,7 @@
         },
         {
           "Name": "Auspex Triangulation Shrines (Upgrade)",
-          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy is spotted.\n▪ While a unit is spotted, that unit has +3\" detection range",
+          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\n▪ While a unit is spotted, that unit has +3\" detection range",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -927,9 +927,46 @@
       "Enhancements": [
         {
           "Name": "Imperium's Sword",
-          "Description": "ADEPTUS ASTARTES model only. This model has the following weapon:\n▪ Imperium's Sword (Melee; A 6; WS 2+; S 7; AP -3; D 3).",
+          "Description": "ADEPTUS ASTARTES model only. This model has the following weapon:",
           "Cost": 20,
           "Features": "None",
+          "AddedWeapons": [
+            {
+              "WeaponSetId": "MELEE WEAPONS",
+              "Weapon": {
+                "Id": "imperium's sword",
+                "DisplayName": "Imperium's Sword",
+                "Keywords": "",
+                "Flags": "NeverFilter",
+                "Stats": [
+                  {
+                    "Id": "Range",
+                    "Value": "Melee"
+                  },
+                  {
+                    "Id": "A",
+                    "Value": "6"
+                  },
+                  {
+                    "Id": "WS",
+                    "Value": "2+"
+                  },
+                  {
+                    "Id": "S",
+                    "Value": "7"
+                  },
+                  {
+                    "Id": "AP",
+                    "Value": "-3"
+                  },
+                  {
+                    "Id": "D",
+                    "Value": "3"
+                  }
+                ]
+              }
+            }
+          ],
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Character"
@@ -999,7 +1036,7 @@
       "Enhancements": [
         {
           "Name": "Laurels of Vigilance",
-          "Description": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP",
+          "Description": "Adeptus Astartes model only. (Once per battle round, per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1 CP",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
