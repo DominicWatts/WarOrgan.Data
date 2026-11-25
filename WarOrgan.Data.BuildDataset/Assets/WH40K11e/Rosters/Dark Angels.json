@@ -4777,11 +4777,13 @@
         },
         {
           "Name": "Standard of the Emperor Ascendant",
-          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
+          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Ancient"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -5133,7 +5135,7 @@
       "Enhancements": [
         {
           "Name": "Imperium's Sword",
-          "Description": "",
+          "Description": "ADEPTUS ASTARTES model only. This model has the following weapon:\n▪ Imperium's Sword (Melee; A 6; WS 2+; S 7; AP -3; D 3).",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -5165,7 +5167,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Tactical Mastery",
-        "Text": "You can select the Tactical Doctrine one additional time."
+        "Text": "You can select the tactical doctrine one additional time per battle."
       },
       "Tags": [
         "DOCTRINES"
