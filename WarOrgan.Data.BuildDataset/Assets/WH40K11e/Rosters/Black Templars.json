@@ -1567,7 +1567,13 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "CRUSADER SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1792,7 +1798,13 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "CRUSADER SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -2036,7 +2048,10 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "CRUSADER SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -3055,7 +3070,14 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "CRUSADER SQUAD",
+          "INTERCESSOR SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -3751,7 +3773,15 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "CRUSADER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
