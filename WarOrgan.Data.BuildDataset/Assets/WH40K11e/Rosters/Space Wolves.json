@@ -6524,8 +6524,8 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Master-Forged Firearms",
-          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
+          "Name": "Master-forged Firearms",
+          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1 A, S, AP and D.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6728,8 +6728,8 @@
       ],
       "Enhancements": [
         {
-          "Name": "Cyber Familiar",
-          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
+          "Name": "Cyber-familiar",
+          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes INFANTRY units. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6814,8 +6814,8 @@
         },
         {
           "Name": "Venator Omni-Auspex",
-          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
-          "Cost": 0,
+          "Description": "Phobos model only. This unit's attacks that target a hidden unit can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
