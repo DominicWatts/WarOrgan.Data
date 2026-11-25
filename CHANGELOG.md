@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.23.0 - Adeptus Custodes: added the six missing Codex detachments, the full Martial Ka'tah and Daughters of the Abyss rules, GW points for Vertus Praetors and the Sisterhood squads, a 25-point Praesidium Shield for the Shield-Captain, and enhancement eligibility fixes (issue 16).
+
 2026-11-25 : 1.5.22.0 - Added five Anathema Psykana units and Aleya to Adeptus Custodes, with enhancement weapon details and eligibility restrictions (issue 16).
 
 2026-11-25 : 1.5.21.0 - 57 Leaders in 14 factions, including the Space Marine Librarian, now list the units they can be attached to (issue 11).

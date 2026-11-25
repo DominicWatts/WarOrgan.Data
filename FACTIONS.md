@@ -11,7 +11,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 | Tyranids | 52/52 (100%) | 5/5 (100%) | Complete | Complete | Complete | Complete | Complete | — |
 | Astra Militarum | 72/72 (100%) | 63/63 (100%) | Complete | Complete | Complete | Complete | Complete | 2/2 (100%) |
 | Adepta Sororitas | 33/33 (100%) | 5/5 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Adeptus Custodes | 29/29 (100%) | 7/7 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Adeptus Custodes | 29/29 (100%) | 7/7 (100%) | Complete | Complete | Complete | Complete | Complete | 1/3 (33%) |
 | Adeptus Mechanicus | 34/34 (100%) | 3/3 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Agents of the Imperium | 29/29 (100%) | 11/11 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Grey Knights | 26/26 (100%) | 5/5 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
@@ -45,7 +45,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 ## Status notes
 
 - Candidate gaps (11): Space Marines — Drop Pod (Base), plus Cerberus, Falchion, Kratos, Mastodon, Rapier Carrier, Sicaran, Terrax-pattern Termite and Typhon (Legends). Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
-- 1.5.22 adds five Anathema Psykana datasheets to the Adeptus Custodes Base roster and Aleya to Legends. App testing is pending (issue 16).
+- Adeptus Custodes: 1.5.22 adds the Anathema Psykana datasheets and Aleya (app checks in issue 63). 1.5.23 completes issue 16: 13 Codex detachments, army rules, GW points and Praesidium Shield wargear. Faction Pack 1.1 (22 July 2026) is skipped because the Codex errata of 14 October 2026 in the GW app data replaces it. The Shield Host limit and Upgrade enhancements are tracked in issue 64.
 - Classification review: Captain on Bike and Wolf Scouts remain in their shipped Legends rosters. Harlequins are tracked separately as an eight-datasheet prerequisite for Reaper’s Wager.
 - 1.5.20 wires attach targets for 43 Support characters (issue 10).
 - 1.5.21 fills attach targets for 57 Leaders that had none (issue 11). The five Death Guard specialists join Plague Marines as Support, since they can join a unit that already has a Leader.
