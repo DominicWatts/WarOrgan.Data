@@ -22,6 +22,7 @@ try
     datasetInfo
         .CreateDatasetBuildModel(assetsFolder)
         .AddRosters(rostersFolder)
+        .NormalizeRuleText()
         .IncludeReadme(assetsFolder)
         .Validate()
         .PublishToZipArchive(outputFolder);
