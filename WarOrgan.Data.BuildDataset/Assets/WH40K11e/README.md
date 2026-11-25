@@ -78,20 +78,16 @@ The URL always targets the most recent published release. The downloaded ZIP sho
 
 ## Sources
 
-- November 2026 BSData dump: `momper14/wh40k-11e` at commit `f015101d4c495173283e1b97e9d59f2befb877ad` (11 November 2026). The base for every faction, and the only source for the draft factions.
-- List Forge BSData export: `https://files.data-ark.dev/wh40k-11e/`, version `71860bdbe486ddeed7fd46e80df2735450dcc8a6` (fetched 24 November 2026). A newer copy of the same catalogues that replaces the November dump where they differ. Not yet applied.
-- IRONBUILT community dataset `wh40k-11e`, version `2026.11.21-0401-mfm16-tempered`, manifest updated 21 November 2026.
-- Source bundle SHA-256: `e19b68b0860ec5a6074325ea22dbec5654da0953590429450306094fe7e6dd71`.
-- Wahapedia 11th Edition pages: Genestealer Cults datasheets, the Tyranid and Astra Militarum allied datasheets, and the faction pages used to correct individual draft points, datasheets and rules. Checked 23-24 November 2026.
-- Games Workshop Genestealer Cults Faction Pack, version 1.1, legal for matched play from 22 July 2026 (checked 24 November 2026), and Tyranids Faction Pack, version 1.3, legal from 14 October 2026 (checked 23 November 2026).
-- Games Workshop Warhammer Community faction packs (`https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/`) and Munitorum Field Manual are the canonical authority for published changes and points.
-- Codexes are not used as a source.
+1. **BSData** — baseline at `f015101d4c495173283e1b97e9d59f2befb877ad`.
+2. **ListForge** — [catalogue export](https://files.data-ark.dev/wh40k-11e/) at `71860bdbe486ddeed7fd46e80df2735450dcc8a6`.
+3. **GW**.
+4. **Faction packs** — [Warhammer Community updates](https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/).
 
-Community datasets are used as structured authoring aids, not as unquestioned authorities. Values should be rechecked following every Games Workshop balance or faction update.
+Later sources take precedence for applicable records. Existing fixes and uncovered entries are carried forward.
 
 ## Known limitations
 
 - The WarOrgan builder validates schema and internal references; it cannot prove that game data matches the current rules.
 - Wargear limits are being audited unit by unit. Users should consult the current faction rules for units not yet called out as constraint-verified in the coverage notes.
-- The draft factions are converted automatically and unchecked: expect mistakes in rules text, wargear options and points until each faction has been checked against Wahapedia.
+- Draft factions may have gaps in rules text, wargear options and points. See FACTIONS.md for coverage.
 - Stable unit IDs must not be renamed after release because saved army lists refer to them.
