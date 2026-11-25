@@ -11271,7 +11271,7 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
+              "Min": 4,
               "Max": 10
             },
             "ModelName": "Infernus Marines",
@@ -11290,8 +11290,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Infernus Sergeant",
             "StatlineRef": "Infernus Squad",
@@ -11495,33 +11495,33 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 95
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 95
+          "ModelCount": 10,
+          "Cost": 190
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 105
         },
         {
           "UnitCount": 2,
           "ModelCount": 10,
-          "Cost": 95
+          "Cost": 200
         },
         {
-          "UnitCount": 2,
-          "ModelCount": 20,
-          "Cost": 95
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 105
         },
         {
           "UnitCount": 3,
           "ModelCount": 10,
-          "Cost": 105
-        },
-        {
-          "UnitCount": 3,
-          "ModelCount": 20,
-          "Cost": 105
+          "Cost": 200
         }
       ]
     },
@@ -11780,8 +11780,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Intercessor Sergeant",
             "StatlineRef": "Intercessor Squad",
@@ -11874,8 +11874,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Intercessor",
             "StatlineRef": "Intercessor Squad",
@@ -12401,12 +12401,12 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 85
         },
         {
-          "ModelCount": 20,
-          "Cost": 85
+          "ModelCount": 10,
+          "Cost": 170
         }
       ]
     },
