@@ -17413,6 +17413,10 @@
             "GrantsAbilities": [
               "Scattershield"
             ]
+          },
+          {
+            "Key": "heavy wraithcannon",
+            "Cost": 10
           }
         ]
       },
