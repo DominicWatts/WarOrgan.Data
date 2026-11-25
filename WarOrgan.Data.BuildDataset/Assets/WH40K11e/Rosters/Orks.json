@@ -697,7 +697,7 @@
           "Weapons": [
             {
               "Id": "choppa - hunter (hunter: monster/vehicle)",
-              "DisplayName": "Choppa - Hunter (Hunter: MONSTER/VEHICLE)",
+              "DisplayName": "Choppa - Hunter (Monster/Vehicle)",
               "Flags": "None",
               "Stats": [
                 {
@@ -1215,7 +1215,7 @@
           "Weapons": [
             {
               "Id": "beastchoppa - hunter (hunter: monster/vehicle)",
-              "DisplayName": "Beastchoppa - Hunter (Hunter: MONSTER/VEHICLE)",
+              "DisplayName": "Beastchoppa - Hunter (Monster/Vehicle)",
               "Flags": "None",
               "Stats": [
                 {
@@ -4307,7 +4307,7 @@
             },
             {
               "Id": "smash hammer - hunter (hunter: monster/vehicle)",
-              "DisplayName": "Smash Hammer - Hunter (Hunter: MONSTER/VEHICLE)",
+              "DisplayName": "Smash Hammer - Hunter (Monster/Vehicle)",
               "Flags": "None",
               "Stats": [
                 {
@@ -10632,7 +10632,7 @@
             },
             {
               "Id": "gutrippa - hunter (hunter: monster/vehicle)",
-              "DisplayName": "Gutrippa - Hunter (Hunter: MONSTER/VEHICLE)",
+              "DisplayName": "Gutrippa - Hunter (Monster/Vehicle)",
               "Keywords": "Lethal Hits",
               "Flags": "None",
               "Stats": [
@@ -13406,7 +13406,7 @@
           "Weapons": [
             {
               "Id": "busta rokkit launcha - hunter (hunter: monster/vehicle)",
-              "DisplayName": "Busta Rokkit Launcha - Hunter (Hunter: MONSTER/VEHICLE)",
+              "DisplayName": "Busta Rokkit Launcha - Hunter (Monster/Vehicle)",
               "Flags": "None",
               "Stats": [
                 {
@@ -13568,7 +13568,7 @@
             },
             {
               "Id": "smash hammer - hunter (hunter: monster/vehicle)",
-              "DisplayName": "Smash Hammer - Hunter (Hunter: MONSTER/VEHICLE)",
+              "DisplayName": "Smash Hammer - Hunter (Monster/Vehicle)",
               "Flags": "None",
               "Stats": [
                 {
