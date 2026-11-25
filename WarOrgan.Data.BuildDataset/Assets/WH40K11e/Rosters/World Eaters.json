@@ -7475,7 +7475,62 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Blood Offering",
+          "Category": "Berzerker Warband Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase.",
+          "Target": "One WORLD EATERS unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.",
+          "Effect": "Select one of those objective markers. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "Name": "Hack and Slash",
+          "Category": "Berzerker Warband Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase.",
+          "Target": "One WORLD EATERS unit from your army that has not been selected to fight this phase and that made a charge move this turn.",
+          "Effect": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1."
+        },
+        {
+          "Name": "Frenzied Resilience",
+          "Category": "Berzerker Warband Stratagem",
+          "CPCost": 2,
+          "Phase": "Fight",
+          "When": "Fight phase, just after an enemy unit has selected its targets.",
+          "Target": "One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "Effect": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "Name": "Skulls for the Skull Throne!",
+          "Category": "Berzerker Warband Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, just after a WORLD EATERS unit from your army destroys a CHARACTER or MONSTER model.",
+          "Target": "That WORLD EATERS unit.",
+          "Effect": "Make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the battle round, that Blessing of Khorne is active in addition to any other Blessings of Khorne that are currently active."
+        },
+        {
+          "Name": "Apoplectic Frenzy",
+          "Category": "Berzerker Warband Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, just after a KHORNE BERZERKERS unit from your army is selected to Advance.",
+          "Target": "That KHORNE BERZERKERS unit.",
+          "Effect": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "Name": "Berzerker’s Wrath",
+          "Category": "Berzerker Warband Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "Target": "One KHORNE BERZERKERS unit from your army that can make a surge move as a result of those attacks.",
+          "Effect": "Do not roll a D6 to determine how far models in your unit can move when they make a surge move. Instead, when making a surge move, those models can move up to 8\"."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Berzerker Glaive",
@@ -7542,7 +7597,35 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Scorn the Witch",
+          "Category": "Vessels of Wrath Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when a friendly <k>World Eaters Character</k> unit (excluding <k>EPIC HERO</k> units) suffers a <b>mortal wound</b>.",
+          "Target": "That <k>World Eaters Character</k> unit.",
+          "Effect": "Your unit has <b>Feel No Pain 4+</b> against <b>mortal wounds</b>."
+        },
+        {
+          "Name": "Aspire to Infamy",
+          "Category": "Vessels of Wrath Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>World Eaters Character</k> unit (excluding <k>EPIC HERO</k> units) is <b>selected to fight</b>.",
+          "Target": "That <k>World Eaters Character</k> unit.",
+          "Effect": "Your unit's <k>Character</k> models' melee attacks have:\r<ul><li>+1 <b>A</b>.</li>\r<li>+2 <b>S</b>.</li></ul>"
+        },
+        {
+          "Name": "Punish the Craven",
+          "Category": "Vessels of Wrath Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent's Movement phase, when a unit is selected to make a <b>fall-back move</b>, if that unit is <b>engaged</b> with a friendly <k>World Eaters Character</k> unit.",
+          "Target": "That <k>World Eaters Character</k> unit.",
+          "Effect": "When an enemy unit <b>engaged</b> with your unit is selected to make a <b>fall-back move</b>, that enemy unit must use the <b>desperate escape</b> mode. If that enemy unit is <b>battle-shocked</b>, -1 from those <b>hazard rolls</b>."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Archslaughterer",
@@ -7584,7 +7667,64 @@
       "ForceDispositions": [
         "Priority Assets"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Bloody Vengeance",
+          "Category": "Cult of Blood Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase.",
+          "Target": "One WORLD EATERS MONSTER or WORLD EATERS TITANIC unit from your army that was just destroyed by an enemy unit. You can use this Stratagem on that unit even though it was just destroyed.",
+          "Effect": "Until the end of the battle, each time a model in a JAKHALS or GOREMONGERS unit from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll."
+        },
+        {
+          "Name": "Drawn to the Slaughter",
+          "Category": "Cult of Blood Stratagem",
+          "CPCost": 2,
+          "Phase": "Any",
+          "When": "Any phase.",
+          "Target": "One JAKHALS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+          "Effect": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.",
+          "Restrictions": "This Stratagem cannot be used to return destroyed CHARACTER units to Attached units."
+        },
+        {
+          "Name": "In the Shadow of Brass Idols",
+          "Category": "Cult of Blood Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "Target": "One JAKHALS or GOREMONGERS unit from your army that was selected as the target as one or more of the attacking unit’s attacks.",
+          "Effect": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within 6\" of one or more friendly WORLD EATERS MONSTER units, or within 9\" of one or more friendly WORLD EATERS TITANIC units, your unit has the Feel No Pain 5+ ability instead."
+        },
+        {
+          "Name": "Bloodthirsty Horde",
+          "Category": "Cult of Blood Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase.",
+          "Target": "One JAKHALS or GOREMONGERS unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.",
+          "Effect": "Until the end of the phase, each time your unit is selected to fight, when determining which models in it are eligible to fight, any models in your unit that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
+        },
+        {
+          "Name": "Fail Not The Blood God",
+          "Category": "Cult of Blood Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase.",
+          "Target": "One JAKHALS or GOREMONGERS unit from your army.",
+          "Effect": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If that model’s unit is within 6\" of one or more friendly WORLD EATERS MONSTER units, or within 9\" of one or more friendly WORLD EATERS TITANIC units, you can re-roll the Hit roll instead."
+        },
+        {
+          "Name": "Brazen Idol",
+          "Category": "Cult of Blood Stratagem",
+          "CPCost": 2,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One WORLD EATERS MONSTER or WORLD EATERS TITANIC unit from your army.",
+          "Effect": "Select the Idol of Infinite Rage, Idol of Burning Wrath or Idol of Blessed Blood. Until the start of your next Command phase, that Idols of Khorne ability is active for your unit instead of any other Idols of Khorne ability that is active for your army, even if you have already selected that ability this battle.",
+          "Restrictions": "You can only use this Stratagem once per battle."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Brazen Form",
@@ -7653,7 +7793,64 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Summoned by Slaughter",
+          "Category": "Khorne Daemonkin Stratagem",
+          "CPCost": 1,
+          "Phase": "Any",
+          "When": "Any phase, when the last model in a unit is destroyed, before removing it from play. (If that unit is a TRANSPORT, any units embarked within that TRANSPORT model must disembark first.)",
+          "Target": "One BLOODLETTERS unit from your army that is in Reserves.",
+          "Effect": "Set your unit up anywhere on the battlefield wholly within 9\" of that destroyed model and more than 6\" horizontally away from all enemy units, then remove the destroyed model from play.",
+          "Restrictions": "You cannot use this Stratagem more than once per battle round."
+        },
+        {
+          "Name": "Daemonic Fury",
+          "Category": "Khorne Daemonkin Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Start of your Fight phase.",
+          "Target": "One BLOOD LEGIONS unit from your army.",
+          "Effect": "Select one friendly WORLD EATERS unit within 6\" of your unit. Until the end of the turn, melee weapons equipped by models in your WORLD EATERS unit have the [LANCE] ability. If the Daemonic Rage ability is active for your army, then until the end of the phase those melee weapons also have the [TWIN-LINKED] ability."
+        },
+        {
+          "Name": "A Worthy Skull",
+          "Category": "Khorne Daemonkin Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, just after a BLOOD LEGIONS or WORLD EATERS unit from your army has fought, and one or more enemy CHARACTER or MONSTER models were destroyed as a result of those attacks.",
+          "Target": "That BLOOD LEGIONS or WORLD EATERS unit.",
+          "Effect": "You gain D3BTP and you can then spend one or more BTP you have to activate one of the Blood Tithe abilities."
+        },
+        {
+          "Name": "Blessing of Burning Blood",
+          "Category": "Khorne Daemonkin Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "Target": "One BLOOD LEGIONS unit from your army that is within 6\" of a friendly WORLD EATERS unit that was selected as the target as one or more of the attacking unit’s attacks.",
+          "Effect": "Until the end of the phase, models in your WORLD EATERS unit have a 5+ invulnerable save. If the Boon of Blood ability is active for your army, then until the end of the phase, models in your WORLD EATERS unit have a 4+ invulnerable save."
+        },
+        {
+          "Name": "Daemontide",
+          "Category": "Khorne Daemonkin Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One WORLD EATERS unit from your army.",
+          "Effect": "Select one friendly BLOOD LEGIONS unit within 6\" of your unit. One destroyed MOUNTED model, up to D3 destroyed BEAST models, or up to D6 destroyed INFANTRY models are returned to that BLOOD LEGIONS unit with their full wounds remaining.",
+          "Restrictions": "This Stratagem cannot be used to return destroyed CHARACTER models to Attached units."
+        },
+        {
+          "Name": "Murder-Call",
+          "Category": "Khorne Daemonkin Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One BLOOD LEGIONS unit from your army that is on the battlefield and not within Engagement Range of one or more enemy units.",
+          "Effect": "Remove your unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Disciple of Khorne",
@@ -7718,7 +7915,63 @@
       "ForceDispositions": [
         "Purge the Foe"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Daemonic Resistance",
+          "Category": "Possessed Slaughterband Stratagem",
+          "CPCost": 2,
+          "Phase": "Shooting or Fight",
+          "When": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+          "Target": "One WORLD EATERS POSSESSED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "Effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
+        },
+        {
+          "Name": "Daemonic Strength",
+          "Category": "Possessed Slaughterband Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase.",
+          "Target": "One WORLD EATERS POSSESSED unit from your army that has not been selected to fight this phase.",
+          "Effect": "Until the end of the phase, each time an attack made by a model in your unit is allocated to an enemy model, if your unit has the EIGHTBOUND keyword and that enemy model is not a MONSTER or VEHICLE, add 1 to the Damage characteristic of that attack. If your unit has the EXALTED EIGHTBOUND keyword and that enemy model is a MONSTER or VEHICLE, add 1 to the Damage characteristic of that attack instead."
+        },
+        {
+          "Name": "Immortal Fury",
+          "Category": "Possessed Slaughterband Stratagem",
+          "CPCost": 2,
+          "Phase": "Fight",
+          "When": "Fight phase, just after an enemy unit has selected its targets.",
+          "Target": "One WORLD EATERS POSSESSED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+          "Effect": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "Name": "Rapid Manifestation",
+          "Category": "Possessed Slaughterband Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase.",
+          "Target": "One EXALTED EIGHTBOUND unit from your army that is arriving using the Deep Strike ability this phase.",
+          "Effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.",
+          "Restrictions": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
+        },
+        {
+          "Name": "Warp Stalkers",
+          "Category": "Possessed Slaughterband Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement or Charge",
+          "When": "Your Movement phase or your Charge phase.",
+          "Target": "One WORLD EATERS POSSESSED unit from your army that has not been selected to move or declare a charge this phase.",
+          "Effect": "Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move through enemy models (excluding MONSTERS and VEHICLES). When doing so, it can move within Engagement Range of such models but, unless that move was a Charge move, it cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "Name": "Horrifying Violence",
+          "Category": "Possessed Slaughterband Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your opponent’s Command phase.",
+          "Target": "One WORLD EATERS POSSESSED unit from your army.",
+          "Effect": "Each enemy unit within Engagement Range of your unit must take a Battle-shock test, subtracting 1 from that test."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Frenzied Focus",
@@ -7788,7 +8041,64 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Endless Pursuit of Violence",
+          "Category": "Goretrack Onslaught Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of the Fight phase.",
+          "Target": "One WORLD EATERS INFANTRY unit from your army and one friendly TRANSPORT that it is able to embark within.",
+          "Effect": "If your WORLD EATERS INFANTRY unit is wholly within 6\" of that TRANSPORT, it can embark within it."
+        },
+        {
+          "Name": "Smash Through",
+          "Category": "Goretrack Onslaught Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase.",
+          "Target": "One WORLD EATERS VEHICLE model from your army that has not been selected to move this phase.",
+          "Effect": "Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through terrain features."
+        },
+        {
+          "Name": "Aggressive Disembarkation",
+          "Category": "Goretrack Onslaught Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase.",
+          "Target": "One WORLD EATERS RHINO model from your army that has not been selected to move this phase.",
+          "Effect": "One WORLD EATERS unit embarked within your RHINO can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your RHINO and can be set up within Engagement Range of one or more enemy units."
+        },
+        {
+          "Name": "Full-Throttle Assault",
+          "Category": "Goretrack Onslaught Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase.",
+          "Target": "One WORLD EATERS RHINO model from your army that has not been selected to move this phase.",
+          "Effect": "Until the end of the phase, each time a WORLD EATERS unit disembarks from that model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+        },
+        {
+          "Name": "Unrelenting Advance",
+          "Category": "Goretrack Onslaught Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "Target": "One WORLD EATERS VEHICLE model from your army that was hit by one or more of the attacking unit’s attacks.",
+          "Effect": "Your model can make a Normal move of up to 6\".",
+          "Restrictions": "A unit cannot be targeted by this Stratagem and the Fury Unleashed Stratagem in the same phase."
+        },
+        {
+          "Name": "Fury Unleashed",
+          "Category": "Goretrack Onslaught Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+          "Target": "One WORLD EATERS RHINO model from your army that has one or more wounds remaining and was hit by one or more of the attacking unit’s attacks.",
+          "Effect": "One KHORNE BERZERKERS unit embarked within your model can make a disembark move and then make a surge move of up to D6+2\".",
+          "Restrictions": "A unit cannot be targeted by this Stratagem and the Unrelenting Advance Stratagem in the same phase."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Aggressive Deployment",
@@ -7855,7 +8165,35 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Apoplectic Clarity",
+          "Category": "Brazen Engines Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting or Fight",
+          "When": "Your Shooting phase or the Fight phase, when a friendly <k>Daemon Vehicle</k> unit is <b>selected to attack</b>.",
+          "Target": "That <k>Daemon Vehicle</k> unit.",
+          "Effect": "Your unit’s attacks can ignore modifiers to: \r<ul><li><b>BS</b>.</li>\r<li><b>WS</b>.</li>\r<li><b>Hit rolls</b> and <b>wound rolls</b>.</li></ul>"
+        },
+        {
+          "Name": "Goaded to Fury",
+          "Category": "Brazen Engines Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly <b>unengaged</b> <k>Daemon Vehicle</k> unit (excluding <k>Titanic</k> units) has shot.",
+          "Target": "That <k>Daemon Vehicle</k> unit.",
+          "Effect": "Your unit can make a <b>surge move</b> of up to D6\"."
+        },
+        {
+          "Name": "Trail of Destruction",
+          "Category": "Brazen Engines Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement or Charge",
+          "When": "Your Movement phase, when a friendly <k>Daemon Vehicle</k> unit is <b>selected to move</b>.",
+          "Target": "That <k>Daemon Vehicle</k> unit.",
+          "Effect": "Your unit has <k>Mobile</k>."
+        }
+      ],
       "Enhancements": [],
       "Effects": []
     },
@@ -7869,8 +8207,63 @@
       "ForceDispositions": [
         "Take and Hold"
       ],
-      "Stratagems": [],
-      "Enhancements": [],
+      "Stratagems": [
+        {
+          "Name": "Wrath Beyond Reason",
+          "Category": "Butchers of Khorne Stratagem",
+          "CPCost": 2,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting Phase, when an enemy unit targets a friendly <k>Terminator Squad</k> unit.",
+          "Target": "That <k>Terminator Squad</k> unit.",
+          "Effect": "Ranged attacks that target your unit have -1 <b>D</b> until that enemy unit has attacked."
+        },
+        {
+          "Name": "Focused Ferocity",
+          "Category": "Butchers of Khorne Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Terminator Squad</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Terminator Squad</k> unit.",
+          "Effect": "Your unit’s melee attacks have +1 <b>A</b>."
+        },
+        {
+          "Name": "A Trophy for the Throne",
+          "Category": "Butchers of Khorne Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Terminator Squad</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Terminator Squad</k> unit.",
+          "Effect": "Your unit’s attacks that target a <k>Monster/Vehicle</k> unit have +1 to <b>wound rolls</b>."
+        }
+      ],
+      "Enhancements": [
+        {
+          "Name": "Sanctified in Slaughter (Upgrade)",
+          "Description": "<k>Terminator Squad</k> unit only. This unit has +1 <b>OC</b>.",
+          "Cost": 15,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator Squad"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Gore-stained Veterans (Upgrade)",
+          "Description": "<k>Terminator Squad</k> unit only. This unit’s melee attacks have +1 <b>WS</b>.",
+          "Cost": 20,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Terminator Squad"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],
