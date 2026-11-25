@@ -646,7 +646,62 @@
       "ForceDispositions": [
         "Reconnaissance"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Withdraw and Regroup",
+          "Category": "Spearpoint Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One friendly <b>unengaged</b> <k>Adeptus Astartes Mounted/Speeder</k> unit.",
+          "Effect": "Place your unit in <b>strategic reserves</b>."
+        },
+        {
+          "Name": "Hunter's Instincts",
+          "Category": "Spearpoint Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8” of a friendly <b>unengaged</b> <k>Adeptus Astartes Infantry/Mounted/Speeder</k> unit.",
+          "Target": "That <k>Adeptus Astartes Infantry/Mounted/Speeder</k> unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3”."
+        },
+        {
+          "Name": "Spear Thrust and Sabre Swing",
+          "Category": "Spearpoint Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Adeptus Astartes</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "Your unit’s melee attacks:<ul><li>Have <k>[LETHAL HITS]</k>.</li><li><u>Or:</u> Have <k>[LANCE]</k>.</li><li><u>Or:</u> If your unit has <k>Mounted</k>, have <k>[LETHAL HITS]</k> and <k>[LANCE]</k>.</li></ul>"
+        },
+        {
+          "Name": "Flawless Riders",
+          "Category": "Spearpoint Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement or Charge",
+          "When": "Your Movement/Charge phase, when a friendly <k>Adeptus Astartes mounted</k> unit is <b>selected to move</b> or <b>declares a charge</b>.",
+          "Target": "That <k>Adeptus Astartes mounted</k> unit.",
+          "Effect": "Your unit has <k>Mobile</k>."
+        },
+        {
+          "Name": "Evasive Manoeuvers",
+          "Category": "Spearpoint Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>Adeptus Astartes Mounted/Speeder</k> unit.",
+          "Target": "That <k>Adeptus Astartes Mounted/Speeder</k> unit.",
+          "Effect": "Ranged attacks that target your unit have -1 to <b>wound rolls</b>."
+        },
+        {
+          "Name": "Mobile Lethality",
+          "Category": "Spearpoint Task Force Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly <k>Adeptus Astartes</k> unit is selected to make an <b>advance/fall-back move</b>.",
+          "Target": "That <k>Adeptus Astartes</k> unit.",
+          "Effect": "<ul><li>That <b>fall-back</b> move does not prevent your unit from being <b>eligible to shoot</b>.</li><li>Your unit’s ranged attacks have <k>[ASSAULT]</k>.</li></ul>"
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Spearpoint Paragon",
