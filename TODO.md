@@ -30,7 +30,7 @@ See [FACTIONS.md](FACTIONS.md) for coverage and [CHANGELOG.md](CHANGELOG.md) for
 
 ## Needs the owner (app testing)
 
-- [ ] Ultramarines (1.5.15, issue 7): Blade of Ultramar shows six stratagems. Ironstorm Spearhead, Devastator Brethren and Terminator Storm Force still show three each.
+- [ ] Ultramarines (1.5.16, issue 7): Blade of Ultramar’s six stratagems displayed in 1.5.15. Recheck that 1.5.16 shows their rule text without literal formatting tags.
 - [ ] Astra Militarum (1.5.10): both 110-point Grenadier lineups and rejection of mixed invalid counts.
 - [ ] Astra Militarum (1.5.10): Tempestus special-weapon limits and both medi-pack choices.
 - [x] Astra Militarum (1.5.10): Ratling Battlemutt and Demolition Gear on a ten-model unit only. Passed.

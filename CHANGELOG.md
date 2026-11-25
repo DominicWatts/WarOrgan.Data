@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.16.0 - Strip formatting tags from exported rule text while preserving list items.
+
 2026-11-25 : 1.5.15.0 - Added 153 stratagems across Aeldari, Orks and Space Marine chapters, including six for Blade of Ultramar (issue 7).
 
 2026-11-25 : 1.5.14.0 - Added 572 stratagems, 12 enhancements and missing wargear surcharges across the faction rosters.

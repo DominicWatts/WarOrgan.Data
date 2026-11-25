@@ -47,4 +47,4 @@ Roster counts cover native datasheets. A dash means the target is unconfirmed or
 - Genestealer Cults: signed off. Faction Pack 1.1 applied in 1.5.13.
 - Tyranids: roster and WarOrgan smoke checks passed. Faction Pack 1.3 coverage is partial.
 - Astra Militarum: 51 Brood Brother Auxilia allies retained. Remaining app tests are in TODO.md.
-- Ultramarines: Blade of Ultramar has six stratagems in 1.5.15. Issue 7 remains open for WarOrgan display testing.
+- Ultramarines: Blade of Ultramar’s six stratagems displayed in WarOrgan. The 1.5.16 development build removes raw formatting tags; issue 7 awaits that retest.
