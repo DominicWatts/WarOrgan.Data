@@ -2778,7 +2778,16 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "despoiler gatling cannon",
+            "Cost": 25
+          },
+          {
+            "Key": "despoiler battle cannon",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
