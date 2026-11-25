@@ -652,7 +652,7 @@
         },
         {
           "Title": "Defenders of the Faith",
-          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until the end of a phase in which your opponent has a higher Level of Control over it."
+          "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "Title": "Cherub",
@@ -4779,7 +4779,7 @@
         },
         {
           "Title": "Devastating Refrain",
-          "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of a 6."
+          "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of on a 6."
         }
       ],
       "Infos": [],
@@ -12290,7 +12290,7 @@
         },
         {
           "Name": "Psalm of Righteous Judgement",
-          "Description": "ADEPTA SORORITAS model only. While the bearer is on the battlefield, each time an enemy unit is destroyed by a PENITENT unit from your army, you can discard 1 Miracle dice to gain 1 Miracle dice showing a value of 6.",
+          "Description": "ADEPTA SORORITAS model only. While the bearer is on the battlefield, each time an enemy unit is destroyed by a PENITENT unit from your army, you can discard 1 Miracle dice then gain 1 Miracle dice showing a value of 6.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
