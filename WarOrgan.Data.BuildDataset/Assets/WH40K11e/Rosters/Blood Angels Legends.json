@@ -1957,6 +1957,15 @@
           "Text": "This model can be attached to the following units:\n\n- Assault Squad with Jump Packs\n- Vanguard Veteran Squad with Jump packs\n- Assault Intercessors with Jump Packs"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT SQUAD WITH JUMP PACKS",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS",
+          "ASSAULT INTERCESSORS WITH JUMP PACKS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
