@@ -1047,7 +1047,7 @@
       "UnitAbilities": [
         {
           "Title": "Assault Ramp",
-          "Text": "In your Movement phase, when this unit ends a **normal move**, units embarked within this unit can make an **assault disembark move**."
+          "Text": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move."
         },
         {
           "Title": "Transport",
@@ -1326,7 +1326,7 @@
         },
         {
           "Title": "Tenacious Spirit",
-          "Text": "- While this unit is below starting strength, this unit's attacks have +1 to **hit rolls**.\n- While this unit is below half-strength, this unit's attacks have +1 to **wound rolls**."
+          "Text": "- While this unit is below starting strength, this unit's attacks have +1 to hit rolls.\n- While this unit is below half-strength, this unit's attacks have +1 to wound rolls."
         }
       ],
       "LeaderInfo": {

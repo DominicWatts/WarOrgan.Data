@@ -50,7 +50,7 @@
         },
         {
           "Title": "Slayers of Tyrants",
-          "Text": "This unit's melee attacks that target a unit with a T greater than this unit's T have +1 to **wound rolls**."
+          "Text": "This unit's melee attacks that target a unit with a T greater than this unit's T have +1 to wound rolls."
         },
         {
           "Title": "Vexilla",
@@ -1000,11 +1000,11 @@
         },
         {
           "Title": "Sword of the Throne",
-          "Text": "At the start of the first battle round, select one enemy unit to be this model's **mark**.\n-This model's attacks that target this model's **mark** have +1 to **wound rolls**.\n- Each time this model's **mark** is destroyed, select one enemy unit to be this model's **mark**."
+          "Text": "At the start of the first battle round, select one enemy unit to be this model's mark.\n-This model's attacks that target this model's mark have +1 to wound rolls.\n- Each time this model's mark is destroyed, select one enemy unit to be this model's mark."
         },
         {
           "Title": "Swift Onslaught",
-          "Text": "This unit can:\n- Re-roll **advance rolls**.\n- Re-roll **charge rolls**."
+          "Text": "This unit can:\n- Re-roll advance rolls.\n- Re-roll charge rolls."
         }
       ],
       "LeaderInfo": {
@@ -1245,11 +1245,11 @@
         },
         {
           "Title": "Advanced Firepower",
-          "Text": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can:\n- Re-roll one **hit roll**.\n- Re-roll one **wound roll**.\n- Re-roll one **damage roll**."
+          "Text": "This unit's ranged attacks that target a MONSTER/VEHICLE unit can:\n- Re-roll one hit roll.\n- Re-roll one wound roll.\n- Re-roll one damage roll."
         },
         {
           "Title": "Flare Shields",
-          "Text": "This unit has a 4+ **InSv** against ranged attacks."
+          "Text": "This unit has a 4+ InSv against ranged attacks."
         }
       ],
       "Infos": [],
@@ -1526,7 +1526,7 @@
         },
         {
           "Title": "Flare Shields",
-          "Text": "This unit has a 4+ **InSv** against ranged attacks."
+          "Text": "This unit has a 4+ InSv against ranged attacks."
         }
       ],
       "Infos": [],
@@ -1803,7 +1803,7 @@
         },
         {
           "Title": "Unyielding Ancient",
-          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to **wound rolls**."
+          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
         }
       ],
       "Infos": [],
@@ -2089,7 +2089,7 @@
         },
         {
           "Title": "Unyielding Ancient",
-          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to **wound rolls**."
+          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
         }
       ],
       "Infos": [],
@@ -2297,19 +2297,19 @@
         },
         {
           "Title": "Assault Vehicle",
-          "Text": "In your Movement phase, when this unit ends an **advance move**, units embarked within this unit can make a **shock disembark move**."
+          "Text": "In your Movement phase, when this unit ends an advance move, units embarked within this unit can make a shock disembark move."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 8 ADEPTUS CUSTODES INFANTRY models. It cannot transport **JUMP PACK** models."
+          "Text": "This model has a transport capacity of 8 ADEPTUS CUSTODES INFANTRY models. It cannot transport JUMP PACK models."
         },
         {
           "Title": "Repulsor Suspensor Technology",
-          "Text": "(Once per phase, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if this unit lost a wound as a result of those attacks and is **unengaged**, this unit can make a **normal move* of up to D6\"."
+          "Text": "(Once per phase, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if this unit lost a wound as a result of those attacks and is unengaged, this unit can make a normal move* of up to D6\"."
         },
         {
           "Title": "Flare Shields",
-          "Text": "This unit has a 4+ **InSv** against ranged attacks."
+          "Text": "This unit has a 4+ InSv against ranged attacks."
         }
       ],
       "Infos": [],
@@ -2567,7 +2567,7 @@
         },
         {
           "Title": "Impenetrable Defence",
-          "Text": "This unit's attacks have [**SUSTAINED HITS 1: non-MONSTER/VEHICLE] if any of the following apply:\n- This unit is within range of an objective.\n- The target of those attacks is within range of an objective."
+          "Text": "This unit's attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE] if any of the following apply:\n- This unit is within range of an objective.\n- The target of those attacks is within range of an objective."
         },
         {
           "Title": "Vexilla",
@@ -3065,7 +3065,7 @@
         },
         {
           "Title": "Death Blow",
-          "Text": "If this unit made a **charge move** this turn, this unit's melee attacks have +1 AP."
+          "Text": "If this unit made a charge move this turn, this unit's melee attacks have +1 AP."
         }
       ],
       "Infos": [],
@@ -3351,11 +3351,11 @@
         },
         {
           "Title": "Assault Dropship",
-          "Text": "In your Movement phase, when a friendly **ADEPTUS CUSTODES** unit is selected to make a **tactical disembark move** from this unit, if that unit is then selected to make an **advance move**, that **advance move** does not prevent that unit from being **eligible to declare a charge**."
+          "Text": "In your Movement phase, when a friendly ADEPTUS CUSTODES unit is selected to make a tactical disembark move from this unit, if that unit is then selected to make an advance move, that advance move does not prevent that unit from being eligible to declare a charge."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **ADEPTUS CUSTODES INFANTRY MODELS. OR 1 DREADNOUGHT MODELS. WHILE TRANSPORTING 1 DREADNOUGHT UNIT, THIS UNIT ALSO HAS A TRANSPORT CAPACITY OF 6 ADEPTUS CUSTODES INFANTRY** models."
+          "Text": "This model has a transport capacity of 12 ADEPTUS CUSTODES INFANTRY MODELS. OR 1 DREADNOUGHT MODELS. WHILE TRANSPORTING 1 DREADNOUGHT UNIT, THIS UNIT ALSO HAS A TRANSPORT CAPACITY OF 6 ADEPTUS CUSTODES INFANTRY models."
         }
       ],
       "Infos": [],
@@ -3620,11 +3620,11 @@
         },
         {
           "Title": "Mobile Hunter",
-          "Text": "In your Shooting phase, when this unit has shot, you can use this ability. If you do:\n- This unit can make a **normal move** of up to D6\".\n- This unit is not **eligible to declare a charge** until the end of the turn."
+          "Text": "In your Shooting phase, when this unit has shot, you can use this ability. If you do:\n- This unit can make a normal move of up to D6\".\n- This unit is not eligible to declare a charge until the end of the turn."
         },
         {
           "Title": "Flare Shields",
-          "Text": "This unit has a 4+ **InSv** against ranged attacks."
+          "Text": "This unit has a 4+ InSv against ranged attacks."
         }
       ],
       "Infos": [],
@@ -3847,11 +3847,11 @@
         },
         {
           "Title": "Stand Vigil",
-          "Text": "This unit's attacks have [**LETHAL HITS: non-MONSTER/VEHICLE] if any of the following apply:\n- This unit is within range of an objective.\n- The target of those attacks is within range of an objective."
+          "Text": "This unit's attacks have [LETHAL HITS: non-MONSTER/VEHICLE] if any of the following apply:\n- This unit is within range of an objective.\n- The target of those attacks is within range of an objective."
         },
         {
           "Title": "Praesidium Shield",
-          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to **wound rolls**."
+          "Text": "Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
         },
         {
           "Title": "Vexilla",
@@ -4092,15 +4092,15 @@
         },
         {
           "Title": "Vengeful Surge",
-          "Text": "(Once per battle, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a **surge move** of up to D6+2\""
+          "Text": "(Once per battle, per unit)\nIn your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\""
         },
         {
           "Title": "Master of the Ka'tahs",
-          "Text": "(Once per battle round, per unit)\nIf this unit is not **readied**, you can use this ability. If you do, this unit is **readied**."
+          "Text": "(Once per battle round, per unit)\nIf this unit is not readied, you can use this ability. If you do, this unit is readied."
         },
         {
           "Title": "Praesidium Shield",
-          "Text": "Attacks allocated to this model have -1 **D**."
+          "Text": "Attacks allocated to this model have -1 D."
         }
       ],
       "LeaderInfo": {
@@ -4470,11 +4470,11 @@
         },
         {
           "Title": "Archeotech Teleport-shunter",
-          "Text": "(Once per battle, per unit)\nIn your Movement phase, if this unit is **unengaged** and has not been **selected to move** this phase, you can use this ability. If you do, place this unit in **strategic reserves** and this unit must make an **ingress move** this phase."
+          "Text": "(Once per battle, per unit)\nIn your Movement phase, if this unit is unengaged and has not been selected to move this phase, you can use this ability. If you do, place this unit in strategic reserves and this unit must make an ingress move this phase."
         },
         {
           "Title": "Master of the Ka'tahs",
-          "Text": "(Once per battle round, per unit)\nIf this unit is not **readied**, you can use this ability. If you do, this unit is **readied**."
+          "Text": "(Once per battle round, per unit)\nIf this unit is not readied, you can use this ability. If you do, this unit is readied."
         }
       ],
       "LeaderInfo": {
@@ -4778,11 +4778,11 @@
         },
         {
           "Title": "Sweeping Advance",
-          "Text": "(Once per battle, per unit)\nAt the end of the Fight phase, if this unit was **eligible to fight** this phase:\n- If this unit is **unengaged**, this unit can make a **normal move**.\n- Or: if this unit is **engaged**, this unit can make a **fall-back move**."
+          "Text": "(Once per battle, per unit)\nAt the end of the Fight phase, if this unit was eligible to fight this phase:\n- If this unit is unengaged, this unit can make a normal move.\n- Or: if this unit is engaged, this unit can make a fall-back move."
         },
         {
           "Title": "Master of the Ka'tahs",
-          "Text": "(Once per battle round, per unit)\nIf this unit is not **readied**, you can use this ability. If you do, this unit is **readied**."
+          "Text": "(Once per battle round, per unit)\nIf this unit is not readied, you can use this ability. If you do, this unit is readied."
         }
       ],
       "LeaderInfo": {
@@ -5387,7 +5387,7 @@
         },
         {
           "Title": "Captain-General (Aura)",
-          "Text": "Friendly **ADEPTUS CUSTODES UNITS (EXCLUDING MONSTER/VEHICLE** units) within 6\" of this model can:\n- Re-roll hit rolls of 1\n- Re-roll wound rolls of 1"
+          "Text": "Friendly ADEPTUS CUSTODES UNITS (EXCLUDING MONSTER/VEHICLE units) within 6\" of this model can:\n- Re-roll hit rolls of 1\n- Re-roll wound rolls of 1"
         },
         {
           "Title": "Moment Shackle",
@@ -5587,7 +5587,7 @@
         },
         {
           "Title": "Strike from the Skies",
-          "Text": "In your Shooting phase, if this unit made an **ingress move** this turn, this unit's ranged attacks can re-roll **hit rolls**."
+          "Text": "In your Shooting phase, if this unit made an ingress move this turn, this unit's ranged attacks can re-roll hit rolls."
         },
         {
           "Title": "Neutronium Cascade Mine",
@@ -5595,7 +5595,7 @@
         },
         {
           "Title": "Take Wing",
-          "Text": "At the end of your opponent's Fight phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**."
+          "Text": "At the end of your opponent's Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
         }
       ],
       "Infos": [],
@@ -5787,7 +5787,7 @@
         },
         {
           "Title": "Swift Ruin",
-          "Text": "(Once per phase, per army)\nYou can target this unit with the **Rapid Ingress stratagem** regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase."
+          "Text": "(Once per phase, per army)\nYou can target this unit with the Rapid Ingress stratagem regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
         },
         {
           "Title": "Neutronium Cascade Mine",
@@ -5795,7 +5795,7 @@
         },
         {
           "Title": "Take Wing",
-          "Text": "At the end of your opponent's Fight phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**."
+          "Text": "At the end of your opponent's Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
         }
       ],
       "Infos": [],
@@ -6002,7 +6002,7 @@
         },
         {
           "Title": "Quicksilver Execution",
-          "Text": "If this unit made a **charge move** this turn, this unit's melee attacks have [SUSTAINED HITS 1]"
+          "Text": "If this unit made a charge move this turn, this unit's melee attacks have [SUSTAINED HITS 1]"
         }
       ],
       "Infos": [],
@@ -6240,11 +6240,11 @@
         },
         {
           "Title": "Assault Vehicle",
-          "Text": "In your Movement phase, when this unit ends an **advance move**, units embarked within this unit can make a **shock disembark move**."
+          "Text": "In your Movement phase, when this unit ends an advance move, units embarked within this unit can make a shock disembark move."
         },
         {
           "Title": "Creeping Dread (Aura)",
-          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a PSYKER unit/below starting strength makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ],
       "Infos": [],
@@ -6493,15 +6493,15 @@
         },
         {
           "Title": "Seeker's Instincts",
-          "Text": "- This unit has +2\" M.\n- This unit can re-roll **advance rolls** and **charge rolls**."
+          "Text": "- This unit has +2\" M.\n- This unit can re-roll advance rolls and charge rolls."
         },
         {
           "Title": "Corner the Quarry",
-          "Text": "When an enemy unit (excluding MONSTERS/VEHICLES) **engaged** with this unit makes a **fall-back move**, that enemy unit must use the **desperate escape mode**. If that enemy unit is **battle-shocked**, -1 from those **hazard rolls**."
+          "Text": "When an enemy unit (excluding MONSTERS/VEHICLES) engaged with this unit makes a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
         },
         {
           "Title": "Creeping Dread (Aura)",
-          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a PSYKER unit/below starting strength makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ],
       "LeaderInfo": {
@@ -6749,11 +6749,11 @@
       "UnitAbilities": [
         {
           "Title": "Purity of Execution",
-          "Text": "In your Shooting phase, you can select one **visible** enemy unit within 18\" of this unit. That unit is **detected**.\n- While a unit is **detected**, that unit has +3\" **detection range**."
+          "Text": "In your Shooting phase, you can select one visible enemy unit within 18\" of this unit. That unit is detected.\n- While a unit is detected, that unit has +3\" detection range."
         },
         {
           "Title": "Creeping Dread (Aura)",
-          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a PSYKER unit/below starting strength makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ],
       "Infos": [],
@@ -6932,11 +6932,11 @@
       "UnitAbilities": [
         {
           "Title": "Deft Parry",
-          "Text": "Melee attacks that target this unit have -1 to **hit rolls**."
+          "Text": "Melee attacks that target this unit have -1 to hit rolls."
         },
         {
           "Title": "Creeping Dread (Aura)",
-          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a PSYKER unit/below starting strength makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ],
       "Infos": [],
@@ -7079,11 +7079,11 @@
       "UnitAbilities": [
         {
           "Title": "Sanctified Flames",
-          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That enemy unit makes a **battle-shock roll**, with -1 to that **battle-shock roll** if that enemy unit is a **PSYKER** unit."
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll if that enemy unit is a PSYKER unit."
         },
         {
           "Title": "Creeping Dread (Aura)",
-          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a **PSYKER** unit/below **starting strength** makes a **battle-shock roll**, with -1 to that **battle-shock roll**."
+          "Text": "In the Battle-shock step of your opponent's Command phase, each enemy unit within 12\" of this unit that is a PSYKER unit/below starting strength makes a battle-shock roll, with -1 to that battle-shock roll."
         }
       ],
       "Infos": [],
@@ -7241,7 +7241,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Silent Sisterhood",
-        "Text": "- When mustering your army, you can select a friendly **ANATHEMA PSYKANA CHARACTER MODEL TO BE YOUR WARLORD**.\n- Friendly **PROSECUTOR SQUAD UNITS HAVE BATTLELINE**.\n- Friendly **ANATHEMA PSYKANA** units have the Creeping Dread ability."
+        "Text": "- When mustering your army, you can select a friendly ANATHEMA PSYKANA CHARACTER MODEL TO BE YOUR WARLORD.\n- Friendly PROSECUTOR SQUAD UNITS HAVE BATTLELINE.\n- Friendly ANATHEMA PSYKANA units have the Creeping Dread ability."
       },
       "ForceDispositions": [
         "Disruption"
@@ -7278,7 +7278,7 @@
       "Enhancements": [
         {
           "Name": "Oblivion Knight",
-          "Description": "This unit's attacks have:\n- +1 to **hit rolls**.\n- Or: If this unit targets a **PSYKER**/**battle-shocked** unit, +1 to **hit rolls** and **wound rolls**.",
+          "Description": "This unit's attacks have:\n- +1 to hit rolls.\n- Or: If this unit targets a PSYKER/battle-shocked unit, +1 to hit rolls and wound rolls.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7291,7 +7291,7 @@
         },
         {
           "Name": "Huntress' Eye",
-          "Description": "In your Movement phase, you can select one **visible** enemy unit within 12\" of this unit. That unit makes a **battle-shock roll**, with -1 to that **battle-shock roll**.",
+          "Description": "In your Movement phase, you can select one visible enemy unit within 12\" of this unit. That unit makes a battle-shock roll, with -1 to that battle-shock roll.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7310,7 +7310,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Assemblage of Might",
-        "Text": "In your Command phase, you can select one enemy unit to be a **dreadful foe** unit until the start of your next Command phase. Friendly ^^**Adeptus Custodes Character** models' attacks that target a **dreadful foe** unit have +1 to **wound rolls**."
+        "Text": "In your Command phase, you can select one enemy unit to be a dreadful foe unit until the start of your next Command phase. Friendly ^^Adeptus Custodes Character models' attacks that target a dreadful foe unit have +1 to wound rolls."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -7339,7 +7339,7 @@
       "Enhancements": [
         {
           "Name": "Inspirational Exemplar",
-          "Description": "(Once per battle round, per army) At the start of any phase, you can select one friendly **battle-shocked** ADEPTUS CUSTODES unit within 9\" of the bearer: that unit is no longer **battle-shocked**.",
+          "Description": "(Once per battle round, per army) At the start of any phase, you can select one friendly battle-shocked ADEPTUS CUSTODES unit within 9\" of the bearer: that unit is no longer battle-shocked.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7354,7 +7354,7 @@
         },
         {
           "Name": "Shroud of the Hidden Blade",
-          "Description": "This model has:\n- **Stealth**\n- **Lone Operative**",
+          "Description": "This model has:\n- Stealth\n- Lone Operative",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7367,7 +7367,7 @@
         },
         {
           "Name": "Superior Creation",
-          "Description": "(Once per battle, per army)\nAt the end of a phase in which this model is **destroyed**, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was **destroyed, unengaged** with 3 wounds remaining.",
+          "Description": "(Once per battle, per army)\nAt the end of a phase in which this model is destroyed, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged with 3 wounds remaining.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7388,7 +7388,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "On Gilded Wings",
-        "Text": "At the end of your opponent's Fight phase, if a friendly **ADEPTUS CUSTODES TERMINATOR** unit is **unengaged**, you can place that unit in **strategic reserves**."
+        "Text": "At the end of your opponent's Fight phase, if a friendly ADEPTUS CUSTODES TERMINATOR unit is unengaged, you can place that unit in strategic reserves."
       },
       "ForceDispositions": [
         "Disruption"
@@ -7425,7 +7425,7 @@
       "Enhancements": [
         {
           "Name": "Lightning Descent",
-          "Description": "In your first Movement phase, this unit can make an **ingress move**.",
+          "Description": "In your first Movement phase, this unit can make an ingress move.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7438,7 +7438,7 @@
         },
         {
           "Name": "Leonine Ferocity",
-          "Description": "(Once per phase, per army)\nYou can target this unit with the **Rapid Ingress stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase.",
+          "Description": "(Once per phase, per army)\nYou can target this unit with the Rapid Ingress stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7457,7 +7457,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Moritoi Ancients",
-        "Text": "- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is at **starting strength**, that unit has +2 OC.\n- While a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is below **starting strength**, that unit's attacks can re-roll **hit rolls** of 1.\nWhile a friendly **ADEPTUS CUSTODES DREADNOUGHT** unit is **below half-strength**, that unit's attacks can:\n- Re-roll **hit rolls** of 1.\n- Re-roll **wound rolls** of 1."
+        "Text": "- While a friendly ADEPTUS CUSTODES DREADNOUGHT unit is at starting strength, that unit has +2 OC.\n- While a friendly ADEPTUS CUSTODES DREADNOUGHT unit is below starting strength, that unit's attacks can re-roll hit rolls of 1.\nWhile a friendly ADEPTUS CUSTODES DREADNOUGHT unit is below half-strength, that unit's attacks can:\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -7507,7 +7507,7 @@
         },
         {
           "Name": "Augury Uplink",
-          "Description": "This model has **Feel No Pain 5+**.",
+          "Description": "This model has Feel No Pain 5+.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7526,7 +7526,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Martial Mastery",
-        "Text": "In the Fight phase, when a friendly **ADEPTUS CUSTODES** unit is **selected to fight**, that unit's melee attacks have:\n- [SUSTAINED HITS 1]\n- Or: [LETHAL HITS]"
+        "Text": "In the Fight phase, when a friendly ADEPTUS CUSTODES unit is selected to fight, that unit's melee attacks have:\n- [SUSTAINED HITS 1]\n- Or: [LETHAL HITS]"
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -7592,7 +7592,7 @@
       "Enhancements": [
         {
           "Name": "Bane of Abominations",
-          "Description": "This model's attacks that target an enemy **CHARACTER/MONSTER/VEHICLE** unit have +1 to **wound rolls**.",
+          "Description": "This model's attacks that target an enemy CHARACTER/MONSTER/VEHICLE unit have +1 to wound rolls.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7618,7 +7618,7 @@
         },
         {
           "Name": "Castellan's Mark",
-          "Description": "When both players have deployed their armies, you can redeploy up to three friendly **ADEPTUS CUSTODES** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**.",
+          "Description": "When both players have deployed their armies, you can redeploy up to three friendly ADEPTUS CUSTODES units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7650,7 +7650,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Companion's Watch",
-        "Text": "While a friendly **TRUSTED SENTINEL** unit is within range of an **objective**, that unit's attacks can re-roll **wound rolls** of 1."
+        "Text": "While a friendly TRUSTED SENTINEL unit is within range of an objective, that unit's attacks can re-roll wound rolls of 1."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -7687,7 +7687,7 @@
       "Enhancements": [
         {
           "Name": "Arae-shrike",
-          "Description": "Enemy units that are selected to make an **ingress move** cannot be set up within 12\" of this unit.",
+          "Description": "Enemy units that are selected to make an ingress move cannot be set up within 12\" of this unit.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7702,7 +7702,7 @@
         },
         {
           "Name": "Celeritous Sentries",
-          "Description": "(Once per phase, per unit)\nYou can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase.",
+          "Description": "(Once per phase, per unit)\nYou can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7721,7 +7721,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Flare Shields",
-        "Text": "Friendly **GRAV-ASSAULT** units have 4+ **InSv** against ranged attacks."
+        "Text": "Friendly GRAV-ASSAULT units have 4+ InSv against ranged attacks."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -7758,7 +7758,7 @@
       "Enhancements": [
         {
           "Name": "Combat Deployment",
-          "Description": "When a friendly **ADEPTUS CUSTODES** unit is selected to make a **disembark move** from this unit, until the end of the turn:\n- That unit can re-roll **charge rolls**.\n- Enemy units cannot target that unit with **snap shooting** attacks.",
+          "Description": "When a friendly ADEPTUS CUSTODES unit is selected to make a disembark move from this unit, until the end of the turn:\n- That unit can re-roll charge rolls.\n- Enemy units cannot target that unit with snap shooting attacks.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7772,7 +7772,7 @@
         },
         {
           "Name": "Anti-Gravitic Mobility",
-          "Description": "When this unit makes a **fall-back move**, that **fall-back move** does not prevent this unit from being **eligible to shoot**.",
+          "Description": "When this unit makes a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7791,7 +7791,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Instruments of the Emperor's Wrath",
-        "Text": "Friendly ADEPTUS CUSTODES units can re-roll **charge rolls**.\n\n**Favoured Ka'tah:** Dacatarai\n\n**Additional Effect:** When an enemy unit **engaged** with your unit makes a **pile-in/consolidation move**, -2\" from that **pile-in/consolidation move**."
+        "Text": "Friendly ADEPTUS CUSTODES units can re-roll charge rolls.\n\nFavoured Ka'tah: Dacatarai\n\nAdditional Effect: When an enemy unit engaged with your unit makes a pile-in/consolidation move, -2\" from that pile-in/consolidation move."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -7860,7 +7860,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Gilded Guardians",
-        "Text": "While a friendly ADEPTUS CUSTODES unit (excluding MONSTER/VEHICLE units) is within range of an **objective**, ranged attacks that target that unit with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\n\n**Favoured Ka'tah:** Salvus\n\n**Additional Effect:** Your unit’s ranged attacks have +6\" **R**."
+        "Text": "While a friendly ADEPTUS CUSTODES unit (excluding MONSTER/VEHICLE units) is within range of an objective, ranged attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls.\n\nFavoured Ka'tah: Salvus\n\nAdditional Effect: Your unit’s ranged attacks have +6\" R."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -7897,7 +7897,7 @@
       "Enhancements": [
         {
           "Name": "Not a Shell Wasted",
-          "Description": "This unit’s ranged attacks have +1 **A**.",
+          "Description": "This unit’s ranged attacks have +1 A.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7912,7 +7912,7 @@
         },
         {
           "Name": "Pareldor's Caducatrix",
-          "Description": "(Once per battle, per army) At the start of any phase, this model **heals** D3+3 wounds.",
+          "Description": "(Once per battle, per army) At the start of any phase, this model heals D3+3 wounds.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7931,7 +7931,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Heralds of the Throne",
-        "Text": "Friendly ADEPTUS CUSTODES units have **Fights First**.\n\n**Favoured Ka'tah:** Conservai\n\n**Additional Effect:** Until the end of the turn, being selected to make an **advance/fall-back move** does not prevent your unit from being **eligible to start an action**."
+        "Text": "Friendly ADEPTUS CUSTODES units have Fights First.\n\nFavoured Ka'tah: Conservai\n\nAdditional Effect: Until the end of the turn, being selected to make an advance/fall-back move does not prevent your unit from being eligible to start an action."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -7968,7 +7968,7 @@
       "Enhancements": [
         {
           "Name": "Edge of the Blade",
-          "Description": "If this unit made a **charge move** this turn, this model’s attacks can:\n- Re-roll **hit rolls** of 1.\n- Re-roll **wound rolls** of 1.",
+          "Description": "If this unit made a charge move this turn, this model’s attacks can:\n- Re-roll hit rolls of 1.\n- Re-roll wound rolls of 1.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7981,7 +7981,7 @@
         },
         {
           "Name": "Auriferous Orb",
-          "Description": "This model has the following weapon:\nRanged | 12\" | A 3 | BS 2+ | S 1 | AP 0 | D 1 | [Anti-non-Monster/Vehicle 2+, Blinding Light, Devastating Wounds]\n**Blinding Light:** In your Shooting phase, when this unit has shot, select one enemy unit hit by this unit’s Auriferous Orb weapon. That enemy unit’s attacks have -1 to **hit rolls** until the start of your next turn.",
+          "Description": "This model has the following weapon:\nRanged | 12\" | A 3 | BS 2+ | S 1 | AP 0 | D 1 | [Anti-non-Monster/Vehicle 2+, Blinding Light, Devastating Wounds]\nBlinding Light: In your Shooting phase, when this unit has shot, select one enemy unit hit by this unit’s Auriferous Orb weapon. That enemy unit’s attacks have -1 to hit rolls until the start of your next turn.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8000,7 +8000,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Magna Imperator",
-        "Text": "When a friendly ADEPTUS CUSTODES unit is selected to attack, that unit’s attacks can:\n- Re-roll one **hit roll**.\n- Re-roll one **wound roll**.\n\n**Favoured Ka'tah:** Rendax\n\n**Additional Effect:** You can select one enemy MONSTER/VEHICLE unit **engaged** with your unit and roll one D6:\n- On a 1-2, that enemy unit suffers 1 **mortal wound**.\n- On a 3-5, that enemy unit suffers D3 **mortal wounds**.\n- On a 6, that enemy unit suffers 3 **mortal wounds**."
+        "Text": "When a friendly ADEPTUS CUSTODES unit is selected to attack, that unit’s attacks can:\n- Re-roll one hit roll.\n- Re-roll one wound roll.\n\nFavoured Ka'tah: Rendax\n\nAdditional Effect: You can select one enemy MONSTER/VEHICLE unit engaged with your unit and roll one D6:\n- On a 1-2, that enemy unit suffers 1 mortal wound.\n- On a 3-5, that enemy unit suffers D3 mortal wounds.\n- On a 6, that enemy unit suffers 3 mortal wounds."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -8051,7 +8051,7 @@
         },
         {
           "Name": "Radiant Mantle",
-          "Description": "Attacks that target this unit have -1 to **hit rolls**.",
+          "Description": "Attacks that target this unit have -1 to hit rolls.",
           "Cost": 40,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8072,7 +8072,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Talon Sortie",
-        "Text": "When a friendly ADEPTUS CUSTODES unit makes a **fall-back move**, that **fall-back move** does not prevent that unit from being **eligible to charge**.\n\n**Favoured Ka'tah:** Calistus\n\n**Additional Effect:** Your unit has +2\" **M**."
+        "Text": "When a friendly ADEPTUS CUSTODES unit makes a fall-back move, that fall-back move does not prevent that unit from being eligible to charge.\n\nFavoured Ka'tah: Calistus\n\nAdditional Effect: Your unit has +2\" M."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -8109,7 +8109,7 @@
       "Enhancements": [
         {
           "Name": "Sally Forth",
-          "Description": "At the start of your Charge phase, select one friendly ADEPTUS CUSTODES INFANTRY unit within 6\" of this model. If that unit made an **advance move** this turn, that **advance move** does not prevent that unit from being **eligible to declare a charge**.",
+          "Description": "At the start of your Charge phase, select one friendly ADEPTUS CUSTODES INFANTRY unit within 6\" of this model. If that unit made an advance move this turn, that advance move does not prevent that unit from being eligible to declare a charge.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8124,7 +8124,7 @@
         },
         {
           "Name": "Auric Eagle",
-          "Description": "This unit has +1 to **advance rolls** and **charge rolls**.",
+          "Description": "This unit has +1 to advance rolls and charge rolls.",
           "Cost": 15,
           "Features": "Upgrade",
           "RequiredUnitNames": [],
@@ -8147,7 +8147,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Wardens of the Dark Cells",
-        "Text": "While a friendly ADEPTUS CUSTODES unit (excluding MONSTER/VEHICLE units) is within range of an **objective**, melee attacks that target that unit with a **S** greater than that unit’s **T** have -1 to **wound rolls**.\n\n**Favoured Ka'tah:** Kaptaris\n\n**Additional Effect:** You can select one enemy unit **engaged** with your unit. That enemy unit must make a **battle-shock roll**, with -1 to that **battle-shock roll**. You cannot select the same enemy unit for this effect more than once per phase."
+        "Text": "While a friendly ADEPTUS CUSTODES unit (excluding MONSTER/VEHICLE units) is within range of an objective, melee attacks that target that unit with a S greater than that unit’s T have -1 to wound rolls.\n\nFavoured Ka'tah: Kaptaris\n\nAdditional Effect: You can select one enemy unit engaged with your unit. That enemy unit must make a battle-shock roll, with -1 to that battle-shock roll. You cannot select the same enemy unit for this effect more than once per phase."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -8184,7 +8184,7 @@
       "Enhancements": [
         {
           "Name": "Unstoppable Destroyer",
-          "Description": "When this unit is selected to make a **pile-in/consolidation move**:\n- This unit can move up to 4\".\n- You can select any **consolidation mode** for that **consolidation move**, regardless of that **consolidation move**’s Before Moving restrictions.",
+          "Description": "When this unit is selected to make a pile-in/consolidation move:\n- This unit can move up to 4\".\n- You can select any consolidation mode for that consolidation move, regardless of that consolidation move’s Before Moving restrictions.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8199,7 +8199,7 @@
         },
         {
           "Name": "Genalchemic Warding",
-          "Description": "This model has **Feel No Pain 5+**.",
+          "Description": "This model has Feel No Pain 5+.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8217,19 +8217,19 @@
   "ArmyRules": [
     {
       "Title": "Martial Ka'tah",
-      "Text": "At the start of your Command phase, friendly **ADEPTUS CUSTODES** units with this ability are **readied**. While a friendly unit is **readied**, you can select one of the **ka'tah abilities** below for that unit to use. If you do, that unit is no longer **readied**.\n\nEach **ka'tah ability** will tell you when that **ka'tah ability** can be used, and the effects that **ka'tah ability** has on the unit using it.\n\n**Conversai**\nWHEN: Your Command phase.\nTARGET: One friendly **readied** unit.\nEFFECT: Until the end of the turn:\n- Being **engaged/battle-shocked** does not prevent your unit from being **eligible to start an action**.\n- Starting an **action** does not prevent your unit from being **eligible to shoot**.\n\n**Calistus**\nWHEN: Your Movement phase, when a friendly **readied** unit is **selected to move**.\nTARGET: That **readied** unit.\nEFFECT: When your unit makes a **normal/advance/fall-back move**, your unit can move through all types of model.\n\n**Salvus**\nWHEN: Your Shooting phase, when a friendly **readied** unit is **selected to shoot**.\nTARGET: That **readied** unit.\nEFFECT: Your unit can ignore modifiers to your unit's:\n- **BS**.\n- **Hit rolls** and **wound rolls**.\n\n**Dacatarai**\nWHEN: Start of the Fight phase.\nTARGET: One friendly **readied** unit.\nEFFECT: Your unit's melee attacks that target an enemy unit (excluding **MONSTER/VEHICLE** units) can **re-roll** hit rolls of 1.\n\n**Kaptaris**\nWHEN: Start of the Fight phase.\nTARGET: One friendly **readied** unit.\nEFFECT: Melee attacks that target your unit have -1 to **hit rolls**.\n\n**Rendax**\nWHEN: Fight phase, when a friendly **readied** unit is **selected to fight**.\nTARGET: One friendly **readied** unit.\nEFFECT: Your unit's melee attacks have [Lethal Hits: Monster/Vehicle].\n\n**Favoured Ka'tah**\nAll **detachments** tagged 'Unique: Shield Host' state a Favoured Ka'tah. If you selected one of these **detachments**, the **ka'tah ability** that is the Favoured Ka'tah of that **detachment** grants the additional effect listed in that **detachment**."
+      "Text": "At the start of your Command phase, friendly ADEPTUS CUSTODES units with this ability are readied. While a friendly unit is readied, you can select one of the ka'tah abilities below for that unit to use. If you do, that unit is no longer readied.\n\nEach ka'tah ability will tell you when that ka'tah ability can be used, and the effects that ka'tah ability has on the unit using it.\n\n**Conversai**\nWHEN: Your Command phase.\nTARGET: One friendly readied unit.\nEFFECT: Until the end of the turn:\n- Being engaged/battle-shocked does not prevent your unit from being eligible to start an action.\n- Starting an action does not prevent your unit from being eligible to shoot.\n\n**Calistus**\nWHEN: Your Movement phase, when a friendly readied unit is selected to move.\nTARGET: That readied unit.\nEFFECT: When your unit makes a normal/advance/fall-back move, your unit can move through all types of model.\n\n**Salvus**\nWHEN: Your Shooting phase, when a friendly readied unit is selected to shoot.\nTARGET: That readied unit.\nEFFECT: Your unit can ignore modifiers to your unit's:\n- BS.\n- Hit rolls and wound rolls.\n\n**Dacatarai**\nWHEN: Start of the Fight phase.\nTARGET: One friendly readied unit.\nEFFECT: Your unit's melee attacks that target an enemy unit (excluding MONSTER/VEHICLE units) can re-roll hit rolls of 1.\n\n**Kaptaris**\nWHEN: Start of the Fight phase.\nTARGET: One friendly readied unit.\nEFFECT: Melee attacks that target your unit have -1 to hit rolls.\n\n**Rendax**\nWHEN: Fight phase, when a friendly readied unit is selected to fight.\nTARGET: One friendly readied unit.\nEFFECT: Your unit's melee attacks have [Lethal Hits: Monster/Vehicle].\n\n**Favoured Ka'tah**\nAll detachments tagged 'Unique: Shield Host' state a Favoured Ka'tah. If you selected one of these detachments, the ka'tah ability that is the Favoured Ka'tah of that detachment grants the additional effect listed in that detachment."
     },
     {
       "Title": "Aegis of the Emperor",
-      "Text": "Friendly **ADEPTUS CUSTODES** units with this ability have Feel No Pain 5+ against **mortal wounds**."
+      "Text": "Friendly ADEPTUS CUSTODES units with this ability have Feel No Pain 5+ against mortal wounds."
     },
     {
       "Title": "Aquila Commander",
-      "Text": "At the start of the battle round, if a model with this ability is your **WARLORD**, gain 1CP."
+      "Text": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP."
     },
     {
       "Title": "Daughters of the Abyss",
-      "Text": "- Friendly **ANATHEMA PSYKANA** units with this ability have **Feel No Pain 3+** against **psychic attacks**.\n- Friendly **ANATHEMA PSYKANA** units with this ability have the following ability:\nPsychic Null (Aura): Friendly **ADEPTUS CUSTODES** units within 6\" of this unit have Feel No Pain 5+ against **psychic attacks**.\n\n**Anathema Psykana**\nYou can include **ANATHEMA PSYKANA** units in your army, even though they do not have the **ADEPTUS CUSTODES** faction keyword. When mustering your army, unless otherwise stated:\n- You cannot select **ANATHEMA PSYKANA** as your **army faction**.\n- You cannot select an **ANATHEMA PSYKANA** model to be your **WARLORD**."
+      "Text": "- Friendly ANATHEMA PSYKANA units with this ability have Feel No Pain 3+ against psychic attacks.\n- Friendly ANATHEMA PSYKANA units with this ability have the following ability:\nPsychic Null (Aura): Friendly ADEPTUS CUSTODES units within 6\" of this unit have Feel No Pain 5+ against psychic attacks.\n\n**Anathema Psykana**\nYou can include ANATHEMA PSYKANA units in your army, even though they do not have the ADEPTUS CUSTODES faction keyword. When mustering your army, unless otherwise stated:\n- You cannot select ANATHEMA PSYKANA as your army faction.\n- You cannot select an ANATHEMA PSYKANA model to be your WARLORD."
     }
   ]
 }
