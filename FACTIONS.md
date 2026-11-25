@@ -16,7 +16,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 | Agents of the Imperium | 29/29 (100%) | 11/11 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Grey Knights | 26/26 (100%) | 5/5 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Imperial Knights | 22/22 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Space Marines | 69/70 (99%) | 64/72 (89%) | Complete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Space Marines | 70/71 (99%) | 64/72 (89%) | Complete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Black Templars | 16/16 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Blood Angels | 14/14 (100%) | 8/8 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Dark Angels | 16/16 (100%) | 2/2 (100%) | Complete | Incomplete | Incomplete | Incomplete | Complete | — |
@@ -45,6 +45,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 ## Status notes
 
 - Candidate gaps (11): Space Marines — Drop Pod (Base), plus Cerberus, Falchion, Kratos, Mastodon, Rapier Carrier, Sicaran, Terrax-pattern Termite and Typhon (Legends). Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Space Marines: 1.5.25 adds the Captain in Gravis Armour, which the inventory had missed, and fixes Infernus and Intercessor squad sizes and points (issue 66).
 - 1.5.24 removes stray inline bold markers from rule text on every faction branch and at build time (issue 65).
 - Adeptus Custodes: 1.5.22 adds the Anathema Psykana datasheets and Aleya (app checks in issue 63). 1.5.23 completes issue 16: 13 Codex detachments, army rules, GW points and Praesidium Shield wargear. Faction Pack 1.1 (22 July 2026) is skipped because the Codex errata of 14 October 2026 in the GW app data replaces it. The Shield Host limit and Upgrade enhancements are tracked in issue 64.
 - Classification review: Captain on Bike and Wolf Scouts remain in their shipped Legends rosters. Harlequins are tracked separately as an eight-datasheet prerequisite for Reaper’s Wager.

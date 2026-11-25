@@ -2,7 +2,9 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.24.0
+## Coverage in 1.5.25.0
+
+- Space Marines: the Captain in Gravis Armour is included. Infernus and Intercessor squads take 5 or 10 models, and the points rise with the larger squad.
 
 - Rule text no longer shows stray double-asterisk bold markers; whole-line headings are kept.
 

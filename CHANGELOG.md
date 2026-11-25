@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.25.0 - Space Marines: added the Captain in Gravis Armour, and corrected Infernus and Intercessor squads to 5 or 10 models with their 10-model points (issue 66).
+
 2026-11-25 : 1.5.24.0 - Removed stray inline double-asterisk bold markers from rule text across 31 factions, and the builder now strips any that remain when exporting (issue 65).
 
 2026-11-25 : 1.5.23.0 - Adeptus Custodes: added the six missing Codex detachments, the full Martial Ka'tah and Daughters of the Abyss rules, GW points for Vertus Praetors and the Sisterhood squads, a 25-point Praesidium Shield for the Shield-Captain, and enhancement eligibility fixes (issue 16).
