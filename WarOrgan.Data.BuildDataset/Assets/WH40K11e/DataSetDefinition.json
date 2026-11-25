@@ -388,7 +388,32 @@
       "FactionKeyword": "Thousand Sons",
       "Category": "Chaos",
       "MainColor": "#1F5A8A",
-      "DarkColor": "#D4AF37"
+      "DarkColor": "#D4AF37",
+      "Allies": [
+        {
+          "FactionKeyword": "Legiones Daemonica",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Changehost of Deceit"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "BLUE HORRORS",
+                "FLAMERS",
+                "KAIROS FATEWEAVER",
+                "LORD OF CHANGE",
+                "PINK HORRORS",
+                "SCREAMERS"
+              ],
+              "AddedKeywords": [
+                "Allied Units",
+                "Scintillating Legions"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "World Eaters",
