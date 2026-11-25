@@ -43,7 +43,12 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "STERNGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -231,7 +236,16 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -723,7 +737,16 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "DESOLATION SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -1170,7 +1193,14 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": [],
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD"
+        ],
         "Features": 0
       },
       "Infos": [],
