@@ -35,7 +35,7 @@
         },
         {
           "Title": "Hand of Asuryan",
-          "Text": "Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Bloody Twins weapon has a Damage characteristic of 3 and the **[ANTI‑INFANTRY 5+]** and **[DEVASTATING WOUNDS]** abilities."
+          "Text": "Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Bloody Twins weapon has a Damage characteristic of 3 and the [ANTI‑INFANTRY 5+] and [DEVASTATING WOUNDS] abilities."
         },
         {
           "Title": "Tactical Acumen",
@@ -1569,11 +1569,11 @@
       "UnitAbilities": [
         {
           "Title": "Cornered Prey",
-          "Text": "When an enemy unit **engaged** with this unit is selected to make a **fall‑back move**, that enemy unit must use the **desperate escape mode**. If that enemy unit is **battle‑shocked**, ‑1 from those **hazard rolls**."
+          "Text": "When an enemy unit engaged with this unit is selected to make a fall‑back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle‑shocked, ‑1 from those hazard rolls."
         },
         {
           "Title": "Blade of the Clans",
-          "Text": "This unit’s melee attacks have **[SUSTAINED HITS 1]**."
+          "Text": "This unit’s melee attacks have [SUSTAINED HITS 1]."
         }
       ],
       "LeaderInfo": {
@@ -3032,7 +3032,7 @@
         },
         {
           "Title": "Faolchú",
-          "Text": "Ranged weapons equipped by models in the bearer’s unit have the **[IGNORES COVER]** ability."
+          "Text": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
         },
         {
           "Title": "Mistshield",
@@ -4134,7 +4134,7 @@
         },
         {
           "Title": "Aspect Shrine Token",
-          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding **CHARACTER** models) to an unmodified 6.\n\n**Designer's Note:** Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
+          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.\n\nDesigner's Note: Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
         }
       ],
       "Infos": [],
@@ -4587,7 +4587,7 @@
         },
         {
           "Title": "Aspect Shrine Token",
-          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding **CHARACTER** models) to an unmodified 6.\n\n**Designer's Note:** Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
+          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.\n\nDesigner's Note: Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
         }
       ],
       "Infos": [],
@@ -4917,15 +4917,15 @@
       "UnitAbilities": [
         {
           "Title": "Agile Reach",
-          "Text": "When this unit is **selected to fight**, melee weapons equipped by **unengaged** models in this unit that are within 3\" of an enemy unit that is **engaged** with this unit can target that enemy unit."
+          "Text": "When this unit is selected to fight, melee weapons equipped by unengaged models in this unit that are within 3\" of an enemy unit that is engaged with this unit can target that enemy unit."
         },
         {
           "Title": "On the Hunt",
-          "Text": "When this unit is selected to make a **fall‑back move**, that **fall‑back move** does not prevent this unit from being **eligible to shoot** and **eligible to declare a charge**."
+          "Text": "When this unit is selected to make a fall‑back move, that fall‑back move does not prevent this unit from being eligible to shoot and eligible to declare a charge."
         },
         {
           "Title": "Drakolithe (Once per battle, per token)",
-          "Text": "When an enemy unit ends a move within 8\" of this unit, if this unit is **unengaged** or if that enemy unit ended that move **engaged** with this unit, you can use this ability. If you do, roll one D6:\n- On a 3+, that enemy unit suffers 1 **mortal wound**.\n\n*Place one Drakolithe token next to the unit for each Drakolithe the unit is equipped with, removing one each time this ability is used.*"
+          "Text": "When an enemy unit ends a move within 8\" of this unit, if this unit is unengaged or if that enemy unit ended that move engaged with this unit, you can use this ability. If you do, roll one D6:\n- On a 3+, that enemy unit suffers 1 mortal wound.\n\n*Place one Drakolithe token next to the unit for each Drakolithe the unit is equipped with, removing one each time this ability is used.*"
         }
       ],
       "Infos": [],
@@ -5462,7 +5462,7 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 6 **AELDARI INFANTRY** models. Each **WRAITH CONSTRUCT** model takes the space of 2 models. It cannot transport **JUMP PACK** models or **YNNARI** models (excluding **ASURYANI**, **YVRAINE** and **THE VISARCH** models)."
+          "Text": "This model has a transport capacity of 6 AELDARI INFANTRY models. Each WRAITH CONSTRUCT model takes the space of 2 models. It cannot transport JUMP PACK models or YNNARI models (excluding ASURYANI, YVRAINE and THE VISARCH models)."
         }
       ],
       "Infos": [],
@@ -6543,7 +6543,7 @@
         },
         {
           "Title": "Aspect Shrine Token",
-          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding **CHARACTER** models) to an unmodified 6.\n\n**Designer's Note:** Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
+          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.\n\nDesigner's Note: Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
         }
       ],
       "Infos": [],
@@ -8124,7 +8124,7 @@
         },
         {
           "Title": "Aspect Shrine Token",
-          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding **CHARACTER** models) to an unmodified 6.\n\n**Designer's Note:** Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
+          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.\n\nDesigner's Note: Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
         }
       ],
       "Infos": [],
@@ -8667,7 +8667,7 @@
         },
         {
           "Title": "Fury of the Void (Psychic)",
-          "Text": "In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more attacks made with this model’s Dread of the Deep Void. Until the end of the turn, that unit is riven. Each time an **AELDARI** model from your army makes an attack that targets a riven unit, add 1 to the Strength characteristic of that attack."
+          "Text": "In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more attacks made with this model’s Dread of the Deep Void. Until the end of the turn, that unit is riven. Each time an AELDARI model from your army makes an attack that targets a riven unit, add 1 to the Strength characteristic of that attack."
         }
       ],
       "LeaderInfo": {
@@ -8863,11 +8863,11 @@
       "UnitAbilities": [
         {
           "Title": "Panicked Quarry",
-          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit (excluding **MONSTER/VEHICLE** units) hit by those attacks. That enemy unit makes a **battle‑shock roll**, with ‑1 to that **battle‑shock roll**."
+          "Text": "In your Shooting phase, when this unit has shot, select one enemy unit (excluding MONSTER/VEHICLE units) hit by those attacks. That enemy unit makes a battle‑shock roll, with ‑1 to that battle‑shock roll."
         },
         {
           "Title": "Drakolithe (Once per battle, per token)",
-          "Text": "When an enemy unit ends a move within 8\" of this unit, if this unit is **unengaged** or if that enemy unit ended that move **engaged** with this unit, you can use this ability. If you do, roll one D6:\n- On a 3+, that enemy unit suffers 1 **mortal wound**.\n\n*Place one Drakolithe token next to the unit for each Drakolithe the unit is equipped with, removing one each time this ability is used.*"
+          "Text": "When an enemy unit ends a move within 8\" of this unit, if this unit is unengaged or if that enemy unit ended that move engaged with this unit, you can use this ability. If you do, roll one D6:\n- On a 3+, that enemy unit suffers 1 mortal wound.\n\n*Place one Drakolithe token next to the unit for each Drakolithe the unit is equipped with, removing one each time this ability is used.*"
         }
       ],
       "Infos": [],
@@ -10227,11 +10227,11 @@
         },
         {
           "Title": "Piratical Hero",
-          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, that attack has the **[SUSTAINED HITS 1]** ability and add 1 to the Hit roll."
+          "Text": "While this model is leading a unit, each time a model in that unit makes an attack, that attack has the [SUSTAINED HITS 1] ability and add 1 to the Hit roll."
         },
         {
           "Title": "Prince of Corsairs",
-          "Text": "After both players have deployed their armies, if this model is on the battlefield (or any **TRANSPORT IT IS EMBARKED WITHIN IS ON THE BATTLEFIELD), SELECT UP TO THREE AELDARI** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+          "Text": "After both players have deployed their armies, if this model is on the battlefield (or any TRANSPORT IT IS EMBARKED WITHIN IS ON THE BATTLEFIELD), SELECT UP TO THREE AELDARI units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
         }
       ],
       "LeaderInfo": {
@@ -12076,7 +12076,7 @@
       "UnitAbilities": [
         {
           "Title": "Hallucinogen Grenades",
-          "Text": "At the start of your opponent’s Shooting phase, this unit can use this ability. If it does, select one **AELDARI** Infantry unit from your army visible to and within 36\" of this unit: until the end of the phase, that unit has the Stealth ability."
+          "Text": "At the start of your opponent’s Shooting phase, this unit can use this ability. If it does, select one AELDARI Infantry unit from your army visible to and within 36\" of this unit: until the end of the phase, that unit has the Stealth ability."
         }
       ],
       "Infos": [],
@@ -12288,11 +12288,11 @@
       "UnitAbilities": [
         {
           "Title": "Elemental Ensnarement",
-          "Text": "At the end of your Fight phase, if this unit is not **battle‑shocked**, you can use this ability. If you do, roll one D6:\n- On a 1, this unit is **battle‑shocked**.\n- Select one **visible** enemy **MONSTER/VEHICLE** unit (excluding **TITANIC** units) within 18\" of this unit. That enemy unit is **ensnared** until the start of your next turn:\n    - While a unit is **ensnared**, that unit has ‑2\" **M** and cannot be **pinned**."
+          "Text": "At the end of your Fight phase, if this unit is not battle‑shocked, you can use this ability. If you do, roll one D6:\n- On a 1, this unit is battle‑shocked.\n- Select one visible enemy MONSTER/VEHICLE unit (excluding TITANIC units) within 18\" of this unit. That enemy unit is ensnared until the start of your next turn:\n    - While a unit is ensnared, that unit has ‑2\" M and cannot be pinned."
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following unit:\n- **DRAGON KNIGHTS**"
+          "Text": "This model can be attached to the following unit:\n- DRAGON KNIGHTS"
         }
       ],
       "LeaderInfo": {
@@ -13038,7 +13038,7 @@
         },
         {
           "Title": "Aspect Shrine Token",
-          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding **CHARACTER** models) to an unmodified 6.\n\n**Designer's Note:** Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
+          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.\n\nDesigner's Note: Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
         }
       ],
       "Infos": [],
@@ -13435,7 +13435,7 @@
         },
         {
           "Title": "Aspect Shrine Token",
-          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding **CHARACTER** models) to an unmodified 6.\n\n**Designer's Note:** Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
+          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.\n\nDesigner's Note: Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
         }
       ],
       "Infos": [],
@@ -15460,11 +15460,11 @@
         },
         {
           "Title": "Support",
-          "Text": "This model can be attached to the following unit:\n- **WINDRIDERS**"
+          "Text": "This model can be attached to the following unit:\n- WINDRIDERS"
         },
         {
           "Title": "Runes of Battle (Psychic)",
-          "Text": "Weapons equipped by models in this unit have the **[IGNORES COVER]** ability."
+          "Text": "Weapons equipped by models in this unit have the [IGNORES COVER] ability."
         }
       ],
       "LeaderInfo": {
@@ -15832,7 +15832,7 @@
         },
         {
           "Title": "Aspect Shrine Token",
-          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding **CHARACTER** models) to an unmodified 6.\n\n**Designer's Note:** Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
+          "Text": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit (excluding CHARACTER models) to an unmodified 6.\n\nDesigner's Note: Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used."
         }
       ],
       "Infos": [],
@@ -16284,7 +16284,7 @@
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **ASURYANI INFANTRY** models. Each **WRAITH CONSTRUCT** model takes the space of 2 models. It cannot transport **JUMP PACK** models or **YNNARI** models (excluding **ASURYANI**, **YVRAINE** and **THE VISARCH** models)."
+          "Text": "This model has a transport capacity of 12 ASURYANI INFANTRY models. Each WRAITH CONSTRUCT model takes the space of 2 models. It cannot transport JUMP PACK models or YNNARI models (excluding ASURYANI, YVRAINE and THE VISARCH models)."
         },
         {
           "Title": "Damaged: 1-4 Wounds Remaining",
@@ -18740,7 +18740,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Skilled Crews",
-        "Text": "Friendly **AELDARI VEHICLE** units’ ranged attacks have **[ASSAULT]**.\n\n**Assault**\n\nUnits containing one or more models with an **[ASSAULT]** weapon can shoot using **assault shooting** (10.05)."
+        "Text": "Friendly AELDARI VEHICLE units’ ranged attacks have [ASSAULT].\n\n**Assault**\n\nUnits containing one or more models with an [ASSAULT] weapon can shoot using assault shooting (10.05)."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -18777,7 +18777,7 @@
       "Enhancements": [
         {
           "Name": "Guiding Presence",
-          "Description": "**AELDARI PSYKER** model only. At the start of your Shooting phase, select one **visible** friendly **AELDARI VEHICLE** unit within 6\" of this model. That **VEHICLE** unit’s ranged attacks have +1 to **hit rolls**.",
+          "Description": "AELDARI PSYKER model only. At the start of your Shooting phase, select one visible friendly AELDARI VEHICLE unit within 6\" of this model. That VEHICLE unit’s ranged attacks have +1 to hit rolls.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -18791,7 +18791,7 @@
         },
         {
           "Name": "Spirit Stone of Raelyth",
-          "Description": "**AELDARI PSYKER** model only.\n- While this model is within 3\" of a friendly **AELDARI VEHICLE** unit, this model has **Lone Operative**.\n- In your Movement phase, at the start or end of this unit’s move, you can select one friendly **AELDARI VEHICLE** model within 3\" of this model. That **VEHICLE** model **heals** D3 wounds.",
+          "Description": "AELDARI PSYKER model only.\n- While this model is within 3\" of a friendly AELDARI VEHICLE unit, this model has Lone Operative.\n- In your Movement phase, at the start or end of this unit’s move, you can select one friendly AELDARI VEHICLE model within 3\" of this model. That VEHICLE model heals D3 wounds.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19041,7 +19041,7 @@
         },
         {
           "Name": "Higher Duty",
-          "Description": "**SPIRITSEER** model only. In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6\".",
+          "Description": "SPIRITSEER model only. In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6\".",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19164,7 +19164,7 @@
         },
         {
           "Name": "Breath of Vaul",
-          "Description": "**ASURYANI** model only. While the bearer is leading a **STORM GUARDIANS** unit, each time you roll to determine the number of attacks made with a flamer equipped by a model in that unit, you can re‑roll the result, and each time you make a Damage roll for a model equipped with a fusion gun in that unit, you can re‑roll the result.",
+          "Description": "ASURYANI model only. While the bearer is leading a STORM GUARDIANS unit, each time you roll to determine the number of attacks made with a flamer equipped by a model in that unit, you can re‑roll the result, and each time you make a Damage roll for a model equipped with a fusion gun in that unit, you can re‑roll the result.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19183,7 +19183,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Acrobatic Onslaught",
-        "Text": "Each time a HARLEQUINS model from your army makes a Charge move, it can move through enemy models.\n\n**Travelling Players**\n\n- TROUPE units from you army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\n- You can include up to three of each of the following models in your army: **DEATH JESTER**, **SHADOWSEER**, **TROUPE MASTER**.\n- When mustering your army, you can select a friendly **HARLEQUINS CHARACTER** model to be your **WARLORD**."
+        "Text": "Each time a HARLEQUINS model from your army makes a Charge move, it can move through enemy models.\n\n**Travelling Players**\n\n- TROUPE units from you army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\n- You can include up to three of each of the following models in your army: DEATH JESTER, SHADOWSEER, TROUPE MASTER.\n- When mustering your army, you can select a friendly HARLEQUINS CHARACTER model to be your WARLORD."
       },
       "ForceDispositions": [
         "Disruption"
@@ -19307,7 +19307,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Strength From Death",
-        "Text": "**Lethal Intent**\nAt the end of your opponent’s Shooting phase, if one or more **YNNARI** units from your army were destroyed this phase, select one **YNNARI INFANTRY** or **YNNARI MOUNTED** unit from your army that was within 6\" of your destroyed unit. That unit can make a **normal move** of up to D6+1.\n\n**Lethal Surge**\nOnce per turn, when a **YNNARI** unit from your army performs the Fade Back Agile Manouvre, it can make a **surge move** of up to D6+1\" instead of a **normal move**.\n\n**Lethal Reprisal**\nAt the start of the Fight phase, select one Ynnari unit from your army (excluding Titanic units) that is below its Starting Strength. Until the end of the phase, that unit has the Fights First ability.\n\n**Servants of the Whispering God**\n\nYou can include Ynnari units in your army, even though they do not have the Asuryani Faction keyword.\nAsuryani units (excluding Epic Heroes) from your army gain the Ynnari keyword.\nYou must include Yvraine and/or The Yncarne in your army, and one of those models must be your Warlord."
+        "Text": "**Lethal Intent**\nAt the end of your opponent’s Shooting phase, if one or more YNNARI units from your army were destroyed this phase, select one YNNARI INFANTRY or YNNARI MOUNTED unit from your army that was within 6\" of your destroyed unit. That unit can make a normal move of up to D6+1.\n\n**Lethal Surge**\nOnce per turn, when a YNNARI unit from your army performs the Fade Back Agile Manouvre, it can make a surge move of up to D6+1\" instead of a normal move.\n\n**Lethal Reprisal**\nAt the start of the Fight phase, select one Ynnari unit from your army (excluding Titanic units) that is below its Starting Strength. Until the end of the phase, that unit has the Fights First ability.\n\n**Servants of the Whispering God**\n\nYou can include Ynnari units in your army, even though they do not have the Asuryani Faction keyword.\nAsuryani units (excluding Epic Heroes) from your army gain the Ynnari keyword.\nYou must include Yvraine and/or The Yncarne in your army, and one of those models must be your Warlord."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -19508,7 +19508,7 @@
         },
         {
           "Name": "Runes of Warding",
-          "Description": "ASURYANI PSYKER model only. Models in the bearer's unit have the Feel No Pain 4+ ability against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the **[DEVASTATING WOUNDS]** ability.",
+          "Description": "ASURYANI PSYKER model only. Models in the bearer's unit have the Feel No Pain 4+ ability against mortal wounds, Psychic Attacks and Critical Wounds caused by attacks with the [DEVASTATING WOUNDS] ability.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19621,7 +19621,7 @@
       "Enhancements": [
         {
           "Name": "Aspect of Murder",
-          "Description": "AUTARCH or AUTARCH WAYLEAPER model only. Add 1 to the Damage characteristics of melee weapons equipped by the bearer, and those weapons have the **[PRECISION]** ability.",
+          "Description": "AUTARCH or AUTARCH WAYLEAPER model only. Add 1 to the Damage characteristics of melee weapons equipped by the bearer, and those weapons have the [PRECISION] ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19635,7 +19635,7 @@
         },
         {
           "Name": "Mantle of Wisdom",
-          "Description": "**AUTARCH** or **AUTARCH WAYLEAPER** model only. While the bearer is leading an **ASPECT WARRIORS** unit, each time that unit is selected to shoot or fight, until the end of the phase, models in that unit gain both of the abilities from the Path of the Warrior Detachment rule.",
+          "Description": "AUTARCH or AUTARCH WAYLEAPER model only. While the bearer is leading an ASPECT WARRIORS unit, each time that unit is selected to shoot or fight, until the end of the phase, models in that unit gain both of the abilities from the Path of the Warrior Detachment rule.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19683,7 +19683,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Boons of the Brood",
-        "Text": "Weapons equipped by **HARLEQUINS MOUNTED AND HARLEQUINS VEHICLE MODELS FROM YOUR ARMY HAVE THE [SUSTAINED HITS 1] ABILITY. EACH TIME A HARLEQUINS UNIT FROM YOUR ARMY DISEMBARKS FROM A TRANSPORT, UNTIL THE END OF THE TURN, THAT UNIT’S WEAPONS HAVE THE [SUSTAINED HITS 1**] ability.\n\n**Travelling Players**\n\nTROUPE units from you army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\nYou can include up to three of each of the following models in your army: **DEATH JESTER**, **SHADOWSEER**, **TROUPE MASTER**.\nWhen mustering your army, you can select a friendly HARLEQUINS CHARACTER model to be your WARLORD."
+        "Text": "Weapons equipped by HARLEQUINS MOUNTED AND HARLEQUINS VEHICLE MODELS FROM YOUR ARMY HAVE THE [SUSTAINED HITS 1] ABILITY. EACH TIME A HARLEQUINS UNIT FROM YOUR ARMY DISEMBARKS FROM A TRANSPORT, UNTIL THE END OF THE TURN, THAT UNIT’S WEAPONS HAVE THE [SUSTAINED HITS 1] ability.\n\n**Travelling Players**\n\nTROUPE units from you army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\nYou can include up to three of each of the following models in your army: DEATH JESTER, SHADOWSEER, TROUPE MASTER.\nWhen mustering your army, you can select a friendly HARLEQUINS CHARACTER model to be your WARLORD."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -19747,7 +19747,7 @@
       "Enhancements": [
         {
           "Name": "Key of Ghosts",
-          "Description": "**HARLEQUINS MODEL ONLY (EXCLUDING SOLITAIRE** models). Models in the bearer’s unit have the Scouts 6\" ability.",
+          "Description": "HARLEQUINS MODEL ONLY (EXCLUDING SOLITAIRE models). Models in the bearer’s unit have the Scouts 6\" ability.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19760,7 +19760,7 @@
         },
         {
           "Name": "Fanged Leer",
-          "Description": "**DEATH JESTER** model only. When using the bearer’s Cruel Amusement ability, you can select two of the abilities for its shrieker cannon to gain, instead of one.",
+          "Description": "DEATH JESTER model only. When using the bearer’s Cruel Amusement ability, you can select two of the abilities for its shrieker cannon to gain, instead of one.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19773,7 +19773,7 @@
         },
         {
           "Name": "Shedskin Raiment",
-          "Description": "**SHADOWSEER** model only. After both players have deployed their armies, select up to three Harlequins units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+          "Description": "SHADOWSEER model only. After both players have deployed their armies, select up to three Harlequins units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19786,7 +19786,7 @@
         },
         {
           "Name": "Weavers' Wail",
-          "Description": "**TROUPE MASTER** model only. Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer’s melee weapons.",
+          "Description": "TROUPE MASTER model only. Add 3 to the Strength and add 1 to the Attacks characteristics of the bearer’s melee weapons.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19805,7 +19805,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Yriel's Own",
-        "Text": "**AELDARI UNITS IN YOUR ARMY ARE ELIGIBLE TO DECLARE A CHARGE IN A TURN IN WHICH THEY ADVANCED. IN ADDITION, EACH TIME AN ANHRATHE, RANGERS OR SHROUD RUNNERS** unit from your army Advances, you can re‑roll the Advance roll.\n\n**Veterans of the Void**\n\nEach time you add an **ANHRATHE** unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+        "Text": "AELDARI UNITS IN YOUR ARMY ARE ELIGIBLE TO DECLARE A CHARGE IN A TURN IN WHICH THEY ADVANCED. IN ADDITION, EACH TIME AN ANHRATHE, RANGERS OR SHROUD RUNNERS unit from your army Advances, you can re‑roll the Advance roll.\n\n**Veterans of the Void**\n\nEach time you add an ANHRATHE unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -19869,7 +19869,7 @@
       "Enhancements": [
         {
           "Name": "Pirate Prince",
-          "Description": "**PRINCE YRIEL** unit only. Each time you spend a Battle Focus token to enable this unit to perform an Agile Manoeuvre, roll one D6: on a 3+, you gain 1 Battle Focus token.",
+          "Description": "PRINCE YRIEL unit only. Each time you spend a Battle Focus token to enable this unit to perform an Agile Manoeuvre, roll one D6: on a 3+, you gain 1 Battle Focus token.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19882,7 +19882,7 @@
         },
         {
           "Name": "Alacritous Assault",
-          "Description": "**ANHRATHE UNIT ONLY. MELEE WEAPONS EQUIPPED BY MODELS IN THIS UNIT HAVE THE [LANCE]** ability.",
+          "Description": "ANHRATHE UNIT ONLY. MELEE WEAPONS EQUIPPED BY MODELS IN THIS UNIT HAVE THE [LANCE] ability.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19893,7 +19893,7 @@
         },
         {
           "Name": "Exotic Munitions",
-          "Description": "**ANHRATHE UNIT ONLY. RANGED WEAPONS EQUIPPED BY MODELS IN THIS UNIT HAVE THE [ANTI‑MONSTER 5+] AND [ANTI‑VEHICLE 5+]** abilities.",
+          "Description": "ANHRATHE UNIT ONLY. RANGED WEAPONS EQUIPPED BY MODELS IN THIS UNIT HAVE THE [ANTI‑MONSTER 5+] AND [ANTI‑VEHICLE 5+] abilities.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19904,7 +19904,7 @@
         },
         {
           "Name": "Adrenal Infusions",
-          "Description": "**ANHRATHE INFANTRY** unit only. This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other units from performing the same Agile Manoeuvre in the same phase.",
+          "Description": "ANHRATHE INFANTRY unit only. This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other units from performing the same Agile Manoeuvre in the same phase.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19923,7 +19923,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Relentless Raiders",
-        "Text": "While an objective marker is under your control, each time an enemy unit ends a Normal, Advance, Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.\n\n\n**ANHRATHE** units from your army have the following ability:\n\n\n**Void Thieves:** At the end of a phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.\n\n**Veterans of the Void**\n\nEach time you add an **ANHRATHE** unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+        "Text": "While an objective marker is under your control, each time an enemy unit ends a Normal, Advance, Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.\n\n\nANHRATHE units from your army have the following ability:\n\n\nVoid Thieves: At the end of a phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.\n\n**Veterans of the Void**\n\nEach time you add an ANHRATHE unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -19987,7 +19987,7 @@
       "Enhancements": [
         {
           "Name": "Infamy (Aura)",
-          "Description": "**ANHRATHE** unit only. While an enemy unit is within 3” of this unit, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1).",
+          "Description": "ANHRATHE unit only. While an enemy unit is within 3” of this unit, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1).",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19998,7 +19998,7 @@
         },
         {
           "Name": "Webway Pathstone",
-          "Description": "**ANHRATHE** unit only. Models in this unit have the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, it can use this ability. If it does, remove this unit from the battlefield and place it into Strategic Reserves.",
+          "Description": "ANHRATHE unit only. Models in this unit have the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, it can use this ability. If it does, remove this unit from the battlefield and place it into Strategic Reserves.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -20009,7 +20009,7 @@
         },
         {
           "Name": "Archraider",
-          "Description": "**ANHRATHE CHARACTER UNIT ONLY. AT THE START OF THE BATTLE, SELECT ONE CHARACTER** model in this unit. That model has the following ability:\n\n**Lord of Deceit (Aura):** Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP.",
+          "Description": "ANHRATHE CHARACTER UNIT ONLY. AT THE START OF THE BATTLE, SELECT ONE CHARACTER model in this unit. That model has the following ability:\n\nLord of Deceit (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP.",
           "Cost": 35,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -20022,7 +20022,7 @@
         },
         {
           "Name": "Voidstone",
-          "Description": "**ANHRATHE INFANTRY** unit only. Models in this unit have a 5+ invulnerable save.",
+          "Description": "ANHRATHE INFANTRY unit only. Models in this unit have a 5+ invulnerable save.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -20041,7 +20041,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Acrobatic Onslaught",
-        "Text": "While a friendly **HARLEQUINS** unit is making a **charge move**, that unit can move through enemy models.\n\nThis **detachment** has the **ACROBATIC** tag and cannot be taken with another **ACROBATIC detachment**."
+        "Text": "While a friendly HARLEQUINS unit is making a charge move, that unit can move through enemy models.\n\nThis detachment has the ACROBATIC tag and cannot be taken with another ACROBATIC detachment."
       },
       "ForceDispositions": [
         "Disruption"
@@ -20078,7 +20078,7 @@
       "Enhancements": [
         {
           "Name": "A Foot in the Future",
-          "Description": "**TROUPE MASTER** model only. This unit can re‑roll charge rolls.",
+          "Description": "TROUPE MASTER model only. This unit can re‑roll charge rolls.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -20091,7 +20091,7 @@
         },
         {
           "Name": "Mistweave",
-          "Description": "**SHADOWSEER** model only. This unit has **Infiltrators**.",
+          "Description": "SHADOWSEER model only. This unit has Infiltrators.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -20110,7 +20110,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Far-reaching Doom",
-        "Text": "When a friendly **RANGERS/SHROUD RUNNERS** unit is **selected to shoot**, enemy units have +6\" **detection range** until that friendly unit has shot."
+        "Text": "When a friendly RANGERS/SHROUD RUNNERS unit is selected to shoot, enemy units have +6\" detection range until that friendly unit has shot."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -20147,7 +20147,7 @@
       "Enhancements": [
         {
           "Name": "Camouflaged Snipers",
-          "Description": "**RANGERS** unit only. This unit’s ranged attacks do not prevent this unit from being **hidden**.",
+          "Description": "RANGERS unit only. This unit’s ranged attacks do not prevent this unit from being hidden.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -20160,7 +20160,7 @@
         },
         {
           "Name": "Assassin's Eye",
-          "Description": "**RANGERS/SHROUD RUNNERS** unit only. This unit’s ranged attacks that target a **CHARACTER** unit have +1 **AP**.",
+          "Description": "RANGERS/SHROUD RUNNERS unit only. This unit’s ranged attacks that target a CHARACTER unit have +1 AP.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -20180,7 +20180,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Dance of Distortion",
-        "Text": "Friendly **HARLEQUINS** units have **Stealth**.\n\nThis **detachment** has the **ACROBATIC** tag and cannot be taken with another **ACROBATIC detachment**.\n\n**Stealth**\n\nIf every model in a unit has this ability, each time a ranged attack targets that unit, that unit has the **benefit of cover** against that attack (13.08)."
+        "Text": "Friendly HARLEQUINS units have Stealth.\n\nThis detachment has the ACROBATIC tag and cannot be taken with another ACROBATIC detachment.\n\n**Stealth**\n\nIf every model in a unit has this ability, each time a ranged attack targets that unit, that unit has the benefit of cover against that attack (13.08)."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -20217,7 +20217,7 @@
       "Enhancements": [
         {
           "Name": "Prelude Performer",
-          "Description": "**HARLEQUINS** model only. This unit has **Scouts 6\"**.",
+          "Description": "HARLEQUINS model only. This unit has Scouts 6\".",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -20230,7 +20230,7 @@
         },
         {
           "Name": "Shadowfall Masks",
-          "Description": "**TROUPE** unit only. This unit has **Fights First**.",
+          "Description": "TROUPE unit only. This unit has Fights First.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
