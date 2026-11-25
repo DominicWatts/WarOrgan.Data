@@ -394,6 +394,26 @@
           "Text": "At the end of your Movement phase, if this unit is controlling an objective, that objective is secured."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "CRUSADER SQUAD",
+          "DEATHWATCH VETERANS",
+          "DECIMUS KILL TEAM",
+          "DESOLATION SQUAD",
+          "FORTIS KILL TEAM",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INNER CIRCLE COMPANIONS",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Infantry",
@@ -670,6 +690,18 @@
           "Text": "At the end of your Movement phase, if this unit is controlling an objective, that objective is secured."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "DEATHWATCH TERMINATOR SQUAD",
+          "DEATHWING KNIGHTS",
+          "DEATHWING TERMINATOR SQUAD",
+          "TERMINATOR ASSAULT SQUAD",
+          "TERMINATOR SQUAD",
+          "WOLF GUARD TERMINATORS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -849,6 +881,26 @@
           "Text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "CRUSADER SQUAD",
+          "DEATHWATCH VETERANS",
+          "DECIMUS KILL TEAM",
+          "DESOLATION SQUAD",
+          "FORTIS KILL TEAM",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INNER CIRCLE COMPANIONS",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -1053,6 +1105,17 @@
           "Text": "This model can be attached to the following units:\nAGGRESSOR SQUAD, ERADICATOR SQUAD WITH HEAVY BOLTERS, ERADICATOR SQUAD WITH MELTA RIFLES, HEAVY INTERCESSOR SQUAD, INDOMITOR KILL TEAM"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "AGGRESSOR SQUAD",
+          "ERADICATOR SQUAD WITH HEAVY BOLTERS",
+          "ERADICATOR SQUAD WITH MELTA RIFLES",
+          "HEAVY INTERCESSOR SQUAD",
+          "INDOMITOR KILL TEAM"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -2839,6 +2902,13 @@
           "Text": "At the end of your Movement phase, if this unit is controlling an objective, that objective is secured."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "BLADEGUARD VETERAN SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Infantry",
@@ -12971,6 +13041,25 @@
           "Text": "This model can be attached to the following units:\nASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, VANGUARD VETERAN SQUAD"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "CRUSADER SQUAD",
+          "DEATHWATCH VETERANS",
+          "DECIMUS KILL TEAM",
+          "FORTIS KILL TEAM",
+          "INFERNUS SQUAD",
+          "INNER CIRCLE COMPANIONS",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -15325,6 +15414,28 @@
           "Text": "The bearer has a 4+ invulnerable save"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT INTERCESSOR SQUAD",
+          "BLADEGUARD VETERAN SQUAD",
+          "COMPANY HEROES",
+          "CRUSADER SQUAD",
+          "DEATHWATCH VETERANS",
+          "DECIMUS KILL TEAM",
+          "DESOLATION SQUAD",
+          "FORTIS KILL TEAM",
+          "HELLBLASTER SQUAD",
+          "INFERNUS SQUAD",
+          "INNER CIRCLE COMPANIONS",
+          "INTERCESSOR SQUAD",
+          "STERNGUARD VETERAN SQUAD",
+          "SWORD BRETHREN SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -15737,6 +15848,18 @@
           "Text": "(Once per turn, per unit): When a friendly CAPTAIN unit uses its Strategic Acumen ability, you can use this ability. If you do, the selected combat doctrine is active for this unit until the start of your next Command phase."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ELIMINATOR SQUAD",
+          "INCURSOR SQUAD",
+          "INFILTRATOR SQUAD",
+          "REIVER SQUAD",
+          "SPECTRUS KILL TEAM",
+          "WOLF SCOUTS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
@@ -15951,6 +16074,13 @@
           "Text": "This unit's attacks have [LETHAL HITS: non-MONSTER/VEHICLE]."
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "REIVER SQUAD"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",

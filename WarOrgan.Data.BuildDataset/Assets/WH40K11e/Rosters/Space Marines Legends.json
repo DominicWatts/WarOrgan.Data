@@ -11239,6 +11239,18 @@
           "Text": "This model can be attached to the following units: ASSAULT SQUAD, COMMAND SQUAD, DEVASTATOR SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
         }
       ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ASSAULT SQUAD",
+          "ASSAULT SQUAD WITH JUMP PACKS",
+          "COMMAND SQUAD",
+          "DEVASTATOR SQUAD",
+          "VANGUARD VETERAN SQUAD",
+          "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+        ],
+        "LeaderType": "Support",
+        "Features": 0
+      },
       "Infos": [],
       "Keywords": [
         "Character",
