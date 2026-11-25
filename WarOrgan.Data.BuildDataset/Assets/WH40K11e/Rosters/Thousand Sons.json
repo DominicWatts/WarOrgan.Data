@@ -36,7 +36,7 @@
         },
         {
           "Title": "Scryer of Fates (Psychic)",
-          "Text": "if your army includes this model, after both players have deployed their armies, you can select up to 3 **THOUSAND SONS** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+          "Text": "if your army includes this model, after both players have deployed their armies, you can select up to 3 THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
         },
         {
           "Title": "Arch-Sorcerer of Tzeentch (Psychic)",
@@ -44,7 +44,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "LeaderInfo": {
@@ -290,11 +290,11 @@
       "UnitAbilities": [
         {
           "Title": "Assault Ramp",
-          "Text": "Each time a unit disembarks from this **TRANSPORT** after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+          "Text": "Each time a unit disembarks from this TRANSPORT after it has made a Normal move, that unit is still eligible to declare a charge this turn."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **THOUSAND SONS INFANTRY** models. Each **TERMINATOR** model takes up the space of 2 models."
+          "Text": "This model has a transport capacity of 12 THOUSAND SONS INFANTRY models. Each TERMINATOR model takes up the space of 2 models."
         },
         {
           "Title": "Damaged: 1-5 wounds remaining",
@@ -302,7 +302,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -654,7 +654,7 @@
       "UnitAbilities": [
         {
           "Title": "Ensorcelled Annihilation",
-          "Text": "Each time this model makes a ranged attack that targets a **MONSTER** or **VEHICLE** unit that was hit by one or more Psychic attacks made by a **THOUSAND SONS PSYKER** unit from your army this turn, you can re-roll the Hit roll and you can re-roll the Damage roll."
+          "Text": "Each time this model makes a ranged attack that targets a MONSTER or VEHICLE unit that was hit by one or more Psychic attacks made by a THOUSAND SONS PSYKER unit from your army this turn, you can re-roll the Hit roll and you can re-roll the Damage roll."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -662,7 +662,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -1045,7 +1045,7 @@
       "UnitAbilities": [
         {
           "Title": "Ensorcelled Destruction",
-          "Text": "Each time this model makes a ranged attack that targets a unit (excluding **MONSTERS** and **VEHICLES**) that was hit by one or more Psychic attacks made by a **THOUSAND SONS PSYKER** unit from your army this turn, improve the Strength and Armour Penetration characteristic of that attack by 1."
+          "Text": "Each time this model makes a ranged attack that targets a unit (excluding MONSTERS and VEHICLES) that was hit by one or more Psychic attacks made by a THOUSAND SONS PSYKER unit from your army this turn, improve the Strength and Armour Penetration characteristic of that attack by 1."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -1053,7 +1053,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -1419,15 +1419,15 @@
       "UnitAbilities": [
         {
           "Title": "Sorcerous Support",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this **TRANSPORT** this turn makes a Psychic attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes a Psychic attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
         },
         {
           "Title": "Transport",
-          "Text": "This model has a transport capacity of 12 **THOUSAND SONS INFANTRY** models (excluding **TERMINATOR** models)."
+          "Text": "This model has a transport capacity of 12 THOUSAND SONS INFANTRY models (excluding TERMINATOR models)."
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -1686,7 +1686,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -1829,7 +1829,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -2000,7 +2000,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -2283,19 +2283,19 @@
         },
         {
           "Title": "Spirit Snare",
-          "Text": "Each time a friendly **THOUSAND SONS PSYKER** model with the Cabal of Sorcerers ability is destroyed while within 9\" of one or more models with this ability, select one of those models with this ability: until the end of the battle, each time the selected model attempts a Ritual, add 1 to the Psychic test result (to a maximum of +2)."
+          "Text": "Each time a friendly THOUSAND SONS PSYKER model with the Cabal of Sorcerers ability is destroyed while within 9\" of one or more models with this ability, select one of those models with this ability: until the end of the battle, each time the selected model attempts a Ritual, add 1 to the Psychic test result (to a maximum of +2)."
         },
         {
           "Title": "Servile Pawns",
-          "Text": "While this model is within 3\" of one or more friendly **THOUSAND SONS INFANTRY** units, this model has the Lone Operative ability."
+          "Text": "While this model is within 3\" of one or more friendly THOUSAND SONS INFANTRY units, this model has the Lone Operative ability."
         },
         {
           "Title": "Glamour of Tzeentch (Aura, Psychic)",
-          "Text": "While a friendly **THOUSAND SONS INFANTRY** unit is within 6\" of this model, models in that unit have the Stealth ability."
+          "Text": "While a friendly THOUSAND SONS INFANTRY unit is within 6\" of this model, models in that unit have the Stealth ability."
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -2544,11 +2544,11 @@
         },
         {
           "Title": "Hunter of Souls",
-          "Text": "Each time this model makes an attack that targets a **CHARACTER** unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a **PSYKER CHARACTER** unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead). Each time this model destroys a **CHARACTER** unit, this model regains up to D3 lost wounds (if that **CHARACTER** unit was a **PSYKER**, this model regains up to 3 lost wounds instead)."
+          "Text": "Each time this model makes an attack that targets a CHARACTER unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a PSYKER CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead). Each time this model destroys a CHARACTER unit, this model regains up to D3 lost wounds (if that CHARACTER unit was a PSYKER, this model regains up to 3 lost wounds instead)."
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -2881,7 +2881,7 @@
         },
         {
           "Title": "Scuttling Walker",
-          "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding **TITANIC** models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+          "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
         },
         {
           "Title": "Destroyer of Futures (Once per phase, per unit)",
@@ -2893,7 +2893,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -3414,7 +3414,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "LeaderInfo": {
@@ -3679,11 +3679,11 @@
         },
         {
           "Title": "Binding Tendrils (Psychic)",
-          "Text": "In your Shooting phase, after this model has shot, select one enemy **INFANTRY** unit hit by one or more of those attacks made with Arcane Fire. Until the start of your next turn, that unit is ensnared. While a unit is ensnared, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+          "Text": "In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks made with Arcane Fire. Until the start of your next turn, that unit is ensnared. While a unit is ensnared, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "LeaderInfo": {
@@ -3975,7 +3975,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -4301,7 +4301,7 @@
         },
         {
           "Title": "Terrifying Assault",
-          "Text": "In your Shooting phase and the Fight phase, after this model has shot or fought, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 if that unit is within 9\" of one or more **THOUSAND SONS PSYKER** units from your army."
+          "Text": "In your Shooting phase and the Fight phase, after this model has shot or fought, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 if that unit is within 9\" of one or more THOUSAND SONS PSYKER units from your army."
         },
         {
           "Title": "Devoted to Destruction",
@@ -4309,7 +4309,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -4853,7 +4853,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -5074,7 +5074,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "LeaderInfo": {
@@ -5338,7 +5338,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -5601,7 +5601,7 @@
         },
         {
           "Title": "Snarling Protector",
-          "Text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is ‑1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase.\n- When this unit **declares a charge**, if a friendly **engaged PSYKER** unit is within 12\" of this unit, you can use this part of this ability.\nIf you do:\n- This unit can re‑roll that **charge roll**.\n- This unit must end that **charge move engaged** with an enemy unit **engaged** with that friendly PSYKER unit."
+          "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is ‑1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase.\n- When this unit declares a charge, if a friendly engaged PSYKER unit is within 12\" of this unit, you can use this part of this ability.\nIf you do:\n- This unit can re‑roll that charge roll.\n- This unit must end that charge move engaged with an enemy unit engaged with that friendly PSYKER unit."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -5609,7 +5609,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -5838,7 +5838,7 @@
         },
         {
           "Title": "Immaterial Flare (Aura)",
-          "Text": "While a friendly **THOUSAND SONS PSYKER** model is within 6\" of this model, each time that model Channels the Warp, add 1 to the Psychic test result. This is not cumulative with any other modifiers to the Psychic test result."
+          "Text": "While a friendly THOUSAND SONS PSYKER model is within 6\" of this model, each time that model Channels the Warp, add 1 to the Psychic test result. This is not cumulative with any other modifiers to the Psychic test result."
         },
         {
           "Title": "Damaged: 1-4 wounds remaining",
@@ -5846,7 +5846,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -6195,11 +6195,11 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         },
         {
           "Title": "Icon of Flame",
-          "Text": "Ranged weapons equipped by models in the bearer's unit (excluding **CHARACTERS**) have the [Ignores Cover] ability."
+          "Text": "Ranged weapons equipped by models in the bearer's unit (excluding CHARACTERS) have the [Ignores Cover] ability."
         }
       ],
       "Infos": [],
@@ -6719,11 +6719,11 @@
         },
         {
           "Title": "Rites of Coalescence",
-          "Text": "While this unit contains one or more **PSYKER** models, each time an attack targets this unit, subtract 1 from the\nWound roll."
+          "Text": "While this unit contains one or more PSYKER models, each time an attack targets this unit, subtract 1 from the\nWound roll."
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -7162,7 +7162,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -7513,7 +7513,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "LeaderInfo": {
@@ -7788,7 +7788,7 @@
         },
         {
           "Title": "Marked by Fate (Psychic)",
-          "Text": "At the start of your Shooting phase, select one enemy unit that is visible to this **PSYKER** model. Until the end of the phase, each time a model in this unit makes an attack that targets that enemy unit, add 1 to the Hit roll."
+          "Text": "At the start of your Shooting phase, select one enemy unit that is visible to this PSYKER model. Until the end of the phase, each time a model in this unit makes an attack that targets that enemy unit, add 1 to the Hit roll."
         },
         {
           "Title": "Empyric Guidance (Psychic)",
@@ -7796,7 +7796,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "LeaderInfo": {
@@ -8111,7 +8111,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -8348,7 +8348,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "Infos": [],
@@ -8539,7 +8539,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         }
       ],
       "LeaderInfo": {
@@ -8779,7 +8779,7 @@
         },
         {
           "Title": "Mortal Sorcery (Aura)",
-          "Text": "While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+          "Text": "While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
         },
         {
           "Title": "Brayhorn",
@@ -9097,7 +9097,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Kindred Sorcery",
-        "Text": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase. You can only select each of these abilities once per battle.\n\n\n**Imbued Manifestation**\nAdd 6\" to the range characteristic of ranged Psychic weapons equipped by **THOUSAND SONS** models in your army.\n\n\n**Psychic Maelstrom**\nEach time a **THOUSAND SONS** model from your army makes an attack with a Psychic weapon, add 1 to the Wound roll.\n\n\n**Wrath of the Immaterium**\nPsychic weapons equipped by **THOUSAND SONS** models in your army have the [Devastating Wounds] ability."
+        "Text": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase. You can only select each of these abilities once per battle.\n\n\n**Imbued Manifestation**\nAdd 6\" to the range characteristic of ranged Psychic weapons equipped by THOUSAND SONS models in your army.\n\n\n**Psychic Maelstrom**\nEach time a THOUSAND SONS model from your army makes an attack with a Psychic weapon, add 1 to the Wound roll.\n\n\n**Wrath of the Immaterium**\nPsychic weapons equipped by THOUSAND SONS models in your army have the [Devastating Wounds] ability."
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -9220,7 +9220,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Infernal Pacts",
-        "Text": "**SCINTILLATING LEGIONS** units from your army have the following ability:\n\n**Daemonic Illusions (Aura)**: While a friendly **THOUSAND SONS PSYKER** unit is within 6\" of and visible to this unit, models in that unit have a 4+ invulnerable save against ranged attacks.\n\n**THOUSAND SONS** units from your army have the following ability:\n\n**Mortal Sorcery (Aura)**: While a friendly **SCINTILLATING LEGIONS PSYKER** unit from your army is within 6\" of and visible to this unit, that **SCINTILLATING LEGIONS** unit has the Cabal of Sorcerers ability."
+        "Text": "SCINTILLATING LEGIONS units from your army have the following ability:\n\nDaemonic Illusions (Aura): While a friendly THOUSAND SONS PSYKER unit is within 6\" of and visible to this unit, models in that unit have a 4+ invulnerable save against ranged attacks.\n\nTHOUSAND SONS units from your army have the following ability:\n\nMortal Sorcery (Aura): While a friendly SCINTILLATING LEGIONS PSYKER unit from your army is within 6\" of and visible to this unit, that SCINTILLATING LEGIONS unit has the Cabal of Sorcerers ability."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -9295,7 +9295,7 @@
         },
         {
           "Name": "Diabolic Servant",
-          "Description": "While the bearer is within 6\" of one or more friendly **SCINTILLATING LEGION** units, each time the bearer Channels the Warp, add 1 to the Psychic test result.",
+          "Description": "While the bearer is within 6\" of one or more friendly SCINTILLATING LEGION units, each time the bearer Channels the Warp, add 1 to the Psychic test result.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9308,7 +9308,7 @@
         },
         {
           "Name": "Duplicitous Malediction",
-          "Description": "After both players have deployed their armies, select up to three **THOUSAND SONS** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserve if you wish, regardless of how many units are already in Strategic Reserves.",
+          "Description": "After both players have deployed their armies, select up to three THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserve if you wish, regardless of how many units are already in Strategic Reserves.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9338,7 +9338,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Warpmeld Sacrifice",
-        "Text": "Each time an enemy unit is selected to shoot or fight and one or more **TZEENTCH MUTANT INFANTRY** or **TZEENTCH MUTANT MOUNTED** units from your army are selected as a target of one or more of those attacks, each of those **TZEENTCH MUTANT** units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that **TZEENTCH MUTANT** unit suffers D3 mortal wounds.\n\nEach time a **TZEENTCH MUTANT INFANTRY** or **TZEENTCH MUTANT MOUNTED*** unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that **TZEENTCH MUTANT** unit suffers D3 mortal wounds.\n\n**TZAANGORS** units from your army have the Battleline keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        "Text": "Each time an enemy unit is selected to shoot or fight and one or more TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED units from your army are selected as a target of one or more of those attacks, each of those TZEENTCH MUTANT units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nEach time a TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED* unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nTZAANGORS units from your army have the Battleline keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
       },
       "Tags": [
         "MUTANT"
@@ -9465,7 +9465,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "All is Dust",
-        "Text": "Each time an attack with an unmodified Damage characteristic of 1 is allocated to a **RUBRICAE** model from your army, add 1 to any armour saving throw made against that attack."
+        "Text": "Each time an attack with an unmodified Damage characteristic of 1 is allocated to a RUBRICAE model from your army, add 1 to any armour saving throw made against that attack."
       },
       "ForceDispositions": [
         "Take and Hold",
@@ -9530,7 +9530,7 @@
       "Enhancements": [
         {
           "Name": "Risen Rubricae",
-          "Description": "At the start of the Declare Battle Formations step, select either two **RUBRICAE BATTLELINE** units from your army or one other **RUBRICAE** unit from your army; models in the selected units have the Infiltrators ability.",
+          "Description": "At the start of the Declare Battle Formations step, select either two RUBRICAE BATTLELINE units from your army or one other RUBRICAE unit from your army; models in the selected units have the Infiltrators ability.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9543,7 +9543,7 @@
         },
         {
           "Name": "Arcane Thralls (Aura)",
-          "Description": "While a friendly **RUBRICAE** unit is within 9\" of the bearer, you can re-roll Battle-shock tests taken for that unit.",
+          "Description": "While a friendly RUBRICAE unit is within 9\" of the bearer, you can re-roll Battle-shock tests taken for that unit.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9556,7 +9556,7 @@
         },
         {
           "Name": "Lord of the Rubricae",
-          "Description": "While the bearer is leading a unit, each time a **RUBRICAE** model in that unit makes an attack, add 1 to the Hit roll.",
+          "Description": "While the bearer is leading a unit, each time a RUBRICAE model in that unit makes an attack, add 1 to the Hit roll.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9588,7 +9588,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Warpfire Infusion",
-        "Text": "Each time a **THOUSAND SONS VEHICLE** unit from your army is selected to shoot or fight, apply one of the following when resolving those attacks.\n- If that **VEHICLE** unit is within 6\" of one or more friendly **THOUSAND SONS PSYKER** models, you can re-roll one Hit roll, one Wound roll and one Damage roll.\n- Otherwise, you can re-roll one Hit roll, one Wound roll or one Damage roll.\n\n\nEach time a **THOUSAND SONS VEHICLE** model from your army with the Deadly Demise ability is destroyed while it is within 6\" of one or more friendly **THOUSAND SONS PSYKER** models, that model's Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of only a 6."
+        "Text": "Each time a THOUSAND SONS VEHICLE unit from your army is selected to shoot or fight, apply one of the following when resolving those attacks.\n- If that VEHICLE unit is within 6\" of one or more friendly THOUSAND SONS PSYKER models, you can re-roll one Hit roll, one Wound roll and one Damage roll.\n- Otherwise, you can re-roll one Hit roll, one Wound roll or one Damage roll.\n\n\nEach time a THOUSAND SONS VEHICLE model from your army with the Deadly Demise ability is destroyed while it is within 6\" of one or more friendly THOUSAND SONS PSYKER models, that model's Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of only a 6."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -9652,7 +9652,7 @@
       "Enhancements": [
         {
           "Name": "Warp Syphon",
-          "Description": "While the bearer is within 6\" of one or more friendly **THOUSAND SONS VEHICLE** units, each time the bearer Channels the Warp, after you roll that additional D6 but before checking for doubles or triples, the bearer can use this Enhancement. If it does, select one of those **VEHICLE** units; that **VEHICLE** unit suffers 1 mortal wound and you can re-roll that additional D6.",
+          "Description": "While the bearer is within 6\" of one or more friendly THOUSAND SONS VEHICLE units, each time the bearer Channels the Warp, after you roll that additional D6 but before checking for doubles or triples, the bearer can use this Enhancement. If it does, select one of those VEHICLE units; that VEHICLE unit suffers 1 mortal wound and you can re-roll that additional D6.",
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9665,7 +9665,7 @@
         },
         {
           "Name": "Perplexing Cloak",
-          "Description": "While the bearer is within 3\" of one or more friendly **THOUSAND SONS VEHICLE** units, the bearer has the Lone Operative ability.",
+          "Description": "While the bearer is within 3\" of one or more friendly THOUSAND SONS VEHICLE units, the bearer has the Lone Operative ability.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9678,7 +9678,7 @@
         },
         {
           "Name": "Biomechanical Mutation",
-          "Description": "In your Command phase, you can select one friendly **THOUSAND SONS VEHICLE** model within 6\" of this model. That model regains up to D3 lost wounds.",
+          "Description": "In your Command phase, you can select one friendly THOUSAND SONS VEHICLE model within 6\" of this model. That model regains up to D3 lost wounds.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9691,7 +9691,7 @@
         },
         {
           "Name": "Warp-cursed Runemaster",
-          "Description": "While the bearer is within 6\" of one or more friendly **THOUSAND SONS VEHICLE** units, each time the bearer manifests a Ritual, while resolving that Ritual, add 6\" to its range.",
+          "Description": "While the bearer is within 6\" of one or more friendly THOUSAND SONS VEHICLE units, each time the bearer manifests a Ritual, while resolving that Ritual, add 6\" to its range.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9710,7 +9710,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Sorcerous Invigoration",
-        "Text": "(Once per turn, per unit) When a friendly **THOUSAND SONS PSYKER** unit (excluding **MONSTER** units) successfully manifests a **Ritual**, that unit **heals** D3 wounds."
+        "Text": "(Once per turn, per unit) When a friendly THOUSAND SONS PSYKER unit (excluding MONSTER units) successfully manifests a Ritual, that unit heals D3 wounds."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -9747,7 +9747,7 @@
       "Enhancements": [
         {
           "Name": "Curse of Life",
-          "Description": "When this model **heals** as a result of the **Sorcerous Invigoration detachment rule**, you can add 3 to the number of wounds **healed**.",
+          "Description": "When this model heals as a result of the Sorcerous Invigoration detachment rule, you can add 3 to the number of wounds healed.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9785,7 +9785,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Ensorcelled Animus",
-        "Text": "- Friendly **SEKHETAR ROBOTS** units’ attacks have **[PSYCHIC]**.\n- Friendly **THOUSAND SONS PSYKER** units have the following ability:\nInfusion (Aura): While a friendly **SEKHETAR ROBOTS** unit is within 12\" of this unit, that unit’s melee attacks have +1 **WS**."
+        "Text": "- Friendly SEKHETAR ROBOTS units’ attacks have [PSYCHIC].\n- Friendly THOUSAND SONS PSYKER units have the following ability:\nInfusion (Aura): While a friendly SEKHETAR ROBOTS unit is within 12\" of this unit, that unit’s melee attacks have +1 WS."
       },
       "ForceDispositions": [
         "Disruption"
@@ -9822,7 +9822,7 @@
       "Enhancements": [
         {
           "Name": "Occulus Infernum",
-          "Description": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly **SEKHETAR ROBOTS** unit within 6\" of this unit. That unit’s ranged attacks have +1 **BS** until the start of your next turn.",
+          "Description": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly SEKHETAR ROBOTS unit within 6\" of this unit. That unit’s ranged attacks have +1 BS until the start of your next turn.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9838,7 +9838,7 @@
         },
         {
           "Name": "Walking Rampart",
-          "Description": "This model has the following abilities:\n- Soul Bound: In your Movement phase, at the start or end of this unit’s move, you can select one friendly **SEKHETAR ROBOTS** unit within 3\" of this model. That **SEKHETAR ROBOTS** unit **heals** D3+1 wounds.\n▪ Kine‑shielded Guardians: While this model is within 3\" of a friendly **SEKHETAR ROBOTS** unit, this model has **Lone Operative**.",
+          "Description": "This model has the following abilities:\n- Soul Bound: In your Movement phase, at the start or end of this unit’s move, you can select one friendly SEKHETAR ROBOTS unit within 3\" of this model. That SEKHETAR ROBOTS unit heals D3+1 wounds.\n▪ Kine‑shielded Guardians: While this model is within 3\" of a friendly SEKHETAR ROBOTS unit, this model has Lone Operative.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9860,7 +9860,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "All-seeing Mutant Hordes",
-        "Text": "- Friendly **TZAANGORS** units have **BATTLELINE**.\n- In your Shooting phase, while a friendly **MUTANT** unit is shooting, enemy units have +6\" **detection range**.\nThis **detachment** has the **MUTANT** tag and cannot be taken with another **MUTANT detachment**."
+        "Text": "- Friendly TZAANGORS units have BATTLELINE.\n- In your Shooting phase, while a friendly MUTANT unit is shooting, enemy units have +6\" detection range.\nThis detachment has the MUTANT tag and cannot be taken with another MUTANT detachment."
       },
       "Tags": [
         "MUTANT"
@@ -9900,7 +9900,7 @@
       "Enhancements": [
         {
           "Name": "Unravelled Fates",
-          "Description": "In your Movement phase, at the start or end of this unit's move, you can select one friendly **battle‑shocked MUTANT** unit within 6\" of this model. That unit is no longer **battle‑shocked**.",
+          "Description": "In your Movement phase, at the start or end of this unit's move, you can select one friendly battle‑shocked MUTANT unit within 6\" of this model. That unit is no longer battle‑shocked.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9919,7 +9919,7 @@
   "ArmyRules": [
     {
       "Title": "Cabal of Sorcerers",
-      "Text": "If your army Faction is **THOUSAND SONS**, at the start of your Shooting phase, one or more models from your army with this ability can attempt Rituals. To do so, select one model from your army with this ability that has not yet attempted a Ritual this turn and select one Ritual no model from your army has attempted to manifest this turn, then take a Psychic test by following the sequence below:\n\n1. Roll 2D6\n2. Optionally, roll one additional D6 (Channel the Warp). Then, if one or more doubles or triples were rolled during this test, that model's unit suffers D3 mortal wounds.\n3. If that model is not destroyed, the combined total of all the dice rolled during this test is the Psychic test result. If this equals or exceeds the Warp Charge value of the Ritual being attempted, that model manifests that Ritual and you resolve its effects."
+      "Text": "If your army Faction is THOUSAND SONS, at the start of your Shooting phase, one or more models from your army with this ability can attempt Rituals. To do so, select one model from your army with this ability that has not yet attempted a Ritual this turn and select one Ritual no model from your army has attempted to manifest this turn, then take a Psychic test by following the sequence below:\n\n1. Roll 2D6\n2. Optionally, roll one additional D6 (Channel the Warp). Then, if one or more doubles or triples were rolled during this test, that model's unit suffers D3 mortal wounds.\n3. If that model is not destroyed, the combined total of all the dice rolled during this test is the Psychic test result. If this equals or exceeds the Warp Charge value of the Ritual being attempted, that model manifests that Ritual and you resolve its effects."
     }
   ]
 }
