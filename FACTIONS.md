@@ -53,6 +53,6 @@ Issue counts are closed/total faction-specific GitHub issues.
 - 1.5.14 adds 572 stratagems and 12 enhancements. 1.5.15 adds 153 stratagems across Aeldari, Orks and Space Marine chapters. Empty lists remain for Sanctified Orators, Brute Bosses and Wurrband.
 - Genestealer Cults: signed off. Faction Pack 1.1 applied in 1.5.13.
 - Tyranids: roster and WarOrgan smoke checks passed. Faction Pack 1.3 coverage is partial.
-- Astra Militarum: 51 Brood Brother Auxilia allies retained. Remaining app tests are in issue 57.
+- Astra Militarum: 51 Brood Brother Auxilia allies retained. App tests passed (issue 57).
 - Ultramarines: Blade of Ultramar’s six stratagems displayed in WarOrgan. Version 1.5.16 removes raw formatting tags. Issue 7 is closed.
 - 1.5.17 fills seven enhancement lists. Three stratagem lists remain empty without matching entries.
