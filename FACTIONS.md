@@ -30,14 +30,14 @@ Roster counts cover native datasheets. A dash means the target is unconfirmed or
 | Chaos Space Marines | 56/— | 26/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Chaos Daemons | 56/— | 12/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Chaos Knights | 19/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Death Guard | 30/— | 11/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Emperor's Children | 18/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Death Guard | 30/— | 11/— | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
+| Emperor's Children | 18/— | 0/— | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
 | Thousand Sons | 29/— | 2/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| World Eaters | 25/— | 2/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| World Eaters | 25/— | 2/— | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
 | Aeldari | 57/— | 21/— | Complete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Drukhari | 23/— | 7/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Leagues of Votann | 22/— | 0/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Necrons | 52/— | 12/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Leagues of Votann | 22/— | 0/— | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
+| Necrons | 52/— | 12/— | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
 | Orks | 55/— | 15/— | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
 | T'au Empire | 43/— | 20/— | Incomplete | Incomplete | Incomplete | Incomplete | Complete | 1/1 (100%) |
 
@@ -47,4 +47,5 @@ Roster counts cover native datasheets. A dash means the target is unconfirmed or
 - Genestealer Cults: signed off. Faction Pack 1.1 applied in 1.5.13.
 - Tyranids: roster and WarOrgan smoke checks passed. Faction Pack 1.3 coverage is partial.
 - Astra Militarum: 51 Brood Brother Auxilia allies retained. Remaining app tests are in TODO.md.
-- Ultramarines: Blade of Ultramar’s six stratagems displayed in WarOrgan. The 1.5.16 development build removes raw formatting tags; issue 7 awaits that retest.
+- Ultramarines: Blade of Ultramar’s six stratagems displayed in WarOrgan. Version 1.5.16 removes raw formatting tags. Issue 7 is closed.
+- 1.5.17 fills seven enhancement lists. Three stratagem lists remain empty without matching entries.

@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-25 : 1.5.17.0 - Added 14 enhancements to seven detachments across Death Guard, Emperor’s Children, World Eaters, Leagues of Votann and Necrons.
+
 2026-11-25 : 1.5.16.0 - Strip formatting tags from exported rule text while preserving list items.
 
 2026-11-25 : 1.5.15.0 - Added 153 stratagems across Aeldari, Orks and Space Marine chapters, including six for Blade of Ultramar (issue 7).
