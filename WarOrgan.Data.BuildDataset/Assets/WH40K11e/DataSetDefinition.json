@@ -374,7 +374,32 @@
       "FactionKeyword": "Death Guard",
       "Category": "Chaos",
       "MainColor": "#5E6B2A",
-      "DarkColor": "#A0AE66"
+      "DarkColor": "#A0AE66",
+      "Allies": [
+        {
+          "FactionKeyword": "Legiones Daemonica",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Tallyband Summoners"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "BEASTS OF NURGLE",
+                "GREAT UNCLEAN ONE",
+                "NURGLINGS",
+                "PLAGUE DRONES",
+                "PLAGUEBEARERS",
+                "ROTIGUS"
+              ],
+              "AddedKeywords": [
+                "Allied Units",
+                "Plague Legions"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Emperor's Children",
