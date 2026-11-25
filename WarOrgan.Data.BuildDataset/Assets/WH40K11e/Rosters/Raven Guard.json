@@ -665,7 +665,62 @@
       "ForceDispositions": [
         "Disruption"
       ],
-      "Stratagems": [],
+      "Stratagems": [
+        {
+          "Name": "Into Darkness",
+          "Category": "Shadowmark Talon Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "End of your opponent’s Fight phase.",
+          "Target": "One <b>unengaged</b> <k>Adeptus Astartes Infantry</k> unit.",
+          "Effect": "Place your unit in <b>strategic reserves</b>."
+        },
+        {
+          "Name": "Murderous Fusillade",
+          "Category": "Shadowmark Talon Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Adeptus Astartes Infantry</k> unit that made an <b>ingress move</b> this turn is <b>selected to shoot</b>.",
+          "Target": "That <k>Adeptus Astartes infantry</k> unit.",
+          "Effect": "Your unit’s ranged attacks have: <ul><li>+1<b>BS</b>.</li><li>+1<b>AP</b>.</li></ul>"
+        },
+        {
+          "Name": "Lay Low the Tyrants",
+          "Category": "Shadowmark Talon Stratagem",
+          "CPCost": 1,
+          "Phase": "Fight",
+          "When": "Fight phase, when a friendly <k>Adeptus Astartes Infantry</k> unit is <b>selected to fight</b>.",
+          "Target": "That <k>Adeptus Astartes Infantry</k>.",
+          "Effect": "Your unit’s melee attacks have <k>[Precision]</k>."
+        },
+        {
+          "Name": "Suppressed Weapons",
+          "Category": "Shadowmark Talon Stratagem",
+          "CPCost": 1,
+          "Phase": "Shooting",
+          "When": "Your Shooting phase, when a friendly <k>Adeptus Astartes Infantry</k> unit has shot.",
+          "Target": "That <k>Adeptus Astartes Infantry</k> unit.",
+          "Effect": "Those attacks do not prevent your unit from being <b>hidden</b>."
+        },
+        {
+          "Name": "Raptorial Vigilance",
+          "Category": "Shadowmark Talon Stratagem",
+          "CPCost": 1,
+          "Phase": "Movement",
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8” of a friendly <b>unengaged</b> <k>Adeptus Astartes Infantry</k> unit.",
+          "Target": "That <k>Adeptus Astartes Infantry</k> unit.",
+          "Effect": "Your unit can make a <b>normal move</b> of:<ul><li>Up to D6”.</li><li><u>Or:</u> If your unit is a <k>Phobos/Scout Squad</k> unit, up to 6”.</li></ul>"
+        },
+        {
+          "Name": "Feint and Thrust",
+          "Category": "Shadowmark Talon Stratagem",
+          "CPCost": 1,
+          "Phase": "Command",
+          "When": "Your Command phase.",
+          "Target": "One friendly <k>Adeptus Astartes Infantry</k> unit.",
+          "Effect": "The <b>tactical doctrine</b> is active for your unit in addition to any other <b>combat doctrine</b>, until the start of your next Command phase."
+        }
+      ],
       "Enhancements": [
         {
           "Name": "Blackwing Shroud",
