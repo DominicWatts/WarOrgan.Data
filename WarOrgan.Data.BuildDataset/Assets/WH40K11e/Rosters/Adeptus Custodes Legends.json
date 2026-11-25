@@ -989,19 +989,8 @@
       "Upgrades": [],
       "Points": [
         {
-          "UnitCount": 1,
           "ModelCount": 1,
           "Cost": 220
-        },
-        {
-          "UnitCount": 2,
-          "ModelCount": 1,
-          "Cost": 220
-        },
-        {
-          "UnitCount": 3,
-          "ModelCount": 1,
-          "Cost": 235
         }
       ]
     },
@@ -1295,14 +1284,164 @@
       "Upgrades": [],
       "Points": [
         {
-          "UnitCount": 1,
           "ModelCount": 1,
           "Cost": 230
+        }
+      ]
+    },
+    {
+      "Id": "ALEYA",
+      "DisplayName": "Aleya",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Aleya",
+            "StatlineRef": "Aleya",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "somnus"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
         },
         {
-          "UnitCount": 2,
+          "Title": "Tactical Perception",
+          "Text": "This unit has Fights First."
+        },
+        {
+          "Title": "Tenacious Spirit",
+          "Text": "- While this unit is below starting strength, this unit's attacks have +1 to hit rolls.\n- While this unit is below half-strength, this unit's attacks have +1 to wound rolls."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "PROSECUTOR SQUAD",
+          "VIGILATOR SQUAD",
+          "WITCHSEEKER SQUAD"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Aleya",
+        "Epic Hero",
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Anathema Psykana",
+        "Emissaries"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Scouts 6\"",
+        "Leader",
+        "Feel No Pain 5+",
+        "Feel No Pain 3+*"
+      ],
+      "FactionKeywords": [
+        "Anathema Psykana"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Aleya",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "7\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "somnus",
+              "DisplayName": "Somnus",
+              "Keywords": "Anti-Psyker 5+, Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
           "ModelCount": 1,
-          "Cost": 250
+          "Cost": 55
         }
       ]
     }

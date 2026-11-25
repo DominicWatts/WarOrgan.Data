@@ -2,7 +2,7 @@
 
 Source order: **BSData → ListForge → GW → Faction packs**. Later sources take precedence for applicable records. Keep existing fixes and data a source doesn’t cover.
 
-Roster counts are provisional matched/expected native datasheets as of 25 November 2026. The inventory combines shipped entries, the cached BSData inventory and GW coverage. It excludes inherited units, Combat Patrol and known retirements, and retains existing entries and classifications where sources differ. ListForge and faction packs have not been reconciled in this pass. `0/0` means no native datasheets were identified for that tier. Percentages measure inventory coverage. [WarOrgan tests](TODO.md#needs-the-owner-app-testing) are separate.
+Roster counts are provisional matched/expected native datasheets as of 25 November 2026. The inventory combines shipped entries, the cached BSData inventory and GW coverage. It excludes inherited units, Combat Patrol and known retirements, and retains existing entries and classifications where sources differ. ListForge and faction packs have not been reconciled in this pass. `0/0` means no native datasheets were identified for that tier. Percentages measure inventory coverage. [WarOrgan tests](https://github.com/DominicWatts/WarOrgan.Data/issues?q=is%3Aopen+label%3Aneeds-testing) are separate.
 Issue counts are closed/total faction-specific GitHub issues.
 
 | Faction | Rosters Base | Rosters Legends | Army Rules | Detachments | Disposition | Enhancements | Stratagems | Issues pass / total |
@@ -11,7 +11,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 | Tyranids | 52/52 (100%) | 5/5 (100%) | Complete | Complete | Complete | Complete | Complete | — |
 | Astra Militarum | 72/72 (100%) | 63/63 (100%) | Complete | Complete | Complete | Complete | Complete | 2/2 (100%) |
 | Adepta Sororitas | 33/33 (100%) | 5/5 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Adeptus Custodes | 24/24 (100%) | 6/7 (86%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Adeptus Custodes | 29/29 (100%) | 7/7 (100%) | Complete | Complete | Complete | Complete | Complete | 1/3 (33%) |
 | Adeptus Mechanicus | 34/34 (100%) | 3/3 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Agents of the Imperium | 29/29 (100%) | 11/11 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Grey Knights | 26/26 (100%) | 5/5 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
@@ -44,7 +44,8 @@ Issue counts are closed/total faction-specific GitHub issues.
 
 ## Status notes
 
-- Candidate gaps (12): Space Marines — Drop Pod (Base), plus Cerberus, Falchion, Kratos, Mastodon, Rapier Carrier, Sicaran, Terrax-pattern Termite and Typhon (Legends). Adeptus Custodes — Aleya (Legends). Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Candidate gaps (11): Space Marines — Drop Pod (Base), plus Cerberus, Falchion, Kratos, Mastodon, Rapier Carrier, Sicaran, Terrax-pattern Termite and Typhon (Legends). Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Adeptus Custodes: 1.5.22 adds the Anathema Psykana datasheets and Aleya (app checks in issue 63). 1.5.23 completes issue 16: 13 Codex detachments, army rules, GW points and Praesidium Shield wargear. Faction Pack 1.1 (22 July 2026) is skipped because the Codex errata of 14 October 2026 in the GW app data replaces it. The Shield Host limit and Upgrade enhancements are tracked in issue 64.
 - Classification review: Captain on Bike and Wolf Scouts remain in their shipped Legends rosters. Harlequins are tracked separately as an eight-datasheet prerequisite for Reaper’s Wager.
 - 1.5.20 wires attach targets for 43 Support characters (issue 10).
 - 1.5.21 fills attach targets for 57 Leaders that had none (issue 11). The five Death Guard specialists join Plague Marines as Support, since they can join a unit that already has a Leader.
@@ -53,6 +54,6 @@ Issue counts are closed/total faction-specific GitHub issues.
 - 1.5.14 adds 572 stratagems and 12 enhancements. 1.5.15 adds 153 stratagems across Aeldari, Orks and Space Marine chapters. Empty lists remain for Sanctified Orators, Brute Bosses and Wurrband.
 - Genestealer Cults: signed off. Faction Pack 1.1 applied in 1.5.13.
 - Tyranids: roster and WarOrgan smoke checks passed. Faction Pack 1.3 coverage is partial.
-- Astra Militarum: 51 Brood Brother Auxilia allies retained. Remaining app tests are in TODO.md.
+- Astra Militarum: 51 Brood Brother Auxilia allies retained. App tests passed (issue 57).
 - Ultramarines: Blade of Ultramar’s six stratagems displayed in WarOrgan. Version 1.5.16 removes raw formatting tags. Issue 7 is closed.
 - 1.5.17 fills seven enhancement lists. Three stratagem lists remain empty without matching entries.
