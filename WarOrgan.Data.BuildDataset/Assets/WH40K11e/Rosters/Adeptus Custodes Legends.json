@@ -989,19 +989,8 @@
       "Upgrades": [],
       "Points": [
         {
-          "UnitCount": 1,
           "ModelCount": 1,
           "Cost": 220
-        },
-        {
-          "UnitCount": 2,
-          "ModelCount": 1,
-          "Cost": 220
-        },
-        {
-          "UnitCount": 3,
-          "ModelCount": 1,
-          "Cost": 235
         }
       ]
     },
@@ -1295,14 +1284,8 @@
       "Upgrades": [],
       "Points": [
         {
-          "UnitCount": 1,
           "ModelCount": 1,
           "Cost": 230
-        },
-        {
-          "UnitCount": 2,
-          "ModelCount": 1,
-          "Cost": 250
         }
       ]
     },
@@ -1343,7 +1326,7 @@
         },
         {
           "Title": "Tenacious Spirit",
-          "Text": "- While this unit is below starting strength, this unit's attacks have +1 to **hit rolls**.\n- While this unit is below half-strength, this unit's attacks have +1 to **wound rolls**."
+          "Text": "- While this unit is below starting strength, this unit's attacks have +1 to hit rolls.\n- While this unit is below half-strength, this unit's attacks have +1 to wound rolls."
         }
       ],
       "LeaderInfo": {
