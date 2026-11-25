@@ -23775,6 +23775,260 @@
           "Cost": 65
         }
       ]
+    },
+    {
+      "Id": "TRAITOR ENFORCER",
+      "DisplayName": "Traitor Enforcer",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Traitor Enforcer",
+            "StatlineRef": "Traitor Enforcer",
+            "Keywords": [
+              "Character",
+              "Traitor Enforcer"
+            ],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "bolt pistol",
+                  "power fist"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Traitor Ogryn",
+            "StatlineRef": "Traitor Ogryn",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "ogryn weapons"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "StatLines": [
+        {
+          "StatName": "Traitor Enforcer",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "3"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "3"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Traitor Ogryn",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "4"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ],
+              "Keywords": "Pistol"
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "ogryn weapons",
+              "DisplayName": "Ogryn weapons",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "CoreAbilities": [
+        "Leader"
+      ],
+      "UnitAbilities": [
+        {
+          "Title": "Mutated Bodyguard",
+          "Text": "While this unit includes its Traitor Ogryn, CHARACTER models in it have Feel No Pain 4+."
+        },
+        {
+          "Title": "Brutal Example",
+          "Text": "Once per turn, if this unit is leading and still contains its Traitor Enforcer, you can use Fire Overwatch on the led unit for 0CP, even if a different unit used it this turn. Each use destroys one Bodyguard model in the led unit."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "TRAITOR GUARDSMEN SQUAD"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Chaos",
+        "Damned"
+      ],
+      "FactionKeywords": [
+        "Heretic Astartes"
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 70
+        }
+      ]
     }
   ],
   "Detachments": [
