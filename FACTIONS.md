@@ -61,3 +61,5 @@ Issue counts are closed/total faction-specific GitHub issues.
 - Astra Militarum: 51 Brood Brother Auxilia allies retained. App tests passed (issue 57).
 - Ultramarines: Blade of Ultramar’s six stratagems displayed in WarOrgan. Version 1.5.16 removes raw formatting tags. Issue 7 is closed.
 - 1.5.17 fills seven enhancement lists. Three stratagem lists remain empty without matching entries.
+
+- T'au Empire: Faction Pack 1.2 (26 August 2026) reviewed. Added Ethereal's For the Greater Good faction ability and the Stealth/FRAME keyword corrections.
