@@ -27,6 +27,7 @@ See [FACTIONS.md](FACTIONS.md) for coverage and [CHANGELOG.md](CHANGELOG.md) for
 - **1.5.15.0** adds 153 stratagems, including Blade of Ultramar, on top of the 1.5.14 batch. Three empty lists remain without matching entries: Sanctified Orators, Brute Bosses and Wurrband.
 - **1.5.16.0** shipped the plain-text export fix. **1.5.17.0** fills the seven empty enhancement lists. Deathwatch Support remains intentionally empty.
 - **1.5.18.0** wires Daemon allies for World Eaters, Death Guard, Thousand Sons and Emperor’s Children.
+- **1.5.20.0** wires attach targets for 43 Support characters across 12 factions (issue 10). 57 Leaders, mostly Space Marine characters, still have empty attach lists.
 - **1.5.19.0** adds the Traitor Enforcer and 21 Shadow Legion allies. Reaper’s Wager still needs eight Harlequin datasheets.
 - Astra Militarum includes Hell’s Last and Vendetta Gunship. The Brood Brother Auxilia list still contains 51 IDs. App checks below remain open.
 - Sororitas and T’au have roster and wargear fixes on develop, including the latest weapon surcharges. Both remain in progress.
@@ -34,6 +35,7 @@ See [FACTIONS.md](FACTIONS.md) for coverage and [CHANGELOG.md](CHANGELOG.md) for
 
 ## Needs the owner (app testing)
 
+- [ ] Support attachments (1.5.20, issue 10): a Master of Executions joins Chosen or Legionaries, alongside a Leader such as a Chaos Lord. Spot-check a Lieutenant on Intercessors, a Painboy on Boyz and a Warlock on Guardian Defenders.
 - [ ] Shadow Legion (1.5.19): confirm the 21 allies appear only in this detachment, enforce the half-army points cap, and can take eligible enhancements. In Chaos Space Marines, verify that the 70-point Traitor Enforcer leads Traitor Guardsmen.
 - [ ] Daemon allies (1.5.18): Khorne Daemonkin and Carnival of Excess show five eligible units each. Tallyband Summoners and Changehost of Deceit show six each. Verify detachment gating, the half-army points cap, and that allies can’t be Warlord or take enhancements.
 - [ ] Enhancements (1.5.17): confirm each new Upgrade appears on eligible units only. Check both Lancet of the Worldsore recipients and all four Parasitic Woe-reaper recipients.

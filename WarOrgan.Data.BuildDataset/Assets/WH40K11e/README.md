@@ -2,7 +2,9 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.19.0
+## Coverage in 1.5.20.0
+
+- Support characters, such as the Master of Executions, Lieutenant, Painboy and Crypteks, can be attached to the units their datasheets list.
 
 - Shadow Legion allows 21 Chaos Space Marines datasheets, including the Traitor Enforcer, up to half the army’s points.
 
