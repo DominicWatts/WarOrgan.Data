@@ -406,7 +406,31 @@
       "FactionKeyword": "Emperor's Children",
       "Category": "Chaos",
       "MainColor": "#6A2C7A",
-      "DarkColor": "#B06CC0"
+      "DarkColor": "#B06CC0",
+      "Allies": [
+        {
+          "FactionKeyword": "Legiones Daemonica",
+          "ArmyPercentageRestriction": 0.5,
+          "AllowedDetachments": [
+            "Carnival of Excess"
+          ],
+          "UnitIncludeRules": [
+            {
+              "AffectedUnitsFilter": [
+                "DAEMONETTES",
+                "FIENDS",
+                "KEEPER OF SECRETS",
+                "SEEKERS",
+                "SHALAXI HELBANE"
+              ],
+              "AddedKeywords": [
+                "Allied Units",
+                "Legions of Excess"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Thousand Sons",
