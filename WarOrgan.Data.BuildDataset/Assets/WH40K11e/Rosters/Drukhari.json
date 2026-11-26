@@ -5528,17 +5528,17 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 9,
+          "ModelCount": 5,
           "Cost": 75
         },
         {
           "UnitCount": 2,
-          "ModelCount": 9,
+          "ModelCount": 5,
           "Cost": 75
         },
         {
           "UnitCount": 3,
-          "ModelCount": 9,
+          "ModelCount": 5,
           "Cost": 85
         }
       ]
