@@ -1299,7 +1299,7 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Venator Omni-Auspex",
+          "Name": "Venator Omni-auspex",
           "Description": "Phobos model only. This unit's attacks that target a hidden unit can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2",
           "Cost": 15,
           "Features": "None",
@@ -1371,9 +1371,9 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Venator Omni-Auspex",
-          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
-          "Cost": 0,
+          "Name": "Venator Omni-auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden unit can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1-2",
+          "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
@@ -1653,7 +1653,7 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Damocles-Class Uplink",
+          "Name": "Damocles-class Uplink",
           "Description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that Transport unit and select one combat doctrine. That combat doctrine is active for that Infantry unit.",
           "Cost": 15,
           "Features": "None",
