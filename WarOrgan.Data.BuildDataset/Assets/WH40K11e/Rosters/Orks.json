@@ -16855,7 +16855,7 @@
           "Name": "'Ardboyz",
           "Description": "BOYZ unit only. This unit has 4+ Sv.",
           "Cost": 25,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Boyz"
@@ -16924,7 +16924,7 @@
           "Name": "Wimp-kickaz",
           "Description": "NOBZ unit only. When an enemy unit engaged with this unit is selected to make a fall-back move:\n- That enemy unit must select the desperate escape mode.\n- If this unit is riled up, that enemy unit has -1 to the hazard rolls made for that desperate escape.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Nobz"
@@ -16993,7 +16993,7 @@
           "Name": "Smoky Gubbinz",
           "Description": "SPEED FREEKS unit only (excluding AIRCRAFT units). When an attack targets a unit that is not fully visible to the attacking model because of a model in this unit, the target has the benefit of cover against that attack.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Speed Freeks"
@@ -17062,7 +17062,7 @@
           "Name": "Throat-slittas",
           "Description": "KOMMANDOS/STORMBOYZ unit only. This unit's melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE].",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
@@ -17132,7 +17132,7 @@
           "Name": "Boss Boomer",
           "Description": "WAGON unit only. While a WARBOSS model is embarked within this unit, this unit has that WARBOSS model's Intimidating Motivation/Keep Huntin' ability.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Wagon"
@@ -17188,7 +17188,7 @@
           "Name": "Minefield Detail",
           "Description": "GRETCHIN unit only. While this unit is not embarked, this unit has Scouts 6\".",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Gretchin"
@@ -17201,7 +17201,7 @@
           "Name": "Extra Sneaky",
           "Description": "GRETCHIN unit only. This unit has -3\" detection range.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Gretchin"
@@ -17337,7 +17337,7 @@
           "Name": "Supa-snazz Dakka",
           "Description": "FLASH GITZ unit only. This unit's Snazzgun weapons have [RAPID FIRE 1].",
           "Cost": 25,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Flash Gitz"
@@ -17388,7 +17388,7 @@
           "Name": "Enhanced Runt-maw",
           "Description": "BIG MEK WITH SHOKK ATTACK GUN model only. When this unit has shot, select one enemy unit hit by those attacks. That unit is infested with Snotlings until the start of your next turn.\n- While an enemy unit is infested with Snotlings, that unit has -1 to leadership rolls.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Big Mek with Shokk Attack Gun"
@@ -17401,7 +17401,7 @@
           "Name": "Temperamental Shokka",
           "Description": "BIG MEK WITH SHOKK ATTACK GUN model only. In your Shooting phase, when this unit is selected to shoot, you can roll one D6:\n- On a 1, this model's Shokk Attack Gun weapon has [TORRENT], and when this unit has shot, this model is destroyed.\n- On a 2-5, this model's Shokk Attack Gun weapon has +1 A.\n- One a 6, this model's Shokk Attack Gun wepon has SUSTAINED HITS 2].",
           "Cost": 20,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Big Mek with Shokk Attack Gun"
@@ -17457,7 +17457,7 @@
           "Name": "Impulsive Recon",
           "Description": "ORKS AIRCRAFT unit only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Aircraft"
@@ -17470,7 +17470,7 @@
           "Name": "Flyboss",
           "Description": "ORKS AIRCRAFT unit only.\n- This unit has CHARACTER.\n- When this unit ends an ingress move, each friendly ORKS AIRCRAFT/DEFFKOPTAS unit within 6\" of this unit is riled up until the start of your next turn.",
           "Cost": 20,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Aircraft"
