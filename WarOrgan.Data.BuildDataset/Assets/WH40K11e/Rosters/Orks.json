@@ -16963,26 +16963,26 @@
           "CPCost": 1,
           "Phase": "Movement",
           "When": "Your Movement phase.",
-          "Target": "One friendly <k>Rukkatrukk Squigbuggies</k> unit.",
-          "Effect": "Select any number of friendly <k>Orks Infantry</k> units within 3\" of your unit. Each selected unit <b>heals</b> 3 wounds."
+          "Target": "One friendly RUKKATRUKK SQUIGBUGGIES unit.",
+          "Effect": "Select any number of friendly ORKS INFANTRY units within 3\" of your unit. Each selected unit heals 3 wounds."
         },
         {
           "Name": "Dakkastorm",
           "Category": "Kult of Speed Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Speed Freeks</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Speed Freeks</k> unit.",
-          "Effect": "Your unit’s ranged attacks have <k>[Sustained Hits 1]</k>."
+          "When": "Your Shooting phase, when a friendly SPEED FREEKS unit is selected to shoot.",
+          "Target": "That SPEED FREEKS unit.",
+          "Effect": "Your unit’s ranged attacks have [SUSTAINED HITS 1]."
         },
         {
           "Name": "Speediest Freeks",
           "Category": "Kult of Speed Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>Speed Freeks</k> unit.",
-          "Target": "That <k>Speed Freeks</k> unit.",
-          "Effect": "Ranged attacks that target your unit fail on an unmodified <b>hit roll</b> of 1‑3."
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly SPEED FREEKS unit.",
+          "Target": "That SPEED FREEKS unit.",
+          "Effect": "Ranged attacks that target your unit fail on an unmodified hit roll of 1-3."
         }
       ],
       "Enhancements": [
@@ -17020,7 +17020,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Suspiciously Well Organised",
-        "Text": "Friendly STORMBOYZ units have BATTLELINE.\n- When a friendly BOYZ/KOMMANDOS/STORMBOYZ unit is selected to make an fall‑back move, that fall-back move does not prevent that unit from being eligible to declare a charge."
+        "Text": "- Friendly STORMBOYZ units have BATTLELINE.\n- When a friendly BOYZ/KOMMANDOS/STORMBOYZ unit is selected to make a fall-back move, that fall-back move does not prevent that unit from being eligible to declare a charge."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -17032,17 +17032,17 @@
           "CPCost": 1,
           "Phase": "Movement",
           "When": "End of your opponent’s Movement phase.",
-          "Target": "One friendly <b>unengaged</b> <k>Boyz</k>/<k>Kommandos/Stormboyz</k> unit that was <b>engaged</b> at the start of the phase.",
-          "Effect": "Your unit can make a <b>normal move</b> of up to 6\"."
+          "Target": "One friendly unengaged BOYZ/KOMMANDOS/STORMBOYZ unit that was engaged at the start of the phase.",
+          "Effect": "Your unit can make a normal move of up to 6\"."
         },
         {
           "Name": "Mind Mostly on the Mission",
           "Category": "Taktikal Brigade Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Boyz/Kommandos/Stormboyz</k> unit is selected to make an <b>advance/fall-back move</b>.",
-          "Target": "That <k>Boyz/Kommandos/Stormboyz</k> unit.",
-          "Effect": "That move does not prevent your unit from being <b>eligible to start an action</b>."
+          "When": "Your Movement phase, when a friendly BOYZ/KOMMANDOS/STORMBOYZ unit is selected to make an advance/fall-back move.",
+          "Target": "That BOYZ/KOMMANDOS/STORMBOYZ unit.",
+          "Effect": "That move does not prevent your unit from being eligible to start an action."
         },
         {
           "Name": "Dubious Restraint",
@@ -17050,21 +17050,24 @@
           "CPCost": 1,
           "Phase": "Movement",
           "When": "Start/end of your Movement phase.",
-          "Target": "One friendly <k>Boyz</k>/<k>Kommandos/Stormboyz</k> unit.",
-          "Effect": "Select one <b>objective</b> your unit is controlling. That <b>objective</b> is <b>secured</b>."
+          "Target": "One friendly BOYZ/KOMMANDOS/STORMBOYZ unit.",
+          "Effect": "Select one objective your unit is controlling. That objective is secured."
         }
       ],
       "Enhancements": [
         {
           "Name": "Kill Kommanda",
-          "Description": "BIG MEK/WARBOSS INFANTRY model only. While this unit is part of an attached unit, this model has:\n- Infiltrators.\n- Stealth.",
+          "Description": "BIG MEK/WARBOSS INFANTRY model only. While this model is part of an attached unit, this model has:\n- Infiltrators.\n- Stealth.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Infantry"
           ],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Big Mek",
+            "Warboss"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
@@ -17101,18 +17104,18 @@
           "Category": "Blitz Brigade Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Wagon</k> unit ends a <b>normal move</b>.",
-          "Target": "That <k>Wagon</k> unit.",
-          "Effect": "Units embarked within your unit can make an <b>assault disembark move</b> (pg 121)."
+          "When": "Your Movement phase, when a friendly WAGON unit ends a normal move.",
+          "Target": "That WAGON unit.",
+          "Effect": "Units embarked within your unit can make an assault disembark move (pg 121)."
         },
         {
           "Name": "Impending Krunch",
           "Category": "Blitz Brigade Stratagem",
           "CPCost": 1,
           "Phase": "Charge",
-          "When": "Your Charge phase, when a friendly <k>Wagon</k> unit ends a <b>charge move</b>.",
-          "Target": "That <k>Wagon</k> unit.",
-          "Effect": "Each enemy unit <b>engaged</b> with your unit makes a <b>battle-shock roll</b>, with -1 to that <b>battle-shock roll</b>."
+          "When": "Your Charge phase, when a friendly WAGON unit ends a charge move.",
+          "Target": "That WAGON unit.",
+          "Effect": "Each enemy unit engaged with your unit makes a battle-shock roll, with -1 to that battle-shock roll."
         },
         {
           "Name": "Keep It Runnin’",
@@ -17120,8 +17123,8 @@
           "CPCost": 1,
           "Phase": "Fight",
           "When": "End of the Fight phase.",
-          "Target": "One friendly <b>unengaged</b> <k>Orks Infantry</k> unit that was <b>eligible to fight</b> this phase and is wholly within 6\" of a friendly <k>Transport</k> unit that <k>Infantry</k> unit is able to embark within.",
-          "Effect": "Your <k>Infantry</k> unit embarks within that <k>Transport</k> unit."
+          "Target": "One friendly unengaged ORKS INFANTRY unit that was eligible to fight this phase and is wholly within 6\" of a friendly TRANSPORT unit that INFANTRY unit is able to embark within.",
+          "Effect": "Your INFANTRY unit embarks within that TRANSPORT unit."
         }
       ],
       "Enhancements": [
@@ -17170,9 +17173,9 @@
           "Category": "Runt Swarm Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly <b>unengaged</b> <k>Gretchin</k> unit.",
-          "Target": "That <k>Gretchin</k> unit.",
-          "Effect": "Your unit can make a <b>normal move</b> of:\r<ul><li>Up to D6\".</li>\r<li><u>Or:</u> Up to 6\" instead if your unit is an <b>attached</b> unit.</li></ul>"
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged GRETCHIN unit.",
+          "Target": "That GRETCHIN unit.",
+          "Effect": "Your unit can make a normal move of:\n- Up to D6\".\n- Or: Up to 6\" instead if your unit is an attached unit."
         },
         {
           "Name": "Infested War Zone",
@@ -17180,17 +17183,17 @@
           "CPCost": 2,
           "Phase": "Any",
           "When": "Any phase, when an enemy unit has attacked.",
-          "Target": "One friendly <k>Gretchin</k> unit that was just <b>destroyed</b>. You can target that unit with this <b>stratagem</b> even though that unit was just <b>destroyed</b>.",
-          "Effect": "Add a new <k>Gretchin</k> unit to your army identical to your <b>destroyed</b> unit, in <b>strategic reserves</b>, at its <b>starting strength</b>, with its full wounds remaining."
+          "Target": "One friendly GRETCHIN unit that was just destroyed. You can target that unit with this stratagem even though that unit was just destroyed.",
+          "Effect": "Add a new GRETCHIN unit to your army identical to your destroyed unit, in strategic reserves, at its starting strength, with its full wounds remaining."
         },
         {
           "Name": "Grot Shields",
           "Category": "Runt Swarm Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>Orks Infantry</k> unit (excluding <k>Gretchin</k> units).",
-          "Target": "One friendly <k>Gretchin</k> unit within 3\" of that <k>Orks Infantry</k> unit.",
-          "Effect": "When a <b>hit roll</b> for that enemy unit’s ranged attacks that target that <k>Orks</k> unit results in a hit, if a model in your <k>Gretchin</k> unit is on the battlefield, end the attack sequence for that attack and your <k>Gretchin</k> unit suffers 1 <b>mortal wound</b>."
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly ORKS INFANTRY unit (excluding GRETCHIN units).",
+          "Target": "One friendly GRETCHIN unit within 3\" of that ORKS INFANTRY unit.",
+          "Effect": "When a hit roll for that enemy unit’s ranged attacks that target that ORKS unit results in a hit, if a model in your GRETCHIN unit is on the battlefield, end the attack sequence for that attack and your GRETCHIN unit suffers 1 mortal wound."
         }
       ],
       "Enhancements": [
@@ -17228,7 +17231,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Dakka! Dakka! Dakka!",
-        "Text": "Friendly ORKS INFANTRY units’ ranged attacks have [ASSAULT].\n- While this unit is riled up, +3\" R."
+        "Text": "Friendly ORKS INFANTRY units’ ranged attacks have:\n- [ASSAULT].\n- While this unit is riled up, +3\" R."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -17239,33 +17242,33 @@
           "Category": "Shoota Boyz Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Orks Infantry</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Orks Infantry</k> unit.",
-          "Effect": "Your unit’s ranged attacks that target a unit (excluding <k>Monster/Vehicle</k> units) have +1 to <b>wound rolls</b>."
+          "When": "Your Shooting phase, when a friendly ORKS INFANTRY unit is selected to shoot.",
+          "Target": "That ORKS INFANTRY unit.",
+          "Effect": "Your unit’s ranged attacks that target a unit (excluding MONSTER/VEHICLE units) have +1 to wound rolls."
         },
         {
           "Name": "Glowin’ Dakka",
           "Category": "Shoota Boyz Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Orks Infantry</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Orks Infantry</k> unit.",
-          "Effect": "Your unit’s ranged attacks that target a unit within 9\" have +1 <b>AP</b>."
+          "When": "Your Shooting phase, when a friendly ORKS INFANTRY unit is selected to shoot.",
+          "Target": "That ORKS INFANTRY unit.",
+          "Effect": "Your unit’s ranged attacks that target a unit within 9\" have +1 AP."
         },
         {
           "Name": "Never Enough Dakka",
           "Category": "Shoota Boyz Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Orks Infantry</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Orks Infantry</k> unit.",
-          "Effect": "Your unit’s ranged attacks have <k>[Sustained Hits 1]</k>."
+          "When": "Your Shooting phase, when a friendly ORKS INFANTRY unit is selected to shoot.",
+          "Target": "That ORKS INFANTRY unit.",
+          "Effect": "Your unit’s ranged attacks have [SUSTAINED HITS 1]."
         }
       ],
       "Enhancements": [
         {
           "Name": "Supa-glowy Fing",
-          "Description": "ORKS INFANTRY model only (excluding WEIRDBOY models). This model’s ranged attacks have:\n- [ANTI-INFANTRY 4+}\n\n- [DEVASTATING WOUNDS].\n- [SUPA-HAZARDOUS].",
+          "Description": "ORKS INFANTRY model only (excluding WEIRDBOY models). This model’s ranged attacks have:\n- [ANTI-INFANTRY 4+].\n- [DEVASTATING WOUNDS].\n- [SUPA-HAZARDOUS].\n\n[SUPA-HAZARDOUS]: Each time a unit is selected to shoot, after that unit has resolved all of its attacks, make two hazard rolls for that unit for each [SUPA-HAZARDOUS] weapon you selected in the Select Weapons step.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -17273,7 +17276,9 @@
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Psyker"
+          ],
           "RequiredAbilities": []
         },
         {
@@ -17283,7 +17288,11 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Big Mek",
+            "Bigboss",
+            "Warboss"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
