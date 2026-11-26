@@ -9751,7 +9751,7 @@
           "Name": "Boons of Deimos",
           "Description": "PURGATION SQUAD unit only. This unit’s ranged attacks have +2 S.",
           "Cost": 20,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Purgation Squad"
@@ -9764,7 +9764,7 @@
           "Name": "Precognicient Volleys",
           "Description": "PURGATION SQUAD unit only. This unit’s snap shooting attacks hit on unmodified hit rolls of 5+.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Purgation Squad"
@@ -9820,7 +9820,7 @@
           "Name": "Predestined Coordinates",
           "Description": "INTERCEPTOR SQUAD unit only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Interceptor Squad"
@@ -9833,7 +9833,7 @@
           "Name": "Astral Overlap",
           "Description": "INTERCEPTOR SQUAD unit only. This unit has Stealth.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Interceptor Squad"
