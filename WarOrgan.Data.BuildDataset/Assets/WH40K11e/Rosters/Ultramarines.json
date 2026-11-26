@@ -4343,7 +4343,19 @@
           "Effect": "Place your unit in strategic reserves."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Beacon Angelis",
+          "Description": "ADEPTUS ASTARTES model only. If this unit is a Kill Team unit, this unit has:\n\n▪ Deep Strike.\n▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],
