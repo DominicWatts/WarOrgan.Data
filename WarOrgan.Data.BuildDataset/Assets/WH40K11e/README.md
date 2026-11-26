@@ -2,7 +2,9 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.28.0
+## Coverage in 1.5.29.0
+
+- 1.5.29 marks 49 GW upgrade enhancements as Upgrades so they can be taken on more than one unit, across Adepta Sororitas, Adeptus Custodes, Aeldari, Astra Militarum, Chaos Daemons, Chaos Knights, Drukhari, Grey Knights, Imperial Knights, Leagues of Votann, Orks, T'au Empire and Tyranids. Warp Talons take exactly 1 Champion, and the unit costs 130 points for 5 models and 290 points for 10.
 
 - Adepta Sororitas: faction-wide army rules and all 8 detachments have been audited. Sacred Champions includes the Reverend disposition, and source-supported roster rule text corrections are applied.
 

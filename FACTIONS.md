@@ -45,6 +45,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 ## Status notes
 
 - Candidate gaps (2): Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- 1.5.29 marks GW upgrade enhancements as Upgrades in 13 factions (issues 64, 280-291). Memento Moritoi and Augury Uplink stay normal enhancements to keep their one-per-army limit, and the Custodes Shield Host limit stays as rule text. Chaos Space Marines: Warp Talon Champion limit and points fixed (issue 274).
 - Space Marines: 1.5.28 completes the missing roster entries and corrects squad limits for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
 - Space Marines: 1.5.27 fixes Sergeant and regular model composition limits across the roster and adds the correct 5-model and 10-model Assault Intercessor point tiers (issue 272).
 - Space Marines: issue 101 adds Drop Pod, eight Legends datasheets and the separate 110-point Captain on Bike, retaining the existing 95-point Legends entry.

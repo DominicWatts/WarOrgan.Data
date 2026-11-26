@@ -13333,7 +13333,7 @@
           "Name": "Soul-shattering Charge",
           "Description": "When this unit is selected to fight, if this unit made a charge move this turn, you can use this ability. If you do, when determining which models in this unit can fight, friendly models that are within 3\" of enemy units engaged with this unit can target those enemy units,",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Mounted"
@@ -13346,7 +13346,7 @@
           "Name": "Apocalyptic Steeds",
           "Description": "This unit has +1\" M.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Mounted"
@@ -13411,7 +13411,7 @@
           "Name": "Swollen with Power",
           "Description": "This model has +2 W.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Non-Monster Character"

@@ -9134,7 +9134,7 @@
           "Name": "Gyro-optimised Actuators",
           "Description": "ARMIGER unit only. This unit has MOBILE.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Armiger"
@@ -9147,7 +9147,7 @@
           "Name": "Ancestral Overbleed",
           "Description": "ARMIGER unit only. When you target this unit with the Fire Overwatch/Heroic Intervention stratagem, that use is ‑1 CP.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Armiger"
