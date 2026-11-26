@@ -664,8 +664,8 @@
       "Name": "Shadowmark Talon",
       "Cost": 2,
       "Rule": {
-        "Title": "Masters of Shadow",
-        "Text": "Friendly Adeptus Astartes units have Stealth.\n\n\nFriendly Phobos/Scout Squad units have -3\" detection range.\n\n\nFriendly Aethon Shaan units have the following ability:\n\n\nUnparalleled Tactician: (Once per battle round, per army) When you use the Into Darkness stratagem, that use is -1CP.."
+        "Title": "Shadow Tactics",
+        "Text": "Friendly Adeptus Astartes units have Stealth.\n\n\nFriendly Phobos/Scout Squad units have -3\" detection range.\n\n\nFriendly Aethon Shaan units have the following ability:\n\n\nUnparalleled Tactician: (Once per battle round, per army) When you use the Into Darkness stratagem, that use is -1CP."
       },
       "ForceDispositions": [
         "Disruption"
@@ -733,7 +733,9 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -757,7 +759,9 @@
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Infantry"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
