@@ -3,48 +3,49 @@
 Source order: **BSData → ListForge → GW → Faction packs**. Later sources take precedence for applicable records. Keep existing fixes and data a source doesn’t cover.
 
 Roster counts are provisional matched/expected native datasheets as of 25 November 2026. The inventory combines shipped entries, the cached BSData inventory and GW coverage. It excludes inherited units, Combat Patrol and known retirements, and retains existing entries and classifications where sources differ. ListForge and faction packs have not been reconciled in this pass. `0/0` means no native datasheets were identified for that tier. Percentages measure inventory coverage. [WarOrgan tests](https://github.com/DominicWatts/WarOrgan.Data/issues?q=is%3Aopen+label%3Aneeds-testing) are separate.
-Issue counts are closed/total faction-specific GitHub issues.
+`✅` means the scope is audited complete; `❌` means its audit is incomplete. Issue counts are closed/total faction-specific GitHub issues, including legacy and app-test issues that predate faction labels.
 
 | Faction | Rosters Base | Rosters Legends | Army Rules | Detachments | Disposition | Enhancements | Stratagems | Issues pass / total |
 |---|---:|---:|---|---|---|---|---|---:|
-| Genestealer Cults | 24/24 (100%) | 1/1 (100%) | Complete | Complete | Complete | Complete | Complete | 2/2 (100%) |
-| Tyranids | 52/52 (100%) | 5/5 (100%) | Complete | Complete | Complete | Complete | Complete | — |
-| Astra Militarum | 72/72 (100%) | 63/63 (100%) | Complete | Complete | Complete | Complete | Complete | 2/2 (100%) |
-| Adepta Sororitas | 33/33 (100%) | 5/5 (100%) | Complete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| Adeptus Custodes | 29/29 (100%) | 7/7 (100%) | Complete | Complete | Complete | Complete | Complete | 1/3 (33%) |
-| Adeptus Mechanicus | 34/34 (100%) | 3/3 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Agents of the Imperium | 29/29 (100%) | 11/11 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Grey Knights | 26/26 (100%) | 5/5 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Imperial Knights | 22/22 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Space Marines | 72/72 (100%) | 72/72 (100%) | Complete | Incomplete | Incomplete | Incomplete | Complete | 3/9 (33%) |
-| Black Templars | 16/16 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Blood Angels | 14/14 (100%) | 8/8 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Dark Angels | 16/16 (100%) | 2/2 (100%) | Complete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Deathwatch | 10/10 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Imperial Fists | 3/3 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Iron Hands | 2/2 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Raven Guard | 2/2 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Salamanders | 2/2 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Space Wolves | 20/20 (100%) | 14/14 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Ultramarines | 11/11 (100%) | 5/5 (100%) | Complete | Incomplete | Incomplete | Incomplete | Complete | 3/3 (100%) |
-| White Scars | 2/2 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Chaos Space Marines | 57/58 (98%) | 26/26 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Chaos Daemons | 56/56 (100%) | 12/12 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Chaos Knights | 19/20 (95%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Death Guard | 30/30 (100%) | 11/11 (100%) | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
-| Emperor's Children | 18/18 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
-| Thousand Sons | 29/29 (100%) | 2/2 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| World Eaters | 25/25 (100%) | 2/2 (100%) | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
-| Aeldari | 57/57 (100%) | 21/21 (100%) | Complete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Drukhari | 23/23 (100%) | 7/7 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Leagues of Votann | 22/22 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
-| Necrons | 52/52 (100%) | 12/12 (100%) | Incomplete | Incomplete | Incomplete | Complete | Complete | — |
-| Orks | 55/55 (100%) | 15/15 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Incomplete | — |
-| T'au Empire | 43/43 (100%) | 20/20 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | 1/1 (100%) |
+| Genestealer Cults | 24/24 (100%) | 1/1 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 2/2 (100%) |
+| Tyranids | 52/52 (100%) | 5/5 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 2/2 (100%) |
+| Astra Militarum | 72/72 (100%) | 63/63 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 4/4 (100%) |
+| Adepta Sororitas | 33/33 (100%) | 5/5 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/8 (100%) |
+| Adeptus Custodes | 29/29 (100%) | 7/7 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 2/3 (67%) |
+| Adeptus Mechanicus | 34/34 (100%) | 3/3 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 2/7 (29%) |
+| Agents of the Imperium | 29/29 (100%) | 11/11 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 2/7 (29%) |
+| Grey Knights | 26/26 (100%) | 5/5 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
+| Imperial Knights | 22/22 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
+| Space Marines | 72/72 (100%) | 72/72 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 14/15 (93%) |
+| Black Templars | 16/16 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ❌ | ✅ | 5/9 (56%) |
+| Blood Angels | 14/14 (100%) | 8/8 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 6/9 (67%) |
+| Dark Angels | 16/16 (100%) | 2/2 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 7/10 (70%) |
+| Deathwatch | 10/10 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ❌ | ✅ | 8/11 (73%) |
+| Imperial Fists | 3/3 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/9 (89%) |
+| Iron Hands | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/9 (89%) |
+| Raven Guard | 2/2 (100%) | 0/0 (n/a) | ✅ | ❌ | ❌ | ❌ | ✅ | 7/9 (78%) |
+| Salamanders | 2/2 (100%) | 0/0 (n/a) | ✅ | ❌ | ❌ | ❌ | ✅ | 7/9 (78%) |
+| Space Wolves | 20/20 (100%) | 14/14 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 7/11 (64%) |
+| Ultramarines | 11/11 (100%) | 5/5 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 10/12 (83%) |
+| White Scars | 2/2 (100%) | 0/0 (n/a) | ✅ | ❌ | ❌ | ❌ | ✅ | 7/9 (78%) |
+| Chaos Space Marines | 57/58 (98%) | 26/26 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 4/11 (36%) |
+| Chaos Daemons | 56/56 (100%) | 12/12 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
+| Chaos Knights | 19/20 (95%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
+| Death Guard | 30/30 (100%) | 11/11 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
+| Emperor's Children | 18/18 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
+| Thousand Sons | 29/29 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 2/7 (29%) |
+| World Eaters | 25/25 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
+| Aeldari | 57/57 (100%) | 21/21 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
+| Drukhari | 23/23 (100%) | 7/7 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
+| Leagues of Votann | 22/22 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 3/8 (38%) |
+| Necrons | 52/52 (100%) | 12/12 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/8 (25%) |
+| Orks | 55/55 (100%) | 15/15 (100%) | ❌ | ❌ | ❌ | ❌ | ❌ | 4/10 (40%) |
+| T'au Empire | 43/43 (100%) | 20/20 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 9/9 (100%) |
 
 ## Status notes
 
 - Candidate gaps (2): Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Space Marines: all 16 shared detachments are audited. Imperial Fists' Ceramite Sentinels and Iron Hands' Medusa's Wrath are also audited; the remaining chapter-specific detachments stay tracked in open issues.
 - 1.5.29 marks GW upgrade enhancements as Upgrades in 13 factions (issues 64, 280-291). Memento Moritoi and Augury Uplink stay normal enhancements to keep their one-per-army limit, and the Custodes Shield Host limit stays as rule text. Chaos Space Marines: Warp Talon Champion limit and points fixed (issue 274).
 - Space Marines: 1.5.28 completes the missing roster entries and corrects squad limits for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
 - Space Marines: 1.5.27 fixes Sergeant and regular model composition limits across the roster and adds the correct 5-model and 10-model Assault Intercessor point tiers (issue 272).
