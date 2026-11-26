@@ -15649,7 +15649,7 @@
           "Name": "Unmasking Suite",
           "Description": "GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS unit only. When this unit is selected to shoot, you can select one enemy unit within 24\" of this unit. That enemy unit has +9\" detection range until this unit has shot.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
@@ -15664,7 +15664,7 @@
           "Name": "Negation Emitters",
           "Description": "STEALTH BATTLESUITS unit only. This unit has -3\" detection range.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Stealth"

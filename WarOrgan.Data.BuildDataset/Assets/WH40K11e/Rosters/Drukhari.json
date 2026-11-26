@@ -9115,7 +9115,7 @@
           "Name": "Elixir of the Corpse Courts",
           "Description": "CRONOS/TALOS unit only. This unit has 5+ InSv.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [

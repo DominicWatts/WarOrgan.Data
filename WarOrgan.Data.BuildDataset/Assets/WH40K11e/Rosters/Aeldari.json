@@ -20149,7 +20149,7 @@
           "Name": "Camouflaged Snipers",
           "Description": "RANGERS unit only. This unit’s ranged attacks do not prevent this unit from being hidden.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Rangers"
@@ -20232,7 +20232,7 @@
           "Name": "Shadowfall Masks",
           "Description": "TROUPE unit only. This unit has Fights First.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Troupe"
