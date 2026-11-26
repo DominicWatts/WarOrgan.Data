@@ -31223,7 +31223,7 @@
           "Name": "Sharp Eyes",
           "Description": "RATLINGS unit only. When this unit is selected to shoot, enemy units have +6\" detection range until this unit has shot.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Ratlings"
@@ -31236,7 +31236,7 @@
           "Name": "Exemplar of Duty",
           "Description": "LEADER: BULLGRYN SQUAD, OGRYN SQUAD COMMISSAR model only. This model has Feel No Pain 4+.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Commissar"
@@ -31295,7 +31295,7 @@
           "Name": "Recon Star",
           "Description": "ASTRA MILITARUM INFANTRY PLATOON unit only. In your first Movement phase, this unit can make an ingress move.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
@@ -31310,7 +31310,7 @@
           "Name": "Long-range Scout",
           "Description": "SCOUT SENTINEL unit only. This unit has Infiltrators.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Scout Sentinels"
