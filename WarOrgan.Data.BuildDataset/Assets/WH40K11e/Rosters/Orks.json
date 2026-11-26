@@ -17315,18 +17315,18 @@
           "Category": "Wreckas Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Orks Transport</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Orks Transport</k> unit.",
-          "Effect": "Your unit’s ranged attacks with weapons selected for the <b>Firing Deck</b> ability have +1 to <b>hit rolls</b>."
+          "When": "Your Shooting phase, when a friendly ORKS TRANSPORT unit is selected to shoot.",
+          "Target": "That ORKS TRANSPORT unit.",
+          "Effect": "Your unit’s ranged attacks with weapons selected for the Firing Deck ability have +1 to hit rolls."
         },
         {
           "Name": "Grab It",
           "Category": "Wreckas Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <b>unengaged</b> <k>Breaka Boyz/Flash Gitz/Tankbustas</k> unit has shot.",
-          "Target": "That <k>Breaka Boyz/Flash Gitz/Tankbustas</k> unit.",
-          "Effect": "<ul><li>Your unit can make a <b>normal move</b> of up to 6\", and must end that move within range of an <b>objective</b>.</li>\r<li>Your unit is <u>not</u> <b>eligible to declare a charge</b> until the end of the turn.</li></ul>"
+          "When": "Your Shooting phase, when a friendly unengaged BREAKA BOYZ/FLASH GITZ/TANKBUSTAS unit has shot.",
+          "Target": "That BREAKA BOYZ/FLASH GITZ/TANKBUSTAS unit.",
+          "Effect": "- Your unit can make a normal move of up to 6\", and must end that move within range of an objective.\n- Your unit is not eligible to declare a charge until the end of the turn."
         },
         {
           "Name": "Gun-crazy Show-offs",
@@ -17334,8 +17334,8 @@
           "CPCost": 1,
           "Phase": "Shooting",
           "When": "Your opponent’s Shooting phase, when an enemy unit has shot.",
-          "Target": "One friendly <k>Flash Gitz/Tankbustas</k> unit hit by those attacks.",
-          "Effect": "Your unit shoots using <b>normal shooting</b>, but while doing so your unit can only target that enemy unit."
+          "Target": "One friendly FLASH GITZ/TANKBUSTAS unit hit by those attacks.",
+          "Effect": "Your unit shoots using normal shooting, but while doing so your unit can only target that enemy unit."
         }
       ],
       "Enhancements": [
@@ -17348,7 +17348,10 @@
           "RequiredKeywords": [
             "Infantry"
           ],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Big Mek",
+            "Warboss"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
@@ -17373,7 +17376,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Unpredictable Genius",
-        "Text": "In your Shooting phase, when all of a friendly BIG MEK/MEK GUNS/MORKANAUT/WAZBOM BLASTAJET unit's ranged attacks target a single enemy unit: roll one D6:"
+        "Text": "In your Shooting phase, when all of a friendly BIG MEK/MEK GUNZ/MORKANAUT/WAZBOM BLASTAJET unit's ranged attacks target a single enemy unit, roll one D6:\n- 1: Dat's Weird: The target unit has 4+ InSv until your unit has shot.\n- 2-3: Hop Splat: Select one other enemy unit within 3\" of the target. That unit suffers D3 mortal wounds.\n- 4: Seekerz: Those attacks have +1 to hit rolls.\n- 5: Lifted: The target unit has FLY, and cannot have the benefit of cover, until your unit has shot.\n- 6: Runtified: The target unit has -1 T until your unit has shot."
       },
       "ForceDispositions": [
         "Disruption"
@@ -17384,9 +17387,9 @@
           "Category": "Madcap Meks Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Mek Gunz</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Mek Gunz</k> unit.",
-          "Effect": "Your unit’s ranged attacks have: \r<ul><li><k>[Lethal Hits]</k>.</li>\r<li><u>Or:</u> <k>[Sustained Hits 1]</k>.</li>\r<li><u>Or:</u> <k>[Hazardous]</k>, <k>[Lethal Hits]</k>, <k>[Sustained Hits 1]</k>.</li></ul>"
+          "When": "Your Shooting phase, when a friendly MEK GUNZ unit is selected to shoot.",
+          "Target": "That MEK GUNZ unit.",
+          "Effect": "Your unit’s ranged attacks have:\n- [LETHAL HITS].\n- Or: [SUSTAINED HITS 1].\n- Or: [HAZARDOUS], [LETHAL HITS], [SUSTAINED HITS 1]."
         }
       ],
       "Enhancements": [
@@ -17418,7 +17421,7 @@
         },
         {
           "Name": "Temperamental Shokka",
-          "Description": "BIG MEK WITH SHOKK ATTACK GUN model only. In your Shooting phase, when this unit is selected to shoot, you can roll one D6:\n- On a 1, this model's Shokk Attack Gun weapon has [TORRENT], and when this unit has shot, this model is destroyed.\n- On a 2-5, this model's Shokk Attack Gun weapon has +1 A.\n- One a 6, this model's Shokk Attack Gun wepon has SUSTAINED HITS 2].",
+          "Description": "BIG MEK WITH SHOKK ATTACK GUN model only. In your Shooting phase, when this unit is selected to shoot, you can roll one D6:\n- On a 1, this model's Shokk Attack Gun weapon has [TORRENT], and when this unit has shot, this model is destroyed.\n- On a 2-5, this model's Shokk Attack Gun weapon has +1 A.\n- On a 6, this model's Shokk Attack Gun weapon has [SUSTAINED HITS 2].",
           "Cost": 20,
           "Features": "Upgrade",
           "RequiredUnitNames": [],
@@ -17437,7 +17440,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Skyborne Loons",
-        "Text": "- Friendly ORKS AIRCRAFT do not count towards the combined points value of your strategic reserves units.\n- While a friendly ORKS AIRCRAFT/DEFFKOPTAS unit is riled up, this unit's ranged attacks have +1 to hit rolls."
+        "Text": "- Friendly ORKS AIRCRAFT units do not count towards the combined points value of your strategic reserves units.\n- While a friendly ORKS AIRCRAFT/DEFFKOPTAS unit is riled up, this unit's ranged attacks have +1 to hit rolls."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -17448,18 +17451,18 @@
           "Category": "Flyboyz Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Orks Aircraft/Deffkoptas</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Orks Aircraft/Deffkoptas</k> unit.",
-          "Effect": "When your unit’s ranged attacks target a <k>Fly</k> unit, those attacks can re-roll <b>hit rolls</b>."
+          "When": "Your Shooting phase, when a friendly ORKS AIRCRAFT/DEFFKOPTAS unit is selected to shoot.",
+          "Target": "That ORKS AIRCRAFT/DEFFKOPTAS unit.",
+          "Effect": "When your unit’s ranged attacks target a FLY unit, those attacks can re-roll hit rolls."
         },
         {
           "Name": "Flyin’ Headbutt",
           "Category": "Flyboyz Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Orks Aircraft</k> unit is <b>destroyed</b>, before rolling for any <b>Deadly Demise</b>.",
-          "Target": "That <k>Orks</k> unit.",
-          "Effect": "Your unit does not have the <b>Deadly Demise</b> ability. Select one enemy unit within 12\" of your unit and roll eight D6:\r<ul><li>For each 4+, that enemy unit suffers 1 <b>mortal wound</b>.</li></ul>\rThen remove your unit from the battlefield."
+          "When": "Any phase, when a friendly ORKS AIRCRAFT unit is destroyed, before rolling for any Deadly Demise.",
+          "Target": "That ORKS unit.",
+          "Effect": "Your unit does not have the Deadly Demise ability. Select one enemy unit within 12\" of your unit and roll eight D6:\n- For each 4+, that enemy unit suffers 1 mortal wound.\nThen remove your unit from the battlefield."
         },
         {
           "Name": "Whirligig Evasion",
@@ -17467,8 +17470,8 @@
           "CPCost": 1,
           "Phase": "Movement",
           "When": "Your opponent’s Movement phase, when an enemy unit ends a move.",
-          "Target": "One friendly <b>unengaged</b> <k>Deffkoptas</k> unit within 8\" of that enemy unit.",
-          "Effect": "Your unit can make a <b>normal move</b> of: \r<ul><li>Up to D6\".</li>\r<li><u>Or:</u> If your unit is <b>riled up</b>, up to 6\".</li></ul>"
+          "Target": "One friendly unengaged DEFFKOPTAS unit within 8\" of that enemy unit.",
+          "Effect": "Your unit can make a normal move of:\n- Up to D6\".\n- Or: If your unit is riled up, up to 6\"."
         }
       ],
       "Enhancements": [
@@ -17528,23 +17531,60 @@
         },
         {
           "Name": "Surly As A Squiggoth",
-          "Description": "INFANTRY WARBOSS model only. (Once per battle, per army) At the end of phase in which this model is destroyed, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged, with 3 wounds remaining.",
+          "Description": "INFANTRY WARBOSS model only. (Once per battle, per army) At the end of a phase in which this model is destroyed, roll one D6:\n- On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged, with 3 wounds remaining.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Infantry",
             "Warboss"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Da Gobshot Thunderbuss",
-          "Description": "",
+          "Description": "WARBOSS model only. This model has the following weapon:",
           "Cost": 20,
           "Features": "None",
+          "AddedWeapons": [
+            {
+              "WeaponSetId": "RANGED WEAPONS",
+              "Weapon": {
+                "Id": "da gobshot thunderbuss",
+                "DisplayName": "Da Gobshot Thunderbuss",
+                "Keywords": "Lethal Hits: non-Monster/Vehicle, Rapid Fire 6",
+                "Flags": "NeverFilter",
+                "Stats": [
+                  {
+                    "Id": "Range",
+                    "Value": "24\""
+                  },
+                  {
+                    "Id": "A",
+                    "Value": "6"
+                  },
+                  {
+                    "Id": "BS",
+                    "Value": "4+"
+                  },
+                  {
+                    "Id": "S",
+                    "Value": "7"
+                  },
+                  {
+                    "Id": "AP",
+                    "Value": "-2"
+                  },
+                  {
+                    "Id": "D",
+                    "Value": "2"
+                  }
+                ]
+              }
+            }
+          ],
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Warboss"
@@ -17600,7 +17640,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Powers of Da Waaagh!",
-        "Text": "Friendly ORKS PSYKER models' [PSYCHIC] attacks have:\n- +1 S.\n- +1 S for every 5 models in this unit (or embarked within this model).\n\nFriendly ORKS PSYKER models have the Roar of Mork and Visions of Violence psychic abilities"
+        "Text": "Friendly ORKS PSYKER models' [PSYCHIC] attacks have:\n- +1 S.\n- +1 S for every 5 models in this unit (or embarked within this model).\n\nFriendly ORKS PSYKER models have the following psychic abilities:\n\nRoar of Mork (psychic level 1): In your Movement phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n- On a 1, this unit is battle-shocked.\n- Select one enemy unit (excluding MONSTER/VEHICLE units) within 12\" of this unit. That enemy unit makes a battle-shock roll, with -1 from that battle-shock roll for every 10 models in this unit.\n\nVisions of Violence (psychic level 1): At the start of the Fight phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n- On a 1, this unit is battle-shocked.\n- This unit has Fights First."
       },
       "ForceDispositions": [
         "Disruption"
@@ -17622,9 +17662,46 @@
         },
         {
           "Name": "Da Krunch",
-          "Description": "",
+          "Description": "ORKS PSYKER model only. This model has the following weapon:",
           "Cost": 10,
           "Features": "None",
+          "AddedWeapons": [
+            {
+              "WeaponSetId": "RANGED WEAPONS",
+              "Weapon": {
+                "Id": "da krunch",
+                "DisplayName": "Da Krunch",
+                "Keywords": "Blast 3, Hazardous, Lethal Hits, Psychic",
+                "Flags": "NeverFilter",
+                "Stats": [
+                  {
+                    "Id": "Range",
+                    "Value": "24\""
+                  },
+                  {
+                    "Id": "A",
+                    "Value": "3"
+                  },
+                  {
+                    "Id": "BS",
+                    "Value": "4+"
+                  },
+                  {
+                    "Id": "S",
+                    "Value": "5"
+                  },
+                  {
+                    "Id": "AP",
+                    "Value": "-1"
+                  },
+                  {
+                    "Id": "D",
+                    "Value": "1"
+                  }
+                ]
+              }
+            }
+          ],
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Psyker"
@@ -17635,9 +17712,46 @@
         },
         {
           "Name": "'Eadbanger",
-          "Description": "",
+          "Description": "ORKS PSYKER model only. This model has the following weapon:",
           "Cost": 15,
           "Features": "None",
+          "AddedWeapons": [
+            {
+              "WeaponSetId": "RANGED WEAPONS",
+              "Weapon": {
+                "Id": "'eadbanger",
+                "DisplayName": "'Eadbanger",
+                "Keywords": "Hazardous, Precision, Psychic",
+                "Flags": "NeverFilter",
+                "Stats": [
+                  {
+                    "Id": "Range",
+                    "Value": "24\""
+                  },
+                  {
+                    "Id": "A",
+                    "Value": "2"
+                  },
+                  {
+                    "Id": "BS",
+                    "Value": "4+"
+                  },
+                  {
+                    "Id": "S",
+                    "Value": "6"
+                  },
+                  {
+                    "Id": "AP",
+                    "Value": "-3"
+                  },
+                  {
+                    "Id": "D",
+                    "Value": "3"
+                  }
+                ]
+              }
+            }
+          ],
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Psyker"
