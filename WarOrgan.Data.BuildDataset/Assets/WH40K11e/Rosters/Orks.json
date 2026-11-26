@@ -16564,54 +16564,54 @@
           "Category": "War Horde Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <b>attached</b> <k>Orks Infantry</k> unit becomes <b>battle‑shocked</b>.",
-          "Target": "That <k>Orks infantry</k> unit. You can target that unit with this <b>stratagem</b> even though it is <b>battle-shocked</b>.",
-          "Effect": "Roll one D3: \r<ul><li>Your unit suffers a number of <b>mortal wounds</b> equal to the result.</li>\r<li>Your unit is no longer <b>battle‑shocked</b>.</li></ul>"
+          "When": "Any phase, when a friendly attached ORKS INFANTRY unit becomes battle-shocked.",
+          "Target": "That ORKS INFANTRY unit. You can target that unit with this stratagem even though it is battle-shocked.",
+          "Effect": "Roll one D3:\n- Your unit suffers a number of mortal wounds equal to the result.\n- Your unit is no longer battle-shocked."
         },
         {
           "Name": "Hit ’Em Harder",
           "Category": "War Horde Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when a friendly <k>Orks</k> unit is selected to fight.",
-          "Target": "That <k>Orks</k> unit.",
-          "Effect": "Your unit’s melee attacks have <k>[Lethal Hits]</k>."
+          "When": "Fight phase, when a friendly ORKS unit is selected to fight.",
+          "Target": "That ORKS unit.",
+          "Effect": "Your unit’s melee attacks have [LETHAL HITS]."
         },
         {
           "Name": "Fungus-fuel Injection",
           "Category": "War Horde Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Orks mounted/vehicle</k> unit is <b>selected to move</b>.",
-          "Target": "That <k>Orks Mounted/Vehicle</k> unit.",
-          "Effect": "Your unit has +2\" <b>M</b>."
+          "When": "Your Movement phase, when a friendly ORKS MOUNTED/VEHICLE unit is selected to move.",
+          "Target": "That ORKS MOUNTED/VEHICLE unit.",
+          "Effect": "Your unit has +2\" M."
         },
         {
           "Name": "Close-range Dakka",
           "Category": "War Horde Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Orks</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Orks</k> unit.",
-          "Effect": "Your unit’s ranged attacks have:\r<ul><li><k>[Rapid Fire 1]</k>.</li>\r<li><u>Or:</u> If that attack already has <k>[Rapid Fire]</k>, +1 to the value of that <k>[Rapid Fire]</k> (e.g. <k>[Rapid Fire 1]</k> becomes <k>[Rapid Fire 2]</k>).</li></ul>"
+          "When": "Your Shooting phase, when a friendly ORKS unit is selected to shoot.",
+          "Target": "That ORKS unit.",
+          "Effect": "Your unit’s ranged attacks have:\n- [RAPID FIRE 1].\n- Or: If that attack already has [RAPID FIRE], +1 to the value of that [RAPID FIRE] (e.g. [RAPID FIRE 1] becomes [RAPID FIRE 2])."
         },
         {
           "Name": "Orks Is Never Beaten",
           "Category": "War Horde Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when an enemy unit targets a friendly <k>Orks</k> unit (excluding <k>Titanic</k> units).",
-          "Target": "That <k>Orks</k> unit.",
-          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6, with +1 to that roll if your unit is <b>riled up</b>:\r<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+          "When": "Fight phase, when an enemy unit targets a friendly ORKS unit (excluding TITANIC units).",
+          "Target": "That ORKS unit.",
+          "Effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is riled up:\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         },
         {
           "Name": "Mow ’Em Down",
           "Category": "War Horde Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when a friendly <k>Orks</k> <k>Vehicle</k> unit (excluding <k>Walker</k> units) that made a <b>charge move</b> this turn is <b>selected to fight</b>.",
-          "Target": "That <k>Orks Vehicle</k> unit.",
-          "Effect": "Your unit’s melee attacks have:\r<ul><li><k>[Cleave 1]</k>.</li>\r<li><u>Or:</u> If that attack already has <k>[Cleave]</k>, +1 to the value of that <k>[Cleave]</k> (e.g. <k>[Cleave 1]</k> becomes <k>[Cleave 2]</k>).</li></ul>"
+          "When": "Fight phase, when a friendly ORKS VEHICLE unit (excluding WALKER units) that made a charge move this turn is selected to fight.",
+          "Target": "That ORKS VEHICLE unit.",
+          "Effect": "Your unit’s melee attacks have:\n- [CLEAVE 1].\n- Or: If that attack already has [CLEAVE], +1 to the value of that [CLEAVE] (e.g. [CLEAVE 1] becomes [CLEAVE 2])."
         }
       ],
       "Enhancements": [
@@ -16667,7 +16667,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Da Hunt Is On",
-        "Text": "Friendly BEAST SNAGGA units' attacks that targets a MONSTER/VEHICLE unit have +1 AP."
+        "Text": "Friendly BEAST SNAGGA units' attacks that target a MONSTER/VEHICLE unit have +1 AP."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -16679,17 +16679,17 @@
           "CPCost": 1,
           "Phase": "Fight",
           "When": "End of your opponent’s Fight phase.",
-          "Target": "One friendly <b>unengaged</b> <k>Beast Snagga</k> unit within 6\" of a battlefield edge.",
-          "Effect": "Place your unit in <b>strategic reserves</b>."
+          "Target": "One friendly unengaged BEAST SNAGGA unit within 6\" of a battlefield edge.",
+          "Effect": "Place your unit in strategic reserves."
         },
         {
           "Name": "Where D’ya Fink You’re Going?",
           "Category": "Da Big Hunt Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your opponent’s Movement phase, when an enemy unit is selected to make a <b>fall-back move</b>, if that enemy unit is <b>engaged</b> with a friendly <k>Beast Snagga</k> unit.",
-          "Target": "That <k>Beast Snagga</k> unit.",
-          "Effect": "When an enemy unit <b>engaged</b> with your unit is selected to make a <b>fall-back move</b>, that enemy unit must use the <b>desperate escape </b>mode. If that enemy unit is a <k>Monster/Vehicle</k> unit, that enemy unit makes three additional <b>hazard rolls</b> for each <k>Beast Snagga</k> unit it is <b>engaged</b> with, with -1 from those <b>hazard rolls</b> if that enemy unit is <b>battle-shocked</b>."
+          "When": "Your opponent’s Movement phase, when an enemy unit is selected to make a fall-back move, if that enemy unit is engaged with a friendly BEAST SNAGGA unit.",
+          "Target": "That BEAST SNAGGA unit.",
+          "Effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is a MONSTER/VEHICLE unit, that enemy unit makes three additional hazard rolls for each BEAST SNAGGA unit it is engaged with, with -1 from those hazard rolls if that enemy unit is battle-shocked."
         },
         {
           "Name": "Goaded Into Action",
@@ -16697,8 +16697,8 @@
           "CPCost": 1,
           "Phase": "Shooting",
           "When": "Your opponent’s Shooting phase, when an enemy unit has shot.",
-          "Target": "One friendly <b>unengaged</b> <k>Beast Snagga</k> unit that lost a wound as a result of those attacks.",
-          "Effect": "Your unit can make a <b>surge move</b> of up to D6\". If your unit is <b>riled up</b>, it can re-roll that D6."
+          "Target": "One friendly unengaged BEAST SNAGGA unit that lost a wound as a result of those attacks.",
+          "Effect": "Your unit can make a surge move of up to D6\". If your unit is riled up, it can re-roll that D6."
         }
       ],
       "Enhancements": [
@@ -16736,7 +16736,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Try Dat Button!",
-        "Text": "In your Shooting phase or the Fight phase, when a friendly ORKS WALKER unit (excluding TITANIC units) is selected to attack, you can use this ability. If you do, roll either one D6 or two D6 (keep re-rolling duplicate results). This unit's attacks have the relevant rule(s).\n\nIf you rolled two D6, when this unit has attacked, this unit makes one hazard roll."
+        "Text": "In your Shooting phase or the Fight phase, when a friendly ORKS WALKER unit (excluding TITANIC units) is selected to attack, you can use this ability. If you do, roll either one D6 or two D6 (keep re-rolling duplicate results). This unit's attacks have the relevant rule(s):\n- 1-2: +1 A.\n- 3-4: +2 S.\n- 5-6: +1 AP.\n\nIf you rolled two D6, when this unit has attacked, this unit makes one hazard roll."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -16747,9 +16747,9 @@
           "Category": "Dread Mob Stratagem",
           "CPCost": 1,
           "Phase": "Movement or Charge",
-          "When": "Your Movement/Charge phase, when a friendly <k>Orks Walker</k> unit is <b>selected to move</b> or <b>declares a charge</b>.",
-          "Target": "That <k>Orks Walker</k> unit.",
-          "Effect": "Your unit has <k>Mobile</k>."
+          "When": "Your Movement/Charge phase, when a friendly ORKS WALKER unit is selected to move or declares a charge.",
+          "Target": "That ORKS WALKER unit.",
+          "Effect": "Your unit has MOBILE."
         },
         {
           "Name": "Dread Power",
@@ -16757,17 +16757,17 @@
           "CPCost": 1,
           "Phase": "Movement",
           "When": "Your Movement phase.",
-          "Target": "One friendly <k>Orks Walker</k> unit.",
-          "Effect": "Your unit is <b>riled up</b> until the start of your next turn."
+          "Target": "One friendly ORKS WALKER unit.",
+          "Effect": "Your unit is riled up until the start of your next turn."
         },
         {
           "Name": "Crazed Rampage",
           "Category": "Dread Mob Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when an enemy unit targets a friendly <k>Orks Walker</k> unit (excluding <k>Titanic</k> units).",
-          "Target": "That <k>Orks Walker</k> unit.",
-          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6, with +3 to the result if your unit has <k>Deff Dread</k>:\r<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+          "When": "Fight phase, when an enemy unit targets a friendly ORKS WALKER unit (excluding TITANIC units).",
+          "Target": "That ORKS WALKER unit.",
+          "Effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +3 to the result if your unit has DEFF DREAD:\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         }
       ],
       "Enhancements": [
@@ -16778,7 +16778,10 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Big Mek",
+            "Mek"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
@@ -16814,18 +16817,18 @@
           "Category": "Green Tide Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Beast Snagga Boyz/Boyz</k> unit is <b>selected to move</b>.",
-          "Target": "That <k>Beast Snagga Boyz/Boyz</k> unit.",
-          "Effect": "Your unit has +2 to <b>advance rolls</b>."
+          "When": "Your Movement phase, when a friendly BEAST SNAGGA BOYZ/BOYZ unit is selected to move.",
+          "Target": "That BEAST SNAGGA BOYZ/BOYZ unit.",
+          "Effect": "Your unit has +2 to advance rolls."
         },
         {
           "Name": "Unbridled Carnage",
           "Category": "Green Tide Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when a friendly <k>Boyz</k> unit that made a <b>charge move</b> this turn is <b>selected to fight</b>.",
-          "Target": "That <k>Boyz</k> unit.",
-          "Effect": "Your unit’s melee attacks have +1 <b>A</b>."
+          "When": "Fight phase, when a friendly BOYZ unit that made a charge move this turn is selected to fight.",
+          "Target": "That BOYZ unit.",
+          "Effect": "Your unit’s melee attacks have +1 A."
         },
         {
           "Name": "Mob Mentality",
@@ -16833,14 +16836,14 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Start of the Battle-shock step of your Command phase.",
-          "Target": "One friendly <k>Orks Infantry</k> unit of 13+ models.",
-          "Effect": "Select one <b>visible</b> friendly <k>Orks</k> unit within 12\" of your unit. That unit’s <b>battle-shock rolls</b> are automatically successful."
+          "Target": "One friendly ORKS INFANTRY unit of 13+ models.",
+          "Effect": "Select one visible friendly ORKS unit within 12\" of your unit. That unit’s battle-shock rolls are automatically successful."
         }
       ],
       "Enhancements": [
         {
           "Name": "Ferocious Show-off",
-          "Description": "ORKS INFANTRY model only. This model's melee attacks have:\n- +1 A.\n- <ins>Or:</ins> If this unit has 11+ models, +2 A.",
+          "Description": "ORKS INFANTRY model only. This model's melee attacks have:\n- +1 A.\n- Or: If this unit has 11+ models, +2 A.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -16883,27 +16886,34 @@
           "Category": "Bully Boyz Stratagem",
           "CPCost": 1,
           "Phase": "Shooting or Fight",
-          "When": "Your Shooting phase or the Fight phase, when a friendly <k>Meganobz/Nobz</k> unit is <b>selected to attack</b>.",
-          "Target": "That <k>Meganobz/Nobz</k> unit.",
-          "Effect": "Your unit’s attacks can:\r<ul><li>Re-roll <b>hit rolls</b> of 1.</li>\r<li>If your unit is <b>riled up</b>, re-roll <b>hit rolls</b>.</li></ul>"
+          "When": "Your Shooting phase or the Fight phase, when a friendly MEGANOBZ/NOBZ unit is selected to attack.",
+          "Target": "That MEGANOBZ/NOBZ unit.",
+          "Effect": "Your unit’s attacks can:\n- Re-roll hit rolls of 1.\n- If your unit is riled up, re-roll hit rolls."
         },
         {
           "Name": "Hulking Brutes",
           "Category": "Bully Boyz Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>Meganobz/Nobz</k> unit.",
-          "Target": "That <k>Meganobz/Nobz</k> unit.",
-          "Effect": "Ranged attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have -1 to <b>wound rolls</b>.\n\nAdditional effect (+1 CP): \u0007<u>Or:</u> Ranged attacks that target your unit have -1 to <b>wound rolls</b>."
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly MEGANOBZ/NOBZ unit.",
+          "Target": "That MEGANOBZ/NOBZ unit.",
+          "Effect": "Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls.",
+          "Options": [
+            {
+              "Title": "Additional effect (+1CP)",
+              "Text": "Or: Ranged attacks that target your unit have -1 to wound rolls.",
+              "CPCost": 1
+            }
+          ]
         },
         {
           "Name": "Too Arrogant to Die",
           "Category": "Bully Boyz Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when an enemy unit targets a friendly <k>Meganobz/Nobz</k> unit.",
-          "Target": "That <k>Meganobz/Nobz</k> unit.",
-          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6, with +1 to that roll if your unit is <b>riled up</b>:\r<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+          "When": "Fight phase, when an enemy unit targets a friendly MEGANOBZ/NOBZ unit.",
+          "Target": "That MEGANOBZ/NOBZ unit.",
+          "Effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is riled up:\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         }
       ],
       "Enhancements": [
