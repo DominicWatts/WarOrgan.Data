@@ -25,25 +25,37 @@
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["splinter pistol"],
+                    "Replaces": [
+                      "splinter pistol"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blast pistol"]
+                        "Items": [
+                          "blast pistol"
+                        ]
                       },
                       {
-                        "Items": ["soul trap"]
+                        "Items": [
+                          "soul trap"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["huskblade"],
+                    "Replaces": [
+                      "huskblade"
+                    ],
                     "Options": [
                       {
-                        "Items": ["agoniser"]
+                        "Items": [
+                          "agoniser"
+                        ]
                       },
                       {
-                        "Items": ["master-crafted power weapon"]
+                        "Items": [
+                          "master-crafted power weapon"
+                        ]
                       }
                     ]
                   }
@@ -57,13 +69,17 @@
             "Key": "shadowfield",
             "DisplayName": "Shadowfield",
             "Cost": 0,
-            "GrantsAbilities": ["Shadowfield"]
+            "GrantsAbilities": [
+              "Shadowfield"
+            ]
           },
           {
             "Key": "soul trap",
             "DisplayName": "Soul Trap",
             "Cost": 0,
-            "GrantsAbilities": ["Soul Trap"]
+            "GrantsAbilities": [
+              "Soul Trap"
+            ]
           }
         ]
       },
@@ -103,9 +119,20 @@
         "Features": 0
       },
       "Infos": [],
-      "Keywords": ["Character", "Infantry", "Kabal", "Aeldari", "Archon"],
-      "CoreAbilities": ["Invulnerable Save", "Leader"],
-      "FactionKeywords": ["Drukhari"],
+      "Keywords": [
+        "Character",
+        "Infantry",
+        "Kabal",
+        "Aeldari",
+        "Archon"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Archon",
@@ -343,13 +370,18 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["spirit syphon", "spirit-leech tentacles"],
+                "InitialWargear": [
+                  "spirit syphon",
+                  "spirit-leech tentacles"
+                ],
                 "Options": [
                   {
                     "Max": 2,
                     "Options": [
                       {
-                        "Items": ["spirit vortex"]
+                        "Items": [
+                          "spirit vortex"
+                        ]
                       }
                     ]
                   },
@@ -357,7 +389,9 @@
                     "Max": 2,
                     "Options": [
                       {
-                        "Items": ["totemic presence upgrade"]
+                        "Items": [
+                          "totemic presence upgrade"
+                        ]
                       }
                     ]
                   }
@@ -402,7 +436,9 @@
         "Deadly Demise 1",
         "Feel No Pain 5+"
       ],
-      "FactionKeywords": ["Drukhari"],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Cronos",
@@ -611,7 +647,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": ["INCUBI"],
+        "UnitNames": [
+          "INCUBI"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -623,8 +661,13 @@
         "Character",
         "Blades for Hire"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Leader"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Drazhar",
@@ -791,7 +834,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": ["WRACKS"],
+        "UnitNames": [
+          "WRACKS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -802,8 +847,14 @@
         "Character",
         "Infantry"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Leader", "Feel No Pain 5+"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Feel No Pain 5+"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Haemonculus",
@@ -946,26 +997,39 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["splinter rifle", "close combat weapon"],
+                "InitialWargear": [
+                  "splinter rifle",
+                  "close combat weapon"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blast pistol"]
+                        "Items": [
+                          "blast pistol"
+                        ]
                       },
                       {
-                        "Items": ["splinter pistol"]
+                        "Items": [
+                          "splinter pistol"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["close combat weapon"],
+                    "Replaces": [
+                      "close combat weapon"
+                    ],
                     "Options": [
                       {
-                        "Items": ["power weapon"]
+                        "Items": [
+                          "power weapon"
+                        ]
                       }
                     ]
                   },
@@ -973,10 +1037,14 @@
                     "Max": 1,
                     "Options": [
                       {
-                        "Items": ["phantasm grenade launcher"]
+                        "Items": [
+                          "phantasm grenade launcher"
+                        ]
                       },
                       {
-                        "Items": ["kabalite icon"]
+                        "Items": [
+                          "kabalite icon"
+                        ]
                       }
                     ]
                   }
@@ -994,65 +1062,97 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["splinter rifle", "close combat weapon"],
+                "InitialWargear": [
+                  "splinter rifle",
+                  "close combat weapon"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["splinter cannon"]
+                        "Items": [
+                          "splinter cannon"
+                        ]
                       },
                       {
-                        "Items": ["dark lance"]
+                        "Items": [
+                          "dark lance"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["shredder"]
+                        "Items": [
+                          "shredder"
+                        ]
                       },
                       {
-                        "Items": ["blaster"]
+                        "Items": [
+                          "blaster"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["stinger pistol"]
+                        "Items": [
+                          "stinger pistol"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["shardcarbine"]
+                        "Items": [
+                          "shardcarbine"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["pain sculptors"]
+                        "Items": [
+                          "pain sculptors"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["razorflail", "splinter pistol"]
+                        "Items": [
+                          "razorflail",
+                          "splinter pistol"
+                        ]
                       }
                     ]
                   },
@@ -1061,7 +1161,9 @@
                     "Replaces": [],
                     "Options": [
                       {
-                        "Items": ["stimm-needler"]
+                        "Items": [
+                          "stimm-needler"
+                        ]
                       }
                     ]
                   }
@@ -1075,19 +1177,25 @@
             "Key": "kabalite icon",
             "DisplayName": "Kabalite icon",
             "Cost": 0,
-            "GrantsAbilities": ["Kabalite icon"]
+            "GrantsAbilities": [
+              "Kabalite icon"
+            ]
           },
           {
             "Key": "phantasm grenade launcher",
             "DisplayName": "Phantasm Grenade Launcher",
             "Cost": 0,
-            "GrantsAbilities": ["Phantasm Grenade Launcher"]
+            "GrantsAbilities": [
+              "Phantasm Grenade Launcher"
+            ]
           },
           {
             "Key": "stimm-needler",
             "DisplayName": "Stimm-needler",
             "Cost": 0,
-            "GrantsAbilities": ["Stimm-needler"]
+            "GrantsAbilities": [
+              "Stimm-needler"
+            ]
           }
         ]
       },
@@ -1130,8 +1238,13 @@
         "Hand of the Archon",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Scouts 7\""],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Scouts 7\""
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Kabalite Agents",
@@ -1624,19 +1737,26 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["splinter pods", "hellglaive"],
+                "InitialWargear": [
+                  "splinter pods",
+                  "hellglaive"
+                ],
                 "Options": [
                   {
                     "Max": 1,
                     "Options": [
                       {
-                        "Items": ["phantasm grenade launcher"]
+                        "Items": [
+                          "phantasm grenade launcher"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["hellglaive"],
+                    "Replaces": [
+                      "hellglaive"
+                    ],
                     "Options": [
                       {
                         "Items": [
@@ -1646,13 +1766,23 @@
                         ]
                       },
                       {
-                        "Items": ["stunclaw", "splinter pistol", "hellglaive"]
+                        "Items": [
+                          "stunclaw",
+                          "splinter pistol",
+                          "hellglaive"
+                        ]
                       },
                       {
-                        "Items": ["power weapon", "splinter pistol"]
+                        "Items": [
+                          "power weapon",
+                          "splinter pistol"
+                        ]
                       },
                       {
-                        "Items": ["stunclaw", "splinter pistol"]
+                        "Items": [
+                          "stunclaw",
+                          "splinter pistol"
+                        ]
                       }
                     ]
                   }
@@ -1670,7 +1800,10 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["hellglaive", "splinter pods"],
+                "InitialWargear": [
+                  "hellglaive",
+                  "splinter pods"
+                ],
                 "Options": []
               }
             ]
@@ -1681,7 +1814,9 @@
             "Key": "phantasm grenade launcher",
             "DisplayName": "Phantasm Grenade Launcher",
             "Cost": 0,
-            "GrantsAbilities": ["Phantasm Grenade Launcher"]
+            "GrantsAbilities": [
+              "Phantasm Grenade Launcher"
+            ]
           }
         ]
       },
@@ -1712,8 +1847,13 @@
         "Fly",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Deep Strike"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Hellions",
@@ -1990,7 +2130,9 @@
                         ]
                       },
                       {
-                        "Items": ["klaive"]
+                        "Items": [
+                          "klaive"
+                        ]
                       }
                     ]
                   },
@@ -1999,7 +2141,9 @@
                     "PerXModels": 5,
                     "Options": [
                       {
-                        "Items": ["incubi shrine token"]
+                        "Items": [
+                          "incubi shrine token"
+                        ]
                       }
                     ]
                   },
@@ -2008,7 +2152,9 @@
                     "PerXModels": 5,
                     "Options": [
                       {
-                        "Items": ["incubi shrine token"]
+                        "Items": [
+                          "incubi shrine token"
+                        ]
                       }
                     ]
                   }
@@ -2026,7 +2172,9 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["klaive"],
+                "InitialWargear": [
+                  "klaive"
+                ],
                 "Options": []
               }
             ]
@@ -2067,8 +2215,12 @@
         "Blades for Hire",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Incubi",
@@ -2298,26 +2450,39 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["splinter rifle", "close combat weapon"],
+                "InitialWargear": [
+                  "splinter rifle",
+                  "close combat weapon"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blast pistol"]
+                        "Items": [
+                          "blast pistol"
+                        ]
                       },
                       {
-                        "Items": ["splinter pistol"]
+                        "Items": [
+                          "splinter pistol"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["close combat weapon"],
+                    "Replaces": [
+                      "close combat weapon"
+                    ],
                     "Options": [
                       {
-                        "Items": ["power weapon"]
+                        "Items": [
+                          "power weapon"
+                        ]
                       }
                     ]
                   },
@@ -2325,10 +2490,14 @@
                     "Max": 1,
                     "Options": [
                       {
-                        "Items": ["phantasm grenade launcher"]
+                        "Items": [
+                          "phantasm grenade launcher"
+                        ]
                       },
                       {
-                        "Items": ["kabalite icon"]
+                        "Items": [
+                          "kabalite icon"
+                        ]
                       }
                     ]
                   }
@@ -2346,41 +2515,60 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["splinter rifle", "close combat weapon"],
+                "InitialWargear": [
+                  "splinter rifle",
+                  "close combat weapon"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["dark lance"]
+                        "Items": [
+                          "dark lance"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blaster"]
+                        "Items": [
+                          "blaster"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["splinter cannon"]
+                        "Items": [
+                          "splinter cannon"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["shredder"]
+                        "Items": [
+                          "shredder"
+                        ]
                       }
                     ]
                   }
@@ -2394,13 +2582,17 @@
             "Key": "kabalite icon",
             "DisplayName": "Kabalite Icon",
             "Cost": 0,
-            "GrantsAbilities": ["Kabalite Icon"]
+            "GrantsAbilities": [
+              "Kabalite Icon"
+            ]
           },
           {
             "Key": "phantasm grenade launcher",
             "DisplayName": "Phantasm Grenade Launcher",
             "Cost": 0,
-            "GrantsAbilities": ["Phantasm Grenade Launcher"]
+            "GrantsAbilities": [
+              "Phantasm Grenade Launcher"
+            ]
           }
         ]
       },
@@ -2434,8 +2626,12 @@
         "Battleline",
         "Infantry"
       ],
-      "CoreAbilities": ["Invulnerable Save"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Kabalite Warriors",
@@ -2801,7 +2997,10 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["lady's blade", "razor fan"],
+                "InitialWargear": [
+                  "lady's blade",
+                  "razor fan"
+                ],
                 "Options": []
               }
             ]
@@ -2828,7 +3027,11 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": ["HAND OF THE ARCHON", "INCUBI", "KABALITE WARRIORS"],
+        "UnitNames": [
+          "HAND OF THE ARCHON",
+          "INCUBI",
+          "KABALITE WARRIORS"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -2841,8 +3044,14 @@
         "Epic Hero",
         "Lady Malys"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Leader", "Feel No Pain 5+"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader",
+        "Feel No Pain 5+"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Lady Malys",
@@ -2979,7 +3188,9 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["lelith's blades"],
+                "InitialWargear": [
+                  "lelith's blades"
+                ],
                 "Options": []
               }
             ]
@@ -3006,7 +3217,9 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": ["WYCHES"],
+        "UnitNames": [
+          "WYCHES"
+        ],
         "Features": 0
       },
       "Infos": [],
@@ -3019,8 +3232,14 @@
         "Character",
         "Infantry"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Fights First", "Leader"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Fights First",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Lelith Hesperax",
@@ -3125,7 +3344,10 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["baleblast", "glimmersteel blade"],
+                "InitialWargear": [
+                  "baleblast",
+                  "glimmersteel blade"
+                ],
                 "Options": []
               }
             ]
@@ -3140,7 +3362,10 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["baleblast", "glimmersteel blade"],
+                "InitialWargear": [
+                  "baleblast",
+                  "glimmersteel blade"
+                ],
                 "Options": []
               }
             ]
@@ -3176,7 +3401,9 @@
         "Stealth",
         "Deep Strike"
       ],
-      "FactionKeywords": ["Drukhari"],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Mandrake",
@@ -3345,14 +3572,21 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["bladevanes and chainsnares", "dark lance"],
+                "InitialWargear": [
+                  "bladevanes and chainsnares",
+                  "dark lance"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["dark lance"],
+                    "Replaces": [
+                      "dark lance"
+                    ],
                     "Options": [
                       {
-                        "Items": ["disintegrator cannon"]
+                        "Items": [
+                          "disintegrator cannon"
+                        ]
                       }
                     ]
                   }
@@ -3397,7 +3631,9 @@
         "Firing Deck 11",
         "Deep Strike"
       ],
-      "FactionKeywords": ["Drukhari"],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Raider",
@@ -3594,28 +3830,40 @@
                 "Options": [
                   {
                     "Max": 3,
-                    "Replaces": ["dark lance"],
+                    "Replaces": [
+                      "dark lance"
+                    ],
                     "Options": [
                       {
-                        "Items": ["disintegrator cannon"]
+                        "Items": [
+                          "disintegrator cannon"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 3,
-                    "Replaces": ["dark lance"],
+                    "Replaces": [
+                      "dark lance"
+                    ],
                     "Options": [
                       {
-                        "Items": ["disintegrator cannon"]
+                        "Items": [
+                          "disintegrator cannon"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 3,
-                    "Replaces": ["dark lance"],
+                    "Replaces": [
+                      "dark lance"
+                    ],
                     "Options": [
                       {
-                        "Items": ["disintegrator cannon"]
+                        "Items": [
+                          "disintegrator cannon"
+                        ]
                       }
                     ]
                   }
@@ -3659,8 +3907,14 @@
         "Frame",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Deep Strike", "Deadly Demise D3"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike",
+        "Deadly Demise D3"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Ravager",
@@ -3844,7 +4098,10 @@
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["dark lance", "dark lance"],
+                    "Replaces": [
+                      "dark lance",
+                      "dark lance"
+                    ],
                     "Options": [
                       {
                         "Items": [
@@ -3856,10 +4113,14 @@
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["twin splinter rifle"],
+                    "Replaces": [
+                      "twin splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["splinter cannon"]
+                        "Items": [
+                          "splinter cannon"
+                        ]
                       }
                     ]
                   }
@@ -3893,8 +4154,14 @@
         "Fly",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Deadly Demise D3", "Stealth"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Razorwing Jetfighter",
@@ -4235,13 +4502,19 @@
                   {
                     "Max": 1,
                     "PerXModels": 3,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blaster"]
+                        "Items": [
+                          "blaster"
+                        ]
                       },
                       {
-                        "Items": ["heat lance"]
+                        "Items": [
+                          "heat lance"
+                        ]
                       }
                     ]
                   },
@@ -4250,10 +4523,14 @@
                     "PerXModels": 3,
                     "Options": [
                       {
-                        "Items": ["cluster caltrops"]
+                        "Items": [
+                          "cluster caltrops"
+                        ]
                       },
                       {
-                        "Items": ["grav talon"]
+                        "Items": [
+                          "grav talon"
+                        ]
                       }
                     ]
                   }
@@ -4282,23 +4559,33 @@
                     "PerXModels": 3,
                     "Options": [
                       {
-                        "Items": ["cluster caltrops"]
+                        "Items": [
+                          "cluster caltrops"
+                        ]
                       },
                       {
-                        "Items": ["grav talon"]
+                        "Items": [
+                          "grav talon"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
                     "PerXModels": 3,
-                    "Replaces": ["splinter rifle"],
+                    "Replaces": [
+                      "splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blaster"]
+                        "Items": [
+                          "blaster"
+                        ]
                       },
                       {
-                        "Items": ["heat lance"]
+                        "Items": [
+                          "heat lance"
+                        ]
                       }
                     ]
                   }
@@ -4312,13 +4599,17 @@
             "Key": "cluster caltrops",
             "DisplayName": "Cluster Caltrops",
             "Cost": 0,
-            "GrantsAbilities": ["Cluster Caltrops"]
+            "GrantsAbilities": [
+              "Cluster Caltrops"
+            ]
           },
           {
             "Key": "grav talon",
             "DisplayName": "Grav Talon",
             "Cost": 0,
-            "GrantsAbilities": ["Grav Talon"]
+            "GrantsAbilities": [
+              "Grav Talon"
+            ]
           }
         ]
       },
@@ -4353,8 +4644,12 @@
         "Mounted",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Reavers",
@@ -4619,26 +4914,39 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["close combat weapon", "shardcarbine"],
+                "InitialWargear": [
+                  "close combat weapon",
+                  "shardcarbine"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["shardcarbine"],
+                    "Replaces": [
+                      "shardcarbine"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blast pistol"]
+                        "Items": [
+                          "blast pistol"
+                        ]
                       },
                       {
-                        "Items": ["splinter pistol"]
+                        "Items": [
+                          "splinter pistol"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["close combat weapon"],
+                    "Replaces": [
+                      "close combat weapon"
+                    ],
                     "Options": [
                       {
-                        "Items": ["power weapon"]
+                        "Items": [
+                          "power weapon"
+                        ]
                       }
                     ]
                   }
@@ -4656,32 +4964,51 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["close combat weapon", "splinter cannon"],
+                "InitialWargear": [
+                  "close combat weapon",
+                  "splinter cannon"
+                ],
                 "Options": [
                   {
                     "Max": 4,
-                    "Replaces": ["splinter cannon"],
+                    "Replaces": [
+                      "splinter cannon"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blaster"]
+                        "Items": [
+                          "blaster"
+                        ]
                       },
                       {
-                        "Items": ["heat lance"]
+                        "Items": [
+                          "heat lance"
+                        ]
                       },
                       {
-                        "Items": ["shredder"]
+                        "Items": [
+                          "shredder"
+                        ]
                       },
                       {
-                        "Items": ["dark lance"]
+                        "Items": [
+                          "dark lance"
+                        ]
                       },
                       {
-                        "Items": ["haywire blaster"]
+                        "Items": [
+                          "haywire blaster"
+                        ]
                       },
                       {
-                        "Items": ["blast pistol"]
+                        "Items": [
+                          "blast pistol"
+                        ]
                       },
                       {
-                        "Items": ["splinter pistol"]
+                        "Items": [
+                          "splinter pistol"
+                        ]
                       }
                     ]
                   }
@@ -4727,8 +5054,13 @@
         "Scourges with Heavy Weapons",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Deep Strike"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Scourges",
@@ -5169,22 +5501,39 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["close combat weapon", "shardcarbine"],
+                "InitialWargear": [
+                  "close combat weapon",
+                  "shardcarbine"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["shardcarbine"],
+                    "Replaces": [
+                      "shardcarbine"
+                    ],
                     "Options": [
-                      { "Items": ["blast pistol"] },
-                      { "Items": ["splinter pistol"] }
+                      {
+                        "Items": [
+                          "blast pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "splinter pistol"
+                        ]
+                      }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["close combat weapon"],
+                    "Replaces": [
+                      "close combat weapon"
+                    ],
                     "Options": [
                       {
-                        "Items": ["power weapon"]
+                        "Items": [
+                          "power weapon"
+                        ]
                       }
                     ]
                   }
@@ -5202,14 +5551,27 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["shardcarbine", "close combat weapon"],
+                "InitialWargear": [
+                  "shardcarbine",
+                  "close combat weapon"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["shardcarbine"],
+                    "Replaces": [
+                      "shardcarbine"
+                    ],
                     "Options": [
-                      { "Items": ["blaster"] },
-                      { "Items": ["shredder"] }
+                      {
+                        "Items": [
+                          "blaster"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "shredder"
+                        ]
+                      }
                     ]
                   }
                 ]
@@ -5245,8 +5607,13 @@
         "Scourges with Shardcarbines",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Deep Strike"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Scourges",
@@ -5559,7 +5926,9 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["archite glaive and agoniser"],
+                "InitialWargear": [
+                  "archite glaive and agoniser"
+                ],
                 "Options": []
               }
             ]
@@ -5586,13 +5955,26 @@
         }
       ],
       "LeaderInfo": {
-        "UnitNames": ["WYCHES"],
+        "UnitNames": [
+          "WYCHES"
+        ],
         "Features": 0
       },
       "Infos": [],
-      "Keywords": ["Succubus", "Wych Cult", "Aeldari", "Character", "Infantry"],
-      "CoreAbilities": ["Invulnerable Save", "Leader"],
-      "FactionKeywords": ["Drukhari"],
+      "Keywords": [
+        "Succubus",
+        "Wych Cult",
+        "Aeldari",
+        "Character",
+        "Infantry"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Succubus",
@@ -5705,40 +6087,60 @@
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["macro-scalpel"],
+                    "Replaces": [
+                      "macro-scalpel"
+                    ],
                     "Options": [
                       {
-                        "Items": ["talos ichor injector"]
+                        "Items": [
+                          "talos ichor injector"
+                        ]
                       },
                       {
-                        "Items": ["twin liquifier gun"]
+                        "Items": [
+                          "twin liquifier gun"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["macro-scalpel"],
+                    "Replaces": [
+                      "macro-scalpel"
+                    ],
                     "Options": [
                       {
-                        "Items": ["chain-flails"]
+                        "Items": [
+                          "chain-flails"
+                        ]
                       },
                       {
-                        "Items": ["talos gauntlet"]
+                        "Items": [
+                          "talos gauntlet"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["twin splinter cannon"],
+                    "Replaces": [
+                      "twin splinter cannon"
+                    ],
                     "Options": [
                       {
-                        "Items": ["twin haywire blaster"]
+                        "Items": [
+                          "twin haywire blaster"
+                        ]
                       },
                       {
-                        "Items": ["twin heat lance"]
+                        "Items": [
+                          "twin heat lance"
+                        ]
                       },
                       {
-                        "Items": ["stinger pod"]
+                        "Items": [
+                          "stinger pod"
+                        ]
                       }
                     ]
                   },
@@ -5746,7 +6148,9 @@
                     "Max": 2,
                     "Options": [
                       {
-                        "Items": ["totemic presence upgrade"]
+                        "Items": [
+                          "totemic presence upgrade"
+                        ]
                       }
                     ]
                   }
@@ -5799,7 +6203,9 @@
         "Deadly Demise 1",
         "Feel No Pain 5+"
       ],
-      "FactionKeywords": ["Drukhari"],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Talos",
@@ -6196,10 +6602,14 @@
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["twin splinter rifle"],
+                    "Replaces": [
+                      "twin splinter rifle"
+                    ],
                     "Options": [
                       {
-                        "Items": ["splinter cannon"]
+                        "Items": [
+                          "splinter cannon"
+                        ]
                       }
                     ]
                   }
@@ -6245,7 +6655,9 @@
         "Stealth",
         "Deep Strike"
       ],
-      "FactionKeywords": ["Drukhari"],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Venom",
@@ -6435,7 +6847,11 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["bladed wings", "void lance", "void lance"],
+                "InitialWargear": [
+                  "bladed wings",
+                  "void lance",
+                  "void lance"
+                ],
                 "Options": [
                   {
                     "Max": 1,
@@ -6450,10 +6866,16 @@
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["void lance", "void lance"],
+                    "Replaces": [
+                      "void lance",
+                      "void lance"
+                    ],
                     "Options": [
                       {
-                        "Items": ["dark scythe", "dark scythe"]
+                        "Items": [
+                          "dark scythe",
+                          "dark scythe"
+                        ]
                       }
                     ]
                   }
@@ -6491,8 +6913,14 @@
         "Fly",
         "Other Datasheets"
       ],
-      "CoreAbilities": ["Invulnerable Save", "Deadly Demise D3", "Stealth"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D3",
+        "Stealth"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Voidraven",
@@ -6728,36 +7156,59 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["twin torturer's tools"],
+                "InitialWargear": [
+                  "twin torturer's tools"
+                ],
                 "Options": [
                   {
                     "Max": 1,
                     "PerXModels": 5,
-                    "Replaces": ["twin torturer's tools"],
+                    "Replaces": [
+                      "twin torturer's tools"
+                    ],
                     "Options": [
                       {
-                        "Items": ["hexrifle", "torturer's tool"]
+                        "Items": [
+                          "hexrifle",
+                          "torturer's tool"
+                        ]
                       },
                       {
-                        "Items": ["liquifier gun", "torturer's tool"]
+                        "Items": [
+                          "liquifier gun",
+                          "torturer's tool"
+                        ]
                       },
                       {
-                        "Items": ["ossefactor", "torturer's tool"]
+                        "Items": [
+                          "ossefactor",
+                          "torturer's tool"
+                        ]
                       },
                       {
-                        "Items": ["stinger pistol", "torturer's tool"]
+                        "Items": [
+                          "stinger pistol",
+                          "torturer's tool"
+                        ]
                       },
                       {
-                        "Items": ["power weapon", "torturer's tool"]
+                        "Items": [
+                          "power weapon",
+                          "torturer's tool"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["torturer's tool"],
+                    "Replaces": [
+                      "torturer's tool"
+                    ],
                     "Options": [
                       {
-                        "Items": ["power weapon"]
+                        "Items": [
+                          "power weapon"
+                        ]
                       }
                     ]
                   }
@@ -6775,45 +7226,67 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["twin torturer's tools"],
+                "InitialWargear": [
+                  "twin torturer's tools"
+                ],
                 "Options": [
                   {
                     "Max": 1,
                     "PerXModels": 5,
-                    "Replaces": ["twin torturer's tools"],
+                    "Replaces": [
+                      "twin torturer's tools"
+                    ],
                     "Options": [
                       {
-                        "Items": ["hexrifle", "torturer's tool"]
+                        "Items": [
+                          "hexrifle",
+                          "torturer's tool"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
                     "PerXModels": 5,
-                    "Replaces": ["twin torturer's tools"],
+                    "Replaces": [
+                      "twin torturer's tools"
+                    ],
                     "Options": [
                       {
-                        "Items": ["liquifier gun", "torturer's tool"]
+                        "Items": [
+                          "liquifier gun",
+                          "torturer's tool"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
                     "PerXModels": 5,
-                    "Replaces": ["twin torturer's tools"],
+                    "Replaces": [
+                      "twin torturer's tools"
+                    ],
                     "Options": [
                       {
-                        "Items": ["ossefactor", "torturer's tool"]
+                        "Items": [
+                          "ossefactor",
+                          "torturer's tool"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
                     "PerXModels": 5,
-                    "Replaces": ["twin torturer's tools"],
+                    "Replaces": [
+                      "twin torturer's tools"
+                    ],
                     "Options": [
                       {
-                        "Items": ["stinger pistol", "torturer's tool"]
+                        "Items": [
+                          "stinger pistol",
+                          "torturer's tool"
+                        ]
                       }
                     ]
                   }
@@ -6846,8 +7319,12 @@
         "Battleline",
         "Infantry"
       ],
-      "CoreAbilities": ["Invulnerable Save"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Wracks",
@@ -7158,23 +7635,34 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["splinter pistol", "hekatarii blade"],
+                "InitialWargear": [
+                  "splinter pistol",
+                  "hekatarii blade"
+                ],
                 "Options": [
                   {
                     "Max": 1,
-                    "Replaces": ["splinter pistol"],
+                    "Replaces": [
+                      "splinter pistol"
+                    ],
                     "Options": [
                       {
-                        "Items": ["blast pistol"]
+                        "Items": [
+                          "blast pistol"
+                        ]
                       }
                     ]
                   },
                   {
                     "Max": 1,
-                    "Replaces": ["hekatarii blade"],
+                    "Replaces": [
+                      "hekatarii blade"
+                    ],
                     "Options": [
                       {
-                        "Items": ["power weapon"]
+                        "Items": [
+                          "power weapon"
+                        ]
                       }
                     ]
                   }
@@ -7192,14 +7680,22 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": ["splinter pistol", "hekatarii blade"],
+                "InitialWargear": [
+                  "splinter pistol",
+                  "hekatarii blade"
+                ],
                 "Options": [
                   {
                     "Max": 3,
-                    "Replaces": ["splinter pistol", "hekatarii blade"],
+                    "Replaces": [
+                      "splinter pistol",
+                      "hekatarii blade"
+                    ],
                     "Options": [
                       {
-                        "Items": ["gladiatorial weapons"]
+                        "Items": [
+                          "gladiatorial weapons"
+                        ]
                       }
                     ]
                   }
@@ -7237,8 +7733,12 @@
         "Infantry",
         "Grenades"
       ],
-      "CoreAbilities": ["Invulnerable Save"],
-      "FactionKeywords": ["Drukhari"],
+      "CoreAbilities": [
+        "Invulnerable Save"
+      ],
+      "FactionKeywords": [
+        "Drukhari"
+      ],
       "StatLines": [
         {
           "StatName": "Wyches",
@@ -7468,7 +7968,9 @@
         "Title": "Alliance of Agony",
         "Text": "At the start of the battle, you gain 2 Pain tokens for each of the following combinations your army contains (these do not need to be in the same Attached unit):\n- One or more ARCHON models and one or more KABALITE WARRIORS units.\n- One or more SUCCUBUS models and one or more WYCHES units.\n- One or more HAEMONCULUS models and one or more WRACKS units.\n\nDesigner’s Note: These are all cumulative, so if your army contains at least one of all of the combinations listed above, you start the battle with 6 Pain tokens.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
-      "ForceDispositions": ["Priority Assets"],
+      "ForceDispositions": [
+        "Priority Assets"
+      ],
       "Stratagems": [
         {
           "Name": "Insensible to Pain",
@@ -7533,7 +8035,9 @@
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Haemonculus"],
+          "RequiredKeywords": [
+            "Haemonculus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7544,7 +8048,9 @@
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Succubus"],
+          "RequiredKeywords": [
+            "Succubus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7555,7 +8061,9 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Archon"],
+          "RequiredKeywords": [
+            "Archon"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7581,7 +8089,9 @@
         "Title": "Rain of Cruelty",
         "Text": "Each time a DRUKHARI UNIT FROM YOUR ARMY DISEMBARKS FROM A TRANSPORT, until the end of the turn:\nRanged weapons equipped by models in that disembarking units have the [IGNORES COVER] ability.\nMelee weapons equipped by models in that disembarking unit have the [LANCE] ability.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
-      "ForceDispositions": ["Reconnaissance"],
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
       "Stratagems": [
         {
           "Name": "Vicious Blades",
@@ -7693,7 +8203,10 @@
         "Title": "Callous Competition",
         "Text": "At the start of the battle, Drukhari units from your army are winning the wager.\nEach time a Drukhari unit from your army destroys an enemy unit, Drukhari units from your army are winning the wager.\nEach time a Harlequins unit from your army destroys an enemy unit, Harlequin units from your army are winning the wager.\nWhile Drukhari units from your army are winning the wager, Harlequin units from your army are losing the wager, and vice versa.\nEach time a Drukhari or Harlequins model from your army makes an attack, if that model’s unit is winning the wager, re-roll a Hit roll of 1. If that model's unit is losing the wager, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 instead."
       },
-      "ForceDispositions": ["Purge the Foe", "Priority Assets"],
+      "ForceDispositions": [
+        "Purge the Foe",
+        "Priority Assets"
+      ],
       "Stratagems": [
         {
           "Name": "Malicious Frenzy",
@@ -7779,7 +8292,9 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Faction: Harlequins"],
+          "RequiredKeywords": [
+            "Faction: Harlequins"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7790,7 +8305,9 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Faction: Drukhari"],
+          "RequiredKeywords": [
+            "Faction: Drukhari"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7805,7 +8322,9 @@
         "Title": "Stitchflesh Abominations",
         "Text": "Each time an attack targets a HAEMONCULUS COVENS unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
-      "ForceDispositions": ["Take and Hold"],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
       "Stratagems": [
         {
           "Name": "Postmortality",
@@ -7870,7 +8389,9 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Haemonculus"],
+          "RequiredKeywords": [
+            "Haemonculus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7881,7 +8402,9 @@
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Haemonculus"],
+          "RequiredKeywords": [
+            "Haemonculus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7892,7 +8415,9 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Haemonculus"],
+          "RequiredKeywords": [
+            "Haemonculus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7903,7 +8428,9 @@
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Haemonculus"],
+          "RequiredKeywords": [
+            "Haemonculus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7918,7 +8445,9 @@
         "Title": "Murderous Agenda",
         "Text": "At the start of the first battle round, select one of the Contracts from below, then select one unit from your opponent's army that matches the 'Contract' description in the Contract. Until that Contract is completed, that unit is your Contract unit and KABAL AND BLADES FOR HIRE units from your army have the ability stated in that Contract. At the start of your Command phase, if your Contract unit is destroyed, that Contract is completed and you gain 3 Pain tokens.\n\n**Trophy Hunters**\nContract: One CHARACTER unit.\nAbility: Each time a KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS THE CONTRACT UNIT, THAT ATTACK HAS THE [PRECISION] ability.\n\n**Sow Fear and Terror**\nContract: One INFANTRY OR MOUNTED UNIT (EXCLUDING UNITS CONTAINING ONLY CHARACTER MODELS). AT THE START OF YOUR COMMAND PHASE, THIS CONTRACT IS COMPLETED IF ALL NON-CHARACTER models in that unit are destroyed.\nAbility: Each time a KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS AN INFANTRY OR MOUNTED UNIT, THAT ATTACK HAS THE [SUSTAINED HITS 1] ability.\n\n**Show of Strength**\nContract: One MONSTER OR VEHICLE unit.\nAbility: Each time a KABAL OR BLADES FOR HIRE MODEL IN THIS UNIT MAKES AN ATTACK THAT TARGETS A MONSTER OR VEHICLE UNIT, THAT ATTACK HAS THE [LETHAL HITS] ability.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
-      "ForceDispositions": ["Disruption"],
+      "ForceDispositions": [
+        "Disruption"
+      ],
       "Stratagems": [
         {
           "Name": "Double-cross",
@@ -7982,7 +8511,9 @@
           "Cost": 5,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Archon"],
+          "RequiredKeywords": [
+            "Archon"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7993,7 +8524,9 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Archon"],
+          "RequiredKeywords": [
+            "Archon"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8004,7 +8537,9 @@
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Archon"],
+          "RequiredKeywords": [
+            "Archon"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8015,7 +8550,9 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Archon"],
+          "RequiredKeywords": [
+            "Archon"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8030,7 +8567,9 @@
         "Title": "Combat Drugs",
         "Text": "At the start of your Command phase, select which Combat Drugs will be active for your army until the start of your next Command phase. To do so, either select one from the list below (you cannot select the same Combat Drug more than once per battle), or randomly select two by rolling two D6. When doing so randomly, Combat Drugs you have previously selected can become active again, but if you randomly select one that is already active for your army, it has no additional effect.\n\n\n**1. Adrenalight**\nAdd 1 to the Attacks characteristic of melee weapons equipped by WYCH CULT models from your army.\n\n\n**2. Hypex**\nAdd 2\" to the Move characteristic of WYCH CULT models from your army.\n\n\n**3. Serpentin**\nImprove the Weapon Skill characteristic of melee weapons equipped by WYCH CULT models from your army by 1.\n\n\n**4. Painbringer**\nAdd 1 to the Toughness characteristic of WYCH CULT models from your army.\n\n\n**5. Grave Lotus**\nAdd 1 to the Strength characteristic of melee weapons equipped by WYCH CULT models from your army.\n\n\n**6. Splintermind**\nImprove the Leadership characteristic of WYCH CULT MODELS FROM YOUR ARMY BY 1, AND IMPROVE THE BALLISTIC SKILL CHARACTERISTIC OF RANGED WEAPONS EQUIPPED BY WYCH CULT models from your army by 1.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
-      "ForceDispositions": ["Purge the Foe"],
+      "ForceDispositions": [
+        "Purge the Foe"
+      ],
       "Stratagems": [
         {
           "Name": "Berserk Fugue",
@@ -8094,7 +8633,9 @@
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Succubus"],
+          "RequiredKeywords": [
+            "Succubus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8105,7 +8646,9 @@
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Succubus"],
+          "RequiredKeywords": [
+            "Succubus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8116,7 +8659,9 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Succubus"],
+          "RequiredKeywords": [
+            "Succubus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8127,7 +8672,9 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Succubus"],
+          "RequiredKeywords": [
+            "Succubus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8142,7 +8689,9 @@
         "Title": "Exacting Cruelty",
         "Text": "Friendly WYCH CULT units' melee attacks have [LETHAL HITS: non-MONSTER/VEHICLE].\n\nThis detachment has the WYCH CULT tag and cannot be taken with another WYCH CULT detachment.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
-      "ForceDispositions": ["Reconnaissance"],
+      "ForceDispositions": [
+        "Reconnaissance"
+      ],
       "Stratagems": [
         {
           "Name": "Planned Strikes",
@@ -8179,7 +8728,9 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Succubus"],
+          "RequiredKeywords": [
+            "Succubus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8190,7 +8741,9 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Succubus"],
+          "RequiredKeywords": [
+            "Succubus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8205,7 +8758,9 @@
         "Title": "Contracted Harvest",
         "Text": "Friendly BLADES FOR HIRE/KABAL units’ ranged attacks have [SUSTAINED HITS 1: non-MONSTER/VEHICLE].\n\nThis detachment has the KABAL tag and cannot be taken with another KABAL detachment.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
-      "ForceDispositions": ["Disruption"],
+      "ForceDispositions": [
+        "Disruption"
+      ],
       "Stratagems": [
         {
           "Name": "Shadows’ Reach",
@@ -8242,7 +8797,9 @@
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Archon"],
+          "RequiredKeywords": [
+            "Archon"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8253,7 +8810,9 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Archon"],
+          "RequiredKeywords": [
+            "Archon"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8268,7 +8827,9 @@
         "Title": "Darkest Artifice",
         "Text": "Attacks that target friendly CRONOS/TALOS units with a S greater than that unit’s T have ‑1 to wound rolls.\n\n\nThis detachment has the COVENS tag and cannot be taken with another COVENS detachment.\n\n**Corsairs and Travelling Players**\n\nIf your Army Faction is DRUKHARI, you can include HARLEQUINS and ANHRATHE units in your army, even though they do not have the DRUKHARI Faction keyword. The combined points value of HARLEQUINS and/or ANHRATHE units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts\nNo HARLEQUINS or ANHRATHE models included in your army in this way can be your WARLORD, and they cannot be given Enhancements."
       },
-      "ForceDispositions": ["Take and Hold"],
+      "ForceDispositions": [
+        "Take and Hold"
+      ],
       "Stratagems": [
         {
           "Name": "Urgent Metamorphosis",
@@ -8305,7 +8866,9 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": ["Haemonculus"],
+          "RequiredKeywords": [
+            "Haemonculus"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -8317,7 +8880,10 @@
           "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
-          "RequiredOneOfKeywords": ["Cronos", "Talos"],
+          "RequiredOneOfKeywords": [
+            "Cronos",
+            "Talos"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
