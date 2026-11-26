@@ -12800,7 +12800,7 @@
           "Name": "Writ of Compunction",
           "Description": "CELESTIAN SACRESANTS unit only. This unit has +1 OC.",
           "Cost": 20,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Celestian Sacresants"
