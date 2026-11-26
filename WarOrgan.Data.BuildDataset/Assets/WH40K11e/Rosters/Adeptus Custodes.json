@@ -7704,7 +7704,7 @@
           "Name": "Celeritous Sentries",
           "Description": "(Once per phase, per unit)\nYou can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Trusted Sentinel"
@@ -7760,7 +7760,7 @@
           "Name": "Combat Deployment",
           "Description": "When a friendly ADEPTUS CUSTODES unit is selected to make a disembark move from this unit, until the end of the turn:\n- That unit can re-roll charge rolls.\n- Enemy units cannot target that unit with snap shooting attacks.",
           "Cost": 20,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Grav-assault",
@@ -7774,7 +7774,7 @@
           "Name": "Anti-Gravitic Mobility",
           "Description": "When this unit makes a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Grav-assault"
