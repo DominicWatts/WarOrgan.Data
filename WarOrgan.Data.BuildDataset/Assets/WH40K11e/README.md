@@ -2,11 +2,13 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.26.0
+## Coverage in 1.5.28.0
 
 - Adepta Sororitas: faction-wide army rules and all 8 detachments have been audited. Sacred Champions includes the Reverend disposition, and source-supported roster rule text corrections are applied.
 
-- Space Marines: the Captain in Gravis Armour is included. Infernus and Intercessor squads take 5 or 10 models, and the points rise with the larger squad.
+- Space Marines: the Captain in Gravis Armour is included. Intercessor, Assault Intercessor and Heavy Intercessor squads take 5 or 10 models, and the points rise with the larger squad. Space Marine squad Sergeants are identified separately from regular models.
+
+- Space Marines: 1.5.28 adds the Drop Pod, eight missing Legends datasheets and a separate 110-point Captain on Bike while retaining the existing 95-point Legends entry. Squad limits are corrected for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
 
 - Rule text no longer shows stray double-asterisk bold markers; whole-line headings are kept.
 
@@ -50,7 +52,7 @@ These 31 factions are drafts converted automatically from the November 2026 BSDa
 - Versions 1.5.14 and 1.5.15 added 725 stratagems and 12 enhancements. Sanctified Orators, Brute Bosses and Wurrband still have empty stratagem lists. See FACTIONS.md for coverage. Some enhancement, detachment and leader effects are represented as rule text.
 - Space Marine chapters are separate factions. Each can also take the Space Marines datasheets and has the generic Space Marine detachments alongside its own.
 - Where BSData's wargear could not be converted exactly, weapons are offered as swaps for a starting weapon of the same type, so some units allow loadouts their datasheet does not. Build units to the datasheet.
-- BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Captain in Gravis Armour, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.
+- BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.
 
 - Adepta Sororitas: 33 datasheets, 5 Legends, 8 detachments, 24 enhancements.
 - Adeptus Custodes: 29 datasheets, 7 Legends, 13 detachments, 29 enhancements.
@@ -58,7 +60,7 @@ These 31 factions are drafts converted automatically from the November 2026 BSDa
 - Agents of the Imperium: 29 datasheets, 11 Legends, 5 detachments, 16 enhancements.
 - Grey Knights: 26 datasheets, 5 Legends, 9 detachments, 30 enhancements.
 - Imperial Knights: 22 datasheets, 8 detachments, 26 enhancements.
-- Space Marines: 69 datasheets, 64 Legends, 16 detachments, 32 enhancements.
+- Space Marines: 72 datasheets, 72 Legends, 16 detachments, 32 enhancements.
 - Black Templars: 16 datasheets, 18 detachments, 36 enhancements.
 - Blood Angels: 14 datasheets, 8 Legends, 19 detachments, 40 enhancements.
 - Dark Angels: 16 datasheets, 2 Legends, 19 detachments, 40 enhancements.

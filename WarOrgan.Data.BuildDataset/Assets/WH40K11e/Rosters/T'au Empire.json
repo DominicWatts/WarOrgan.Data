@@ -5055,6 +5055,10 @@
           "Text": "This model has a 5+ invulnerable save."
         },
         {
+          "Title": "For the Greater Good",
+          "Text": "If your Army Faction is T'AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding FORTIFICATION and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability."
+        },
+        {
           "Title": "Coordinated Leadership",
           "Text": "In your Command phase, roll one D6: on a 4+, you gain 1CP."
         },
@@ -10061,6 +10065,7 @@
         "Fly",
         "Razorshark Strike Fighter",
         "Non-Kroot",
+        "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
@@ -11220,6 +11225,7 @@
         "Battlesuit",
         "Grenades",
         "Markerlight",
+        "Stealth",
         "Non-Kroot",
         "Other Datasheets"
       ],
@@ -12409,6 +12415,7 @@
         "Fly",
         "Sun Shark Bomber",
         "Non-Kroot",
+        "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
@@ -14007,6 +14014,7 @@
         "Fly",
         "Tidewall Shieldline",
         "Non-Kroot",
+        "Frame",
         "Other Datasheets"
       ],
       "CoreAbilities": [
@@ -15027,8 +15035,8 @@
           "Phase": "Charge",
           "When": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
           "Target": "One T’AU EMPIRE INFANTRY unit from your army that was selected as one of the targets of that charge, and one friendly TRANSPORT.",
-          "Effect": "Your unit can embark within that TRANSPORT. If it does, your opponent can select new targets for that charge.",
-          "Restrictions": "Every model in your T’AU EMPIRE INFANTRY unit must be within 3\" of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit."
+          "Effect": "Your unit embarks within that TRANSPORT.",
+          "Restrictions": "Every model in your INFANTRY unit must be within 3\" of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit."
         },
         {
           "Name": "PHOTON GRENADES",
@@ -15037,7 +15045,8 @@
           "Phase": "Charge",
           "When": "Your opponent's charge phase, just after an enemy unit has selected its charge target.",
           "Target": "One T’AU EMPIRE GRENADES unit from your army that was selected as one of the targets of that charge.",
-          "Effect": "That enemy unit must immediately take a Battle-shock test, and until the end of the phase, subtract 2 from Charge rolls made for that enemy unit. RESTRICTION: You cannot target a unit that is within Engagement Range of one or more enemy units."
+          "Effect": "That enemy unit must immediately take a Battle-shock test, and until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
+          "Restrictions": "You cannot target a unit that is within Engagement Range of one or more enemy units."
         },
         {
           "Name": "WALL OF MIRRORS",
@@ -15533,7 +15542,7 @@
       "Name": "Experimental Prototype Cadre",
       "Cost": 1,
       "Rule": {
-        "Title": "Superior Craftmanship",
+        "Title": "Superior Craftsmanship",
         "Text": "Friendly BATTLESUIT CHARACTER units’ ranged attacks have +6\" R.\n\nThis detachment has the BATTLESUIT tag and cannot be taken with another BATTLESUIT detachment."
       },
       "Tags": [
@@ -15669,6 +15678,10 @@
     }
   ],
   "ArmyRules": [
+    {
+      "Title": "For the Greater Good",
+      "Text": "If your Army Faction is T'AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\n\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding FORTIFICATION and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\n\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\n\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability."
+    },
     {
       "Title": "Void Combat Discipline",
       "Text": "Units from your army with the For the Greater Good ability lose that ability and T'AU EMPIRE units from your army gain this one.\n\nEach time a model in this unit makes a ranged attack, it can ignore other models in this unit for the purposes of determining visibility. In addition, this unit is eligible to perform the Set Overwatch Tactical Manoeuvre in a turn in which it Advanced or Fell Back."

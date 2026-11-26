@@ -536,8 +536,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 10,
-              "Max": 20
+              "Min": 9,
+              "Max": 19
             },
             "ModelName": "Blood Claw",
             "StatlineRef": "Blood Claws",
@@ -554,8 +554,8 @@
           },
           {
             "Limit": {
-              "Min": 10,
-              "Max": 20
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Blood Claw Pack Leader",
             "StatlineRef": "Blood Claws",
@@ -848,11 +848,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 290
         },
         {
-          "ModelCount": 40,
+          "ModelCount": 20,
           "Cost": 290
         }
       ]
@@ -1022,8 +1022,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 10,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Grey Hunter Pack Leader",
             "StatlineRef": "Grey Hunters",
@@ -1084,8 +1084,8 @@
           },
           {
             "Limit": {
-              "Min": 10,
-              "Max": 10
+              "Min": 9,
+              "Max": 9
             },
             "ModelName": "Grey Hunter",
             "StatlineRef": "Grey Hunters",
@@ -1408,7 +1408,7 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 180
         }
       ]
@@ -5845,7 +5845,7 @@
         },
         {
           "Name": "Laurels of Triumph",
-          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1S and AP\n▪ Or: if the assault doctrine is active for this unit, +2S and AP",
+          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1 S and AP\n▪ Or: if the assault doctrine is active for this unit, +2 S and AP",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -5869,11 +5869,13 @@
         },
         {
           "Name": "Standard of the Emperor Ascendant",
-          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
+          "Description": "Ancient model only. This model has:\n▪ +1 OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1 A until the end of the phase.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Ancient"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -5966,7 +5968,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Lightning-Fast Strike",
-        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
+        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\" M"
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -6016,7 +6018,7 @@
         },
         {
           "Name": "Auspex Triangulation Shrines (Upgrade)",
-          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy is spotted.\n▪ While a unit is spotted, that unit has +3\" detection range",
+          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\n▪ While a unit is spotted, that unit has +3\" detection range",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6333,9 +6335,46 @@
       "Enhancements": [
         {
           "Name": "Imperium's Sword",
-          "Description": "",
+          "Description": "ADEPTUS ASTARTES model only. This model has the following weapon:",
           "Cost": 20,
           "Features": "None",
+          "AddedWeapons": [
+            {
+              "WeaponSetId": "MELEE WEAPONS",
+              "Weapon": {
+                "Id": "imperium's sword",
+                "DisplayName": "Imperium's Sword",
+                "Keywords": "",
+                "Flags": "NeverFilter",
+                "Stats": [
+                  {
+                    "Id": "Range",
+                    "Value": "Melee"
+                  },
+                  {
+                    "Id": "A",
+                    "Value": "6"
+                  },
+                  {
+                    "Id": "WS",
+                    "Value": "2+"
+                  },
+                  {
+                    "Id": "S",
+                    "Value": "7"
+                  },
+                  {
+                    "Id": "AP",
+                    "Value": "-3"
+                  },
+                  {
+                    "Id": "D",
+                    "Value": "3"
+                  }
+                ]
+              }
+            }
+          ],
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Character"
@@ -6365,7 +6404,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Tactical Mastery",
-        "Text": "You can select the Tactical Doctrine one additional time."
+        "Text": "You can select the tactical doctrine one additional time per battle."
       },
       "Tags": [
         "DOCTRINES"
@@ -6405,7 +6444,7 @@
       "Enhancements": [
         {
           "Name": "Laurels of Vigilance",
-          "Description": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP",
+          "Description": "Adeptus Astartes model only. (Once per battle round, per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1 CP",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6485,8 +6524,8 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Master-Forged Firearms",
-          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
+          "Name": "Master-forged Firearms",
+          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1 A, S, AP and D.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6689,8 +6728,8 @@
       ],
       "Enhancements": [
         {
-          "Name": "Cyber Familiar",
-          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
+          "Name": "Cyber-familiar",
+          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes INFANTRY units. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6774,9 +6813,9 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Venator Omni-Auspex",
-          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
-          "Cost": 0,
+          "Name": "Venator Omni-auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden unit can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
@@ -6846,9 +6885,9 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Venator Omni-Auspex",
-          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
-          "Cost": 0,
+          "Name": "Venator Omni-auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden unit can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1-2",
+          "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
@@ -7128,7 +7167,7 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Damocles-Class Uplink",
+          "Name": "Damocles-class Uplink",
           "Description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that Transport unit and select one combat doctrine. That combat doctrine is active for that Infantry unit.",
           "Cost": 15,
           "Features": "None",
@@ -7191,7 +7230,19 @@
           "Effect": "Place your unit in strategic reserves."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Beacon Angelis",
+          "Description": "ADEPTUS ASTARTES model only. If this unit is a Kill Team unit, this unit has:\n\n▪ Deep Strike.\n▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],

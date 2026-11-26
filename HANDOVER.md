@@ -26,7 +26,7 @@ To work on an issue:
 
 Faction work is split into standalone, independently claimable issues rather than parent trackers. Every faction task has `task`, one `faction:<slug>` label and at least one scope label. When opening follow-up work, apply all three kinds of label. Keep the issue small enough for one session; detachment audits should normally cover no more than five detachments. Do not widen an issue when the audit finds unrelated work.
 
-`FACTIONS.md` is the faction-level summary. Mark a category Complete only when all scoped work supports that status; completing one chunk does not make the whole category Complete.
+`FACTIONS.md` is the central faction-status ledger. Maintain it on `dataset/develop` and carry the published copy on `dataset/wh40k11e` through the release flow. Faction branches must not add or edit it; remove any remaining copy from a faction branch.
 
 The Prepare commit, the `develop-build` upload and releases (steps 5 to 8) are run by one session only, when the owner asks for a test version. That session bundles everything already merged and adds a `needs-testing` issue for the new checks.
 
@@ -45,7 +45,7 @@ If you find new work outside your issue, open a new `task` issue for it rather t
 1. Start with `git fetch origin`. Shared branches are long-lived and the matching `origin/...` ref is authoritative. For faction work, check out the existing `faction/<slug>` tracking branch; if it exists on origin, never replace it with a new branch from `dataset/develop`.
 2. Do not merge `dataset/develop` (or `origin/dataset/develop`) back into faction branches. Work from the existing faction branch as-is; if a task appears to require changes that exist only on develop, ask the owner before changing the branch flow. Never fast-forward or rebase a shared branch, use `pull --rebase`, reset, recreate, force-move or force-push it.
 3. Make the change on that branch and commit there with a one-line message and no attribution lines. Build: `dotnet run --project WarOrgan.Data.BuildDataset -c Release` must end with `0 errors`; `git diff --check` must be clean. Push the faction branch before merging it.
-4. Switch to `dataset/develop`, confirm it matches `origin/dataset/develop`, and merge the work branch with `--no-ff`. Leave the faction branch pointing at its own last commit; never move it to the resulting develop merge commit. Push.
+4. Switch to `dataset/develop`, confirm it matches `origin/dataset/develop`, and merge the work branch with `--no-ff`. If the faction branch's removal of `FACTIONS.md` conflicts or deletes the central copy, restore the pre-merge develop version before completing the merge: `git restore --source=ORIG_HEAD --staged --worktree -- FACTIONS.md`. Leave the faction branch pointing at its own last commit; never move it to the resulting develop merge commit. Push.
 5. After all work branches for a test version are merged, make one "Prepare x.y.z.0" commit on `dataset/develop` (version, README coverage heading, CHANGELOG line with a blank line between entries, and FACTIONS.md). Push.
 6. Upload the test build and check it serves the same bytes:
    `gh release upload develop-build WarOrgan.Data.BuildDataset/bin/Release/net10.0/Output/DominicWatts-WH40K11e.zip --clobber --repo DominicWatts/WarOrgan.Data`, then update the pre-release notes with the version and commit.

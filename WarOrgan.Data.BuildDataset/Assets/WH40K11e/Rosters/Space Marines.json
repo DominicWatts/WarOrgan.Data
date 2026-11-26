@@ -1260,8 +1260,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Intercessor Sergeant",
             "StatlineRef": "Assault Intercessor Squad",
@@ -1331,8 +1331,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Assault Intercessors",
             "StatlineRef": "Assault Intercessor Squad",
@@ -1681,12 +1681,12 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
-          "Cost": 85
+          "ModelCount": 5,
+          "Cost": 75
         },
         {
-          "ModelCount": 20,
-          "Cost": 85
+          "ModelCount": 10,
+          "Cost": 150
         }
       ]
     },
@@ -1698,8 +1698,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Intercessor Sergeant with Jump Pack",
             "StatlineRef": "Assault Intercessors with Jump Packs",
@@ -1764,8 +1764,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Assault Intercessors with Jump Pack",
             "StatlineRef": "Assault Intercessors with Jump Packs",
@@ -2102,32 +2102,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 95
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 95
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 95
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 95
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 95
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 105
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 105
         }
       ]
@@ -3059,8 +3059,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Bladeguard Veterans",
             "StatlineRef": "Bladeguard Veteran Squad",
@@ -3077,8 +3077,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Bladeguard Veteran Sergeant",
             "StatlineRef": "Bladeguard Veteran Squad",
@@ -3374,32 +3374,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 90
         },
         {
           "UnitCount": 1,
-          "ModelCount": 12,
-          "Cost": 90
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 6,
           "Cost": 90
         },
         {
           "UnitCount": 2,
-          "ModelCount": 12,
+          "ModelCount": 3,
+          "Cost": 90
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 6,
           "Cost": 90
         },
         {
           "UnitCount": 3,
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 110
         },
         {
           "UnitCount": 3,
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 110
         }
       ]
@@ -5138,6 +5138,350 @@
       ]
     },
     {
+      "Id": "CAPTAIN ON BIKE",
+      "DisplayName": "Captain on Bike",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Captain on Bike",
+            "StatlineRef": "Captain on Bike",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy bolt pistol",
+                  "master-crafted power weapon",
+                  "twin bolt rifle"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "plasma pistol - supercharge",
+                          "plasma pistol - standard"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "master-crafted power weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "thunder hammer"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 4+ invulnerable save."
+        },
+        {
+          "Title": "Into the Fray",
+          "Text": "If this unit made a Charge move this turn, this unit's melee attacks have [Cleave 1]"
+        },
+        {
+          "Title": "Strategic Acumen",
+          "Text": "In your Command phase, you can use this ability. If you do, select one combat doctrine to be active for this unit until the start of your next Command phase."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "OUTRIDER SQUAD"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Character",
+        "Captain",
+        "Imperium",
+        "Mounted",
+        "Explosives"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Captain on Bike",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "6"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "4+"
+            },
+            {
+              "Id": "W",
+              "Value": "6"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "2"
+            },
+            {
+              "Id": "Base",
+              "Value": "-"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy bolt pistol",
+              "DisplayName": "Heavy Bolt Pistol",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - standard",
+              "DisplayName": "Plasma pistol - standard",
+              "Keywords": "Close-quarters",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol - supercharge",
+              "DisplayName": "Plasma pistol - supercharge",
+              "Keywords": "Close-quarters, Hazardous",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin bolt rifle",
+              "DisplayName": "Twin bolt rifle",
+              "Keywords": "Assault, Rapid Fire 2, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "master-crafted power weapon",
+              "DisplayName": "Master-crafted power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "6"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "thunder hammer",
+              "DisplayName": "Thunder Hammer",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 110
+        }
+      ]
+    },
+    {
       "Id": "CAPTAIN WITH JUMP PACK",
       "DisplayName": "Captain with Jump Pack",
       "Flags": 0,
@@ -6810,8 +7154,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 5
+              "Min": 4,
+              "Max": 4
             },
             "ModelName": "Desolation Marine",
             "StatlineRef": "Desolation Squad",
@@ -6844,8 +7188,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 5
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Desolation Sergeant",
             "StatlineRef": "Desolation Squad",
@@ -7168,18 +7512,8 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 140
-        },
-        {
-          "UnitCount": 2,
-          "ModelCount": 10,
-          "Cost": 140
-        },
-        {
-          "UnitCount": 3,
-          "ModelCount": 10,
-          "Cost": 150
         }
       ]
     },
@@ -8047,6 +8381,121 @@
       ]
     },
     {
+      "Id": "DROP POD",
+      "DisplayName": "Drop Pod",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Drop Pod",
+            "StatlineRef": "Drop Pod",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Drop Pod Assault",
+          "Text": "▪ This unit must start the battle in strategic reserves.\n▪ In your first Movement phase, this unit can make an ingress move.\n▪ When this unit is set up, all units embarked within this unit must make a disembark/assault disembark move (pg 157), and those units must be set up more than 8\" away from all enemy units."
+        },
+        {
+          "Title": "Transport",
+          "Text": "This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport GRAVIS/JUMP PACK/TERMINATOR models."
+        },
+        {
+          "Title": "Deployment Complete",
+          "Text": "When this unit is set up on the battlefield and all units within it have disembarked, units cannot embark within this TRANSPORT"
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Imperium",
+        "Drop Pod",
+        "Transport",
+        "Dedicated Transport",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Drop Pod",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "-"
+            },
+            {
+              "Id": "T",
+              "Value": "7"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "8"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "-"
+            },
+            {
+              "Id": "Base",
+              "Value": "Hull"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 60
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 60
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 1,
+          "Cost": 60
+        },
+        {
+          "UnitCount": 4,
+          "ModelCount": 1,
+          "Cost": 70
+        }
+      ]
+    },
+    {
       "Id": "ELIMINATOR SQUAD",
       "DisplayName": "Eliminator Squad",
       "Flags": 0,
@@ -8394,8 +8843,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Eradicator",
             "StatlineRef": "Eradicator Squad with Heavy Bolters",
@@ -8413,8 +8862,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Eradicator Sergeant",
             "StatlineRef": "Eradicator Squad with Heavy Bolters",
@@ -8601,32 +9050,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 100
         },
         {
           "UnitCount": 1,
-          "ModelCount": 12,
-          "Cost": 100
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 6,
           "Cost": 100
         },
         {
           "UnitCount": 2,
-          "ModelCount": 12,
+          "ModelCount": 3,
+          "Cost": 100
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 6,
           "Cost": 100
         },
         {
           "UnitCount": 3,
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 130
         },
         {
           "UnitCount": 3,
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 130
         }
       ]
@@ -8639,8 +9088,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Eradicator Sergeant",
             "StatlineRef": "Eradicator Squad with Melta Rifles",
@@ -8670,8 +9119,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Eradicator",
             "StatlineRef": "Eradicator Squad with Melta Rifles",
@@ -8690,8 +9139,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Eradicator with Multi-melta",
             "StatlineRef": "Eradicator Squad with Melta Rifles",
@@ -8981,32 +9430,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 9,
+          "ModelCount": 3,
           "Cost": 100
         },
         {
           "UnitCount": 1,
-          "ModelCount": 18,
+          "ModelCount": 6,
           "Cost": 100
         },
         {
           "UnitCount": 2,
-          "ModelCount": 9,
+          "ModelCount": 3,
           "Cost": 100
         },
         {
           "UnitCount": 2,
-          "ModelCount": 18,
+          "ModelCount": 6,
           "Cost": 100
         },
         {
           "UnitCount": 3,
-          "ModelCount": 9,
+          "ModelCount": 3,
           "Cost": 120
         },
         {
           "UnitCount": 3,
-          "ModelCount": 18,
+          "ModelCount": 6,
           "Cost": 120
         }
       ]
@@ -9927,8 +10376,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Heavy Intercessors",
             "StatlineRef": "Heavy Intercessor Squad",
@@ -9946,8 +10395,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Heavy Intercessor Sergeant",
             "StatlineRef": "Heavy Intercessor Squad",
@@ -9976,8 +10425,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Heavy Intercessor",
             "StatlineRef": "Heavy Intercessor Squad",
@@ -10201,11 +10650,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 15,
+          "ModelCount": 5,
           "Cost": 115
         },
         {
-          "ModelCount": 30,
+          "ModelCount": 10,
           "Cost": 115
         }
       ]
@@ -10218,8 +10667,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Hellblaster Sergeant",
             "StatlineRef": "Hellblaster Squad",
@@ -10264,8 +10713,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Hellblaster",
             "StatlineRef": "Hellblaster Squad",
@@ -10555,32 +11004,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 115
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 115
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 115
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 115
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 115
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 130
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 130
         }
       ]
@@ -11912,8 +12361,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Infiltrator",
             "StatlineRef": "Infiltrator Squad",
@@ -11931,8 +12380,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Infiltrator Sergeant",
             "StatlineRef": "Infiltrator Squad",
@@ -12142,11 +12591,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 85
         },
         {
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 85
         }
       ]
@@ -16898,8 +17347,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 2,
+              "Max": 5
             },
             "ModelName": "Outrider",
             "StatlineRef": "Outrider Squad",
@@ -16932,8 +17381,8 @@
           },
           {
             "Limit": {
-              "Min": 3,
-              "Max": 6
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Outrider Sergeant",
             "StatlineRef": "Outrider Squad",
@@ -17295,11 +17744,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 6,
+          "ModelCount": 3,
           "Cost": 80
         },
         {
-          "ModelCount": 12,
+          "ModelCount": 6,
           "Cost": 80
         }
       ]
@@ -19004,8 +19453,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Scouts",
             "StatlineRef": "Scout Squad",
@@ -19037,8 +19486,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Scout Sergeant",
             "StatlineRef": "Scout Squad",
@@ -19093,8 +19542,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Scout",
             "StatlineRef": "Scout Squad",
@@ -19505,11 +19954,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 15,
+          "ModelCount": 5,
           "Cost": 65
         },
         {
-          "ModelCount": 30,
+          "ModelCount": 10,
           "Cost": 65
         }
       ]
@@ -19522,8 +19971,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Sternguard Veteran",
             "StatlineRef": "Sternguard Veteran Squad",
@@ -19564,8 +20013,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Sternguard Veteran Sergeant",
             "StatlineRef": "Sternguard Veteran Squad",
@@ -20011,32 +20460,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 105
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 105
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 105
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 105
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 105
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 120
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 120
         }
       ]
@@ -21251,8 +21700,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Assault Terminator",
             "StatlineRef": "Assault Terminator w/ Storm Shield",
@@ -21284,8 +21733,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Assault Terminator Sergeant",
             "StatlineRef": "Assault Terminator Sergeant",
@@ -21528,32 +21977,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 170
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 170
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 170
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 170
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 170
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 210
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 210
         }
       ]
@@ -21566,8 +22015,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Terminator Sergeant",
             "StatlineRef": "Terminator Squad",
@@ -21614,8 +22063,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Terminator",
             "StatlineRef": "Terminator Squad",
@@ -22049,32 +22498,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 190
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
-          "Cost": 190
-        },
-        {
-          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 190
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
+          "Cost": 190
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 10,
           "Cost": 190
         },
         {
           "UnitCount": 3,
-          "ModelCount": 10,
+          "ModelCount": 5,
           "Cost": 230
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 230
         }
       ]
@@ -22448,8 +22897,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Vanguard Veteran with Jump Packs",
             "StatlineRef": "Vanguard Veteran Squad with Jump Packs",
@@ -22466,8 +22915,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Vanguard Veteran Sergeant with Jump Pack",
             "StatlineRef": "Vanguard Veteran Squad with Jump Packs",
@@ -22532,8 +22981,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Vanguard Veteran with Jump Pack",
             "StatlineRef": "Vanguard Veteran Squad with Jump Packs",
@@ -22551,8 +23000,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 0,
+              "Max": 0
             },
             "ModelName": "Vanguard Veteran wtih Jump Packs",
             "StatlineRef": "Vanguard Veteran Squad with Jump Packs",
@@ -22887,32 +23336,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 20,
+          "ModelCount": 5,
           "Cost": 110
         },
         {
           "UnitCount": 1,
-          "ModelCount": 40,
+          "ModelCount": 10,
           "Cost": 110
         },
         {
           "UnitCount": 2,
-          "ModelCount": 20,
+          "ModelCount": 5,
           "Cost": 110
         },
         {
           "UnitCount": 2,
-          "ModelCount": 40,
+          "ModelCount": 10,
           "Cost": 110
         },
         {
           "UnitCount": 3,
-          "ModelCount": 20,
+          "ModelCount": 5,
           "Cost": 130
         },
         {
           "UnitCount": 3,
-          "ModelCount": 40,
+          "ModelCount": 10,
           "Cost": 130
         }
       ]
@@ -23000,7 +23449,7 @@
         },
         {
           "Name": "Laurels of Triumph",
-          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1S and AP\n▪ Or: if the assault doctrine is active for this unit, +2S and AP",
+          "Description": "Adeptus Astartes model only. This model's melee attacks have:\n▪ +1 S and AP\n▪ Or: if the assault doctrine is active for this unit, +2 S and AP",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -23024,11 +23473,13 @@
         },
         {
           "Name": "Standard of the Emperor Ascendant",
-          "Description": "Ancient Model only. This model has:\n▪ +1OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army). When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1A until the end of the phase.",
+          "Description": "Ancient model only. This model has:\n▪ +1 OC and Ld\n▪ Feel No Pain 5+\n▪ The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit's melee attacks have +1 A until the end of the phase.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Ancient"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -23121,7 +23572,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Lightning-Fast Strike",
-        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\"M"
+        "Text": "Friendly Adeptus Astartes Mounted/Speeder units have +2\" M"
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -23171,7 +23622,7 @@
         },
         {
           "Name": "Auspex Triangulation Shrines (Upgrade)",
-          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy is spotted.\n▪ While a unit is spotted, that unit has +3\" detection range",
+          "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\n▪ While a unit is spotted, that unit has +3\" detection range",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -23230,9 +23681,46 @@
       "Enhancements": [
         {
           "Name": "Imperium's Sword",
-          "Description": "",
+          "Description": "ADEPTUS ASTARTES model only. This model has the following weapon:",
           "Cost": 20,
           "Features": "None",
+          "AddedWeapons": [
+            {
+              "WeaponSetId": "MELEE WEAPONS",
+              "Weapon": {
+                "Id": "imperium's sword",
+                "DisplayName": "Imperium's Sword",
+                "Keywords": "",
+                "Flags": "NeverFilter",
+                "Stats": [
+                  {
+                    "Id": "Range",
+                    "Value": "Melee"
+                  },
+                  {
+                    "Id": "A",
+                    "Value": "6"
+                  },
+                  {
+                    "Id": "WS",
+                    "Value": "2+"
+                  },
+                  {
+                    "Id": "S",
+                    "Value": "7"
+                  },
+                  {
+                    "Id": "AP",
+                    "Value": "-3"
+                  },
+                  {
+                    "Id": "D",
+                    "Value": "3"
+                  }
+                ]
+              }
+            }
+          ],
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Character"
@@ -23262,7 +23750,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Tactical Mastery",
-        "Text": "You can select the Tactical Doctrine one additional time."
+        "Text": "You can select the tactical doctrine one additional time per battle."
       },
       "Tags": [
         "DOCTRINES"
@@ -23302,7 +23790,7 @@
       "Enhancements": [
         {
           "Name": "Laurels of Vigilance",
-          "Description": "Adeptus Astartes model only. (Once per battle round per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1CP",
+          "Description": "Adeptus Astartes model only. (Once per battle round, per army) When you use the Fire Overwatch/Heroic Intervention stratagem, if you target a friendly Adeptus Astartes Battleline unit within 12\" of this model with that stratagem, that use is -1 CP",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -23382,8 +23870,8 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Master-Forged Firearms",
-          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
+          "Name": "Master-forged Firearms",
+          "Description": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1 A, S, AP and D.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -23586,8 +24074,8 @@
       ],
       "Enhancements": [
         {
-          "Name": "Cyber Familiar",
-          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes units. When doing so, you can set those units up in strategic reserves, regardless of how many units are already in strategic reserves.",
+          "Name": "Cyber-familiar",
+          "Description": "Tacticus model only. When both players have deployed their armies, you can redeploy up to three friendly Adeptus Astartes INFANTRY units. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -23671,9 +24159,9 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Venator Omni-Auspex",
-          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
-          "Cost": 0,
+          "Name": "Venator Omni-auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden unit can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2",
+          "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
@@ -23743,9 +24231,9 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Venator Omni-Auspex",
-          "Description": "Phobos model only. This unit's attacks that target a hidden units can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault  doctrine is active for this unit, re-roll wound rolls of 1 and 2",
-          "Cost": 0,
+          "Name": "Venator Omni-auspex",
+          "Description": "Phobos model only. This unit's attacks that target a hidden unit can:\n▪ Re-roll wound rolls of 1\n▪ Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1-2",
+          "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
@@ -24025,7 +24513,7 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Damocles-Class Uplink",
+          "Name": "Damocles-class Uplink",
           "Description": "Captain model only. In your Movement phase, if this unit is embarked within a Transport unit, you can select one friendly Adeptus Astartes Infantry unit within 6\" of that Transport unit and select one combat doctrine. That combat doctrine is active for that Infantry unit.",
           "Cost": 15,
           "Features": "None",
@@ -24088,7 +24576,19 @@
           "Effect": "Place your unit in strategic reserves."
         }
       ],
-      "Enhancements": [],
+      "Enhancements": [
+        {
+          "Name": "Beacon Angelis",
+          "Description": "ADEPTUS ASTARTES model only. If this unit is a Kill Team unit, this unit has:\n\n▪ Deep Strike.\n▪ When you target this unit with the Rapid Ingress Stratagem, that use is -1CP.",
+          "Cost": 25,
+          "Features": "None",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        }
+      ],
       "Effects": []
     }
   ],

@@ -16,7 +16,7 @@ Issue counts are closed/total faction-specific GitHub issues.
 | Agents of the Imperium | 29/29 (100%) | 11/11 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Grey Knights | 26/26 (100%) | 5/5 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Imperial Knights | 22/22 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
-| Space Marines | 70/71 (99%) | 64/72 (89%) | Complete | Incomplete | Incomplete | Incomplete | Complete | — |
+| Space Marines | 72/72 (100%) | 72/72 (100%) | Complete | Incomplete | Incomplete | Incomplete | Complete | 3/9 (33%) |
 | Black Templars | 16/16 (100%) | 0/0 (n/a) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Blood Angels | 14/14 (100%) | 8/8 (100%) | Incomplete | Incomplete | Incomplete | Incomplete | Complete | — |
 | Dark Angels | 16/16 (100%) | 2/2 (100%) | Complete | Incomplete | Incomplete | Incomplete | Complete | — |
@@ -44,7 +44,10 @@ Issue counts are closed/total faction-specific GitHub issues.
 
 ## Status notes
 
-- Candidate gaps (11): Space Marines — Drop Pod (Base), plus Cerberus, Falchion, Kratos, Mastodon, Rapier Carrier, Sicaran, Terrax-pattern Termite and Typhon (Legends). Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Candidate gaps (2): Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Space Marines: 1.5.28 completes the missing roster entries and corrects squad limits for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
+- Space Marines: 1.5.27 fixes Sergeant and regular model composition limits across the roster and adds the correct 5-model and 10-model Assault Intercessor point tiers (issue 272).
+- Space Marines: issue 101 adds Drop Pod, eight Legends datasheets and the separate 110-point Captain on Bike, retaining the existing 95-point Legends entry.
 - Space Marines: 1.5.25 adds the Captain in Gravis Armour, which the inventory had missed, and fixes Infernus and Intercessor squad sizes and points (issue 66).
 - 1.5.24 removes stray inline bold markers from rule text on every faction branch and at build time (issue 65).
 - Adepta Sororitas: army rules audited against the November BSData dump and GW data; no source-supported army-rule correction was required (issue 68).
@@ -61,3 +64,5 @@ Issue counts are closed/total faction-specific GitHub issues.
 - Astra Militarum: 51 Brood Brother Auxilia allies retained. App tests passed (issue 57).
 - Ultramarines: Blade of Ultramar’s six stratagems displayed in WarOrgan. Version 1.5.16 removes raw formatting tags. Issue 7 is closed.
 - 1.5.17 fills seven enhancement lists. Three stratagem lists remain empty without matching entries.
+
+- T'au Empire: Faction Pack 1.2 (26 August 2026) reviewed. Added Ethereal's For the Greater Good faction ability and the Stealth/FRAME keyword corrections.
