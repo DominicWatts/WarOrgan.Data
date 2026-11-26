@@ -5485,7 +5485,7 @@
           "Name": "Gunnery Honours (Upgrade)",
           "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit's ranged attacks have [Heavy]",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Vehicle"
@@ -5502,7 +5502,7 @@
           "Name": "Redoubtable Machine Spirit (Upgrade)",
           "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units) This unit:\n▪ Has a 5+ InvSv\n▪ At the end of your Command phase, heals 1 wound",
           "Cost": 25,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Vehicle"
@@ -5562,7 +5562,7 @@
           "Name": "Supercharged Engines (Upgrade)",
           "Description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls.",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Mounted"
@@ -5575,7 +5575,7 @@
           "Name": "Auspex Triangulation Shrines (Upgrade)",
           "Description": "Adeptus Astartes Speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\n▪ While a unit is spotted, that unit has +3\" detection range",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Speeder"
@@ -5631,7 +5631,7 @@
           "Name": "Fervent Exemplars (Upgrade)",
           "Description": "SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
@@ -5642,7 +5642,7 @@
           "Name": "Inheritors of Sigismund (Upgrade)",
           "Description": "SWORD BRETHREN SQUAD unit only. This unit has Fights First",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
@@ -5749,7 +5749,7 @@
           "Name": "Furious Assault (Upgrade)",
           "Description": "Adeptus Astartes Infantry unit only. This unit's melee attacks have [Sustained Hits 1: non-Monster/Vehicle]",
           "Cost": 10,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Infantry"
@@ -6381,7 +6381,7 @@
           "Name": "Immovable Conquerors (Upgrade)",
           "Description": "Gravis unit only. This unit has +1 OC",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Gravis"
@@ -6450,7 +6450,7 @@
           "Name": "Artificer Sarcophagus (Upgrade)",
           "Description": "Dreadnought unit only. Attacks that target this unit have -1D",
           "Cost": 40,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Dreadnought"
@@ -6463,7 +6463,7 @@
           "Name": "Venerable Champion (Aura) (Upgrade)",
           "Description": "Dreadnought unit only. While a friendly Adeptus Astartes Infantry/Mounted unit is within 6\" of this unit, that unit's attacks can re-roll hit rolls of 1",
           "Cost": 30,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Dreadnought"
@@ -6602,7 +6602,7 @@
           "Name": "Righteous Fervour (Upgrade)",
           "Description": "Crusader Squad only. This unit can re-roll Advance rolls.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Crusader Squad"
