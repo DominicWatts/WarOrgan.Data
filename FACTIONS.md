@@ -39,14 +39,14 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 | Drukhari | 23/23 (100%) | 7/7 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
 | Leagues of Votann | 22/22 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 3/8 (38%) |
 | Necrons | 52/52 (100%) | 12/12 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/8 (25%) |
-| Orks | 55/55 (100%) | 15/15 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 5/12 (42%) |
+| Orks | 55/55 (100%) | 15/15 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 11/12 (92%) |
 | T'au Empire | 43/43 (100%) | 20/20 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 9/9 (100%) |
 
 ## Status notes
 
 - Candidate gaps (2): Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
 - Space Marines: all 16 shared detachments are audited. Imperial Fists' Ceramite Sentinels, Iron Hands' Medusa's Wrath, Raven Guard's Shadowmark Talon, Salamanders' Forgefather's Seekers, Ultramarines' Blade of Ultramar and White Scars' Spearpoint Task Force are also audited; the remaining chapter-specific detachments stay tracked in open issues.
-- Orks: 1.5.31 completes the faction audit (issues 259-264): army rules, all 15 detachments, roster points and wargear, and Leader/Support links now match GW. Void Waaagh! awaits an owner decision (issue 298).
+- Orks: 1.5.31 completes the faction audit (issues 259-264, now closed): army rules, all 15 detachments, roster points and wargear, and Leader/Support links now match GW. App checks are tracked in issue 300. Void Waaagh! awaits an owner decision (issue 298).
 - 1.5.30 marks the 101 Space Marine and chapter upgrades named with GW's "(Upgrade)" suffix, which 1.5.29 missed (issue 295), and Orks' Targetin' Gizmos (issue 296). Every GW upgrade in the dataset is now marked except the two one-per-army Custodes upgrades kept as normal enhancements (issue 64).
 - 1.5.29 marks GW upgrade enhancements as Upgrades in 13 factions (issues 64, 280-291). Memento Moritoi and Augury Uplink stay normal enhancements to keep their one-per-army limit, and the Custodes Shield Host limit stays as rule text. Chaos Space Marines: Warp Talon Champion limit and points fixed (issue 274).
 - Space Marines: 1.5.28 completes the missing roster entries and corrects squad limits for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
