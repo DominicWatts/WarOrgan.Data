@@ -35,7 +35,7 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 | Emperor's Children | 18/18 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
 | Thousand Sons | 29/29 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 2/7 (29%) |
 | World Eaters | 25/25 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
-| Aeldari | 57/57 (100%) | 21/21 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
+| Aeldari | 57/57 (100%) | 21/21 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 6/8 (75%) |
 | Drukhari | 23/23 (100%) | 7/7 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
 | Leagues of Votann | 22/22 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 3/8 (38%) |
 | Necrons | 52/52 (100%) | 12/12 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/8 (25%) |
@@ -44,6 +44,8 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 
 ## Status notes
 
+- Aeldari: 1.5.32 completes the detachment audit (issues 234-236): all 15 detachments, their force dispositions, enhancements and stratagems match GW. The roster and Leader/Support audits remain open (issues 237, 238).
+- Drukhari: 1.5.32 includes a community roster update (PR 303) reworking nine units' compositions, wargear and points. It has not been checked against GW; issues 243 and 244 stay open.
 - Candidate gaps (2): Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
 - Space Marines: all 16 shared detachments are audited. Imperial Fists' Ceramite Sentinels, Iron Hands' Medusa's Wrath, Raven Guard's Shadowmark Talon, Salamanders' Forgefather's Seekers, Ultramarines' Blade of Ultramar and White Scars' Spearpoint Task Force are also audited; the remaining chapter-specific detachments stay tracked in open issues.
 - Orks: 1.5.31 completes the faction audit (issues 259-264, now closed): army rules, all 15 detachments, roster points and wargear, and Leader/Support links now match GW. App checks are tracked in issue 300. Void Waaagh! awaits an owner decision (issue 298).

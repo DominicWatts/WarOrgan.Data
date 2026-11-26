@@ -2,9 +2,13 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.31.0
+## Coverage in 1.5.32.0
 
-- Orks: army rules, all 15 detachments, the roster and Leader/Support links have been audited against GW. Waaagh! (with War Cry) and Special Move Types are now army rules. Detachment rules with roll tables list every result, weapon enhancements add their weapon to the model, and stratagems read as plain text. Meganobz can be taken at 3, 4 or 5 models and Mek Gunz at 2. Void Waaagh! stays listed as an army rule pending a decision (issue 298).
+- 1.5.32 completes the Aeldari detachment audit: all 15 detachments now match GW. Stratagems in Armoured Warhost, Fateful Performance, Path of the Outcast and Twilight Flickers read as plain text. Mounted and psyker enhancements (such as Seersight Strike, Firstdrawn Blade and the Seer Council enhancements) can only go on models with all the required keywords, Corsair enhancements need Anhrathe, Key of Ghosts cannot go on a Solitaire, and Assassin's Eye is an Upgrade.
+
+- 1.5.32 also includes a community Drukhari update (PR 303). Kabalite Warriors and the Hand of the Archon are single 10-model units where individual models swap their splinter rifle for special or heavy weapons. Wracks can be taken at 5, 8 or 10 models, Reavers at 3 or 6, and Scourges with Shardcarbines at 5. Hellions, Incubi, Ravager, Scourges with Heavy Weapons and Talos wargear options were also reworked. These changes have not yet been checked against GW (issues 243 and 244).
+
+- 1.5.31 Orks: army rules, all 15 detachments, the roster and Leader/Support links have been audited against GW. Waaagh! (with War Cry) and Special Move Types are now army rules. Detachment rules with roll tables list every result, weapon enhancements add their weapon to the model, and stratagems read as plain text. Meganobz can be taken at 3, 4 or 5 models and Mek Gunz at 2. Void Waaagh! stays listed as an army rule pending a decision (issue 298).
 
 - 1.5.30 marks 102 more GW upgrade enhancements as Upgrades: 101 in the Space Marine and chapter rosters (such as Gunnery Honours, Furious Assault and Artificer Sarcophagus) and Orks' Targetin' Gizmos. Raven Guard's Shadowmark Talon rule is now titled Shadow Tactics, and its Blackwing Shroud and Umbral Raptor enhancements are Infantry only.
 
