@@ -16,8 +16,8 @@ To try unreleased changes, import the development build instead: `https://github
 
 All 34 armies, with each Space Marine chapter as its own faction, plus the 11th Edition core stratagems.
 
-- **Checked:** Genestealer Cults in full, the Tyranid Vanguard Invaders that Genestealer Cults can take through Final Day, and the Astra Militarum datasheets they can take through Brood Brother Auxilia. These have been checked line by line against Wahapedia and GW's faction packs.
-- **Unchecked drafts:** every other datasheet, detachment and enhancement, converted automatically from BSData. They have no stratagems yet, rule effects are text only, and some wargear options are looser than the datasheet. Build units to the datasheet.
+- **Checked or substantially audited:** Genestealer Cults is signed off in full. The standalone Tyranids roster and its Final Day allies have passed roster and app checks, and Astra Militarum plus its Brood Brother Auxilia allies have received detailed roster audits. Adeptus Custodes, Adepta Sororitas and Space Marines have also received targeted roster, army-rule and detachment audits.
+- **Still being audited:** every faction has datasheets, detachments, enhancements and stratagems, but the remaining faction data is not fully signed off. Some rule effects remain text only, and wargear or composition constraints may be looser than the source datasheet. Build unaudited units to the datasheet.
 
 The dataset's [README](WarOrgan.Data.BuildDataset/Assets/WH40K11e/README.md) lists coverage, sources and known limitations in detail. [FACTIONS.md](FACTIONS.md) tracks each faction's progress.
 

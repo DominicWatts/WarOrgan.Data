@@ -17119,7 +17119,7 @@
           "Name": "Targetin' Gizmos",
           "Description": "WAGON unit only. While a BIG MEK model is embarked within this unit:\n- This unit's ranged attacks have [IGNORES COVER].\n- If this unit is riled up, this unit's ranged attacks have [SUSTAINED HITS 1].",
           "Cost": 25,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Wagon"

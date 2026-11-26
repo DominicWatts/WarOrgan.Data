@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-26 : 1.5.30.0 - Upgrade enhancements: marked the 101 Space Marine and chapter upgrades that keep GW's "(Upgrade)" suffix in their names, plus Orks' Targetin' Gizmos, which 1.5.29 missed; Raven Guard: Shadowmark Talon rule renamed Shadow Tactics and Blackwing Shroud and Umbral Raptor restricted to Infantry; White Scars: Chogorian Huntmaster is an Upgrade; Iron Hands: Medusa's Wrath rule title and Caanok Var name corrected.
+
 2026-11-26 : 1.5.29.0 - Upgrade enhancements: marked 49 GW upgrade enhancements as Upgrades across 13 factions, keeping the two one-per-army Custodes Dreadnought upgrades as normal enhancements; Chaos Space Marines: Warp Talons take exactly 1 Champion, with 5-model and 10-model points corrected.
 
 2026-11-25 : 1.5.28.0 - Space Marines: completed missing roster entries, including the Drop Pod, eight Legends datasheets and a separate Captain on Bike; corrected squad limits for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
