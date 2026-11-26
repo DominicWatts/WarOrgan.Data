@@ -19183,7 +19183,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Acrobatic Onslaught",
-        "Text": "Each time a HARLEQUINS model from your army makes a Charge move, it can move through enemy models.\n\n**Travelling Players**\n\n- TROUPE units from you army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\n- You can include up to three of each of the following models in your army: DEATH JESTER, SHADOWSEER, TROUPE MASTER.\n- When mustering your army, you can select a friendly HARLEQUINS CHARACTER model to be your WARLORD."
+        "Text": "Each time a HARLEQUINS model from your army makes a Charge move, it can move through enemy models.\n\n**Travelling Players**\n\n- TROUPE units from your army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\n- You can include up to three of each of the following models in your army: DEATH JESTER, SHADOWSEER, TROUPE MASTER.\n- When mustering your army, you can select a friendly HARLEQUINS CHARACTER model to be your WARLORD."
       },
       "ForceDispositions": [
         "Disruption"
@@ -19249,7 +19249,7 @@
       "Enhancements": [
         {
           "Name": "Cegorach's Coil",
-          "Description": "Troupe Master model only. Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer's unit, then roll one D6 for each model in the bearer's unit that is within Engagment Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+          "Description": "TROUPE MASTER model only. Each time the bearer's unit ends a Charge move, select one enemy unit within Engagement Range of the bearer's unit, then roll one D6 for each model in the bearer's unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19262,7 +19262,7 @@
         },
         {
           "Name": "Mask of Secrets",
-          "Description": "Harlequins model only. Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of the bearer's unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.",
+          "Description": "HARLEQUINS model only. Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of the bearer's unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19275,7 +19275,7 @@
         },
         {
           "Name": "Murder's Jest",
-          "Description": "Death Jester model only. Each time the bearer makes an attack that targets a unit that is below Half-strength, each successful Hit scores a Critical Hit.",
+          "Description": "DEATH JESTER model only. Each time the bearer makes an attack that targets a unit that is Below Half-strength, each successful Hit roll scores a Critical Hit.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19288,7 +19288,7 @@
         },
         {
           "Name": "Mistweave",
-          "Description": "Shadowseer model only. While the bearer is leading a unit, models in that unit have the Infiltrators ability.",
+          "Description": "SHADOWSEER model only. While the bearer is leading a unit, models in that unit have the Infiltrators ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19306,8 +19306,8 @@
       "Name": "Devoted of Ynnead",
       "Cost": 2,
       "Rule": {
-        "Title": "Strength From Death",
-        "Text": "**Lethal Intent**\nAt the end of your opponent’s Shooting phase, if one or more YNNARI units from your army were destroyed this phase, select one YNNARI INFANTRY or YNNARI MOUNTED unit from your army that was within 6\" of your destroyed unit. That unit can make a normal move of up to D6+1.\n\n**Lethal Surge**\nOnce per turn, when a YNNARI unit from your army performs the Fade Back Agile Manouvre, it can make a surge move of up to D6+1\" instead of a normal move.\n\n**Lethal Reprisal**\nAt the start of the Fight phase, select one Ynnari unit from your army (excluding Titanic units) that is below its Starting Strength. Until the end of the phase, that unit has the Fights First ability.\n\n**Servants of the Whispering God**\n\nYou can include Ynnari units in your army, even though they do not have the Asuryani Faction keyword.\nAsuryani units (excluding Epic Heroes) from your army gain the Ynnari keyword.\nYou must include Yvraine and/or The Yncarne in your army, and one of those models must be your Warlord."
+        "Title": "Strength from Death",
+        "Text": "**Lethal Intent**\nAt the end of your opponent’s Shooting phase, if one or more YNNARI units from your army were destroyed this phase, select one YNNARI INFANTRY or YNNARI MOUNTED unit from your army that was within 6\" of your destroyed unit. That unit can make a normal move of up to D6+1\".\n\n**Lethal Surge**\nOnce per turn, when a YNNARI unit from your army performs the Fade Back Agile Manoeuvre, it can make a surge move of up to D6+1\" instead of a normal move.\n\n**Lethal Reprisal**\nAt the start of the Fight phase, select one YNNARI unit from your army (excluding TITANIC units) that is below its Starting Strength. Until the end of the phase, that unit has the Fights First ability.\n\n**Servants of the Whispering God**\n\nYou can include Ynnari units in your army, even though they do not have the ASURYANI Faction keyword.\nAsuryani units (excluding Epic Heroes) from your army gain the YNNARI keyword.\nYou must include Yvraine and/or The Yncarne in your army, and one of those models must be your Warlord."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -19371,7 +19371,7 @@
       "Enhancements": [
         {
           "Name": "Gaze of Ynnead",
-          "Description": "Farseer model only. The bearer's Eldritch Storm weapon has the [Devastating Wounds] ability.",
+          "Description": "FARSEER model only. The bearer's Eldritch Storm weapon has the [DEVASTATING WOUNDS] ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19384,7 +19384,7 @@
         },
         {
           "Name": "Storm of Whispers",
-          "Description": "Warlock model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+          "Description": "WARLOCK model only. In your Shooting phase, after the bearer has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19410,7 +19410,7 @@
         },
         {
           "Name": "Morbid Might",
-          "Description": "Succubus model only. Each time the bearer makes a melee attack, you can re-roll the Wound roll.",
+          "Description": "SUCCUBUS model only. Each time the bearer makes a melee attack, you can re-roll the Wound roll.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19494,15 +19494,15 @@
       "Enhancements": [
         {
           "Name": "Lucid Eye",
-          "Description": "Asuryani Psyker model only. In your Command phase, you can add 1 to or subtract 1 from the value of one Fate dice in your Fate dice pool.",
+          "Description": "ASURYANI PSYKER model only. In your Command phase, you can add 1 to or subtract 1 from the value of one Fate dice in your Fate dice pool.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Psyker"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
@@ -19512,39 +19512,39 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Psyker"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Stone of Eldritch Fury",
-          "Description": "Asuryani Psyker model only. Add 12\" to the Range characteristic of ranged Psychic weapons equipped by the bearer.",
+          "Description": "ASURYANI PSYKER model only. Add 12\" to the Range characteristic of ranged Psychic weapons equipped by the bearer.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Psyker"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Torc of Morai-Heg",
-          "Description": "Asuryani Psyker model only. Once per turn, when your opponent targets a unit from their army within 12\" of the bearer with a Stratagem, the bearer can use this Enhancement. If it does, increase the CP cost of that usage of that Stratagem by 1CP.",
+          "Description": "ASURYANI PSYKER model only. Once per turn, when your opponent targets a unit from their army within 12\" of the bearer with a Stratagem, the bearer can use this Enhancement. If it does, increase the CP cost of that usage of that Stratagem by 1CP.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Psyker"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
@@ -19556,7 +19556,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Path of the Warrior",
-        "Text": "Each time an Aspect Warriors or Avatar of Khaine unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase:\n\n- Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n- Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
+        "Text": "Each time an ASPECT WARRIORS or AVATAR OF KHAINE unit from your army is selected to shoot or fight, select one of the following abilities for it to gain until the end of the phase:\n\n- Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n- Each time a model in this unit makes an attack, re-roll a Wound roll of 1."
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -19621,7 +19621,7 @@
       "Enhancements": [
         {
           "Name": "Aspect of Murder",
-          "Description": "AUTARCH or AUTARCH WAYLEAPER model only. Add 1 to the Damage characteristics of melee weapons equipped by the bearer, and those weapons have the [PRECISION] ability.",
+          "Description": "AUTARCH or AUTARCH WAYLEAPER model only. Add 1 to the Damage characteristic of melee weapons equipped by the bearer, and those weapons have the [PRECISION] ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19649,7 +19649,7 @@
         },
         {
           "Name": "Shimmerstone",
-          "Description": "Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll.",
+          "Description": "AUTARCH or AUTARCH WAYLEAPER model only. While the bearer is leading an ASPECT WARRIORS unit, each time a ranged attack targets that unit, subtract 1 from the Wound roll.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19663,7 +19663,7 @@
         },
         {
           "Name": "Strategic Savant",
-          "Description": "Autarch or Autarch Wayleaper model only. While the bearer is leading an Aspect Warriors unit, add 1 to the Objective Control characteristic of models in that unit.",
+          "Description": "AUTARCH or AUTARCH WAYLEAPER model only. While the bearer is leading an ASPECT WARRIORS unit, add 1 to the Objective Control characteristic of models in that unit.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19683,7 +19683,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Boons of the Brood",
-        "Text": "Weapons equipped by HARLEQUINS MOUNTED AND HARLEQUINS VEHICLE MODELS FROM YOUR ARMY HAVE THE [SUSTAINED HITS 1] ABILITY. EACH TIME A HARLEQUINS UNIT FROM YOUR ARMY DISEMBARKS FROM A TRANSPORT, UNTIL THE END OF THE TURN, THAT UNIT’S WEAPONS HAVE THE [SUSTAINED HITS 1] ability.\n\n**Travelling Players**\n\nTROUPE units from you army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\nYou can include up to three of each of the following models in your army: DEATH JESTER, SHADOWSEER, TROUPE MASTER.\nWhen mustering your army, you can select a friendly HARLEQUINS CHARACTER model to be your WARLORD."
+        "Text": "Weapons equipped by HARLEQUINS MOUNTED and HARLEQUINS VEHICLE models from your army have the [SUSTAINED HITS 1] ability.\n\nEach time a HARLEQUINS unit from your army disembarks from a TRANSPORT, until the end of the turn, that unit’s weapons have the [SUSTAINED HITS 1] ability.\n\n**Travelling Players**\n\nTROUPE units from your army gain the BATTLELINE keyword and TROUPE models in those units have an Objective Control characteristic of 2.\nYou can include up to three of each of the following models in your army: DEATH JESTER, SHADOWSEER, TROUPE MASTER.\nWhen mustering your army, you can select a friendly HARLEQUINS CHARACTER model to be your WARLORD."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -19747,7 +19747,7 @@
       "Enhancements": [
         {
           "Name": "Key of Ghosts",
-          "Description": "HARLEQUINS MODEL ONLY (EXCLUDING SOLITAIRE models). Models in the bearer’s unit have the Scouts 6\" ability.",
+          "Description": "HARLEQUINS model only (excluding SOLITAIRE models). Models in the bearer’s unit have the Scouts 6\" ability.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19755,7 +19755,9 @@
             "Faction: Harlequins"
           ],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [],
+          "ExcludedKeywords": [
+            "Solitaire"
+          ],
           "RequiredAbilities": []
         },
         {
@@ -19773,7 +19775,7 @@
         },
         {
           "Name": "Shedskin Raiment",
-          "Description": "SHADOWSEER model only. After both players have deployed their armies, select up to three Harlequins units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+          "Description": "SHADOWSEER model only. After both players have deployed their armies, select up to three HARLEQUINS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
