@@ -17633,6 +17633,10 @@
   ],
   "ArmyRules": [
     {
+      "Title": "Waaagh!",
+      "Text": "Friendly ORKS units with this ability can:\n- Re-roll advance rolls.\n- Become riled up, as stated in other rules. While a unit is riled up:\n    - That unit has 5+ InSv.\n    - That unit's ranged attacks have [ASSAULT].\n    - When that unit is selected to make an advance move, that advance move does not prevent that unit from being eligible to declare a charge.\n\nWar Cry (Once per battle, per army): At the start of the Command phase, you can use this ability. If you do, friendly ORKS units with the Waaagh! ability are riled up until the end of the next turn."
+    },
+    {
       "Title": "Void Waaagh!",
       "Text": "Units from your army with the Waaagh! ability retain that ability and gain this one.\n\nOnce per battle, at the start of the battle round, you can call a Void Waaagh!. If you do, until the start of the next battle round, the Void Waaagh! is active for your army and:\n- Add 1 to the Strength and Attacks characteristics of melee weapons equipped by models from your army with this ability.\n- Models from your army with this ability have a 5+ invulnerable save.\n\nA Void Waaagh! counts as a Waaagh! for any datasheet abilities."
     },
@@ -17642,7 +17646,11 @@
     },
     {
       "Title": "Unstable Energies",
-      "Text": "ORKS PSYKER units with this ability have a psyker level of 1 or higher, specified in that unit's abilities. Each psychic ability has a psychic level of 1 or higher, specified in that ability's name.\nIn a battle round, a friendly ORKS PSYKER unit can use a number of psychic abilities whose total psychic level does not exceed that PSYKER unit's psyker level."
+      "Text": "ORKS PSYKER units with this ability have a psyker level of 1 or higher, specified in that unit's abilities. Each psychic ability has a psychic level of 1 or higher, specified in that ability's name.\nIn a battle round, a friendly ORKS PSYKER unit can use a number of psychic abilities whose total psychic level does not exceed that PSYKER unit's psyker level.\nExample: In a battle round, a psyker level 3 PSYKER unit could use three psychic level 1 abilities, or one psychic level 1 ability and one psychic level 2 ability, or one psychic level 3 ability."
+    },
+    {
+      "Title": "Special Move Types",
+      "Text": "The following are special move types that certain or all of your units are eligible to make.\n\nPULSE JET MOVE\n\nMAXIMUM DISTANCE: Pulse roll + 18\"\n\nELIGIBLE IF: As stated in the rule allowing this move type.\n\nBEFORE MOVING: Make a pulse roll by rolling one D6.\n\nEFFECT: Your unit moves as described in Moving (03).\n\nWHILE MOVING:\n\n- Ignore all vertical distance for the purposes of how far your unit has moved.\n- Your unit can move through all types of model.\n- Your unit can move horizontally and vertically through all categories of terrain feature.\n\nAFTER MOVING:\n\n- Your unit must be unengaged.\n- Until the end of the turn, your unit is not eligible to declare a charge or start an action.\n- Until the start of your next turn, attacks that target your unit have -1 to hit rolls.\n\nASSAULT DISEMBARK MOVE\n\nSET-UP DISTANCE: 3\"\n\nELIGIBLE IF:\n\n- Embarked within a TRANSPORT on the battlefield\n- Did not embark within that TRANSPORT this phase\n- That TRANSPORT has not made an advance/fall-back move this phase\n\nEFFECT: Set up as described in Set Up (03.02).\n\nWHILE MOVING: Set up each model wholly within the set-up distance of that TRANSPORT."
     }
   ]
 }
