@@ -533,7 +533,7 @@
         },
         {
           "Title": "Mobbed",
-          "Text": "When this unit ends a charge move, each enemy MONSTER/VEHICLE unit engaged with this unit makes a battle-shock roll:\n- With -1 to that battle-shock roll.\n- <ins>Or:</ins> With -2 to that battle-shock roll if this unit has 13+ models."
+          "Text": "When this unit ends a charge move, each enemy MONSTER/VEHICLE unit engaged with this unit makes a battle-shock roll:\n- With -1 to that battle-shock roll.\n- Or: With -2 to that battle-shock roll if this unit has 13+ models."
         }
       ],
       "Infos": [],
@@ -9270,6 +9270,10 @@
           {
             "Key": "killsaw",
             "Cost": 5
+          },
+          {
+            "Key": "twin killsaw",
+            "Cost": 5
           }
         ]
       },
@@ -9607,6 +9611,21 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 3,
+          "Cost": 105
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 4,
+          "Cost": 175
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 175
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 6,
           "Cost": 210
         },
@@ -9617,6 +9636,21 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 3,
+          "Cost": 105
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 4,
+          "Cost": 175
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 175
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 6,
           "Cost": 210
         },
@@ -9624,6 +9658,21 @@
           "UnitCount": 3,
           "ModelCount": 2,
           "Cost": 110
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 3,
+          "Cost": 145
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 4,
+          "Cost": 215
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 215
         },
         {
           "UnitCount": 3,
@@ -10131,6 +10180,11 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 2,
+          "Cost": 110
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 3,
           "Cost": 165
         },
@@ -10141,6 +10195,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 2,
+          "Cost": 110
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 3,
           "Cost": 165
         },
@@ -10148,6 +10207,11 @@
           "UnitCount": 3,
           "ModelCount": 1,
           "Cost": 65
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 2,
+          "Cost": 120
         },
         {
           "UnitCount": 3,
@@ -10784,7 +10848,7 @@
         },
         {
           "Title": "Supreme Kunnin' (Once per phase, per army)",
-          "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can:\n- Make a normal move of up to D6\".\n- <ins>Or:</ins> If this unit is riled up, make a normal move of up to 5\"."
+          "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can:\n- Make a normal move of up to D6\".\n- Or: If this unit is riled up, make a normal move of up to 5\"."
         },
         {
           "Title": "Intimidating Motivation (Once per battle round, per army)",
