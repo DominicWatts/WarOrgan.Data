@@ -19807,7 +19807,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Yriel's Own",
-        "Text": "AELDARI UNITS IN YOUR ARMY ARE ELIGIBLE TO DECLARE A CHARGE IN A TURN IN WHICH THEY ADVANCED. IN ADDITION, EACH TIME AN ANHRATHE, RANGERS OR SHROUD RUNNERS unit from your army Advances, you can re‑roll the Advance roll.\n\n**Veterans of the Void**\n\nEach time you add an ANHRATHE unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+        "Text": "AELDARI units in your army are eligible to declare a charge in a turn in which they Advanced. In addition, each time an ANHRATHE, RANGERS or SHROUD RUNNERS unit from your army Advances, you can re‑roll the Advance roll.\n\n**Veterans of the Void**\n\nEach time you add an ANHRATHE unit to your army, it can be given up to one Corsair Enhancement. Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -19884,22 +19884,26 @@
         },
         {
           "Name": "Alacritous Assault",
-          "Description": "ANHRATHE UNIT ONLY. MELEE WEAPONS EQUIPPED BY MODELS IN THIS UNIT HAVE THE [LANCE] ability.",
+          "Description": "ANHRATHE unit only. Melee weapons equipped by models in this unit have the [LANCE] ability.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Anhrathe"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Exotic Munitions",
-          "Description": "ANHRATHE UNIT ONLY. RANGED WEAPONS EQUIPPED BY MODELS IN THIS UNIT HAVE THE [ANTI‑MONSTER 5+] AND [ANTI‑VEHICLE 5+] abilities.",
+          "Description": "ANHRATHE unit only. Ranged weapons equipped by models in this unit have the [ANTI-MONSTER 5+] and [ANTI-VEHICLE 5+] abilities.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Anhrathe"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -19911,6 +19915,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Anhrathe",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -19925,7 +19930,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Relentless Raiders",
-        "Text": "While an objective marker is under your control, each time an enemy unit ends a Normal, Advance, Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.\n\n\nANHRATHE units from your army have the following ability:\n\n\nVoid Thieves: At the end of a phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.\n\n**Veterans of the Void**\n\nEach time you add an ANHRATHE unit to your army, it can be given up to one Corsair Enhancement (see right). Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
+        "Text": "While an objective marker is under your control, each time an enemy unit ends a Normal, Advance, Fall Back or Charge move within range of that objective marker, roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.\n\n\nANHRATHE units from your army have the following ability:\n\n\nVoid Thieves: At the end of a phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.\n\n**Veterans of the Void**\n\nEach time you add an ANHRATHE unit to your army, it can be given up to one Corsair Enhancement. Each Corsair Enhancement included in your army must be unique. If a unit is given a Corsair Enhancement, you must increase the points cost of that unit by the amount shown (see Munitorum Field Manual). If this causes your army to exceed the points limit for the battle you are playing, you cannot include that unit in your army."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -19993,7 +19998,9 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Anhrathe"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -20004,18 +20011,21 @@
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Anhrathe"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Archraider",
-          "Description": "ANHRATHE CHARACTER UNIT ONLY. AT THE START OF THE BATTLE, SELECT ONE CHARACTER model in this unit. That model has the following ability:\n\nLord of Deceit (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP.",
+          "Description": "ANHRATHE CHARACTER unit only. At the start of the battle, select one CHARACTER model in this unit. That model has the following ability:\n\nLord of Deceit (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a Stratagem, you can use this ability. If you do, increase the CP cost of that use of that Stratagem by 1CP.",
           "Cost": 35,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Anhrathe",
             "Character"
           ],
           "RequiredOneOfKeywords": [],
@@ -20029,6 +20039,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Anhrathe",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -20055,26 +20066,26 @@
           "CPCost": 1,
           "Phase": "Fight",
           "When": "End of your opponent’s Fight phase.",
-          "Target": "One friendly <b>unengaged</b> <k>Harlequins</k> unit.",
-          "Effect": "Place your unit in <b>strategic reserves</b>."
+          "Target": "One friendly unengaged HARLEQUINS unit.",
+          "Effect": "Place your unit in Strategic Reserves."
         },
         {
           "Name": "Deceptive Feint",
           "Category": "Fateful Performance Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly <b>unengaged</b> <k>Harlequins Infantry</k> unit.",
-          "Target": "That <k>Harlequins Infantry</k> unit.",
-          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3\"."
+          "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged HARLEQUINS INFANTRY unit.",
+          "Target": "That HARLEQUINS INFANTRY unit.",
+          "Effect": "Your unit can make a Normal move of up to D3+3\"."
         },
         {
           "Name": "Heroes’ Fall",
           "Category": "Fateful Performance Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when an enemy unit targets a friendly <k>Harlequins</k> unit.",
-          "Target": "That <k>Harlequins</k> unit.",
-          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6:\r<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+          "When": "Fight phase, when an enemy unit targets a friendly HARLEQUINS unit.",
+          "Target": "That HARLEQUINS unit.",
+          "Effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         }
       ],
       "Enhancements": [
@@ -20123,27 +20134,27 @@
           "Category": "Path of the Outcast Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Rangers/Shroud Runners</k> unit has shot.",
-          "Target": "That <k>Rangers/Shroud Runners</k> unit.",
-          "Effect": "Select one enemy unit hit by those ranged attacks. That enemy unit makes a <b>battle‑shock roll</b>, with ‑1 to that <b>battle‑shock roll</b> if a model in that enemy unit was <b>destroyed</b> by those attacks."
+          "When": "Your Shooting phase, when a friendly RANGERS or SHROUD RUNNERS unit has shot.",
+          "Target": "That RANGERS or SHROUD RUNNERS unit.",
+          "Effect": "Select one enemy unit hit by those ranged attacks. That enemy unit makes a Battle-shock roll, with -1 to that Battle-shock roll if a model in that enemy unit was destroyed by those attacks."
         },
         {
           "Name": "Casting Back the Veil",
           "Category": "Path of the Outcast Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Rangers/Shroud Runners</k> unit has shot.",
-          "Target": "That <k>Rangers/Shroud Runners</k> unit.",
-          "Effect": "Select one enemy unit hit by those ranged attacks. That enemy unit has +6\" <b>detection range</b>."
+          "When": "Your Shooting phase, when a friendly RANGERS or SHROUD RUNNERS unit has shot.",
+          "Target": "That RANGERS or SHROUD RUNNERS unit.",
+          "Effect": "Select one enemy unit hit by those ranged attacks. That enemy unit has +6\" detection range."
         },
         {
           "Name": "Nomads of the Hidden Way",
           "Category": "Path of the Outcast Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Rangers/Shroud Runners</k> unit has shot.",
-          "Target": "That <k>Rangers/Shroud Runners</k> unit.",
-          "Effect": "\r<ul><li>Your unit can make a <b>normal move</b> of up to D6\".</li>\r<li>Your unit is <u>not</u> <b>eligible to declare a charge</b> or embark within a <k>Transport</k> until the end of the turn.</li></ul>"
+          "When": "Your Shooting phase, when a friendly RANGERS or SHROUD RUNNERS unit has shot.",
+          "Target": "That RANGERS or SHROUD RUNNERS unit.",
+          "Effect": "Your unit can make a Normal move of up to D6\".\nUntil the end of the turn, your unit is not eligible to declare a charge or embark within a TRANSPORT."
         }
       ],
       "Enhancements": [
@@ -20164,7 +20175,7 @@
           "Name": "Assassin's Eye",
           "Description": "RANGERS/SHROUD RUNNERS unit only. This unit’s ranged attacks that target a CHARACTER unit have +1 AP.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
@@ -20182,7 +20193,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Dance of Distortion",
-        "Text": "Friendly HARLEQUINS units have Stealth.\n\nThis detachment has the ACROBATIC tag and cannot be taken with another ACROBATIC detachment.\n\n**Stealth**\n\nIf every model in a unit has this ability, each time a ranged attack targets that unit, that unit has the benefit of cover against that attack (13.08)."
+        "Text": "Friendly HARLEQUINS units have Stealth.\n\nThis detachment has the ACROBATIC tag and cannot be taken with another ACROBATIC detachment."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -20193,18 +20204,18 @@
           "Category": "Twilight Flickers Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Harlequins Vehicle</k> unit has shot.",
-          "Target": "That <k>Harlequins Vehicle</k> unit.",
-          "Effect": "\r<ul><li>Your unit can make a <b>normal move</b> of up to D6\".</li>\r<li>Your unit is <u>not</u> <b>eligible to declare a charge</b> until the end of the turn.</li></ul>"
+          "When": "Your Shooting phase, when a friendly HARLEQUINS VEHICLE unit has shot.",
+          "Target": "That HARLEQUINS VEHICLE unit.",
+          "Effect": "Your unit can make a Normal move of up to D6\".\nUntil the end of the turn, your unit is not eligible to declare a charge."
         },
         {
           "Name": "Presaged Rehearsal",
           "Category": "Twilight Flickers Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when a friendly <k>Troupe</k> unit is <b>selected to fight</b>.",
-          "Target": "That <k>Troupe</k> unit.",
-          "Effect": "Your unit’s melee attacks have <k>[lance]</k>."
+          "When": "Fight phase, when a friendly TROUPE unit is selected to fight.",
+          "Target": "That TROUPE unit.",
+          "Effect": "Your unit’s melee attacks have [LANCE]."
         },
         {
           "Name": "Captivating Performance",
@@ -20212,8 +20223,8 @@
           "CPCost": 1,
           "Phase": "Movement",
           "When": "End of your Movement phase.",
-          "Target": "One friendly <k>Troupe</k> unit.",
-          "Effect": "Select one <b>objective</b> your unit is controlling. That <b>objective</b> is <b>secured</b>."
+          "Target": "One friendly TROUPE unit.",
+          "Effect": "Select one objective marker your unit is controlling. That objective marker is secured."
         }
       ],
       "Enhancements": [
