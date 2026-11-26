@@ -11753,7 +11753,7 @@
           "Name": "Encircling Horrors",
           "Description": "NEUROLICTOR/LICTOR/VON RYAN’S LEAPERS unit only. In your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, this unit can make a normal move of up to D3+3\".",
           "Cost": 20,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
@@ -11768,7 +11768,7 @@
           "Name": "Cryptophotaic Camouflage",
           "Description": "VON RYAN’S LEAPERS unit only. This unit has -3\" detection range.",
           "Cost": 15,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Von Ryan's Leapers"
@@ -11824,7 +11824,7 @@
           "Name": "Destabilising Predation",
           "Description": "NORN EMISSARY unit only. This unit’s ranged attacks have [ANTI-CHARACTER 2+].",
           "Cost": 20,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Norn Emissary"
@@ -11837,7 +11837,7 @@
           "Name": "Synaptoprescience",
           "Description": "NORN ASSIMILATOR unit only. This unit has 4+ InSv.",
           "Cost": 30,
-          "Features": "None",
+          "Features": "Upgrade",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
             "Norn Assimilator"
