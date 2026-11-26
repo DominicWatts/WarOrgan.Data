@@ -2,7 +2,9 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.30.0
+## Coverage in 1.5.31.0
+
+- Orks: army rules, all 15 detachments, the roster and Leader/Support links have been audited against GW. Waaagh! (with War Cry) and Special Move Types are now army rules. Detachment rules with roll tables list every result, weapon enhancements add their weapon to the model, and stratagems read as plain text. Meganobz can be taken at 3, 4 or 5 models and Mek Gunz at 2. Void Waaagh! stays listed as an army rule pending a decision (issue 298).
 
 - 1.5.30 marks 102 more GW upgrade enhancements as Upgrades: 101 in the Space Marine and chapter rosters (such as Gunnery Honours, Furious Assault and Artificer Sarcophagus) and Orks' Targetin' Gizmos. Raven Guard's Shadowmark Talon rule is now titled Shadow Tactics, and its Blackwing Shroud and Umbral Raptor enhancements are Infantry only.
 

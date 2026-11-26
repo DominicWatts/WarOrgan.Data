@@ -1,5 +1,7 @@
 # Dataset changelog
 
+2026-11-26 : 1.5.31.0 - Orks: full audit against GW. Added the missing Waaagh! (with War Cry) and Special Move Types army rules; all 15 detachments audited, with the Try Dat Button!, Unpredictable Genius and Wurrband psychic ability text completed, weapon profiles added for Da Gobshot Thunderbuss, Da Krunch and 'Eadbanger, enhancement eligibility corrected for Cybork Boosta, Kill Kommanda, Kaptin's Hat, Supa-glowy Fing, Targetin' Squigs and Surly As A Squiggoth, and all stratagem text converted to plain text; Meganobz and Mek Gunz gain their missing unit-size points, and Twin Killsaws cost 5 points.
+
 2026-11-26 : 1.5.30.0 - Upgrade enhancements: marked the 101 Space Marine and chapter upgrades that keep GW's "(Upgrade)" suffix in their names, plus Orks' Targetin' Gizmos, which 1.5.29 missed; Raven Guard: Shadowmark Talon rule renamed Shadow Tactics and Blackwing Shroud and Umbral Raptor restricted to Infantry; White Scars: Chogorian Huntmaster is an Upgrade; Iron Hands: Medusa's Wrath rule title and Caanok Var name corrected.
 
 2026-11-26 : 1.5.29.0 - Upgrade enhancements: marked 49 GW upgrade enhancements as Upgrades across 13 factions, keeping the two one-per-army Custodes Dreadnought upgrades as normal enhancements; Chaos Space Marines: Warp Talons take exactly 1 Champion, with 5-model and 10-model points corrected.
