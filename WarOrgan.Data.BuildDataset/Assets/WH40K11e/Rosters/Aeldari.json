@@ -18685,17 +18685,17 @@
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Psyker"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Phoenix Gem",
-          "Description": "ASURYANI model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one of more enemy units, with its full wounds remaining.",
+          "Description": "ASURYANI model only. The first time the bearer is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set the bearer back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining.",
           "Cost": 35,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -18721,7 +18721,7 @@
         },
         {
           "Name": "Timeless Strategist",
-          "Description": "ASURYANI model only. At the start of the battle round, if the bearer is on the battlefield (or any Transport it is embarked within is on the battlefield), you receive 1 additional Battle Focus token.",
+          "Description": "ASURYANI model only. At the start of the battle round, if the bearer is on the battlefield (or any TRANSPORT it is embarked within is on the battlefield), you receive 1 additional Battle Focus token.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -18740,7 +18740,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Skilled Crews",
-        "Text": "Friendly AELDARI VEHICLE units’ ranged attacks have [ASSAULT].\n\n**Assault**\n\nUnits containing one or more models with an [ASSAULT] weapon can shoot using assault shooting (10.05)."
+        "Text": "Friendly AELDARI VEHICLE units’ ranged attacks have [ASSAULT]."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -18751,41 +18751,41 @@
           "Category": "Armoured Warhost Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Aeldari Vehicle</k> unit suffers a <b>mortal wound</b>.",
-          "Target": "That <k>Aeldari Vehicle</k> unit.",
-          "Effect": "Your unit has <b>Feel No Pain 5+</b> against <b>mortal wounds</b>."
+          "When": "Any phase, when a friendly AELDARI VEHICLE unit suffers a mortal wound.",
+          "Target": "That AELDARI VEHICLE unit.",
+          "Effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         },
         {
           "Name": "Soulsight",
           "Category": "Armoured Warhost Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Aeldari Vehicle</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Aeldari Vehicle</k> unit.",
-          "Effect": "Your unit’s attacks can re‑roll:\r<ul><li><u>One</u> <b>hit roll</b>.</li>\r<li><u>One</u> <b>wound roll</b>.</li>\r<li><u>One</u> <b>damage roll</b>.</li></ul>"
+          "When": "Your Shooting phase, when a friendly AELDARI VEHICLE unit is selected to shoot.",
+          "Target": "That AELDARI VEHICLE unit.",
+          "Effect": "Your unit’s attacks can re‑roll:\n- One hit roll.\n- One wound roll.\n- One damage roll."
         },
         {
           "Name": "Vectored Engines",
           "Category": "Armoured Warhost Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Aeldari Vehicle</k> unit makes a <b>fall‑back move</b>.",
-          "Target": "That <k>Aeldari Vehicle</k> unit.",
-          "Effect": "That move does not prevent your unit from being <b>eligible to shoot</b>."
+          "When": "Your Movement phase, when a friendly AELDARI VEHICLE unit makes a Fall Back move.",
+          "Target": "That AELDARI VEHICLE unit.",
+          "Effect": "That move does not prevent your unit from being eligible to shoot."
         }
       ],
       "Enhancements": [
         {
           "Name": "Guiding Presence",
-          "Description": "AELDARI PSYKER model only. At the start of your Shooting phase, select one visible friendly AELDARI VEHICLE unit within 6\" of this model. That VEHICLE unit’s ranged attacks have +1 to hit rolls.",
+          "Description": "AELDARI PSYKER model only. At the start of your Shooting phase, select one visible friendly AELDARI VEHICLE unit within 6\" of this model. That VEHICLE unit’s ranged attacks have +1 to Hit rolls.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Aeldari",
             "Psyker"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
@@ -18795,11 +18795,11 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Aeldari",
             "Psyker"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
@@ -18811,7 +18811,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Ride the Wind",
-        "Text": "In the Declare Battle Formations step you can set up ASURYANI MOUNTED and VYPER units in Reserves.\nDuring the battle, such units can be set up on the battlefield as if they were arriving from Strategic Reserves. For the purposes of setting up ASUYANI MOUNTED or VYPER units from your army on the battlefield, treat the current battle round number as being one higher than it actually is.\n\nIn addition, at the end of your opponent's turn, you can select a number of ASURYANI MOUNTED or VYPER units from your army (excluding units within Engagement Range of one or more enemy units), then remove those units from the battlefield and place them into Strategic Reserves. The maximum number of units you can select depends on the battle size, as shown below:\n\n- Incursion - 1\n- Strike Force - 2\n- Onslaught - 3\n\n\nWINDRIDERS units from your army gain the BATTLELINE keyword."
+        "Text": "In the Declare Battle Formations step you can set up ASURYANI MOUNTED and VYPER units in Reserves.\nDuring the battle, such units can be set up on the battlefield as if they were arriving from Strategic Reserves. For the purposes of setting up ASURYANI MOUNTED or VYPER units from your army on the battlefield, treat the current battle round number as being one higher than it actually is.\n\nIn addition, at the end of your opponent's turn, you can select a number of ASURYANI MOUNTED or VYPER units from your army (excluding units within Engagement Range of one or more enemy units), then remove those units from the battlefield and place them into Strategic Reserves. The maximum number of units you can select depends on the battle size, as shown below:\n\n- Incursion - 1\n- Strike Force - 2\n- Onslaught - 3\n\n\nWINDRIDERS units from your army gain the BATTLELINE keyword."
       },
       "ForceDispositions": [
         "Disruption"
@@ -18879,54 +18879,54 @@
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Mounted"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Mirage Field",
-          "Description": "Asuryani Mounted model only. Each time an attack targets the bearer's unit, subtract 1 from the Hit roll.",
+          "Description": "ASURYANI MOUNTED model only. Each time an attack targets the bearer's unit, subtract 1 from the Hit roll.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Mounted"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Seersight Strike",
-          "Description": "Asuryani Mounted Psyker model only. Psychic weapons equipped by the bearer have the [Anti-Monster 2+] and [Anti-Vehicle 2+] abilities.",
+          "Description": "ASURYANI MOUNTED PSYKER model only. Psychic weapons equipped by the bearer have the [ANTI-MONSTER 2+] and [ANTI-VEHICLE 2+] abilities.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Mounted",
             "Psyker"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Echoes of Ulthanesh",
-          "Description": "Asuryani Mounted model only. In your Command phase, roll one D6, adding 1 to the result if the bearer is not within your deployment zone, and adding an additional 1 to the result if the bearer is within your opponent's deployment zone: on a 5+, you gain 1CP.",
+          "Description": "ASURYANI MOUNTED model only. In your Command phase, roll one D6, adding 1 to the result if the bearer is not within your deployment zone, and adding an additional 1 to the result if the bearer is within your opponent's deployment zone: on a 5+, you gain 1CP.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Faction: Asuryani",
             "Mounted"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
@@ -18938,7 +18938,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Shepherds of the Dead",
-        "Text": "Each time an Asuryani Psyker model from your army is destroyed by an enemy unit, that unit gains a Vengeful Dead token. Each time a Wraith Construct model from your army makes an attack that targets a unit with one or more Vengeful Dead tokens, add 1 to the Hit roll and add 1 to the Wound roll.\nAsuryani Psyker models from your army have the following ability:\nSpirit Guides (Aura): while a Wraithblades, Wraithguard or Wraithlord unit from your army is within 12\" of this model, that unit has the Battle Focus ability.\n\n\nWraithblades and Wraithguard units from your army gains the Battleline keyword."
+        "Text": "Each time an ASURYANI PSYKER model from your army is destroyed by an enemy unit, that enemy unit gains a Vengeful Dead token. Each time a WRAITH CONSTRUCT model from your army makes an attack that targets a unit with one or more Vengeful Dead tokens, add 1 to the Hit roll and add 1 to the Wound roll.\nASURYANI PSYKER models from your army have the following ability:\nSpirit Guides (Aura): While a WRAITHBLADES, WRAITHGUARD or WRAITHLORD unit from your army is within 12\" of this model, that unit has the Battle Focus ability.\n\n\nWRAITHBLADES and WRAITHGUARD units from your army gain the BATTLELINE keyword."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -19002,7 +19002,7 @@
       "Enhancements": [
         {
           "Name": "Light of Clarity",
-          "Description": "Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12\" of the bearer. Until the start of your next Command phase, add 1 to the Objective Control characteristic of Infanty models in that unit and add 3 to the Objective Control characteristic of Monster models in that unit.",
+          "Description": "SPIRITSEER model only. In your Command phase, select one friendly WRAITH CONSTRUCT unit within 12\" of the bearer. Until the start of your next Command phase, add 1 to the Objective Control characteristic of INFANTRY models in that unit and add 3 to the Objective Control characteristic of MONSTER models in that unit.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19015,7 +19015,7 @@
         },
         {
           "Name": "Stave of Kurnous",
-          "Description": "Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12\" of the bearer (excluding Titanic units). Until the start of your next Command phase, each time a model in that unit makes an attack, on a Critical Wound, that attack has the [Precision] ability.",
+          "Description": "SPIRITSEER model only. In your Command phase, select one friendly WRAITH CONSTRUCT unit within 12\" of the bearer (excluding TITANIC units). Until the start of your next Command phase, each time a model in that unit makes an attack, on a Critical Wound, that attack has the [PRECISION] ability.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19028,7 +19028,7 @@
         },
         {
           "Name": "Rune of Mists",
-          "Description": "Spiritseer model only. In your Command phase, select one friendly Wraith Construct unit within 12\" of the bearer. Until the start of your next Command phase, each time a ranged attack targets that unit, unless the attacking model is within 18, models in that unit have the Benefit of Cover against that attack.",
+          "Description": "SPIRITSEER model only. In your Command phase, select one friendly WRAITH CONSTRUCT unit within 12\" of the bearer. Until the start of your next Command phase, each time a ranged attack targets that unit, unless the attacking model is within 18\", models in that unit have the Benefit of Cover against that attack.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19060,7 +19060,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Defend at All Costs",
-        "Text": "Each time a Dire Avenger, Guardian, Support Weapon or War Walker model from your army makes an attack, if that model's unit and/or the target unit are within range of one or more objective markers, add 1 to the Hit roll."
+        "Text": "Each time a DIRE AVENGER, GUARDIAN, SUPPORT WEAPON or WAR WALKER model from your army makes an attack, if that model's unit and/or the target unit are within range of one or more objective markers, add 1 to the Hit roll."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -19109,7 +19109,7 @@
           "CPCost": 1,
           "Phase": "Shooting",
           "When": "Your Shooting phase.",
-          "Target": "One Dire AVENGERS or GUARDIANS unit from your army that has not been selected to shoot this phase.",
+          "Target": "One DIRE AVENGERS or GUARDIANS unit from your army that has not been selected to shoot this phase.",
           "Effect": "Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability."
         },
         {
@@ -19125,7 +19125,7 @@
       "Enhancements": [
         {
           "Name": "Craftworld's Champion",
-          "Description": "Asuryani model only. The bearer has an Objective Control characteristic of 5.",
+          "Description": "ASURYANI model only. The bearer has an Objective Control characteristic of 5.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19138,7 +19138,7 @@
         },
         {
           "Name": "Ethereal Pathway",
-          "Description": "Asuryani model only. In the Deploy Armies step, select up to two Guardians units from your army. Models in the selected units have the Infiltrators ability.",
+          "Description": "ASURYANI model only. In the Deploy Armies step, select up to two GUARDIANS units from your army. Models in the selected units have the Infiltrators ability.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -19151,7 +19151,7 @@
         },
         {
           "Name": "Protector of the Paths",
-          "Description": "Asuryani model only. While the bearer is leading a Dire Avengers or Guardians unit, once per battle round, you can target the bearer's unit with the Fire Overwatch Stratagem for 0CP, and while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if the bearer's unit is within range of an objective marker you control.",
+          "Description": "ASURYANI model only. While the bearer is leading a DIRE AVENGERS or GUARDIANS unit, once per battle round, you can target the bearer's unit with the Fire Overwatch Stratagem for 0CP, and while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if the bearer's unit is within range of an objective marker you control.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
