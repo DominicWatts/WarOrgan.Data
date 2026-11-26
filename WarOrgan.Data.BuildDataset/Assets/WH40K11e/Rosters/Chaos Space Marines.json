@@ -23215,8 +23215,8 @@
         "ModelCompositions": [
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 1,
+              "Max": 1
             },
             "ModelName": "Warp Talon Champion",
             "StatlineRef": "Warp Talons",
@@ -23228,7 +23228,7 @@
                 ],
                 "Options": [
                   {
-                    "Max": 10,
+                    "Max": 1,
                     "Options": [
                       {
                         "Items": [
@@ -23243,8 +23243,8 @@
           },
           {
             "Limit": {
-              "Min": 5,
-              "Max": 10
+              "Min": 4,
+              "Max": 9
             },
             "ModelName": "Warp Talon",
             "StatlineRef": "Warp Talons",
@@ -23395,13 +23395,18 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 10,
-          "Cost": 290
+          "ModelCount": 5,
+          "Cost": 130
         },
         {
           "UnitCount": 1,
-          "ModelCount": 20,
+          "ModelCount": 10,
           "Cost": 290
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 130
         },
         {
           "UnitCount": 2,
@@ -23409,18 +23414,13 @@
           "Cost": 290
         },
         {
-          "UnitCount": 2,
-          "ModelCount": 20,
-          "Cost": 290
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 140
         },
         {
           "UnitCount": 3,
           "ModelCount": 10,
-          "Cost": 300
-        },
-        {
-          "UnitCount": 3,
-          "ModelCount": 20,
           "Cost": 300
         }
       ]
