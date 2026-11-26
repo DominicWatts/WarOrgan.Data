@@ -1615,8 +1615,8 @@
       "Name": "Medusa's Wrath",
       "Cost": 2,
       "Rule": {
-        "Title": "New Rule",
-        "Text": "Each time a friendly ADEPTUS ASTARTES unit is selected to shoot or selected to fight apply one of the following when resolving those attacks:\n\n\n▪ If that unit is within 6\" of a friendly Cannok Var/Iron Father Feirros unit you can:\n  ▪ Re-roll one hit roll.\n  ▪ Re-roll one wound roll.\n  ▪ Re-roll one damage roll.\n▪ Otherwise you can:\n  ▪ Re-roll one hit roll.\n  ▪ Or: Re-roll one wound roll.\n  ▪ Or: Re-roll one damage roll."
+        "Title": "Armoured Wrath",
+        "Text": "Each time a friendly ADEPTUS ASTARTES unit is selected to shoot or selected to fight apply one of the following when resolving those attacks:\n\n\n▪ If that unit is within 6\" of a friendly Caanok Var/Iron Father Feirros unit you can:\n  ▪ Re-roll one hit roll.\n  ▪ Re-roll one wound roll.\n  ▪ Re-roll one damage roll.\n▪ Otherwise you can:\n  ▪ Re-roll one hit roll.\n  ▪ Or: Re-roll one wound roll.\n  ▪ Or: Re-roll one damage roll."
       },
       "Tags": [
         "IRONSTORM DETACHMENT"
