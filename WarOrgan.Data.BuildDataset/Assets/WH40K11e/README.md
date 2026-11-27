@@ -125,7 +125,7 @@ The URL always targets the most recent published release. The downloaded ZIP sho
 ## Sources
 
 1. **BSData** — baseline at `f015101d4c495173283e1b97e9d59f2befb877ad`.
-2. **ListForge** — [catalogue export](https://files.data-ark.dev/wh40k-11e/) at `71860bdbe486ddeed7fd46e80df2735450dcc8a6`.
+2. **ListForge** — [catalogue export manifest](https://files.data-ark.dev/wh40k-11e/index.json) at `a7c8fc1caac956ad6ad78588616b01787ce514aa` (locally cached and checksum-verified on 27 November 2026).
 3. **GW**.
 4. **Faction packs** — [Warhammer Community updates](https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/).
 
