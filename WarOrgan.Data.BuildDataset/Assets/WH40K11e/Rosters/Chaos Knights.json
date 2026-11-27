@@ -286,6 +286,7 @@
                   "twin magna lascannon",
                   "acastus ironstorm missile pod",
                   "acastus autocannon",
+                  "acastus autocannon",
                   "titanic feet"
                 ],
                 "Options": [
@@ -303,13 +304,21 @@
                     ]
                   },
                   {
-                    "Max": 2,
+                    "Max": 1,
                     "Replaces": [
+                      "acastus autocannon",
                       "acastus autocannon"
                     ],
                     "Options": [
                       {
                         "Items": [
+                          "acastus autocannon",
+                          "lascannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lascannon",
                           "lascannon"
                         ]
                       }
@@ -675,6 +684,7 @@
         "Character",
         "Titanic",
         "Towering",
+        "Chaos",
         "Cerastus",
         "Knight Acheron",
         "Knight Character"
@@ -1666,6 +1676,379 @@
           "UnitCount": 2,
           "ModelCount": 1,
           "Cost": 415
+        }
+      ]
+    },
+    {
+      "Id": "CHAOS QUESTORIS KNIGHT MAGAERA",
+      "DisplayName": "Chaos Questoris Knight Magaera",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Questoris Knight Magaera",
+            "StatlineRef": "Chaos Questoris Knight Magaera",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "phased plasma-fusil",
+                  "lightning cannon",
+                  "reaper chainsword - strike",
+                  "reaper chainsword - sweep"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "reaper chainsword - strike",
+                      "reaper chainsword - sweep"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hekaton siege claw - strike",
+                          "hekaton siege claw - sweep",
+                          "twin rad cleanser"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Huntmaster (Aura)",
+          "Text": "While a friendly War Dog model is within 6\" of this model, ranged weapons equipped by that War Dog model have the [Assault] ability."
+        },
+        {
+          "Title": "Repair Auto-simulacra",
+          "Text": "At the end of your Command phase, this model regains up to D3 lost wounds."
+        },
+        {
+          "Title": "Damaged: 1-9 Wounds Remaining",
+          "Text": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Abhorrent",
+        "Knight Magaera",
+        "Knight Character",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6",
+        "Super-Heavy Walker"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Questoris Knight Magaera",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "26"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "lightning cannon",
+              "DisplayName": "Lightning cannon",
+              "Keywords": "Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "phased plasma-fusil",
+              "DisplayName": "Phased plasma-fusil",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin rad cleanser",
+              "DisplayName": "Twin rad cleanser",
+              "Keywords": "Anti-Infantry 2+, Ignores Cover, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "hekaton siege claw - strike",
+              "DisplayName": "Hekaton siege claw - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "20"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "8"
+                }
+              ]
+            },
+            {
+              "Id": "hekaton siege claw - sweep",
+              "DisplayName": "Hekaton siege claw - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - strike",
+              "DisplayName": "Reaper chainsword - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - sweep",
+              "DisplayName": "Reaper chainsword - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 375
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 390
         }
       ]
     },
@@ -5586,20 +5969,21 @@
             "Wargear": [
               {
                 "InitialWargear": [
+                  "graviton pulsar",
+                  "volkite veuglaire",
                   "armoured feet"
                 ],
                 "Options": [
                   {
-                    "Max": 2,
+                    "Max": 1,
+                    "Replaces": [
+                      "volkite veuglaire"
+                    ],
                     "Options": [
                       {
                         "Items": [
-                          "volkite veuglaire"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "conversion beam cannon"
+                          "siege claw",
+                          "rad cleanser"
                         ]
                       },
                       {
@@ -5614,8 +5998,36 @@
                       },
                       {
                         "Items": [
-                          "rad cleanser",
-                          "siege claw"
+                          "conversion beam cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "graviton pulsar"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "siege claw",
+                          "rad cleanser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lightning lock"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "conversion beam cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "volkite veuglaire"
                         ]
                       }
                     ]
