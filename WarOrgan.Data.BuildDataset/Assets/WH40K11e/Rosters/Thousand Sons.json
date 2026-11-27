@@ -9679,6 +9679,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Thousand Sons",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -9730,18 +9731,18 @@
           "Category": "Ritual of Regeneration Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Infantry/Mounted Thousand Sons Psyker</k> unit suffers a mortal wound.",
-          "Target": "That <k>Infantry/Mounted Thousand Sons Psyker</k> unit.",
-          "Effect": "Your unit has <b>Feel No Pain 5+</b> against <b>mortal wounds</b>."
+          "When": "Any phase, when a friendly INFANTRY/MOUNTED THOUSAND SONS PSYKER unit suffers a mortal wound.",
+          "Target": "That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.",
+          "Effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         },
         {
           "Name": "Multitudinous Limbs",
           "Category": "Ritual of Regeneration Stratagem",
           "CPCost": 1,
-          "Phase": "Shooting",
-          "When": "Your Movement phase, when a friendly <k>Infantry/Mounted Thousand Sons Psyker</k> unit is selected to make an <b>advance/fall back move</b>.",
-          "Target": "That <k>Infantry/Mounted Thousand Sons Psyker</k> unit.",
-          "Effect": "That move does not prevent your unit from being <b>eligible to start an action</b>."
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly INFANTRY/MOUNTED THOUSAND SONS PSYKER unit is selected to make an advance/fall back move.",
+          "Target": "That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.",
+          "Effect": "That move does not prevent your unit from being eligible to start an action."
         },
         {
           "Name": "Mutagenic Magicks",
@@ -9749,8 +9750,8 @@
           "CPCost": 1,
           "Phase": "Fight",
           "When": "Start of the Fight phase.",
-          "Target": "One friendly <b>engaged</b> <k>Thousand Sons Psyker</k> unit.",
-          "Effect": "Select one enemy unit engaged with your unit. Roll six D6:\r<ul><li>For each 4+, that enemy unit suffers 1 <b>mortal wound</b>.</li></ul>"
+          "Target": "One friendly engaged THOUSAND SONS PSYKER unit.",
+          "Effect": "Select one enemy unit engaged with your unit. Roll six D6:\n- For each 4+, that enemy unit suffers 1 mortal wound."
         }
       ],
       "Enhancements": [
@@ -9764,10 +9765,11 @@
             "Faction: Thousand Sons",
             "Psyker"
           ],
-          "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [
-            "Monster"
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
           ],
+          "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
@@ -9780,10 +9782,11 @@
             "Faction: Thousand Sons",
             "Psyker"
           ],
-          "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [
-            "Monster"
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
           ],
+          "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
       ],
@@ -9805,18 +9808,18 @@
           "Category": "Sekhetar Cohort Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>SEKHETAR ROBOTS</k> unit within 12\" of a friendly <k>Thousand Sons Psyker</k> unit starts an <b>action</b>.",
-          "Target": "That <k>SEKHETAR ROBOTS</k> unit.",
-          "Effect": "That <b>action</b> does not prevent your unit from being <b>eligible to shoot</b>."
+          "When": "Your Shooting phase, when a friendly SEKHETAR ROBOTS unit within 12\" of a friendly THOUSAND SONS PSYKER unit starts an action.",
+          "Target": "That SEKHETAR ROBOTS unit.",
+          "Effect": "That action does not prevent your unit from being eligible to shoot."
         },
         {
           "Name": "Warp Fields",
           "Category": "Sekhetar Cohort Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>SEKHETAR ROBOTS</k> unit within 12\" of a friendly <k>Thousand Sons Psyker</k> unit.",
-          "Target": "That <k>SEKHETAR ROBOTS</k> unit.",
-          "Effect": "Ranged attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have ‑1 to <b>wound rolls</b>."
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly SEKHETAR ROBOTS unit within 12\" of a friendly THOUSAND SONS PSYKER unit.",
+          "Target": "That SEKHETAR ROBOTS unit.",
+          "Effect": "Ranged attacks that target your unit with a S greater than your unit’s T have ‑1 to wound rolls."
         },
         {
           "Name": "Arcane Venting",
@@ -9824,8 +9827,8 @@
           "CPCost": 1,
           "Phase": "Movement",
           "When": "End of your Movement phase.",
-          "Target": "One friendly <k>SEKHETAR ROBOTS</k> unit.",
-          "Effect": "Select one <b>objective</b> your unit is controlling. That <b>objective</b> is <b>secured</b>."
+          "Target": "One friendly SEKHETAR ROBOTS unit.",
+          "Effect": "Select one objective your unit is controlling. That objective is secured."
         }
       ],
       "Enhancements": [
@@ -9883,27 +9886,27 @@
           "Category": "Servants of Change Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Monster Mutant</k> unit is <b>selected to move</b>.",
-          "Target": "That <k>Monster Mutant</k> unit.",
-          "Effect": "Your unit has <k>MOBILE</k>."
+          "When": "Your Movement phase, when a friendly MONSTER MUTANT unit is selected to move.",
+          "Target": "That MONSTER MUTANT unit.",
+          "Effect": "Your unit has MOBILE."
         },
         {
           "Name": "Prismatic Displacement",
           "Category": "Servants of Change Stratagem",
           "CPCost": 1,
-          "Phase": "Shooting",
-          "When": "Your Movement phase, when a friendly <k>Infantry/Mounted Mutant</k> unit is selected to make an <b>advance/fall back move</b>.",
-          "Target": "That <k>Infantry/Mounted Mutant</k> unit.",
-          "Effect": "\r<ul><li>Your unit’s ranged attacks have <k>[ASSAULT]</k> until the end of the turn.</li>\r<li>That move does not prevent your unit from being <b>eligible to shoot/declare a charge</b>.</li></ul>"
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly INFANTRY/MOUNTED MUTANT unit is selected to make an advance/fall back move.",
+          "Target": "That INFANTRY/MOUNTED MUTANT unit.",
+          "Effect": "- Your unit’s ranged attacks have [ASSAULT] until the end of the turn.\n- That move does not prevent your unit from being eligible to shoot/declare a charge."
         },
         {
           "Name": "Temporal Instability",
           "Category": "Servants of Change Stratagem",
           "CPCost": 1,
-          "Phase": "Shooting",
-          "When": "Your Movement phase, when a friendly <k>Infantry/Mounted Mutant</k> unit is selected to make an <b>advance/fall back move</b>.",
-          "Target": "That <k>Infantry/Mounted Mutant</k> unit.",
-          "Effect": "In a turn your unit made an <b>advance/fall-back move</b>, that move does not prevent your unit from being <b>eligible to start an action</b>."
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly INFANTRY/MOUNTED MUTANT unit is selected to make an advance/fall back move.",
+          "Target": "That INFANTRY/MOUNTED MUTANT unit.",
+          "Effect": "In a turn your unit made an advance/fall-back move, that move does not prevent your unit from being eligible to start an action."
         }
       ],
       "Enhancements": [
@@ -9916,6 +9919,19 @@
           "RequiredKeywords": [
             "Faction: Thousand Sons",
             "Tzaangor Shaman"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
+        },
+        {
+          "Name": "Thicket of Bladed Bone",
+          "Description": "SPAWN unit only. This unit’s melee attacks have:\n- +1 AP.\n- [CLEAVE 1].",
+          "Cost": 10,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Spawn"
           ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
