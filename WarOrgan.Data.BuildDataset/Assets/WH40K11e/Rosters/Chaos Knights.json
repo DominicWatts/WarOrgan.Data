@@ -6515,9 +6515,9 @@
           "Category": "Iconoclast Fiefdom Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Chaos Knights</k> unit is <b>destroyed</b> by an enemy unit.",
+          "When": "Any phase, when a friendly Chaos Knights unit is destroyed by an enemy unit.",
           "Target": "That enemy unit.",
-          "Effect": "That enemy unit is <b>marked</b> until the end of the battle.\r<ul><li>Friendly <k>Damned</k> units’ attacks that target a <b>marked</b> unit have <k>[Lethal Hits]</k>.</li></ul>"
+          "Effect": "That enemy unit is marked until the end of the battle.\n- Friendly Damned units’ attacks that target a marked unit have [Lethal Hits]."
         },
         {
           "Name": "Coursing Thralls",
@@ -6525,8 +6525,8 @@
           "CPCost": 1,
           "Phase": "Shooting",
           "When": "Start of your Shooting phase.",
-          "Target": "One friendly <k>Damned</k> unit.",
-          "Effect": "Select one <b>visible</b> enemy unit within 12\" of your unit. That enemy unit is <b>hunted</b>:\r<ul><li>While a unit is <b>hunted</b>, that unit has +6\" <b>detection range</b>.</li></ul>"
+          "Target": "One friendly Damned unit.",
+          "Effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit is hunted:\n- While a unit is hunted, that unit has +6\" detection range."
         },
         {
           "Name": "Dark Sacrifice",
@@ -6534,14 +6534,14 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Your Command phase.",
-          "Target": "One friendly <k>Damned</k> unit (excluding <k>Accursed Cultists</k> units) within 9\" of a friendly <k>Chaos Knights</k> model.",
-          "Effect": "Select one <k>Chaos Knights</k> model within 9\" of your unit and roll D3+3:\r<ul><li>Your <k>Damned</k> unit suffers that number of <b>mortal wounds</b>.</li>\r<li>That <k>Chaos Knights</k> model <b>heals</b> that number of wounds.</li></ul>"
+          "Target": "One friendly Damned unit (excluding Accursed Cultists units) within 9\" of a friendly Chaos Knights model.",
+          "Effect": "Select one Chaos Knights model within 9\" of your unit and roll D3+3:\n- Your Damned unit suffers that number of mortal wounds.\n- That Chaos Knights model heals that number of wounds."
         }
       ],
       "Enhancements": [
         {
           "Name": "Cruel Lashmaster",
-          "Description": "While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase.",
+          "Description": "CHAOS KNIGHTS model only. While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6554,7 +6554,7 @@
         },
         {
           "Name": "Iconoclast Idol",
-          "Description": "While a friendly DAMNED unit is within 6\" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP.",
+          "Description": "CHAOS KNIGHTS model only. While a friendly DAMNED unit is within 6\" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6573,7 +6573,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Tyrannical Court",
-        "Text": "Improve the Objective Control characteristic of CHAOS KNIGHT CHARACTER models from your army by 2. In addition, once per battle round, if your WARLORD is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
+        "Text": "Improve the Objective Control characteristic of CHAOS KNIGHTS CHARACTER models from your army by 2. In addition, once per battle round, if your WARLORD is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -6683,7 +6683,6 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [
-            "War Dog",
             "War Dog"
           ],
           "RequiredAbilities": []
@@ -6722,7 +6721,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Marked Prey",
-        "Text": "At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.\n\n\n**Keywords**\nWhile using the Houndpack Lance Detachment, the following rules apply:\n\n\n- Your army must include 3 or more WAR DOG units.\n- WAR DOG units from your army have the BATTLELINE keyword.\n- When mustering your army, select 3 WAR DOG units from your army. Until the end of the battle, those units have the CHARACTER keyword.*\n\n\n* Designer's Note: *This means that the selected units can be given Enhancements and one of them can be selected as your* WARLORD."
+        "Text": "At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.\n\nKeywords\nWhile using the Houndpack Lance Detachment, the following rules apply:\n- Your army must include 3 or more WAR DOG units.\n- WAR DOG units from your army have the BATTLELINE keyword.\n- When mustering your army, select 3 WAR DOG units from your army. Until the end of the battle, those units have the CHARACTER keyword.\n\nDesigner's Note: This means that the selected units can be given Enhancements and one of them can be selected as your WARLORD."
       },
       "ForceDispositions": [
         "Reconnaissance"
