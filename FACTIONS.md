@@ -26,7 +26,7 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 | Raven Guard | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
 | Salamanders | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
 | Space Wolves | 20/20 (100%) | 14/14 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 7/11 (64%) |
-| Ultramarines | 11/11 (100%) | 5/5 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 10/12 (83%) |
+| Ultramarines | 8/8 (100%) | 8/8 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 10/12 (83%) |
 | White Scars | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
 | Chaos Space Marines | 58/58 (100%) | 26/26 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 3/13 (23%) |
 | Chaos Daemons | 56/56 (100%) | 12/12 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 3/9 (33%) |
@@ -44,6 +44,9 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 
 ## Status notes
 
+- Raven Guard, Salamanders, Ultramarines and White Scars: 1.5.35 audits the chapter rosters against current GW data (issues 156, 164, 179, 187). Ultramarines keeps all 16 published unit IDs, split between 8 current and 8 Legends records.
+- T'au Empire: 1.5.35 lets every Crisis model select its own drone loadout and gives Fireknife and Starscythe models both default guns with the source-supported swap (issues 320, 322). Other T'au "up to two" options that are still single-select are tracked in issue 321.
+- Drukhari: 1.5.35 audits Spectacle of Spite, Exhibition of Slaughter, Kabalite Agonysts and Tools of Torment (issue 242).
 - T'au Empire: 1.5.34 lets Crisis battlesuits take two different drones (issue 320). Other T'au "up to two" options that are still single-select are tracked in issue 321.
 - Imperial Fists and Iron Hands: 1.5.34 audits both rosters (issues 140, 148). Pedro Kantor is a Legendary proxy in GW's app and now sits in Imperial Fists Legends.
 - Chaos Space Marines: 1.5.33 completes the faction audit (issues 190-196): army rules, all 17 detachments, roster, points, wargear and Leader/Support links match GW, and Fabius Bile is added. Pactbound Zealots mark selection (issue 316), the Cults of the Dark Gods points cap (issue 315) and enhancement-granted Warp Talons attachments (issue 317) are blocked on owner decisions.

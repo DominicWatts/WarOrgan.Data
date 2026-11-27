@@ -2,7 +2,13 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.34.0
+## Coverage in 1.5.35.0
+
+- 1.5.35 T'au Empire: every Crisis model can select its own drone loadout, and Fireknife and Starscythe models start with both guns before optionally swapping one for a second copy of the other.
+
+- 1.5.35 Raven Guard, Salamanders, Ultramarines and White Scars: the chapter rosters are audited against current GW data. Aethon Shaan, Kayvaan Shrike, Vulkan He’stan and Suboden Khan are corrected; Ultramarines retains all 16 published unit IDs while Captain Sicarius, Lieutenant Titus and Uriel Ventris move to Legends.
+
+- 1.5.35 Drukhari: Spectacle of Spite, Exhibition of Slaughter, Kabalite Agonysts and Tools of Torment are audited against the ordered sources.
 
 - 1.5.34 T'au Empire: each Crisis Fireknife, Starscythe and Sunforge battlesuit can take up to two different drones (gun, marker or shield drone), picked as one combined choice per model.
 
