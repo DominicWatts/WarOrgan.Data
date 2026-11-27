@@ -7042,14 +7042,12 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [
-            "War Dog"
-          ],
+          "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Octagram of Conjuration",
-          "Description": "While a friendly WAR DOG MODEL IS WITHIN 9” OF THIS MODEL, AFTER THAT WAR DOG model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test.",
+          "Description": "The bearer has the following ability:\n\nOctagram of Conjuration (Aura): While a friendly WAR DOG model is within 9” of this model, after that WAR DOG model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test.",
           "Cost": 40,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7081,9 +7079,7 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [
-            "War Dog"
-          ],
+          "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
       ],
@@ -7105,27 +7101,27 @@
           "Category": "Bastions of Tyranny Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Knight Tyrant</k> unit is selected to make a <b>fall-back move</b>.",
-          "Target": "That <k>Knight Tyrant</k> unit.",
-          "Effect": "That move does not prevent your unit from being <b>eligible to shoot</b>."
+          "When": "Your Movement phase, when a friendly KNIGHT TYRANT unit is selected to make a fall-back move.",
+          "Target": "That KNIGHT TYRANT unit.",
+          "Effect": "That move does not prevent your unit from being eligible to shoot."
         },
         {
           "Name": "Intimidating Reminder",
           "Category": "Bastions of Tyranny Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Knight Tyrant</k> unit has shot.",
-          "Target": "That <k>Knight Tyrant</k> unit.",
-          "Effect": "Select one enemy unit hit by those attacks. That enemy unit is <b>suppressed</b> until the start of your next Command phase: \r<ul><li>While a unit is <b>suppressed</b>, that unit’s attacks have -1 to <b>hit rolls</b>.</li></ul>"
+          "When": "Your Shooting phase, when a friendly KNIGHT TYRANT unit has shot.",
+          "Target": "That KNIGHT TYRANT unit.",
+          "Effect": "Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next Command phase:\n\n• While a unit is suppressed, that unit’s attacks have -1 to hit rolls."
         },
         {
           "Name": "Rune-cursed Stronghold",
           "Category": "Bastions of Tyranny Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Knight Tyrant</k> unit suffers a <b>mortal wound</b>.",
-          "Target": "That <k>Knight Tyrant</k> unit.",
-          "Effect": "Your unit has <b>Feel No Pain 5+</b> against <b>mortal wounds</b>."
+          "When": "Any phase, when a friendly KNIGHT TYRANT unit suffers a mortal wound.",
+          "Target": "That KNIGHT TYRANT unit.",
+          "Effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         }
       ],
       "Enhancements": [
@@ -7165,6 +7161,9 @@
         "Title": "Scenting Fear",
         "Text": "(Once per battle round, per army) In your Shooting phase, you can select one visible enemy unit within 12\" of a friendly WAR DOG unit. That enemy unit has +6\" detection range.\nThis detachment has the WAR DOGS tag and cannot be taken with another WAR DOGS detachment."
       },
+      "Tags": [
+        "WAR DOGS"
+      ],
       "ForceDispositions": [
         "Reconnaissance"
       ],
@@ -7174,48 +7173,52 @@
           "Category": "Hunting Warpack Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when an enemy unit targets a friendly <k>War Dog</k> unit.",
-          "Target": "That <k>War Dog</k> unit.",
-          "Effect": "Your unit has <b>Feel No Pain 5+</b>."
+          "When": "Fight phase, when an enemy unit targets a friendly WAR DOG unit.",
+          "Target": "That WAR DOG unit.",
+          "Effect": "Your unit has Feel No Pain 5+."
         },
         {
           "Name": "Leash of the Masters",
           "Category": "Hunting Warpack Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>WAR DOG</k> unit has shot.",
-          "Target": "That <k>War Dog</k> unit.",
-          "Effect": "Those attacks do not prevent your unit from being <b>eligible to start an action</b>."
+          "When": "Your Shooting phase, when a friendly WAR DOG unit has shot.",
+          "Target": "That WAR DOG unit.",
+          "Effect": "Those attacks do not prevent your unit from being eligible to start an action."
         },
         {
           "Name": "Stalking Focus",
           "Category": "Hunting Warpack Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>War Dog</k> unit within range of an <b>objective</b>.",
-          "Target": "That <k>War Dog</k> unit.",
-          "Effect": "Ranged attacks that target your unit have ‑1 <b>AP</b> until that enemy unit has attacked."
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly WAR DOG unit within range of an objective.",
+          "Target": "That WAR DOG unit.",
+          "Effect": "Ranged attacks that target your unit have ‑1 AP until that enemy unit has attacked."
         }
       ],
       "Enhancements": [
         {
           "Name": "Snarling Rivalry",
-          "Description": "This unit’s ranged attacks have [IGNORES COVER].",
+          "Description": "EXECUTIONER unit only. Limit 3. This unit’s ranged attacks have [IGNORES COVER].",
           "Cost": 10,
           "Features": "Upgrade",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Executioner"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Soul-spoor Auspicator",
-          "Description": "This unit’s ranged attacks have +6\" R.",
+          "Description": "HUNTSMAN unit only. Limit 3. This unit’s ranged attacks have +6\" R.",
           "Cost": 15,
           "Features": "Upgrade",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Huntsman"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
