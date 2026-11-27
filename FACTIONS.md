@@ -21,7 +21,7 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 | Blood Angels | 14/14 (100%) | 8/8 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 6/9 (67%) |
 | Dark Angels | 16/16 (100%) | 2/2 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 7/10 (70%) |
 | Deathwatch | 10/10 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ❌ | ✅ | 8/11 (73%) |
-| Imperial Fists | 3/3 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/9 (89%) |
+| Imperial Fists | 2/2 (100%) | 1/1 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/9 (89%) |
 | Iron Hands | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/9 (89%) |
 | Raven Guard | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
 | Salamanders | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
@@ -36,14 +36,16 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 | Thousand Sons | 29/29 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 2/7 (29%) |
 | World Eaters | 25/25 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
 | Aeldari | 57/57 (100%) | 21/21 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 6/8 (75%) |
-| Drukhari | 23/23 (100%) | 7/7 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
+| Drukhari | 23/23 (100%) | 7/7 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
 | Leagues of Votann | 22/22 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 3/8 (38%) |
 | Necrons | 52/52 (100%) | 12/12 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/8 (25%) |
 | Orks | 55/55 (100%) | 15/15 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 11/12 (92%) |
-| T'au Empire | 43/43 (100%) | 20/20 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 9/9 (100%) |
+| T'au Empire | 43/43 (100%) | 20/20 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 9/11 (82%) |
 
 ## Status notes
 
+- T'au Empire: 1.5.34 lets Crisis battlesuits take two different drones (issue 320). Other T'au "up to two" options that are still single-select are tracked in issue 321.
+- Imperial Fists and Iron Hands: 1.5.34 audits both rosters (issues 140, 148). Pedro Kantor is a Legendary proxy in GW's app and now sits in Imperial Fists Legends.
 - Chaos Space Marines: 1.5.33 completes the faction audit (issues 190-196): army rules, all 17 detachments, roster, points, wargear and Leader/Support links match GW, and Fabius Bile is added. Pactbound Zealots mark selection (issue 316), the Cults of the Dark Gods points cap (issue 315) and enhancement-granted Warp Talons attachments (issue 317) are blocked on owner decisions.
 - Chaos Daemons: 1.5.33 completes the faction audit (issues 198-202) against GW and faction pack 1.2. The four god-specific Soul Grinders are kept although GW has a single datasheet, so its third-copy surcharge counts each god separately (issue 201).
 - Aeldari: 1.5.32 completes the detachment audit (issues 234-236): all 15 detachments, their force dispositions, enhancements and stratagems match GW. The roster and Leader/Support audits remain open (issues 237, 238).

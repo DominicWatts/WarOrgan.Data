@@ -2,7 +2,13 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.33.0
+## Coverage in 1.5.34.0
+
+- 1.5.34 T'au Empire: each Crisis Fireknife, Starscythe and Sunforge battlesuit can take up to two different drones (gun, marker or shield drone), picked as one combined choice per model.
+
+- 1.5.34 Imperial Fists and Iron Hands: Pedro Kantor, a Legendary proxy in GW's app, moves unchanged to a new Imperial Fists Legends roster. Caanok Var's Cold and Calculating text and Iron Father Feirros's keyword and Master of the Forge layout are fixed.
+
+- 1.5.34 Drukhari: Klaivex gains its default klaive, and Master Repugnomancer, Towering Arrogance and Pharmacophex wording is corrected.
 
 - 1.5.33 completes the Chaos Space Marines audit: army rules, all 17 detachments, the roster and Leader/Support links match GW. Cults of the Dark Gods is an army rule, and Fabius Bile is added. Pactbound Zealots lists what each mark grants, and its enhancements say which mark they need (marks cannot be chosen yet, issue 316). Amulet of Tainted Vigour, Warp-fuelled Thrusters and Sorrowscent Vulture can now be taken, the other Chaos Cult enhancements are limited to Dark Apostles and Damned characters, and Traitor Guardsmen Squads gain Battleline in Chaos Cult. The Cults of the Dark Gods points cap (issue 315) and enhancement-granted Warp Talons attachments (issue 317) are rule text only.
 
