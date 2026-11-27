@@ -7432,7 +7432,8 @@
         "Character",
         "Infantry",
         "Grenades",
-        "Chaos"
+        "Chaos",
+        "Dark Apostle"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -7667,7 +7668,9 @@
             },
             "ModelName": "Mindwitch",
             "StatlineRef": "Mindwitch",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -7686,7 +7689,9 @@
             },
             "ModelName": "Cult Demagogue",
             "StatlineRef": "Cult Demagogue",
-            "Keywords": [],
+            "Keywords": [
+              "Cult Demagogue"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -8812,6 +8817,311 @@
           "UnitCount": 2,
           "ModelCount": 1,
           "Cost": 350
+        }
+      ]
+    },
+    {
+      "Id": "FABIUS BILE",
+      "DisplayName": "Fabius Bile",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Fabius Bile",
+            "StatlineRef": "Fabius Bile",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "xyclos needler",
+                  "the chirurgeon",
+                  "rod of torment"
+                ],
+                "Options": []
+              }
+            ]
+          },
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Surgeon Acolyte",
+            "StatlineRef": "Surgeon Acolyte",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "surgeon acolyte's tools"
+                ],
+                "Options": []
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Enhanced Warriors",
+          "Text": "If this unit is attached to a unit at the start of the battle, until the end of the battle, add 1 to the Strength characteristic of melee weapons equipped by Bodyguard models in that unit and add 1 to the Toughness characteristic of Bodyguard models in that unit."
+        },
+        {
+          "Title": "Surgeon Acolyte",
+          "Text": "Once per turn, when an attack is allocated to a model in this unit, if this unit contains FABIUS BILE, you can change the Damage characteristic of that attack to 0."
+        },
+        {
+          "Title": "Chirurgeon",
+          "Text": "The first time this unit’s FABIUS BILE model is destroyed, at the end of the phase, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with its full wounds remaining."
+        }
+      ],
+      "LeaderInfo": {
+        "UnitNames": [
+          "ACCURSED CULTISTS",
+          "CHOSEN",
+          "CULTIST MOB",
+          "CULTIST MOB WITH FIREARMS",
+          "LEGIONARIES",
+          "NEGAVOLT CULTISTS",
+          "RED CORSAIRS RAIDERS"
+        ],
+        "Features": 0
+      },
+      "Infos": [],
+      "Keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Chaos",
+        "Chaos Undivided",
+        "Fabius Bile"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 5+",
+        "Leader"
+      ],
+      "FactionKeywords": [
+        "Heretic Astartes"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Fabius Bile",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "5"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "40"
+            }
+          ],
+          "Features": "None"
+        },
+        {
+          "StatName": "Surgeon Acolyte",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "5"
+            },
+            {
+              "Id": "Sv",
+              "Value": "6+"
+            },
+            {
+              "Id": "W",
+              "Value": "1"
+            },
+            {
+              "Id": "LD",
+              "Value": "7+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "xyclos needler",
+              "DisplayName": "Xyclos needler",
+              "Keywords": "Anti-Infantry 2+, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "rod of torment",
+              "DisplayName": "Rod of Torment",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "6"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "surgeon acolyte's tools",
+              "DisplayName": "Surgeon Acolyte's tools",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "5+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "the chirurgeon",
+              "DisplayName": "The Chirurgeon",
+              "Keywords": "Extra Attacks",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "2+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 2,
+          "Cost": 110
         }
       ]
     },
@@ -15481,7 +15791,9 @@
             },
             "ModelName": "Garlon Souleater",
             "StatlineRef": "Garlon Souleater",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -20838,7 +21150,9 @@
             },
             "ModelName": "Aspiring Sorcerer",
             "StatlineRef": "Aspiring Sorcerer",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -23568,6 +23882,7 @@
       "Keywords": [
         "Infantry",
         "Character",
+        "Grenades",
         "Chaos",
         "Warpsmith"
       ],
