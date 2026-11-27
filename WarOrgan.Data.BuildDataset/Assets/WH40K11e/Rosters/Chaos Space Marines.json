@@ -24773,7 +24773,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Desperate Devotion",
-        "Text": "Each time a DAMNED unit from your army with the Dark Pacts ability is selected to make a Normal or Advance move or declare a charge (excluding units that arrived from Reserves this turn) it can make a Desperate Pact. If it does, until the end of the phase, add 2\" to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit.\n\n\nDesperate Pacts\nEach time a unit makes a Desperate Pact, it must first take a Leadership test; if that test is failed, the unit suffers D3 mortal wounds before any effects of the Desperate Pact are resolved."
+        "Text": "Each time a DAMNED unit from your army with the Dark Pacts ability is selected to make a Normal or Advance move or declare a charge (excluding units that arrived from Reserves this turn), it can make a Desperate Pact (see below). If it does, until the end of the phase, add 2\" to the Move characteristic of models in that unit and add 2 to Charge rolls made for that unit.\n\n\nDesperate Pacts\nEach time a unit makes a Desperate Pact, it must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds before any effects of that Desperate Pact are resolved.\n\n\nKEYWORDS\n- TRAITOR GUARDSMEN SQUAD units from your army gain the BATTLELINE keyword."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -24840,10 +24840,10 @@
           "Description": "In your Command phase, you can return up to D3 destroyed DAMNED models (excluding CHARACTER models) to the bearer's unit.",
           "Cost": 20,
           "Features": "None",
-          "RequiredUnitNames": [],
-          "RequiredKeywords": [
-            "Dark Apostle"
+          "RequiredUnitNames": [
+            "DARK APOSTLE"
           ],
+          "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -24853,7 +24853,14 @@
           "Description": "While the bearer's unit is below its Starting Strength, add 1 to the Strength characteristic of melee weapons equipped by DAMNED models in that unit, and while that unit is Below Half-Strength, add 1 to the Attacks characteristic of those weapons as well.",
           "Cost": 25,
           "Features": "None",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "DARK APOSTLE",
+            "CULTIST FIREBRAND",
+            "DARK COMMUNE",
+            "TRAITOR ENFORCER",
+            "RENEGADE ENFORCER",
+            "ROGUE PSYKER"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -24864,7 +24871,14 @@
           "Description": "If every other model in the bearer's unit (excluding Dark Disciples) is DAMNED, you can re-roll Advance and Charge rolls made for the bearer's unit.",
           "Cost": 30,
           "Features": "None",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "DARK APOSTLE",
+            "CULTIST FIREBRAND",
+            "DARK COMMUNE",
+            "TRAITOR ENFORCER",
+            "RENEGADE ENFORCER",
+            "ROGUE PSYKER"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -24875,14 +24889,37 @@
           "Description": "While the bearer is leading a unit with the Scouts 6” ability, every model in the bearer’s unit has the Scouts 6” ability.",
           "Cost": 10,
           "Features": "None",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "DARK APOSTLE",
+            "CULTIST FIREBRAND",
+            "DARK COMMUNE",
+            "TRAITOR ENFORCER",
+            "RENEGADE ENFORCER",
+            "ROGUE PSYKER"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
       ],
-      "Effects": []
+      "Effects": [
+        {
+          "AffectedUnits": [
+            "TRAITOR GUARDSMEN SQUAD"
+          ],
+          "DatasheetAdjustments": [
+            {
+              "Target": "Keywords",
+              "Type": "Add",
+              "Scope": "Unit",
+              "Values": [
+                "Battleline"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "Name": "Soulforged Warpack",
@@ -24988,7 +25025,7 @@
         },
         {
           "Name": "Tempting Addendum",
-          "Description": "Each time a HERETIC ASTARTES DAEMON VEHICLE from your army invokes its contract while within 3\" of the bearer:\n- If it suffers one or more mortal wounds as a result of that Dark Pact, add 1 to the number of mortal wounds it suffers.\n- Until the end of the phase, each time a model in that unit makes an attack, you can re-roll the Hit roll.",
+          "Description": "Each time a HERETIC ASTARTES DAEMON VEHICLE unit from your army invokes its contract while within 3\" of the bearer:\n- If it suffers one or more mortal wounds as a result of that Dark Pact, add 1 to the number of mortal wounds it suffers.\n- Until the end of the phase, each time a model in that unit makes an attack, you can re-roll the Hit roll.",
           "Cost": 40,
           "Features": "None",
           "RequiredUnitNames": [],
