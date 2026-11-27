@@ -50,6 +50,7 @@ Faction work happens on four long-lived group branches, one per group. Issues ke
 ## Rules
 
 - **Source order: BSData → ListForge → GW → Faction packs.** Use BSData as the baseline, apply later sources where they cover the same 11th Edition records, and carry forward existing fixes and records without a replacement. Flag ambiguous matches and conflicts with checked data. Routine online audits are optional.
+- Faction packs are cached in `FactionPack/` in the main checkout (gitignored): each pack's PDF, a `pdftotext -layout` `.txt` copy to read and grep, and `index.json` with title, version, legal-from date, last-updated date and source URL. Refresh with `python3 tools/update-faction-packs.py` (needs `pdftotext`); it fetches only new or changed packs and removes ones no longer listed. Before applying a pack, compare its date with the GW app data (`publication.errataDate` in `GWSource/dump.json`): a pack older than the GW data can roll it back.
 - Preserve the dataset ID and published unit IDs. Ask before changing the data model or checked data: Genestealer Cults, Tyranids, and the Tyranid and Astra Militarum allies. Keep UTF-8, two-space indentation and existing line endings.
 - Skip Boarding Actions. Preserve intentional empty entries. Keep unsupported effects as rule text.
 - Branches: `faction/<group>` for faction data (see [Faction groups](#faction-groups)), `chore/<topic>` for tools and docs, `core/<topic>` for shared dataset rules, and `allies/<owner>-<ally>` for cross-faction links.
@@ -75,4 +76,4 @@ Faction work happens on four long-lived group branches, one per group. Issues ke
 - Import rule text as plain text. Keep the words inside formatting tags and preserve list breaks. WarOrgan shows raw tags literally. The builder normalizes known tags in exported rule text as a fallback.
 - Other agents may be working in the main checkout. Use `git worktree` for your own branches, never a bare `git stash`, and leave their uncommitted files alone. A worktree is only another checkout of the existing shared branch; do not invent a replacement branch for it.
 - GitHub issues are the owner's bug reports and the task list: fix on the right branch, comment with the commit and test version, and close only when they agree.
-- `CLAUDE.md`, `CODEX.md` and `AGENTS.md` are local-only (excluded in `.git/info/exclude`) and simply point here. `bsdata.zip` in the repository root is the pinned BSData dump (gitignored).
+- `CLAUDE.md`, `CODEX.md` and `AGENTS.md` are local-only (excluded in `.git/info/exclude`) and simply point here. `bsdata.zip` in the repository root is the pinned BSData dump and `FactionPack/` the faction pack cache (both gitignored).
