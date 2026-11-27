@@ -3423,7 +3423,7 @@
                     ]
                   },
                   {
-                    "Max": 1,
+                    "Max": 3,
                     "Options": [
                       {
                         "Items": [
@@ -3504,7 +3504,7 @@
                     ]
                   },
                   {
-                    "Max": 2,
+                    "Max": 3,
                     "Options": [
                       {
                         "Items": [
@@ -3835,7 +3835,7 @@
                     ]
                   },
                   {
-                    "Max": 1,
+                    "Max": 3,
                     "Options": [
                       {
                         "Items": [
@@ -3916,7 +3916,7 @@
                     ]
                   },
                   {
-                    "Max": 2,
+                    "Max": 3,
                     "Options": [
                       {
                         "Items": [
@@ -4235,7 +4235,7 @@
                 ],
                 "Options": [
                   {
-                    "Max": 1,
+                    "Max": 3,
                     "Options": [
                       {
                         "Items": [
@@ -4303,7 +4303,7 @@
                 ],
                 "Options": [
                   {
-                    "Max": 2,
+                    "Max": 3,
                     "Options": [
                       {
                         "Items": [
