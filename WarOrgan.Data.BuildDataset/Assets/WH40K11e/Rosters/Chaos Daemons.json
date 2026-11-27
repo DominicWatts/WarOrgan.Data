@@ -13195,7 +13195,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "First Prince of Chaos",
-        "Text": "Abilities for this Detachment are linked to the relevant units."
+        "Text": "If your Army Faction is LEGIONES DAEMONICA, you can use this Shadow Legion Detachment rule.\n\nTHRALLS OF THE FIRST PRINCE\nWhen mustering your army, you cannot include any DAEMON PRINCE, DAEMON PRINCE WITH WINGS or EPIC HERO units (excluding BE’LAKOR), but you can include the following HERETIC ASTARTES units:\n- CHAOS LORD\n- CHAOS LORD IN TERMINATOR ARMOUR\n- CHAOS LORD WITH JUMP PACK\n- CHAOS TERMINATOR SQUAD\n- CHOSEN\n- DAMNED units\n- DARK APOSTLE\n- HAVOCS\n- LEGIONARIES\n- MASTER OF POSSESSION\n- POSSESSED\n- RAPTORS\n- SORCERER\n- SORCERER IN TERMINATOR ARMOUR\n- WARP TALONS\n\nThe combined points value of such units depends on your battle size, as shown below.\n- Incursion: Up to 500 pts\n- Strike Force: Up to 1000 pts\n- Onslaught: Up to 1500 pts\n\nKEYWORDS\nBE’LAKOR and HERETIC ASTARTES units from your army gain the SHADOW LEGION and UNDIVIDED keywords.\n\nLEGIONES DAEMONICA units from your army gain the SHADOW LEGION keyword."
       },
       "ForceDispositions": [
         "Purge the Foe"
