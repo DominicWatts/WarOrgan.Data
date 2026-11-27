@@ -8548,8 +8548,11 @@
       "Cost": 1,
       "Rule": {
         "Title": "Verminous Haze",
-        "Text": "In the Declare Battle Formations step, you can select up to two friendly PLAGUE MARINES units. Those units have Infiltrators."
+        "Text": "In the Declare Battle Formations step, you can select up to two friendly PLAGUE MARINES units. Those units have Infiltrators.\n\nThis detachment has the FLYBLOWN tag and cannot be taken with another FLYBLOWN detachment."
       },
+      "Tags": [
+        "FLYBLOWN"
+      ],
       "ForceDispositions": [
         "Reconnaissance"
       ],
@@ -8559,18 +8562,18 @@
           "Category": "Flyblown Host Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Plague Marines</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Plague Marines</k> unit.",
-          "Effect": "Your unit’s ranged attacks have <k>[Close‑quarters]</k>."
+          "When": "Your Shooting phase, when a friendly Plague Marines unit is selected to shoot.",
+          "Target": "That Plague Marines unit.",
+          "Effect": "Your unit’s ranged attacks have [Close‑quarters]."
         },
         {
           "Name": "Droning Horror",
           "Category": "Flyblown Host Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Plague Marines</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Plague Marines</k> unit.",
-          "Effect": "Your unit’s ranged attacks:\r<ul><li>Can re‑roll <b>hit rolls</b> of 1.</li>\r<li>That target a unit within half range, can re‑roll <b>wound rolls</b> of 1.</li></ul>"
+          "When": "Your Shooting phase, when a friendly Plague Marines unit is selected to shoot.",
+          "Target": "That Plague Marines unit.",
+          "Effect": "Your unit’s ranged attacks:\n- Can re‑roll hit rolls of 1.\n- That target a unit within half range, can re‑roll wound rolls of 1."
         },
         {
           "Name": "Nauseating Paroxysms",
@@ -8578,14 +8581,14 @@
           "CPCost": 1,
           "Phase": "Fight",
           "When": "Start of the Fight phase",
-          "Target": "One friendly <b>engaged</b> <k>Plague Marines</k> unit.",
-          "Effect": "Select one enemy unit <b>engaged</b> with your unit. That enemy unit makes a <b>battle‑shock roll</b>, with -1 to that <b>battle‑shock roll</b>."
+          "Target": "One friendly engaged Plague Marines unit.",
+          "Effect": "Select one enemy unit engaged with your unit. That enemy unit makes a battle‑shock roll, with -1 to that battle‑shock roll."
         }
       ],
       "Enhancements": [
         {
           "Name": "Insectile Murmuration",
-          "Description": "<k>Plague Marines</k> unit only. When this unit’s attacks target a unit within <b>Contagion Range</b> of a friendly unit, those attacks can re‑roll <b>wound rolls</b> of 1.",
+          "Description": "Plague Marines unit only. When this unit’s attacks target a unit within Contagion Range of a friendly unit, those attacks can re‑roll wound rolls of 1.",
           "Cost": 15,
           "Features": "Upgrade",
           "RequiredUnitNames": [
@@ -8598,7 +8601,7 @@
         },
         {
           "Name": "Plagueveil",
-          "Description": "<k>Plague Marines</k> unit only. This unit has -3\" <b>detection range</b>.",
+          "Description": "Plague Marines unit only. This unit has -3\" detection range.",
           "Cost": 15,
           "Features": "Upgrade",
           "RequiredUnitNames": [
@@ -8695,7 +8698,7 @@
         },
         {
           "Name": "Furnace of Plagues",
-          "Description": "Add 1 to the Strength and Attacks characteristics of the bearer's melee weapons, and the bearer's melee weapons have the Devastating Wounds abilty.",
+          "Description": "Add 1 to the Strength and Attacks characteristics of the bearer's melee weapons, and the bearer's melee weapons have the [Devastating Wounds] ability.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8740,7 +8743,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Numberless Horde",
-        "Text": "In your Command phase in each of the following battle rounds, depending on your chosen battle size, add a new POXWALKERS unit with a Starting Strength of 10 to your army, in Strategic Reserves.\n\nIncursion - Battle Rounds 2,3\nStrike Force - Battle Rounds 2,3,4\nOnslaught - Battle Round 2,3,4,5\n\nPOXWALKERS UNIT FROM YOUR ARMY GAIN THE BATTLELINE keyword."
+        "Text": "In your Command phase in each of the following battle rounds, depending on your chosen battle size, add a new POXWALKERS unit with a Starting Strength of 10 to your army, in Strategic Reserves.\n\nIncursion - Battle Rounds 2, 3\nStrike Force - Battle Rounds 2, 3, 4\nOnslaught - Battle Rounds 2, 3, 4, 5\n\nPOXWALKERS units from your army gain the BATTLELINE keyword."
       },
       "ForceDispositions": [
         "Disruption"
@@ -8817,7 +8820,7 @@
         },
         {
           "Name": "Talisman of Burgeoning",
-          "Description": "While the bearer is leading a POXWALKERS UNIT, ADD 1 TO THE TOUGHNESS CHARACTERISTIC OF POXWALKERS models in that unit.",
+          "Description": "While the bearer is leading a unit, add 1 to the Toughness characteristic of POXWALKERS models in that unit.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8939,7 +8942,7 @@
         },
         {
           "Name": "Vile Vigour",
-          "Description": "While the bearer is leading a unit, add 1\" to the Movement characteristics of models in that unit and you can re-roll Advance rolls made for that unit.",
+          "Description": "While the bearer is leading a unit, add 1\" to the Movement characteristic of models in that unit and you can re-roll Advance rolls made for that unit.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8952,7 +8955,7 @@
         },
         {
           "Name": "Warprot Talisman",
-          "Description": "Once per battle, at the end of your opponent's turn, if the bearer's unit is not within Engagement Range of one or more enemy units, you can remove it from the battle field and place it into Strategic Reserves.",
+          "Description": "Once per battle, at the end of your opponent's turn, if the bearer's unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -8984,7 +8987,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Miasmic Bombardment",
-        "Text": "At the start of the battle round, select a number of enemy units more than 12\" away from every model in your army that is on the battle field. Until the end of the battle round, those enemy units are Afflicted. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\nIncursion - 1 Unit\nStrike Force - 2 Units\nOnslaught - 3 Units"
+        "Text": "At the start of the battle round, select a number of enemy units more than 12\" away from every model from your army that is on the battlefield. Until the end of the battle round, those enemy units are Afflicted. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\nIncursion - 1 Unit\nStrike Force - 2 Units\nOnslaught - 3 Units"
       },
       "ForceDispositions": [
         "Purge the Foe"
@@ -9048,7 +9051,7 @@
       "Enhancements": [
         {
           "Name": "Eye of Affliction",
-          "Description": "Ranged weapons equipped by model's in the bearer's unit have the [Ignores Cover] ability while targeting an Afflicted enemy unit.",
+          "Description": "Ranged weapons equipped by models in the bearer's unit have the [Ignores Cover] ability while targeting an Afflicted enemy unit.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9087,7 +9090,7 @@
         },
         {
           "Name": "Tendrilous Emissions",
-          "Description": "While the bearer is within 3\" of one or more friendly DEATH GUARD VEHICLE UNITS, THE BEARER HAS THE LONE OPERATIVE ABILITY, AND EACH TIME ONE OF THOSE VEHICLE units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1.",
+          "Description": "While the bearer is within 3\" of one or more friendly DEATH GUARD VEHICLE units, the bearer has the Lone Operative ability, and each time one of those VEHICLE units makes a ranged attack that targets an enemy unit visible to the bearer, re-roll a Wound roll of 1.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
