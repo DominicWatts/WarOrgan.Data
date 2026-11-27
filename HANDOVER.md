@@ -10,7 +10,7 @@ Work is tracked as [GitHub issues](https://github.com/DominicWatts/WarOrgan.Data
 |---|---|---|
 | `task` | Dataset or tooling work, usually one faction or one ally link | Agents |
 | `in-progress` | Claimed by an agent; leave it alone | Agents |
-| `needs-testing` | Checks the owner runs in the WarOrgan app | Owner |
+| `needs-testing` | Fixed and in the current `develop-build`; the owner tests it in the WarOrgan app and closes it | Prepare session adds; owner removes by closing |
 | `blocked` | Waiting on the WarOrgan author or an owner decision; don't publish speculative fixes | Owner |
 | `army-rules`, `detachments`, `roster`, `leader-support`, `faction-pack` | The task's dataset scope; a task may have more than one | Agents |
 | `faction:<slug>` | The faction the task covers, for example `faction:orks`; its group (below) gives the branch | Agents |
@@ -21,14 +21,14 @@ To work on an issue:
 1. Pick one open `task` (or unlabelled bug) without `in-progress`. One issue per session. For a faction task, first check that no other issue for any faction in the same group (see [Faction groups](#faction-groups)) has `in-progress`; only one agent may write to a group branch at a time.
 2. Before changing anything, add `in-progress` and comment the branch you'll use: `gh issue edit <n> --add-label in-progress` and `gh issue comment <n> --body "Working on faction/<group>"`.
 3. Follow the core flow below up to step 4 (merge into `dataset/develop`). Tick the issue's checkboxes as you go.
-4. Comment the commit, the merge, and what the owner should test, then remove `in-progress`. Leave the issue open; the owner closes it when it's tested.
+4. Comment the commit, the merge, and what the owner should test, then remove `in-progress`. Do not add `needs-testing`; the Prepare session adds it once the fix is in a test build. Leave the issue open; the owner closes it when it's tested. If you rework an issue that already has `needs-testing`, remove the label until the next test build.
 5. If you can't finish, comment what's done and what's left, and remove `in-progress`.
 
 Faction work is split into standalone, independently claimable issues rather than parent trackers. Every faction task has `task`, one `faction:<slug>` label and at least one scope label. When opening follow-up work, apply all three kinds of label. Keep the issue small enough for one session; detachment audits should normally cover no more than five detachments. Do not widen an issue when the audit finds unrelated work.
 
 `FACTIONS.md` is the central faction-status ledger. Maintain it on `dataset/develop` and carry the published copy on `dataset/wh40k11e` through the release flow. Faction branches must not add or edit it; remove any remaining copy from a faction branch.
 
-The Prepare commit, the `develop-build` upload and releases (steps 5 to 8) are run by one session only, when the owner asks for a test version. That session bundles everything already merged and adds a `needs-testing` issue for the new checks.
+The Prepare commit, the `develop-build` upload and releases (steps 5 to 8) are run by one session only, when the owner asks for a test version. That session bundles everything already merged, adds `needs-testing` to each issue merged since the last test build, and comments the test version on each (for example "In 1.5.33.0 test build"). It does not open a separate `needs-testing` issue.
 
 If you find new work outside your issue, open a new `task` issue for it rather than widening your change.
 
