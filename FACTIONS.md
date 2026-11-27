@@ -28,10 +28,10 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 | Space Wolves | 20/20 (100%) | 14/14 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 7/11 (64%) |
 | Ultramarines | 11/11 (100%) | 5/5 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 10/12 (83%) |
 | White Scars | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
-| Chaos Space Marines | 57/58 (98%) | 26/26 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 4/11 (36%) |
-| Chaos Daemons | 56/56 (100%) | 12/12 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
+| Chaos Space Marines | 58/58 (100%) | 26/26 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 3/13 (23%) |
+| Chaos Daemons | 56/56 (100%) | 12/12 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 3/9 (33%) |
 | Chaos Knights | 19/20 (95%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
-| Death Guard | 30/30 (100%) | 11/11 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
+| Death Guard | 30/30 (100%) | 11/11 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/8 (25%) |
 | Emperor's Children | 18/18 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
 | Thousand Sons | 29/29 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 2/7 (29%) |
 | World Eaters | 25/25 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
@@ -44,9 +44,11 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 
 ## Status notes
 
+- Chaos Space Marines: 1.5.33 completes the faction audit (issues 190-196): army rules, all 17 detachments, roster, points, wargear and Leader/Support links match GW, and Fabius Bile is added. Pactbound Zealots mark selection (issue 316), the Cults of the Dark Gods points cap (issue 315) and enhancement-granted Warp Talons attachments (issue 317) are blocked on owner decisions.
+- Chaos Daemons: 1.5.33 completes the faction audit (issues 198-202) against GW and faction pack 1.2. The four god-specific Soul Grinders are kept although GW has a single datasheet, so its third-copy surcharge counts each god separately (issue 201).
 - Aeldari: 1.5.32 completes the detachment audit (issues 234-236): all 15 detachments, their force dispositions, enhancements and stratagems match GW. The roster and Leader/Support audits remain open (issues 237, 238).
 - Drukhari: 1.5.32 includes a community roster update (PR 303) reworking nine units' compositions, wargear and points. It has not been checked against GW; issues 243 and 244 stay open.
-- Candidate gaps (2): Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Candidate gaps (1): Chaos Knights — Chaos Questoris Knight Magaera (Base). Chaos Space Marines' Fabius Bile was added in 1.5.33.
 - Space Marines: all 16 shared detachments are audited. Imperial Fists' Ceramite Sentinels, Iron Hands' Medusa's Wrath, Raven Guard's Shadowmark Talon, Salamanders' Forgefather's Seekers, Ultramarines' Blade of Ultramar and White Scars' Spearpoint Task Force are also audited; the remaining chapter-specific detachments stay tracked in open issues.
 - Orks: 1.5.31 completes the faction audit (issues 259-264, now closed): army rules, all 15 detachments, roster points and wargear, and Leader/Support links now match GW. App checks are tracked in issue 300. Void Waaagh! awaits an owner decision (issue 298).
 - 1.5.30 marks the 101 Space Marine and chapter upgrades named with GW's "(Upgrade)" suffix, which 1.5.29 missed (issue 295), and Orks' Targetin' Gizmos (issue 296). Every GW upgrade in the dataset is now marked except the two one-per-army Custodes upgrades kept as normal enhancements (issue 64).

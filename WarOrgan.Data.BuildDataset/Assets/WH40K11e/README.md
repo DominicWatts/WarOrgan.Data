@@ -2,7 +2,13 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.32.0
+## Coverage in 1.5.33.0
+
+- 1.5.33 completes the Chaos Space Marines audit: army rules, all 17 detachments, the roster and Leader/Support links match GW. Cults of the Dark Gods is an army rule, and Fabius Bile is added. Pactbound Zealots lists what each mark grants, and its enhancements say which mark they need (marks cannot be chosen yet, issue 316). Amulet of Tainted Vigour, Warp-fuelled Thrusters and Sorrowscent Vulture can now be taken, the other Chaos Cult enhancements are limited to Dark Apostles and Damned characters, and Traitor Guardsmen Squads gain Battleline in Chaos Cult. The Cults of the Dark Gods points cap (issue 315) and enhancement-granted Warp Talons attachments (issue 317) are rule text only.
+
+- 1.5.33 Chaos Daemons: army rules, all 9 detachments, the roster and Leader/Support links have been audited against GW and faction pack 1.2. God-specific enhancements in Daemonic Incursion and the Khorne, Tzeentch, Nurgle and Slaanesh Legions can only go on that god's characters or a Daemon Prince. Legion of Excess includes Seductive Gambit, and Shadow Legion shows its full rule. Hellflayers cost 80 points per model and the Seeker Chariot 65.
+
+- 1.5.33 Death Guard: the Myphitic Blight-hauler costs 95 points per model.
 
 - 1.5.32 completes the Aeldari detachment audit: all 15 detachments now match GW. Stratagems in Armoured Warhost, Fateful Performance, Path of the Outcast and Twilight Flickers read as plain text. Mounted and psyker enhancements (such as Seersight Strike, Firstdrawn Blade and the Seer Council enhancements) can only go on models with all the required keywords, Corsair enhancements need Anhrathe, Key of Ghosts cannot go on a Solitaire, and Assassin's Eye is an Upgrade.
 
