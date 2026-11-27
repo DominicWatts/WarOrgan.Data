@@ -36,6 +36,7 @@ Each faction is developed on its own `faction/<name>` branch. Work is merged int
 
 - Release history: [CHANGELOG.md](CHANGELOG.md).
 - Outstanding work: [GitHub issues](https://github.com/DominicWatts/WarOrgan.Data/issues).
+- Contributing, including how to keep JSON files formatted: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## What's included
 

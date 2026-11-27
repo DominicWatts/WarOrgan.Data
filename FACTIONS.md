@@ -21,31 +21,41 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 | Blood Angels | 14/14 (100%) | 8/8 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 6/9 (67%) |
 | Dark Angels | 16/16 (100%) | 2/2 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 7/10 (70%) |
 | Deathwatch | 10/10 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ❌ | ✅ | 8/11 (73%) |
-| Imperial Fists | 3/3 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/9 (89%) |
+| Imperial Fists | 2/2 (100%) | 1/1 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/9 (89%) |
 | Iron Hands | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 8/9 (89%) |
 | Raven Guard | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
 | Salamanders | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
 | Space Wolves | 20/20 (100%) | 14/14 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 7/11 (64%) |
-| Ultramarines | 11/11 (100%) | 5/5 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 10/12 (83%) |
+| Ultramarines | 8/8 (100%) | 8/8 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 10/12 (83%) |
 | White Scars | 2/2 (100%) | 0/0 (n/a) | ✅ | ✅ | ✅ | ✅ | ✅ | 7/9 (78%) |
-| Chaos Space Marines | 57/58 (98%) | 26/26 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 4/11 (36%) |
-| Chaos Daemons | 56/56 (100%) | 12/12 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
+| Chaos Space Marines | 58/58 (100%) | 26/26 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 3/13 (23%) |
+| Chaos Daemons | 56/56 (100%) | 12/12 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 3/9 (33%) |
 | Chaos Knights | 19/20 (95%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
-| Death Guard | 30/30 (100%) | 11/11 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
+| Death Guard | 30/30 (100%) | 11/11 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/8 (25%) |
 | Emperor's Children | 18/18 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
 | Thousand Sons | 29/29 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 2/7 (29%) |
 | World Eaters | 25/25 (100%) | 2/2 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/7 (29%) |
-| Aeldari | 57/57 (100%) | 21/21 (100%) | ✅ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
-| Drukhari | 23/23 (100%) | 7/7 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/8 (38%) |
+| Aeldari | 57/57 (100%) | 21/21 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 6/8 (75%) |
+| Drukhari | 23/23 (100%) | 7/7 (100%) | ❌ | ❌ | ❌ | ❌ | ✅ | 3/9 (33%) |
 | Leagues of Votann | 22/22 (100%) | 0/0 (n/a) | ❌ | ❌ | ❌ | ✅ | ✅ | 3/8 (38%) |
 | Necrons | 52/52 (100%) | 12/12 (100%) | ❌ | ❌ | ❌ | ✅ | ✅ | 2/8 (25%) |
-| Orks | 55/55 (100%) | 15/15 (100%) | ❌ | ❌ | ❌ | ❌ | ❌ | 4/11 (36%) |
-| T'au Empire | 43/43 (100%) | 20/20 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 9/9 (100%) |
+| Orks | 55/55 (100%) | 15/15 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 11/12 (92%) |
+| T'au Empire | 43/43 (100%) | 20/20 (100%) | ✅ | ✅ | ✅ | ✅ | ✅ | 9/11 (82%) |
 
 ## Status notes
 
-- Candidate gaps (2): Chaos Space Marines — Fabius Bile (Base). Chaos Knights — Chaos Questoris Knight Magaera (Base).
+- Raven Guard, Salamanders, Ultramarines and White Scars: 1.5.35 audits the chapter rosters against current GW data (issues 156, 164, 179, 187). Ultramarines keeps all 16 published unit IDs, split between 8 current and 8 Legends records.
+- T'au Empire: 1.5.35 lets every Crisis model select its own drone loadout and gives Fireknife and Starscythe models both default guns with the source-supported swap (issues 320, 322). Other T'au "up to two" options that are still single-select are tracked in issue 321.
+- Drukhari: 1.5.35 audits Spectacle of Spite, Exhibition of Slaughter, Kabalite Agonysts and Tools of Torment (issue 242).
+- T'au Empire: 1.5.34 lets Crisis battlesuits take two different drones (issue 320). Other T'au "up to two" options that are still single-select are tracked in issue 321.
+- Imperial Fists and Iron Hands: 1.5.34 audits both rosters (issues 140, 148). Pedro Kantor is a Legendary proxy in GW's app and now sits in Imperial Fists Legends.
+- Chaos Space Marines: 1.5.33 completes the faction audit (issues 190-196): army rules, all 17 detachments, roster, points, wargear and Leader/Support links match GW, and Fabius Bile is added. Pactbound Zealots mark selection (issue 316), the Cults of the Dark Gods points cap (issue 315) and enhancement-granted Warp Talons attachments (issue 317) are blocked on owner decisions.
+- Chaos Daemons: 1.5.33 completes the faction audit (issues 198-202) against GW and faction pack 1.2. The four god-specific Soul Grinders are kept although GW has a single datasheet, so its third-copy surcharge counts each god separately (issue 201).
+- Aeldari: 1.5.32 completes the detachment audit (issues 234-236): all 15 detachments, their force dispositions, enhancements and stratagems match GW. The roster and Leader/Support audits remain open (issues 237, 238).
+- Drukhari: 1.5.32 includes a community roster update (PR 303) reworking nine units' compositions, wargear and points. It has not been checked against GW; issues 243 and 244 stay open.
+- Candidate gaps (1): Chaos Knights — Chaos Questoris Knight Magaera (Base). Chaos Space Marines' Fabius Bile was added in 1.5.33.
 - Space Marines: all 16 shared detachments are audited. Imperial Fists' Ceramite Sentinels, Iron Hands' Medusa's Wrath, Raven Guard's Shadowmark Talon, Salamanders' Forgefather's Seekers, Ultramarines' Blade of Ultramar and White Scars' Spearpoint Task Force are also audited; the remaining chapter-specific detachments stay tracked in open issues.
+- Orks: 1.5.31 completes the faction audit (issues 259-264, now closed): army rules, all 15 detachments, roster points and wargear, and Leader/Support links now match GW. App checks are tracked in issue 300. Void Waaagh! awaits an owner decision (issue 298).
 - 1.5.30 marks the 101 Space Marine and chapter upgrades named with GW's "(Upgrade)" suffix, which 1.5.29 missed (issue 295), and Orks' Targetin' Gizmos (issue 296). Every GW upgrade in the dataset is now marked except the two one-per-army Custodes upgrades kept as normal enhancements (issue 64).
 - 1.5.29 marks GW upgrade enhancements as Upgrades in 13 factions (issues 64, 280-291). Memento Moritoi and Augury Uplink stay normal enhancements to keep their one-per-army limit, and the Custodes Shield Host limit stays as rule text. Chaos Space Marines: Warp Talon Champion limit and points fixed (issue 274).
 - Space Marines: 1.5.28 completes the missing roster entries and corrects squad limits for Space Marine Legends, Deathwing Terminators, Deathwatch Terminators and Space Wolves pack leaders.
@@ -61,7 +71,7 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 - 1.5.21 fills attach targets for 57 Leaders that had none (issue 11). The five Death Guard specialists join Plague Marines as Support, since they can join a unit that already has a Leader.
 - 1.5.19 adds the Traitor Enforcer and 21 Shadow Legion allies. Reaper’s Wager still needs eight Harlequin datasheets.
 - 1.5.18 adds detachment-specific Daemon allies for World Eaters, Death Guard, Thousand Sons and Emperor’s Children. WarOrgan checks are pending.
-- 1.5.14 adds 572 stratagems and 12 enhancements. 1.5.15 adds 153 stratagems across Aeldari, Orks and Space Marine chapters. Empty lists remain for Sanctified Orators, Brute Bosses and Wurrband.
+- 1.5.14 adds 572 stratagems and 12 enhancements. 1.5.15 adds 153 stratagems across Aeldari, Orks and Space Marine chapters. Empty lists remain for Sanctified Orators, Brute Bosses and Wurrband; GW confirms Brute Bosses and Wurrband have no stratagems.
 - Genestealer Cults: signed off. Faction Pack 1.1 applied in 1.5.13.
 - Tyranids: roster and WarOrgan smoke checks passed. Faction Pack 1.3 coverage is partial.
 - Astra Militarum: 51 Brood Brother Auxilia allies retained. App tests passed (issue 57).

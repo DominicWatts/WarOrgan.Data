@@ -6527,11 +6527,11 @@
       "Points": [
         {
           "ModelCount": 1,
-          "Cost": 0
+          "Cost": 95
         },
         {
           "ModelCount": 2,
-          "Cost": 0
+          "Cost": 190
         }
       ]
     },

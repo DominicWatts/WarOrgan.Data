@@ -5179,11 +5179,11 @@
       "Points": [
         {
           "ModelCount": 1,
-          "Cost": 0
+          "Cost": 80
         },
         {
           "ModelCount": 2,
-          "Cost": 0
+          "Cost": 160
         }
       ]
     },
@@ -12599,8 +12599,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
-            "Character",
-            "Khorne"
+            "Khorne",
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12613,8 +12614,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
-            "Character",
-            "Tzeentch"
+            "Tzeentch",
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12627,8 +12629,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
-            "Character",
-            "Nurgle"
+            "Nurgle",
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12641,8 +12644,9 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
-            "Character",
-            "Slaanesh"
+            "Slaanesh",
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12655,7 +12659,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Beguiling Aura",
-        "Text": "LEGIONES DAEMONICA SLAANESH units from your army are eligible to declare a charge in a turn in which they Fell Back."
+        "Text": "LEGIONES DAEMONICA SLAANESH units from your army are eligible to declare a charge in a turn in which they Fell Back.\n\nLEGIONES DAEMONICA SLAANESH units from your army have the following ability:\n\nSeductive Gambit: Each time this unit ends a Charge move, you can declare it will perform a Seductive Gambit. If you do, until the end of the turn, this unit does not have the Fights First ability, but instead, each time a model in this unit makes an attack, you can re-roll the Hit roll and you can re-roll a Wound roll of 1."
       },
       "ForceDispositions": [
         "Priority Assets"
@@ -12726,7 +12730,8 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Slaanesh",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12740,7 +12745,8 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Slaanesh",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12756,7 +12762,8 @@
           ],
           "RequiredOneOfKeywords": [
             "Slaanesh",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12772,7 +12779,8 @@
           ],
           "RequiredOneOfKeywords": [
             "Slaanesh",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12858,7 +12866,8 @@
           ],
           "RequiredOneOfKeywords": [
             "Tzeentch",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12872,7 +12881,8 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Tzeentch",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12886,7 +12896,8 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Tzeentch",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12900,7 +12911,11 @@
           "RequiredKeywords": [
             "Monster"
           ],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Tzeentch",
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
@@ -12985,7 +13000,8 @@
           ],
           "RequiredOneOfKeywords": [
             "Khorne",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -12999,7 +13015,8 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Khorne",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -13013,7 +13030,8 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Khorne",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -13029,7 +13047,8 @@
           ],
           "RequiredOneOfKeywords": [
             "Khorne",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -13113,7 +13132,8 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Nurgle",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -13129,7 +13149,8 @@
           ],
           "RequiredOneOfKeywords": [
             "Nurgle",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -13143,7 +13164,8 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Nurgle",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -13159,7 +13181,8 @@
           ],
           "RequiredOneOfKeywords": [
             "Nurgle",
-            "Character"
+            "Daemon Prince of Chaos",
+            "Daemon Prince of Chaos with wings"
           ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -13172,7 +13195,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "First Prince of Chaos",
-        "Text": "Abilities for this Detachment are linked to the relevant units."
+        "Text": "If your Army Faction is LEGIONES DAEMONICA, you can use this Shadow Legion Detachment rule.\n\nTHRALLS OF THE FIRST PRINCE\nWhen mustering your army, you cannot include any DAEMON PRINCE, DAEMON PRINCE WITH WINGS or EPIC HERO units (excluding BE’LAKOR), but you can include the following HERETIC ASTARTES units:\n- CHAOS LORD\n- CHAOS LORD IN TERMINATOR ARMOUR\n- CHAOS LORD WITH JUMP PACK\n- CHAOS TERMINATOR SQUAD\n- CHOSEN\n- DAMNED units\n- DARK APOSTLE\n- HAVOCS\n- LEGIONARIES\n- MASTER OF POSSESSION\n- POSSESSED\n- RAPTORS\n- SORCERER\n- SORCERER IN TERMINATOR ARMOUR\n- WARP TALONS\n\nThe combined points value of such units depends on your battle size, as shown below.\n- Incursion: Up to 500 pts\n- Strike Force: Up to 1000 pts\n- Onslaught: Up to 1500 pts\n\nKEYWORDS\nBE’LAKOR and HERETIC ASTARTES units from your army gain the SHADOW LEGION and UNDIVIDED keywords.\n\nLEGIONES DAEMONICA units from your army gain the SHADOW LEGION keyword."
       },
       "ForceDispositions": [
         "Purge the Foe"

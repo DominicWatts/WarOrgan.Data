@@ -2,7 +2,31 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.30.0
+## Coverage in 1.5.35.0
+
+- 1.5.35 T'au Empire: every Crisis model can select its own drone loadout, and Fireknife and Starscythe models start with both guns before optionally swapping one for a second copy of the other.
+
+- 1.5.35 Raven Guard, Salamanders, Ultramarines and White Scars: the chapter rosters are audited against current GW data. Aethon Shaan, Kayvaan Shrike, Vulkan He’stan and Suboden Khan are corrected; Ultramarines retains all 16 published unit IDs while Captain Sicarius, Lieutenant Titus and Uriel Ventris move to Legends.
+
+- 1.5.35 Drukhari: Spectacle of Spite, Exhibition of Slaughter, Kabalite Agonysts and Tools of Torment are audited against the ordered sources.
+
+- 1.5.34 T'au Empire: each Crisis Fireknife, Starscythe and Sunforge battlesuit can take up to two different drones (gun, marker or shield drone), picked as one combined choice per model.
+
+- 1.5.34 Imperial Fists and Iron Hands: Pedro Kantor, a Legendary proxy in GW's app, moves unchanged to a new Imperial Fists Legends roster. Caanok Var's Cold and Calculating text and Iron Father Feirros's keyword and Master of the Forge layout are fixed.
+
+- 1.5.34 Drukhari: Klaivex gains its default klaive, and Master Repugnomancer, Towering Arrogance and Pharmacophex wording is corrected.
+
+- 1.5.33 completes the Chaos Space Marines audit: army rules, all 17 detachments, the roster and Leader/Support links match GW. Cults of the Dark Gods is an army rule, and Fabius Bile is added. Pactbound Zealots lists what each mark grants, and its enhancements say which mark they need (marks cannot be chosen yet, issue 316). Amulet of Tainted Vigour, Warp-fuelled Thrusters and Sorrowscent Vulture can now be taken, the other Chaos Cult enhancements are limited to Dark Apostles and Damned characters, and Traitor Guardsmen Squads gain Battleline in Chaos Cult. The Cults of the Dark Gods points cap (issue 315) and enhancement-granted Warp Talons attachments (issue 317) are rule text only.
+
+- 1.5.33 Chaos Daemons: army rules, all 9 detachments, the roster and Leader/Support links have been audited against GW and faction pack 1.2. God-specific enhancements in Daemonic Incursion and the Khorne, Tzeentch, Nurgle and Slaanesh Legions can only go on that god's characters or a Daemon Prince. Legion of Excess includes Seductive Gambit, and Shadow Legion shows its full rule. Hellflayers cost 80 points per model and the Seeker Chariot 65.
+
+- 1.5.33 Death Guard: the Myphitic Blight-hauler costs 95 points per model.
+
+- 1.5.32 completes the Aeldari detachment audit: all 15 detachments now match GW. Stratagems in Armoured Warhost, Fateful Performance, Path of the Outcast and Twilight Flickers read as plain text. Mounted and psyker enhancements (such as Seersight Strike, Firstdrawn Blade and the Seer Council enhancements) can only go on models with all the required keywords, Corsair enhancements need Anhrathe, Key of Ghosts cannot go on a Solitaire, and Assassin's Eye is an Upgrade.
+
+- 1.5.32 also includes a community Drukhari update (PR 303). Kabalite Warriors and the Hand of the Archon are single 10-model units where individual models swap their splinter rifle for special or heavy weapons. Wracks can be taken at 5, 8 or 10 models, Reavers at 3 or 6, and Scourges with Shardcarbines at 5. Hellions, Incubi, Ravager, Scourges with Heavy Weapons and Talos wargear options were also reworked. These changes have not yet been checked against GW (issues 243 and 244).
+
+- 1.5.31 Orks: army rules, all 15 detachments, the roster and Leader/Support links have been audited against GW. Waaagh! (with War Cry) and Special Move Types are now army rules. Detachment rules with roll tables list every result, weapon enhancements add their weapon to the model, and stratagems read as plain text. Meganobz can be taken at 3, 4 or 5 models and Mek Gunz at 2. Void Waaagh! stays listed as an army rule pending a decision (issue 298).
 
 - 1.5.30 marks 102 more GW upgrade enhancements as Upgrades: 101 in the Space Marine and chapter rosters (such as Gunnery Honours, Furious Assault and Artificer Sarcophagus) and Orks' Targetin' Gizmos. Raven Guard's Shadowmark Talon rule is now titled Shadow Tactics, and its Blackwing Shroud and Umbral Raptor enhancements are Infantry only.
 
