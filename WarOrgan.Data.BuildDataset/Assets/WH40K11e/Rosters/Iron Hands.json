@@ -35,7 +35,7 @@
         },
         {
           "Title": "Cold and Calculating",
-          "Text": "In your Shooting phase or the Fight phase, when this unit is selected to attack, you can select one of the following for this unit’s attacks to have:\n\n\n- [Lethal Hits: Monster/Vehicle].\n- Or: [Sustained Hits 1: non-[Monster/Vehicle]\n- Or: If the tactical doctrine is active for this unit, [Lethal Hits: Monster/Vehicle] and [Sustained Hits 1: non-Monster/Vehicle]"
+          "Text": "In your Shooting phase or the Fight phase, when this unit is selected to attack, you can select one of the following for this unit’s attacks to have:\n\n\n- [Lethal Hits: Monster/Vehicle].\n- Or: [Sustained Hits 1: non-Monster/Vehicle].\n- Or: If the tactical doctrine is active for this unit, [Lethal Hits: Monster/Vehicle] and [Sustained Hits 1: non-Monster/Vehicle]."
         },
         {
           "Title": "Cerebrex Logic Engine",
@@ -235,7 +235,7 @@
         },
         {
           "Title": "Master of the Forge",
-          "Text": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model:\n\n\n- That Vehicle model heals 3 wounds.\n- That Vehicle model’s attacks can ignore modifiers to the following until the start of your next Movement phase:\n- BS.\n- Hit rolls and wound rolls."
+          "Text": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model:\n\n\n- That Vehicle model heals 3 wounds.\n- That Vehicle model’s attacks can ignore modifiers to the following until the start of your next Movement phase:\n  - BS.\n  - Hit rolls and wound rolls."
         }
       ],
       "LeaderInfo": {
@@ -254,7 +254,7 @@
         "Infantry",
         "Imperium",
         "Gravis",
-        "Iron Father Ferrios"
+        "Iron Father Feirros"
       ],
       "CoreAbilities": [
         "Leader",
