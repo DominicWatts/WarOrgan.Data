@@ -299,6 +299,7 @@
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "combi-bolter",
                       "bubotic blade"
@@ -313,6 +314,7 @@
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "combi-bolter"
                     ],
@@ -326,6 +328,7 @@
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "combi-bolter"
                     ],
@@ -339,6 +342,7 @@
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "combi-bolter"
                     ],
@@ -361,6 +365,10 @@
         {
           "Title": "Invulnerable Save",
           "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Wargear restrictions",
+          "Text": "For every 5 models in this unit, up to 3 models can replace their combi-bolters with combi-weapons. The plague spewer and close combat weapon replacement is available only if this unit contains 3 models."
         },
         {
           "Title": "Blistering Fusillade",
@@ -701,6 +709,11 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 185
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 10,
           "Cost": 370
         },
@@ -711,6 +724,11 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 185
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 370
         },
@@ -718,6 +736,11 @@
           "UnitCount": 3,
           "ModelCount": 3,
           "Cost": 145
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 215
         },
         {
           "UnitCount": 3,
@@ -3097,7 +3120,16 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "hades lascannon",
+            "Cost": 15
+          },
+          {
+            "Key": "heavy reaper autocannon",
+            "Cost": 15
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -3107,6 +3139,10 @@
         {
           "Title": "Scuttling Walker",
           "Text": "Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+        },
+        {
+          "Title": "Wargear restrictions",
+          "Text": "This model cannot be equipped with more than one electroscourge."
         },
         {
           "Title": "Barrage of Filth",
@@ -4214,21 +4250,25 @@
                 "InitialWargear": [
                   "close combat weapon",
                   "helbrute fist",
-                  "combi-bolter",
                   "multi-melta"
                 ],
                 "Options": [
                   {
                     "Max": 1,
                     "Replaces": [
-                      "helbrute fist",
-                      "combi-bolter"
+                      "helbrute fist"
                     ],
                     "Options": [
                       {
                         "Items": [
                           "helbrute fist",
                           "heavy flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "helbrute fist",
+                          "combi-bolter"
                         ]
                       },
                       {
@@ -4262,6 +4302,11 @@
                       },
                       {
                         "Items": [
+                          "helbrute fist"
+                        ]
+                      },
+                      {
+                        "Items": [
                           "helbrute fist",
                           "heavy flamer"
                         ]
@@ -4285,22 +4330,6 @@
                       {
                         "Items": [
                           "twin lascannon"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "power scourge"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "helbrute hammer"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "missile launcher - frag",
-                          "missile launcher - krak"
                         ]
                       }
                     ]
@@ -6764,19 +6793,50 @@
             "Keywords": [],
             "Wargear": [
               {
-                "InitialWargear": [],
+                "InitialWargear": [
+                  "boltgun",
+                  "plague knives"
+                ],
                 "Options": [
                   {
-                    "Max": 2,
+                    "Max": 1,
+                    "Replaces": [
+                      "boltgun"
+                    ],
                     "Options": [
                       {
                         "Items": [
-                          "plague knives"
+                          "bolt pistol"
                         ]
                       },
                       {
                         "Items": [
-                          "boltgun options"
+                          "plasma pistol - standard",
+                          "plasma pistol - supercharge"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma gun - standard",
+                          "plasma gun - supercharge"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "plague knives"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power fist"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "bubotic weapons"
                         ]
                       }
                     ]
@@ -6828,6 +6888,7 @@
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "boltgun"
                     ],
@@ -6841,6 +6902,7 @@
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "boltgun"
                     ],
@@ -6864,6 +6926,7 @@
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "boltgun"
                     ],
@@ -6885,38 +6948,6 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "Max": 9,
-                    "Replaces": [
-                      "boltgun"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "bolt pistol"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "plasma pistol - standard",
-                          "plasma pistol - supercharge"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 9,
-                    "Replaces": [
-                      "plague knives"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "power fist"
-                        ]
-                      }
-                    ]
                   }
                 ]
               }
@@ -6924,11 +6955,6 @@
           }
         ],
         "WargearDefinitions": [
-          {
-            "Key": "boltgun options",
-            "DisplayName": "Boltgun options",
-            "Cost": 0
-          },
           {
             "Key": "icon of despair",
             "DisplayName": "Icon of Despair",
@@ -6943,6 +6969,10 @@
         {
           "Title": "Infused with the Blessings of Nurgle",
           "Text": "In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted."
+        },
+        {
+          "Title": "Wargear restrictions",
+          "Text": "For every 5 models in this unit, up to 2 Plague Marines can each replace their boltgun with bubotic weapons, and up to 2 can each replace their boltgun with a heavy plague weapon. The model equipped with an icon of despair must retain its boltgun."
         },
         {
           "Title": "Icon of Despair (Aura)",
@@ -7465,6 +7495,10 @@
         {
           "ModelCount": 5,
           "Cost": 90
+        },
+        {
+          "ModelCount": 7,
+          "Cost": 125
         },
         {
           "ModelCount": 10,
