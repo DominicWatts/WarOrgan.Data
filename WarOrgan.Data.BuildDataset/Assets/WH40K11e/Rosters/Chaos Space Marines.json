@@ -25943,7 +25943,11 @@
   "ArmyRules": [
     {
       "Title": "Dark Pacts",
-      "Text": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of the Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n- [LETHAL HITS]\n- [SUSTAINED HITS 1]"
+      "Text": "If your Army Faction is HERETIC ASTARTES, each time a unit with this ability is selected to shoot or fight, it can make a Dark Pact. If it does, it must first take a Leadership test before any effects of that Dark Pact are resolved; if that test is failed, that unit suffers D3 mortal wounds. Then, select one of the following abilities for that unit’s weapons to gain until the end of the phase:\n- [LETHAL HITS]\n- [SUSTAINED HITS 1]"
+    },
+    {
+      "Title": "Cults of the Dark Gods",
+      "Text": "If your Army Faction is HERETIC ASTARTES, you can include any of the following units in your army, and when you do so their Faction keywords are replaced with HERETIC ASTARTES:\n- KHORNE BERZERKERS (see World Eaters)\n- RUBRIC MARINES (see Thousand Sons)\n- PLAGUE MARINES (see Death Guard)\n- NOISE MARINES (see Emperor’s Children)\n\nThe combined points value of such units you can include in your army depends on the battle size, as follows:\n- Incursion: Up to 250 pts\n- Strike Force: Up to 500 pts\n- Onslaught: Up to 750 pts"
     }
   ]
 }
