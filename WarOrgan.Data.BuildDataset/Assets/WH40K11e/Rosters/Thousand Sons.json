@@ -1408,6 +1408,19 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "inferno combi-bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc launcher"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -1417,6 +1430,10 @@
         "WargearDefinitions": []
       },
       "UnitAbilities": [
+        {
+          "Title": "Wargear options",
+          "Text": "This model can be equipped with 1 havoc launcher or can replace 1 inferno combi-bolter with 1 havoc launcher."
+        },
         {
           "Title": "Sorcerous Support",
           "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes a Psychic attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
@@ -1695,6 +1712,7 @@
         "Chaos",
         "Tzeentch",
         "Spawn",
+        "Chaos Spawn",
         "Mutant",
         "Other Datasheets"
       ],
@@ -2872,9 +2890,22 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "hades lascannon",
+            "Cost": 15
+          },
+          {
+            "Key": "heavy reaper autocannon",
+            "Cost": 15
+          }
+        ]
       },
       "UnitAbilities": [
+        {
+          "Title": "Wargear options",
+          "Text": "This model cannot be equipped with more than one electroscourge."
+        },
         {
           "Title": "Invulnerable Save",
           "Text": "This model has a 5+ invulnerable save."
@@ -3958,7 +3989,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "ectoplasma cannon",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -4225,6 +4261,11 @@
                     "Options": [
                       {
                         "Items": [
+                          "helbrute fist"
+                        ]
+                      },
+                      {
+                        "Items": [
                           "helbrute fist",
                           "inferno combi-bolter"
                         ]
@@ -4256,6 +4297,11 @@
                       {
                         "Items": [
                           "twin autocannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "helbrute fist"
                         ]
                       },
                       {
@@ -4861,6 +4907,7 @@
         "Vehicle",
         "Fly",
         "Chaos",
+        "Daemon",
         "Tzeentch",
         "Heldrake",
         "Other Datasheets"
@@ -6110,7 +6157,9 @@
             },
             "ModelName": "Aspiring Sorcerer",
             "StatlineRef": "Aspiring Sorcerer",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -6176,13 +6225,30 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "icon of flame"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "icon of flame",
+            "GrantsAbilities": [
+              "Icon of Flame"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -6620,7 +6686,9 @@
             },
             "ModelName": "Scarab Occult Sorcerer",
             "StatlineRef": "Scarab Occult Sorcerer",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -6638,19 +6706,6 @@
                       {
                         "Items": [
                           "prosperine khopesh"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "malefic curse"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "hellfyre missile rack"
                         ]
                       }
                     ]
@@ -6676,6 +6731,7 @@
                 "Options": [
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "inferno combi-bolter"
                     ],
@@ -6693,10 +6749,8 @@
                     ]
                   },
                   {
-                    "Max": 9,
-                    "Replaces": [
-                      "inferno combi-bolter"
-                    ],
+                    "Max": 2,
+                    "PerXModels": 5,
                     "Options": [
                       {
                         "Items": [
@@ -8067,7 +8121,7 @@
               "Min": 2,
               "Max": 5
             },
-            "ModelName": "Divining spear Enlightened",
+            "ModelName": "Enlightened",
             "StatlineRef": "Tzaangor Enlightened",
             "Keywords": [],
             "Wargear": [
@@ -8075,25 +8129,22 @@
                 "InitialWargear": [
                   "divining spear"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 2,
-              "Max": 5
-            },
-            "ModelName": "Pistol and chainsword Enlightened",
-            "StatlineRef": "Tzaangor Enlightened",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "autopistol",
-                  "chainsword"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 5,
+                    "Replaces": [
+                      "divining spear"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "autopistol",
+                          "chainsword"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -8283,11 +8334,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 5,
-          "Cost": 90
+          "ModelCount": 3,
+          "Cost": 50
         },
         {
-          "ModelCount": 11,
+          "ModelCount": 6,
           "Cost": 90
         }
       ]
@@ -8760,15 +8811,52 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "brayhorn"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "herd banner"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "brayhorn",
+            "GrantsAbilities": [
+              "Brayhorn"
+            ]
+          },
+          {
+            "Key": "herd banner",
+            "GrantsAbilities": [
+              "Herd banner"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
+        {
+          "Title": "Wargear options",
+          "Text": "One Tzaangor not equipped with a herd banner can be equipped with a brayhorn, and one Tzaangor not equipped with a brayhorn can be equipped with a herd banner."
+        },
         {
           "Title": "Invulnerable Save",
           "Text": "Models in this unit have a 6+ invulnerable save."
