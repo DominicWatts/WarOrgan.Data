@@ -8987,7 +8987,7 @@
           "Phase": "Command",
           "When": "Command phase.",
           "Target": "One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.",
-          "Effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.&#x20;"
+          "Effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "Name": "Wrath of the Doomed",
@@ -9097,7 +9097,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Kindred Sorcery",
-        "Text": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase. You can only select each of these abilities once per battle.\n\n\n**Imbued Manifestation**\nAdd 6\" to the range characteristic of ranged Psychic weapons equipped by THOUSAND SONS models in your army.\n\n\n**Psychic Maelstrom**\nEach time a THOUSAND SONS model from your army makes an attack with a Psychic weapon, add 1 to the Wound roll.\n\n\n**Wrath of the Immaterium**\nPsychic weapons equipped by THOUSAND SONS models in your army have the [Devastating Wounds] ability."
+        "Text": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase. You can only select each of these abilities once per battle.\n\nImbued Manifestation\nAdd 6\" to the Range characteristic of ranged Psychic weapons equipped by THOUSAND SONS models from your army.\n\nPsychic Maelstrom\nEach time a THOUSAND SONS model from your army makes an attack with a Psychic weapon, add 1 to the Wound roll.\n\nWrath of the Immaterium\nPsychic weapons equipped by THOUSAND SONS models from your army have the [Devastating Wounds] ability."
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -9200,7 +9200,7 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Incandeum",
+          "Name": "Incandaeum",
           "Description": "Once per battle, when selecting a Ritual for the bearer to attempt, you can select Doombolt, even if a model from your army has already attempted to manifest that Ritual this phase.",
           "Cost": 15,
           "Features": "None",
@@ -9283,23 +9283,27 @@
       ],
       "Enhancements": [
         {
-          "Name": "Nethershriek Mind-eater",
+          "Name": "Nethershriek Mind-Eater",
           "Description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Battle-shock test; if that test is failed, that unit suffers 3 mortal wounds.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Faction: Thousand Sons",
+            "Lord of Change"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
-          "Name": "Diabolic Servant",
-          "Description": "While the bearer is within 6\" of one or more friendly SCINTILLATING LEGION units, each time the bearer Channels the Warp, add 1 to the Psychic test result.",
+          "Name": "Diabolic Savant",
+          "Description": "While the bearer is within 6\" of one or more friendly SCINTILLATING LEGIONS units, each time the bearer Channels the Warp, add 1 to the Psychic test result.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Thousand Sons",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -9308,12 +9312,15 @@
         },
         {
           "Name": "Duplicitous Malediction",
-          "Description": "After both players have deployed their armies, select up to three THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserve if you wish, regardless of how many units are already in Strategic Reserves.",
+          "Description": "After both players have deployed their armies, select up to three THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Faction: Thousand Sons",
+            "Lord of Change"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
@@ -9324,6 +9331,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Thousand Sons",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -9338,7 +9346,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Warpmeld Sacrifice",
-        "Text": "Each time an enemy unit is selected to shoot or fight and one or more TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED units from your army are selected as a target of one or more of those attacks, each of those TZEENTCH MUTANT units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nEach time a TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED* unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nTZAANGORS units from your army have the Battleline keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        "Text": "Each time an enemy unit is selected to shoot or fight and one or more TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED units from your army are selected as a target of one or more of those attacks, each of those TZEENTCH MUTANT units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nEach time a TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nTZAANGORS units from your army have the BATTLELINE keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of TZAANGOR models in that unit."
       },
       "Tags": [
         "MUTANT"
@@ -9371,7 +9379,7 @@
           "Category": "Warpmeld Pact Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, just after a TZEENTCH MUTANT unit from your army is selected to fi ght.",
+          "When": "Fight phase, just after a TZEENTCH MUTANT unit from your army is selected to fight.",
           "Target": "That TZEENTCH MUTANT unit.",
           "Effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\", and when determining which models in it are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
         },
@@ -9391,7 +9399,7 @@
           "Phase": "Movement",
           "When": "Start of your Movement phase.",
           "Target": "One TZEENTCH MUTANT unit from your army.",
-          "Effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Advanced."
+          "Effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Advanced.\n\nFAQ: You do not have to declare whether the unit will shoot or charge when you use this Stratagem; you may decide later in the turn."
         },
         {
           "Name": "Twisted Mirage",
@@ -9400,7 +9408,7 @@
           "Phase": "Movement",
           "When": "Reinforcements step of your Movement phase.",
           "Target": "One TZEENTCH MUTANT unit from your army that is arriving from Strategic Reserves this phase.",
-          "Effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or anywhere on the battlefield that is more than 8\" horizontally away from all enemy units if it is a MONSTER unit. In either case, until the end of the turn, it is not eligible to declare a charge."
+          "Effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or anywhere on the battlefield that is more than 8\" horizontally away from all enemy units if it is a MONSTER unit. In either case, until the end of the turn, it is not eligible to declare a charge.\n\nFAQ: When going second, a Tzaangor unit that started the game on the battlefield and was placed into Strategic Reserves by its Ambushing Hunters ability cannot arrive during your first turn using this Stratagem."
         }
       ],
       "Enhancements": [
@@ -9530,7 +9538,7 @@
       "Enhancements": [
         {
           "Name": "Risen Rubricae",
-          "Description": "At the start of the Declare Battle Formations step, select either two RUBRICAE BATTLELINE units from your army or one other RUBRICAE unit from your army; models in the selected units have the Infiltrators ability.",
+          "Description": "At the start of the Declare Battle Formations step, select either two RUBRICAE BATTLELINE units from your army or one other RUBRICAE unit from your army; models in the selected units have the Infiltrators ability.\n\nFAQ: A CHARACTER attached to a unit selected using this Enhancement also gains the Infiltrators ability.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9574,6 +9582,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Thousand Sons",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
