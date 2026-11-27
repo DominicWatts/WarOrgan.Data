@@ -6552,7 +6552,7 @@
       "Name": "Fist of the God-Emperor",
       "Cost": 1,
       "Rule": {
-        "Title": "New Rule",
+        "Title": "Purge and Sanctify",
         "Text": "Each time a friendly Crusader Squad unit makes a surge move, instead of selecting a surge target, you can select the closest objective to that unit. When that unit makes that surge move, each model in that unit must end that surge move as close as possible to that objective instead.\n\n\nRestrictions: Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
       },
       "ForceDispositions": [
@@ -6564,18 +6564,18 @@
           "Category": "Fist of the God-Emperor Stratagem",
           "CPCost": 1,
           "Phase": "Shooting or Fight",
-          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly <k>CRUSADER SQUAD</k> unit.",
-          "Target": "That <k>CRUSADER SQUAD</k> unit.",
-          "Effect": "Attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have -1 to <b>wound rolls</b>."
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly CRUSADER SQUAD unit.",
+          "Target": "That CRUSADER SQUAD unit.",
+          "Effect": "Attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
         },
         {
           "Name": "Avowed Destruction",
           "Category": "Fist of the God-Emperor Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "The Fight phase, when a friendly <k>CRUSADER SQUAD</k> unit is <b>selected to fight</b>.",
-          "Target": "That <k>CRUSADER SQUAD</k> unit.",
-          "Effect": "Your unit’s melee attacks: <ul><li>Have <k>[LETHAL HITS]</k>.</li><li><u>Or:</u> Have <k>[SUSTAINED HITS 1]</k>.</li></ul>"
+          "When": "The Fight phase, when a friendly CRUSADER SQUAD unit is selected to fight.",
+          "Target": "That CRUSADER SQUAD unit.",
+          "Effect": "Your unit’s melee attacks:\n- Have [LETHAL HITS].\n- Or: Have [SUSTAINED HITS 1]."
         },
         {
           "Name": "Doctrinal Flexibility",
@@ -6583,8 +6583,8 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Your Command phase.",
-          "Target": "One friendly <k>Crusader Squad</k> unit.",
-          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+          "Target": "One friendly Crusader Squad unit.",
+          "Effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
         }
       ],
       "Enhancements": [
@@ -6594,11 +6594,11 @@
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Character",
             "Infantry"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
