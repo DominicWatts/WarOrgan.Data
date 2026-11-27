@@ -5603,27 +5603,27 @@
           "Category": "Marshal's Household Stratagem",
           "CPCost": 1,
           "Phase": "Charge",
-          "When": "Your Charge phase, when a friendly <k>Sword Brethren Squad</k> unit ends a <b>charge move</b>.",
-          "Target": "That <k>Sword Brethren Squad</k>.",
-          "Effect": "Select one enemy unit <b>engaged</b> with your unit. Roll one D6 for each model in your unit <b>engaged</b> with that enemy unit:<ul><li>For each 4+, that enemy unit suffers 1 <b>mortal wound</b> (to a maximum of 6 <b>mortal wounds</b>).</li></ul>"
+          "When": "Your Charge phase, when a friendly Sword Brethren Squad unit ends a charge move.",
+          "Target": "That Sword Brethren Squad.",
+          "Effect": "Select one enemy unit engaged with your unit. Roll one D6 for each model in your unit engaged with that enemy unit:\n- For each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         },
         {
           "Name": "Slayers of Abominations",
           "Category": "Marshal's Household Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when a friendly <k>Sword Brethren Squad</k> unit is <b>selected to fight</b>.",
-          "Target": "That <k>Sword Brethren Squad</k> unit.",
-          "Effect": "Your unit's melee attacks that target a <k>Monster/Vehicle</k> unit have +2 <b>S</b>."
+          "When": "Fight phase, when a friendly Sword Brethren Squad unit is selected to fight.",
+          "Target": "That Sword Brethren Squad unit.",
+          "Effect": "Your unit's melee attacks that target a Monster/Vehicle unit have +2 S."
         },
         {
           "Name": "Unsparing Execution",
           "Category": "Marshal's Household Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your opponent's Movement phase, when a unit is selected to make a <b>fall-back move</b>, if that unit is <b>engaged</b> with a friendly <k>Sword Brethren Squad </k> unit.",
-          "Target": "That <k>Sword Brethren Squad</k> unit.",
-          "Effect": "When an enemy unit <b>engaged</b> with your unit is selected to make a <b>fall-back move </b>, that enemy unit must use the <b>desperate escape</b> mode, with -1 to those <b>hazard rolls</b> if that enemy unit is <b>battle-shocked</b>."
+          "When": "Your opponent's Movement phase, when a unit is selected to make a fall-back move, if that unit is engaged with a friendly Sword Brethren Squad unit.",
+          "Target": "That Sword Brethren Squad unit.",
+          "Effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, that enemy unit must use the desperate escape mode, with -1 to those hazard rolls if that enemy unit is battle-shocked."
         }
       ],
       "Enhancements": [
@@ -5632,7 +5632,9 @@
           "Description": "SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls",
           "Cost": 10,
           "Features": "Upgrade",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "SWORD BRETHREN SQUAD"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -5643,7 +5645,9 @@
           "Description": "SWORD BRETHREN SQUAD unit only. This unit has Fights First",
           "Cost": 15,
           "Features": "Upgrade",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "SWORD BRETHREN SQUAD"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
