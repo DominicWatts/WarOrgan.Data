@@ -9295,7 +9295,7 @@
       "Enhancements": [
         {
           "Name": "Beckoning Blight",
-          "Description": "Each time a PLAGUE LEGIONS unit from your army is set up on the battle field using the Deep Strike ability, if it is set up wholly within 12\" of the bearer, it can be set up anywhere that is more than 6\" horizontally away from any enemy models, instead of more than 8\".",
+          "Description": "Each time a PLAGUE LEGIONS unit from your army is set up on the battlefield using the Deep Strike ability, if it is set up wholly within 12\" of the bearer, it can be set up anywhere that is more than 6\" horizontally away from all enemy models, instead of more than 8\".",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9353,8 +9353,11 @@
       "Cost": 1,
       "Rule": {
         "Title": "Warped and Rusted Animus",
-        "Text": "Friendly FOETID BLOAT‑DRONE/FOETID BLOAT‑DRONE WITH HEAVY BLIGHT LAUNCHER/HELBRUTE/MYPHITIC BLIGHT‑HAULER units have CONTAGION ENGINE.\n- Friendly CONTAGION ENGINE units’ ranged attacks have [ASSAULT]."
+        "Text": "Friendly FOETID BLOAT‑DRONE/FOETID BLOAT‑DRONE WITH HEAVY BLIGHT LAUNCHER/HELBRUTE/MYPHITIC BLIGHT‑HAULER units have CONTAGION ENGINE.\n- Friendly CONTAGION ENGINE units’ ranged attacks have [ASSAULT].\n\nThis detachment has the ENGINES tag and cannot be taken with another ENGINES detachment."
       },
+      "Tags": [
+        "ENGINES"
+      ],
       "ForceDispositions": [
         "Reconnaissance"
       ],
@@ -9364,33 +9367,33 @@
           "Category": "Contagion Engines Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your opponent’s Movement phase, when an enemy unit is selected to make a <b>fall‑back move</b>, if that enemy unit is <b>engaged</b> with a friendly <k>Contagion Engine</k> unit.",
-          "Target": "That <k>Contagion Engine</k> unit.",
-          "Effect": "When an enemy unit <b>engaged</b> with your unit is selected to make a <b>fall‑back move</b>, roll one D6:\r<ul><li>On a 1, that enemy unit suffers 1 <b>mortal wound</b>.</li>\r<li>On a 2‑5, that enemy unit suffers D3 <b>mortal wounds</b>.</li>\r<li>On a 6, that enemy unit suffers 3 <b>mortal wounds</b>.</li></ul>"
+          "When": "Your opponent’s Movement phase, when an enemy unit is selected to make a fall‑back move, if that enemy unit is engaged with a friendly Contagion Engine unit.",
+          "Target": "That Contagion Engine unit.",
+          "Effect": "When an enemy unit engaged with your unit is selected to make a fall‑back move, roll one D6:\n- On a 1, that enemy unit suffers 1 mortal wound.\n- On a 2‑5, that enemy unit suffers D3 mortal wounds.\n- On a 6, that enemy unit suffers 3 mortal wounds."
         },
         {
           "Name": "Bloodrust Deluge",
           "Category": "Contagion Engines Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Contagion Engine</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Contagion Engine</k> unit.",
-          "Effect": "Select one <b>visible</b> enemy unit. That enemy unit is <b>Afflicted</b> until your unit has attacked."
+          "When": "Your Shooting phase, when a friendly Contagion Engine unit is selected to shoot.",
+          "Target": "That Contagion Engine unit.",
+          "Effect": "Select one visible enemy unit. That enemy unit is Afflicted until your unit has attacked."
         },
         {
           "Name": "Fresh Vectors",
           "Category": "Contagion Engines Stratagem",
           "CPCost": 1,
           "Phase": "Shooting or Fight",
-          "When": "Your Shooting phase or the Fight phase, when a friendly <k>Contagion Engine</k> unit is <b>selected to attack</b>.",
-          "Target": "That <k>Contagion Engine</k> unit.",
-          "Effect": "Your unit’s attacks can re‑roll <b>wound rolls</b> of 1."
+          "When": "Your Shooting phase or the Fight phase, when a friendly Contagion Engine unit is selected to attack.",
+          "Target": "That Contagion Engine unit.",
+          "Effect": "Your unit’s attacks can re‑roll wound rolls of 1."
         }
       ],
       "Enhancements": [
         {
           "Name": "Parasitic Woe-reaper",
-          "Description": "Contagion Engine unit only. After this unit fights, one model in it heals D3 wounds.",
+          "Description": "Contagion Engine unit only. When this unit has fought, one model in this unit heals D3 wounds.",
           "Cost": 15,
           "Features": "Upgrade",
           "RequiredUnitNames": [
@@ -9438,17 +9441,17 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Start of the Command phase.",
-          "Target": "One friendly <k>Death Guard Character</k> unit.",
-          "Effect": "Your unit has +1 <b>OC</b> until the end of the turn."
+          "Target": "One friendly Death Guard Character unit.",
+          "Effect": "Your unit has +1 OC until the end of the turn."
         },
         {
           "Name": "Simultaneous Contamination",
           "Category": "Paragons of Putrescence Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Death Guard Character</k> unit <b>starts an action</b>.",
-          "Target": "That <k>Death Guard Character</k> unit.",
-          "Effect": "That <b>action</b> does not prevent your unit from being <b>eligible to shoot</b>."
+          "When": "Your Shooting phase, when a friendly Death Guard Character unit starts an action.",
+          "Target": "That Death Guard Character unit.",
+          "Effect": "That action does not prevent your unit from being eligible to shoot."
         },
         {
           "Name": "Aggravus Spasms",
@@ -9456,8 +9459,8 @@
           "CPCost": 1,
           "Phase": "Shooting",
           "When": "Start of your Shooting Phase.",
-          "Target": "One friendly <k>Death Guard Character</k> unit.",
-          "Effect": "Select one <b>visible</b> enemy unit within <b>Contagion Range</b> of your unit. That enemy unit has +6\" <b>detection range</b>."
+          "Target": "One friendly Death Guard Character unit.",
+          "Effect": "Select one visible enemy unit within Contagion Range of your unit. That enemy unit has +6\" detection range."
         }
       ],
       "Enhancements": [
@@ -9468,6 +9471,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Death Guard",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -9481,6 +9485,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Death Guard",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
