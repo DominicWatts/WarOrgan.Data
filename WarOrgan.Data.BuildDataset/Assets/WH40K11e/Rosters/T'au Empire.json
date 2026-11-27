@@ -3404,20 +3404,28 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "battlesuit fists"
+                  "battlesuit fists",
+                  "plasma rifle",
+                  "missile pod"
                 ],
                 "Options": [
                   {
-                    "Max": 2,
+                    "Max": 3,
+                    "Replaces": [
+                      "plasma rifle",
+                      "missile pod"
+                    ],
                     "Options": [
                       {
                         "Items": [
-                          "missile pod"
+                          "plasma rifle",
+                          "plasma rifle"
                         ]
                       },
                       {
                         "Items": [
-                          "plasma rifle"
+                          "missile pod",
+                          "missile pod"
                         ]
                       }
                     ]
@@ -3485,19 +3493,27 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "battlesuit fists"
+                  "battlesuit fists",
+                  "plasma rifle",
+                  "missile pod"
                 ],
                 "Options": [
                   {
-                    "Max": 4,
+                    "Max": 3,
+                    "Replaces": [
+                      "plasma rifle",
+                      "missile pod"
+                    ],
                     "Options": [
                       {
                         "Items": [
+                          "plasma rifle",
                           "plasma rifle"
                         ]
                       },
                       {
                         "Items": [
+                          "missile pod",
                           "missile pod"
                         ]
                       }
@@ -3816,19 +3832,27 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "battlesuit fists"
+                  "battlesuit fists",
+                  "burst cannon",
+                  "t'au flamer"
                 ],
                 "Options": [
                   {
-                    "Max": 2,
+                    "Max": 3,
+                    "Replaces": [
+                      "burst cannon",
+                      "t'au flamer"
+                    ],
                     "Options": [
                       {
                         "Items": [
+                          "burst cannon",
                           "burst cannon"
                         ]
                       },
                       {
                         "Items": [
+                          "t'au flamer",
                           "t'au flamer"
                         ]
                       }
@@ -3897,19 +3921,27 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "battlesuit fists"
+                  "battlesuit fists",
+                  "burst cannon",
+                  "t'au flamer"
                 ],
                 "Options": [
                   {
-                    "Max": 4,
+                    "Max": 3,
+                    "Replaces": [
+                      "burst cannon",
+                      "t'au flamer"
+                    ],
                     "Options": [
                       {
                         "Items": [
+                          "burst cannon",
                           "burst cannon"
                         ]
                       },
                       {
                         "Items": [
+                          "t'au flamer",
                           "t'au flamer"
                         ]
                       }
