@@ -24639,7 +24639,8 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
-            "Chaos Lord with Jump Pack"
+            "Chaos Lord",
+            "Jump Pack"
           ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -25325,7 +25326,8 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
-            "Chaos Lord with Jump Pack"
+            "Chaos Lord",
+            "Jump Pack"
           ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -25333,12 +25335,13 @@
         },
         {
           "Name": "Sorrowscent Vulture",
-          "Description": "Models in the bearer’s unit have the Scouts 6\" ability.",
+          "Description": "Models in the bearer’s unit have the Scouts 6\" ability.\n\nIn the Declare Battle Formations step, the bearer can be attached to a WARP TALONS unit.",
           "Cost": 35,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
-            "Chaos Lord with Jump Pack"
+            "Chaos Lord",
+            "Jump Pack"
           ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -25600,7 +25603,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Warp Portals",
-        "Text": "At the end of your opponent’s turn, you can select a number of HERETIC ASTARTES TERMINATOR, OBLITERATORS AND MUTILATORS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:\n\n\nIncursion - Up to 1 unit\nStrike Force - Up to 2 units\nOnslaught - Up to 3 units\n\n\nOnce you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
+        "Text": "At the end of your opponent’s turn, you can select a number of HERETIC ASTARTES TERMINATOR, OBLITERATORS and MUTILATORS units from your army (excluding units that are within Engagement Range of one or more enemy units). The maximum number of units you can select depends on the battle size, as follows:\n\n\nBattle Size - Number of Units\nIncursion - Up to 1 unit\nStrike Force - Up to 2 units\nOnslaught - Up to 3 units\n\n\nOnce you have made your selections, remove those units from the battlefield and place them into Strategic Reserves."
       },
       "ForceDispositions": [
         "Disruption"
