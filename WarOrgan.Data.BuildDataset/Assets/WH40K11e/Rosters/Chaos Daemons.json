@@ -5179,11 +5179,11 @@
       "Points": [
         {
           "ModelCount": 1,
-          "Cost": 0
+          "Cost": 80
         },
         {
           "ModelCount": 2,
-          "Cost": 0
+          "Cost": 160
         }
       ]
     },
