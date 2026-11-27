@@ -24056,7 +24056,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Marks of Chaos",
-        "Text": "When mustering your army, when you select a HERETIC ASTARTES unit to include in your army, if that unit is not an EPIC HERO and does not already have one of the following keywords, you must select one for that unit to gain and note it on your Army Roster: KHORNE, TZEENTCH, NURGLE, SLAANESH, CHAOS UNDIVIDED.\n\n\nEach time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test, until the end of the phase, that unit gains the associated ability below.\n\n\nRESTRICTIONS\n- You cannot select the KHORNE keyword for a PSYKER unit.\n- A CHARACTER/EPIC HERO unit can only be attached to a unit if both units share the same keyword from the list above.\n- A unit can only embark within (or start the battle embarked within) a TRANSPORT if both of those units share the same keyword from the list above.’"
+        "Text": "When mustering your army, when you select a HERETIC ASTARTES unit to include in your army, if that unit is not an EPIC HERO and does not already have one of the following keywords, you must select one for that unit and note it on your Army Roster: KHORNE, TZEENTCH, NURGLE, SLAANESH, CHAOS UNDIVIDED. Each time a unit with one of these keywords gains a weapon ability as the result of a Dark Pact and does not fail the resulting Leadership test, until the end of the phase, that unit gains the associated ability below.\n\nUnits That Gained [LETHAL HITS]\n- KHORNE: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n- TZEENTCH: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n- CHAOS UNDIVIDED: Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n\nUnits That Gained [SUSTAINED HITS 1]\n- NURGLE: Each time a model in this unit makes a ranged attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n- SLAANESH: Each time a model in this unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.\n- CHAOS UNDIVIDED: Each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n\nRESTRICTIONS\n- You cannot select the KHORNE keyword for a PSYKER unit.\n- A CHARACTER unit can only be attached to a unit if both units share the same keyword from the list above.\n- A unit can only embark within (or start the battle embarked within) a TRANSPORT if both of those units share the same keyword from the list above."
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -24121,7 +24121,7 @@
       "Enhancements": [
         {
           "Name": "Talisman of Burning Blood",
-          "Description": "Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. Each time the bearer’s unit makes a Dark Pact and does not fail the resulting Leadership test, roll one D3; until the end of the phase, add the result to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
+          "Description": "HERETIC ASTARTES KHORNE model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. Each time the bearer’s unit makes a Dark Pact and does not fail the resulting Leadership test, roll one D3: until the end of the phase, add the result to the Attacks and Strength characteristics of the bearer’s melee weapons instead.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -24132,7 +24132,7 @@
         },
         {
           "Name": "Eye of Tzeentch",
-          "Description": "Each time the bearer’s unit makes a Dark Pact and does not fail the resulting Leadership test, if the result of that test was 8 or more, you gain 1CP.",
+          "Description": "HERETIC ASTARTES TZEENTCH model only. Each time the bearer’s unit makes a Dark Pact and does not fail the resulting Leadership test, if the result of that test was 8 or more, you gain 1CP.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -24143,7 +24143,7 @@
         },
         {
           "Name": "Orbs of Unlife",
-          "Description": "At the end of the Fight phase, roll one D6 for every enemy unit within 3\" of the bearer, adding 1 to the result if the bearer’s unit made a Dark Pact that phase and did not fail the resulting Leadership test: on a 4+, that enemy unit suffers D3 mortal wounds.",
+          "Description": "HERETIC ASTARTES NURGLE model only. At the end of the Fight phase, roll one D6 for every enemy unit within 3\" of the bearer, adding 1 to the result if the bearer’s unit made a Dark Pact that phase and did not fail the resulting Leadership test: on a 4+, that enemy unit suffers D3 mortal wounds.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -24154,7 +24154,7 @@
         },
         {
           "Name": "Intoxicating Elixir",
-          "Description": "The bearer has the Feel No Pain 5+ ability. Each time the bearer shoots or fights, if the bearer’s unit made a Dark Pact this phase and did not fail the resulting Leadership test, after the bearer has resolved those attacks, select one enemy unit that was hit by one or more of those attacks; that enemy unit must take a Battle-shock test.",
+          "Description": "HERETIC ASTARTES SLAANESH model only. The bearer has the Feel No Pain 5+ ability. Each time the bearer shoots or fights, if the bearer’s unit made a Dark Pact this phase and did not fail the resulting Leadership test, after the bearer has resolved those attacks, select one enemy unit that was hit by one or more of those attacks; that enemy unit must take a Battle-shock test.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -24171,7 +24171,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Focus of Hatred",
-        "Text": "At the start of your Command phase, select one unit from your opponent's army to be your focus of hatred. Until the start of your next Command phase, each time a HERETIC ASTARTES MODEL FROM YOUR ARMY (EXCLUDING DAMNED models) makes an attack that targets your focus of hatred, you can re-roll the Hit roll."
+        "Text": "At the start of your Command phase, select one unit from your opponent’s army to be your focus of hatred. Until the start of your next Command phase, each time a HERETIC ASTARTES model from your army (excluding DAMNED models) makes an attack that targets your focus of hatred, you can re-roll the Hit roll."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -24293,7 +24293,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Masters of Misdirection",
-        "Text": "In the Declare Battle Formations step, you can select a number of LEGIONARIES AND CULTIST MOB UNITS FROM YOUR ARMY; UNTIL THE END OF THE BATTLE, THOSE UNITS, AND ANY CHARACTER UNITS ATTACHED TO THEM (EXCLUDING EPIC HEROES), have the Infiltrator ability. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\n\n**Battle Size | Legionaries | Cultist Mobs**\nIncursion | Up to 2 units | Up to 2 units\nStrike Force | Up to 3 units | Up to 3 units\nOnslaught | Up to 4 units | Up to 4 units"
+        "Text": "In the Declare Battle Formations step, you can select a number of LEGIONARIES and CULTIST MOB units from your army: until the end of the battle, those units, and any CHARACTER units attached to them (excluding EPIC HEROES), have the Infiltrators ability. The maximum number of units you can select in this way depends on the battle size, as shown below.\n\n\n**Battle Size | Legionaries | Cultist Mobs**\nIncursion | Up to 2 units | Up to 2 units\nStrike Force | Up to 3 units | Up to 3 units\nOnslaught | Up to 4 units | Up to 4 units"
       },
       "ForceDispositions": [
         "Disruption"
@@ -24357,7 +24357,7 @@
       "Enhancements": [
         {
           "Name": "Falsehood",
-          "Description": "In the Declare Battle Formations step, you can set up the bearer in Reserves instead of setting it up on the battlefield. If you do, in one of your Movement phases, you can select one model in a friendly LEGIONARIES or CHOSEN unit that has two or more models remaining and is on the battlefield (excluding Attached units).. The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and the bearer is set up as close as possible to where that model was destroyed and only within Engagement Range of any units if the destroyed model was in Engagement Range of those units. The bearer now attaches to that unit as its Leader.",
+          "Description": "In the Declare Battle Formations step, you can set the bearer up in Reserves instead of setting it up on the battlefield. If you do, in one of your Movement phases, you can select one model in a friendly LEGIONARIES or CHOSEN unit that has two or more models remaining and is on the battlefield (excluding Attached units). The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and the bearer is set up as close as possible to where that model was destroyed and only within Engagement Range of any enemy units if the destroyed model was within Engagement Range of those units. The bearer now attaches to that unit as its Leader.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -24418,7 +24418,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Raiders and Reavers",
-        "Text": "Ranged weapons equipped by HERETIC ASTARTES MODELS FROM YOUR ARMY HAVE THE [ASSAULT] ABILITY, AND EACH TIME A HERETIC ASTARTES model from your army makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
+        "Text": "Ranged weapons equipped by HERETIC ASTARTES models from your army have the [ASSAULT] ability, and each time a HERETIC ASTARTES model from your army makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
       },
       "ForceDispositions": [
         "Reconnaissance",
