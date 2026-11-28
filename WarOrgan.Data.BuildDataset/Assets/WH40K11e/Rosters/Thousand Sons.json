@@ -1408,6 +1408,19 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "inferno combi-bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "havoc launcher"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -1417,6 +1430,10 @@
         "WargearDefinitions": []
       },
       "UnitAbilities": [
+        {
+          "Title": "Wargear options",
+          "Text": "This model can be equipped with 1 havoc launcher or can replace 1 inferno combi-bolter with 1 havoc launcher."
+        },
         {
           "Title": "Sorcerous Support",
           "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes a Psychic attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
@@ -1695,6 +1712,7 @@
         "Chaos",
         "Tzeentch",
         "Spawn",
+        "Chaos Spawn",
         "Mutant",
         "Other Datasheets"
       ],
@@ -2872,9 +2890,22 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "hades lascannon",
+            "Cost": 15
+          },
+          {
+            "Key": "heavy reaper autocannon",
+            "Cost": 15
+          }
+        ]
       },
       "UnitAbilities": [
+        {
+          "Title": "Wargear options",
+          "Text": "This model cannot be equipped with more than one electroscourge."
+        },
         {
           "Title": "Invulnerable Save",
           "Text": "This model has a 5+ invulnerable save."
@@ -3958,7 +3989,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "ectoplasma cannon",
+            "Cost": 5
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -4225,6 +4261,11 @@
                     "Options": [
                       {
                         "Items": [
+                          "helbrute fist"
+                        ]
+                      },
+                      {
+                        "Items": [
                           "helbrute fist",
                           "inferno combi-bolter"
                         ]
@@ -4256,6 +4297,11 @@
                       {
                         "Items": [
                           "twin autocannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "helbrute fist"
                         ]
                       },
                       {
@@ -4861,6 +4907,7 @@
         "Vehicle",
         "Fly",
         "Chaos",
+        "Daemon",
         "Tzeentch",
         "Heldrake",
         "Other Datasheets"
@@ -6110,7 +6157,9 @@
             },
             "ModelName": "Aspiring Sorcerer",
             "StatlineRef": "Aspiring Sorcerer",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -6176,13 +6225,30 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "icon of flame"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "icon of flame",
+            "GrantsAbilities": [
+              "Icon of Flame"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -6620,7 +6686,9 @@
             },
             "ModelName": "Scarab Occult Sorcerer",
             "StatlineRef": "Scarab Occult Sorcerer",
-            "Keywords": [],
+            "Keywords": [
+              "Psyker"
+            ],
             "Wargear": [
               {
                 "InitialWargear": [
@@ -6638,19 +6706,6 @@
                       {
                         "Items": [
                           "prosperine khopesh"
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "malefic curse"
-                    ],
-                    "Options": [
-                      {
-                        "Items": [
-                          "hellfyre missile rack"
                         ]
                       }
                     ]
@@ -6676,6 +6731,7 @@
                 "Options": [
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "inferno combi-bolter"
                     ],
@@ -6693,10 +6749,8 @@
                     ]
                   },
                   {
-                    "Max": 9,
-                    "Replaces": [
-                      "inferno combi-bolter"
-                    ],
+                    "Max": 2,
+                    "PerXModels": 5,
                     "Options": [
                       {
                         "Items": [
@@ -8067,7 +8121,7 @@
               "Min": 2,
               "Max": 5
             },
-            "ModelName": "Divining spear Enlightened",
+            "ModelName": "Enlightened",
             "StatlineRef": "Tzaangor Enlightened",
             "Keywords": [],
             "Wargear": [
@@ -8075,25 +8129,22 @@
                 "InitialWargear": [
                   "divining spear"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 2,
-              "Max": 5
-            },
-            "ModelName": "Pistol and chainsword Enlightened",
-            "StatlineRef": "Tzaangor Enlightened",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "autopistol",
-                  "chainsword"
-                ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 5,
+                    "Replaces": [
+                      "divining spear"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "autopistol",
+                          "chainsword"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -8283,11 +8334,11 @@
       "Upgrades": [],
       "Points": [
         {
-          "ModelCount": 5,
-          "Cost": 90
+          "ModelCount": 3,
+          "Cost": 50
         },
         {
-          "ModelCount": 11,
+          "ModelCount": 6,
           "Cost": 90
         }
       ]
@@ -8760,15 +8811,52 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "brayhorn"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "herd banner"
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "brayhorn",
+            "GrantsAbilities": [
+              "Brayhorn"
+            ]
+          },
+          {
+            "Key": "herd banner",
+            "GrantsAbilities": [
+              "Herd banner"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
+        {
+          "Title": "Wargear options",
+          "Text": "One Tzaangor not equipped with a herd banner can be equipped with a brayhorn, and one Tzaangor not equipped with a brayhorn can be equipped with a herd banner."
+        },
         {
           "Title": "Invulnerable Save",
           "Text": "Models in this unit have a 6+ invulnerable save."
@@ -8987,7 +9075,7 @@
           "Phase": "Command",
           "When": "Command phase.",
           "Target": "One THOUSAND SONS PSYKER unit from your army within range of an objective marker you control, if that objective marker is wholly within your army’s Flow of Magic.",
-          "Effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.&#x20;"
+          "Effect": "That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
         },
         {
           "Name": "Wrath of the Doomed",
@@ -9097,7 +9185,7 @@
       "Cost": 3,
       "Rule": {
         "Title": "Kindred Sorcery",
-        "Text": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase. You can only select each of these abilities once per battle.\n\n\n**Imbued Manifestation**\nAdd 6\" to the range characteristic of ranged Psychic weapons equipped by THOUSAND SONS models in your army.\n\n\n**Psychic Maelstrom**\nEach time a THOUSAND SONS model from your army makes an attack with a Psychic weapon, add 1 to the Wound roll.\n\n\n**Wrath of the Immaterium**\nPsychic weapons equipped by THOUSAND SONS models in your army have the [Devastating Wounds] ability."
+        "Text": "In your Command phase, you can select one of the abilities listed below to take effect until the start of your next Command phase. You can only select each of these abilities once per battle.\n\nImbued Manifestation\nAdd 6\" to the Range characteristic of ranged Psychic weapons equipped by THOUSAND SONS models from your army.\n\nPsychic Maelstrom\nEach time a THOUSAND SONS model from your army makes an attack with a Psychic weapon, add 1 to the Wound roll.\n\nWrath of the Immaterium\nPsychic weapons equipped by THOUSAND SONS models from your army have the [Devastating Wounds] ability."
       },
       "ForceDispositions": [
         "Priority Assets",
@@ -9200,7 +9288,7 @@
           "RequiredAbilities": []
         },
         {
-          "Name": "Incandeum",
+          "Name": "Incandaeum",
           "Description": "Once per battle, when selecting a Ritual for the bearer to attempt, you can select Doombolt, even if a model from your army has already attempted to manifest that Ritual this phase.",
           "Cost": 15,
           "Features": "None",
@@ -9283,23 +9371,27 @@
       ],
       "Enhancements": [
         {
-          "Name": "Nethershriek Mind-eater",
+          "Name": "Nethershriek Mind-Eater",
           "Description": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to the bearer. That unit must take a Battle-shock test; if that test is failed, that unit suffers 3 mortal wounds.",
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Faction: Thousand Sons",
+            "Lord of Change"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
-          "Name": "Diabolic Servant",
-          "Description": "While the bearer is within 6\" of one or more friendly SCINTILLATING LEGION units, each time the bearer Channels the Warp, add 1 to the Psychic test result.",
+          "Name": "Diabolic Savant",
+          "Description": "While the bearer is within 6\" of one or more friendly SCINTILLATING LEGIONS units, each time the bearer Channels the Warp, add 1 to the Psychic test result.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Thousand Sons",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -9308,12 +9400,15 @@
         },
         {
           "Name": "Duplicitous Malediction",
-          "Description": "After both players have deployed their armies, select up to three THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserve if you wish, regardless of how many units are already in Strategic Reserves.",
+          "Description": "After both players have deployed their armies, select up to three THOUSAND SONS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
           "Cost": 15,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Faction: Thousand Sons",
+            "Lord of Change"
+          ],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
@@ -9324,6 +9419,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Thousand Sons",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -9338,7 +9434,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Warpmeld Sacrifice",
-        "Text": "Each time an enemy unit is selected to shoot or fight and one or more TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED units from your army are selected as a target of one or more of those attacks, each of those TZEENTCH MUTANT units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nEach time a TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED* unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nTZAANGORS units from your army have the Battleline keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in that unit."
+        "Text": "Each time an enemy unit is selected to shoot or fight and one or more TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED units from your army are selected as a target of one or more of those attacks, each of those TZEENTCH MUTANT units can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time an attack targets that unit, subtract 1 from the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nEach time a TZEENTCH MUTANT INFANTRY or TZEENTCH MUTANT MOUNTED unit from your army is selected to shoot or fight, before selecting its targets, that unit can make a Warpmeld Sacrifice. If it does, until the end of the phase, each time a model in that unit makes an attack, add 1 to the Wound roll. At the end of the phase, that TZEENTCH MUTANT unit suffers D3 mortal wounds.\n\nTZAANGORS units from your army have the BATTLELINE keyword, and while such a unit is not Battle-shocked, add 1 to the Objective Control characteristic of TZAANGOR models in that unit."
       },
       "Tags": [
         "MUTANT"
@@ -9371,7 +9467,7 @@
           "Category": "Warpmeld Pact Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, just after a TZEENTCH MUTANT unit from your army is selected to fi ght.",
+          "When": "Fight phase, just after a TZEENTCH MUTANT unit from your army is selected to fight.",
           "Target": "That TZEENTCH MUTANT unit.",
           "Effect": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\", and when determining which models in it are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
         },
@@ -9391,7 +9487,7 @@
           "Phase": "Movement",
           "When": "Start of your Movement phase.",
           "Target": "One TZEENTCH MUTANT unit from your army.",
-          "Effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Advanced."
+          "Effect": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Advanced.\n\nFAQ: You do not have to declare whether the unit will shoot or charge when you use this Stratagem; you may decide later in the turn."
         },
         {
           "Name": "Twisted Mirage",
@@ -9400,7 +9496,7 @@
           "Phase": "Movement",
           "When": "Reinforcements step of your Movement phase.",
           "Target": "One TZEENTCH MUTANT unit from your army that is arriving from Strategic Reserves this phase.",
-          "Effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or anywhere on the battlefield that is more than 8\" horizontally away from all enemy units if it is a MONSTER unit. In either case, until the end of the turn, it is not eligible to declare a charge."
+          "Effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or anywhere on the battlefield that is more than 8\" horizontally away from all enemy units if it is a MONSTER unit. In either case, until the end of the turn, it is not eligible to declare a charge.\n\nFAQ: When going second, a Tzaangor unit that started the game on the battlefield and was placed into Strategic Reserves by its Ambushing Hunters ability cannot arrive during your first turn using this Stratagem."
         }
       ],
       "Enhancements": [
@@ -9530,7 +9626,7 @@
       "Enhancements": [
         {
           "Name": "Risen Rubricae",
-          "Description": "At the start of the Declare Battle Formations step, select either two RUBRICAE BATTLELINE units from your army or one other RUBRICAE unit from your army; models in the selected units have the Infiltrators ability.",
+          "Description": "At the start of the Declare Battle Formations step, select either two RUBRICAE BATTLELINE units from your army or one other RUBRICAE unit from your army; models in the selected units have the Infiltrators ability.\n\nFAQ: A CHARACTER attached to a unit selected using this Enhancement also gains the Infiltrators ability.",
           "Cost": 30,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -9574,6 +9670,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Thousand Sons",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -9670,6 +9767,7 @@
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [
+            "Faction: Thousand Sons",
             "Infantry"
           ],
           "RequiredOneOfKeywords": [],
@@ -9721,18 +9819,18 @@
           "Category": "Ritual of Regeneration Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Infantry/Mounted Thousand Sons Psyker</k> unit suffers a mortal wound.",
-          "Target": "That <k>Infantry/Mounted Thousand Sons Psyker</k> unit.",
-          "Effect": "Your unit has <b>Feel No Pain 5+</b> against <b>mortal wounds</b>."
+          "When": "Any phase, when a friendly INFANTRY/MOUNTED THOUSAND SONS PSYKER unit suffers a mortal wound.",
+          "Target": "That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.",
+          "Effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         },
         {
           "Name": "Multitudinous Limbs",
           "Category": "Ritual of Regeneration Stratagem",
           "CPCost": 1,
-          "Phase": "Shooting",
-          "When": "Your Movement phase, when a friendly <k>Infantry/Mounted Thousand Sons Psyker</k> unit is selected to make an <b>advance/fall back move</b>.",
-          "Target": "That <k>Infantry/Mounted Thousand Sons Psyker</k> unit.",
-          "Effect": "That move does not prevent your unit from being <b>eligible to start an action</b>."
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly INFANTRY/MOUNTED THOUSAND SONS PSYKER unit is selected to make an advance/fall back move.",
+          "Target": "That INFANTRY/MOUNTED THOUSAND SONS PSYKER unit.",
+          "Effect": "That move does not prevent your unit from being eligible to start an action."
         },
         {
           "Name": "Mutagenic Magicks",
@@ -9740,8 +9838,8 @@
           "CPCost": 1,
           "Phase": "Fight",
           "When": "Start of the Fight phase.",
-          "Target": "One friendly <b>engaged</b> <k>Thousand Sons Psyker</k> unit.",
-          "Effect": "Select one enemy unit engaged with your unit. Roll six D6:\r<ul><li>For each 4+, that enemy unit suffers 1 <b>mortal wound</b>.</li></ul>"
+          "Target": "One friendly engaged THOUSAND SONS PSYKER unit.",
+          "Effect": "Select one enemy unit engaged with your unit. Roll six D6:\n- For each 4+, that enemy unit suffers 1 mortal wound."
         }
       ],
       "Enhancements": [
@@ -9755,10 +9853,11 @@
             "Faction: Thousand Sons",
             "Psyker"
           ],
-          "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [
-            "Monster"
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
           ],
+          "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
@@ -9771,10 +9870,11 @@
             "Faction: Thousand Sons",
             "Psyker"
           ],
-          "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [
-            "Monster"
+          "RequiredOneOfKeywords": [
+            "Infantry",
+            "Mounted"
           ],
+          "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
       ],
@@ -9796,18 +9896,18 @@
           "Category": "Sekhetar Cohort Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>SEKHETAR ROBOTS</k> unit within 12\" of a friendly <k>Thousand Sons Psyker</k> unit starts an <b>action</b>.",
-          "Target": "That <k>SEKHETAR ROBOTS</k> unit.",
-          "Effect": "That <b>action</b> does not prevent your unit from being <b>eligible to shoot</b>."
+          "When": "Your Shooting phase, when a friendly SEKHETAR ROBOTS unit within 12\" of a friendly THOUSAND SONS PSYKER unit starts an action.",
+          "Target": "That SEKHETAR ROBOTS unit.",
+          "Effect": "That action does not prevent your unit from being eligible to shoot."
         },
         {
           "Name": "Warp Fields",
           "Category": "Sekhetar Cohort Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>SEKHETAR ROBOTS</k> unit within 12\" of a friendly <k>Thousand Sons Psyker</k> unit.",
-          "Target": "That <k>SEKHETAR ROBOTS</k> unit.",
-          "Effect": "Ranged attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have ‑1 to <b>wound rolls</b>."
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly SEKHETAR ROBOTS unit within 12\" of a friendly THOUSAND SONS PSYKER unit.",
+          "Target": "That SEKHETAR ROBOTS unit.",
+          "Effect": "Ranged attacks that target your unit with a S greater than your unit’s T have ‑1 to wound rolls."
         },
         {
           "Name": "Arcane Venting",
@@ -9815,8 +9915,8 @@
           "CPCost": 1,
           "Phase": "Movement",
           "When": "End of your Movement phase.",
-          "Target": "One friendly <k>SEKHETAR ROBOTS</k> unit.",
-          "Effect": "Select one <b>objective</b> your unit is controlling. That <b>objective</b> is <b>secured</b>."
+          "Target": "One friendly SEKHETAR ROBOTS unit.",
+          "Effect": "Select one objective your unit is controlling. That objective is secured."
         }
       ],
       "Enhancements": [
@@ -9874,27 +9974,27 @@
           "Category": "Servants of Change Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Monster Mutant</k> unit is <b>selected to move</b>.",
-          "Target": "That <k>Monster Mutant</k> unit.",
-          "Effect": "Your unit has <k>MOBILE</k>."
+          "When": "Your Movement phase, when a friendly MONSTER MUTANT unit is selected to move.",
+          "Target": "That MONSTER MUTANT unit.",
+          "Effect": "Your unit has MOBILE."
         },
         {
           "Name": "Prismatic Displacement",
           "Category": "Servants of Change Stratagem",
           "CPCost": 1,
-          "Phase": "Shooting",
-          "When": "Your Movement phase, when a friendly <k>Infantry/Mounted Mutant</k> unit is selected to make an <b>advance/fall back move</b>.",
-          "Target": "That <k>Infantry/Mounted Mutant</k> unit.",
-          "Effect": "\r<ul><li>Your unit’s ranged attacks have <k>[ASSAULT]</k> until the end of the turn.</li>\r<li>That move does not prevent your unit from being <b>eligible to shoot/declare a charge</b>.</li></ul>"
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly INFANTRY/MOUNTED MUTANT unit is selected to make an advance/fall back move.",
+          "Target": "That INFANTRY/MOUNTED MUTANT unit.",
+          "Effect": "- Your unit’s ranged attacks have [ASSAULT] until the end of the turn.\n- That move does not prevent your unit from being eligible to shoot/declare a charge."
         },
         {
           "Name": "Temporal Instability",
           "Category": "Servants of Change Stratagem",
           "CPCost": 1,
-          "Phase": "Shooting",
-          "When": "Your Movement phase, when a friendly <k>Infantry/Mounted Mutant</k> unit is selected to make an <b>advance/fall back move</b>.",
-          "Target": "That <k>Infantry/Mounted Mutant</k> unit.",
-          "Effect": "In a turn your unit made an <b>advance/fall-back move</b>, that move does not prevent your unit from being <b>eligible to start an action</b>."
+          "Phase": "Movement",
+          "When": "Your Movement phase, when a friendly INFANTRY/MOUNTED MUTANT unit is selected to make an advance/fall back move.",
+          "Target": "That INFANTRY/MOUNTED MUTANT unit.",
+          "Effect": "In a turn your unit made an advance/fall-back move, that move does not prevent your unit from being eligible to start an action."
         }
       ],
       "Enhancements": [
@@ -9911,6 +10011,19 @@
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
+        },
+        {
+          "Name": "Thicket of Bladed Bone",
+          "Description": "SPAWN unit only. This unit’s melee attacks have:\n- +1 AP.\n- [CLEAVE 1].",
+          "Cost": 10,
+          "Features": "Upgrade",
+          "RequiredUnitNames": [],
+          "RequiredKeywords": [
+            "Spawn"
+          ],
+          "RequiredOneOfKeywords": [],
+          "ExcludedKeywords": [],
+          "RequiredAbilities": []
         }
       ],
       "Effects": []
@@ -9919,7 +10032,27 @@
   "ArmyRules": [
     {
       "Title": "Cabal of Sorcerers",
-      "Text": "If your army Faction is THOUSAND SONS, at the start of your Shooting phase, one or more models from your army with this ability can attempt Rituals. To do so, select one model from your army with this ability that has not yet attempted a Ritual this turn and select one Ritual no model from your army has attempted to manifest this turn, then take a Psychic test by following the sequence below:\n\n1. Roll 2D6\n2. Optionally, roll one additional D6 (Channel the Warp). Then, if one or more doubles or triples were rolled during this test, that model's unit suffers D3 mortal wounds.\n3. If that model is not destroyed, the combined total of all the dice rolled during this test is the Psychic test result. If this equals or exceeds the Warp Charge value of the Ritual being attempted, that model manifests that Ritual and you resolve its effects."
+      "Text": "If your Army Faction is THOUSAND SONS, at the start of your Shooting phase, one or more models from your army with this ability can attempt the Rituals listed in your army rules. To do so, select one model from your army with this ability that has not yet attempted a Ritual this turn and select one Ritual no model from your army has attempted to manifest this turn, then take a Psychic test for that model by following the sequence below:\n\n1. Roll 2D6.\n2. Optionally, roll one additional D6 (Channel the Warp). If you do, and one or more doubles or triples were rolled during this test, that model’s unit suffers D3 mortal wounds.\n3. If that model is not destroyed, the combined total of all the dice rolled during this test is the Psychic test result. If this equals or exceeds the Warp Charge value of the Ritual being attempted, that model manifests that Ritual and you resolve its effects.\n\nYou can decide whether to Channel the Warp after rolling the initial 2D6. Resolve each Ritual before selecting the next model and Ritual."
+    },
+    {
+      "Title": "Destiny’s Ruin (Psychic)",
+      "Text": "Warp Charge: 5\n\nSelect one enemy unit within 24\" of and visible to the manifesting model. Until the end of the phase, each time a THOUSAND SONS or SCINTILLATING LEGIONS model from your army makes an attack that targets that unit, re-roll a Hit roll of 1. If the Psychic test result for this Ritual was 10+, you can re-roll the Hit roll instead."
+    },
+    {
+      "Title": "Temporal Surge (Psychic)",
+      "Text": "Warp Charge: 6\n\nSelect one friendly THOUSAND SONS or SCINTILLATING LEGIONS unit that is not within Engagement Range of one or more enemy units and is within 24\" of and visible to the manifesting model. That unit can make a Normal move of up to D6\". If the Psychic test result for this Ritual was 10+, that unit can make a Normal move of up to 6\" instead. In either case, until the end of the turn, that unit is not eligible to declare a charge."
+    },
+    {
+      "Title": "Doombolt (Psychic)",
+      "Text": "Warp Charge: 7\n\nSelect one enemy unit within 24\" of and visible to the manifesting model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of the manifesting model); that unit suffers D3 mortal wounds. If the Psychic test result for this Ritual was 11+, that unit suffers D3+3 mortal wounds instead."
+    },
+    {
+      "Title": "Twist of Fate (Psychic)",
+      "Text": "Warp Charge: 9\n\nSelect one enemy unit within 24\" of and visible to the manifesting model. Until the end of the phase, each time a THOUSAND SONS or SCINTILLATING LEGIONS model from your army makes an attack that targets that unit, improve the Armour Penetration characteristic of that attack by 1. If the Psychic test result for this Ritual was 12+, improve the Armour Penetration characteristic of that attack by 2 instead."
+    },
+    {
+      "Title": "Pact of Sorcery",
+      "Text": "When mustering your army, unless specifically stated otherwise, you cannot select SCINTILLATING LEGIONS as your Army Faction."
     }
   ]
 }

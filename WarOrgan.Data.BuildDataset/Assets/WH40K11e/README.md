@@ -2,7 +2,17 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.35.0
+## Coverage in 1.5.36.0
+
+- 1.5.36 Death Guard: army rules, detachments, points and wargear have been audited; several conditional wargear and Leader restrictions remain text-only or need app verification.
+
+- 1.5.36 Chaos Knights: army rules, detachments, roster and Leader/Support links have been audited. Chaos Questoris Knight Magaera is added, and Porphyrion and Moirax loadouts are corrected.
+
+- 1.5.36 Thousand Sons: army rules now include the four Rituals and Pact of Sorcery. Detachments, roster and Leader/Support links have been audited; enhancement eligibility, points and wargear are corrected.
+
+- 1.5.36 Black Templars: army rules, detachments and roster have been audited; enhancement eligibility, Sword Brethren prices and equipment, and optional multi-melta costs are corrected.
+
+- 1.5.36 Space Marines: Firestrike Servo-Turrets, Attack Bike Squad and Tarantula Sentry Battery have model-count points; Land Speeder Storm costs 70 points.
 
 - 1.5.35 T'au Empire: every Crisis model can select its own drone loadout, and Fireknife and Starscythe models start with both guns before optionally swapping one for a second copy of the other.
 
@@ -125,7 +135,7 @@ The URL always targets the most recent published release. The downloaded ZIP sho
 ## Sources
 
 1. **BSData** — baseline at `f015101d4c495173283e1b97e9d59f2befb877ad`.
-2. **ListForge** — [catalogue export](https://files.data-ark.dev/wh40k-11e/) at `71860bdbe486ddeed7fd46e80df2735450dcc8a6`.
+2. **ListForge** — [catalogue export manifest](https://files.data-ark.dev/wh40k-11e/index.json) at `a7c8fc1caac956ad6ad78588616b01787ce514aa` (locally cached and checksum-verified on 27 November 2026).
 3. **GW**.
 4. **Faction packs** — [Warhammer Community updates](https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/).
 

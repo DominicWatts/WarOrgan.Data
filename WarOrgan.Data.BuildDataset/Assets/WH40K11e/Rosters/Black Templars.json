@@ -425,7 +425,8 @@
         "Imperium",
         "Tacticus",
         "Chaplain",
-        "Other Datasheets"
+        "Character",
+        "Epic Hero"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -2054,12 +2055,17 @@
         ],
         "Features": 0
       },
-      "Infos": [],
+      "Infos": [
+        {
+          "Title": "Wargear restriction",
+          "Text": "The master-crafted power weapon can only be taken if this model has its absolvor bolt pistol; that pistol cannot then be replaced with a hand flamer."
+        }
+      ],
       "Keywords": [
         "Infantry",
         "Character",
         "Chaplain",
-        "Grenades",
+        "Explosives",
         "Imperium",
         "Tacticus",
         "Execrator"
@@ -2299,7 +2305,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -2557,7 +2568,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -2801,12 +2817,32 @@
                   "multi-melta",
                   "multi-melta"
                 ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "additional multi-melta"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "additional multi-melta",
+            "DisplayName": "Additional Multi-melta",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "multi-melta"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -3084,7 +3120,7 @@
       "Keywords": [
         "Epic Hero",
         "Character",
-        "Grenades",
+        "Explosives",
         "Imperium",
         "Tacticus",
         "High Marshal Helbrecht",
@@ -3332,6 +3368,10 @@
           }
         ],
         "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          },
           {
             "Key": "orbital comms array",
             "DisplayName": "Orbital Comms Array",
@@ -4120,7 +4160,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -4525,7 +4570,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -4900,7 +4950,8 @@
                 ],
                 "Options": [
                   {
-                    "Max": 10,
+                    "Max": 1,
+                    "PerXModels": 4,
                     "Replaces": [
                       "heavy bolt pistol"
                     ],
@@ -4910,10 +4961,33 @@
                           "plasma pistol (supercharge)",
                           "plasma pistol (standard)"
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 4,
+                    "Replaces": [
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
                       {
                         "Items": [
                           "hand flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 4,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "thunder hammer"
                         ]
                       }
                     ]
@@ -4926,18 +5000,14 @@
                     "Options": [
                       {
                         "Items": [
-                          "thunder hammer"
-                        ]
-                      },
-                      {
-                        "Items": [
                           "master-crafted power weapon"
                         ]
                       }
                     ]
                   },
                   {
-                    "Max": 2,
+                    "Max": 1,
+                    "PerXModels": 4,
                     "Replaces": [
                       "heavy bolt pistol",
                       "chainsword"
@@ -4966,7 +5036,7 @@
       "Infos": [],
       "Keywords": [
         "Infantry",
-        "Grenades",
+        "Explosives",
         "Imperium",
         "Tacticus",
         "Sword Brethren Squad",
@@ -5292,6 +5362,16 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 140
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 9,
+          "Cost": 250
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 10,
           "Cost": 275
         },
@@ -5302,6 +5382,16 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 140
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 9,
+          "Cost": 250
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 275
         },
@@ -5309,6 +5399,16 @@
           "UnitCount": 3,
           "ModelCount": 4,
           "Cost": 135
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 160
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 9,
+          "Cost": 270
         },
         {
           "UnitCount": 3,
@@ -5603,27 +5703,27 @@
           "Category": "Marshal's Household Stratagem",
           "CPCost": 1,
           "Phase": "Charge",
-          "When": "Your Charge phase, when a friendly <k>Sword Brethren Squad</k> unit ends a <b>charge move</b>.",
-          "Target": "That <k>Sword Brethren Squad</k>.",
-          "Effect": "Select one enemy unit <b>engaged</b> with your unit. Roll one D6 for each model in your unit <b>engaged</b> with that enemy unit:<ul><li>For each 4+, that enemy unit suffers 1 <b>mortal wound</b> (to a maximum of 6 <b>mortal wounds</b>).</li></ul>"
+          "When": "Your Charge phase, when a friendly Sword Brethren Squad unit ends a charge move.",
+          "Target": "That Sword Brethren Squad.",
+          "Effect": "Select one enemy unit engaged with your unit. Roll one D6 for each model in your unit engaged with that enemy unit:\n- For each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         },
         {
           "Name": "Slayers of Abominations",
           "Category": "Marshal's Household Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when a friendly <k>Sword Brethren Squad</k> unit is <b>selected to fight</b>.",
-          "Target": "That <k>Sword Brethren Squad</k> unit.",
-          "Effect": "Your unit's melee attacks that target a <k>Monster/Vehicle</k> unit have +2 <b>S</b>."
+          "When": "Fight phase, when a friendly Sword Brethren Squad unit is selected to fight.",
+          "Target": "That Sword Brethren Squad unit.",
+          "Effect": "Your unit's melee attacks that target a Monster/Vehicle unit have +2 S."
         },
         {
           "Name": "Unsparing Execution",
           "Category": "Marshal's Household Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your opponent's Movement phase, when a unit is selected to make a <b>fall-back move</b>, if that unit is <b>engaged</b> with a friendly <k>Sword Brethren Squad </k> unit.",
-          "Target": "That <k>Sword Brethren Squad</k> unit.",
-          "Effect": "When an enemy unit <b>engaged</b> with your unit is selected to make a <b>fall-back move </b>, that enemy unit must use the <b>desperate escape</b> mode, with -1 to those <b>hazard rolls</b> if that enemy unit is <b>battle-shocked</b>."
+          "When": "Your opponent's Movement phase, when a unit is selected to make a fall-back move, if that unit is engaged with a friendly Sword Brethren Squad unit.",
+          "Target": "That Sword Brethren Squad unit.",
+          "Effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, that enemy unit must use the desperate escape mode, with -1 to those hazard rolls if that enemy unit is battle-shocked."
         }
       ],
       "Enhancements": [
@@ -5632,7 +5732,9 @@
           "Description": "SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls",
           "Cost": 10,
           "Features": "Upgrade",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "SWORD BRETHREN SQUAD"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -5643,7 +5745,9 @@
           "Description": "SWORD BRETHREN SQUAD unit only. This unit has Fights First",
           "Cost": 15,
           "Features": "Upgrade",
-          "RequiredUnitNames": [],
+          "RequiredUnitNames": [
+            "SWORD BRETHREN SQUAD"
+          ],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
@@ -6548,7 +6652,7 @@
       "Name": "Fist of the God-Emperor",
       "Cost": 1,
       "Rule": {
-        "Title": "New Rule",
+        "Title": "Purge and Sanctify",
         "Text": "Each time a friendly Crusader Squad unit makes a surge move, instead of selecting a surge target, you can select the closest objective to that unit. When that unit makes that surge move, each model in that unit must end that surge move as close as possible to that objective instead.\n\n\nRestrictions: Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
       },
       "ForceDispositions": [
@@ -6560,18 +6664,18 @@
           "Category": "Fist of the God-Emperor Stratagem",
           "CPCost": 1,
           "Phase": "Shooting or Fight",
-          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly <k>CRUSADER SQUAD</k> unit.",
-          "Target": "That <k>CRUSADER SQUAD</k> unit.",
-          "Effect": "Attacks that target your unit with a <b>S</b> greater than your unit’s <b>T</b> have -1 to <b>wound rolls</b>."
+          "When": "Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly CRUSADER SQUAD unit.",
+          "Target": "That CRUSADER SQUAD unit.",
+          "Effect": "Attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
         },
         {
           "Name": "Avowed Destruction",
           "Category": "Fist of the God-Emperor Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "The Fight phase, when a friendly <k>CRUSADER SQUAD</k> unit is <b>selected to fight</b>.",
-          "Target": "That <k>CRUSADER SQUAD</k> unit.",
-          "Effect": "Your unit’s melee attacks: <ul><li>Have <k>[LETHAL HITS]</k>.</li><li><u>Or:</u> Have <k>[SUSTAINED HITS 1]</k>.</li></ul>"
+          "When": "The Fight phase, when a friendly CRUSADER SQUAD unit is selected to fight.",
+          "Target": "That CRUSADER SQUAD unit.",
+          "Effect": "Your unit’s melee attacks:\n- Have [LETHAL HITS].\n- Or: Have [SUSTAINED HITS 1]."
         },
         {
           "Name": "Doctrinal Flexibility",
@@ -6579,8 +6683,8 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Your Command phase.",
-          "Target": "One friendly <k>Crusader Squad</k> unit.",
-          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+          "Target": "One friendly Crusader Squad unit.",
+          "Effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
         }
       ],
       "Enhancements": [
@@ -6590,11 +6694,11 @@
           "Cost": 10,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
-          "RequiredOneOfKeywords": [
+          "RequiredKeywords": [
             "Character",
             "Infantry"
           ],
+          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },

@@ -286,6 +286,7 @@
                   "twin magna lascannon",
                   "acastus ironstorm missile pod",
                   "acastus autocannon",
+                  "acastus autocannon",
                   "titanic feet"
                 ],
                 "Options": [
@@ -303,13 +304,21 @@
                     ]
                   },
                   {
-                    "Max": 2,
+                    "Max": 1,
                     "Replaces": [
+                      "acastus autocannon",
                       "acastus autocannon"
                     ],
                     "Options": [
                       {
                         "Items": [
+                          "acastus autocannon",
+                          "lascannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lascannon",
                           "lascannon"
                         ]
                       }
@@ -675,6 +684,7 @@
         "Character",
         "Titanic",
         "Towering",
+        "Chaos",
         "Cerastus",
         "Knight Acheron",
         "Knight Character"
@@ -1666,6 +1676,379 @@
           "UnitCount": 2,
           "ModelCount": 1,
           "Cost": 415
+        }
+      ]
+    },
+    {
+      "Id": "CHAOS QUESTORIS KNIGHT MAGAERA",
+      "DisplayName": "Chaos Questoris Knight Magaera",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Chaos Questoris Knight Magaera",
+            "StatlineRef": "Chaos Questoris Knight Magaera",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "phased plasma-fusil",
+                  "lightning cannon",
+                  "reaper chainsword - strike",
+                  "reaper chainsword - sweep"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "reaper chainsword - strike",
+                      "reaper chainsword - sweep"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hekaton siege claw - strike",
+                          "hekaton siege claw - sweep",
+                          "twin rad cleanser"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Invulnerable Save",
+          "Text": "This model has a 5+ invulnerable save."
+        },
+        {
+          "Title": "Huntmaster (Aura)",
+          "Text": "While a friendly War Dog model is within 6\" of this model, ranged weapons equipped by that War Dog model have the [Assault] ability."
+        },
+        {
+          "Title": "Repair Auto-simulacra",
+          "Text": "At the end of your Command phase, this model regains up to D3 lost wounds."
+        },
+        {
+          "Title": "Damaged: 1-9 Wounds Remaining",
+          "Text": "While this model has 1-9 wounds remaining, subtract 5 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "Infos": [],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Character",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Abhorrent",
+        "Knight Magaera",
+        "Knight Character",
+        "Frame"
+      ],
+      "CoreAbilities": [
+        "Invulnerable Save",
+        "Deadly Demise D6",
+        "Super-Heavy Walker"
+      ],
+      "FactionKeywords": [
+        "Chaos Knights"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Chaos Questoris Knight Magaera",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "10\""
+            },
+            {
+              "Id": "T",
+              "Value": "11"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "Inv",
+              "Value": "5+"
+            },
+            {
+              "Id": "W",
+              "Value": "26"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "10"
+            },
+            {
+              "Id": "Base",
+              "Value": "170x109"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "lightning cannon",
+              "DisplayName": "Lightning cannon",
+              "Keywords": "Sustained Hits 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "48\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "phased plasma-fusil",
+              "DisplayName": "Phased plasma-fusil",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "twin rad cleanser",
+              "DisplayName": "Twin rad cleanser",
+              "Keywords": "Anti-Infantry 2+, Ignores Cover, Torrent, Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "2"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "hekaton siege claw - strike",
+              "DisplayName": "Hekaton siege claw - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "20"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "8"
+                }
+              ]
+            },
+            {
+              "Id": "hekaton siege claw - sweep",
+              "DisplayName": "Hekaton siege claw - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "8"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "10"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - strike",
+              "DisplayName": "Reaper chainsword - strike",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "14"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "6"
+                }
+              ]
+            },
+            {
+              "Id": "reaper chainsword - sweep",
+              "DisplayName": "Reaper chainsword - sweep",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "12"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "UnitCount": 1,
+          "ModelCount": 1,
+          "Cost": 375
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 1,
+          "Cost": 390
         }
       ]
     },
@@ -5586,20 +5969,21 @@
             "Wargear": [
               {
                 "InitialWargear": [
+                  "graviton pulsar",
+                  "volkite veuglaire",
                   "armoured feet"
                 ],
                 "Options": [
                   {
-                    "Max": 2,
+                    "Max": 1,
+                    "Replaces": [
+                      "volkite veuglaire"
+                    ],
                     "Options": [
                       {
                         "Items": [
-                          "volkite veuglaire"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "conversion beam cannon"
+                          "siege claw",
+                          "rad cleanser"
                         ]
                       },
                       {
@@ -5614,8 +5998,36 @@
                       },
                       {
                         "Items": [
-                          "rad cleanser",
-                          "siege claw"
+                          "conversion beam cannon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "graviton pulsar"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "siege claw",
+                          "rad cleanser"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "lightning lock"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "conversion beam cannon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "volkite veuglaire"
                         ]
                       }
                     ]
@@ -6515,9 +6927,9 @@
           "Category": "Iconoclast Fiefdom Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Chaos Knights</k> unit is <b>destroyed</b> by an enemy unit.",
+          "When": "Any phase, when a friendly Chaos Knights unit is destroyed by an enemy unit.",
           "Target": "That enemy unit.",
-          "Effect": "That enemy unit is <b>marked</b> until the end of the battle.\r<ul><li>Friendly <k>Damned</k> units’ attacks that target a <b>marked</b> unit have <k>[Lethal Hits]</k>.</li></ul>"
+          "Effect": "That enemy unit is marked until the end of the battle.\n- Friendly Damned units’ attacks that target a marked unit have [Lethal Hits]."
         },
         {
           "Name": "Coursing Thralls",
@@ -6525,8 +6937,8 @@
           "CPCost": 1,
           "Phase": "Shooting",
           "When": "Start of your Shooting phase.",
-          "Target": "One friendly <k>Damned</k> unit.",
-          "Effect": "Select one <b>visible</b> enemy unit within 12\" of your unit. That enemy unit is <b>hunted</b>:\r<ul><li>While a unit is <b>hunted</b>, that unit has +6\" <b>detection range</b>.</li></ul>"
+          "Target": "One friendly Damned unit.",
+          "Effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit is hunted:\n- While a unit is hunted, that unit has +6\" detection range."
         },
         {
           "Name": "Dark Sacrifice",
@@ -6534,14 +6946,14 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Your Command phase.",
-          "Target": "One friendly <k>Damned</k> unit (excluding <k>Accursed Cultists</k> units) within 9\" of a friendly <k>Chaos Knights</k> model.",
-          "Effect": "Select one <k>Chaos Knights</k> model within 9\" of your unit and roll D3+3:\r<ul><li>Your <k>Damned</k> unit suffers that number of <b>mortal wounds</b>.</li>\r<li>That <k>Chaos Knights</k> model <b>heals</b> that number of wounds.</li></ul>"
+          "Target": "One friendly Damned unit (excluding Accursed Cultists units) within 9\" of a friendly Chaos Knights model.",
+          "Effect": "Select one Chaos Knights model within 9\" of your unit and roll D3+3:\n- Your Damned unit suffers that number of mortal wounds.\n- That Chaos Knights model heals that number of wounds."
         }
       ],
       "Enhancements": [
         {
           "Name": "Cruel Lashmaster",
-          "Description": "While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase.",
+          "Description": "CHAOS KNIGHTS model only. While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase.",
           "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6554,7 +6966,7 @@
         },
         {
           "Name": "Iconoclast Idol",
-          "Description": "While a friendly DAMNED unit is within 6\" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP.",
+          "Description": "CHAOS KNIGHTS model only. While a friendly DAMNED unit is within 6\" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP.",
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -6573,7 +6985,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Tyrannical Court",
-        "Text": "Improve the Objective Control characteristic of CHAOS KNIGHT CHARACTER models from your army by 2. In addition, once per battle round, if your WARLORD is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
+        "Text": "Improve the Objective Control characteristic of CHAOS KNIGHTS CHARACTER models from your army by 2. In addition, once per battle round, if your WARLORD is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP."
       },
       "ForceDispositions": [
         "Take and Hold"
@@ -6683,7 +7095,6 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [
-            "War Dog",
             "War Dog"
           ],
           "RequiredAbilities": []
@@ -6722,7 +7133,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Marked Prey",
-        "Text": "At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.\n\n\n**Keywords**\nWhile using the Houndpack Lance Detachment, the following rules apply:\n\n\n- Your army must include 3 or more WAR DOG units.\n- WAR DOG units from your army have the BATTLELINE keyword.\n- When mustering your army, select 3 WAR DOG units from your army. Until the end of the battle, those units have the CHARACTER keyword.*\n\n\n* Designer's Note: *This means that the selected units can be given Enhancements and one of them can be selected as your* WARLORD."
+        "Text": "At the start of your Command phase, select one unit from your opponent's army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [Sustained Hits 1] ability.\n\nKeywords\nWhile using the Houndpack Lance Detachment, the following rules apply:\n- Your army must include 3 or more WAR DOG units.\n- WAR DOG units from your army have the BATTLELINE keyword.\n- When mustering your army, select 3 WAR DOG units from your army. Until the end of the battle, those units have the CHARACTER keyword.\n\nDesigner's Note: This means that the selected units can be given Enhancements and one of them can be selected as your WARLORD."
       },
       "ForceDispositions": [
         "Reconnaissance"
@@ -7043,14 +7454,12 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [
-            "War Dog"
-          ],
+          "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Octagram of Conjuration",
-          "Description": "While a friendly WAR DOG MODEL IS WITHIN 9” OF THIS MODEL, AFTER THAT WAR DOG model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test.",
+          "Description": "The bearer has the following ability:\n\nOctagram of Conjuration (Aura): While a friendly WAR DOG model is within 9” of this model, after that WAR DOG model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test.",
           "Cost": 40,
           "Features": "None",
           "RequiredUnitNames": [],
@@ -7082,9 +7491,7 @@
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
-          "ExcludedKeywords": [
-            "War Dog"
-          ],
+          "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
       ],
@@ -7106,27 +7513,27 @@
           "Category": "Bastions of Tyranny Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Knight Tyrant</k> unit is selected to make a <b>fall-back move</b>.",
-          "Target": "That <k>Knight Tyrant</k> unit.",
-          "Effect": "That move does not prevent your unit from being <b>eligible to shoot</b>."
+          "When": "Your Movement phase, when a friendly KNIGHT TYRANT unit is selected to make a fall-back move.",
+          "Target": "That KNIGHT TYRANT unit.",
+          "Effect": "That move does not prevent your unit from being eligible to shoot."
         },
         {
           "Name": "Intimidating Reminder",
           "Category": "Bastions of Tyranny Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Knight Tyrant</k> unit has shot.",
-          "Target": "That <k>Knight Tyrant</k> unit.",
-          "Effect": "Select one enemy unit hit by those attacks. That enemy unit is <b>suppressed</b> until the start of your next Command phase: \r<ul><li>While a unit is <b>suppressed</b>, that unit’s attacks have -1 to <b>hit rolls</b>.</li></ul>"
+          "When": "Your Shooting phase, when a friendly KNIGHT TYRANT unit has shot.",
+          "Target": "That KNIGHT TYRANT unit.",
+          "Effect": "Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next Command phase:\n\n• While a unit is suppressed, that unit’s attacks have -1 to hit rolls."
         },
         {
           "Name": "Rune-cursed Stronghold",
           "Category": "Bastions of Tyranny Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Knight Tyrant</k> unit suffers a <b>mortal wound</b>.",
-          "Target": "That <k>Knight Tyrant</k> unit.",
-          "Effect": "Your unit has <b>Feel No Pain 5+</b> against <b>mortal wounds</b>."
+          "When": "Any phase, when a friendly KNIGHT TYRANT unit suffers a mortal wound.",
+          "Target": "That KNIGHT TYRANT unit.",
+          "Effect": "Your unit has Feel No Pain 5+ against mortal wounds."
         }
       ],
       "Enhancements": [
@@ -7166,6 +7573,9 @@
         "Title": "Scenting Fear",
         "Text": "(Once per battle round, per army) In your Shooting phase, you can select one visible enemy unit within 12\" of a friendly WAR DOG unit. That enemy unit has +6\" detection range.\nThis detachment has the WAR DOGS tag and cannot be taken with another WAR DOGS detachment."
       },
+      "Tags": [
+        "WAR DOGS"
+      ],
       "ForceDispositions": [
         "Reconnaissance"
       ],
@@ -7175,48 +7585,52 @@
           "Category": "Hunting Warpack Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when an enemy unit targets a friendly <k>War Dog</k> unit.",
-          "Target": "That <k>War Dog</k> unit.",
-          "Effect": "Your unit has <b>Feel No Pain 5+</b>."
+          "When": "Fight phase, when an enemy unit targets a friendly WAR DOG unit.",
+          "Target": "That WAR DOG unit.",
+          "Effect": "Your unit has Feel No Pain 5+."
         },
         {
           "Name": "Leash of the Masters",
           "Category": "Hunting Warpack Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>WAR DOG</k> unit has shot.",
-          "Target": "That <k>War Dog</k> unit.",
-          "Effect": "Those attacks do not prevent your unit from being <b>eligible to start an action</b>."
+          "When": "Your Shooting phase, when a friendly WAR DOG unit has shot.",
+          "Target": "That WAR DOG unit.",
+          "Effect": "Those attacks do not prevent your unit from being eligible to start an action."
         },
         {
           "Name": "Stalking Focus",
           "Category": "Hunting Warpack Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly <k>War Dog</k> unit within range of an <b>objective</b>.",
-          "Target": "That <k>War Dog</k> unit.",
-          "Effect": "Ranged attacks that target your unit have ‑1 <b>AP</b> until that enemy unit has attacked."
+          "When": "Your opponent’s Shooting phase, when an enemy unit targets a friendly WAR DOG unit within range of an objective.",
+          "Target": "That WAR DOG unit.",
+          "Effect": "Ranged attacks that target your unit have ‑1 AP until that enemy unit has attacked."
         }
       ],
       "Enhancements": [
         {
           "Name": "Snarling Rivalry",
-          "Description": "This unit’s ranged attacks have [IGNORES COVER].",
+          "Description": "EXECUTIONER unit only. Limit 3. This unit’s ranged attacks have [IGNORES COVER].",
           "Cost": 10,
           "Features": "Upgrade",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Executioner"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
         {
           "Name": "Soul-spoor Auspicator",
-          "Description": "This unit’s ranged attacks have +6\" R.",
+          "Description": "HUNTSMAN unit only. Limit 3. This unit’s ranged attacks have +6\" R.",
           "Cost": 15,
           "Features": "Upgrade",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Huntsman"
+          ],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -7228,7 +7642,11 @@
   "ArmyRules": [
     {
       "Title": "Harbingers of Dread",
-      "Text": "If your Army Faction is CHAOS KNIGHTS, each unit from your army with this ability gains Dread abilities, depending which are active for your army (see below). The Deathly Terror ability is active for your army from the start of the battle. In addition, at the start of the first, third and fifth battle rounds, you can either select one of the other Dread abilities or randomly select two Dread abilities to apply by rolling two D6 and applying the results rolled, from those numbered 1-6.\n\nAny Dread abilities that have been selected are active until the end of the battle. You cannot select the same Dread ability more than once, and any duplicated Dread abilities (as a result of randomly selecting them) have no additional effect.\n\n**Deathly Terror (Aura)**\n\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1.\n\n**Despair (Aura)**\n\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1. This is cumulative with the Deathly Terror ability (see above).\n\n**Doom**\n\nEach time this model makes an attack, if the target of that attack is Battle-shocked, add 1 to the Wound roll.\n\n**Darkness**\n\nThis model has Stealth.\n\n**Dismay (Aura)**\n\nIn the Battle-shock step of your opponent’s Command phase, for each enemy unit that is below its Starting Strength and within 9\" of this model, that enemy unit must take a Battle-shock test.\n\n**Delirium (Aura)**\n\nWhile an enemy unit that is Below Half-strength is within 9\" of this model, each time that unit fails a Battle-shock test, it suffers D3 mortal wounds.\n\n**Dominion**\n\nAdd 3\" to the range of this model’s Aura abilities."
+      "Text": "If your Army Faction is CHAOS KNIGHTS, each unit from your army with this ability gains Dread abilities, depending which are active for your army (see below). The Deathly Terror ability is active for your army from the start of the battle. In addition, at the start of the first, third and fifth battle rounds, you can either select one of the other Dread abilities or randomly select two Dread abilities to apply by rolling two D6 and applying the results rolled, from those numbered 1-6 below.\n\nAny Dread abilities that have been selected are active until the end of the battle. You cannot select the same Dread ability more than once, and any duplicated Dread abilities (as a result of randomly selecting them) have no additional effect.\n\nDeathly Terror (Aura)\n\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1.\n\n1 - Despair (Aura)\n\nWhile an enemy unit is within 9\" of this model, worsen the Leadership characteristic of models in that unit by 1. This is cumulative with the Deathly Terror ability (see above).\n\n2 - Doom\n\nEach time this model makes an attack, if the target of that attack is Battle-shocked, add 1 to the Wound roll.\n\n3 - Darkness\n\nThis model has Stealth.\n\n4 - Dismay (Aura)\n\nIn the Battle-shock step of your opponent’s Command phase, for each enemy unit that is below its Starting Strength and within 9\" of this model, that enemy unit must take a Battle-shock test.\n\n5 - Delirium (Aura)\n\nWhile an enemy unit that is Below Half-strength is within 9\" of this model, each time that unit fails a Battle-shock test, it suffers D3 mortal wounds.\n\n6 - Dominion\n\nAdd 3\" to the range of this model’s Aura abilities."
+    },
+    {
+      "Title": "Super-heavy Walker",
+      "Text": "Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so:\n\n• It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.\n• It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked."
     },
     {
       "Title": "Dreadblades",
