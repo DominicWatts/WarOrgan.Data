@@ -425,7 +425,8 @@
         "Imperium",
         "Tacticus",
         "Chaplain",
-        "Other Datasheets"
+        "Character",
+        "Epic Hero"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -2054,12 +2055,17 @@
         ],
         "Features": 0
       },
-      "Infos": [],
+      "Infos": [
+        {
+          "Title": "Wargear restriction",
+          "Text": "The master-crafted power weapon can only be taken if this model has its absolvor bolt pistol; that pistol cannot then be replaced with a hand flamer."
+        }
+      ],
       "Keywords": [
         "Infantry",
         "Character",
         "Chaplain",
-        "Grenades",
+        "Explosives",
         "Imperium",
         "Tacticus",
         "Execrator"
@@ -2299,7 +2305,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -2557,7 +2568,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -2801,12 +2817,32 @@
                   "multi-melta",
                   "multi-melta"
                 ],
-                "Options": []
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "additional multi-melta"
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "additional multi-melta",
+            "DisplayName": "Additional Multi-melta",
+            "Cost": 10,
+            "GrantsWeapons": [
+              "multi-melta"
+            ]
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -3084,7 +3120,7 @@
       "Keywords": [
         "Epic Hero",
         "Character",
-        "Grenades",
+        "Explosives",
         "Imperium",
         "Tacticus",
         "High Marshal Helbrecht",
@@ -3332,6 +3368,10 @@
           }
         ],
         "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          },
           {
             "Key": "orbital comms array",
             "DisplayName": "Orbital Comms Array",
@@ -4120,7 +4160,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -4525,7 +4570,12 @@
             ]
           }
         ],
-        "WargearDefinitions": []
+        "WargearDefinitions": [
+          {
+            "Key": "multi-melta",
+            "Cost": 10
+          }
+        ]
       },
       "UnitAbilities": [
         {
@@ -4900,7 +4950,8 @@
                 ],
                 "Options": [
                   {
-                    "Max": 10,
+                    "Max": 1,
+                    "PerXModels": 4,
                     "Replaces": [
                       "heavy bolt pistol"
                     ],
@@ -4910,10 +4961,33 @@
                           "plasma pistol (supercharge)",
                           "plasma pistol (standard)"
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 4,
+                    "Replaces": [
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
                       {
                         "Items": [
                           "hand flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "PerXModels": 4,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "thunder hammer"
                         ]
                       }
                     ]
@@ -4926,18 +5000,14 @@
                     "Options": [
                       {
                         "Items": [
-                          "thunder hammer"
-                        ]
-                      },
-                      {
-                        "Items": [
                           "master-crafted power weapon"
                         ]
                       }
                     ]
                   },
                   {
-                    "Max": 2,
+                    "Max": 1,
+                    "PerXModels": 4,
                     "Replaces": [
                       "heavy bolt pistol",
                       "chainsword"
@@ -4966,7 +5036,7 @@
       "Infos": [],
       "Keywords": [
         "Infantry",
-        "Grenades",
+        "Explosives",
         "Imperium",
         "Tacticus",
         "Sword Brethren Squad",
@@ -5292,6 +5362,16 @@
         },
         {
           "UnitCount": 1,
+          "ModelCount": 5,
+          "Cost": 140
+        },
+        {
+          "UnitCount": 1,
+          "ModelCount": 9,
+          "Cost": 250
+        },
+        {
+          "UnitCount": 1,
           "ModelCount": 10,
           "Cost": 275
         },
@@ -5302,6 +5382,16 @@
         },
         {
           "UnitCount": 2,
+          "ModelCount": 5,
+          "Cost": 140
+        },
+        {
+          "UnitCount": 2,
+          "ModelCount": 9,
+          "Cost": 250
+        },
+        {
+          "UnitCount": 2,
           "ModelCount": 10,
           "Cost": 275
         },
@@ -5309,6 +5399,16 @@
           "UnitCount": 3,
           "ModelCount": 4,
           "Cost": 135
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 5,
+          "Cost": 160
+        },
+        {
+          "UnitCount": 3,
+          "ModelCount": 9,
+          "Cost": 270
         },
         {
           "UnitCount": 3,
