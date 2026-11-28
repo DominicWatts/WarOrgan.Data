@@ -49,6 +49,9 @@ Roster counts are provisional matched/expected native datasheets as of 25 Novemb
 - Chaos Knights: 1.5.36 audits army rules, detachments, roster and Leader/Support links (issues 204-208), and adds Chaos Questoris Knight Magaera. Iconoclast Damned allies remain tracked separately (issue 326).
 - Death Guard: 1.5.36 audits army rules, detachments and roster (issues 210-213). Dual-leader behavior and Crucible entries remain unresolved (issues 323, 324).
 - Thousand Sons: 1.5.36 audits army rules, detachments, roster and Leader/Support links (issues 222-226). Cross-option wargear restrictions remain text-only pending confirmation (issue 327).
+- Blood Angels: 1.5.37 audits detachments (issues 113, 114) and the roster (issue 117) and corrects Legends profiles (issue 329); conditional wargear enforcement awaits confirmation (issue 330).
+- Dark Angels: 1.5.37 audits Wrath of the Rock and Darkflight Pursuit (issues 120, 121). The chapter roster audit remains open (issue 124).
+- Chaos Space Marines, World Eaters and Emperor's Children: 1.5.37 corrects the Chaos Terminators composition (issues 332, 340, 341).
 - Raven Guard, Salamanders, Ultramarines and White Scars: 1.5.35 audits the chapter rosters against current GW data (issues 156, 164, 179, 187). Ultramarines keeps all 16 published unit IDs, split between 8 current and 8 Legends records.
 - T'au Empire: 1.5.35 lets every Crisis model select its own drone loadout and gives Fireknife and Starscythe models both default guns with the source-supported swap (issues 320, 322). Other T'au "up to two" options that are still single-select are tracked in issue 321.
 - Drukhari: 1.5.35 audits Spectacle of Spite, Exhibition of Slaughter, Kabalite Agonysts and Tools of Torment (issue 242).

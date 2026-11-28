@@ -2,7 +2,13 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.36.0
+## Coverage in 1.5.37.0
+
+- 1.5.37 Blood Angels: detachments audited (Prescient Flash costs 25 points, Blazing Icon's unsupported Infantry restriction removed, Wrath of the Doomed cleaned up) and roster audited (Sanguinary Guard pricing, Death Company and captain/Dreadnought loadouts and keywords corrected; three Legends datasheets added, existing Legends profiles corrected against faction pack 1.2).
+
+- 1.5.37 Dark Angels: Wrath of the Rock chapter restriction and enhancement eligibility corrected; Ravenwing Darkflight Pursuit's Thundercowl Turbines now require Ravenwing and Fly or Mounted.
+
+- 1.5.37 Chaos Space Marines, World Eaters and Emperor's Children: Chaos Terminators start as 1 Terminator Champion plus 4 Chaos Terminators, up to 10 models, with the per-five-model weapon limits kept as rule text.
 
 - 1.5.36 Death Guard: army rules, detachments, points and wargear have been audited; several conditional wargear and Leader restrictions remain text-only or need app verification.
 
