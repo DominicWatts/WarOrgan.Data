@@ -2,7 +2,17 @@
 
 Unofficial, fan-maintained data for personal and community use. Warhammer 40,000 and all associated names, rules and points values are the intellectual property of Games Workshop. This dataset is not affiliated with, licensed by or endorsed by Games Workshop.
 
-## Coverage in 1.5.35.0
+## Coverage in 1.5.36.0
+
+- 1.5.36 Death Guard: army rules, detachments, points and wargear have been audited; several conditional wargear and Leader restrictions remain text-only or need app verification.
+
+- 1.5.36 Chaos Knights: army rules, detachments, roster and Leader/Support links have been audited. Chaos Questoris Knight Magaera is added, and Porphyrion and Moirax loadouts are corrected.
+
+- 1.5.36 Thousand Sons: army rules now include the four Rituals and Pact of Sorcery. Detachments, roster and Leader/Support links have been audited; enhancement eligibility, points and wargear are corrected.
+
+- 1.5.36 Black Templars: army rules, detachments and roster have been audited; enhancement eligibility, Sword Brethren prices and equipment, and optional multi-melta costs are corrected.
+
+- 1.5.36 Space Marines: Firestrike Servo-Turrets, Attack Bike Squad and Tarantula Sentry Battery have model-count points; Land Speeder Storm costs 70 points.
 
 - 1.5.35 T'au Empire: every Crisis model can select its own drone loadout, and Fireknife and Starscythe models start with both guns before optionally swapping one for a second copy of the other.
 
