@@ -5203,27 +5203,27 @@
           "Category": "Darkflight Pursuit Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly <k>Ravenwing Fly/Mounted</k> unit.",
-          "Target": "That <k>Ravenwing Fly/Mounted</k> unit.",
-          "Effect": "Your unit has <b>Stealth</b>."
+          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly Ravenwing Fly/Mounted unit.",
+          "Target": "That Ravenwing Fly/Mounted unit.",
+          "Effect": "Your unit has Stealth."
         },
         {
           "Name": "Skyborne Surveillance",
           "Category": "Darkflight Pursuit Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Ravenwing Fly</k> unit has shot.",
-          "Target": "That <k>Ravenwing Fly</k> unit.",
-          "Effect": "<b>Visible</b> enemy units within 6\" of your unit have +3\" <b>detection range</b>."
+          "When": "Your Shooting phase, when a friendly Ravenwing Fly unit has shot.",
+          "Target": "That Ravenwing Fly unit.",
+          "Effect": "Visible enemy units within 6\" of your unit have +3\" detection range."
         },
         {
           "Name": "We Are Vengeance",
           "Category": "Darkflight Pursuit Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly <b>unengaged</b> <k>Ravenwing Fly</k> unit has shot.",
-          "Target": "That <k>Ravenwing Fly</k> unit.",
-          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3\"."
+          "When": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly unengaged Ravenwing Fly unit has shot.",
+          "Target": "That Ravenwing Fly unit.",
+          "Effect": "Your unit can make a normal move of up to D3+3\"."
         }
       ],
       "Enhancements": [
@@ -5233,7 +5233,9 @@
           "Cost": 15,
           "Features": "Upgrade",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [],
+          "RequiredKeywords": [
+            "Ravenwing"
+          ],
           "RequiredOneOfKeywords": [
             "Mounted",
             "Fly"
