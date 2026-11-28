@@ -5005,27 +5005,27 @@
           "Category": "Inner Circle Task Force Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when an enemy unit targets a friendly <k>Deathwing</k> unit.",
-          "Target": "That <k>Deathwing</k> unit.",
-          "Effect": "When a model in your unit is <b>destroyed</b>, if your unit has not been <b>selected to fight</b> this phase, roll one D6, with +1 to that roll if your unit is <b>engaged</b> with an enemy unit within range of your <b>vowed objective</b>:<ul><li>On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.</li></ul>"
+          "When": "Fight phase, when an enemy unit targets a friendly Deathwing unit.",
+          "Target": "That Deathwing unit.",
+          "Effect": "When a model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6, with +1 to that roll if your unit is engaged with an enemy unit within range of your vowed objective:\n- On a 4+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
         },
         {
           "Name": "Relic Teleportarium",
           "Category": "Inner Circle Task Force Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your Movement phase, when a friendly <k>Deathwing</k> unit with the <b>Deep Strike</b> ability is selected to make an <b>ingress move</b>.",
-          "Target": "That <k>Deathwing</k> unit.",
-          "Effect": "<ul><li>Your unit can be set up more than 6” horizontally from all enemy units (instead of more than 8”).</li><li>Your unit is <u>not</u> <b>eligible to declare a charge</b> until the end of this turn.</li></ul>"
+          "When": "Your Movement phase, when a friendly Deathwing unit with the Deep Strike ability is selected to make an ingress move.",
+          "Target": "That Deathwing unit.",
+          "Effect": "- Your unit can be set up more than 6” horizontally from all enemy units (instead of more than 8”).\n- Your unit is not eligible to declare a charge until the end of this turn."
         },
         {
           "Name": "Wrath of the Lion",
           "Category": "Inner Circle Task Force Stratagem",
           "CPCost": 1,
           "Phase": "Charge",
-          "When": "Your Charge phase, when a friendly <k>Deathwing</k> unit ends a <b>charge move</b>.",
-          "Target": "That <k>Deathwing</k> unit.",
-          "Effect": "Select one enemy unit <b>engaged</b> with your unit. If you do, roll one D6 for each model in your unit <b>engaged</b> with that enemy unit:<ul><li>For each 3+, that enemy unit suffers 1 <b>mortal wound</b> (to a maximum of 6 <b>mortal wounds</b>).</li></ul>"
+          "When": "Your Charge phase, when a friendly Deathwing unit ends a charge move.",
+          "Target": "That Deathwing unit.",
+          "Effect": "Select one enemy unit engaged with your unit. If you do, roll one D6 for each model in your unit engaged with that enemy unit:\n- For each 3+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
         }
       ],
       "Enhancements": [
@@ -5035,10 +5035,12 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [
-            "Deathwing"
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Deathwing",
+            "Terminator",
+            "Bladeguard Ancient"
           ],
-          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         },
@@ -5048,10 +5050,12 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [
-            "Deathwing"
+          "RequiredKeywords": [],
+          "RequiredOneOfKeywords": [
+            "Deathwing",
+            "Terminator",
+            "Bladeguard Ancient"
           ],
-          "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
         }
@@ -5063,7 +5067,7 @@
       "Cost": 2,
       "Rule": {
         "Title": "Dutiful Tenacity",
-        "Text": "Each time an attack targets an ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+        "Text": "Attacks that target friendly Adeptus Astartes Infantry/Mounted units with a S greater than that unit’s T have -1 to wound rolls.\n\nRestrictions: Your army can include Dark Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
       },
       "Tags": [
         "TERMINATOR DETACHMENT"
@@ -5077,27 +5081,27 @@
           "Category": "Wrath of the Rock Stratagem",
           "CPCost": 1,
           "Phase": "Movement or Charge",
-          "When": "Your Movement/Charge phase, when a friendly <k>Ravenwing</k> unit is <b>selected to move</b> or <b>declares a charge</b>.",
-          "Target": "That <k>Ravenwing</k> unit.",
-          "Effect": "Your unit has <k>Mobile</k>."
+          "When": "Your Movement/Charge phase, when a friendly Ravenwing unit is selected to move or declares a charge.",
+          "Target": "That Ravenwing unit.",
+          "Effect": "Your unit has Mobile."
         },
         {
           "Name": "Relics of the Dark Age",
           "Category": "Wrath of the Rock Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase, when a friendly <k>Adeptus Astartes Infantry/Mounted</k> unit is <b>selected to shoot</b>.",
-          "Target": "That <k>Adeptus Astartes Infantry/Mounted</k> unit.",
-          "Effect": "Your unit’s ranged attacks have +2 <b>S</b>."
+          "When": "Your Shooting phase, when a friendly Adeptus Astartes Infantry/Mounted unit is selected to shoot.",
+          "Target": "That Adeptus Astartes Infantry/Mounted unit.",
+          "Effect": "Your unit’s ranged attacks have +2 S."
         },
         {
           "Name": "Inescapable Justice",
           "Category": "Wrath of the Rock Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "The Fight phase, when a friendly <k>Adeptus Astartes</k> unit is <b>selected to fight</b>.",
-          "Target": "That <k>Adeptus Astartes</k> unit.",
-          "Effect": "Your unit's melee attacks have <k>[Precision]</k>."
+          "When": "The Fight phase, when a friendly Adeptus Astartes unit is selected to fight.",
+          "Target": "That Adeptus Astartes unit.",
+          "Effect": "Your unit's melee attacks have [Precision]."
         },
         {
           "Name": "Lion's Will",
@@ -5105,8 +5109,8 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Command phase.",
-          "Target": "One friendly <k>Adeptus Astartes</k> unit that is within range of an <b>objective</b>.",
-          "Effect": "Your unit has +1 <b>OC</b> until the end of the turn."
+          "Target": "One friendly Adeptus Astartes unit that is within range of an objective.",
+          "Effect": "Your unit has +1 OC until the end of the turn."
         },
         {
           "Name": "Tactical Mastery",
@@ -5114,17 +5118,17 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Your Command phase.",
-          "Target": "One friendly <k>Deathwing/Ravenwing</k> unit.",
-          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+          "Target": "One friendly Deathwing/Ravenwing unit.",
+          "Effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
         },
         {
           "Name": "In Sacrifice, Victory",
           "Category": "Wrath of the Rock Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Deathwing/Ravenwing</k> unit within range of an <b>objective</b> is <b>destroyed</b>.",
-          "Target": "That <k>Deathwing/Ravenwing</k> unit. You can target that unit with this <b>stratagem</b> even though it is <b>destroyed</b>.",
-          "Effect": "Select one <b>objective</b>: <ul><li>That no enemy units (excluding <k>AIRCRAFT</k> units) are within range of.</li><li>That your unit was controlling at the end of the previous phase.</li></ul>That <b>objective</b> is <b>secured</b>."
+          "When": "Any phase, when a friendly Deathwing/Ravenwing unit within range of an objective is destroyed.",
+          "Target": "That Deathwing/Ravenwing unit. You can target that unit with this stratagem even though it is destroyed.",
+          "Effect": "Select one objective:\n- That no enemy units (excluding AIRCRAFT units) are within range of.\n- That your unit was controlling at the end of the previous phase.\nThat objective is secured."
         }
       ],
       "Enhancements": [
@@ -5137,10 +5141,13 @@
           "RequiredKeywords": [],
           "RequiredOneOfKeywords": [
             "Deathwing",
+            "Terminator",
             "Bladeguard Ancient"
           ],
           "ExcludedKeywords": [],
-          "RequiredAbilities": []
+          "RequiredAbilities": [
+            "Deep Strike"
+          ]
         },
         {
           "Name": "Tempered in Battle (Aura)",
