@@ -52,7 +52,7 @@ These 31 factions are drafts converted automatically from the November 2026 BSDa
 - Versions 1.5.14 and 1.5.15 added 725 stratagems and 12 enhancements. Sanctified Orators, Brute Bosses and Wurrband still have empty stratagem lists. See FACTIONS.md for coverage. Some enhancement, detachment and leader effects are represented as rule text.
 - Space Marine chapters are separate factions. Each can also take the Space Marines datasheets and has the generic Space Marine detachments alongside its own.
 - Where BSData's wargear could not be converted exactly, weapons are offered as swaps for a starting weapon of the same type, so some units allow loadouts their datasheet does not. Build units to the datasheet.
-- BSData datasheets that no longer exist in 11th Edition (Tactical Squad, Furioso Dreadnought, older Death Company, Deathwing Command Squad and Wolf Guard variants) are left out.
+- Some BSData datasheets without a current replacement (such as Tactical Squad, Deathwing Command Squad and Wolf Guard variants) are left out. Blood Angels' Furioso Dreadnought and older Death Company squads are included as Legends.
 
 - Adepta Sororitas: 33 datasheets, 5 Legends, 8 detachments, 24 enhancements.
 - Adeptus Custodes: 29 datasheets, 7 Legends, 13 detachments, 29 enhancements.
@@ -62,7 +62,7 @@ These 31 factions are drafts converted automatically from the November 2026 BSDa
 - Imperial Knights: 22 datasheets, 8 detachments, 26 enhancements.
 - Space Marines: 72 datasheets, 72 Legends, 16 detachments, 32 enhancements.
 - Black Templars: 16 datasheets, 18 detachments, 36 enhancements.
-- Blood Angels: 14 datasheets, 8 Legends, 19 detachments, 40 enhancements.
+- Blood Angels: 14 datasheets, 11 Legends, 19 detachments, 40 enhancements. Death Company squad loadout limits and the jump-pack captain's shield combination should be checked against their datasheets when building a roster.
 - Dark Angels: 16 datasheets, 2 Legends, 19 detachments, 40 enhancements.
 - Deathwatch: 10 datasheets, 16 detachments, 36 enhancements.
 - Imperial Fists: 3 datasheets, 17 detachments, 36 enhancements.

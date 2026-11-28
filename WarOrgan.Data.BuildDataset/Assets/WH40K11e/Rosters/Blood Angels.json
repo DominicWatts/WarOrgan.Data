@@ -52,12 +52,12 @@
         "Epic Hero",
         "Character",
         "Infantry",
-        "Grenades",
         "Fly",
         "Jump Pack",
         "Imperium",
         "Chaplain",
-        "Astorath"
+        "Astorath",
+        "Tacticus"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -636,7 +636,7 @@
       "Keywords": [
         "Infantry",
         "Character",
-        "Grenades",
+        "Explosives",
         "Imperium",
         "Captain",
         "Tacticus"
@@ -916,7 +916,8 @@
         "Tacticus",
         "Psyker",
         "Chief Librarian Mephiston",
-        "Explosives"
+        "Explosives",
+        "Imperium"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -1704,11 +1705,6 @@
                         "Items": [
                           "relic weapon"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "thunder hammer"
-                        ]
                       }
                     ]
                   },
@@ -1720,11 +1716,6 @@
                     "Options": [
                       {
                         "Items": [
-                          "relic shield"
-                        ]
-                      },
-                      {
-                        "Items": [
                           "hand flamer"
                         ]
                       },
@@ -1732,6 +1723,27 @@
                         "Items": [
                           "plasma pistol (supercharge)",
                           "plasma pistol (standard)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "astartes chainsword",
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "astartes chainsword",
+                          "relic shield"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thunder hammer",
+                          "relic shield"
                         ]
                       }
                     ]
@@ -1780,7 +1792,12 @@
         ],
         "Features": 0
       },
-      "Infos": [],
+      "Infos": [
+        {
+          "Title": "Wargear restriction",
+          "Text": "The relic shield must be paired with either the Astartes chainsword or the thunder hammer; neither can be combined with a replacement pistol."
+        }
+      ],
       "Keywords": [
         "Character",
         "Infantry",
@@ -2135,18 +2152,18 @@
               {
                 "InitialWargear": [
                   "twin heavy bolter",
-                  "twin icarus ironhail heavy stubber"
+                  "twin icarus ironhail heavy stubber",
+                  "blood fists",
+                  "blood fist bolt rifles"
                 ],
                 "Options": [
                   {
                     "Max": 1,
+                    "Replaces": [
+                      "blood fists",
+                      "blood fist bolt rifles"
+                    ],
                     "Options": [
-                      {
-                        "Items": [
-                          "blood fists",
-                          "blood fist bolt rifles"
-                        ]
-                      },
                       {
                         "Items": [
                           "blood talons"
@@ -2163,11 +2180,6 @@
                       {
                         "Items": [
                           "twin multi-melta"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "twin heavy bolter"
                         ]
                       }
                     ]
@@ -2486,12 +2498,12 @@
             "Wargear": [
               {
                 "InitialWargear": [
-                  "eviscerator",
+                  "chainsword",
                   "heavy bolt pistol"
                 ],
                 "Options": [
                   {
-                    "Max": 10,
+                    "Max": 1,
                     "Replaces": [
                       "heavy bolt pistol"
                     ],
@@ -2517,7 +2529,7 @@
                   {
                     "Max": 10,
                     "Replaces": [
-                      "eviscerator"
+                      "chainsword"
                     ],
                     "Options": [
                       {
@@ -2531,21 +2543,23 @@
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
-                      "eviscerator"
+                      "chainsword"
                     ],
                     "Options": [
                       {
                         "Items": [
-                          "chainsword"
+                          "eviscerator"
                         ]
                       }
                     ]
                   },
                   {
                     "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
-                      "eviscerator"
+                      "chainsword"
                     ],
                     "Options": [
                       {
@@ -2560,9 +2574,9 @@
                     ]
                   },
                   {
-                    "Max": 10,
+                    "Max": 1,
                     "Replaces": [
-                      "eviscerator"
+                      "chainsword"
                     ],
                     "Options": [
                       {
@@ -2602,7 +2616,7 @@
       "Infos": [],
       "Keywords": [
         "Infantry",
-        "Grenades",
+        "Explosives",
         "Imperium",
         "Death Company Marines",
         "Tacticus",
@@ -3198,7 +3212,35 @@
                 ],
                 "Options": [
                   {
-                    "Max": 10,
+                    "Max": 2,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "heavy bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "inferno pistol"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 4,
                     "Replaces": [
                       "heavy bolt pistol"
                     ],
@@ -3208,21 +3250,11 @@
                           "plasma pistol (supercharge)",
                           "plasma pistol (standard)"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "hand flamer"
-                        ]
-                      },
-                      {
-                        "Items": [
-                          "inferno pistol"
-                        ]
                       }
                     ]
                   },
                   {
-                    "Max": 10,
+                    "Max": 4,
                     "Replaces": [
                       "chainsword"
                     ],
@@ -3231,12 +3263,30 @@
                         "Items": [
                           "power weapon"
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
                       {
                         "Items": [
                           "power fist"
                         ]
-                      },
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
                       {
                         "Items": [
                           "eviscerator"
@@ -3261,7 +3311,12 @@
           "Text": "- This unit's melee attacks can re-roll hit rolls of 1.\n- While this unit is not within 6\" of one or more friendly BLOOD ANGELS CHARACTER models, or not within 12\" of one or more friendly CHAPLAIN models, it cannot make a fall-back move and its OC is modified to 0."
         }
       ],
-      "Infos": [],
+      "Infos": [
+        {
+          "Title": "Wargear restriction",
+          "Text": "For every 5 models, up to 2 can take plasma pistols and up to 2 can take power weapons."
+        }
+      ],
       "Keywords": [
         "Infantry",
         "Imperium",
@@ -3707,7 +3762,9 @@
         "Chaplain",
         "Lemartes",
         "Jump Pack",
-        "Explosives"
+        "Explosives",
+        "Tacticus",
+        "Death Company"
       ],
       "CoreAbilities": [
         "Invulnerable Save",
@@ -3887,7 +3944,8 @@
                           "inferno pistol"
                         ]
                       }
-                    ]
+                    ],
+                    "PerXModels": 3
                   }
                 ]
               }
@@ -4095,7 +4153,7 @@
         {
           "UnitCount": 1,
           "ModelCount": 6,
-          "Cost": 135
+          "Cost": 275
         },
         {
           "UnitCount": 2,
@@ -4105,7 +4163,7 @@
         {
           "UnitCount": 2,
           "ModelCount": 6,
-          "Cost": 135
+          "Cost": 275
         },
         {
           "UnitCount": 3,
@@ -4115,7 +4173,7 @@
         {
           "UnitCount": 3,
           "ModelCount": 6,
-          "Cost": 150
+          "Cost": 290
         }
       ]
     },

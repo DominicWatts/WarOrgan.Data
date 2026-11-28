@@ -503,7 +503,10 @@
           {
             "Key": "smoke launchers",
             "DisplayName": "Smoke Launchers",
-            "Cost": 0
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Smoke Launchers"
+            ]
           }
         ]
       },
@@ -519,6 +522,10 @@
         {
           "Title": "Black Rage",
           "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly CHAPLAIN models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+        },
+        {
+          "Title": "Smoke Launchers",
+          "Text": "The bearer loses the Magna-grapple ability and gains the Smoke keyword."
         }
       ],
       "Infos": [],
@@ -2362,6 +2369,1485 @@
         {
           "ModelCount": 1,
           "Cost": 90
+        }
+      ]
+    },
+    {
+      "Id": "DEATH COMPANY MARINES WITH BOLTGUNS AND JUMP PACKS",
+      "DisplayName": "Death Company Marines with Boltguns and Jump Packs",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Death Company Marine",
+            "StatlineRef": "Death Company Marine",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "boltgun",
+                      "close combat weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "chainsword",
+                          "bolt pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thunder hammer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "inferno pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol (standard)",
+                          "plasma pistol (supercharge)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power fist"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Berserk Fury",
+          "Text": "You can re-roll Charge rolls made for this unit"
+        },
+        {
+          "Title": "Attached Leader",
+          "Text": "If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs or an Assault Squad with Jump Packs, it can be attached to this unit instead.\n\n\nIf a Character unit from your army with the Leader ability can be attached to a Death Company Marines with Jump Packs unit, it can be attached to this unit instead."
+        },
+        {
+          "Title": "Black Rage",
+          "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Wargear restriction",
+          "Text": "Pistol and chainsword replacements are available only after choosing the chainsword and bolt pistol loadout."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Death Company Marines with Boltguns and Jump Packs",
+        "Death Company",
+        "Other Datasheets",
+        "Fly",
+        "Jump Pack"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 6+",
+        "Deep Strike"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Death Company Marine",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "12\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hand flamer",
+              "DisplayName": "Hand flamer",
+              "Keywords": "Ignores Cover, Pistol, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "inferno pistol",
+              "DisplayName": "Inferno Pistol",
+              "Keywords": "Melta 2, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol (standard)",
+              "DisplayName": "Plasma pistol (Standard)",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol (supercharge)",
+              "DisplayName": "Plasma pistol (Supercharge)",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "thunder hammer",
+              "DisplayName": "Thunder Hammer",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 140
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 280
+        }
+      ]
+    },
+    {
+      "Id": "DEATH COMPANY MARINES WITH BOLTGUNS",
+      "DisplayName": "Death Company Marines with Boltguns",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 5,
+              "Max": 10
+            },
+            "ModelName": "Death Company Marine",
+            "StatlineRef": "Death Company Marine",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "boltgun",
+                  "close combat weapon"
+                ],
+                "Options": [
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "boltgun",
+                      "close combat weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "chainsword",
+                          "bolt pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "thunder hammer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "bolt pistol"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "hand flamer"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "inferno pistol"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "plasma pistol (standard)",
+                          "plasma pistol (supercharge)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 10,
+                    "Replaces": [
+                      "chainsword"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power fist"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "power weapon"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": []
+      },
+      "UnitAbilities": [
+        {
+          "Title": "An Honourable Death in Combat",
+          "Text": "Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half-strength."
+        },
+        {
+          "Title": "Attached Leader",
+          "Text": "If a Chaplain model from your army with the Leader ability can be attached to a Tactical Squad, it can be attached to this unit instead.\n\n\nIf a Character unit from your army with the Leader ability can be attached to a Death Company Marines unit, it can be attached to this unit instead."
+        },
+        {
+          "Title": "Black Rage",
+          "Text": "Each time a model in this unit makes an attack, you can re-roll the Hit roll. While this unit is not within 12\" of one or more friendly Chaplain models, it cannot be selected to Fall Back and the Objective Control characteristic of models in this unit is 0."
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Wargear restriction",
+          "Text": "Pistol and chainsword replacements are available only after choosing the chainsword and bolt pistol loadout."
+        }
+      ],
+      "Keywords": [
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Death Company Marines with Boltguns",
+        "Death Company",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Feel No Pain 6+"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Death Company Marine",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "6\""
+            },
+            {
+              "Id": "T",
+              "Value": "4"
+            },
+            {
+              "Id": "Sv",
+              "Value": "3+"
+            },
+            {
+              "Id": "W",
+              "Value": "2"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "1"
+            },
+            {
+              "Id": "Base",
+              "Value": "32"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "bolt pistol",
+              "DisplayName": "Bolt pistol",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "boltgun",
+              "DisplayName": "Boltgun",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "hand flamer",
+              "DisplayName": "Hand flamer",
+              "Keywords": "Ignores Cover, Pistol, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "3"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "inferno pistol",
+              "DisplayName": "Inferno Pistol",
+              "Keywords": "Melta 2, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "6\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D3"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol (standard)",
+              "DisplayName": "Plasma pistol (Standard)",
+              "Keywords": "Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "plasma pistol (supercharge)",
+              "DisplayName": "Plasma pistol (Supercharge)",
+              "Keywords": "Hazardous, Pistol",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "chainsword",
+              "DisplayName": "Chainsword",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "close combat weapon",
+              "DisplayName": "Close combat weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "power fist",
+              "DisplayName": "Power fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "power weapon",
+              "DisplayName": "Power weapon",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "4"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "thunder hammer",
+              "DisplayName": "Thunder Hammer",
+              "Keywords": "Devastating Wounds",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "3"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "4+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 5,
+          "Cost": 125
+        },
+        {
+          "ModelCount": 10,
+          "Cost": 250
+        }
+      ]
+    },
+    {
+      "Id": "FURIOSO DREADNOUGHT",
+      "DisplayName": "Furioso Dreadnought",
+      "Flags": 0,
+      "UnitComposition": {
+        "ModelCompositions": [
+          {
+            "Limit": {
+              "Min": 1,
+              "Max": 1
+            },
+            "ModelName": "Furioso Dreadnought",
+            "StatlineRef": "Furioso Dreadnought",
+            "Keywords": [],
+            "Wargear": [
+              {
+                "InitialWargear": [
+                  "heavy frag cannon",
+                  "furioso fist",
+                  "storm bolter"
+                ],
+                "Options": [
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "heavy frag cannon",
+                      "furioso fist"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "blood talons",
+                          "meltagun"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "twin furioso fists",
+                          "meltagun"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "storm bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Replaces": [
+                      "meltagun"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "heavy flamer"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 1,
+                    "Options": [
+                      {
+                        "Items": [
+                          "magna-grapple"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "WargearDefinitions": [
+          {
+            "Key": "magna-grapple",
+            "DisplayName": "Magna-grapple",
+            "Cost": 0,
+            "GrantsAbilities": [
+              "Magna-grapple"
+            ]
+          }
+        ]
+      },
+      "UnitAbilities": [
+        {
+          "Title": "Wrathful Rampage",
+          "Text": "Each time this model is selected to fight, you can select one enemy unit within Engagement Range  of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds."
+        },
+        {
+          "Title": "Magna-grapple",
+          "Text": "The bearer loses the Smoke keyword, but  add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a Monster or Vehicle unit"
+        }
+      ],
+      "Infos": [
+        {
+          "Title": "Wargear restriction",
+          "Text": "A meltagun can be replaced only if selected with blood talons or twin Furioso fists. A magna-grapple removes the Smoke keyword."
+        }
+      ],
+      "Keywords": [
+        "Vehicle",
+        "Walker",
+        "Imperium",
+        "Furioso Dreadnought",
+        "Smoke",
+        "Dreadnought",
+        "Other Datasheets"
+      ],
+      "CoreAbilities": [
+        "Deadly Demise 1"
+      ],
+      "FactionKeywords": [
+        "Adeptus Astartes",
+        "Blood Angels"
+      ],
+      "StatLines": [
+        {
+          "StatName": "Furioso Dreadnought",
+          "Stats": [
+            {
+              "Id": "M",
+              "Value": "8\""
+            },
+            {
+              "Id": "T",
+              "Value": "9"
+            },
+            {
+              "Id": "Sv",
+              "Value": "2+"
+            },
+            {
+              "Id": "W",
+              "Value": "8"
+            },
+            {
+              "Id": "LD",
+              "Value": "6+"
+            },
+            {
+              "Id": "OC",
+              "Value": "3"
+            },
+            {
+              "Id": "Base",
+              "Value": "~60"
+            }
+          ],
+          "Features": "None"
+        }
+      ],
+      "Weapons": [
+        {
+          "Id": "RANGED WEAPONS",
+          "DisplayName": "Ranged Weapons",
+          "Weapons": [
+            {
+              "Id": "heavy flamer",
+              "DisplayName": "Heavy flamer",
+              "Keywords": "Ignores Cover, Torrent",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "N/A"
+                },
+                {
+                  "Id": "S",
+                  "Value": "5"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            },
+            {
+              "Id": "heavy frag cannon",
+              "DisplayName": "Heavy Frag Cannon",
+              "Keywords": "Blast, Rapid Fire D6",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "18\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "D6"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "7"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-1"
+                },
+                {
+                  "Id": "D",
+                  "Value": "2"
+                }
+              ]
+            },
+            {
+              "Id": "meltagun",
+              "DisplayName": "Meltagun",
+              "Keywords": "Melta 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "12\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "1"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "9"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-4"
+                },
+                {
+                  "Id": "D",
+                  "Value": "D6"
+                }
+              ]
+            },
+            {
+              "Id": "storm bolter",
+              "DisplayName": "Storm bolter",
+              "Keywords": "Rapid Fire 2",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "24\""
+                },
+                {
+                  "Id": "A",
+                  "Value": "2"
+                },
+                {
+                  "Id": "BS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "4"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "0"
+                },
+                {
+                  "Id": "D",
+                  "Value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Id": "MELEE WEAPONS",
+          "DisplayName": "Melee Weapons",
+          "Weapons": [
+            {
+              "Id": "blood talons",
+              "DisplayName": "Blood Talons",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "7"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "8"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-2"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "furioso fist",
+              "DisplayName": "Furioso Fist",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            },
+            {
+              "Id": "twin furioso fists",
+              "DisplayName": "Twin Furioso Fists",
+              "Keywords": "Twin-linked",
+              "Flags": "None",
+              "Stats": [
+                {
+                  "Id": "Range",
+                  "Value": "Melee"
+                },
+                {
+                  "Id": "A",
+                  "Value": "5"
+                },
+                {
+                  "Id": "WS",
+                  "Value": "3+"
+                },
+                {
+                  "Id": "S",
+                  "Value": "12"
+                },
+                {
+                  "Id": "AP",
+                  "Value": "-3"
+                },
+                {
+                  "Id": "D",
+                  "Value": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Upgrades": [],
+      "Points": [
+        {
+          "ModelCount": 1,
+          "Cost": 150
         }
       ]
     }
