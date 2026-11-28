@@ -4922,7 +4922,7 @@
       "Cost": 1,
       "Rule": {
         "Title": "Sanguinius' Fury",
-        "Text": "Friendly DEATH COMPANY units have the following:\n- At the start of each phase, the assault doctrine is active for this unit.\n- The devastator/tactical doctrine cannot be active for this unit.\n\n*This means that, regardless of any other rules, Death Company units can never have an active doctrine other than the assault doctrine.*\n\nRestrictions: Your army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
+        "Text": "Friendly DEATH COMPANY units have the following:\n- At the start of each phase, the assault doctrine is active for this unit.\n- The devastator/tactical doctrine cannot be active for this unit.\n\nThis means that, regardless of any other rules, Death Company units can never have an active doctrine other than the assault doctrine.\n\nRestrictions: Your army can include Blood Angels units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
       },
       "Tags": [
         "DOOMED"
@@ -4936,27 +4936,27 @@
           "Category": "Wrath of the Doomed Stratagem",
           "CPCost": 1,
           "Phase": "Movement or Charge",
-          "When": "Your Movement or your Charge phase, when a friendly <k>Death Company Dreadnought</k> unit is selected to make a <b>normal/advance/charge move</b>.",
-          "Target": "That <k>Death Company Dreadnought</k> unit.",
-          "Effect": "Your unit has <k>Mobile</k>."
+          "When": "Your Movement or your Charge phase, when a friendly Death Company Dreadnought unit is selected to make a normal/advance/charge move.",
+          "Target": "That Death Company Dreadnought unit.",
+          "Effect": "Your unit has Mobile."
         },
         {
           "Name": "Rage-fuelled Response",
           "Category": "Wrath of the Doomed Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly <b>unengaged</b> <k>Death Company</k> unit has shot.",
-          "Target": "That <k>Death Company</k> unit.",
-          "Effect": "Your unit can make a <b>surge move</b> of up to D6\"."
+          "When": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly unengaged Death Company unit has shot.",
+          "Target": "That Death Company unit.",
+          "Effect": "Your unit can make a surge move of up to D6\"."
         },
         {
           "Name": "Death Begets Vengeance",
           "Category": "Wrath of the Doomed Stratagem",
           "CPCost": 1,
           "Phase": "Any",
-          "When": "Any phase, when a friendly <k>Death Company</k> unit is <b>destroyed</b> by an enemy unit.",
+          "When": "Any phase, when a friendly Death Company unit is destroyed by an enemy unit.",
           "Target": "That enemy unit.",
-          "Effect": "That enemy unit is <b>hated</b> until the end of the battle:<ul><li>While a unit is <b>hated</b>, friendly <k>Death Company</k> units' attacks that target that unit have +1 to <b>wound rolls</b>. </li></ul>"
+          "Effect": "That enemy unit is hated until the end of the battle:\n- While a unit is hated, friendly Death Company units' attacks that target that unit have +1 to wound rolls."
         }
       ],
       "Enhancements": [
