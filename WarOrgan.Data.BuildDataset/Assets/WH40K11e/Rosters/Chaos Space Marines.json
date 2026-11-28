@@ -4482,35 +4482,34 @@
                         "Items": [
                           "paired accursed weapons"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "accursed weapon"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
-                          "chainfist"
+                          "accursed weapon",
+                          "combi-weapon"
                         ]
                       },
                       {
                         "Items": [
-                          "power fist"
+                          "power fist",
+                          "combi-bolter"
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "Max": 1,
-                    "Replaces": [
-                      "combi-bolter"
-                    ],
-                    "Options": [
+                      },
                       {
                         "Items": [
+                          "power fist",
+                          "combi-weapon"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "chainfist",
+                          "combi-bolter"
+                        ]
+                      },
+                      {
+                        "Items": [
+                          "chainfist",
                           "combi-weapon"
                         ]
                       }
@@ -4585,7 +4584,7 @@
               "Min": 4,
               "Max": 9
             },
-            "ModelName": "Accursed weapon and combi-bolter",
+            "ModelName": "Chaos Terminator",
             "StatlineRef": "Chaos Terminator Squad",
             "Keywords": [],
             "Wargear": [
@@ -4594,80 +4593,26 @@
                   "combi-bolter",
                   "accursed weapon"
                 ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Accursed weapon and combi-weapon",
-            "StatlineRef": "Chaos Terminator Squad",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "accursed weapon",
-                  "combi-weapon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Power fist and combi-weapon",
-            "StatlineRef": "Chaos Terminator Squad",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "power fist",
-                  "combi-weapon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Chainfist and combi-bolter",
-            "StatlineRef": "Chaos Terminator Squad",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "chainfist",
-                  "combi-bolter"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Heavy weapon",
-            "StatlineRef": "Chaos Terminator Squad",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "accursed weapon"
-                ],
                 "Options": [
                   {
                     "Max": 9,
+                    "Replaces": [
+                      "combi-bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "combi-weapon"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "combi-bolter"
+                    ],
                     "Options": [
                       {
                         "Items": [
@@ -4682,7 +4627,37 @@
                     ]
                   },
                   {
-                    "Max": 9,
+                    "Max": 2,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "accursed weapon",
+                      "combi-bolter"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "paired accursed weapons"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 6,
+                    "PerXModels": 5,
+                    "Replaces": [
+                      "accursed weapon"
+                    ],
+                    "Options": [
+                      {
+                        "Items": [
+                          "power fist"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "Max": 2,
+                    "PerXModels": 5,
                     "Replaces": [
                       "accursed weapon"
                     ],
@@ -4691,68 +4666,10 @@
                         "Items": [
                           "chainfist"
                         ]
-                      },
-                      {
-                        "Items": [
-                          "power fist"
-                        ]
                       }
                     ]
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Power fist and combi-bolter",
-            "StatlineRef": "Chaos Terminator Squad",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "combi-bolter",
-                  "power fist"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Chainfist and combi-weapon",
-            "StatlineRef": "Chaos Terminator Squad",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "chainfist",
-                  "combi-weapon"
-                ],
-                "Options": []
-              }
-            ]
-          },
-          {
-            "Limit": {
-              "Min": 4,
-              "Max": 9
-            },
-            "ModelName": "Paired accursed weapons",
-            "StatlineRef": "Chaos Terminator Squad",
-            "Keywords": [],
-            "Wargear": [
-              {
-                "InitialWargear": [
-                  "paired accursed weapons"
-                ],
-                "Options": []
               }
             ]
           }
@@ -4841,6 +4758,10 @@
         {
           "Title": "Invulnerable Save",
           "Text": "Models in this unit have a 4+ invulnerable save."
+        },
+        {
+          "Title": "Wargear restrictions",
+          "Text": "For every 5 models in this unit, 1 Terminator can replace its combi-bolter with a heavy flamer or reaper autocannon, 1 model can replace its combi-bolter and accursed weapon with paired accursed weapons, up to 3 models can replace their accursed weapons with power fists, and 1 model can replace its accursed weapon with a chainfist. Any number of models can replace their combi-bolters with combi-weapons."
         },
         {
           "Title": "Despoilers",
@@ -5226,32 +5147,32 @@
       "Points": [
         {
           "UnitCount": 1,
-          "ModelCount": 33,
-          "Cost": 370
+          "ModelCount": 5,
+          "Cost": 185
         },
         {
           "UnitCount": 1,
-          "ModelCount": 73,
+          "ModelCount": 10,
           "Cost": 370
         },
         {
           "UnitCount": 2,
-          "ModelCount": 33,
-          "Cost": 370
+          "ModelCount": 5,
+          "Cost": 185
         },
         {
           "UnitCount": 2,
-          "ModelCount": 73,
+          "ModelCount": 10,
           "Cost": 370
         },
         {
           "UnitCount": 3,
-          "ModelCount": 33,
-          "Cost": 400
+          "ModelCount": 5,
+          "Cost": 215
         },
         {
           "UnitCount": 3,
-          "ModelCount": 73,
+          "ModelCount": 10,
           "Cost": 400
         }
       ]
