@@ -4750,9 +4750,9 @@
           "Category": "Angelic Inheritors Stratagem",
           "CPCost": 1,
           "Phase": "Fight",
-          "When": "Fight phase, when a friendly <k>ADEPTUS ASTARTES</k> unit is <b>selected to fight</b>.",
-          "Target": "That <k>ADEPTUS ASTARTES</k> unit.",
-          "Effect": "Your unit’s melee attacks: <ul><li>Have <k>[LETHAL HITS]</k>.</li><li><u>Or:</u> If your unit is a <k>Character</k> unit, have <k>[LETHAL HITS]</k>, <k>[LANCE]</k>.</li></ul>"
+          "When": "Fight phase, when a friendly ADEPTUS ASTARTES unit is selected to fight.",
+          "Target": "That ADEPTUS ASTARTES unit.",
+          "Effect": "Your unit’s melee attacks:\n- Have [LETHAL HITS].\n- Or: If your unit is a Character unit, have [LETHAL HITS], [LANCE]."
         },
         {
           "Name": "Instant of Grace",
@@ -4760,8 +4760,8 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Your Command phase.",
-          "Target": "One friendly <k>Adeptus Astartes Infantry</k> unit.",
-          "Effect": "Your unit has <k>Character</k> until the start of your next Command phase."
+          "Target": "One friendly Adeptus Astartes Infantry unit.",
+          "Effect": "Your unit has Character until the start of your next Command phase."
         },
         {
           "Name": "Unto the Burning Skies",
@@ -4769,26 +4769,26 @@
           "CPCost": 1,
           "Phase": "Fight",
           "When": "End of your opponent’s Fight phase.",
-          "Target": "One friendly <k>The Sanguinor</k>/<b>unengaged</b> <k>Adeptus Astartes Jump Pack</k> unit.",
-          "Effect": "Place your unit in <b>strategic reserves</b>."
+          "Target": "One friendly The Sanguinor/unengaged Adeptus Astartes Jump Pack unit.",
+          "Effect": "Place your unit in strategic reserves."
         },
         {
           "Name": "In the Shadow of Great Wings",
           "Category": "Angelic Inheritors Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly <k>Adeptus Astartes Character</k> unit.",
-          "Target": "That <k>Adeptus Astartes Character</k> unit.",
-          "Effect": "Your unit has:<ul><li><b>Stealth</b>.</li><li>-3\" <b>detection range</b>.</li></ul>."
+          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Character unit.",
+          "Target": "That Adeptus Astartes Character unit.",
+          "Effect": "Your unit has:\n- Stealth.\n- -3\" detection range."
         },
         {
           "Name": "Strike Now for Glory",
           "Category": "Angelic Inheritors Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your Shooting phase when a friendly <k>Adeptus Astartes</k> unit is selected to attack.",
-          "Target": "That <k>Adeptus Astartes</k> unit.",
-          "Effect": "Your unit’s ranged attacks have <k>[SUSTAINED HITS 1]</k>."
+          "When": "Your Shooting phase when a friendly Adeptus Astartes unit is selected to attack.",
+          "Target": "That Adeptus Astartes unit.",
+          "Effect": "Your unit’s ranged attacks have [SUSTAINED HITS 1]."
         },
         {
           "Name": "Measured Strategist",
@@ -4796,15 +4796,15 @@
           "CPCost": 1,
           "Phase": "Command",
           "When": "Your Command phase.",
-          "Target": "One friendly <k>Adeptus Astartes Character</k> unit.",
-          "Effect": "Select one <b>combat doctrine</b>. That <b>combat doctrine</b> is active for your unit until the start of your next Command phase."
+          "Target": "One friendly Adeptus Astartes Character unit.",
+          "Effect": "Select one combat doctrine. That combat doctrine is active for your unit until the start of your next Command phase."
         }
       ],
       "Enhancements": [
         {
           "Name": "Prescient Flash",
           "Description": "Adeptus Astartes model only. This unit has Scouts 6”.",
-          "Cost": 20,
+          "Cost": 25,
           "Features": "None",
           "RequiredUnitNames": [],
           "RequiredKeywords": [],
@@ -4829,9 +4829,7 @@
           "Cost": 20,
           "Features": "None",
           "RequiredUnitNames": [],
-          "RequiredKeywords": [
-            "Infantry"
-          ],
+          "RequiredKeywords": [],
           "RequiredOneOfKeywords": [],
           "ExcludedKeywords": [],
           "RequiredAbilities": []
@@ -4866,27 +4864,27 @@
           "Category": "Encarmine Speartip Stratagem",
           "CPCost": 1,
           "Phase": "Charge",
-          "When": "Your Charge phase, when a friendly <k>Sanguinary Guard</k> unit form your army ends a <b>charge move</b>.",
-          "Target": "That <k>Sanguinary Guard</k> unit.",
-          "Effect": "Select one enemy unit <b>engaged</b> with your unit. Roll one D6 for each model in your unit <b>engaged</b> with that enemy unit:<ul><li>For each 3+, that enemy unit suffers 1 <b>mortal wound</b>.</li></ul>"
+          "When": "Your Charge phase, when a friendly Sanguinary Guard unit from your army ends a charge move.",
+          "Target": "That Sanguinary Guard unit.",
+          "Effect": "Select one enemy unit engaged with your unit. Roll one D6 for each model in your unit engaged with that enemy unit:\n- For each 3+, that enemy unit suffers 1 mortal wound."
         },
         {
           "Name": "Inexorable Valour",
           "Category": "Encarmine Speartip Stratagem",
           "CPCost": 1,
           "Phase": "Movement",
-          "When": "Your opponent's Movement phase, when an enemy unit that was <b>engaged</b> with a friendly <k>Sanguinary Guard</k> unit ends a <b>fall-back move</b>, if that <k>Sanguinary Guard</k> unit is <b>unengaged</b>.",
-          "Target": "That <k>Sanguinary Guard</k> unit.",
-          "Effect": "Your unit can make a <b>normal move</b> of up to D3+3\"."
+          "When": "Your opponent's Movement phase, when an enemy unit that was engaged with a friendly Sanguinary Guard unit ends a fall-back move, if that Sanguinary Guard unit is unengaged.",
+          "Target": "That Sanguinary Guard unit.",
+          "Effect": "Your unit can make a normal move of up to D3+3\"."
         },
         {
           "Name": "Blinding Blurs of Vengeance",
           "Category": "Encarmine Speartip Stratagem",
           "CPCost": 1,
           "Phase": "Shooting",
-          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly <k>Sanguinary Guard</k> unit.",
-          "Target": "That <k>Sanguinary Guard</k> unit.",
-          "Effect": "Your unit has:<ul><li><b>Stealth</b>.</li><li>-3\" <b>detection range</b>.</li></ul>."
+          "When": "Your opponent's Shooting phase, when an enemy unit targets a friendly Sanguinary Guard unit.",
+          "Target": "That Sanguinary Guard unit.",
+          "Effect": "Your unit has:\n- Stealth.\n- -3\" detection range."
         }
       ],
       "Enhancements": [
